@@ -1,0 +1,1712 @@
+(define
+	(domain driverlog)
+	(:requirements :action-costs :strips)
+	(:constants
+		driver1 driver2 p1-0 p1-2 package1 package2 s0 s1 s2 truck1 truck2
+	)
+	(:predicates
+		(obj ?obj)
+		(truck ?truck)
+		(location ?loc)
+		(driver ?d)
+		(at ?obj ?loc)
+		(in ?obj1 ?obj)
+		(driving ?d ?v)
+		(link ?x ?y)
+		(path ?x ?y)
+		(empty ?v)
+		(observation0)
+		(observation1)
+		(observation2)
+		(observation3)
+		(observation4)
+		(observation5)
+		(observation6)
+		(observation7)
+		(observation8)
+		(observation9)
+	)
+	(:functions
+		(total-cost)
+	)
+	(:action load-truck_package1_truck1_s0
+		:parameters ()
+		:precondition (and
+			(at truck1 s0)
+			(at package1 s0)
+		)
+		:effect (and
+			(and
+				(not (at package1 s0))
+				(in package1 truck1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action load-truck_package1_truck1_s1
+		:parameters ()
+		:precondition (and
+			(at truck1 s1)
+			(at package1 s1)
+		)
+		:effect (and
+			(and
+				(not (at package1 s1))
+				(in package1 truck1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action load-truck_package1_truck1_s2
+		:parameters ()
+		:precondition (and
+			(at truck1 s2)
+			(at package1 s2)
+		)
+		:effect (and
+			(and
+				(not (at package1 s2))
+				(in package1 truck1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action load-truck_package1_truck2_s0
+		:parameters ()
+		:precondition (and
+			(at truck2 s0)
+			(at package1 s0)
+		)
+		:effect (and
+			(and
+				(not (at package1 s0))
+				(in package1 truck2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action load-truck_package1_truck2_s1
+		:parameters ()
+		:precondition (and
+			(at truck2 s1)
+			(at package1 s1)
+		)
+		:effect (and
+			(and
+				(not (at package1 s1))
+				(in package1 truck2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action load-truck_package1_truck2_s2
+		:parameters ()
+		:precondition (and
+			(at truck2 s2)
+			(at package1 s2)
+		)
+		:effect (and
+			(and
+				(not (at package1 s2))
+				(in package1 truck2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action load-truck_package2_truck1_s0
+		:parameters ()
+		:precondition (and
+			(at truck1 s0)
+			(at package2 s0)
+		)
+		:effect (and
+			(and
+				(not (at package2 s0))
+				(in package2 truck1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action load-truck_package2_truck1_s1
+		:parameters ()
+		:precondition (and
+			(at truck1 s1)
+			(at package2 s1)
+		)
+		:effect (and
+			(and
+				(not (at package2 s1))
+				(in package2 truck1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action load-truck_package2_truck1_s2
+		:parameters ()
+		:precondition (and
+			(at truck1 s2)
+			(at package2 s2)
+		)
+		:effect (and
+			(and
+				(not (at package2 s2))
+				(in package2 truck1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action load-truck_package2_truck2_s0
+		:parameters ()
+		:precondition (and
+			(at truck2 s0)
+			(at package2 s0)
+		)
+		:effect (and
+			(and
+				(not (at package2 s0))
+				(in package2 truck2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action load-truck_package2_truck2_s1
+		:parameters ()
+		:precondition (and
+			(at truck2 s1)
+			(at package2 s1)
+		)
+		:effect (and
+			(and
+				(not (at package2 s1))
+				(in package2 truck2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action load-truck_package2_truck2_s2
+		:parameters ()
+		:precondition (and
+			(at truck2 s2)
+			(at package2 s2)
+		)
+		:effect (and
+			(and
+				(not (at package2 s2))
+				(in package2 truck2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action unload-truck_package1_truck1_s0
+		:parameters ()
+		:precondition (and
+			(at truck1 s0)
+			(in package1 truck1)
+		)
+		:effect (and
+			(and
+				(not (in package1 truck1))
+				(at package1 s0)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action unload-truck_package1_truck1_s1
+		:parameters ()
+		:precondition (and
+			(at truck1 s1)
+			(in package1 truck1)
+		)
+		:effect (and
+			(and
+				(not (in package1 truck1))
+				(at package1 s1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action unload-truck_package1_truck1_s2
+		:parameters ()
+		:precondition (and
+			(at truck1 s2)
+			(in package1 truck1)
+		)
+		:effect (and
+			(and
+				(not (in package1 truck1))
+				(at package1 s2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action unload-truck_package1_truck2_s0
+		:parameters ()
+		:precondition (and
+			(at truck2 s0)
+			(in package1 truck2)
+		)
+		:effect (and
+			(and
+				(not (in package1 truck2))
+				(at package1 s0)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action unload-truck_package1_truck2_s1
+		:parameters ()
+		:precondition (and
+			(at truck2 s1)
+			(in package1 truck2)
+		)
+		:effect (and
+			(and
+				(not (in package1 truck2))
+				(at package1 s1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action unload-truck_package1_truck2_s2
+		:parameters ()
+		:precondition (and
+			(at truck2 s2)
+			(in package1 truck2)
+		)
+		:effect (and
+			(and
+				(not (in package1 truck2))
+				(at package1 s2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action unload-truck_package2_truck1_s0
+		:parameters ()
+		:precondition (and
+			(at truck1 s0)
+			(in package2 truck1)
+		)
+		:effect (and
+			(and
+				(not (in package2 truck1))
+				(at package2 s0)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action unload-truck_package2_truck1_s1
+		:parameters ()
+		:precondition (and
+			(at truck1 s1)
+			(in package2 truck1)
+		)
+		:effect (and
+			(and
+				(not (in package2 truck1))
+				(at package2 s1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action unload-truck_package2_truck1_s2
+		:parameters ()
+		:precondition (and
+			(at truck1 s2)
+			(in package2 truck1)
+		)
+		:effect (and
+			(and
+				(not (in package2 truck1))
+				(at package2 s2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action unload-truck_package2_truck2_s0
+		:parameters ()
+		:precondition (and
+			(at truck2 s0)
+			(in package2 truck2)
+		)
+		:effect (and
+			(and
+				(not (in package2 truck2))
+				(at package2 s0)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action unload-truck_package2_truck2_s1
+		:parameters ()
+		:precondition (and
+			(at truck2 s1)
+			(in package2 truck2)
+		)
+		:effect (and
+			(and
+				(not (in package2 truck2))
+				(at package2 s1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action unload-truck_package2_truck2_s2
+		:parameters ()
+		:precondition (and
+			(at truck2 s2)
+			(in package2 truck2)
+		)
+		:effect (and
+			(and
+				(not (in package2 truck2))
+				(at package2 s2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action board-truck_driver1_truck1_s0
+		:parameters ()
+		:precondition (and
+			(at truck1 s0)
+			(at driver1 s0)
+			(empty truck1)
+		)
+		:effect (and
+			(and
+				(not (at driver1 s0))
+				(driving driver1 truck1)
+				(not (empty truck1))
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action board-truck_driver1_truck1_s1
+		:parameters ()
+		:precondition (and
+			(at truck1 s1)
+			(at driver1 s1)
+			(empty truck1)
+		)
+		:effect (and
+			(and
+				(not (at driver1 s1))
+				(driving driver1 truck1)
+				(not (empty truck1))
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action board-truck_driver1_truck1_s2
+		:parameters ()
+		:precondition (and
+			(at truck1 s2)
+			(at driver1 s2)
+			(empty truck1)
+		)
+		:effect (and
+			(and
+				(not (at driver1 s2))
+				(driving driver1 truck1)
+				(not (empty truck1))
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action board-truck_driver1_truck2_s0
+		:parameters ()
+		:precondition (and
+			(at truck2 s0)
+			(at driver1 s0)
+			(empty truck2)
+		)
+		:effect (and
+			(and
+				(not (at driver1 s0))
+				(driving driver1 truck2)
+				(not (empty truck2))
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action board-truck_driver1_truck2_s1
+		:parameters ()
+		:precondition (and
+			(at truck2 s1)
+			(at driver1 s1)
+			(empty truck2)
+		)
+		:effect (and
+			(and
+				(not (at driver1 s1))
+				(driving driver1 truck2)
+				(not (empty truck2))
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action board-truck_driver1_truck2_s2
+		:parameters ()
+		:precondition (and
+			(at truck2 s2)
+			(at driver1 s2)
+			(empty truck2)
+		)
+		:effect (and
+			(and
+				(not (at driver1 s2))
+				(driving driver1 truck2)
+				(not (empty truck2))
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action board-truck_driver2_truck1_s0
+		:parameters ()
+		:precondition (and
+			(at truck1 s0)
+			(at driver2 s0)
+			(empty truck1)
+		)
+		:effect (and
+			(and
+				(not (at driver2 s0))
+				(driving driver2 truck1)
+				(not (empty truck1))
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action board-truck_driver2_truck1_s1
+		:parameters ()
+		:precondition (and
+			(at truck1 s1)
+			(at driver2 s1)
+			(empty truck1)
+		)
+		:effect (and
+			(and
+				(not (at driver2 s1))
+				(driving driver2 truck1)
+				(not (empty truck1))
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action board-truck_driver2_truck1_s2
+		:parameters ()
+		:precondition (and
+			(at truck1 s2)
+			(at driver2 s2)
+			(empty truck1)
+		)
+		:effect (and
+			(and
+				(not (at driver2 s2))
+				(driving driver2 truck1)
+				(not (empty truck1))
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action board-truck_driver2_truck2_s0
+		:parameters ()
+		:precondition (and
+			(at truck2 s0)
+			(at driver2 s0)
+			(empty truck2)
+		)
+		:effect (and
+			(and
+				(not (at driver2 s0))
+				(driving driver2 truck2)
+				(not (empty truck2))
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action board-truck_driver2_truck2_s1
+		:parameters ()
+		:precondition (and
+			(at truck2 s1)
+			(at driver2 s1)
+			(empty truck2)
+		)
+		:effect (and
+			(and
+				(not (at driver2 s1))
+				(driving driver2 truck2)
+				(not (empty truck2))
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action board-truck_driver2_truck2_s2
+		:parameters ()
+		:precondition (and
+			(at truck2 s2)
+			(at driver2 s2)
+			(empty truck2)
+		)
+		:effect (and
+			(and
+				(not (at driver2 s2))
+				(driving driver2 truck2)
+				(not (empty truck2))
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action disembark-truck_driver1_truck1_s0
+		:parameters ()
+		:precondition (and
+			(at truck1 s0)
+			(driving driver1 truck1)
+		)
+		:effect (and
+			(and
+				(not (driving driver1 truck1))
+				(at driver1 s0)
+				(empty truck1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action disembark-truck_driver1_truck1_s1
+		:parameters ()
+		:precondition (and
+			(at truck1 s1)
+			(driving driver1 truck1)
+		)
+		:effect (and
+			(and
+				(not (driving driver1 truck1))
+				(at driver1 s1)
+				(empty truck1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action disembark-truck_driver1_truck1_s2
+		:parameters ()
+		:precondition (and
+			(at truck1 s2)
+			(driving driver1 truck1)
+		)
+		:effect (and
+			(and
+				(not (driving driver1 truck1))
+				(at driver1 s2)
+				(empty truck1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action disembark-truck_driver1_truck2_s0
+		:parameters ()
+		:precondition (and
+			(at truck2 s0)
+			(driving driver1 truck2)
+		)
+		:effect (and
+			(and
+				(not (driving driver1 truck2))
+				(at driver1 s0)
+				(empty truck2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action disembark-truck_driver1_truck2_s1
+		:parameters ()
+		:precondition (and
+			(at truck2 s1)
+			(driving driver1 truck2)
+		)
+		:effect (and
+			(and
+				(not (driving driver1 truck2))
+				(at driver1 s1)
+				(empty truck2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action disembark-truck_driver1_truck2_s2
+		:parameters ()
+		:precondition (and
+			(at truck2 s2)
+			(driving driver1 truck2)
+		)
+		:effect (and
+			(and
+				(not (driving driver1 truck2))
+				(at driver1 s2)
+				(empty truck2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action disembark-truck_driver2_truck1_s0
+		:parameters ()
+		:precondition (and
+			(at truck1 s0)
+			(driving driver2 truck1)
+		)
+		:effect (and
+			(and
+				(not (driving driver2 truck1))
+				(at driver2 s0)
+				(empty truck1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action disembark-truck_driver2_truck1_s1
+		:parameters ()
+		:precondition (and
+			(at truck1 s1)
+			(driving driver2 truck1)
+		)
+		:effect (and
+			(and
+				(not (driving driver2 truck1))
+				(at driver2 s1)
+				(empty truck1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action disembark-truck_driver2_truck1_s2
+		:parameters ()
+		:precondition (and
+			(at truck1 s2)
+			(driving driver2 truck1)
+		)
+		:effect (and
+			(and
+				(not (driving driver2 truck1))
+				(at driver2 s2)
+				(empty truck1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action disembark-truck_driver2_truck2_s0
+		:parameters ()
+		:precondition (and
+			(at truck2 s0)
+			(driving driver2 truck2)
+		)
+		:effect (and
+			(and
+				(not (driving driver2 truck2))
+				(at driver2 s0)
+				(empty truck2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action disembark-truck_driver2_truck2_s1
+		:parameters ()
+		:precondition (and
+			(at truck2 s1)
+			(driving driver2 truck2)
+		)
+		:effect (and
+			(and
+				(not (driving driver2 truck2))
+				(at driver2 s1)
+				(empty truck2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action disembark-truck_driver2_truck2_s2
+		:parameters ()
+		:precondition (and
+			(at truck2 s2)
+			(driving driver2 truck2)
+		)
+		:effect (and
+			(and
+				(not (driving driver2 truck2))
+				(at driver2 s2)
+				(empty truck2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck1_s0_s1_driver1
+		:parameters ()
+		:precondition (and
+			(at truck1 s0)
+			(driving driver1 truck1)
+		)
+		:effect (and
+			(and
+				(not (at truck1 s0))
+				(at truck1 s1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck1_s0_s1_driver2
+		:parameters ()
+		:precondition (and
+			(at truck1 s0)
+			(driving driver2 truck1)
+		)
+		:effect (and
+			(and
+				(not (at truck1 s0))
+				(at truck1 s1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck1_s0_s2_driver1
+		:parameters ()
+		:precondition (and
+			(at truck1 s0)
+			(driving driver1 truck1)
+		)
+		:effect (and
+			(and
+				(not (at truck1 s0))
+				(at truck1 s2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck1_s0_s2_driver2
+		:parameters ()
+		:precondition (and
+			(at truck1 s0)
+			(driving driver2 truck1)
+		)
+		:effect (and
+			(and
+				(not (at truck1 s0))
+				(at truck1 s2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck1_s1_s0_driver1
+		:parameters ()
+		:precondition (and
+			(at truck1 s1)
+			(driving driver1 truck1)
+		)
+		:effect (and
+			(and
+				(not (at truck1 s1))
+				(at truck1 s0)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck1_s1_s0_driver2
+		:parameters ()
+		:precondition (and
+			(at truck1 s1)
+			(driving driver2 truck1)
+		)
+		:effect (and
+			(and
+				(not (at truck1 s1))
+				(at truck1 s0)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck1_s1_s2_driver1
+		:parameters ()
+		:precondition (and
+			(at truck1 s1)
+			(driving driver1 truck1)
+		)
+		:effect (and
+			(and
+				(not (at truck1 s1))
+				(at truck1 s2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck1_s1_s2_driver2
+		:parameters ()
+		:precondition (and
+			(at truck1 s1)
+			(driving driver2 truck1)
+		)
+		:effect (and
+			(and
+				(not (at truck1 s1))
+				(at truck1 s2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck1_s2_s0_driver1
+		:parameters ()
+		:precondition (and
+			(at truck1 s2)
+			(driving driver1 truck1)
+		)
+		:effect (and
+			(and
+				(not (at truck1 s2))
+				(at truck1 s0)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck1_s2_s0_driver2
+		:parameters ()
+		:precondition (and
+			(at truck1 s2)
+			(driving driver2 truck1)
+		)
+		:effect (and
+			(and
+				(not (at truck1 s2))
+				(at truck1 s0)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck1_s2_s1_driver1
+		:parameters ()
+		:precondition (and
+			(at truck1 s2)
+			(driving driver1 truck1)
+		)
+		:effect (and
+			(and
+				(not (at truck1 s2))
+				(at truck1 s1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck1_s2_s1_driver2
+		:parameters ()
+		:precondition (and
+			(at truck1 s2)
+			(driving driver2 truck1)
+		)
+		:effect (and
+			(and
+				(not (at truck1 s2))
+				(at truck1 s1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck2_s0_s1_driver1
+		:parameters ()
+		:precondition (and
+			(at truck2 s0)
+			(driving driver1 truck2)
+		)
+		:effect (and
+			(and
+				(not (at truck2 s0))
+				(at truck2 s1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck2_s0_s1_driver2
+		:parameters ()
+		:precondition (and
+			(at truck2 s0)
+			(driving driver2 truck2)
+		)
+		:effect (and
+			(and
+				(not (at truck2 s0))
+				(at truck2 s1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck2_s0_s2_driver1
+		:parameters ()
+		:precondition (and
+			(at truck2 s0)
+			(driving driver1 truck2)
+		)
+		:effect (and
+			(and
+				(not (at truck2 s0))
+				(at truck2 s2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck2_s0_s2_driver2
+		:parameters ()
+		:precondition (and
+			(at truck2 s0)
+			(driving driver2 truck2)
+		)
+		:effect (and
+			(and
+				(not (at truck2 s0))
+				(at truck2 s2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck2_s1_s0_driver1
+		:parameters ()
+		:precondition (and
+			(at truck2 s1)
+			(driving driver1 truck2)
+		)
+		:effect (and
+			(and
+				(not (at truck2 s1))
+				(at truck2 s0)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck2_s1_s0_driver2
+		:parameters ()
+		:precondition (and
+			(at truck2 s1)
+			(driving driver2 truck2)
+		)
+		:effect (and
+			(and
+				(not (at truck2 s1))
+				(at truck2 s0)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck2_s1_s2_driver1
+		:parameters ()
+		:precondition (and
+			(at truck2 s1)
+			(driving driver1 truck2)
+		)
+		:effect (and
+			(and
+				(not (at truck2 s1))
+				(at truck2 s2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck2_s1_s2_driver2
+		:parameters ()
+		:precondition (and
+			(at truck2 s1)
+			(driving driver2 truck2)
+		)
+		:effect (and
+			(and
+				(not (at truck2 s1))
+				(at truck2 s2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck2_s2_s0_driver1
+		:parameters ()
+		:precondition (and
+			(at truck2 s2)
+			(driving driver1 truck2)
+		)
+		:effect (and
+			(and
+				(not (at truck2 s2))
+				(at truck2 s0)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck2_s2_s0_driver2
+		:parameters ()
+		:precondition (and
+			(at truck2 s2)
+			(driving driver2 truck2)
+		)
+		:effect (and
+			(and
+				(not (at truck2 s2))
+				(at truck2 s0)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck2_s2_s1_driver1
+		:parameters ()
+		:precondition (and
+			(at truck2 s2)
+			(driving driver1 truck2)
+		)
+		:effect (and
+			(and
+				(not (at truck2 s2))
+				(at truck2 s1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action drive-truck_truck2_s2_s1_driver2
+		:parameters ()
+		:precondition (and
+			(at truck2 s2)
+			(driving driver2 truck2)
+		)
+		:effect (and
+			(and
+				(not (at truck2 s2))
+				(at truck2 s1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action walk_driver1_p1-0_s0
+		:parameters ()
+		:precondition (at driver1 p1-0)
+		:effect (and
+			(and
+				(not (at driver1 p1-0))
+				(at driver1 s0)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action walk_driver1_p1-0_s1
+		:parameters ()
+		:precondition (at driver1 p1-0)
+		:effect (and
+			(and
+				(not (at driver1 p1-0))
+				(at driver1 s1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action walk_driver1_p1-2_s1
+		:parameters ()
+		:precondition (at driver1 p1-2)
+		:effect (and
+			(and
+				(not (at driver1 p1-2))
+				(at driver1 s1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action walk_driver1_p1-2_s2
+		:parameters ()
+		:precondition (at driver1 p1-2)
+		:effect (and
+			(and
+				(not (at driver1 p1-2))
+				(at driver1 s2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action walk_driver1_s0_p1-0
+		:parameters ()
+		:precondition (at driver1 s0)
+		:effect (and
+			(and
+				(not (at driver1 s0))
+				(at driver1 p1-0)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action walk_driver1_s1_p1-0
+		:parameters ()
+		:precondition (at driver1 s1)
+		:effect (and
+			(and
+				(not (at driver1 s1))
+				(at driver1 p1-0)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action walk_driver1_s1_p1-2
+		:parameters ()
+		:precondition (at driver1 s1)
+		:effect (and
+			(and
+				(not (at driver1 s1))
+				(at driver1 p1-2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action walk_driver1_s2_p1-2
+		:parameters ()
+		:precondition (at driver1 s2)
+		:effect (and
+			(and
+				(not (at driver1 s2))
+				(at driver1 p1-2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action walk_driver2_p1-0_s0
+		:parameters ()
+		:precondition (at driver2 p1-0)
+		:effect (and
+			(and
+				(not (at driver2 p1-0))
+				(at driver2 s0)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action walk_driver2_p1-0_s1
+		:parameters ()
+		:precondition (at driver2 p1-0)
+		:effect (and
+			(and
+				(not (at driver2 p1-0))
+				(at driver2 s1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action walk_driver2_p1-2_s1
+		:parameters ()
+		:precondition (at driver2 p1-2)
+		:effect (and
+			(and
+				(not (at driver2 p1-2))
+				(at driver2 s1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action walk_driver2_p1-2_s2
+		:parameters ()
+		:precondition (at driver2 p1-2)
+		:effect (and
+			(and
+				(not (at driver2 p1-2))
+				(at driver2 s2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action walk_driver2_s0_p1-0
+		:parameters ()
+		:precondition (at driver2 s0)
+		:effect (and
+			(and
+				(not (at driver2 s0))
+				(at driver2 p1-0)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action walk_driver2_s1_p1-0
+		:parameters ()
+		:precondition (at driver2 s1)
+		:effect (and
+			(and
+				(not (at driver2 s1))
+				(at driver2 p1-0)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action walk_driver2_s1_p1-2
+		:parameters ()
+		:precondition (at driver2 s1)
+		:effect (and
+			(and
+				(not (at driver2 s1))
+				(at driver2 p1-2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action walk_driver2_s2_p1-2
+		:parameters ()
+		:precondition (at driver2 s2)
+		:effect (and
+			(and
+				(not (at driver2 s2))
+				(at driver2 p1-2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action observe0_walk_driver2_s2_p1-2
+		:parameters ()
+		:precondition (and
+			(not (observation0))
+			(at driver2 s2)
+		)
+		:effect (and
+			(and
+				(observation0)
+				(not (at driver2 s2))
+				(at driver2 p1-2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action observe1_walk_driver2_s1_p1-0
+		:parameters ()
+		:precondition (and
+			(at driver2 s1)
+			(observation0)
+			(not (observation1))
+		)
+		:effect (and
+			(and
+				(observation1)
+				(not (at driver2 s1))
+				(at driver2 p1-0)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action observe2_walk_driver2_p1-0_s0
+		:parameters ()
+		:precondition (and
+			(at driver2 p1-0)
+			(observation1)
+			(not (observation2))
+		)
+		:effect (and
+			(and
+				(observation2)
+				(not (at driver2 p1-0))
+				(at driver2 s0)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action observe3_board-truck_driver2_truck1_s0
+		:parameters ()
+		:precondition (and
+			(at truck1 s0)
+			(at driver2 s0)
+			(empty truck1)
+			(observation2)
+			(not (observation3))
+		)
+		:effect (and
+			(and
+				(observation3)
+				(not (at driver2 s0))
+				(driving driver2 truck1)
+				(not (empty truck1))
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action observe4_load-truck_package2_truck1_s0
+		:parameters ()
+		:precondition (and
+			(at truck1 s0)
+			(at package2 s0)
+			(observation3)
+			(not (observation4))
+		)
+		:effect (and
+			(and
+				(observation4)
+				(not (at package2 s0))
+				(in package2 truck1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action observe5_unload-truck_package2_truck1_s1
+		:parameters ()
+		:precondition (and
+			(at truck1 s1)
+			(in package2 truck1)
+			(observation4)
+			(not (observation5))
+		)
+		:effect (and
+			(and
+				(observation5)
+				(not (in package2 truck1))
+				(at package2 s1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action observe6_drive-truck_truck1_s1_s2_driver2
+		:parameters ()
+		:precondition (and
+			(at truck1 s1)
+			(driving driver2 truck1)
+			(observation5)
+			(not (observation6))
+		)
+		:effect (and
+			(and
+				(observation6)
+				(not (at truck1 s1))
+				(at truck1 s2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action observe7_walk_driver1_s2_p1-2
+		:parameters ()
+		:precondition (and
+			(at driver1 s2)
+			(observation6)
+			(not (observation7))
+		)
+		:effect (and
+			(and
+				(observation7)
+				(not (at driver1 s2))
+				(at driver1 p1-2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action observe8_unload-truck_package1_truck1_s2
+		:parameters ()
+		:precondition (and
+			(at truck1 s2)
+			(in package1 truck1)
+			(observation7)
+			(not (observation8))
+		)
+		:effect (and
+			(and
+				(observation8)
+				(not (in package1 truck1))
+				(at package1 s2)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+	(:action observe9_walk_driver1_p1-2_s1
+		:parameters ()
+		:precondition (and
+			(at driver1 p1-2)
+			(observation8)
+			(not (observation9))
+		)
+		:effect (and
+			(and
+				(observation9)
+				(not (at driver1 p1-2))
+				(at driver1 s1)
+			)
+			(increase
+				(total-cost)
+				1
+			)
+		)
+	)
+)
