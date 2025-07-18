@@ -1,0 +1,20 @@
+(define	(problem miconicproblem_g0)
+	(:domain miconic)
+	(:init
+		(lift-at f0)
+		(= (total-cost) 0)
+	)
+	(:goal
+		(and
+			(observation24)
+			(served p0)
+			(served p1)
+			(served p7)
+			(served p8)
+			(served p4)
+			(served p5)
+			(served p6)
+		)
+	)
+	(:metric minimize (total-cost))
+)

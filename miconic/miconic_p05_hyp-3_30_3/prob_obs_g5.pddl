@@ -1,0 +1,22 @@
+(define	(problem mixed-f28-p14-u0-v0-g0-a0-n0-a0-b0-n0-f0-r2_g5)
+	(:domain miconic)
+	(:init
+		(lift-at f0)
+		(= (total-cost) 0)
+	)
+	(:goal
+		(and
+			(observation16)
+			(served p0)
+			(served p1)
+			(served p2)
+			(served p7)
+			(served p8)
+			(served p5)
+			(served p6)
+			(served p9)
+			(served p11)
+		)
+	)
+	(:metric minimize (total-cost))
+)
