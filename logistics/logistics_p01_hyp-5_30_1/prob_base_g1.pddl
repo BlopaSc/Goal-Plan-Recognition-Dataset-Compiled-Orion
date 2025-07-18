@@ -1,0 +1,20 @@
+(define	(problem logistics-04-0_g1)
+	(:domain logistics)
+	(:init
+		(at apn1 apt2)
+		(at tru1 pos11)
+		(at tru2 pos22)
+		(at obj11 pos11)
+		(at obj12 pos12)
+		(at obj13 pos13)
+		(at obj21 pos21)
+		(at obj22 pos22)
+		(at obj23 pos23)
+	)
+	(:goal
+		(and
+			(at obj12 pos23)
+			(at obj22 pos13)
+		)
+	)
+)
