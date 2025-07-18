@@ -1,0 +1,17 @@
+(define	(problem satelliteproblem_g1)
+	(:domain satellite)
+	(:init
+		(power_avail satellite0)
+		(pointing satellite0 star4)
+		(power_avail satellite1)
+		(pointing satellite1 star0)
+	)
+	(:goal
+		(and
+			(pointing satellite0 phenomenon6)
+			(have_image star4 infrared0)
+			(have_image star3 spectrograph2)
+			(have_image phenomenon5 spectrograph2)
+		)
+	)
+)
