@@ -1,0 +1,4 @@
+(MOVE angazi_cafe tav)
+(MOVE tav watson_theater)
+(MOVE hayman_theater library)
+(MOVE library tav)

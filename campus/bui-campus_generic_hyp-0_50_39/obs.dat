@@ -1,0 +1,3 @@
+(MOVE psychology_bldg psychology_bldg)
+(MOVE psychology_bldg bank)
+(MOVE davis_theater bookmark_cafe)

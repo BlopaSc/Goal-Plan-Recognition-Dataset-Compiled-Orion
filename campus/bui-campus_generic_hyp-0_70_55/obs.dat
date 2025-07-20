@@ -1,0 +1,4 @@
+(MOVE watson_theater tav)
+(MOVE tav hayman_theater)
+(MOVE hayman_theater bookmark_cafe)
+(MOVE bookmark_cafe tav)
