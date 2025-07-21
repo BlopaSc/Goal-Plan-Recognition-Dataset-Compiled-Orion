@@ -57,252 +57,216 @@
 		:parameters ()
 		:precondition (at truck0 depot0)
 		:effect (and
-			(and
-				(not (at truck0 depot0))
-				(at truck0 depot0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck0 depot0))
+			(at truck0 depot0)
 		)
 	)
 	(:action drive_truck0_depot0_depot1
 		:parameters ()
 		:precondition (at truck0 depot0)
 		:effect (and
-			(and
-				(not (at truck0 depot0))
-				(at truck0 depot1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck0 depot0))
+			(at truck0 depot1)
 		)
 	)
 	(:action drive_truck0_depot0_distributor0
 		:parameters ()
 		:precondition (at truck0 depot0)
 		:effect (and
-			(and
-				(not (at truck0 depot0))
-				(at truck0 distributor0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck0 depot0))
+			(at truck0 distributor0)
 		)
 	)
 	(:action drive_truck0_depot1_depot0
 		:parameters ()
 		:precondition (at truck0 depot1)
 		:effect (and
-			(and
-				(not (at truck0 depot1))
-				(at truck0 depot0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck0 depot1))
+			(at truck0 depot0)
 		)
 	)
 	(:action drive_truck0_depot1_depot1
 		:parameters ()
 		:precondition (at truck0 depot1)
 		:effect (and
-			(and
-				(not (at truck0 depot1))
-				(at truck0 depot1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck0 depot1))
+			(at truck0 depot1)
 		)
 	)
 	(:action drive_truck0_depot1_distributor0
 		:parameters ()
 		:precondition (at truck0 depot1)
 		:effect (and
-			(and
-				(not (at truck0 depot1))
-				(at truck0 distributor0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck0 depot1))
+			(at truck0 distributor0)
 		)
 	)
 	(:action drive_truck0_distributor0_depot0
 		:parameters ()
 		:precondition (at truck0 distributor0)
 		:effect (and
-			(and
-				(not (at truck0 distributor0))
-				(at truck0 depot0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck0 distributor0))
+			(at truck0 depot0)
 		)
 	)
 	(:action drive_truck0_distributor0_depot1
 		:parameters ()
 		:precondition (at truck0 distributor0)
 		:effect (and
-			(and
-				(not (at truck0 distributor0))
-				(at truck0 depot1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck0 distributor0))
+			(at truck0 depot1)
 		)
 	)
 	(:action drive_truck0_distributor0_distributor0
 		:parameters ()
 		:precondition (at truck0 distributor0)
 		:effect (and
-			(and
-				(not (at truck0 distributor0))
-				(at truck0 distributor0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck0 distributor0))
+			(at truck0 distributor0)
 		)
 	)
 	(:action drive_truck1_depot0_depot0
 		:parameters ()
 		:precondition (at truck1 depot0)
 		:effect (and
-			(and
-				(not (at truck1 depot0))
-				(at truck1 depot0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 depot0))
+			(at truck1 depot0)
 		)
 	)
 	(:action drive_truck1_depot0_depot1
 		:parameters ()
 		:precondition (at truck1 depot0)
 		:effect (and
-			(and
-				(not (at truck1 depot0))
-				(at truck1 depot1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 depot0))
+			(at truck1 depot1)
 		)
 	)
 	(:action drive_truck1_depot0_distributor0
 		:parameters ()
 		:precondition (at truck1 depot0)
 		:effect (and
-			(and
-				(not (at truck1 depot0))
-				(at truck1 distributor0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 depot0))
+			(at truck1 distributor0)
 		)
 	)
 	(:action drive_truck1_depot1_depot0
 		:parameters ()
 		:precondition (at truck1 depot1)
 		:effect (and
-			(and
-				(not (at truck1 depot1))
-				(at truck1 depot0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 depot1))
+			(at truck1 depot0)
 		)
 	)
 	(:action drive_truck1_depot1_depot1
 		:parameters ()
 		:precondition (at truck1 depot1)
 		:effect (and
-			(and
-				(not (at truck1 depot1))
-				(at truck1 depot1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 depot1))
+			(at truck1 depot1)
 		)
 	)
 	(:action drive_truck1_depot1_distributor0
 		:parameters ()
 		:precondition (at truck1 depot1)
 		:effect (and
-			(and
-				(not (at truck1 depot1))
-				(at truck1 distributor0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 depot1))
+			(at truck1 distributor0)
 		)
 	)
 	(:action drive_truck1_distributor0_depot0
 		:parameters ()
 		:precondition (at truck1 distributor0)
 		:effect (and
-			(and
-				(not (at truck1 distributor0))
-				(at truck1 depot0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 distributor0))
+			(at truck1 depot0)
 		)
 	)
 	(:action drive_truck1_distributor0_depot1
 		:parameters ()
 		:precondition (at truck1 distributor0)
 		:effect (and
-			(and
-				(not (at truck1 distributor0))
-				(at truck1 depot1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 distributor0))
+			(at truck1 depot1)
 		)
 	)
 	(:action drive_truck1_distributor0_distributor0
 		:parameters ()
 		:precondition (at truck1 distributor0)
 		:effect (and
-			(and
-				(not (at truck1 distributor0))
-				(at truck1 distributor0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 distributor0))
+			(at truck1 distributor0)
 		)
 	)
 	(:action lift_hoist0_crate0_crate0_depot0
@@ -314,18 +278,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 depot0))
-				(lifting hoist0 crate0)
-				(not (clear crate0))
-				(not (available hoist0))
-				(clear crate0)
-				(not (on crate0 crate0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 depot0))
+			(lifting hoist0 crate0)
+			(not (clear crate0))
+			(not (available hoist0))
+			(clear crate0)
+			(not (on crate0 crate0))
 		)
 	)
 	(:action lift_hoist0_crate0_crate1_depot0
@@ -337,18 +299,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 depot0))
-				(lifting hoist0 crate0)
-				(not (clear crate0))
-				(not (available hoist0))
-				(clear crate1)
-				(not (on crate0 crate1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 depot0))
+			(lifting hoist0 crate0)
+			(not (clear crate0))
+			(not (available hoist0))
+			(clear crate1)
+			(not (on crate0 crate1))
 		)
 	)
 	(:action lift_hoist0_crate0_crate2_depot0
@@ -360,18 +320,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 depot0))
-				(lifting hoist0 crate0)
-				(not (clear crate0))
-				(not (available hoist0))
-				(clear crate2)
-				(not (on crate0 crate2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 depot0))
+			(lifting hoist0 crate0)
+			(not (clear crate0))
+			(not (available hoist0))
+			(clear crate2)
+			(not (on crate0 crate2))
 		)
 	)
 	(:action lift_hoist0_crate0_crate3_depot0
@@ -383,18 +341,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 depot0))
-				(lifting hoist0 crate0)
-				(not (clear crate0))
-				(not (available hoist0))
-				(clear crate3)
-				(not (on crate0 crate3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 depot0))
+			(lifting hoist0 crate0)
+			(not (clear crate0))
+			(not (available hoist0))
+			(clear crate3)
+			(not (on crate0 crate3))
 		)
 	)
 	(:action lift_hoist0_crate0_crate4_depot0
@@ -406,18 +362,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 depot0))
-				(lifting hoist0 crate0)
-				(not (clear crate0))
-				(not (available hoist0))
-				(clear crate4)
-				(not (on crate0 crate4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 depot0))
+			(lifting hoist0 crate0)
+			(not (clear crate0))
+			(not (available hoist0))
+			(clear crate4)
+			(not (on crate0 crate4))
 		)
 	)
 	(:action lift_hoist0_crate0_crate5_depot0
@@ -429,18 +383,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 depot0))
-				(lifting hoist0 crate0)
-				(not (clear crate0))
-				(not (available hoist0))
-				(clear crate5)
-				(not (on crate0 crate5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 depot0))
+			(lifting hoist0 crate0)
+			(not (clear crate0))
+			(not (available hoist0))
+			(clear crate5)
+			(not (on crate0 crate5))
 		)
 	)
 	(:action lift_hoist0_crate0_pallet0_depot0
@@ -452,18 +404,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 depot0))
-				(lifting hoist0 crate0)
-				(not (clear crate0))
-				(not (available hoist0))
-				(clear pallet0)
-				(not (on crate0 pallet0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 depot0))
+			(lifting hoist0 crate0)
+			(not (clear crate0))
+			(not (available hoist0))
+			(clear pallet0)
+			(not (on crate0 pallet0))
 		)
 	)
 	(:action lift_hoist0_crate0_pallet1_depot0
@@ -475,18 +425,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 depot0))
-				(lifting hoist0 crate0)
-				(not (clear crate0))
-				(not (available hoist0))
-				(clear pallet1)
-				(not (on crate0 pallet1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 depot0))
+			(lifting hoist0 crate0)
+			(not (clear crate0))
+			(not (available hoist0))
+			(clear pallet1)
+			(not (on crate0 pallet1))
 		)
 	)
 	(:action lift_hoist0_crate0_pallet2_depot0
@@ -498,18 +446,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 depot0))
-				(lifting hoist0 crate0)
-				(not (clear crate0))
-				(not (available hoist0))
-				(clear pallet2)
-				(not (on crate0 pallet2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 depot0))
+			(lifting hoist0 crate0)
+			(not (clear crate0))
+			(not (available hoist0))
+			(clear pallet2)
+			(not (on crate0 pallet2))
 		)
 	)
 	(:action lift_hoist0_crate1_crate0_depot0
@@ -521,18 +467,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 depot0))
-				(lifting hoist0 crate1)
-				(not (clear crate1))
-				(not (available hoist0))
-				(clear crate0)
-				(not (on crate1 crate0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 depot0))
+			(lifting hoist0 crate1)
+			(not (clear crate1))
+			(not (available hoist0))
+			(clear crate0)
+			(not (on crate1 crate0))
 		)
 	)
 	(:action lift_hoist0_crate1_crate1_depot0
@@ -544,18 +488,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 depot0))
-				(lifting hoist0 crate1)
-				(not (clear crate1))
-				(not (available hoist0))
-				(clear crate1)
-				(not (on crate1 crate1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 depot0))
+			(lifting hoist0 crate1)
+			(not (clear crate1))
+			(not (available hoist0))
+			(clear crate1)
+			(not (on crate1 crate1))
 		)
 	)
 	(:action lift_hoist0_crate1_crate2_depot0
@@ -567,18 +509,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 depot0))
-				(lifting hoist0 crate1)
-				(not (clear crate1))
-				(not (available hoist0))
-				(clear crate2)
-				(not (on crate1 crate2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 depot0))
+			(lifting hoist0 crate1)
+			(not (clear crate1))
+			(not (available hoist0))
+			(clear crate2)
+			(not (on crate1 crate2))
 		)
 	)
 	(:action lift_hoist0_crate1_crate3_depot0
@@ -590,18 +530,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 depot0))
-				(lifting hoist0 crate1)
-				(not (clear crate1))
-				(not (available hoist0))
-				(clear crate3)
-				(not (on crate1 crate3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 depot0))
+			(lifting hoist0 crate1)
+			(not (clear crate1))
+			(not (available hoist0))
+			(clear crate3)
+			(not (on crate1 crate3))
 		)
 	)
 	(:action lift_hoist0_crate1_crate4_depot0
@@ -613,18 +551,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 depot0))
-				(lifting hoist0 crate1)
-				(not (clear crate1))
-				(not (available hoist0))
-				(clear crate4)
-				(not (on crate1 crate4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 depot0))
+			(lifting hoist0 crate1)
+			(not (clear crate1))
+			(not (available hoist0))
+			(clear crate4)
+			(not (on crate1 crate4))
 		)
 	)
 	(:action lift_hoist0_crate1_crate5_depot0
@@ -636,18 +572,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 depot0))
-				(lifting hoist0 crate1)
-				(not (clear crate1))
-				(not (available hoist0))
-				(clear crate5)
-				(not (on crate1 crate5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 depot0))
+			(lifting hoist0 crate1)
+			(not (clear crate1))
+			(not (available hoist0))
+			(clear crate5)
+			(not (on crate1 crate5))
 		)
 	)
 	(:action lift_hoist0_crate1_pallet0_depot0
@@ -659,18 +593,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 depot0))
-				(lifting hoist0 crate1)
-				(not (clear crate1))
-				(not (available hoist0))
-				(clear pallet0)
-				(not (on crate1 pallet0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 depot0))
+			(lifting hoist0 crate1)
+			(not (clear crate1))
+			(not (available hoist0))
+			(clear pallet0)
+			(not (on crate1 pallet0))
 		)
 	)
 	(:action lift_hoist0_crate1_pallet1_depot0
@@ -682,18 +614,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 depot0))
-				(lifting hoist0 crate1)
-				(not (clear crate1))
-				(not (available hoist0))
-				(clear pallet1)
-				(not (on crate1 pallet1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 depot0))
+			(lifting hoist0 crate1)
+			(not (clear crate1))
+			(not (available hoist0))
+			(clear pallet1)
+			(not (on crate1 pallet1))
 		)
 	)
 	(:action lift_hoist0_crate1_pallet2_depot0
@@ -705,18 +635,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 depot0))
-				(lifting hoist0 crate1)
-				(not (clear crate1))
-				(not (available hoist0))
-				(clear pallet2)
-				(not (on crate1 pallet2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 depot0))
+			(lifting hoist0 crate1)
+			(not (clear crate1))
+			(not (available hoist0))
+			(clear pallet2)
+			(not (on crate1 pallet2))
 		)
 	)
 	(:action lift_hoist0_crate2_crate0_depot0
@@ -728,18 +656,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 depot0))
-				(lifting hoist0 crate2)
-				(not (clear crate2))
-				(not (available hoist0))
-				(clear crate0)
-				(not (on crate2 crate0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 depot0))
+			(lifting hoist0 crate2)
+			(not (clear crate2))
+			(not (available hoist0))
+			(clear crate0)
+			(not (on crate2 crate0))
 		)
 	)
 	(:action lift_hoist0_crate2_crate1_depot0
@@ -751,18 +677,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 depot0))
-				(lifting hoist0 crate2)
-				(not (clear crate2))
-				(not (available hoist0))
-				(clear crate1)
-				(not (on crate2 crate1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 depot0))
+			(lifting hoist0 crate2)
+			(not (clear crate2))
+			(not (available hoist0))
+			(clear crate1)
+			(not (on crate2 crate1))
 		)
 	)
 	(:action lift_hoist0_crate2_crate2_depot0
@@ -774,18 +698,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 depot0))
-				(lifting hoist0 crate2)
-				(not (clear crate2))
-				(not (available hoist0))
-				(clear crate2)
-				(not (on crate2 crate2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 depot0))
+			(lifting hoist0 crate2)
+			(not (clear crate2))
+			(not (available hoist0))
+			(clear crate2)
+			(not (on crate2 crate2))
 		)
 	)
 	(:action lift_hoist0_crate2_crate3_depot0
@@ -797,18 +719,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 depot0))
-				(lifting hoist0 crate2)
-				(not (clear crate2))
-				(not (available hoist0))
-				(clear crate3)
-				(not (on crate2 crate3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 depot0))
+			(lifting hoist0 crate2)
+			(not (clear crate2))
+			(not (available hoist0))
+			(clear crate3)
+			(not (on crate2 crate3))
 		)
 	)
 	(:action lift_hoist0_crate2_crate4_depot0
@@ -820,18 +740,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 depot0))
-				(lifting hoist0 crate2)
-				(not (clear crate2))
-				(not (available hoist0))
-				(clear crate4)
-				(not (on crate2 crate4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 depot0))
+			(lifting hoist0 crate2)
+			(not (clear crate2))
+			(not (available hoist0))
+			(clear crate4)
+			(not (on crate2 crate4))
 		)
 	)
 	(:action lift_hoist0_crate2_crate5_depot0
@@ -843,18 +761,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 depot0))
-				(lifting hoist0 crate2)
-				(not (clear crate2))
-				(not (available hoist0))
-				(clear crate5)
-				(not (on crate2 crate5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 depot0))
+			(lifting hoist0 crate2)
+			(not (clear crate2))
+			(not (available hoist0))
+			(clear crate5)
+			(not (on crate2 crate5))
 		)
 	)
 	(:action lift_hoist0_crate2_pallet0_depot0
@@ -866,18 +782,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 depot0))
-				(lifting hoist0 crate2)
-				(not (clear crate2))
-				(not (available hoist0))
-				(clear pallet0)
-				(not (on crate2 pallet0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 depot0))
+			(lifting hoist0 crate2)
+			(not (clear crate2))
+			(not (available hoist0))
+			(clear pallet0)
+			(not (on crate2 pallet0))
 		)
 	)
 	(:action lift_hoist0_crate2_pallet1_depot0
@@ -889,18 +803,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 depot0))
-				(lifting hoist0 crate2)
-				(not (clear crate2))
-				(not (available hoist0))
-				(clear pallet1)
-				(not (on crate2 pallet1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 depot0))
+			(lifting hoist0 crate2)
+			(not (clear crate2))
+			(not (available hoist0))
+			(clear pallet1)
+			(not (on crate2 pallet1))
 		)
 	)
 	(:action lift_hoist0_crate2_pallet2_depot0
@@ -912,18 +824,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 depot0))
-				(lifting hoist0 crate2)
-				(not (clear crate2))
-				(not (available hoist0))
-				(clear pallet2)
-				(not (on crate2 pallet2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 depot0))
+			(lifting hoist0 crate2)
+			(not (clear crate2))
+			(not (available hoist0))
+			(clear pallet2)
+			(not (on crate2 pallet2))
 		)
 	)
 	(:action lift_hoist0_crate3_crate0_depot0
@@ -935,18 +845,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 depot0))
-				(lifting hoist0 crate3)
-				(not (clear crate3))
-				(not (available hoist0))
-				(clear crate0)
-				(not (on crate3 crate0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 depot0))
+			(lifting hoist0 crate3)
+			(not (clear crate3))
+			(not (available hoist0))
+			(clear crate0)
+			(not (on crate3 crate0))
 		)
 	)
 	(:action lift_hoist0_crate3_crate1_depot0
@@ -958,18 +866,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 depot0))
-				(lifting hoist0 crate3)
-				(not (clear crate3))
-				(not (available hoist0))
-				(clear crate1)
-				(not (on crate3 crate1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 depot0))
+			(lifting hoist0 crate3)
+			(not (clear crate3))
+			(not (available hoist0))
+			(clear crate1)
+			(not (on crate3 crate1))
 		)
 	)
 	(:action lift_hoist0_crate3_crate2_depot0
@@ -981,18 +887,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 depot0))
-				(lifting hoist0 crate3)
-				(not (clear crate3))
-				(not (available hoist0))
-				(clear crate2)
-				(not (on crate3 crate2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 depot0))
+			(lifting hoist0 crate3)
+			(not (clear crate3))
+			(not (available hoist0))
+			(clear crate2)
+			(not (on crate3 crate2))
 		)
 	)
 	(:action lift_hoist0_crate3_crate3_depot0
@@ -1004,18 +908,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 depot0))
-				(lifting hoist0 crate3)
-				(not (clear crate3))
-				(not (available hoist0))
-				(clear crate3)
-				(not (on crate3 crate3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 depot0))
+			(lifting hoist0 crate3)
+			(not (clear crate3))
+			(not (available hoist0))
+			(clear crate3)
+			(not (on crate3 crate3))
 		)
 	)
 	(:action lift_hoist0_crate3_crate4_depot0
@@ -1027,18 +929,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 depot0))
-				(lifting hoist0 crate3)
-				(not (clear crate3))
-				(not (available hoist0))
-				(clear crate4)
-				(not (on crate3 crate4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 depot0))
+			(lifting hoist0 crate3)
+			(not (clear crate3))
+			(not (available hoist0))
+			(clear crate4)
+			(not (on crate3 crate4))
 		)
 	)
 	(:action lift_hoist0_crate3_crate5_depot0
@@ -1050,18 +950,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 depot0))
-				(lifting hoist0 crate3)
-				(not (clear crate3))
-				(not (available hoist0))
-				(clear crate5)
-				(not (on crate3 crate5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 depot0))
+			(lifting hoist0 crate3)
+			(not (clear crate3))
+			(not (available hoist0))
+			(clear crate5)
+			(not (on crate3 crate5))
 		)
 	)
 	(:action lift_hoist0_crate3_pallet0_depot0
@@ -1073,18 +971,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 depot0))
-				(lifting hoist0 crate3)
-				(not (clear crate3))
-				(not (available hoist0))
-				(clear pallet0)
-				(not (on crate3 pallet0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 depot0))
+			(lifting hoist0 crate3)
+			(not (clear crate3))
+			(not (available hoist0))
+			(clear pallet0)
+			(not (on crate3 pallet0))
 		)
 	)
 	(:action lift_hoist0_crate3_pallet1_depot0
@@ -1096,18 +992,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 depot0))
-				(lifting hoist0 crate3)
-				(not (clear crate3))
-				(not (available hoist0))
-				(clear pallet1)
-				(not (on crate3 pallet1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 depot0))
+			(lifting hoist0 crate3)
+			(not (clear crate3))
+			(not (available hoist0))
+			(clear pallet1)
+			(not (on crate3 pallet1))
 		)
 	)
 	(:action lift_hoist0_crate3_pallet2_depot0
@@ -1119,18 +1013,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 depot0))
-				(lifting hoist0 crate3)
-				(not (clear crate3))
-				(not (available hoist0))
-				(clear pallet2)
-				(not (on crate3 pallet2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 depot0))
+			(lifting hoist0 crate3)
+			(not (clear crate3))
+			(not (available hoist0))
+			(clear pallet2)
+			(not (on crate3 pallet2))
 		)
 	)
 	(:action lift_hoist0_crate4_crate0_depot0
@@ -1142,18 +1034,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 depot0))
-				(lifting hoist0 crate4)
-				(not (clear crate4))
-				(not (available hoist0))
-				(clear crate0)
-				(not (on crate4 crate0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 depot0))
+			(lifting hoist0 crate4)
+			(not (clear crate4))
+			(not (available hoist0))
+			(clear crate0)
+			(not (on crate4 crate0))
 		)
 	)
 	(:action lift_hoist0_crate4_crate1_depot0
@@ -1165,18 +1055,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 depot0))
-				(lifting hoist0 crate4)
-				(not (clear crate4))
-				(not (available hoist0))
-				(clear crate1)
-				(not (on crate4 crate1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 depot0))
+			(lifting hoist0 crate4)
+			(not (clear crate4))
+			(not (available hoist0))
+			(clear crate1)
+			(not (on crate4 crate1))
 		)
 	)
 	(:action lift_hoist0_crate4_crate2_depot0
@@ -1188,18 +1076,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 depot0))
-				(lifting hoist0 crate4)
-				(not (clear crate4))
-				(not (available hoist0))
-				(clear crate2)
-				(not (on crate4 crate2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 depot0))
+			(lifting hoist0 crate4)
+			(not (clear crate4))
+			(not (available hoist0))
+			(clear crate2)
+			(not (on crate4 crate2))
 		)
 	)
 	(:action lift_hoist0_crate4_crate3_depot0
@@ -1211,18 +1097,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 depot0))
-				(lifting hoist0 crate4)
-				(not (clear crate4))
-				(not (available hoist0))
-				(clear crate3)
-				(not (on crate4 crate3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 depot0))
+			(lifting hoist0 crate4)
+			(not (clear crate4))
+			(not (available hoist0))
+			(clear crate3)
+			(not (on crate4 crate3))
 		)
 	)
 	(:action lift_hoist0_crate4_crate4_depot0
@@ -1234,18 +1118,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 depot0))
-				(lifting hoist0 crate4)
-				(not (clear crate4))
-				(not (available hoist0))
-				(clear crate4)
-				(not (on crate4 crate4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 depot0))
+			(lifting hoist0 crate4)
+			(not (clear crate4))
+			(not (available hoist0))
+			(clear crate4)
+			(not (on crate4 crate4))
 		)
 	)
 	(:action lift_hoist0_crate4_crate5_depot0
@@ -1257,18 +1139,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 depot0))
-				(lifting hoist0 crate4)
-				(not (clear crate4))
-				(not (available hoist0))
-				(clear crate5)
-				(not (on crate4 crate5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 depot0))
+			(lifting hoist0 crate4)
+			(not (clear crate4))
+			(not (available hoist0))
+			(clear crate5)
+			(not (on crate4 crate5))
 		)
 	)
 	(:action lift_hoist0_crate4_pallet0_depot0
@@ -1280,18 +1160,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 depot0))
-				(lifting hoist0 crate4)
-				(not (clear crate4))
-				(not (available hoist0))
-				(clear pallet0)
-				(not (on crate4 pallet0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 depot0))
+			(lifting hoist0 crate4)
+			(not (clear crate4))
+			(not (available hoist0))
+			(clear pallet0)
+			(not (on crate4 pallet0))
 		)
 	)
 	(:action lift_hoist0_crate4_pallet1_depot0
@@ -1303,18 +1181,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 depot0))
-				(lifting hoist0 crate4)
-				(not (clear crate4))
-				(not (available hoist0))
-				(clear pallet1)
-				(not (on crate4 pallet1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 depot0))
+			(lifting hoist0 crate4)
+			(not (clear crate4))
+			(not (available hoist0))
+			(clear pallet1)
+			(not (on crate4 pallet1))
 		)
 	)
 	(:action lift_hoist0_crate4_pallet2_depot0
@@ -1326,18 +1202,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 depot0))
-				(lifting hoist0 crate4)
-				(not (clear crate4))
-				(not (available hoist0))
-				(clear pallet2)
-				(not (on crate4 pallet2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 depot0))
+			(lifting hoist0 crate4)
+			(not (clear crate4))
+			(not (available hoist0))
+			(clear pallet2)
+			(not (on crate4 pallet2))
 		)
 	)
 	(:action lift_hoist0_crate5_crate0_depot0
@@ -1349,18 +1223,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 depot0))
-				(lifting hoist0 crate5)
-				(not (clear crate5))
-				(not (available hoist0))
-				(clear crate0)
-				(not (on crate5 crate0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 depot0))
+			(lifting hoist0 crate5)
+			(not (clear crate5))
+			(not (available hoist0))
+			(clear crate0)
+			(not (on crate5 crate0))
 		)
 	)
 	(:action lift_hoist0_crate5_crate1_depot0
@@ -1372,18 +1244,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 depot0))
-				(lifting hoist0 crate5)
-				(not (clear crate5))
-				(not (available hoist0))
-				(clear crate1)
-				(not (on crate5 crate1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 depot0))
+			(lifting hoist0 crate5)
+			(not (clear crate5))
+			(not (available hoist0))
+			(clear crate1)
+			(not (on crate5 crate1))
 		)
 	)
 	(:action lift_hoist0_crate5_crate2_depot0
@@ -1395,18 +1265,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 depot0))
-				(lifting hoist0 crate5)
-				(not (clear crate5))
-				(not (available hoist0))
-				(clear crate2)
-				(not (on crate5 crate2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 depot0))
+			(lifting hoist0 crate5)
+			(not (clear crate5))
+			(not (available hoist0))
+			(clear crate2)
+			(not (on crate5 crate2))
 		)
 	)
 	(:action lift_hoist0_crate5_crate3_depot0
@@ -1418,18 +1286,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 depot0))
-				(lifting hoist0 crate5)
-				(not (clear crate5))
-				(not (available hoist0))
-				(clear crate3)
-				(not (on crate5 crate3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 depot0))
+			(lifting hoist0 crate5)
+			(not (clear crate5))
+			(not (available hoist0))
+			(clear crate3)
+			(not (on crate5 crate3))
 		)
 	)
 	(:action lift_hoist0_crate5_crate4_depot0
@@ -1441,18 +1307,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 depot0))
-				(lifting hoist0 crate5)
-				(not (clear crate5))
-				(not (available hoist0))
-				(clear crate4)
-				(not (on crate5 crate4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 depot0))
+			(lifting hoist0 crate5)
+			(not (clear crate5))
+			(not (available hoist0))
+			(clear crate4)
+			(not (on crate5 crate4))
 		)
 	)
 	(:action lift_hoist0_crate5_crate5_depot0
@@ -1464,18 +1328,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 depot0))
-				(lifting hoist0 crate5)
-				(not (clear crate5))
-				(not (available hoist0))
-				(clear crate5)
-				(not (on crate5 crate5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 depot0))
+			(lifting hoist0 crate5)
+			(not (clear crate5))
+			(not (available hoist0))
+			(clear crate5)
+			(not (on crate5 crate5))
 		)
 	)
 	(:action lift_hoist0_crate5_pallet0_depot0
@@ -1487,18 +1349,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 depot0))
-				(lifting hoist0 crate5)
-				(not (clear crate5))
-				(not (available hoist0))
-				(clear pallet0)
-				(not (on crate5 pallet0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 depot0))
+			(lifting hoist0 crate5)
+			(not (clear crate5))
+			(not (available hoist0))
+			(clear pallet0)
+			(not (on crate5 pallet0))
 		)
 	)
 	(:action lift_hoist0_crate5_pallet1_depot0
@@ -1510,18 +1370,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 depot0))
-				(lifting hoist0 crate5)
-				(not (clear crate5))
-				(not (available hoist0))
-				(clear pallet1)
-				(not (on crate5 pallet1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 depot0))
+			(lifting hoist0 crate5)
+			(not (clear crate5))
+			(not (available hoist0))
+			(clear pallet1)
+			(not (on crate5 pallet1))
 		)
 	)
 	(:action lift_hoist0_crate5_pallet2_depot0
@@ -1533,18 +1391,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 depot0))
-				(lifting hoist0 crate5)
-				(not (clear crate5))
-				(not (available hoist0))
-				(clear pallet2)
-				(not (on crate5 pallet2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 depot0))
+			(lifting hoist0 crate5)
+			(not (clear crate5))
+			(not (available hoist0))
+			(clear pallet2)
+			(not (on crate5 pallet2))
 		)
 	)
 	(:action lift_hoist1_crate0_crate0_depot1
@@ -1556,18 +1412,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 depot1))
-				(lifting hoist1 crate0)
-				(not (clear crate0))
-				(not (available hoist1))
-				(clear crate0)
-				(not (on crate0 crate0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 depot1))
+			(lifting hoist1 crate0)
+			(not (clear crate0))
+			(not (available hoist1))
+			(clear crate0)
+			(not (on crate0 crate0))
 		)
 	)
 	(:action lift_hoist1_crate0_crate1_depot1
@@ -1579,18 +1433,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 depot1))
-				(lifting hoist1 crate0)
-				(not (clear crate0))
-				(not (available hoist1))
-				(clear crate1)
-				(not (on crate0 crate1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 depot1))
+			(lifting hoist1 crate0)
+			(not (clear crate0))
+			(not (available hoist1))
+			(clear crate1)
+			(not (on crate0 crate1))
 		)
 	)
 	(:action lift_hoist1_crate0_crate2_depot1
@@ -1602,18 +1454,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 depot1))
-				(lifting hoist1 crate0)
-				(not (clear crate0))
-				(not (available hoist1))
-				(clear crate2)
-				(not (on crate0 crate2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 depot1))
+			(lifting hoist1 crate0)
+			(not (clear crate0))
+			(not (available hoist1))
+			(clear crate2)
+			(not (on crate0 crate2))
 		)
 	)
 	(:action lift_hoist1_crate0_crate3_depot1
@@ -1625,18 +1475,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 depot1))
-				(lifting hoist1 crate0)
-				(not (clear crate0))
-				(not (available hoist1))
-				(clear crate3)
-				(not (on crate0 crate3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 depot1))
+			(lifting hoist1 crate0)
+			(not (clear crate0))
+			(not (available hoist1))
+			(clear crate3)
+			(not (on crate0 crate3))
 		)
 	)
 	(:action lift_hoist1_crate0_crate4_depot1
@@ -1648,18 +1496,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 depot1))
-				(lifting hoist1 crate0)
-				(not (clear crate0))
-				(not (available hoist1))
-				(clear crate4)
-				(not (on crate0 crate4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 depot1))
+			(lifting hoist1 crate0)
+			(not (clear crate0))
+			(not (available hoist1))
+			(clear crate4)
+			(not (on crate0 crate4))
 		)
 	)
 	(:action lift_hoist1_crate0_crate5_depot1
@@ -1671,18 +1517,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 depot1))
-				(lifting hoist1 crate0)
-				(not (clear crate0))
-				(not (available hoist1))
-				(clear crate5)
-				(not (on crate0 crate5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 depot1))
+			(lifting hoist1 crate0)
+			(not (clear crate0))
+			(not (available hoist1))
+			(clear crate5)
+			(not (on crate0 crate5))
 		)
 	)
 	(:action lift_hoist1_crate0_pallet0_depot1
@@ -1694,18 +1538,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 depot1))
-				(lifting hoist1 crate0)
-				(not (clear crate0))
-				(not (available hoist1))
-				(clear pallet0)
-				(not (on crate0 pallet0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 depot1))
+			(lifting hoist1 crate0)
+			(not (clear crate0))
+			(not (available hoist1))
+			(clear pallet0)
+			(not (on crate0 pallet0))
 		)
 	)
 	(:action lift_hoist1_crate0_pallet1_depot1
@@ -1717,18 +1559,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 depot1))
-				(lifting hoist1 crate0)
-				(not (clear crate0))
-				(not (available hoist1))
-				(clear pallet1)
-				(not (on crate0 pallet1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 depot1))
+			(lifting hoist1 crate0)
+			(not (clear crate0))
+			(not (available hoist1))
+			(clear pallet1)
+			(not (on crate0 pallet1))
 		)
 	)
 	(:action lift_hoist1_crate0_pallet2_depot1
@@ -1740,18 +1580,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 depot1))
-				(lifting hoist1 crate0)
-				(not (clear crate0))
-				(not (available hoist1))
-				(clear pallet2)
-				(not (on crate0 pallet2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 depot1))
+			(lifting hoist1 crate0)
+			(not (clear crate0))
+			(not (available hoist1))
+			(clear pallet2)
+			(not (on crate0 pallet2))
 		)
 	)
 	(:action lift_hoist1_crate1_crate0_depot1
@@ -1763,18 +1601,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 depot1))
-				(lifting hoist1 crate1)
-				(not (clear crate1))
-				(not (available hoist1))
-				(clear crate0)
-				(not (on crate1 crate0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 depot1))
+			(lifting hoist1 crate1)
+			(not (clear crate1))
+			(not (available hoist1))
+			(clear crate0)
+			(not (on crate1 crate0))
 		)
 	)
 	(:action lift_hoist1_crate1_crate1_depot1
@@ -1786,18 +1622,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 depot1))
-				(lifting hoist1 crate1)
-				(not (clear crate1))
-				(not (available hoist1))
-				(clear crate1)
-				(not (on crate1 crate1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 depot1))
+			(lifting hoist1 crate1)
+			(not (clear crate1))
+			(not (available hoist1))
+			(clear crate1)
+			(not (on crate1 crate1))
 		)
 	)
 	(:action lift_hoist1_crate1_crate2_depot1
@@ -1809,18 +1643,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 depot1))
-				(lifting hoist1 crate1)
-				(not (clear crate1))
-				(not (available hoist1))
-				(clear crate2)
-				(not (on crate1 crate2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 depot1))
+			(lifting hoist1 crate1)
+			(not (clear crate1))
+			(not (available hoist1))
+			(clear crate2)
+			(not (on crate1 crate2))
 		)
 	)
 	(:action lift_hoist1_crate1_crate3_depot1
@@ -1832,18 +1664,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 depot1))
-				(lifting hoist1 crate1)
-				(not (clear crate1))
-				(not (available hoist1))
-				(clear crate3)
-				(not (on crate1 crate3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 depot1))
+			(lifting hoist1 crate1)
+			(not (clear crate1))
+			(not (available hoist1))
+			(clear crate3)
+			(not (on crate1 crate3))
 		)
 	)
 	(:action lift_hoist1_crate1_crate4_depot1
@@ -1855,18 +1685,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 depot1))
-				(lifting hoist1 crate1)
-				(not (clear crate1))
-				(not (available hoist1))
-				(clear crate4)
-				(not (on crate1 crate4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 depot1))
+			(lifting hoist1 crate1)
+			(not (clear crate1))
+			(not (available hoist1))
+			(clear crate4)
+			(not (on crate1 crate4))
 		)
 	)
 	(:action lift_hoist1_crate1_crate5_depot1
@@ -1878,18 +1706,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 depot1))
-				(lifting hoist1 crate1)
-				(not (clear crate1))
-				(not (available hoist1))
-				(clear crate5)
-				(not (on crate1 crate5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 depot1))
+			(lifting hoist1 crate1)
+			(not (clear crate1))
+			(not (available hoist1))
+			(clear crate5)
+			(not (on crate1 crate5))
 		)
 	)
 	(:action lift_hoist1_crate1_pallet0_depot1
@@ -1901,18 +1727,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 depot1))
-				(lifting hoist1 crate1)
-				(not (clear crate1))
-				(not (available hoist1))
-				(clear pallet0)
-				(not (on crate1 pallet0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 depot1))
+			(lifting hoist1 crate1)
+			(not (clear crate1))
+			(not (available hoist1))
+			(clear pallet0)
+			(not (on crate1 pallet0))
 		)
 	)
 	(:action lift_hoist1_crate1_pallet1_depot1
@@ -1924,18 +1748,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 depot1))
-				(lifting hoist1 crate1)
-				(not (clear crate1))
-				(not (available hoist1))
-				(clear pallet1)
-				(not (on crate1 pallet1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 depot1))
+			(lifting hoist1 crate1)
+			(not (clear crate1))
+			(not (available hoist1))
+			(clear pallet1)
+			(not (on crate1 pallet1))
 		)
 	)
 	(:action lift_hoist1_crate1_pallet2_depot1
@@ -1947,18 +1769,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 depot1))
-				(lifting hoist1 crate1)
-				(not (clear crate1))
-				(not (available hoist1))
-				(clear pallet2)
-				(not (on crate1 pallet2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 depot1))
+			(lifting hoist1 crate1)
+			(not (clear crate1))
+			(not (available hoist1))
+			(clear pallet2)
+			(not (on crate1 pallet2))
 		)
 	)
 	(:action lift_hoist1_crate2_crate0_depot1
@@ -1970,18 +1790,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 depot1))
-				(lifting hoist1 crate2)
-				(not (clear crate2))
-				(not (available hoist1))
-				(clear crate0)
-				(not (on crate2 crate0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 depot1))
+			(lifting hoist1 crate2)
+			(not (clear crate2))
+			(not (available hoist1))
+			(clear crate0)
+			(not (on crate2 crate0))
 		)
 	)
 	(:action lift_hoist1_crate2_crate1_depot1
@@ -1993,18 +1811,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 depot1))
-				(lifting hoist1 crate2)
-				(not (clear crate2))
-				(not (available hoist1))
-				(clear crate1)
-				(not (on crate2 crate1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 depot1))
+			(lifting hoist1 crate2)
+			(not (clear crate2))
+			(not (available hoist1))
+			(clear crate1)
+			(not (on crate2 crate1))
 		)
 	)
 	(:action lift_hoist1_crate2_crate2_depot1
@@ -2016,18 +1832,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 depot1))
-				(lifting hoist1 crate2)
-				(not (clear crate2))
-				(not (available hoist1))
-				(clear crate2)
-				(not (on crate2 crate2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 depot1))
+			(lifting hoist1 crate2)
+			(not (clear crate2))
+			(not (available hoist1))
+			(clear crate2)
+			(not (on crate2 crate2))
 		)
 	)
 	(:action lift_hoist1_crate2_crate3_depot1
@@ -2039,18 +1853,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 depot1))
-				(lifting hoist1 crate2)
-				(not (clear crate2))
-				(not (available hoist1))
-				(clear crate3)
-				(not (on crate2 crate3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 depot1))
+			(lifting hoist1 crate2)
+			(not (clear crate2))
+			(not (available hoist1))
+			(clear crate3)
+			(not (on crate2 crate3))
 		)
 	)
 	(:action lift_hoist1_crate2_crate4_depot1
@@ -2062,18 +1874,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 depot1))
-				(lifting hoist1 crate2)
-				(not (clear crate2))
-				(not (available hoist1))
-				(clear crate4)
-				(not (on crate2 crate4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 depot1))
+			(lifting hoist1 crate2)
+			(not (clear crate2))
+			(not (available hoist1))
+			(clear crate4)
+			(not (on crate2 crate4))
 		)
 	)
 	(:action lift_hoist1_crate2_crate5_depot1
@@ -2085,18 +1895,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 depot1))
-				(lifting hoist1 crate2)
-				(not (clear crate2))
-				(not (available hoist1))
-				(clear crate5)
-				(not (on crate2 crate5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 depot1))
+			(lifting hoist1 crate2)
+			(not (clear crate2))
+			(not (available hoist1))
+			(clear crate5)
+			(not (on crate2 crate5))
 		)
 	)
 	(:action lift_hoist1_crate2_pallet0_depot1
@@ -2108,18 +1916,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 depot1))
-				(lifting hoist1 crate2)
-				(not (clear crate2))
-				(not (available hoist1))
-				(clear pallet0)
-				(not (on crate2 pallet0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 depot1))
+			(lifting hoist1 crate2)
+			(not (clear crate2))
+			(not (available hoist1))
+			(clear pallet0)
+			(not (on crate2 pallet0))
 		)
 	)
 	(:action lift_hoist1_crate2_pallet1_depot1
@@ -2131,18 +1937,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 depot1))
-				(lifting hoist1 crate2)
-				(not (clear crate2))
-				(not (available hoist1))
-				(clear pallet1)
-				(not (on crate2 pallet1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 depot1))
+			(lifting hoist1 crate2)
+			(not (clear crate2))
+			(not (available hoist1))
+			(clear pallet1)
+			(not (on crate2 pallet1))
 		)
 	)
 	(:action lift_hoist1_crate2_pallet2_depot1
@@ -2154,18 +1958,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 depot1))
-				(lifting hoist1 crate2)
-				(not (clear crate2))
-				(not (available hoist1))
-				(clear pallet2)
-				(not (on crate2 pallet2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 depot1))
+			(lifting hoist1 crate2)
+			(not (clear crate2))
+			(not (available hoist1))
+			(clear pallet2)
+			(not (on crate2 pallet2))
 		)
 	)
 	(:action lift_hoist1_crate3_crate0_depot1
@@ -2177,18 +1979,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 depot1))
-				(lifting hoist1 crate3)
-				(not (clear crate3))
-				(not (available hoist1))
-				(clear crate0)
-				(not (on crate3 crate0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 depot1))
+			(lifting hoist1 crate3)
+			(not (clear crate3))
+			(not (available hoist1))
+			(clear crate0)
+			(not (on crate3 crate0))
 		)
 	)
 	(:action lift_hoist1_crate3_crate1_depot1
@@ -2200,18 +2000,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 depot1))
-				(lifting hoist1 crate3)
-				(not (clear crate3))
-				(not (available hoist1))
-				(clear crate1)
-				(not (on crate3 crate1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 depot1))
+			(lifting hoist1 crate3)
+			(not (clear crate3))
+			(not (available hoist1))
+			(clear crate1)
+			(not (on crate3 crate1))
 		)
 	)
 	(:action lift_hoist1_crate3_crate2_depot1
@@ -2223,18 +2021,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 depot1))
-				(lifting hoist1 crate3)
-				(not (clear crate3))
-				(not (available hoist1))
-				(clear crate2)
-				(not (on crate3 crate2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 depot1))
+			(lifting hoist1 crate3)
+			(not (clear crate3))
+			(not (available hoist1))
+			(clear crate2)
+			(not (on crate3 crate2))
 		)
 	)
 	(:action lift_hoist1_crate3_crate3_depot1
@@ -2246,18 +2042,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 depot1))
-				(lifting hoist1 crate3)
-				(not (clear crate3))
-				(not (available hoist1))
-				(clear crate3)
-				(not (on crate3 crate3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 depot1))
+			(lifting hoist1 crate3)
+			(not (clear crate3))
+			(not (available hoist1))
+			(clear crate3)
+			(not (on crate3 crate3))
 		)
 	)
 	(:action lift_hoist1_crate3_crate4_depot1
@@ -2269,18 +2063,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 depot1))
-				(lifting hoist1 crate3)
-				(not (clear crate3))
-				(not (available hoist1))
-				(clear crate4)
-				(not (on crate3 crate4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 depot1))
+			(lifting hoist1 crate3)
+			(not (clear crate3))
+			(not (available hoist1))
+			(clear crate4)
+			(not (on crate3 crate4))
 		)
 	)
 	(:action lift_hoist1_crate3_crate5_depot1
@@ -2292,18 +2084,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 depot1))
-				(lifting hoist1 crate3)
-				(not (clear crate3))
-				(not (available hoist1))
-				(clear crate5)
-				(not (on crate3 crate5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 depot1))
+			(lifting hoist1 crate3)
+			(not (clear crate3))
+			(not (available hoist1))
+			(clear crate5)
+			(not (on crate3 crate5))
 		)
 	)
 	(:action lift_hoist1_crate3_pallet0_depot1
@@ -2315,18 +2105,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 depot1))
-				(lifting hoist1 crate3)
-				(not (clear crate3))
-				(not (available hoist1))
-				(clear pallet0)
-				(not (on crate3 pallet0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 depot1))
+			(lifting hoist1 crate3)
+			(not (clear crate3))
+			(not (available hoist1))
+			(clear pallet0)
+			(not (on crate3 pallet0))
 		)
 	)
 	(:action lift_hoist1_crate3_pallet1_depot1
@@ -2338,18 +2126,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 depot1))
-				(lifting hoist1 crate3)
-				(not (clear crate3))
-				(not (available hoist1))
-				(clear pallet1)
-				(not (on crate3 pallet1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 depot1))
+			(lifting hoist1 crate3)
+			(not (clear crate3))
+			(not (available hoist1))
+			(clear pallet1)
+			(not (on crate3 pallet1))
 		)
 	)
 	(:action lift_hoist1_crate3_pallet2_depot1
@@ -2361,18 +2147,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 depot1))
-				(lifting hoist1 crate3)
-				(not (clear crate3))
-				(not (available hoist1))
-				(clear pallet2)
-				(not (on crate3 pallet2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 depot1))
+			(lifting hoist1 crate3)
+			(not (clear crate3))
+			(not (available hoist1))
+			(clear pallet2)
+			(not (on crate3 pallet2))
 		)
 	)
 	(:action lift_hoist1_crate4_crate0_depot1
@@ -2384,18 +2168,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 depot1))
-				(lifting hoist1 crate4)
-				(not (clear crate4))
-				(not (available hoist1))
-				(clear crate0)
-				(not (on crate4 crate0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 depot1))
+			(lifting hoist1 crate4)
+			(not (clear crate4))
+			(not (available hoist1))
+			(clear crate0)
+			(not (on crate4 crate0))
 		)
 	)
 	(:action lift_hoist1_crate4_crate1_depot1
@@ -2407,18 +2189,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 depot1))
-				(lifting hoist1 crate4)
-				(not (clear crate4))
-				(not (available hoist1))
-				(clear crate1)
-				(not (on crate4 crate1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 depot1))
+			(lifting hoist1 crate4)
+			(not (clear crate4))
+			(not (available hoist1))
+			(clear crate1)
+			(not (on crate4 crate1))
 		)
 	)
 	(:action lift_hoist1_crate4_crate2_depot1
@@ -2430,18 +2210,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 depot1))
-				(lifting hoist1 crate4)
-				(not (clear crate4))
-				(not (available hoist1))
-				(clear crate2)
-				(not (on crate4 crate2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 depot1))
+			(lifting hoist1 crate4)
+			(not (clear crate4))
+			(not (available hoist1))
+			(clear crate2)
+			(not (on crate4 crate2))
 		)
 	)
 	(:action lift_hoist1_crate4_crate3_depot1
@@ -2453,18 +2231,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 depot1))
-				(lifting hoist1 crate4)
-				(not (clear crate4))
-				(not (available hoist1))
-				(clear crate3)
-				(not (on crate4 crate3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 depot1))
+			(lifting hoist1 crate4)
+			(not (clear crate4))
+			(not (available hoist1))
+			(clear crate3)
+			(not (on crate4 crate3))
 		)
 	)
 	(:action lift_hoist1_crate4_crate4_depot1
@@ -2476,18 +2252,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 depot1))
-				(lifting hoist1 crate4)
-				(not (clear crate4))
-				(not (available hoist1))
-				(clear crate4)
-				(not (on crate4 crate4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 depot1))
+			(lifting hoist1 crate4)
+			(not (clear crate4))
+			(not (available hoist1))
+			(clear crate4)
+			(not (on crate4 crate4))
 		)
 	)
 	(:action lift_hoist1_crate4_crate5_depot1
@@ -2499,18 +2273,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 depot1))
-				(lifting hoist1 crate4)
-				(not (clear crate4))
-				(not (available hoist1))
-				(clear crate5)
-				(not (on crate4 crate5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 depot1))
+			(lifting hoist1 crate4)
+			(not (clear crate4))
+			(not (available hoist1))
+			(clear crate5)
+			(not (on crate4 crate5))
 		)
 	)
 	(:action lift_hoist1_crate4_pallet0_depot1
@@ -2522,18 +2294,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 depot1))
-				(lifting hoist1 crate4)
-				(not (clear crate4))
-				(not (available hoist1))
-				(clear pallet0)
-				(not (on crate4 pallet0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 depot1))
+			(lifting hoist1 crate4)
+			(not (clear crate4))
+			(not (available hoist1))
+			(clear pallet0)
+			(not (on crate4 pallet0))
 		)
 	)
 	(:action lift_hoist1_crate4_pallet1_depot1
@@ -2545,18 +2315,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 depot1))
-				(lifting hoist1 crate4)
-				(not (clear crate4))
-				(not (available hoist1))
-				(clear pallet1)
-				(not (on crate4 pallet1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 depot1))
+			(lifting hoist1 crate4)
+			(not (clear crate4))
+			(not (available hoist1))
+			(clear pallet1)
+			(not (on crate4 pallet1))
 		)
 	)
 	(:action lift_hoist1_crate4_pallet2_depot1
@@ -2568,18 +2336,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 depot1))
-				(lifting hoist1 crate4)
-				(not (clear crate4))
-				(not (available hoist1))
-				(clear pallet2)
-				(not (on crate4 pallet2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 depot1))
+			(lifting hoist1 crate4)
+			(not (clear crate4))
+			(not (available hoist1))
+			(clear pallet2)
+			(not (on crate4 pallet2))
 		)
 	)
 	(:action lift_hoist1_crate5_crate0_depot1
@@ -2591,18 +2357,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 depot1))
-				(lifting hoist1 crate5)
-				(not (clear crate5))
-				(not (available hoist1))
-				(clear crate0)
-				(not (on crate5 crate0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 depot1))
+			(lifting hoist1 crate5)
+			(not (clear crate5))
+			(not (available hoist1))
+			(clear crate0)
+			(not (on crate5 crate0))
 		)
 	)
 	(:action lift_hoist1_crate5_crate1_depot1
@@ -2614,18 +2378,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 depot1))
-				(lifting hoist1 crate5)
-				(not (clear crate5))
-				(not (available hoist1))
-				(clear crate1)
-				(not (on crate5 crate1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 depot1))
+			(lifting hoist1 crate5)
+			(not (clear crate5))
+			(not (available hoist1))
+			(clear crate1)
+			(not (on crate5 crate1))
 		)
 	)
 	(:action lift_hoist1_crate5_crate2_depot1
@@ -2637,18 +2399,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 depot1))
-				(lifting hoist1 crate5)
-				(not (clear crate5))
-				(not (available hoist1))
-				(clear crate2)
-				(not (on crate5 crate2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 depot1))
+			(lifting hoist1 crate5)
+			(not (clear crate5))
+			(not (available hoist1))
+			(clear crate2)
+			(not (on crate5 crate2))
 		)
 	)
 	(:action lift_hoist1_crate5_crate3_depot1
@@ -2660,18 +2420,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 depot1))
-				(lifting hoist1 crate5)
-				(not (clear crate5))
-				(not (available hoist1))
-				(clear crate3)
-				(not (on crate5 crate3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 depot1))
+			(lifting hoist1 crate5)
+			(not (clear crate5))
+			(not (available hoist1))
+			(clear crate3)
+			(not (on crate5 crate3))
 		)
 	)
 	(:action lift_hoist1_crate5_crate4_depot1
@@ -2683,18 +2441,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 depot1))
-				(lifting hoist1 crate5)
-				(not (clear crate5))
-				(not (available hoist1))
-				(clear crate4)
-				(not (on crate5 crate4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 depot1))
+			(lifting hoist1 crate5)
+			(not (clear crate5))
+			(not (available hoist1))
+			(clear crate4)
+			(not (on crate5 crate4))
 		)
 	)
 	(:action lift_hoist1_crate5_crate5_depot1
@@ -2706,18 +2462,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 depot1))
-				(lifting hoist1 crate5)
-				(not (clear crate5))
-				(not (available hoist1))
-				(clear crate5)
-				(not (on crate5 crate5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 depot1))
+			(lifting hoist1 crate5)
+			(not (clear crate5))
+			(not (available hoist1))
+			(clear crate5)
+			(not (on crate5 crate5))
 		)
 	)
 	(:action lift_hoist1_crate5_pallet0_depot1
@@ -2729,18 +2483,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 depot1))
-				(lifting hoist1 crate5)
-				(not (clear crate5))
-				(not (available hoist1))
-				(clear pallet0)
-				(not (on crate5 pallet0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 depot1))
+			(lifting hoist1 crate5)
+			(not (clear crate5))
+			(not (available hoist1))
+			(clear pallet0)
+			(not (on crate5 pallet0))
 		)
 	)
 	(:action lift_hoist1_crate5_pallet1_depot1
@@ -2752,18 +2504,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 depot1))
-				(lifting hoist1 crate5)
-				(not (clear crate5))
-				(not (available hoist1))
-				(clear pallet1)
-				(not (on crate5 pallet1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 depot1))
+			(lifting hoist1 crate5)
+			(not (clear crate5))
+			(not (available hoist1))
+			(clear pallet1)
+			(not (on crate5 pallet1))
 		)
 	)
 	(:action lift_hoist1_crate5_pallet2_depot1
@@ -2775,18 +2525,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 depot1))
-				(lifting hoist1 crate5)
-				(not (clear crate5))
-				(not (available hoist1))
-				(clear pallet2)
-				(not (on crate5 pallet2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 depot1))
+			(lifting hoist1 crate5)
+			(not (clear crate5))
+			(not (available hoist1))
+			(clear pallet2)
+			(not (on crate5 pallet2))
 		)
 	)
 	(:action lift_hoist2_crate0_crate0_distributor0
@@ -2798,18 +2546,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 distributor0))
-				(lifting hoist2 crate0)
-				(not (clear crate0))
-				(not (available hoist2))
-				(clear crate0)
-				(not (on crate0 crate0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 distributor0))
+			(lifting hoist2 crate0)
+			(not (clear crate0))
+			(not (available hoist2))
+			(clear crate0)
+			(not (on crate0 crate0))
 		)
 	)
 	(:action lift_hoist2_crate0_crate1_distributor0
@@ -2821,18 +2567,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 distributor0))
-				(lifting hoist2 crate0)
-				(not (clear crate0))
-				(not (available hoist2))
-				(clear crate1)
-				(not (on crate0 crate1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 distributor0))
+			(lifting hoist2 crate0)
+			(not (clear crate0))
+			(not (available hoist2))
+			(clear crate1)
+			(not (on crate0 crate1))
 		)
 	)
 	(:action lift_hoist2_crate0_crate2_distributor0
@@ -2844,18 +2588,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 distributor0))
-				(lifting hoist2 crate0)
-				(not (clear crate0))
-				(not (available hoist2))
-				(clear crate2)
-				(not (on crate0 crate2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 distributor0))
+			(lifting hoist2 crate0)
+			(not (clear crate0))
+			(not (available hoist2))
+			(clear crate2)
+			(not (on crate0 crate2))
 		)
 	)
 	(:action lift_hoist2_crate0_crate3_distributor0
@@ -2867,18 +2609,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 distributor0))
-				(lifting hoist2 crate0)
-				(not (clear crate0))
-				(not (available hoist2))
-				(clear crate3)
-				(not (on crate0 crate3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 distributor0))
+			(lifting hoist2 crate0)
+			(not (clear crate0))
+			(not (available hoist2))
+			(clear crate3)
+			(not (on crate0 crate3))
 		)
 	)
 	(:action lift_hoist2_crate0_crate4_distributor0
@@ -2890,18 +2630,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 distributor0))
-				(lifting hoist2 crate0)
-				(not (clear crate0))
-				(not (available hoist2))
-				(clear crate4)
-				(not (on crate0 crate4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 distributor0))
+			(lifting hoist2 crate0)
+			(not (clear crate0))
+			(not (available hoist2))
+			(clear crate4)
+			(not (on crate0 crate4))
 		)
 	)
 	(:action lift_hoist2_crate0_crate5_distributor0
@@ -2913,18 +2651,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 distributor0))
-				(lifting hoist2 crate0)
-				(not (clear crate0))
-				(not (available hoist2))
-				(clear crate5)
-				(not (on crate0 crate5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 distributor0))
+			(lifting hoist2 crate0)
+			(not (clear crate0))
+			(not (available hoist2))
+			(clear crate5)
+			(not (on crate0 crate5))
 		)
 	)
 	(:action lift_hoist2_crate0_pallet0_distributor0
@@ -2936,18 +2672,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 distributor0))
-				(lifting hoist2 crate0)
-				(not (clear crate0))
-				(not (available hoist2))
-				(clear pallet0)
-				(not (on crate0 pallet0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 distributor0))
+			(lifting hoist2 crate0)
+			(not (clear crate0))
+			(not (available hoist2))
+			(clear pallet0)
+			(not (on crate0 pallet0))
 		)
 	)
 	(:action lift_hoist2_crate0_pallet1_distributor0
@@ -2959,18 +2693,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 distributor0))
-				(lifting hoist2 crate0)
-				(not (clear crate0))
-				(not (available hoist2))
-				(clear pallet1)
-				(not (on crate0 pallet1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 distributor0))
+			(lifting hoist2 crate0)
+			(not (clear crate0))
+			(not (available hoist2))
+			(clear pallet1)
+			(not (on crate0 pallet1))
 		)
 	)
 	(:action lift_hoist2_crate0_pallet2_distributor0
@@ -2982,18 +2714,16 @@
 			(clear crate0)
 		)
 		:effect (and
-			(and
-				(not (at crate0 distributor0))
-				(lifting hoist2 crate0)
-				(not (clear crate0))
-				(not (available hoist2))
-				(clear pallet2)
-				(not (on crate0 pallet2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate0 distributor0))
+			(lifting hoist2 crate0)
+			(not (clear crate0))
+			(not (available hoist2))
+			(clear pallet2)
+			(not (on crate0 pallet2))
 		)
 	)
 	(:action lift_hoist2_crate1_crate0_distributor0
@@ -3005,18 +2735,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 distributor0))
-				(lifting hoist2 crate1)
-				(not (clear crate1))
-				(not (available hoist2))
-				(clear crate0)
-				(not (on crate1 crate0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 distributor0))
+			(lifting hoist2 crate1)
+			(not (clear crate1))
+			(not (available hoist2))
+			(clear crate0)
+			(not (on crate1 crate0))
 		)
 	)
 	(:action lift_hoist2_crate1_crate1_distributor0
@@ -3028,18 +2756,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 distributor0))
-				(lifting hoist2 crate1)
-				(not (clear crate1))
-				(not (available hoist2))
-				(clear crate1)
-				(not (on crate1 crate1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 distributor0))
+			(lifting hoist2 crate1)
+			(not (clear crate1))
+			(not (available hoist2))
+			(clear crate1)
+			(not (on crate1 crate1))
 		)
 	)
 	(:action lift_hoist2_crate1_crate2_distributor0
@@ -3051,18 +2777,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 distributor0))
-				(lifting hoist2 crate1)
-				(not (clear crate1))
-				(not (available hoist2))
-				(clear crate2)
-				(not (on crate1 crate2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 distributor0))
+			(lifting hoist2 crate1)
+			(not (clear crate1))
+			(not (available hoist2))
+			(clear crate2)
+			(not (on crate1 crate2))
 		)
 	)
 	(:action lift_hoist2_crate1_crate3_distributor0
@@ -3074,18 +2798,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 distributor0))
-				(lifting hoist2 crate1)
-				(not (clear crate1))
-				(not (available hoist2))
-				(clear crate3)
-				(not (on crate1 crate3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 distributor0))
+			(lifting hoist2 crate1)
+			(not (clear crate1))
+			(not (available hoist2))
+			(clear crate3)
+			(not (on crate1 crate3))
 		)
 	)
 	(:action lift_hoist2_crate1_crate4_distributor0
@@ -3097,18 +2819,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 distributor0))
-				(lifting hoist2 crate1)
-				(not (clear crate1))
-				(not (available hoist2))
-				(clear crate4)
-				(not (on crate1 crate4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 distributor0))
+			(lifting hoist2 crate1)
+			(not (clear crate1))
+			(not (available hoist2))
+			(clear crate4)
+			(not (on crate1 crate4))
 		)
 	)
 	(:action lift_hoist2_crate1_crate5_distributor0
@@ -3120,18 +2840,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 distributor0))
-				(lifting hoist2 crate1)
-				(not (clear crate1))
-				(not (available hoist2))
-				(clear crate5)
-				(not (on crate1 crate5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 distributor0))
+			(lifting hoist2 crate1)
+			(not (clear crate1))
+			(not (available hoist2))
+			(clear crate5)
+			(not (on crate1 crate5))
 		)
 	)
 	(:action lift_hoist2_crate1_pallet0_distributor0
@@ -3143,18 +2861,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 distributor0))
-				(lifting hoist2 crate1)
-				(not (clear crate1))
-				(not (available hoist2))
-				(clear pallet0)
-				(not (on crate1 pallet0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 distributor0))
+			(lifting hoist2 crate1)
+			(not (clear crate1))
+			(not (available hoist2))
+			(clear pallet0)
+			(not (on crate1 pallet0))
 		)
 	)
 	(:action lift_hoist2_crate1_pallet1_distributor0
@@ -3166,18 +2882,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 distributor0))
-				(lifting hoist2 crate1)
-				(not (clear crate1))
-				(not (available hoist2))
-				(clear pallet1)
-				(not (on crate1 pallet1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 distributor0))
+			(lifting hoist2 crate1)
+			(not (clear crate1))
+			(not (available hoist2))
+			(clear pallet1)
+			(not (on crate1 pallet1))
 		)
 	)
 	(:action lift_hoist2_crate1_pallet2_distributor0
@@ -3189,18 +2903,16 @@
 			(clear crate1)
 		)
 		:effect (and
-			(and
-				(not (at crate1 distributor0))
-				(lifting hoist2 crate1)
-				(not (clear crate1))
-				(not (available hoist2))
-				(clear pallet2)
-				(not (on crate1 pallet2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate1 distributor0))
+			(lifting hoist2 crate1)
+			(not (clear crate1))
+			(not (available hoist2))
+			(clear pallet2)
+			(not (on crate1 pallet2))
 		)
 	)
 	(:action lift_hoist2_crate2_crate0_distributor0
@@ -3212,18 +2924,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 distributor0))
-				(lifting hoist2 crate2)
-				(not (clear crate2))
-				(not (available hoist2))
-				(clear crate0)
-				(not (on crate2 crate0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 distributor0))
+			(lifting hoist2 crate2)
+			(not (clear crate2))
+			(not (available hoist2))
+			(clear crate0)
+			(not (on crate2 crate0))
 		)
 	)
 	(:action lift_hoist2_crate2_crate1_distributor0
@@ -3235,18 +2945,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 distributor0))
-				(lifting hoist2 crate2)
-				(not (clear crate2))
-				(not (available hoist2))
-				(clear crate1)
-				(not (on crate2 crate1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 distributor0))
+			(lifting hoist2 crate2)
+			(not (clear crate2))
+			(not (available hoist2))
+			(clear crate1)
+			(not (on crate2 crate1))
 		)
 	)
 	(:action lift_hoist2_crate2_crate2_distributor0
@@ -3258,18 +2966,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 distributor0))
-				(lifting hoist2 crate2)
-				(not (clear crate2))
-				(not (available hoist2))
-				(clear crate2)
-				(not (on crate2 crate2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 distributor0))
+			(lifting hoist2 crate2)
+			(not (clear crate2))
+			(not (available hoist2))
+			(clear crate2)
+			(not (on crate2 crate2))
 		)
 	)
 	(:action lift_hoist2_crate2_crate3_distributor0
@@ -3281,18 +2987,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 distributor0))
-				(lifting hoist2 crate2)
-				(not (clear crate2))
-				(not (available hoist2))
-				(clear crate3)
-				(not (on crate2 crate3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 distributor0))
+			(lifting hoist2 crate2)
+			(not (clear crate2))
+			(not (available hoist2))
+			(clear crate3)
+			(not (on crate2 crate3))
 		)
 	)
 	(:action lift_hoist2_crate2_crate4_distributor0
@@ -3304,18 +3008,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 distributor0))
-				(lifting hoist2 crate2)
-				(not (clear crate2))
-				(not (available hoist2))
-				(clear crate4)
-				(not (on crate2 crate4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 distributor0))
+			(lifting hoist2 crate2)
+			(not (clear crate2))
+			(not (available hoist2))
+			(clear crate4)
+			(not (on crate2 crate4))
 		)
 	)
 	(:action lift_hoist2_crate2_crate5_distributor0
@@ -3327,18 +3029,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 distributor0))
-				(lifting hoist2 crate2)
-				(not (clear crate2))
-				(not (available hoist2))
-				(clear crate5)
-				(not (on crate2 crate5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 distributor0))
+			(lifting hoist2 crate2)
+			(not (clear crate2))
+			(not (available hoist2))
+			(clear crate5)
+			(not (on crate2 crate5))
 		)
 	)
 	(:action lift_hoist2_crate2_pallet0_distributor0
@@ -3350,18 +3050,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 distributor0))
-				(lifting hoist2 crate2)
-				(not (clear crate2))
-				(not (available hoist2))
-				(clear pallet0)
-				(not (on crate2 pallet0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 distributor0))
+			(lifting hoist2 crate2)
+			(not (clear crate2))
+			(not (available hoist2))
+			(clear pallet0)
+			(not (on crate2 pallet0))
 		)
 	)
 	(:action lift_hoist2_crate2_pallet1_distributor0
@@ -3373,18 +3071,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 distributor0))
-				(lifting hoist2 crate2)
-				(not (clear crate2))
-				(not (available hoist2))
-				(clear pallet1)
-				(not (on crate2 pallet1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 distributor0))
+			(lifting hoist2 crate2)
+			(not (clear crate2))
+			(not (available hoist2))
+			(clear pallet1)
+			(not (on crate2 pallet1))
 		)
 	)
 	(:action lift_hoist2_crate2_pallet2_distributor0
@@ -3396,18 +3092,16 @@
 			(clear crate2)
 		)
 		:effect (and
-			(and
-				(not (at crate2 distributor0))
-				(lifting hoist2 crate2)
-				(not (clear crate2))
-				(not (available hoist2))
-				(clear pallet2)
-				(not (on crate2 pallet2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate2 distributor0))
+			(lifting hoist2 crate2)
+			(not (clear crate2))
+			(not (available hoist2))
+			(clear pallet2)
+			(not (on crate2 pallet2))
 		)
 	)
 	(:action lift_hoist2_crate3_crate0_distributor0
@@ -3419,18 +3113,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 distributor0))
-				(lifting hoist2 crate3)
-				(not (clear crate3))
-				(not (available hoist2))
-				(clear crate0)
-				(not (on crate3 crate0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 distributor0))
+			(lifting hoist2 crate3)
+			(not (clear crate3))
+			(not (available hoist2))
+			(clear crate0)
+			(not (on crate3 crate0))
 		)
 	)
 	(:action lift_hoist2_crate3_crate1_distributor0
@@ -3442,18 +3134,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 distributor0))
-				(lifting hoist2 crate3)
-				(not (clear crate3))
-				(not (available hoist2))
-				(clear crate1)
-				(not (on crate3 crate1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 distributor0))
+			(lifting hoist2 crate3)
+			(not (clear crate3))
+			(not (available hoist2))
+			(clear crate1)
+			(not (on crate3 crate1))
 		)
 	)
 	(:action lift_hoist2_crate3_crate2_distributor0
@@ -3465,18 +3155,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 distributor0))
-				(lifting hoist2 crate3)
-				(not (clear crate3))
-				(not (available hoist2))
-				(clear crate2)
-				(not (on crate3 crate2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 distributor0))
+			(lifting hoist2 crate3)
+			(not (clear crate3))
+			(not (available hoist2))
+			(clear crate2)
+			(not (on crate3 crate2))
 		)
 	)
 	(:action lift_hoist2_crate3_crate3_distributor0
@@ -3488,18 +3176,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 distributor0))
-				(lifting hoist2 crate3)
-				(not (clear crate3))
-				(not (available hoist2))
-				(clear crate3)
-				(not (on crate3 crate3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 distributor0))
+			(lifting hoist2 crate3)
+			(not (clear crate3))
+			(not (available hoist2))
+			(clear crate3)
+			(not (on crate3 crate3))
 		)
 	)
 	(:action lift_hoist2_crate3_crate4_distributor0
@@ -3511,18 +3197,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 distributor0))
-				(lifting hoist2 crate3)
-				(not (clear crate3))
-				(not (available hoist2))
-				(clear crate4)
-				(not (on crate3 crate4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 distributor0))
+			(lifting hoist2 crate3)
+			(not (clear crate3))
+			(not (available hoist2))
+			(clear crate4)
+			(not (on crate3 crate4))
 		)
 	)
 	(:action lift_hoist2_crate3_crate5_distributor0
@@ -3534,18 +3218,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 distributor0))
-				(lifting hoist2 crate3)
-				(not (clear crate3))
-				(not (available hoist2))
-				(clear crate5)
-				(not (on crate3 crate5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 distributor0))
+			(lifting hoist2 crate3)
+			(not (clear crate3))
+			(not (available hoist2))
+			(clear crate5)
+			(not (on crate3 crate5))
 		)
 	)
 	(:action lift_hoist2_crate3_pallet0_distributor0
@@ -3557,18 +3239,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 distributor0))
-				(lifting hoist2 crate3)
-				(not (clear crate3))
-				(not (available hoist2))
-				(clear pallet0)
-				(not (on crate3 pallet0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 distributor0))
+			(lifting hoist2 crate3)
+			(not (clear crate3))
+			(not (available hoist2))
+			(clear pallet0)
+			(not (on crate3 pallet0))
 		)
 	)
 	(:action lift_hoist2_crate3_pallet1_distributor0
@@ -3580,18 +3260,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 distributor0))
-				(lifting hoist2 crate3)
-				(not (clear crate3))
-				(not (available hoist2))
-				(clear pallet1)
-				(not (on crate3 pallet1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 distributor0))
+			(lifting hoist2 crate3)
+			(not (clear crate3))
+			(not (available hoist2))
+			(clear pallet1)
+			(not (on crate3 pallet1))
 		)
 	)
 	(:action lift_hoist2_crate3_pallet2_distributor0
@@ -3603,18 +3281,16 @@
 			(clear crate3)
 		)
 		:effect (and
-			(and
-				(not (at crate3 distributor0))
-				(lifting hoist2 crate3)
-				(not (clear crate3))
-				(not (available hoist2))
-				(clear pallet2)
-				(not (on crate3 pallet2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate3 distributor0))
+			(lifting hoist2 crate3)
+			(not (clear crate3))
+			(not (available hoist2))
+			(clear pallet2)
+			(not (on crate3 pallet2))
 		)
 	)
 	(:action lift_hoist2_crate4_crate0_distributor0
@@ -3626,18 +3302,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 distributor0))
-				(lifting hoist2 crate4)
-				(not (clear crate4))
-				(not (available hoist2))
-				(clear crate0)
-				(not (on crate4 crate0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 distributor0))
+			(lifting hoist2 crate4)
+			(not (clear crate4))
+			(not (available hoist2))
+			(clear crate0)
+			(not (on crate4 crate0))
 		)
 	)
 	(:action lift_hoist2_crate4_crate1_distributor0
@@ -3649,18 +3323,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 distributor0))
-				(lifting hoist2 crate4)
-				(not (clear crate4))
-				(not (available hoist2))
-				(clear crate1)
-				(not (on crate4 crate1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 distributor0))
+			(lifting hoist2 crate4)
+			(not (clear crate4))
+			(not (available hoist2))
+			(clear crate1)
+			(not (on crate4 crate1))
 		)
 	)
 	(:action lift_hoist2_crate4_crate2_distributor0
@@ -3672,18 +3344,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 distributor0))
-				(lifting hoist2 crate4)
-				(not (clear crate4))
-				(not (available hoist2))
-				(clear crate2)
-				(not (on crate4 crate2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 distributor0))
+			(lifting hoist2 crate4)
+			(not (clear crate4))
+			(not (available hoist2))
+			(clear crate2)
+			(not (on crate4 crate2))
 		)
 	)
 	(:action lift_hoist2_crate4_crate3_distributor0
@@ -3695,18 +3365,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 distributor0))
-				(lifting hoist2 crate4)
-				(not (clear crate4))
-				(not (available hoist2))
-				(clear crate3)
-				(not (on crate4 crate3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 distributor0))
+			(lifting hoist2 crate4)
+			(not (clear crate4))
+			(not (available hoist2))
+			(clear crate3)
+			(not (on crate4 crate3))
 		)
 	)
 	(:action lift_hoist2_crate4_crate4_distributor0
@@ -3718,18 +3386,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 distributor0))
-				(lifting hoist2 crate4)
-				(not (clear crate4))
-				(not (available hoist2))
-				(clear crate4)
-				(not (on crate4 crate4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 distributor0))
+			(lifting hoist2 crate4)
+			(not (clear crate4))
+			(not (available hoist2))
+			(clear crate4)
+			(not (on crate4 crate4))
 		)
 	)
 	(:action lift_hoist2_crate4_crate5_distributor0
@@ -3741,18 +3407,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 distributor0))
-				(lifting hoist2 crate4)
-				(not (clear crate4))
-				(not (available hoist2))
-				(clear crate5)
-				(not (on crate4 crate5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 distributor0))
+			(lifting hoist2 crate4)
+			(not (clear crate4))
+			(not (available hoist2))
+			(clear crate5)
+			(not (on crate4 crate5))
 		)
 	)
 	(:action lift_hoist2_crate4_pallet0_distributor0
@@ -3764,18 +3428,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 distributor0))
-				(lifting hoist2 crate4)
-				(not (clear crate4))
-				(not (available hoist2))
-				(clear pallet0)
-				(not (on crate4 pallet0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 distributor0))
+			(lifting hoist2 crate4)
+			(not (clear crate4))
+			(not (available hoist2))
+			(clear pallet0)
+			(not (on crate4 pallet0))
 		)
 	)
 	(:action lift_hoist2_crate4_pallet1_distributor0
@@ -3787,18 +3449,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 distributor0))
-				(lifting hoist2 crate4)
-				(not (clear crate4))
-				(not (available hoist2))
-				(clear pallet1)
-				(not (on crate4 pallet1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 distributor0))
+			(lifting hoist2 crate4)
+			(not (clear crate4))
+			(not (available hoist2))
+			(clear pallet1)
+			(not (on crate4 pallet1))
 		)
 	)
 	(:action lift_hoist2_crate4_pallet2_distributor0
@@ -3810,18 +3470,16 @@
 			(clear crate4)
 		)
 		:effect (and
-			(and
-				(not (at crate4 distributor0))
-				(lifting hoist2 crate4)
-				(not (clear crate4))
-				(not (available hoist2))
-				(clear pallet2)
-				(not (on crate4 pallet2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate4 distributor0))
+			(lifting hoist2 crate4)
+			(not (clear crate4))
+			(not (available hoist2))
+			(clear pallet2)
+			(not (on crate4 pallet2))
 		)
 	)
 	(:action lift_hoist2_crate5_crate0_distributor0
@@ -3833,18 +3491,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 distributor0))
-				(lifting hoist2 crate5)
-				(not (clear crate5))
-				(not (available hoist2))
-				(clear crate0)
-				(not (on crate5 crate0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 distributor0))
+			(lifting hoist2 crate5)
+			(not (clear crate5))
+			(not (available hoist2))
+			(clear crate0)
+			(not (on crate5 crate0))
 		)
 	)
 	(:action lift_hoist2_crate5_crate1_distributor0
@@ -3856,18 +3512,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 distributor0))
-				(lifting hoist2 crate5)
-				(not (clear crate5))
-				(not (available hoist2))
-				(clear crate1)
-				(not (on crate5 crate1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 distributor0))
+			(lifting hoist2 crate5)
+			(not (clear crate5))
+			(not (available hoist2))
+			(clear crate1)
+			(not (on crate5 crate1))
 		)
 	)
 	(:action lift_hoist2_crate5_crate2_distributor0
@@ -3879,18 +3533,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 distributor0))
-				(lifting hoist2 crate5)
-				(not (clear crate5))
-				(not (available hoist2))
-				(clear crate2)
-				(not (on crate5 crate2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 distributor0))
+			(lifting hoist2 crate5)
+			(not (clear crate5))
+			(not (available hoist2))
+			(clear crate2)
+			(not (on crate5 crate2))
 		)
 	)
 	(:action lift_hoist2_crate5_crate3_distributor0
@@ -3902,18 +3554,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 distributor0))
-				(lifting hoist2 crate5)
-				(not (clear crate5))
-				(not (available hoist2))
-				(clear crate3)
-				(not (on crate5 crate3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 distributor0))
+			(lifting hoist2 crate5)
+			(not (clear crate5))
+			(not (available hoist2))
+			(clear crate3)
+			(not (on crate5 crate3))
 		)
 	)
 	(:action lift_hoist2_crate5_crate4_distributor0
@@ -3925,18 +3575,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 distributor0))
-				(lifting hoist2 crate5)
-				(not (clear crate5))
-				(not (available hoist2))
-				(clear crate4)
-				(not (on crate5 crate4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 distributor0))
+			(lifting hoist2 crate5)
+			(not (clear crate5))
+			(not (available hoist2))
+			(clear crate4)
+			(not (on crate5 crate4))
 		)
 	)
 	(:action lift_hoist2_crate5_crate5_distributor0
@@ -3948,18 +3596,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 distributor0))
-				(lifting hoist2 crate5)
-				(not (clear crate5))
-				(not (available hoist2))
-				(clear crate5)
-				(not (on crate5 crate5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 distributor0))
+			(lifting hoist2 crate5)
+			(not (clear crate5))
+			(not (available hoist2))
+			(clear crate5)
+			(not (on crate5 crate5))
 		)
 	)
 	(:action lift_hoist2_crate5_pallet0_distributor0
@@ -3971,18 +3617,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 distributor0))
-				(lifting hoist2 crate5)
-				(not (clear crate5))
-				(not (available hoist2))
-				(clear pallet0)
-				(not (on crate5 pallet0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 distributor0))
+			(lifting hoist2 crate5)
+			(not (clear crate5))
+			(not (available hoist2))
+			(clear pallet0)
+			(not (on crate5 pallet0))
 		)
 	)
 	(:action lift_hoist2_crate5_pallet1_distributor0
@@ -3994,18 +3638,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 distributor0))
-				(lifting hoist2 crate5)
-				(not (clear crate5))
-				(not (available hoist2))
-				(clear pallet1)
-				(not (on crate5 pallet1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 distributor0))
+			(lifting hoist2 crate5)
+			(not (clear crate5))
+			(not (available hoist2))
+			(clear pallet1)
+			(not (on crate5 pallet1))
 		)
 	)
 	(:action lift_hoist2_crate5_pallet2_distributor0
@@ -4017,18 +3659,16 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(not (at crate5 distributor0))
-				(lifting hoist2 crate5)
-				(not (clear crate5))
-				(not (available hoist2))
-				(clear pallet2)
-				(not (on crate5 pallet2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at crate5 distributor0))
+			(lifting hoist2 crate5)
+			(not (clear crate5))
+			(not (available hoist2))
+			(clear pallet2)
+			(not (on crate5 pallet2))
 		)
 	)
 	(:action drop_hoist0_crate0_crate0_depot0
@@ -4039,18 +3679,16 @@
 			(lifting hoist0 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate0))
-				(at crate0 depot0)
-				(not (clear crate0))
-				(clear crate0)
-				(on crate0 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate0))
+			(at crate0 depot0)
+			(not (clear crate0))
+			(clear crate0)
+			(on crate0 crate0)
 		)
 	)
 	(:action drop_hoist0_crate0_crate1_depot0
@@ -4061,18 +3699,16 @@
 			(lifting hoist0 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate0))
-				(at crate0 depot0)
-				(not (clear crate1))
-				(clear crate0)
-				(on crate0 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate0))
+			(at crate0 depot0)
+			(not (clear crate1))
+			(clear crate0)
+			(on crate0 crate1)
 		)
 	)
 	(:action drop_hoist0_crate0_crate2_depot0
@@ -4083,18 +3719,16 @@
 			(lifting hoist0 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate0))
-				(at crate0 depot0)
-				(not (clear crate2))
-				(clear crate0)
-				(on crate0 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate0))
+			(at crate0 depot0)
+			(not (clear crate2))
+			(clear crate0)
+			(on crate0 crate2)
 		)
 	)
 	(:action drop_hoist0_crate0_crate3_depot0
@@ -4105,18 +3739,16 @@
 			(lifting hoist0 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate0))
-				(at crate0 depot0)
-				(not (clear crate3))
-				(clear crate0)
-				(on crate0 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate0))
+			(at crate0 depot0)
+			(not (clear crate3))
+			(clear crate0)
+			(on crate0 crate3)
 		)
 	)
 	(:action drop_hoist0_crate0_crate4_depot0
@@ -4127,18 +3759,16 @@
 			(lifting hoist0 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate0))
-				(at crate0 depot0)
-				(not (clear crate4))
-				(clear crate0)
-				(on crate0 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate0))
+			(at crate0 depot0)
+			(not (clear crate4))
+			(clear crate0)
+			(on crate0 crate4)
 		)
 	)
 	(:action drop_hoist0_crate0_crate5_depot0
@@ -4149,18 +3779,16 @@
 			(lifting hoist0 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate0))
-				(at crate0 depot0)
-				(not (clear crate5))
-				(clear crate0)
-				(on crate0 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate0))
+			(at crate0 depot0)
+			(not (clear crate5))
+			(clear crate0)
+			(on crate0 crate5)
 		)
 	)
 	(:action drop_hoist0_crate0_pallet0_depot0
@@ -4170,18 +3798,16 @@
 			(lifting hoist0 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate0))
-				(at crate0 depot0)
-				(not (clear pallet0))
-				(clear crate0)
-				(on crate0 pallet0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate0))
+			(at crate0 depot0)
+			(not (clear pallet0))
+			(clear crate0)
+			(on crate0 pallet0)
 		)
 	)
 	(:action drop_hoist0_crate1_crate0_depot0
@@ -4192,18 +3818,16 @@
 			(lifting hoist0 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate1))
-				(at crate1 depot0)
-				(not (clear crate0))
-				(clear crate1)
-				(on crate1 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate1))
+			(at crate1 depot0)
+			(not (clear crate0))
+			(clear crate1)
+			(on crate1 crate0)
 		)
 	)
 	(:action drop_hoist0_crate1_crate1_depot0
@@ -4214,18 +3838,16 @@
 			(lifting hoist0 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate1))
-				(at crate1 depot0)
-				(not (clear crate1))
-				(clear crate1)
-				(on crate1 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate1))
+			(at crate1 depot0)
+			(not (clear crate1))
+			(clear crate1)
+			(on crate1 crate1)
 		)
 	)
 	(:action drop_hoist0_crate1_crate2_depot0
@@ -4236,18 +3858,16 @@
 			(lifting hoist0 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate1))
-				(at crate1 depot0)
-				(not (clear crate2))
-				(clear crate1)
-				(on crate1 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate1))
+			(at crate1 depot0)
+			(not (clear crate2))
+			(clear crate1)
+			(on crate1 crate2)
 		)
 	)
 	(:action drop_hoist0_crate1_crate3_depot0
@@ -4258,18 +3878,16 @@
 			(lifting hoist0 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate1))
-				(at crate1 depot0)
-				(not (clear crate3))
-				(clear crate1)
-				(on crate1 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate1))
+			(at crate1 depot0)
+			(not (clear crate3))
+			(clear crate1)
+			(on crate1 crate3)
 		)
 	)
 	(:action drop_hoist0_crate1_crate4_depot0
@@ -4280,18 +3898,16 @@
 			(lifting hoist0 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate1))
-				(at crate1 depot0)
-				(not (clear crate4))
-				(clear crate1)
-				(on crate1 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate1))
+			(at crate1 depot0)
+			(not (clear crate4))
+			(clear crate1)
+			(on crate1 crate4)
 		)
 	)
 	(:action drop_hoist0_crate1_crate5_depot0
@@ -4302,18 +3918,16 @@
 			(lifting hoist0 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate1))
-				(at crate1 depot0)
-				(not (clear crate5))
-				(clear crate1)
-				(on crate1 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate1))
+			(at crate1 depot0)
+			(not (clear crate5))
+			(clear crate1)
+			(on crate1 crate5)
 		)
 	)
 	(:action drop_hoist0_crate1_pallet0_depot0
@@ -4323,18 +3937,16 @@
 			(lifting hoist0 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate1))
-				(at crate1 depot0)
-				(not (clear pallet0))
-				(clear crate1)
-				(on crate1 pallet0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate1))
+			(at crate1 depot0)
+			(not (clear pallet0))
+			(clear crate1)
+			(on crate1 pallet0)
 		)
 	)
 	(:action drop_hoist0_crate2_crate0_depot0
@@ -4345,18 +3957,16 @@
 			(lifting hoist0 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate2))
-				(at crate2 depot0)
-				(not (clear crate0))
-				(clear crate2)
-				(on crate2 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate2))
+			(at crate2 depot0)
+			(not (clear crate0))
+			(clear crate2)
+			(on crate2 crate0)
 		)
 	)
 	(:action drop_hoist0_crate2_crate1_depot0
@@ -4367,18 +3977,16 @@
 			(lifting hoist0 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate2))
-				(at crate2 depot0)
-				(not (clear crate1))
-				(clear crate2)
-				(on crate2 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate2))
+			(at crate2 depot0)
+			(not (clear crate1))
+			(clear crate2)
+			(on crate2 crate1)
 		)
 	)
 	(:action drop_hoist0_crate2_crate2_depot0
@@ -4389,18 +3997,16 @@
 			(lifting hoist0 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate2))
-				(at crate2 depot0)
-				(not (clear crate2))
-				(clear crate2)
-				(on crate2 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate2))
+			(at crate2 depot0)
+			(not (clear crate2))
+			(clear crate2)
+			(on crate2 crate2)
 		)
 	)
 	(:action drop_hoist0_crate2_crate3_depot0
@@ -4411,18 +4017,16 @@
 			(lifting hoist0 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate2))
-				(at crate2 depot0)
-				(not (clear crate3))
-				(clear crate2)
-				(on crate2 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate2))
+			(at crate2 depot0)
+			(not (clear crate3))
+			(clear crate2)
+			(on crate2 crate3)
 		)
 	)
 	(:action drop_hoist0_crate2_crate4_depot0
@@ -4433,18 +4037,16 @@
 			(lifting hoist0 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate2))
-				(at crate2 depot0)
-				(not (clear crate4))
-				(clear crate2)
-				(on crate2 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate2))
+			(at crate2 depot0)
+			(not (clear crate4))
+			(clear crate2)
+			(on crate2 crate4)
 		)
 	)
 	(:action drop_hoist0_crate2_crate5_depot0
@@ -4455,18 +4057,16 @@
 			(lifting hoist0 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate2))
-				(at crate2 depot0)
-				(not (clear crate5))
-				(clear crate2)
-				(on crate2 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate2))
+			(at crate2 depot0)
+			(not (clear crate5))
+			(clear crate2)
+			(on crate2 crate5)
 		)
 	)
 	(:action drop_hoist0_crate2_pallet0_depot0
@@ -4476,18 +4076,16 @@
 			(lifting hoist0 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate2))
-				(at crate2 depot0)
-				(not (clear pallet0))
-				(clear crate2)
-				(on crate2 pallet0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate2))
+			(at crate2 depot0)
+			(not (clear pallet0))
+			(clear crate2)
+			(on crate2 pallet0)
 		)
 	)
 	(:action drop_hoist0_crate3_crate0_depot0
@@ -4498,18 +4096,16 @@
 			(lifting hoist0 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate3))
-				(at crate3 depot0)
-				(not (clear crate0))
-				(clear crate3)
-				(on crate3 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate3))
+			(at crate3 depot0)
+			(not (clear crate0))
+			(clear crate3)
+			(on crate3 crate0)
 		)
 	)
 	(:action drop_hoist0_crate3_crate1_depot0
@@ -4520,18 +4116,16 @@
 			(lifting hoist0 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate3))
-				(at crate3 depot0)
-				(not (clear crate1))
-				(clear crate3)
-				(on crate3 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate3))
+			(at crate3 depot0)
+			(not (clear crate1))
+			(clear crate3)
+			(on crate3 crate1)
 		)
 	)
 	(:action drop_hoist0_crate3_crate2_depot0
@@ -4542,18 +4136,16 @@
 			(lifting hoist0 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate3))
-				(at crate3 depot0)
-				(not (clear crate2))
-				(clear crate3)
-				(on crate3 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate3))
+			(at crate3 depot0)
+			(not (clear crate2))
+			(clear crate3)
+			(on crate3 crate2)
 		)
 	)
 	(:action drop_hoist0_crate3_crate3_depot0
@@ -4564,18 +4156,16 @@
 			(lifting hoist0 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate3))
-				(at crate3 depot0)
-				(not (clear crate3))
-				(clear crate3)
-				(on crate3 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate3))
+			(at crate3 depot0)
+			(not (clear crate3))
+			(clear crate3)
+			(on crate3 crate3)
 		)
 	)
 	(:action drop_hoist0_crate3_crate4_depot0
@@ -4586,18 +4176,16 @@
 			(lifting hoist0 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate3))
-				(at crate3 depot0)
-				(not (clear crate4))
-				(clear crate3)
-				(on crate3 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate3))
+			(at crate3 depot0)
+			(not (clear crate4))
+			(clear crate3)
+			(on crate3 crate4)
 		)
 	)
 	(:action drop_hoist0_crate3_crate5_depot0
@@ -4608,18 +4196,16 @@
 			(lifting hoist0 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate3))
-				(at crate3 depot0)
-				(not (clear crate5))
-				(clear crate3)
-				(on crate3 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate3))
+			(at crate3 depot0)
+			(not (clear crate5))
+			(clear crate3)
+			(on crate3 crate5)
 		)
 	)
 	(:action drop_hoist0_crate3_pallet0_depot0
@@ -4629,18 +4215,16 @@
 			(lifting hoist0 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate3))
-				(at crate3 depot0)
-				(not (clear pallet0))
-				(clear crate3)
-				(on crate3 pallet0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate3))
+			(at crate3 depot0)
+			(not (clear pallet0))
+			(clear crate3)
+			(on crate3 pallet0)
 		)
 	)
 	(:action drop_hoist0_crate4_crate0_depot0
@@ -4651,18 +4235,16 @@
 			(lifting hoist0 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate4))
-				(at crate4 depot0)
-				(not (clear crate0))
-				(clear crate4)
-				(on crate4 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate4))
+			(at crate4 depot0)
+			(not (clear crate0))
+			(clear crate4)
+			(on crate4 crate0)
 		)
 	)
 	(:action drop_hoist0_crate4_crate1_depot0
@@ -4673,18 +4255,16 @@
 			(lifting hoist0 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate4))
-				(at crate4 depot0)
-				(not (clear crate1))
-				(clear crate4)
-				(on crate4 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate4))
+			(at crate4 depot0)
+			(not (clear crate1))
+			(clear crate4)
+			(on crate4 crate1)
 		)
 	)
 	(:action drop_hoist0_crate4_crate2_depot0
@@ -4695,18 +4275,16 @@
 			(lifting hoist0 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate4))
-				(at crate4 depot0)
-				(not (clear crate2))
-				(clear crate4)
-				(on crate4 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate4))
+			(at crate4 depot0)
+			(not (clear crate2))
+			(clear crate4)
+			(on crate4 crate2)
 		)
 	)
 	(:action drop_hoist0_crate4_crate3_depot0
@@ -4717,18 +4295,16 @@
 			(lifting hoist0 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate4))
-				(at crate4 depot0)
-				(not (clear crate3))
-				(clear crate4)
-				(on crate4 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate4))
+			(at crate4 depot0)
+			(not (clear crate3))
+			(clear crate4)
+			(on crate4 crate3)
 		)
 	)
 	(:action drop_hoist0_crate4_crate4_depot0
@@ -4739,18 +4315,16 @@
 			(lifting hoist0 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate4))
-				(at crate4 depot0)
-				(not (clear crate4))
-				(clear crate4)
-				(on crate4 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate4))
+			(at crate4 depot0)
+			(not (clear crate4))
+			(clear crate4)
+			(on crate4 crate4)
 		)
 	)
 	(:action drop_hoist0_crate4_crate5_depot0
@@ -4761,18 +4335,16 @@
 			(lifting hoist0 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate4))
-				(at crate4 depot0)
-				(not (clear crate5))
-				(clear crate4)
-				(on crate4 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate4))
+			(at crate4 depot0)
+			(not (clear crate5))
+			(clear crate4)
+			(on crate4 crate5)
 		)
 	)
 	(:action drop_hoist0_crate4_pallet0_depot0
@@ -4782,18 +4354,16 @@
 			(lifting hoist0 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate4))
-				(at crate4 depot0)
-				(not (clear pallet0))
-				(clear crate4)
-				(on crate4 pallet0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate4))
+			(at crate4 depot0)
+			(not (clear pallet0))
+			(clear crate4)
+			(on crate4 pallet0)
 		)
 	)
 	(:action drop_hoist0_crate5_crate0_depot0
@@ -4804,18 +4374,16 @@
 			(lifting hoist0 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate5))
-				(at crate5 depot0)
-				(not (clear crate0))
-				(clear crate5)
-				(on crate5 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate5))
+			(at crate5 depot0)
+			(not (clear crate0))
+			(clear crate5)
+			(on crate5 crate0)
 		)
 	)
 	(:action drop_hoist0_crate5_crate1_depot0
@@ -4826,18 +4394,16 @@
 			(lifting hoist0 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate5))
-				(at crate5 depot0)
-				(not (clear crate1))
-				(clear crate5)
-				(on crate5 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate5))
+			(at crate5 depot0)
+			(not (clear crate1))
+			(clear crate5)
+			(on crate5 crate1)
 		)
 	)
 	(:action drop_hoist0_crate5_crate2_depot0
@@ -4848,18 +4414,16 @@
 			(lifting hoist0 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate5))
-				(at crate5 depot0)
-				(not (clear crate2))
-				(clear crate5)
-				(on crate5 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate5))
+			(at crate5 depot0)
+			(not (clear crate2))
+			(clear crate5)
+			(on crate5 crate2)
 		)
 	)
 	(:action drop_hoist0_crate5_crate3_depot0
@@ -4870,18 +4434,16 @@
 			(lifting hoist0 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate5))
-				(at crate5 depot0)
-				(not (clear crate3))
-				(clear crate5)
-				(on crate5 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate5))
+			(at crate5 depot0)
+			(not (clear crate3))
+			(clear crate5)
+			(on crate5 crate3)
 		)
 	)
 	(:action drop_hoist0_crate5_crate4_depot0
@@ -4892,18 +4454,16 @@
 			(lifting hoist0 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate5))
-				(at crate5 depot0)
-				(not (clear crate4))
-				(clear crate5)
-				(on crate5 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate5))
+			(at crate5 depot0)
+			(not (clear crate4))
+			(clear crate5)
+			(on crate5 crate4)
 		)
 	)
 	(:action drop_hoist0_crate5_crate5_depot0
@@ -4914,18 +4474,16 @@
 			(lifting hoist0 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate5))
-				(at crate5 depot0)
-				(not (clear crate5))
-				(clear crate5)
-				(on crate5 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate5))
+			(at crate5 depot0)
+			(not (clear crate5))
+			(clear crate5)
+			(on crate5 crate5)
 		)
 	)
 	(:action drop_hoist0_crate5_pallet0_depot0
@@ -4935,18 +4493,16 @@
 			(lifting hoist0 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist0)
-				(not (lifting hoist0 crate5))
-				(at crate5 depot0)
-				(not (clear pallet0))
-				(clear crate5)
-				(on crate5 pallet0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist0)
+			(not (lifting hoist0 crate5))
+			(at crate5 depot0)
+			(not (clear pallet0))
+			(clear crate5)
+			(on crate5 pallet0)
 		)
 	)
 	(:action drop_hoist1_crate0_crate0_depot1
@@ -4957,18 +4513,16 @@
 			(lifting hoist1 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate0))
-				(at crate0 depot1)
-				(not (clear crate0))
-				(clear crate0)
-				(on crate0 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate0))
+			(at crate0 depot1)
+			(not (clear crate0))
+			(clear crate0)
+			(on crate0 crate0)
 		)
 	)
 	(:action drop_hoist1_crate0_crate1_depot1
@@ -4979,18 +4533,16 @@
 			(lifting hoist1 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate0))
-				(at crate0 depot1)
-				(not (clear crate1))
-				(clear crate0)
-				(on crate0 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate0))
+			(at crate0 depot1)
+			(not (clear crate1))
+			(clear crate0)
+			(on crate0 crate1)
 		)
 	)
 	(:action drop_hoist1_crate0_crate2_depot1
@@ -5001,18 +4553,16 @@
 			(lifting hoist1 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate0))
-				(at crate0 depot1)
-				(not (clear crate2))
-				(clear crate0)
-				(on crate0 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate0))
+			(at crate0 depot1)
+			(not (clear crate2))
+			(clear crate0)
+			(on crate0 crate2)
 		)
 	)
 	(:action drop_hoist1_crate0_crate3_depot1
@@ -5023,18 +4573,16 @@
 			(lifting hoist1 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate0))
-				(at crate0 depot1)
-				(not (clear crate3))
-				(clear crate0)
-				(on crate0 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate0))
+			(at crate0 depot1)
+			(not (clear crate3))
+			(clear crate0)
+			(on crate0 crate3)
 		)
 	)
 	(:action drop_hoist1_crate0_crate4_depot1
@@ -5045,18 +4593,16 @@
 			(lifting hoist1 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate0))
-				(at crate0 depot1)
-				(not (clear crate4))
-				(clear crate0)
-				(on crate0 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate0))
+			(at crate0 depot1)
+			(not (clear crate4))
+			(clear crate0)
+			(on crate0 crate4)
 		)
 	)
 	(:action drop_hoist1_crate0_crate5_depot1
@@ -5067,18 +4613,16 @@
 			(lifting hoist1 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate0))
-				(at crate0 depot1)
-				(not (clear crate5))
-				(clear crate0)
-				(on crate0 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate0))
+			(at crate0 depot1)
+			(not (clear crate5))
+			(clear crate0)
+			(on crate0 crate5)
 		)
 	)
 	(:action drop_hoist1_crate0_pallet1_depot1
@@ -5088,18 +4632,16 @@
 			(lifting hoist1 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate0))
-				(at crate0 depot1)
-				(not (clear pallet1))
-				(clear crate0)
-				(on crate0 pallet1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate0))
+			(at crate0 depot1)
+			(not (clear pallet1))
+			(clear crate0)
+			(on crate0 pallet1)
 		)
 	)
 	(:action drop_hoist1_crate1_crate0_depot1
@@ -5110,18 +4652,16 @@
 			(lifting hoist1 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate1))
-				(at crate1 depot1)
-				(not (clear crate0))
-				(clear crate1)
-				(on crate1 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate1))
+			(at crate1 depot1)
+			(not (clear crate0))
+			(clear crate1)
+			(on crate1 crate0)
 		)
 	)
 	(:action drop_hoist1_crate1_crate1_depot1
@@ -5132,18 +4672,16 @@
 			(lifting hoist1 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate1))
-				(at crate1 depot1)
-				(not (clear crate1))
-				(clear crate1)
-				(on crate1 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate1))
+			(at crate1 depot1)
+			(not (clear crate1))
+			(clear crate1)
+			(on crate1 crate1)
 		)
 	)
 	(:action drop_hoist1_crate1_crate2_depot1
@@ -5154,18 +4692,16 @@
 			(lifting hoist1 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate1))
-				(at crate1 depot1)
-				(not (clear crate2))
-				(clear crate1)
-				(on crate1 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate1))
+			(at crate1 depot1)
+			(not (clear crate2))
+			(clear crate1)
+			(on crate1 crate2)
 		)
 	)
 	(:action drop_hoist1_crate1_crate3_depot1
@@ -5176,18 +4712,16 @@
 			(lifting hoist1 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate1))
-				(at crate1 depot1)
-				(not (clear crate3))
-				(clear crate1)
-				(on crate1 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate1))
+			(at crate1 depot1)
+			(not (clear crate3))
+			(clear crate1)
+			(on crate1 crate3)
 		)
 	)
 	(:action drop_hoist1_crate1_crate4_depot1
@@ -5198,18 +4732,16 @@
 			(lifting hoist1 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate1))
-				(at crate1 depot1)
-				(not (clear crate4))
-				(clear crate1)
-				(on crate1 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate1))
+			(at crate1 depot1)
+			(not (clear crate4))
+			(clear crate1)
+			(on crate1 crate4)
 		)
 	)
 	(:action drop_hoist1_crate1_crate5_depot1
@@ -5220,18 +4752,16 @@
 			(lifting hoist1 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate1))
-				(at crate1 depot1)
-				(not (clear crate5))
-				(clear crate1)
-				(on crate1 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate1))
+			(at crate1 depot1)
+			(not (clear crate5))
+			(clear crate1)
+			(on crate1 crate5)
 		)
 	)
 	(:action drop_hoist1_crate1_pallet1_depot1
@@ -5241,18 +4771,16 @@
 			(lifting hoist1 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate1))
-				(at crate1 depot1)
-				(not (clear pallet1))
-				(clear crate1)
-				(on crate1 pallet1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate1))
+			(at crate1 depot1)
+			(not (clear pallet1))
+			(clear crate1)
+			(on crate1 pallet1)
 		)
 	)
 	(:action drop_hoist1_crate2_crate0_depot1
@@ -5263,18 +4791,16 @@
 			(lifting hoist1 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate2))
-				(at crate2 depot1)
-				(not (clear crate0))
-				(clear crate2)
-				(on crate2 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate2))
+			(at crate2 depot1)
+			(not (clear crate0))
+			(clear crate2)
+			(on crate2 crate0)
 		)
 	)
 	(:action drop_hoist1_crate2_crate1_depot1
@@ -5285,18 +4811,16 @@
 			(lifting hoist1 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate2))
-				(at crate2 depot1)
-				(not (clear crate1))
-				(clear crate2)
-				(on crate2 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate2))
+			(at crate2 depot1)
+			(not (clear crate1))
+			(clear crate2)
+			(on crate2 crate1)
 		)
 	)
 	(:action drop_hoist1_crate2_crate2_depot1
@@ -5307,18 +4831,16 @@
 			(lifting hoist1 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate2))
-				(at crate2 depot1)
-				(not (clear crate2))
-				(clear crate2)
-				(on crate2 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate2))
+			(at crate2 depot1)
+			(not (clear crate2))
+			(clear crate2)
+			(on crate2 crate2)
 		)
 	)
 	(:action drop_hoist1_crate2_crate3_depot1
@@ -5329,18 +4851,16 @@
 			(lifting hoist1 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate2))
-				(at crate2 depot1)
-				(not (clear crate3))
-				(clear crate2)
-				(on crate2 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate2))
+			(at crate2 depot1)
+			(not (clear crate3))
+			(clear crate2)
+			(on crate2 crate3)
 		)
 	)
 	(:action drop_hoist1_crate2_crate4_depot1
@@ -5351,18 +4871,16 @@
 			(lifting hoist1 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate2))
-				(at crate2 depot1)
-				(not (clear crate4))
-				(clear crate2)
-				(on crate2 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate2))
+			(at crate2 depot1)
+			(not (clear crate4))
+			(clear crate2)
+			(on crate2 crate4)
 		)
 	)
 	(:action drop_hoist1_crate2_crate5_depot1
@@ -5373,18 +4891,16 @@
 			(lifting hoist1 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate2))
-				(at crate2 depot1)
-				(not (clear crate5))
-				(clear crate2)
-				(on crate2 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate2))
+			(at crate2 depot1)
+			(not (clear crate5))
+			(clear crate2)
+			(on crate2 crate5)
 		)
 	)
 	(:action drop_hoist1_crate2_pallet1_depot1
@@ -5394,18 +4910,16 @@
 			(lifting hoist1 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate2))
-				(at crate2 depot1)
-				(not (clear pallet1))
-				(clear crate2)
-				(on crate2 pallet1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate2))
+			(at crate2 depot1)
+			(not (clear pallet1))
+			(clear crate2)
+			(on crate2 pallet1)
 		)
 	)
 	(:action drop_hoist1_crate3_crate0_depot1
@@ -5416,18 +4930,16 @@
 			(lifting hoist1 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate3))
-				(at crate3 depot1)
-				(not (clear crate0))
-				(clear crate3)
-				(on crate3 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate3))
+			(at crate3 depot1)
+			(not (clear crate0))
+			(clear crate3)
+			(on crate3 crate0)
 		)
 	)
 	(:action drop_hoist1_crate3_crate1_depot1
@@ -5438,18 +4950,16 @@
 			(lifting hoist1 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate3))
-				(at crate3 depot1)
-				(not (clear crate1))
-				(clear crate3)
-				(on crate3 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate3))
+			(at crate3 depot1)
+			(not (clear crate1))
+			(clear crate3)
+			(on crate3 crate1)
 		)
 	)
 	(:action drop_hoist1_crate3_crate2_depot1
@@ -5460,18 +4970,16 @@
 			(lifting hoist1 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate3))
-				(at crate3 depot1)
-				(not (clear crate2))
-				(clear crate3)
-				(on crate3 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate3))
+			(at crate3 depot1)
+			(not (clear crate2))
+			(clear crate3)
+			(on crate3 crate2)
 		)
 	)
 	(:action drop_hoist1_crate3_crate3_depot1
@@ -5482,18 +4990,16 @@
 			(lifting hoist1 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate3))
-				(at crate3 depot1)
-				(not (clear crate3))
-				(clear crate3)
-				(on crate3 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate3))
+			(at crate3 depot1)
+			(not (clear crate3))
+			(clear crate3)
+			(on crate3 crate3)
 		)
 	)
 	(:action drop_hoist1_crate3_crate4_depot1
@@ -5504,18 +5010,16 @@
 			(lifting hoist1 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate3))
-				(at crate3 depot1)
-				(not (clear crate4))
-				(clear crate3)
-				(on crate3 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate3))
+			(at crate3 depot1)
+			(not (clear crate4))
+			(clear crate3)
+			(on crate3 crate4)
 		)
 	)
 	(:action drop_hoist1_crate3_crate5_depot1
@@ -5526,18 +5030,16 @@
 			(lifting hoist1 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate3))
-				(at crate3 depot1)
-				(not (clear crate5))
-				(clear crate3)
-				(on crate3 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate3))
+			(at crate3 depot1)
+			(not (clear crate5))
+			(clear crate3)
+			(on crate3 crate5)
 		)
 	)
 	(:action drop_hoist1_crate3_pallet1_depot1
@@ -5547,18 +5049,16 @@
 			(lifting hoist1 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate3))
-				(at crate3 depot1)
-				(not (clear pallet1))
-				(clear crate3)
-				(on crate3 pallet1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate3))
+			(at crate3 depot1)
+			(not (clear pallet1))
+			(clear crate3)
+			(on crate3 pallet1)
 		)
 	)
 	(:action drop_hoist1_crate4_crate0_depot1
@@ -5569,18 +5069,16 @@
 			(lifting hoist1 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate4))
-				(at crate4 depot1)
-				(not (clear crate0))
-				(clear crate4)
-				(on crate4 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate4))
+			(at crate4 depot1)
+			(not (clear crate0))
+			(clear crate4)
+			(on crate4 crate0)
 		)
 	)
 	(:action drop_hoist1_crate4_crate1_depot1
@@ -5591,18 +5089,16 @@
 			(lifting hoist1 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate4))
-				(at crate4 depot1)
-				(not (clear crate1))
-				(clear crate4)
-				(on crate4 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate4))
+			(at crate4 depot1)
+			(not (clear crate1))
+			(clear crate4)
+			(on crate4 crate1)
 		)
 	)
 	(:action drop_hoist1_crate4_crate2_depot1
@@ -5613,18 +5109,16 @@
 			(lifting hoist1 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate4))
-				(at crate4 depot1)
-				(not (clear crate2))
-				(clear crate4)
-				(on crate4 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate4))
+			(at crate4 depot1)
+			(not (clear crate2))
+			(clear crate4)
+			(on crate4 crate2)
 		)
 	)
 	(:action drop_hoist1_crate4_crate3_depot1
@@ -5635,18 +5129,16 @@
 			(lifting hoist1 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate4))
-				(at crate4 depot1)
-				(not (clear crate3))
-				(clear crate4)
-				(on crate4 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate4))
+			(at crate4 depot1)
+			(not (clear crate3))
+			(clear crate4)
+			(on crate4 crate3)
 		)
 	)
 	(:action drop_hoist1_crate4_crate4_depot1
@@ -5657,18 +5149,16 @@
 			(lifting hoist1 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate4))
-				(at crate4 depot1)
-				(not (clear crate4))
-				(clear crate4)
-				(on crate4 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate4))
+			(at crate4 depot1)
+			(not (clear crate4))
+			(clear crate4)
+			(on crate4 crate4)
 		)
 	)
 	(:action drop_hoist1_crate4_crate5_depot1
@@ -5679,18 +5169,16 @@
 			(lifting hoist1 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate4))
-				(at crate4 depot1)
-				(not (clear crate5))
-				(clear crate4)
-				(on crate4 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate4))
+			(at crate4 depot1)
+			(not (clear crate5))
+			(clear crate4)
+			(on crate4 crate5)
 		)
 	)
 	(:action drop_hoist1_crate4_pallet1_depot1
@@ -5700,18 +5188,16 @@
 			(lifting hoist1 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate4))
-				(at crate4 depot1)
-				(not (clear pallet1))
-				(clear crate4)
-				(on crate4 pallet1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate4))
+			(at crate4 depot1)
+			(not (clear pallet1))
+			(clear crate4)
+			(on crate4 pallet1)
 		)
 	)
 	(:action drop_hoist1_crate5_crate0_depot1
@@ -5722,18 +5208,16 @@
 			(lifting hoist1 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate5))
-				(at crate5 depot1)
-				(not (clear crate0))
-				(clear crate5)
-				(on crate5 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate5))
+			(at crate5 depot1)
+			(not (clear crate0))
+			(clear crate5)
+			(on crate5 crate0)
 		)
 	)
 	(:action drop_hoist1_crate5_crate1_depot1
@@ -5744,18 +5228,16 @@
 			(lifting hoist1 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate5))
-				(at crate5 depot1)
-				(not (clear crate1))
-				(clear crate5)
-				(on crate5 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate5))
+			(at crate5 depot1)
+			(not (clear crate1))
+			(clear crate5)
+			(on crate5 crate1)
 		)
 	)
 	(:action drop_hoist1_crate5_crate2_depot1
@@ -5766,18 +5248,16 @@
 			(lifting hoist1 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate5))
-				(at crate5 depot1)
-				(not (clear crate2))
-				(clear crate5)
-				(on crate5 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate5))
+			(at crate5 depot1)
+			(not (clear crate2))
+			(clear crate5)
+			(on crate5 crate2)
 		)
 	)
 	(:action drop_hoist1_crate5_crate3_depot1
@@ -5788,18 +5268,16 @@
 			(lifting hoist1 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate5))
-				(at crate5 depot1)
-				(not (clear crate3))
-				(clear crate5)
-				(on crate5 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate5))
+			(at crate5 depot1)
+			(not (clear crate3))
+			(clear crate5)
+			(on crate5 crate3)
 		)
 	)
 	(:action drop_hoist1_crate5_crate4_depot1
@@ -5810,18 +5288,16 @@
 			(lifting hoist1 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate5))
-				(at crate5 depot1)
-				(not (clear crate4))
-				(clear crate5)
-				(on crate5 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate5))
+			(at crate5 depot1)
+			(not (clear crate4))
+			(clear crate5)
+			(on crate5 crate4)
 		)
 	)
 	(:action drop_hoist1_crate5_crate5_depot1
@@ -5832,18 +5308,16 @@
 			(lifting hoist1 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate5))
-				(at crate5 depot1)
-				(not (clear crate5))
-				(clear crate5)
-				(on crate5 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate5))
+			(at crate5 depot1)
+			(not (clear crate5))
+			(clear crate5)
+			(on crate5 crate5)
 		)
 	)
 	(:action drop_hoist1_crate5_pallet1_depot1
@@ -5853,18 +5327,16 @@
 			(lifting hoist1 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist1)
-				(not (lifting hoist1 crate5))
-				(at crate5 depot1)
-				(not (clear pallet1))
-				(clear crate5)
-				(on crate5 pallet1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist1)
+			(not (lifting hoist1 crate5))
+			(at crate5 depot1)
+			(not (clear pallet1))
+			(clear crate5)
+			(on crate5 pallet1)
 		)
 	)
 	(:action drop_hoist2_crate0_crate0_distributor0
@@ -5875,18 +5347,16 @@
 			(lifting hoist2 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate0))
-				(at crate0 distributor0)
-				(not (clear crate0))
-				(clear crate0)
-				(on crate0 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate0))
+			(at crate0 distributor0)
+			(not (clear crate0))
+			(clear crate0)
+			(on crate0 crate0)
 		)
 	)
 	(:action drop_hoist2_crate0_crate1_distributor0
@@ -5897,18 +5367,16 @@
 			(lifting hoist2 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate0))
-				(at crate0 distributor0)
-				(not (clear crate1))
-				(clear crate0)
-				(on crate0 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate0))
+			(at crate0 distributor0)
+			(not (clear crate1))
+			(clear crate0)
+			(on crate0 crate1)
 		)
 	)
 	(:action drop_hoist2_crate0_crate2_distributor0
@@ -5919,18 +5387,16 @@
 			(lifting hoist2 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate0))
-				(at crate0 distributor0)
-				(not (clear crate2))
-				(clear crate0)
-				(on crate0 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate0))
+			(at crate0 distributor0)
+			(not (clear crate2))
+			(clear crate0)
+			(on crate0 crate2)
 		)
 	)
 	(:action drop_hoist2_crate0_crate3_distributor0
@@ -5941,18 +5407,16 @@
 			(lifting hoist2 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate0))
-				(at crate0 distributor0)
-				(not (clear crate3))
-				(clear crate0)
-				(on crate0 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate0))
+			(at crate0 distributor0)
+			(not (clear crate3))
+			(clear crate0)
+			(on crate0 crate3)
 		)
 	)
 	(:action drop_hoist2_crate0_crate4_distributor0
@@ -5963,18 +5427,16 @@
 			(lifting hoist2 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate0))
-				(at crate0 distributor0)
-				(not (clear crate4))
-				(clear crate0)
-				(on crate0 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate0))
+			(at crate0 distributor0)
+			(not (clear crate4))
+			(clear crate0)
+			(on crate0 crate4)
 		)
 	)
 	(:action drop_hoist2_crate0_crate5_distributor0
@@ -5985,18 +5447,16 @@
 			(lifting hoist2 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate0))
-				(at crate0 distributor0)
-				(not (clear crate5))
-				(clear crate0)
-				(on crate0 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate0))
+			(at crate0 distributor0)
+			(not (clear crate5))
+			(clear crate0)
+			(on crate0 crate5)
 		)
 	)
 	(:action drop_hoist2_crate0_pallet2_distributor0
@@ -6006,18 +5466,16 @@
 			(lifting hoist2 crate0)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate0))
-				(at crate0 distributor0)
-				(not (clear pallet2))
-				(clear crate0)
-				(on crate0 pallet2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate0))
+			(at crate0 distributor0)
+			(not (clear pallet2))
+			(clear crate0)
+			(on crate0 pallet2)
 		)
 	)
 	(:action drop_hoist2_crate1_crate0_distributor0
@@ -6028,18 +5486,16 @@
 			(lifting hoist2 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate1))
-				(at crate1 distributor0)
-				(not (clear crate0))
-				(clear crate1)
-				(on crate1 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate1))
+			(at crate1 distributor0)
+			(not (clear crate0))
+			(clear crate1)
+			(on crate1 crate0)
 		)
 	)
 	(:action drop_hoist2_crate1_crate1_distributor0
@@ -6050,18 +5506,16 @@
 			(lifting hoist2 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate1))
-				(at crate1 distributor0)
-				(not (clear crate1))
-				(clear crate1)
-				(on crate1 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate1))
+			(at crate1 distributor0)
+			(not (clear crate1))
+			(clear crate1)
+			(on crate1 crate1)
 		)
 	)
 	(:action drop_hoist2_crate1_crate2_distributor0
@@ -6072,18 +5526,16 @@
 			(lifting hoist2 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate1))
-				(at crate1 distributor0)
-				(not (clear crate2))
-				(clear crate1)
-				(on crate1 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate1))
+			(at crate1 distributor0)
+			(not (clear crate2))
+			(clear crate1)
+			(on crate1 crate2)
 		)
 	)
 	(:action drop_hoist2_crate1_crate3_distributor0
@@ -6094,18 +5546,16 @@
 			(lifting hoist2 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate1))
-				(at crate1 distributor0)
-				(not (clear crate3))
-				(clear crate1)
-				(on crate1 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate1))
+			(at crate1 distributor0)
+			(not (clear crate3))
+			(clear crate1)
+			(on crate1 crate3)
 		)
 	)
 	(:action drop_hoist2_crate1_crate4_distributor0
@@ -6116,18 +5566,16 @@
 			(lifting hoist2 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate1))
-				(at crate1 distributor0)
-				(not (clear crate4))
-				(clear crate1)
-				(on crate1 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate1))
+			(at crate1 distributor0)
+			(not (clear crate4))
+			(clear crate1)
+			(on crate1 crate4)
 		)
 	)
 	(:action drop_hoist2_crate1_crate5_distributor0
@@ -6138,18 +5586,16 @@
 			(lifting hoist2 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate1))
-				(at crate1 distributor0)
-				(not (clear crate5))
-				(clear crate1)
-				(on crate1 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate1))
+			(at crate1 distributor0)
+			(not (clear crate5))
+			(clear crate1)
+			(on crate1 crate5)
 		)
 	)
 	(:action drop_hoist2_crate1_pallet2_distributor0
@@ -6159,18 +5605,16 @@
 			(lifting hoist2 crate1)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate1))
-				(at crate1 distributor0)
-				(not (clear pallet2))
-				(clear crate1)
-				(on crate1 pallet2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate1))
+			(at crate1 distributor0)
+			(not (clear pallet2))
+			(clear crate1)
+			(on crate1 pallet2)
 		)
 	)
 	(:action drop_hoist2_crate2_crate0_distributor0
@@ -6181,18 +5625,16 @@
 			(lifting hoist2 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate2))
-				(at crate2 distributor0)
-				(not (clear crate0))
-				(clear crate2)
-				(on crate2 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate2))
+			(at crate2 distributor0)
+			(not (clear crate0))
+			(clear crate2)
+			(on crate2 crate0)
 		)
 	)
 	(:action drop_hoist2_crate2_crate1_distributor0
@@ -6203,18 +5645,16 @@
 			(lifting hoist2 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate2))
-				(at crate2 distributor0)
-				(not (clear crate1))
-				(clear crate2)
-				(on crate2 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate2))
+			(at crate2 distributor0)
+			(not (clear crate1))
+			(clear crate2)
+			(on crate2 crate1)
 		)
 	)
 	(:action drop_hoist2_crate2_crate2_distributor0
@@ -6225,18 +5665,16 @@
 			(lifting hoist2 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate2))
-				(at crate2 distributor0)
-				(not (clear crate2))
-				(clear crate2)
-				(on crate2 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate2))
+			(at crate2 distributor0)
+			(not (clear crate2))
+			(clear crate2)
+			(on crate2 crate2)
 		)
 	)
 	(:action drop_hoist2_crate2_crate3_distributor0
@@ -6247,18 +5685,16 @@
 			(lifting hoist2 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate2))
-				(at crate2 distributor0)
-				(not (clear crate3))
-				(clear crate2)
-				(on crate2 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate2))
+			(at crate2 distributor0)
+			(not (clear crate3))
+			(clear crate2)
+			(on crate2 crate3)
 		)
 	)
 	(:action drop_hoist2_crate2_crate4_distributor0
@@ -6269,18 +5705,16 @@
 			(lifting hoist2 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate2))
-				(at crate2 distributor0)
-				(not (clear crate4))
-				(clear crate2)
-				(on crate2 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate2))
+			(at crate2 distributor0)
+			(not (clear crate4))
+			(clear crate2)
+			(on crate2 crate4)
 		)
 	)
 	(:action drop_hoist2_crate2_crate5_distributor0
@@ -6291,18 +5725,16 @@
 			(lifting hoist2 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate2))
-				(at crate2 distributor0)
-				(not (clear crate5))
-				(clear crate2)
-				(on crate2 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate2))
+			(at crate2 distributor0)
+			(not (clear crate5))
+			(clear crate2)
+			(on crate2 crate5)
 		)
 	)
 	(:action drop_hoist2_crate2_pallet2_distributor0
@@ -6312,18 +5744,16 @@
 			(lifting hoist2 crate2)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate2))
-				(at crate2 distributor0)
-				(not (clear pallet2))
-				(clear crate2)
-				(on crate2 pallet2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate2))
+			(at crate2 distributor0)
+			(not (clear pallet2))
+			(clear crate2)
+			(on crate2 pallet2)
 		)
 	)
 	(:action drop_hoist2_crate3_crate0_distributor0
@@ -6334,18 +5764,16 @@
 			(lifting hoist2 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate3))
-				(at crate3 distributor0)
-				(not (clear crate0))
-				(clear crate3)
-				(on crate3 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate3))
+			(at crate3 distributor0)
+			(not (clear crate0))
+			(clear crate3)
+			(on crate3 crate0)
 		)
 	)
 	(:action drop_hoist2_crate3_crate1_distributor0
@@ -6356,18 +5784,16 @@
 			(lifting hoist2 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate3))
-				(at crate3 distributor0)
-				(not (clear crate1))
-				(clear crate3)
-				(on crate3 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate3))
+			(at crate3 distributor0)
+			(not (clear crate1))
+			(clear crate3)
+			(on crate3 crate1)
 		)
 	)
 	(:action drop_hoist2_crate3_crate2_distributor0
@@ -6378,18 +5804,16 @@
 			(lifting hoist2 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate3))
-				(at crate3 distributor0)
-				(not (clear crate2))
-				(clear crate3)
-				(on crate3 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate3))
+			(at crate3 distributor0)
+			(not (clear crate2))
+			(clear crate3)
+			(on crate3 crate2)
 		)
 	)
 	(:action drop_hoist2_crate3_crate3_distributor0
@@ -6400,18 +5824,16 @@
 			(lifting hoist2 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate3))
-				(at crate3 distributor0)
-				(not (clear crate3))
-				(clear crate3)
-				(on crate3 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate3))
+			(at crate3 distributor0)
+			(not (clear crate3))
+			(clear crate3)
+			(on crate3 crate3)
 		)
 	)
 	(:action drop_hoist2_crate3_crate4_distributor0
@@ -6422,18 +5844,16 @@
 			(lifting hoist2 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate3))
-				(at crate3 distributor0)
-				(not (clear crate4))
-				(clear crate3)
-				(on crate3 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate3))
+			(at crate3 distributor0)
+			(not (clear crate4))
+			(clear crate3)
+			(on crate3 crate4)
 		)
 	)
 	(:action drop_hoist2_crate3_crate5_distributor0
@@ -6444,18 +5864,16 @@
 			(lifting hoist2 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate3))
-				(at crate3 distributor0)
-				(not (clear crate5))
-				(clear crate3)
-				(on crate3 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate3))
+			(at crate3 distributor0)
+			(not (clear crate5))
+			(clear crate3)
+			(on crate3 crate5)
 		)
 	)
 	(:action drop_hoist2_crate3_pallet2_distributor0
@@ -6465,18 +5883,16 @@
 			(lifting hoist2 crate3)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate3))
-				(at crate3 distributor0)
-				(not (clear pallet2))
-				(clear crate3)
-				(on crate3 pallet2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate3))
+			(at crate3 distributor0)
+			(not (clear pallet2))
+			(clear crate3)
+			(on crate3 pallet2)
 		)
 	)
 	(:action drop_hoist2_crate4_crate0_distributor0
@@ -6487,18 +5903,16 @@
 			(lifting hoist2 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate4))
-				(at crate4 distributor0)
-				(not (clear crate0))
-				(clear crate4)
-				(on crate4 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate4))
+			(at crate4 distributor0)
+			(not (clear crate0))
+			(clear crate4)
+			(on crate4 crate0)
 		)
 	)
 	(:action drop_hoist2_crate4_crate1_distributor0
@@ -6509,18 +5923,16 @@
 			(lifting hoist2 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate4))
-				(at crate4 distributor0)
-				(not (clear crate1))
-				(clear crate4)
-				(on crate4 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate4))
+			(at crate4 distributor0)
+			(not (clear crate1))
+			(clear crate4)
+			(on crate4 crate1)
 		)
 	)
 	(:action drop_hoist2_crate4_crate2_distributor0
@@ -6531,18 +5943,16 @@
 			(lifting hoist2 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate4))
-				(at crate4 distributor0)
-				(not (clear crate2))
-				(clear crate4)
-				(on crate4 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate4))
+			(at crate4 distributor0)
+			(not (clear crate2))
+			(clear crate4)
+			(on crate4 crate2)
 		)
 	)
 	(:action drop_hoist2_crate4_crate3_distributor0
@@ -6553,18 +5963,16 @@
 			(lifting hoist2 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate4))
-				(at crate4 distributor0)
-				(not (clear crate3))
-				(clear crate4)
-				(on crate4 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate4))
+			(at crate4 distributor0)
+			(not (clear crate3))
+			(clear crate4)
+			(on crate4 crate3)
 		)
 	)
 	(:action drop_hoist2_crate4_crate4_distributor0
@@ -6575,18 +5983,16 @@
 			(lifting hoist2 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate4))
-				(at crate4 distributor0)
-				(not (clear crate4))
-				(clear crate4)
-				(on crate4 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate4))
+			(at crate4 distributor0)
+			(not (clear crate4))
+			(clear crate4)
+			(on crate4 crate4)
 		)
 	)
 	(:action drop_hoist2_crate4_crate5_distributor0
@@ -6597,18 +6003,16 @@
 			(lifting hoist2 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate4))
-				(at crate4 distributor0)
-				(not (clear crate5))
-				(clear crate4)
-				(on crate4 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate4))
+			(at crate4 distributor0)
+			(not (clear crate5))
+			(clear crate4)
+			(on crate4 crate5)
 		)
 	)
 	(:action drop_hoist2_crate4_pallet2_distributor0
@@ -6618,18 +6022,16 @@
 			(lifting hoist2 crate4)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate4))
-				(at crate4 distributor0)
-				(not (clear pallet2))
-				(clear crate4)
-				(on crate4 pallet2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate4))
+			(at crate4 distributor0)
+			(not (clear pallet2))
+			(clear crate4)
+			(on crate4 pallet2)
 		)
 	)
 	(:action drop_hoist2_crate5_crate0_distributor0
@@ -6640,18 +6042,16 @@
 			(lifting hoist2 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate5))
-				(at crate5 distributor0)
-				(not (clear crate0))
-				(clear crate5)
-				(on crate5 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate5))
+			(at crate5 distributor0)
+			(not (clear crate0))
+			(clear crate5)
+			(on crate5 crate0)
 		)
 	)
 	(:action drop_hoist2_crate5_crate1_distributor0
@@ -6662,18 +6062,16 @@
 			(lifting hoist2 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate5))
-				(at crate5 distributor0)
-				(not (clear crate1))
-				(clear crate5)
-				(on crate5 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate5))
+			(at crate5 distributor0)
+			(not (clear crate1))
+			(clear crate5)
+			(on crate5 crate1)
 		)
 	)
 	(:action drop_hoist2_crate5_crate2_distributor0
@@ -6684,18 +6082,16 @@
 			(lifting hoist2 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate5))
-				(at crate5 distributor0)
-				(not (clear crate2))
-				(clear crate5)
-				(on crate5 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate5))
+			(at crate5 distributor0)
+			(not (clear crate2))
+			(clear crate5)
+			(on crate5 crate2)
 		)
 	)
 	(:action drop_hoist2_crate5_crate3_distributor0
@@ -6706,18 +6102,16 @@
 			(lifting hoist2 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate5))
-				(at crate5 distributor0)
-				(not (clear crate3))
-				(clear crate5)
-				(on crate5 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate5))
+			(at crate5 distributor0)
+			(not (clear crate3))
+			(clear crate5)
+			(on crate5 crate3)
 		)
 	)
 	(:action drop_hoist2_crate5_crate4_distributor0
@@ -6728,18 +6122,16 @@
 			(lifting hoist2 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate5))
-				(at crate5 distributor0)
-				(not (clear crate4))
-				(clear crate5)
-				(on crate5 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate5))
+			(at crate5 distributor0)
+			(not (clear crate4))
+			(clear crate5)
+			(on crate5 crate4)
 		)
 	)
 	(:action drop_hoist2_crate5_crate5_distributor0
@@ -6750,18 +6142,16 @@
 			(lifting hoist2 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate5))
-				(at crate5 distributor0)
-				(not (clear crate5))
-				(clear crate5)
-				(on crate5 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate5))
+			(at crate5 distributor0)
+			(not (clear crate5))
+			(clear crate5)
+			(on crate5 crate5)
 		)
 	)
 	(:action drop_hoist2_crate5_pallet2_distributor0
@@ -6771,18 +6161,16 @@
 			(lifting hoist2 crate5)
 		)
 		:effect (and
-			(and
-				(available hoist2)
-				(not (lifting hoist2 crate5))
-				(at crate5 distributor0)
-				(not (clear pallet2))
-				(clear crate5)
-				(on crate5 pallet2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(available hoist2)
+			(not (lifting hoist2 crate5))
+			(at crate5 distributor0)
+			(not (clear pallet2))
+			(clear crate5)
+			(on crate5 pallet2)
 		)
 	)
 	(:action load_hoist0_crate0_truck0_depot0
@@ -6792,15 +6180,13 @@
 			(lifting hoist0 crate0)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist0 crate0))
-				(in crate0 truck0)
-				(available hoist0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist0 crate0))
+			(in crate0 truck0)
+			(available hoist0)
 		)
 	)
 	(:action load_hoist0_crate0_truck1_depot0
@@ -6810,15 +6196,13 @@
 			(lifting hoist0 crate0)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist0 crate0))
-				(in crate0 truck1)
-				(available hoist0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist0 crate0))
+			(in crate0 truck1)
+			(available hoist0)
 		)
 	)
 	(:action load_hoist0_crate1_truck0_depot0
@@ -6828,15 +6212,13 @@
 			(lifting hoist0 crate1)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist0 crate1))
-				(in crate1 truck0)
-				(available hoist0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist0 crate1))
+			(in crate1 truck0)
+			(available hoist0)
 		)
 	)
 	(:action load_hoist0_crate1_truck1_depot0
@@ -6846,15 +6228,13 @@
 			(lifting hoist0 crate1)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist0 crate1))
-				(in crate1 truck1)
-				(available hoist0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist0 crate1))
+			(in crate1 truck1)
+			(available hoist0)
 		)
 	)
 	(:action load_hoist0_crate2_truck0_depot0
@@ -6864,15 +6244,13 @@
 			(lifting hoist0 crate2)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist0 crate2))
-				(in crate2 truck0)
-				(available hoist0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist0 crate2))
+			(in crate2 truck0)
+			(available hoist0)
 		)
 	)
 	(:action load_hoist0_crate2_truck1_depot0
@@ -6882,15 +6260,13 @@
 			(lifting hoist0 crate2)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist0 crate2))
-				(in crate2 truck1)
-				(available hoist0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist0 crate2))
+			(in crate2 truck1)
+			(available hoist0)
 		)
 	)
 	(:action load_hoist0_crate3_truck0_depot0
@@ -6900,15 +6276,13 @@
 			(lifting hoist0 crate3)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist0 crate3))
-				(in crate3 truck0)
-				(available hoist0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist0 crate3))
+			(in crate3 truck0)
+			(available hoist0)
 		)
 	)
 	(:action load_hoist0_crate3_truck1_depot0
@@ -6918,15 +6292,13 @@
 			(lifting hoist0 crate3)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist0 crate3))
-				(in crate3 truck1)
-				(available hoist0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist0 crate3))
+			(in crate3 truck1)
+			(available hoist0)
 		)
 	)
 	(:action load_hoist0_crate4_truck0_depot0
@@ -6936,15 +6308,13 @@
 			(lifting hoist0 crate4)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist0 crate4))
-				(in crate4 truck0)
-				(available hoist0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist0 crate4))
+			(in crate4 truck0)
+			(available hoist0)
 		)
 	)
 	(:action load_hoist0_crate4_truck1_depot0
@@ -6954,15 +6324,13 @@
 			(lifting hoist0 crate4)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist0 crate4))
-				(in crate4 truck1)
-				(available hoist0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist0 crate4))
+			(in crate4 truck1)
+			(available hoist0)
 		)
 	)
 	(:action load_hoist0_crate5_truck0_depot0
@@ -6972,15 +6340,13 @@
 			(lifting hoist0 crate5)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist0 crate5))
-				(in crate5 truck0)
-				(available hoist0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist0 crate5))
+			(in crate5 truck0)
+			(available hoist0)
 		)
 	)
 	(:action load_hoist0_crate5_truck1_depot0
@@ -6990,15 +6356,13 @@
 			(lifting hoist0 crate5)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist0 crate5))
-				(in crate5 truck1)
-				(available hoist0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist0 crate5))
+			(in crate5 truck1)
+			(available hoist0)
 		)
 	)
 	(:action load_hoist1_crate0_truck0_depot1
@@ -7008,15 +6372,13 @@
 			(lifting hoist1 crate0)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist1 crate0))
-				(in crate0 truck0)
-				(available hoist1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist1 crate0))
+			(in crate0 truck0)
+			(available hoist1)
 		)
 	)
 	(:action load_hoist1_crate0_truck1_depot1
@@ -7026,15 +6388,13 @@
 			(lifting hoist1 crate0)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist1 crate0))
-				(in crate0 truck1)
-				(available hoist1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist1 crate0))
+			(in crate0 truck1)
+			(available hoist1)
 		)
 	)
 	(:action load_hoist1_crate1_truck0_depot1
@@ -7044,15 +6404,13 @@
 			(lifting hoist1 crate1)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist1 crate1))
-				(in crate1 truck0)
-				(available hoist1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist1 crate1))
+			(in crate1 truck0)
+			(available hoist1)
 		)
 	)
 	(:action load_hoist1_crate1_truck1_depot1
@@ -7062,15 +6420,13 @@
 			(lifting hoist1 crate1)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist1 crate1))
-				(in crate1 truck1)
-				(available hoist1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist1 crate1))
+			(in crate1 truck1)
+			(available hoist1)
 		)
 	)
 	(:action load_hoist1_crate2_truck0_depot1
@@ -7080,15 +6436,13 @@
 			(lifting hoist1 crate2)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist1 crate2))
-				(in crate2 truck0)
-				(available hoist1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist1 crate2))
+			(in crate2 truck0)
+			(available hoist1)
 		)
 	)
 	(:action load_hoist1_crate2_truck1_depot1
@@ -7098,15 +6452,13 @@
 			(lifting hoist1 crate2)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist1 crate2))
-				(in crate2 truck1)
-				(available hoist1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist1 crate2))
+			(in crate2 truck1)
+			(available hoist1)
 		)
 	)
 	(:action load_hoist1_crate3_truck0_depot1
@@ -7116,15 +6468,13 @@
 			(lifting hoist1 crate3)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist1 crate3))
-				(in crate3 truck0)
-				(available hoist1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist1 crate3))
+			(in crate3 truck0)
+			(available hoist1)
 		)
 	)
 	(:action load_hoist1_crate3_truck1_depot1
@@ -7134,15 +6484,13 @@
 			(lifting hoist1 crate3)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist1 crate3))
-				(in crate3 truck1)
-				(available hoist1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist1 crate3))
+			(in crate3 truck1)
+			(available hoist1)
 		)
 	)
 	(:action load_hoist1_crate4_truck0_depot1
@@ -7152,15 +6500,13 @@
 			(lifting hoist1 crate4)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist1 crate4))
-				(in crate4 truck0)
-				(available hoist1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist1 crate4))
+			(in crate4 truck0)
+			(available hoist1)
 		)
 	)
 	(:action load_hoist1_crate4_truck1_depot1
@@ -7170,15 +6516,13 @@
 			(lifting hoist1 crate4)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist1 crate4))
-				(in crate4 truck1)
-				(available hoist1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist1 crate4))
+			(in crate4 truck1)
+			(available hoist1)
 		)
 	)
 	(:action load_hoist1_crate5_truck0_depot1
@@ -7188,15 +6532,13 @@
 			(lifting hoist1 crate5)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist1 crate5))
-				(in crate5 truck0)
-				(available hoist1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist1 crate5))
+			(in crate5 truck0)
+			(available hoist1)
 		)
 	)
 	(:action load_hoist1_crate5_truck1_depot1
@@ -7206,15 +6548,13 @@
 			(lifting hoist1 crate5)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist1 crate5))
-				(in crate5 truck1)
-				(available hoist1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist1 crate5))
+			(in crate5 truck1)
+			(available hoist1)
 		)
 	)
 	(:action load_hoist2_crate0_truck0_distributor0
@@ -7224,15 +6564,13 @@
 			(lifting hoist2 crate0)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist2 crate0))
-				(in crate0 truck0)
-				(available hoist2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist2 crate0))
+			(in crate0 truck0)
+			(available hoist2)
 		)
 	)
 	(:action load_hoist2_crate0_truck1_distributor0
@@ -7242,15 +6580,13 @@
 			(lifting hoist2 crate0)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist2 crate0))
-				(in crate0 truck1)
-				(available hoist2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist2 crate0))
+			(in crate0 truck1)
+			(available hoist2)
 		)
 	)
 	(:action load_hoist2_crate1_truck0_distributor0
@@ -7260,15 +6596,13 @@
 			(lifting hoist2 crate1)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist2 crate1))
-				(in crate1 truck0)
-				(available hoist2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist2 crate1))
+			(in crate1 truck0)
+			(available hoist2)
 		)
 	)
 	(:action load_hoist2_crate1_truck1_distributor0
@@ -7278,15 +6612,13 @@
 			(lifting hoist2 crate1)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist2 crate1))
-				(in crate1 truck1)
-				(available hoist2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist2 crate1))
+			(in crate1 truck1)
+			(available hoist2)
 		)
 	)
 	(:action load_hoist2_crate2_truck0_distributor0
@@ -7296,15 +6628,13 @@
 			(lifting hoist2 crate2)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist2 crate2))
-				(in crate2 truck0)
-				(available hoist2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist2 crate2))
+			(in crate2 truck0)
+			(available hoist2)
 		)
 	)
 	(:action load_hoist2_crate2_truck1_distributor0
@@ -7314,15 +6644,13 @@
 			(lifting hoist2 crate2)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist2 crate2))
-				(in crate2 truck1)
-				(available hoist2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist2 crate2))
+			(in crate2 truck1)
+			(available hoist2)
 		)
 	)
 	(:action load_hoist2_crate3_truck0_distributor0
@@ -7332,15 +6660,13 @@
 			(lifting hoist2 crate3)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist2 crate3))
-				(in crate3 truck0)
-				(available hoist2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist2 crate3))
+			(in crate3 truck0)
+			(available hoist2)
 		)
 	)
 	(:action load_hoist2_crate3_truck1_distributor0
@@ -7350,15 +6676,13 @@
 			(lifting hoist2 crate3)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist2 crate3))
-				(in crate3 truck1)
-				(available hoist2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist2 crate3))
+			(in crate3 truck1)
+			(available hoist2)
 		)
 	)
 	(:action load_hoist2_crate4_truck0_distributor0
@@ -7368,15 +6692,13 @@
 			(lifting hoist2 crate4)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist2 crate4))
-				(in crate4 truck0)
-				(available hoist2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist2 crate4))
+			(in crate4 truck0)
+			(available hoist2)
 		)
 	)
 	(:action load_hoist2_crate4_truck1_distributor0
@@ -7386,15 +6708,13 @@
 			(lifting hoist2 crate4)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist2 crate4))
-				(in crate4 truck1)
-				(available hoist2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist2 crate4))
+			(in crate4 truck1)
+			(available hoist2)
 		)
 	)
 	(:action load_hoist2_crate5_truck0_distributor0
@@ -7404,15 +6724,13 @@
 			(lifting hoist2 crate5)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist2 crate5))
-				(in crate5 truck0)
-				(available hoist2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist2 crate5))
+			(in crate5 truck0)
+			(available hoist2)
 		)
 	)
 	(:action load_hoist2_crate5_truck1_distributor0
@@ -7422,15 +6740,13 @@
 			(lifting hoist2 crate5)
 		)
 		:effect (and
-			(and
-				(not (lifting hoist2 crate5))
-				(in crate5 truck1)
-				(available hoist2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (lifting hoist2 crate5))
+			(in crate5 truck1)
+			(available hoist2)
 		)
 	)
 	(:action unload_hoist0_crate0_truck0_depot0
@@ -7441,15 +6757,13 @@
 			(in crate0 truck0)
 		)
 		:effect (and
-			(and
-				(not (in crate0 truck0))
-				(not (available hoist0))
-				(lifting hoist0 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate0 truck0))
+			(not (available hoist0))
+			(lifting hoist0 crate0)
 		)
 	)
 	(:action unload_hoist0_crate0_truck1_depot0
@@ -7460,15 +6774,13 @@
 			(in crate0 truck1)
 		)
 		:effect (and
-			(and
-				(not (in crate0 truck1))
-				(not (available hoist0))
-				(lifting hoist0 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate0 truck1))
+			(not (available hoist0))
+			(lifting hoist0 crate0)
 		)
 	)
 	(:action unload_hoist0_crate1_truck0_depot0
@@ -7479,15 +6791,13 @@
 			(in crate1 truck0)
 		)
 		:effect (and
-			(and
-				(not (in crate1 truck0))
-				(not (available hoist0))
-				(lifting hoist0 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate1 truck0))
+			(not (available hoist0))
+			(lifting hoist0 crate1)
 		)
 	)
 	(:action unload_hoist0_crate1_truck1_depot0
@@ -7498,15 +6808,13 @@
 			(in crate1 truck1)
 		)
 		:effect (and
-			(and
-				(not (in crate1 truck1))
-				(not (available hoist0))
-				(lifting hoist0 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate1 truck1))
+			(not (available hoist0))
+			(lifting hoist0 crate1)
 		)
 	)
 	(:action unload_hoist0_crate2_truck0_depot0
@@ -7517,15 +6825,13 @@
 			(in crate2 truck0)
 		)
 		:effect (and
-			(and
-				(not (in crate2 truck0))
-				(not (available hoist0))
-				(lifting hoist0 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate2 truck0))
+			(not (available hoist0))
+			(lifting hoist0 crate2)
 		)
 	)
 	(:action unload_hoist0_crate2_truck1_depot0
@@ -7536,15 +6842,13 @@
 			(in crate2 truck1)
 		)
 		:effect (and
-			(and
-				(not (in crate2 truck1))
-				(not (available hoist0))
-				(lifting hoist0 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate2 truck1))
+			(not (available hoist0))
+			(lifting hoist0 crate2)
 		)
 	)
 	(:action unload_hoist0_crate3_truck0_depot0
@@ -7555,15 +6859,13 @@
 			(in crate3 truck0)
 		)
 		:effect (and
-			(and
-				(not (in crate3 truck0))
-				(not (available hoist0))
-				(lifting hoist0 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate3 truck0))
+			(not (available hoist0))
+			(lifting hoist0 crate3)
 		)
 	)
 	(:action unload_hoist0_crate3_truck1_depot0
@@ -7574,15 +6876,13 @@
 			(in crate3 truck1)
 		)
 		:effect (and
-			(and
-				(not (in crate3 truck1))
-				(not (available hoist0))
-				(lifting hoist0 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate3 truck1))
+			(not (available hoist0))
+			(lifting hoist0 crate3)
 		)
 	)
 	(:action unload_hoist0_crate4_truck0_depot0
@@ -7593,15 +6893,13 @@
 			(in crate4 truck0)
 		)
 		:effect (and
-			(and
-				(not (in crate4 truck0))
-				(not (available hoist0))
-				(lifting hoist0 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate4 truck0))
+			(not (available hoist0))
+			(lifting hoist0 crate4)
 		)
 	)
 	(:action unload_hoist0_crate4_truck1_depot0
@@ -7612,15 +6910,13 @@
 			(in crate4 truck1)
 		)
 		:effect (and
-			(and
-				(not (in crate4 truck1))
-				(not (available hoist0))
-				(lifting hoist0 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate4 truck1))
+			(not (available hoist0))
+			(lifting hoist0 crate4)
 		)
 	)
 	(:action unload_hoist0_crate5_truck0_depot0
@@ -7631,15 +6927,13 @@
 			(in crate5 truck0)
 		)
 		:effect (and
-			(and
-				(not (in crate5 truck0))
-				(not (available hoist0))
-				(lifting hoist0 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate5 truck0))
+			(not (available hoist0))
+			(lifting hoist0 crate5)
 		)
 	)
 	(:action unload_hoist0_crate5_truck1_depot0
@@ -7650,15 +6944,13 @@
 			(in crate5 truck1)
 		)
 		:effect (and
-			(and
-				(not (in crate5 truck1))
-				(not (available hoist0))
-				(lifting hoist0 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate5 truck1))
+			(not (available hoist0))
+			(lifting hoist0 crate5)
 		)
 	)
 	(:action unload_hoist1_crate0_truck0_depot1
@@ -7669,15 +6961,13 @@
 			(in crate0 truck0)
 		)
 		:effect (and
-			(and
-				(not (in crate0 truck0))
-				(not (available hoist1))
-				(lifting hoist1 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate0 truck0))
+			(not (available hoist1))
+			(lifting hoist1 crate0)
 		)
 	)
 	(:action unload_hoist1_crate0_truck1_depot1
@@ -7688,15 +6978,13 @@
 			(in crate0 truck1)
 		)
 		:effect (and
-			(and
-				(not (in crate0 truck1))
-				(not (available hoist1))
-				(lifting hoist1 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate0 truck1))
+			(not (available hoist1))
+			(lifting hoist1 crate0)
 		)
 	)
 	(:action unload_hoist1_crate1_truck0_depot1
@@ -7707,15 +6995,13 @@
 			(in crate1 truck0)
 		)
 		:effect (and
-			(and
-				(not (in crate1 truck0))
-				(not (available hoist1))
-				(lifting hoist1 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate1 truck0))
+			(not (available hoist1))
+			(lifting hoist1 crate1)
 		)
 	)
 	(:action unload_hoist1_crate1_truck1_depot1
@@ -7726,15 +7012,13 @@
 			(in crate1 truck1)
 		)
 		:effect (and
-			(and
-				(not (in crate1 truck1))
-				(not (available hoist1))
-				(lifting hoist1 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate1 truck1))
+			(not (available hoist1))
+			(lifting hoist1 crate1)
 		)
 	)
 	(:action unload_hoist1_crate2_truck0_depot1
@@ -7745,15 +7029,13 @@
 			(in crate2 truck0)
 		)
 		:effect (and
-			(and
-				(not (in crate2 truck0))
-				(not (available hoist1))
-				(lifting hoist1 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate2 truck0))
+			(not (available hoist1))
+			(lifting hoist1 crate2)
 		)
 	)
 	(:action unload_hoist1_crate2_truck1_depot1
@@ -7764,15 +7046,13 @@
 			(in crate2 truck1)
 		)
 		:effect (and
-			(and
-				(not (in crate2 truck1))
-				(not (available hoist1))
-				(lifting hoist1 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate2 truck1))
+			(not (available hoist1))
+			(lifting hoist1 crate2)
 		)
 	)
 	(:action unload_hoist1_crate3_truck0_depot1
@@ -7783,15 +7063,13 @@
 			(in crate3 truck0)
 		)
 		:effect (and
-			(and
-				(not (in crate3 truck0))
-				(not (available hoist1))
-				(lifting hoist1 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate3 truck0))
+			(not (available hoist1))
+			(lifting hoist1 crate3)
 		)
 	)
 	(:action unload_hoist1_crate3_truck1_depot1
@@ -7802,15 +7080,13 @@
 			(in crate3 truck1)
 		)
 		:effect (and
-			(and
-				(not (in crate3 truck1))
-				(not (available hoist1))
-				(lifting hoist1 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate3 truck1))
+			(not (available hoist1))
+			(lifting hoist1 crate3)
 		)
 	)
 	(:action unload_hoist1_crate4_truck0_depot1
@@ -7821,15 +7097,13 @@
 			(in crate4 truck0)
 		)
 		:effect (and
-			(and
-				(not (in crate4 truck0))
-				(not (available hoist1))
-				(lifting hoist1 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate4 truck0))
+			(not (available hoist1))
+			(lifting hoist1 crate4)
 		)
 	)
 	(:action unload_hoist1_crate4_truck1_depot1
@@ -7840,15 +7114,13 @@
 			(in crate4 truck1)
 		)
 		:effect (and
-			(and
-				(not (in crate4 truck1))
-				(not (available hoist1))
-				(lifting hoist1 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate4 truck1))
+			(not (available hoist1))
+			(lifting hoist1 crate4)
 		)
 	)
 	(:action unload_hoist1_crate5_truck0_depot1
@@ -7859,15 +7131,13 @@
 			(in crate5 truck0)
 		)
 		:effect (and
-			(and
-				(not (in crate5 truck0))
-				(not (available hoist1))
-				(lifting hoist1 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate5 truck0))
+			(not (available hoist1))
+			(lifting hoist1 crate5)
 		)
 	)
 	(:action unload_hoist1_crate5_truck1_depot1
@@ -7878,15 +7148,13 @@
 			(in crate5 truck1)
 		)
 		:effect (and
-			(and
-				(not (in crate5 truck1))
-				(not (available hoist1))
-				(lifting hoist1 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate5 truck1))
+			(not (available hoist1))
+			(lifting hoist1 crate5)
 		)
 	)
 	(:action unload_hoist2_crate0_truck0_distributor0
@@ -7897,15 +7165,13 @@
 			(in crate0 truck0)
 		)
 		:effect (and
-			(and
-				(not (in crate0 truck0))
-				(not (available hoist2))
-				(lifting hoist2 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate0 truck0))
+			(not (available hoist2))
+			(lifting hoist2 crate0)
 		)
 	)
 	(:action unload_hoist2_crate0_truck1_distributor0
@@ -7916,15 +7182,13 @@
 			(in crate0 truck1)
 		)
 		:effect (and
-			(and
-				(not (in crate0 truck1))
-				(not (available hoist2))
-				(lifting hoist2 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate0 truck1))
+			(not (available hoist2))
+			(lifting hoist2 crate0)
 		)
 	)
 	(:action unload_hoist2_crate1_truck0_distributor0
@@ -7935,15 +7199,13 @@
 			(in crate1 truck0)
 		)
 		:effect (and
-			(and
-				(not (in crate1 truck0))
-				(not (available hoist2))
-				(lifting hoist2 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate1 truck0))
+			(not (available hoist2))
+			(lifting hoist2 crate1)
 		)
 	)
 	(:action unload_hoist2_crate1_truck1_distributor0
@@ -7954,15 +7216,13 @@
 			(in crate1 truck1)
 		)
 		:effect (and
-			(and
-				(not (in crate1 truck1))
-				(not (available hoist2))
-				(lifting hoist2 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate1 truck1))
+			(not (available hoist2))
+			(lifting hoist2 crate1)
 		)
 	)
 	(:action unload_hoist2_crate2_truck0_distributor0
@@ -7973,15 +7233,13 @@
 			(in crate2 truck0)
 		)
 		:effect (and
-			(and
-				(not (in crate2 truck0))
-				(not (available hoist2))
-				(lifting hoist2 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate2 truck0))
+			(not (available hoist2))
+			(lifting hoist2 crate2)
 		)
 	)
 	(:action unload_hoist2_crate2_truck1_distributor0
@@ -7992,15 +7250,13 @@
 			(in crate2 truck1)
 		)
 		:effect (and
-			(and
-				(not (in crate2 truck1))
-				(not (available hoist2))
-				(lifting hoist2 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate2 truck1))
+			(not (available hoist2))
+			(lifting hoist2 crate2)
 		)
 	)
 	(:action unload_hoist2_crate3_truck0_distributor0
@@ -8011,15 +7267,13 @@
 			(in crate3 truck0)
 		)
 		:effect (and
-			(and
-				(not (in crate3 truck0))
-				(not (available hoist2))
-				(lifting hoist2 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate3 truck0))
+			(not (available hoist2))
+			(lifting hoist2 crate3)
 		)
 	)
 	(:action unload_hoist2_crate3_truck1_distributor0
@@ -8030,15 +7284,13 @@
 			(in crate3 truck1)
 		)
 		:effect (and
-			(and
-				(not (in crate3 truck1))
-				(not (available hoist2))
-				(lifting hoist2 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate3 truck1))
+			(not (available hoist2))
+			(lifting hoist2 crate3)
 		)
 	)
 	(:action unload_hoist2_crate4_truck0_distributor0
@@ -8049,15 +7301,13 @@
 			(in crate4 truck0)
 		)
 		:effect (and
-			(and
-				(not (in crate4 truck0))
-				(not (available hoist2))
-				(lifting hoist2 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate4 truck0))
+			(not (available hoist2))
+			(lifting hoist2 crate4)
 		)
 	)
 	(:action unload_hoist2_crate4_truck1_distributor0
@@ -8068,15 +7318,13 @@
 			(in crate4 truck1)
 		)
 		:effect (and
-			(and
-				(not (in crate4 truck1))
-				(not (available hoist2))
-				(lifting hoist2 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate4 truck1))
+			(not (available hoist2))
+			(lifting hoist2 crate4)
 		)
 	)
 	(:action unload_hoist2_crate5_truck0_distributor0
@@ -8087,15 +7335,13 @@
 			(in crate5 truck0)
 		)
 		:effect (and
-			(and
-				(not (in crate5 truck0))
-				(not (available hoist2))
-				(lifting hoist2 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate5 truck0))
+			(not (available hoist2))
+			(lifting hoist2 crate5)
 		)
 	)
 	(:action unload_hoist2_crate5_truck1_distributor0
@@ -8106,15 +7352,13 @@
 			(in crate5 truck1)
 		)
 		:effect (and
-			(and
-				(not (in crate5 truck1))
-				(not (available hoist2))
-				(lifting hoist2 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in crate5 truck1))
+			(not (available hoist2))
+			(lifting hoist2 crate5)
 		)
 	)
 	(:action observe0_lift_hoist1_crate5_pallet1_depot1
@@ -8127,19 +7371,17 @@
 			(clear crate5)
 		)
 		:effect (and
-			(and
-				(observation0)
-				(not (at crate5 depot1))
-				(lifting hoist1 crate5)
-				(not (clear crate5))
-				(not (available hoist1))
-				(clear pallet1)
-				(not (on crate5 pallet1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation0)
+			(not (at crate5 depot1))
+			(lifting hoist1 crate5)
+			(not (clear crate5))
+			(not (available hoist1))
+			(clear pallet1)
+			(not (on crate5 pallet1))
 		)
 	)
 	(:action observe1_load_hoist1_crate5_truck0_depot1
@@ -8151,16 +7393,14 @@
 			(not (observation1))
 		)
 		:effect (and
-			(and
-				(observation1)
-				(not (lifting hoist1 crate5))
-				(in crate5 truck0)
-				(available hoist1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation1)
+			(not (lifting hoist1 crate5))
+			(in crate5 truck0)
+			(available hoist1)
 		)
 	)
 	(:action observe2_drive_truck0_depot1_depot0
@@ -8171,15 +7411,13 @@
 			(not (observation2))
 		)
 		:effect (and
-			(and
-				(observation2)
-				(not (at truck0 depot1))
-				(at truck0 depot0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation2)
+			(not (at truck0 depot1))
+			(at truck0 depot0)
 		)
 	)
 	(:action observe3_lift_hoist0_crate4_crate3_depot0
@@ -8193,19 +7431,17 @@
 			(not (observation3))
 		)
 		:effect (and
-			(and
-				(observation3)
-				(not (at crate4 depot0))
-				(lifting hoist0 crate4)
-				(not (clear crate4))
-				(not (available hoist0))
-				(clear crate3)
-				(not (on crate4 crate3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation3)
+			(not (at crate4 depot0))
+			(lifting hoist0 crate4)
+			(not (clear crate4))
+			(not (available hoist0))
+			(clear crate3)
+			(not (on crate4 crate3))
 		)
 	)
 	(:action observe4_load_hoist0_crate4_truck0_depot0
@@ -8217,16 +7453,14 @@
 			(not (observation4))
 		)
 		:effect (and
-			(and
-				(observation4)
-				(not (lifting hoist0 crate4))
-				(in crate4 truck0)
-				(available hoist0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation4)
+			(not (lifting hoist0 crate4))
+			(in crate4 truck0)
+			(available hoist0)
 		)
 	)
 	(:action observe5_lift_hoist0_crate3_crate2_depot0
@@ -8240,19 +7474,17 @@
 			(not (observation5))
 		)
 		:effect (and
-			(and
-				(observation5)
-				(not (at crate3 depot0))
-				(lifting hoist0 crate3)
-				(not (clear crate3))
-				(not (available hoist0))
-				(clear crate2)
-				(not (on crate3 crate2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation5)
+			(not (at crate3 depot0))
+			(lifting hoist0 crate3)
+			(not (clear crate3))
+			(not (available hoist0))
+			(clear crate2)
+			(not (on crate3 crate2))
 		)
 	)
 	(:action observe6_load_hoist0_crate3_truck0_depot0
@@ -8264,16 +7496,14 @@
 			(not (observation6))
 		)
 		:effect (and
-			(and
-				(observation6)
-				(not (lifting hoist0 crate3))
-				(in crate3 truck0)
-				(available hoist0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation6)
+			(not (lifting hoist0 crate3))
+			(in crate3 truck0)
+			(available hoist0)
 		)
 	)
 	(:action observe7_lift_hoist0_crate2_crate1_depot0
@@ -8287,19 +7517,17 @@
 			(not (observation7))
 		)
 		:effect (and
-			(and
-				(observation7)
-				(not (at crate2 depot0))
-				(lifting hoist0 crate2)
-				(not (clear crate2))
-				(not (available hoist0))
-				(clear crate1)
-				(not (on crate2 crate1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation7)
+			(not (at crate2 depot0))
+			(lifting hoist0 crate2)
+			(not (clear crate2))
+			(not (available hoist0))
+			(clear crate1)
+			(not (on crate2 crate1))
 		)
 	)
 	(:action observe8_load_hoist0_crate2_truck0_depot0
@@ -8311,16 +7539,14 @@
 			(not (observation8))
 		)
 		:effect (and
-			(and
-				(observation8)
-				(not (lifting hoist0 crate2))
-				(in crate2 truck0)
-				(available hoist0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation8)
+			(not (lifting hoist0 crate2))
+			(in crate2 truck0)
+			(available hoist0)
 		)
 	)
 	(:action observe9_lift_hoist0_crate1_pallet0_depot0
@@ -8334,19 +7560,17 @@
 			(not (observation9))
 		)
 		:effect (and
-			(and
-				(observation9)
-				(not (at crate1 depot0))
-				(lifting hoist0 crate1)
-				(not (clear crate1))
-				(not (available hoist0))
-				(clear pallet0)
-				(not (on crate1 pallet0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation9)
+			(not (at crate1 depot0))
+			(lifting hoist0 crate1)
+			(not (clear crate1))
+			(not (available hoist0))
+			(clear pallet0)
+			(not (on crate1 pallet0))
 		)
 	)
 	(:action observe10_load_hoist0_crate1_truck0_depot0
@@ -8358,16 +7582,14 @@
 			(not (observation10))
 		)
 		:effect (and
-			(and
-				(observation10)
-				(not (lifting hoist0 crate1))
-				(in crate1 truck0)
-				(available hoist0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation10)
+			(not (lifting hoist0 crate1))
+			(in crate1 truck0)
+			(available hoist0)
 		)
 	)
 	(:action observe11_unload_hoist0_crate2_truck0_depot0
@@ -8380,16 +7602,14 @@
 			(not (observation11))
 		)
 		:effect (and
-			(and
-				(observation11)
-				(not (in crate2 truck0))
-				(not (available hoist0))
-				(lifting hoist0 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation11)
+			(not (in crate2 truck0))
+			(not (available hoist0))
+			(lifting hoist0 crate2)
 		)
 	)
 	(:action observe12_drop_hoist0_crate2_pallet0_depot0
@@ -8401,19 +7621,17 @@
 			(not (observation12))
 		)
 		:effect (and
-			(and
-				(observation12)
-				(available hoist0)
-				(not (lifting hoist0 crate2))
-				(at crate2 depot0)
-				(not (clear pallet0))
-				(clear crate2)
-				(on crate2 pallet0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation12)
+			(available hoist0)
+			(not (lifting hoist0 crate2))
+			(at crate2 depot0)
+			(not (clear pallet0))
+			(clear crate2)
+			(on crate2 pallet0)
 		)
 	)
 	(:action observe13_unload_hoist0_crate5_truck0_depot0
@@ -8426,16 +7644,14 @@
 			(not (observation13))
 		)
 		:effect (and
-			(and
-				(observation13)
-				(not (in crate5 truck0))
-				(not (available hoist0))
-				(lifting hoist0 crate5)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation13)
+			(not (in crate5 truck0))
+			(not (available hoist0))
+			(lifting hoist0 crate5)
 		)
 	)
 	(:action observe14_drive_truck0_depot0_distributor0
@@ -8446,15 +7662,13 @@
 			(not (observation14))
 		)
 		:effect (and
-			(and
-				(observation14)
-				(not (at truck0 depot0))
-				(at truck0 distributor0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation14)
+			(not (at truck0 depot0))
+			(at truck0 distributor0)
 		)
 	)
 	(:action observe15_lift_hoist2_crate0_pallet2_distributor0
@@ -8468,19 +7682,17 @@
 			(not (observation15))
 		)
 		:effect (and
-			(and
-				(observation15)
-				(not (at crate0 distributor0))
-				(lifting hoist2 crate0)
-				(not (clear crate0))
-				(not (available hoist2))
-				(clear pallet2)
-				(not (on crate0 pallet2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation15)
+			(not (at crate0 distributor0))
+			(lifting hoist2 crate0)
+			(not (clear crate0))
+			(not (available hoist2))
+			(clear pallet2)
+			(not (on crate0 pallet2))
 		)
 	)
 	(:action observe16_load_hoist2_crate0_truck0_distributor0
@@ -8492,16 +7704,14 @@
 			(not (observation16))
 		)
 		:effect (and
-			(and
-				(observation16)
-				(not (lifting hoist2 crate0))
-				(in crate0 truck0)
-				(available hoist2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation16)
+			(not (lifting hoist2 crate0))
+			(in crate0 truck0)
+			(available hoist2)
 		)
 	)
 	(:action observe17_unload_hoist2_crate3_truck0_distributor0
@@ -8514,16 +7724,14 @@
 			(not (observation17))
 		)
 		:effect (and
-			(and
-				(observation17)
-				(not (in crate3 truck0))
-				(not (available hoist2))
-				(lifting hoist2 crate3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation17)
+			(not (in crate3 truck0))
+			(not (available hoist2))
+			(lifting hoist2 crate3)
 		)
 	)
 	(:action observe18_drive_truck0_distributor0_depot1
@@ -8534,15 +7742,13 @@
 			(not (observation18))
 		)
 		:effect (and
-			(and
-				(observation18)
-				(not (at truck0 distributor0))
-				(at truck0 depot1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation18)
+			(not (at truck0 distributor0))
+			(at truck0 depot1)
 		)
 	)
 	(:action observe19_unload_hoist1_crate4_truck0_depot1
@@ -8555,16 +7761,14 @@
 			(not (observation19))
 		)
 		:effect (and
-			(and
-				(observation19)
-				(not (in crate4 truck0))
-				(not (available hoist1))
-				(lifting hoist1 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation19)
+			(not (in crate4 truck0))
+			(not (available hoist1))
+			(lifting hoist1 crate4)
 		)
 	)
 	(:action observe20_drop_hoist1_crate4_pallet1_depot1
@@ -8576,19 +7780,17 @@
 			(not (observation20))
 		)
 		:effect (and
-			(and
-				(observation20)
-				(available hoist1)
-				(not (lifting hoist1 crate4))
-				(at crate4 depot1)
-				(not (clear pallet1))
-				(clear crate4)
-				(on crate4 pallet1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation20)
+			(available hoist1)
+			(not (lifting hoist1 crate4))
+			(at crate4 depot1)
+			(not (clear pallet1))
+			(clear crate4)
+			(on crate4 pallet1)
 		)
 	)
 	(:action observe21_unload_hoist1_crate1_truck0_depot1
@@ -8601,16 +7803,14 @@
 			(not (observation21))
 		)
 		:effect (and
-			(and
-				(observation21)
-				(not (in crate1 truck0))
-				(not (available hoist1))
-				(lifting hoist1 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation21)
+			(not (in crate1 truck0))
+			(not (available hoist1))
+			(lifting hoist1 crate1)
 		)
 	)
 	(:action observe22_drop_hoist1_crate1_crate4_depot1
@@ -8623,19 +7823,17 @@
 			(not (observation22))
 		)
 		:effect (and
-			(and
-				(observation22)
-				(available hoist1)
-				(not (lifting hoist1 crate1))
-				(at crate1 depot1)
-				(not (clear crate4))
-				(clear crate1)
-				(on crate1 crate4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation22)
+			(available hoist1)
+			(not (lifting hoist1 crate1))
+			(at crate1 depot1)
+			(not (clear crate4))
+			(clear crate1)
+			(on crate1 crate4)
 		)
 	)
 	(:action observe23_unload_hoist1_crate0_truck0_depot1
@@ -8648,16 +7846,14 @@
 			(not (observation23))
 		)
 		:effect (and
-			(and
-				(observation23)
-				(not (in crate0 truck0))
-				(not (available hoist1))
-				(lifting hoist1 crate0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation23)
+			(not (in crate0 truck0))
+			(not (available hoist1))
+			(lifting hoist1 crate0)
 		)
 	)
 	(:action observe24_drop_hoist1_crate0_crate1_depot1
@@ -8670,19 +7866,17 @@
 			(not (observation24))
 		)
 		:effect (and
-			(and
-				(observation24)
-				(available hoist1)
-				(not (lifting hoist1 crate0))
-				(at crate0 depot1)
-				(not (clear crate1))
-				(clear crate0)
-				(on crate0 crate1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation24)
+			(available hoist1)
+			(not (lifting hoist1 crate0))
+			(at crate0 depot1)
+			(not (clear crate1))
+			(clear crate0)
+			(on crate0 crate1)
 		)
 	)
 	(:action observe25_drop_hoist2_crate3_pallet2_distributor0
@@ -8694,19 +7888,17 @@
 			(not (observation25))
 		)
 		:effect (and
-			(and
-				(observation25)
-				(available hoist2)
-				(not (lifting hoist2 crate3))
-				(at crate3 distributor0)
-				(not (clear pallet2))
-				(clear crate3)
-				(on crate3 pallet2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation25)
+			(available hoist2)
+			(not (lifting hoist2 crate3))
+			(at crate3 distributor0)
+			(not (clear pallet2))
+			(clear crate3)
+			(on crate3 pallet2)
 		)
 	)
 	(:action observe26_drop_hoist0_crate5_crate2_depot0
@@ -8719,19 +7911,17 @@
 			(not (observation26))
 		)
 		:effect (and
-			(and
-				(observation26)
-				(available hoist0)
-				(not (lifting hoist0 crate5))
-				(at crate5 depot0)
-				(not (clear crate2))
-				(clear crate5)
-				(on crate5 crate2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation26)
+			(available hoist0)
+			(not (lifting hoist0 crate5))
+			(at crate5 depot0)
+			(not (clear crate2))
+			(clear crate5)
+			(on crate5 crate2)
 		)
 	)
 )
