@@ -31,8296 +31,7112 @@
 		:parameters ()
 		:precondition (pointing satellite0 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation0)
-				(not (pointing satellite0 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation0)
+			(not (pointing satellite0 groundstation0))
 		)
 	)
 	(:action turn_to_satellite0_groundstation0_groundstation2
 		:parameters ()
 		:precondition (pointing satellite0 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation0)
-				(not (pointing satellite0 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation0)
+			(not (pointing satellite0 groundstation2))
 		)
 	)
 	(:action turn_to_satellite0_groundstation0_groundstation4
 		:parameters ()
 		:precondition (pointing satellite0 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation0)
-				(not (pointing satellite0 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation0)
+			(not (pointing satellite0 groundstation4))
 		)
 	)
 	(:action turn_to_satellite0_groundstation0_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite0 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation0)
-				(not (pointing satellite0 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation0)
+			(not (pointing satellite0 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite0_groundstation0_planet10
 		:parameters ()
 		:precondition (pointing satellite0 planet10)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation0)
-				(not (pointing satellite0 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation0)
+			(not (pointing satellite0 planet10))
 		)
 	)
 	(:action turn_to_satellite0_groundstation0_planet11
 		:parameters ()
 		:precondition (pointing satellite0 planet11)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation0)
-				(not (pointing satellite0 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation0)
+			(not (pointing satellite0 planet11))
 		)
 	)
 	(:action turn_to_satellite0_groundstation0_planet8
 		:parameters ()
 		:precondition (pointing satellite0 planet8)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation0)
-				(not (pointing satellite0 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation0)
+			(not (pointing satellite0 planet8))
 		)
 	)
 	(:action turn_to_satellite0_groundstation0_planet9
 		:parameters ()
 		:precondition (pointing satellite0 planet9)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation0)
-				(not (pointing satellite0 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation0)
+			(not (pointing satellite0 planet9))
 		)
 	)
 	(:action turn_to_satellite0_groundstation0_star1
 		:parameters ()
 		:precondition (pointing satellite0 star1)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation0)
-				(not (pointing satellite0 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation0)
+			(not (pointing satellite0 star1))
 		)
 	)
 	(:action turn_to_satellite0_groundstation0_star3
 		:parameters ()
 		:precondition (pointing satellite0 star3)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation0)
-				(not (pointing satellite0 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation0)
+			(not (pointing satellite0 star3))
 		)
 	)
 	(:action turn_to_satellite0_groundstation0_star6
 		:parameters ()
 		:precondition (pointing satellite0 star6)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation0)
-				(not (pointing satellite0 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation0)
+			(not (pointing satellite0 star6))
 		)
 	)
 	(:action turn_to_satellite0_groundstation0_star7
 		:parameters ()
 		:precondition (pointing satellite0 star7)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation0)
-				(not (pointing satellite0 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation0)
+			(not (pointing satellite0 star7))
 		)
 	)
 	(:action turn_to_satellite0_groundstation2_groundstation0
 		:parameters ()
 		:precondition (pointing satellite0 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation2)
-				(not (pointing satellite0 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation2)
+			(not (pointing satellite0 groundstation0))
 		)
 	)
 	(:action turn_to_satellite0_groundstation2_groundstation2
 		:parameters ()
 		:precondition (pointing satellite0 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation2)
-				(not (pointing satellite0 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation2)
+			(not (pointing satellite0 groundstation2))
 		)
 	)
 	(:action turn_to_satellite0_groundstation2_groundstation4
 		:parameters ()
 		:precondition (pointing satellite0 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation2)
-				(not (pointing satellite0 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation2)
+			(not (pointing satellite0 groundstation4))
 		)
 	)
 	(:action turn_to_satellite0_groundstation2_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite0 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation2)
-				(not (pointing satellite0 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation2)
+			(not (pointing satellite0 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite0_groundstation2_planet10
 		:parameters ()
 		:precondition (pointing satellite0 planet10)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation2)
-				(not (pointing satellite0 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation2)
+			(not (pointing satellite0 planet10))
 		)
 	)
 	(:action turn_to_satellite0_groundstation2_planet11
 		:parameters ()
 		:precondition (pointing satellite0 planet11)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation2)
-				(not (pointing satellite0 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation2)
+			(not (pointing satellite0 planet11))
 		)
 	)
 	(:action turn_to_satellite0_groundstation2_planet8
 		:parameters ()
 		:precondition (pointing satellite0 planet8)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation2)
-				(not (pointing satellite0 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation2)
+			(not (pointing satellite0 planet8))
 		)
 	)
 	(:action turn_to_satellite0_groundstation2_planet9
 		:parameters ()
 		:precondition (pointing satellite0 planet9)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation2)
-				(not (pointing satellite0 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation2)
+			(not (pointing satellite0 planet9))
 		)
 	)
 	(:action turn_to_satellite0_groundstation2_star1
 		:parameters ()
 		:precondition (pointing satellite0 star1)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation2)
-				(not (pointing satellite0 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation2)
+			(not (pointing satellite0 star1))
 		)
 	)
 	(:action turn_to_satellite0_groundstation2_star3
 		:parameters ()
 		:precondition (pointing satellite0 star3)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation2)
-				(not (pointing satellite0 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation2)
+			(not (pointing satellite0 star3))
 		)
 	)
 	(:action turn_to_satellite0_groundstation2_star6
 		:parameters ()
 		:precondition (pointing satellite0 star6)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation2)
-				(not (pointing satellite0 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation2)
+			(not (pointing satellite0 star6))
 		)
 	)
 	(:action turn_to_satellite0_groundstation2_star7
 		:parameters ()
 		:precondition (pointing satellite0 star7)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation2)
-				(not (pointing satellite0 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation2)
+			(not (pointing satellite0 star7))
 		)
 	)
 	(:action turn_to_satellite0_groundstation4_groundstation0
 		:parameters ()
 		:precondition (pointing satellite0 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation4)
-				(not (pointing satellite0 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation4)
+			(not (pointing satellite0 groundstation0))
 		)
 	)
 	(:action turn_to_satellite0_groundstation4_groundstation2
 		:parameters ()
 		:precondition (pointing satellite0 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation4)
-				(not (pointing satellite0 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation4)
+			(not (pointing satellite0 groundstation2))
 		)
 	)
 	(:action turn_to_satellite0_groundstation4_groundstation4
 		:parameters ()
 		:precondition (pointing satellite0 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation4)
-				(not (pointing satellite0 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation4)
+			(not (pointing satellite0 groundstation4))
 		)
 	)
 	(:action turn_to_satellite0_groundstation4_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite0 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation4)
-				(not (pointing satellite0 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation4)
+			(not (pointing satellite0 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite0_groundstation4_planet10
 		:parameters ()
 		:precondition (pointing satellite0 planet10)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation4)
-				(not (pointing satellite0 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation4)
+			(not (pointing satellite0 planet10))
 		)
 	)
 	(:action turn_to_satellite0_groundstation4_planet11
 		:parameters ()
 		:precondition (pointing satellite0 planet11)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation4)
-				(not (pointing satellite0 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation4)
+			(not (pointing satellite0 planet11))
 		)
 	)
 	(:action turn_to_satellite0_groundstation4_planet8
 		:parameters ()
 		:precondition (pointing satellite0 planet8)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation4)
-				(not (pointing satellite0 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation4)
+			(not (pointing satellite0 planet8))
 		)
 	)
 	(:action turn_to_satellite0_groundstation4_planet9
 		:parameters ()
 		:precondition (pointing satellite0 planet9)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation4)
-				(not (pointing satellite0 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation4)
+			(not (pointing satellite0 planet9))
 		)
 	)
 	(:action turn_to_satellite0_groundstation4_star1
 		:parameters ()
 		:precondition (pointing satellite0 star1)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation4)
-				(not (pointing satellite0 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation4)
+			(not (pointing satellite0 star1))
 		)
 	)
 	(:action turn_to_satellite0_groundstation4_star3
 		:parameters ()
 		:precondition (pointing satellite0 star3)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation4)
-				(not (pointing satellite0 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation4)
+			(not (pointing satellite0 star3))
 		)
 	)
 	(:action turn_to_satellite0_groundstation4_star6
 		:parameters ()
 		:precondition (pointing satellite0 star6)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation4)
-				(not (pointing satellite0 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation4)
+			(not (pointing satellite0 star6))
 		)
 	)
 	(:action turn_to_satellite0_groundstation4_star7
 		:parameters ()
 		:precondition (pointing satellite0 star7)
 		:effect (and
-			(and
-				(pointing satellite0 groundstation4)
-				(not (pointing satellite0 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 groundstation4)
+			(not (pointing satellite0 star7))
 		)
 	)
 	(:action turn_to_satellite0_phenomenon5_groundstation0
 		:parameters ()
 		:precondition (pointing satellite0 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite0 phenomenon5)
-				(not (pointing satellite0 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 phenomenon5)
+			(not (pointing satellite0 groundstation0))
 		)
 	)
 	(:action turn_to_satellite0_phenomenon5_groundstation2
 		:parameters ()
 		:precondition (pointing satellite0 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite0 phenomenon5)
-				(not (pointing satellite0 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 phenomenon5)
+			(not (pointing satellite0 groundstation2))
 		)
 	)
 	(:action turn_to_satellite0_phenomenon5_groundstation4
 		:parameters ()
 		:precondition (pointing satellite0 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite0 phenomenon5)
-				(not (pointing satellite0 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 phenomenon5)
+			(not (pointing satellite0 groundstation4))
 		)
 	)
 	(:action turn_to_satellite0_phenomenon5_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite0 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite0 phenomenon5)
-				(not (pointing satellite0 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 phenomenon5)
+			(not (pointing satellite0 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite0_phenomenon5_planet10
 		:parameters ()
 		:precondition (pointing satellite0 planet10)
 		:effect (and
-			(and
-				(pointing satellite0 phenomenon5)
-				(not (pointing satellite0 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 phenomenon5)
+			(not (pointing satellite0 planet10))
 		)
 	)
 	(:action turn_to_satellite0_phenomenon5_planet11
 		:parameters ()
 		:precondition (pointing satellite0 planet11)
 		:effect (and
-			(and
-				(pointing satellite0 phenomenon5)
-				(not (pointing satellite0 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 phenomenon5)
+			(not (pointing satellite0 planet11))
 		)
 	)
 	(:action turn_to_satellite0_phenomenon5_planet8
 		:parameters ()
 		:precondition (pointing satellite0 planet8)
 		:effect (and
-			(and
-				(pointing satellite0 phenomenon5)
-				(not (pointing satellite0 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 phenomenon5)
+			(not (pointing satellite0 planet8))
 		)
 	)
 	(:action turn_to_satellite0_phenomenon5_planet9
 		:parameters ()
 		:precondition (pointing satellite0 planet9)
 		:effect (and
-			(and
-				(pointing satellite0 phenomenon5)
-				(not (pointing satellite0 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 phenomenon5)
+			(not (pointing satellite0 planet9))
 		)
 	)
 	(:action turn_to_satellite0_phenomenon5_star1
 		:parameters ()
 		:precondition (pointing satellite0 star1)
 		:effect (and
-			(and
-				(pointing satellite0 phenomenon5)
-				(not (pointing satellite0 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 phenomenon5)
+			(not (pointing satellite0 star1))
 		)
 	)
 	(:action turn_to_satellite0_phenomenon5_star3
 		:parameters ()
 		:precondition (pointing satellite0 star3)
 		:effect (and
-			(and
-				(pointing satellite0 phenomenon5)
-				(not (pointing satellite0 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 phenomenon5)
+			(not (pointing satellite0 star3))
 		)
 	)
 	(:action turn_to_satellite0_phenomenon5_star6
 		:parameters ()
 		:precondition (pointing satellite0 star6)
 		:effect (and
-			(and
-				(pointing satellite0 phenomenon5)
-				(not (pointing satellite0 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 phenomenon5)
+			(not (pointing satellite0 star6))
 		)
 	)
 	(:action turn_to_satellite0_phenomenon5_star7
 		:parameters ()
 		:precondition (pointing satellite0 star7)
 		:effect (and
-			(and
-				(pointing satellite0 phenomenon5)
-				(not (pointing satellite0 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 phenomenon5)
+			(not (pointing satellite0 star7))
 		)
 	)
 	(:action turn_to_satellite0_planet10_groundstation0
 		:parameters ()
 		:precondition (pointing satellite0 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite0 planet10)
-				(not (pointing satellite0 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet10)
+			(not (pointing satellite0 groundstation0))
 		)
 	)
 	(:action turn_to_satellite0_planet10_groundstation2
 		:parameters ()
 		:precondition (pointing satellite0 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite0 planet10)
-				(not (pointing satellite0 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet10)
+			(not (pointing satellite0 groundstation2))
 		)
 	)
 	(:action turn_to_satellite0_planet10_groundstation4
 		:parameters ()
 		:precondition (pointing satellite0 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite0 planet10)
-				(not (pointing satellite0 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet10)
+			(not (pointing satellite0 groundstation4))
 		)
 	)
 	(:action turn_to_satellite0_planet10_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite0 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite0 planet10)
-				(not (pointing satellite0 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet10)
+			(not (pointing satellite0 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite0_planet10_planet10
 		:parameters ()
 		:precondition (pointing satellite0 planet10)
 		:effect (and
-			(and
-				(pointing satellite0 planet10)
-				(not (pointing satellite0 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet10)
+			(not (pointing satellite0 planet10))
 		)
 	)
 	(:action turn_to_satellite0_planet10_planet11
 		:parameters ()
 		:precondition (pointing satellite0 planet11)
 		:effect (and
-			(and
-				(pointing satellite0 planet10)
-				(not (pointing satellite0 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet10)
+			(not (pointing satellite0 planet11))
 		)
 	)
 	(:action turn_to_satellite0_planet10_planet8
 		:parameters ()
 		:precondition (pointing satellite0 planet8)
 		:effect (and
-			(and
-				(pointing satellite0 planet10)
-				(not (pointing satellite0 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet10)
+			(not (pointing satellite0 planet8))
 		)
 	)
 	(:action turn_to_satellite0_planet10_planet9
 		:parameters ()
 		:precondition (pointing satellite0 planet9)
 		:effect (and
-			(and
-				(pointing satellite0 planet10)
-				(not (pointing satellite0 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet10)
+			(not (pointing satellite0 planet9))
 		)
 	)
 	(:action turn_to_satellite0_planet10_star1
 		:parameters ()
 		:precondition (pointing satellite0 star1)
 		:effect (and
-			(and
-				(pointing satellite0 planet10)
-				(not (pointing satellite0 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet10)
+			(not (pointing satellite0 star1))
 		)
 	)
 	(:action turn_to_satellite0_planet10_star3
 		:parameters ()
 		:precondition (pointing satellite0 star3)
 		:effect (and
-			(and
-				(pointing satellite0 planet10)
-				(not (pointing satellite0 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet10)
+			(not (pointing satellite0 star3))
 		)
 	)
 	(:action turn_to_satellite0_planet10_star6
 		:parameters ()
 		:precondition (pointing satellite0 star6)
 		:effect (and
-			(and
-				(pointing satellite0 planet10)
-				(not (pointing satellite0 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet10)
+			(not (pointing satellite0 star6))
 		)
 	)
 	(:action turn_to_satellite0_planet10_star7
 		:parameters ()
 		:precondition (pointing satellite0 star7)
 		:effect (and
-			(and
-				(pointing satellite0 planet10)
-				(not (pointing satellite0 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet10)
+			(not (pointing satellite0 star7))
 		)
 	)
 	(:action turn_to_satellite0_planet11_groundstation0
 		:parameters ()
 		:precondition (pointing satellite0 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite0 planet11)
-				(not (pointing satellite0 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet11)
+			(not (pointing satellite0 groundstation0))
 		)
 	)
 	(:action turn_to_satellite0_planet11_groundstation2
 		:parameters ()
 		:precondition (pointing satellite0 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite0 planet11)
-				(not (pointing satellite0 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet11)
+			(not (pointing satellite0 groundstation2))
 		)
 	)
 	(:action turn_to_satellite0_planet11_groundstation4
 		:parameters ()
 		:precondition (pointing satellite0 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite0 planet11)
-				(not (pointing satellite0 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet11)
+			(not (pointing satellite0 groundstation4))
 		)
 	)
 	(:action turn_to_satellite0_planet11_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite0 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite0 planet11)
-				(not (pointing satellite0 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet11)
+			(not (pointing satellite0 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite0_planet11_planet10
 		:parameters ()
 		:precondition (pointing satellite0 planet10)
 		:effect (and
-			(and
-				(pointing satellite0 planet11)
-				(not (pointing satellite0 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet11)
+			(not (pointing satellite0 planet10))
 		)
 	)
 	(:action turn_to_satellite0_planet11_planet11
 		:parameters ()
 		:precondition (pointing satellite0 planet11)
 		:effect (and
-			(and
-				(pointing satellite0 planet11)
-				(not (pointing satellite0 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet11)
+			(not (pointing satellite0 planet11))
 		)
 	)
 	(:action turn_to_satellite0_planet11_planet8
 		:parameters ()
 		:precondition (pointing satellite0 planet8)
 		:effect (and
-			(and
-				(pointing satellite0 planet11)
-				(not (pointing satellite0 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet11)
+			(not (pointing satellite0 planet8))
 		)
 	)
 	(:action turn_to_satellite0_planet11_planet9
 		:parameters ()
 		:precondition (pointing satellite0 planet9)
 		:effect (and
-			(and
-				(pointing satellite0 planet11)
-				(not (pointing satellite0 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet11)
+			(not (pointing satellite0 planet9))
 		)
 	)
 	(:action turn_to_satellite0_planet11_star1
 		:parameters ()
 		:precondition (pointing satellite0 star1)
 		:effect (and
-			(and
-				(pointing satellite0 planet11)
-				(not (pointing satellite0 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet11)
+			(not (pointing satellite0 star1))
 		)
 	)
 	(:action turn_to_satellite0_planet11_star3
 		:parameters ()
 		:precondition (pointing satellite0 star3)
 		:effect (and
-			(and
-				(pointing satellite0 planet11)
-				(not (pointing satellite0 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet11)
+			(not (pointing satellite0 star3))
 		)
 	)
 	(:action turn_to_satellite0_planet11_star6
 		:parameters ()
 		:precondition (pointing satellite0 star6)
 		:effect (and
-			(and
-				(pointing satellite0 planet11)
-				(not (pointing satellite0 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet11)
+			(not (pointing satellite0 star6))
 		)
 	)
 	(:action turn_to_satellite0_planet11_star7
 		:parameters ()
 		:precondition (pointing satellite0 star7)
 		:effect (and
-			(and
-				(pointing satellite0 planet11)
-				(not (pointing satellite0 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet11)
+			(not (pointing satellite0 star7))
 		)
 	)
 	(:action turn_to_satellite0_planet8_groundstation0
 		:parameters ()
 		:precondition (pointing satellite0 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite0 planet8)
-				(not (pointing satellite0 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet8)
+			(not (pointing satellite0 groundstation0))
 		)
 	)
 	(:action turn_to_satellite0_planet8_groundstation2
 		:parameters ()
 		:precondition (pointing satellite0 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite0 planet8)
-				(not (pointing satellite0 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet8)
+			(not (pointing satellite0 groundstation2))
 		)
 	)
 	(:action turn_to_satellite0_planet8_groundstation4
 		:parameters ()
 		:precondition (pointing satellite0 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite0 planet8)
-				(not (pointing satellite0 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet8)
+			(not (pointing satellite0 groundstation4))
 		)
 	)
 	(:action turn_to_satellite0_planet8_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite0 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite0 planet8)
-				(not (pointing satellite0 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet8)
+			(not (pointing satellite0 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite0_planet8_planet10
 		:parameters ()
 		:precondition (pointing satellite0 planet10)
 		:effect (and
-			(and
-				(pointing satellite0 planet8)
-				(not (pointing satellite0 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet8)
+			(not (pointing satellite0 planet10))
 		)
 	)
 	(:action turn_to_satellite0_planet8_planet11
 		:parameters ()
 		:precondition (pointing satellite0 planet11)
 		:effect (and
-			(and
-				(pointing satellite0 planet8)
-				(not (pointing satellite0 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet8)
+			(not (pointing satellite0 planet11))
 		)
 	)
 	(:action turn_to_satellite0_planet8_planet8
 		:parameters ()
 		:precondition (pointing satellite0 planet8)
 		:effect (and
-			(and
-				(pointing satellite0 planet8)
-				(not (pointing satellite0 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet8)
+			(not (pointing satellite0 planet8))
 		)
 	)
 	(:action turn_to_satellite0_planet8_planet9
 		:parameters ()
 		:precondition (pointing satellite0 planet9)
 		:effect (and
-			(and
-				(pointing satellite0 planet8)
-				(not (pointing satellite0 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet8)
+			(not (pointing satellite0 planet9))
 		)
 	)
 	(:action turn_to_satellite0_planet8_star1
 		:parameters ()
 		:precondition (pointing satellite0 star1)
 		:effect (and
-			(and
-				(pointing satellite0 planet8)
-				(not (pointing satellite0 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet8)
+			(not (pointing satellite0 star1))
 		)
 	)
 	(:action turn_to_satellite0_planet8_star3
 		:parameters ()
 		:precondition (pointing satellite0 star3)
 		:effect (and
-			(and
-				(pointing satellite0 planet8)
-				(not (pointing satellite0 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet8)
+			(not (pointing satellite0 star3))
 		)
 	)
 	(:action turn_to_satellite0_planet8_star6
 		:parameters ()
 		:precondition (pointing satellite0 star6)
 		:effect (and
-			(and
-				(pointing satellite0 planet8)
-				(not (pointing satellite0 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet8)
+			(not (pointing satellite0 star6))
 		)
 	)
 	(:action turn_to_satellite0_planet8_star7
 		:parameters ()
 		:precondition (pointing satellite0 star7)
 		:effect (and
-			(and
-				(pointing satellite0 planet8)
-				(not (pointing satellite0 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet8)
+			(not (pointing satellite0 star7))
 		)
 	)
 	(:action turn_to_satellite0_planet9_groundstation0
 		:parameters ()
 		:precondition (pointing satellite0 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite0 planet9)
-				(not (pointing satellite0 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet9)
+			(not (pointing satellite0 groundstation0))
 		)
 	)
 	(:action turn_to_satellite0_planet9_groundstation2
 		:parameters ()
 		:precondition (pointing satellite0 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite0 planet9)
-				(not (pointing satellite0 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet9)
+			(not (pointing satellite0 groundstation2))
 		)
 	)
 	(:action turn_to_satellite0_planet9_groundstation4
 		:parameters ()
 		:precondition (pointing satellite0 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite0 planet9)
-				(not (pointing satellite0 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet9)
+			(not (pointing satellite0 groundstation4))
 		)
 	)
 	(:action turn_to_satellite0_planet9_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite0 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite0 planet9)
-				(not (pointing satellite0 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet9)
+			(not (pointing satellite0 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite0_planet9_planet10
 		:parameters ()
 		:precondition (pointing satellite0 planet10)
 		:effect (and
-			(and
-				(pointing satellite0 planet9)
-				(not (pointing satellite0 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet9)
+			(not (pointing satellite0 planet10))
 		)
 	)
 	(:action turn_to_satellite0_planet9_planet11
 		:parameters ()
 		:precondition (pointing satellite0 planet11)
 		:effect (and
-			(and
-				(pointing satellite0 planet9)
-				(not (pointing satellite0 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet9)
+			(not (pointing satellite0 planet11))
 		)
 	)
 	(:action turn_to_satellite0_planet9_planet8
 		:parameters ()
 		:precondition (pointing satellite0 planet8)
 		:effect (and
-			(and
-				(pointing satellite0 planet9)
-				(not (pointing satellite0 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet9)
+			(not (pointing satellite0 planet8))
 		)
 	)
 	(:action turn_to_satellite0_planet9_planet9
 		:parameters ()
 		:precondition (pointing satellite0 planet9)
 		:effect (and
-			(and
-				(pointing satellite0 planet9)
-				(not (pointing satellite0 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet9)
+			(not (pointing satellite0 planet9))
 		)
 	)
 	(:action turn_to_satellite0_planet9_star1
 		:parameters ()
 		:precondition (pointing satellite0 star1)
 		:effect (and
-			(and
-				(pointing satellite0 planet9)
-				(not (pointing satellite0 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet9)
+			(not (pointing satellite0 star1))
 		)
 	)
 	(:action turn_to_satellite0_planet9_star3
 		:parameters ()
 		:precondition (pointing satellite0 star3)
 		:effect (and
-			(and
-				(pointing satellite0 planet9)
-				(not (pointing satellite0 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet9)
+			(not (pointing satellite0 star3))
 		)
 	)
 	(:action turn_to_satellite0_planet9_star6
 		:parameters ()
 		:precondition (pointing satellite0 star6)
 		:effect (and
-			(and
-				(pointing satellite0 planet9)
-				(not (pointing satellite0 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet9)
+			(not (pointing satellite0 star6))
 		)
 	)
 	(:action turn_to_satellite0_planet9_star7
 		:parameters ()
 		:precondition (pointing satellite0 star7)
 		:effect (and
-			(and
-				(pointing satellite0 planet9)
-				(not (pointing satellite0 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 planet9)
+			(not (pointing satellite0 star7))
 		)
 	)
 	(:action turn_to_satellite0_star1_groundstation0
 		:parameters ()
 		:precondition (pointing satellite0 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite0 star1)
-				(not (pointing satellite0 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star1)
+			(not (pointing satellite0 groundstation0))
 		)
 	)
 	(:action turn_to_satellite0_star1_groundstation2
 		:parameters ()
 		:precondition (pointing satellite0 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite0 star1)
-				(not (pointing satellite0 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star1)
+			(not (pointing satellite0 groundstation2))
 		)
 	)
 	(:action turn_to_satellite0_star1_groundstation4
 		:parameters ()
 		:precondition (pointing satellite0 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite0 star1)
-				(not (pointing satellite0 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star1)
+			(not (pointing satellite0 groundstation4))
 		)
 	)
 	(:action turn_to_satellite0_star1_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite0 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite0 star1)
-				(not (pointing satellite0 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star1)
+			(not (pointing satellite0 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite0_star1_planet10
 		:parameters ()
 		:precondition (pointing satellite0 planet10)
 		:effect (and
-			(and
-				(pointing satellite0 star1)
-				(not (pointing satellite0 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star1)
+			(not (pointing satellite0 planet10))
 		)
 	)
 	(:action turn_to_satellite0_star1_planet11
 		:parameters ()
 		:precondition (pointing satellite0 planet11)
 		:effect (and
-			(and
-				(pointing satellite0 star1)
-				(not (pointing satellite0 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star1)
+			(not (pointing satellite0 planet11))
 		)
 	)
 	(:action turn_to_satellite0_star1_planet8
 		:parameters ()
 		:precondition (pointing satellite0 planet8)
 		:effect (and
-			(and
-				(pointing satellite0 star1)
-				(not (pointing satellite0 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star1)
+			(not (pointing satellite0 planet8))
 		)
 	)
 	(:action turn_to_satellite0_star1_planet9
 		:parameters ()
 		:precondition (pointing satellite0 planet9)
 		:effect (and
-			(and
-				(pointing satellite0 star1)
-				(not (pointing satellite0 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star1)
+			(not (pointing satellite0 planet9))
 		)
 	)
 	(:action turn_to_satellite0_star1_star1
 		:parameters ()
 		:precondition (pointing satellite0 star1)
 		:effect (and
-			(and
-				(pointing satellite0 star1)
-				(not (pointing satellite0 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star1)
+			(not (pointing satellite0 star1))
 		)
 	)
 	(:action turn_to_satellite0_star1_star3
 		:parameters ()
 		:precondition (pointing satellite0 star3)
 		:effect (and
-			(and
-				(pointing satellite0 star1)
-				(not (pointing satellite0 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star1)
+			(not (pointing satellite0 star3))
 		)
 	)
 	(:action turn_to_satellite0_star1_star6
 		:parameters ()
 		:precondition (pointing satellite0 star6)
 		:effect (and
-			(and
-				(pointing satellite0 star1)
-				(not (pointing satellite0 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star1)
+			(not (pointing satellite0 star6))
 		)
 	)
 	(:action turn_to_satellite0_star1_star7
 		:parameters ()
 		:precondition (pointing satellite0 star7)
 		:effect (and
-			(and
-				(pointing satellite0 star1)
-				(not (pointing satellite0 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star1)
+			(not (pointing satellite0 star7))
 		)
 	)
 	(:action turn_to_satellite0_star3_groundstation0
 		:parameters ()
 		:precondition (pointing satellite0 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite0 star3)
-				(not (pointing satellite0 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star3)
+			(not (pointing satellite0 groundstation0))
 		)
 	)
 	(:action turn_to_satellite0_star3_groundstation2
 		:parameters ()
 		:precondition (pointing satellite0 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite0 star3)
-				(not (pointing satellite0 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star3)
+			(not (pointing satellite0 groundstation2))
 		)
 	)
 	(:action turn_to_satellite0_star3_groundstation4
 		:parameters ()
 		:precondition (pointing satellite0 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite0 star3)
-				(not (pointing satellite0 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star3)
+			(not (pointing satellite0 groundstation4))
 		)
 	)
 	(:action turn_to_satellite0_star3_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite0 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite0 star3)
-				(not (pointing satellite0 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star3)
+			(not (pointing satellite0 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite0_star3_planet10
 		:parameters ()
 		:precondition (pointing satellite0 planet10)
 		:effect (and
-			(and
-				(pointing satellite0 star3)
-				(not (pointing satellite0 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star3)
+			(not (pointing satellite0 planet10))
 		)
 	)
 	(:action turn_to_satellite0_star3_planet11
 		:parameters ()
 		:precondition (pointing satellite0 planet11)
 		:effect (and
-			(and
-				(pointing satellite0 star3)
-				(not (pointing satellite0 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star3)
+			(not (pointing satellite0 planet11))
 		)
 	)
 	(:action turn_to_satellite0_star3_planet8
 		:parameters ()
 		:precondition (pointing satellite0 planet8)
 		:effect (and
-			(and
-				(pointing satellite0 star3)
-				(not (pointing satellite0 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star3)
+			(not (pointing satellite0 planet8))
 		)
 	)
 	(:action turn_to_satellite0_star3_planet9
 		:parameters ()
 		:precondition (pointing satellite0 planet9)
 		:effect (and
-			(and
-				(pointing satellite0 star3)
-				(not (pointing satellite0 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star3)
+			(not (pointing satellite0 planet9))
 		)
 	)
 	(:action turn_to_satellite0_star3_star1
 		:parameters ()
 		:precondition (pointing satellite0 star1)
 		:effect (and
-			(and
-				(pointing satellite0 star3)
-				(not (pointing satellite0 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star3)
+			(not (pointing satellite0 star1))
 		)
 	)
 	(:action turn_to_satellite0_star3_star3
 		:parameters ()
 		:precondition (pointing satellite0 star3)
 		:effect (and
-			(and
-				(pointing satellite0 star3)
-				(not (pointing satellite0 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star3)
+			(not (pointing satellite0 star3))
 		)
 	)
 	(:action turn_to_satellite0_star3_star6
 		:parameters ()
 		:precondition (pointing satellite0 star6)
 		:effect (and
-			(and
-				(pointing satellite0 star3)
-				(not (pointing satellite0 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star3)
+			(not (pointing satellite0 star6))
 		)
 	)
 	(:action turn_to_satellite0_star3_star7
 		:parameters ()
 		:precondition (pointing satellite0 star7)
 		:effect (and
-			(and
-				(pointing satellite0 star3)
-				(not (pointing satellite0 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star3)
+			(not (pointing satellite0 star7))
 		)
 	)
 	(:action turn_to_satellite0_star6_groundstation0
 		:parameters ()
 		:precondition (pointing satellite0 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite0 star6)
-				(not (pointing satellite0 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star6)
+			(not (pointing satellite0 groundstation0))
 		)
 	)
 	(:action turn_to_satellite0_star6_groundstation2
 		:parameters ()
 		:precondition (pointing satellite0 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite0 star6)
-				(not (pointing satellite0 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star6)
+			(not (pointing satellite0 groundstation2))
 		)
 	)
 	(:action turn_to_satellite0_star6_groundstation4
 		:parameters ()
 		:precondition (pointing satellite0 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite0 star6)
-				(not (pointing satellite0 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star6)
+			(not (pointing satellite0 groundstation4))
 		)
 	)
 	(:action turn_to_satellite0_star6_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite0 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite0 star6)
-				(not (pointing satellite0 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star6)
+			(not (pointing satellite0 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite0_star6_planet10
 		:parameters ()
 		:precondition (pointing satellite0 planet10)
 		:effect (and
-			(and
-				(pointing satellite0 star6)
-				(not (pointing satellite0 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star6)
+			(not (pointing satellite0 planet10))
 		)
 	)
 	(:action turn_to_satellite0_star6_planet11
 		:parameters ()
 		:precondition (pointing satellite0 planet11)
 		:effect (and
-			(and
-				(pointing satellite0 star6)
-				(not (pointing satellite0 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star6)
+			(not (pointing satellite0 planet11))
 		)
 	)
 	(:action turn_to_satellite0_star6_planet8
 		:parameters ()
 		:precondition (pointing satellite0 planet8)
 		:effect (and
-			(and
-				(pointing satellite0 star6)
-				(not (pointing satellite0 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star6)
+			(not (pointing satellite0 planet8))
 		)
 	)
 	(:action turn_to_satellite0_star6_planet9
 		:parameters ()
 		:precondition (pointing satellite0 planet9)
 		:effect (and
-			(and
-				(pointing satellite0 star6)
-				(not (pointing satellite0 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star6)
+			(not (pointing satellite0 planet9))
 		)
 	)
 	(:action turn_to_satellite0_star6_star1
 		:parameters ()
 		:precondition (pointing satellite0 star1)
 		:effect (and
-			(and
-				(pointing satellite0 star6)
-				(not (pointing satellite0 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star6)
+			(not (pointing satellite0 star1))
 		)
 	)
 	(:action turn_to_satellite0_star6_star3
 		:parameters ()
 		:precondition (pointing satellite0 star3)
 		:effect (and
-			(and
-				(pointing satellite0 star6)
-				(not (pointing satellite0 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star6)
+			(not (pointing satellite0 star3))
 		)
 	)
 	(:action turn_to_satellite0_star6_star6
 		:parameters ()
 		:precondition (pointing satellite0 star6)
 		:effect (and
-			(and
-				(pointing satellite0 star6)
-				(not (pointing satellite0 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star6)
+			(not (pointing satellite0 star6))
 		)
 	)
 	(:action turn_to_satellite0_star6_star7
 		:parameters ()
 		:precondition (pointing satellite0 star7)
 		:effect (and
-			(and
-				(pointing satellite0 star6)
-				(not (pointing satellite0 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star6)
+			(not (pointing satellite0 star7))
 		)
 	)
 	(:action turn_to_satellite0_star7_groundstation0
 		:parameters ()
 		:precondition (pointing satellite0 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite0 star7)
-				(not (pointing satellite0 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star7)
+			(not (pointing satellite0 groundstation0))
 		)
 	)
 	(:action turn_to_satellite0_star7_groundstation2
 		:parameters ()
 		:precondition (pointing satellite0 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite0 star7)
-				(not (pointing satellite0 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star7)
+			(not (pointing satellite0 groundstation2))
 		)
 	)
 	(:action turn_to_satellite0_star7_groundstation4
 		:parameters ()
 		:precondition (pointing satellite0 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite0 star7)
-				(not (pointing satellite0 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star7)
+			(not (pointing satellite0 groundstation4))
 		)
 	)
 	(:action turn_to_satellite0_star7_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite0 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite0 star7)
-				(not (pointing satellite0 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star7)
+			(not (pointing satellite0 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite0_star7_planet10
 		:parameters ()
 		:precondition (pointing satellite0 planet10)
 		:effect (and
-			(and
-				(pointing satellite0 star7)
-				(not (pointing satellite0 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star7)
+			(not (pointing satellite0 planet10))
 		)
 	)
 	(:action turn_to_satellite0_star7_planet11
 		:parameters ()
 		:precondition (pointing satellite0 planet11)
 		:effect (and
-			(and
-				(pointing satellite0 star7)
-				(not (pointing satellite0 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star7)
+			(not (pointing satellite0 planet11))
 		)
 	)
 	(:action turn_to_satellite0_star7_planet8
 		:parameters ()
 		:precondition (pointing satellite0 planet8)
 		:effect (and
-			(and
-				(pointing satellite0 star7)
-				(not (pointing satellite0 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star7)
+			(not (pointing satellite0 planet8))
 		)
 	)
 	(:action turn_to_satellite0_star7_planet9
 		:parameters ()
 		:precondition (pointing satellite0 planet9)
 		:effect (and
-			(and
-				(pointing satellite0 star7)
-				(not (pointing satellite0 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star7)
+			(not (pointing satellite0 planet9))
 		)
 	)
 	(:action turn_to_satellite0_star7_star1
 		:parameters ()
 		:precondition (pointing satellite0 star1)
 		:effect (and
-			(and
-				(pointing satellite0 star7)
-				(not (pointing satellite0 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star7)
+			(not (pointing satellite0 star1))
 		)
 	)
 	(:action turn_to_satellite0_star7_star3
 		:parameters ()
 		:precondition (pointing satellite0 star3)
 		:effect (and
-			(and
-				(pointing satellite0 star7)
-				(not (pointing satellite0 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star7)
+			(not (pointing satellite0 star3))
 		)
 	)
 	(:action turn_to_satellite0_star7_star6
 		:parameters ()
 		:precondition (pointing satellite0 star6)
 		:effect (and
-			(and
-				(pointing satellite0 star7)
-				(not (pointing satellite0 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star7)
+			(not (pointing satellite0 star6))
 		)
 	)
 	(:action turn_to_satellite0_star7_star7
 		:parameters ()
 		:precondition (pointing satellite0 star7)
 		:effect (and
-			(and
-				(pointing satellite0 star7)
-				(not (pointing satellite0 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite0 star7)
+			(not (pointing satellite0 star7))
 		)
 	)
 	(:action turn_to_satellite1_groundstation0_groundstation0
 		:parameters ()
 		:precondition (pointing satellite1 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation0)
-				(not (pointing satellite1 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation0)
+			(not (pointing satellite1 groundstation0))
 		)
 	)
 	(:action turn_to_satellite1_groundstation0_groundstation2
 		:parameters ()
 		:precondition (pointing satellite1 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation0)
-				(not (pointing satellite1 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation0)
+			(not (pointing satellite1 groundstation2))
 		)
 	)
 	(:action turn_to_satellite1_groundstation0_groundstation4
 		:parameters ()
 		:precondition (pointing satellite1 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation0)
-				(not (pointing satellite1 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation0)
+			(not (pointing satellite1 groundstation4))
 		)
 	)
 	(:action turn_to_satellite1_groundstation0_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite1 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation0)
-				(not (pointing satellite1 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation0)
+			(not (pointing satellite1 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite1_groundstation0_planet10
 		:parameters ()
 		:precondition (pointing satellite1 planet10)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation0)
-				(not (pointing satellite1 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation0)
+			(not (pointing satellite1 planet10))
 		)
 	)
 	(:action turn_to_satellite1_groundstation0_planet11
 		:parameters ()
 		:precondition (pointing satellite1 planet11)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation0)
-				(not (pointing satellite1 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation0)
+			(not (pointing satellite1 planet11))
 		)
 	)
 	(:action turn_to_satellite1_groundstation0_planet8
 		:parameters ()
 		:precondition (pointing satellite1 planet8)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation0)
-				(not (pointing satellite1 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation0)
+			(not (pointing satellite1 planet8))
 		)
 	)
 	(:action turn_to_satellite1_groundstation0_planet9
 		:parameters ()
 		:precondition (pointing satellite1 planet9)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation0)
-				(not (pointing satellite1 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation0)
+			(not (pointing satellite1 planet9))
 		)
 	)
 	(:action turn_to_satellite1_groundstation0_star1
 		:parameters ()
 		:precondition (pointing satellite1 star1)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation0)
-				(not (pointing satellite1 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation0)
+			(not (pointing satellite1 star1))
 		)
 	)
 	(:action turn_to_satellite1_groundstation0_star3
 		:parameters ()
 		:precondition (pointing satellite1 star3)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation0)
-				(not (pointing satellite1 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation0)
+			(not (pointing satellite1 star3))
 		)
 	)
 	(:action turn_to_satellite1_groundstation0_star6
 		:parameters ()
 		:precondition (pointing satellite1 star6)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation0)
-				(not (pointing satellite1 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation0)
+			(not (pointing satellite1 star6))
 		)
 	)
 	(:action turn_to_satellite1_groundstation0_star7
 		:parameters ()
 		:precondition (pointing satellite1 star7)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation0)
-				(not (pointing satellite1 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation0)
+			(not (pointing satellite1 star7))
 		)
 	)
 	(:action turn_to_satellite1_groundstation2_groundstation0
 		:parameters ()
 		:precondition (pointing satellite1 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation2)
-				(not (pointing satellite1 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation2)
+			(not (pointing satellite1 groundstation0))
 		)
 	)
 	(:action turn_to_satellite1_groundstation2_groundstation2
 		:parameters ()
 		:precondition (pointing satellite1 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation2)
-				(not (pointing satellite1 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation2)
+			(not (pointing satellite1 groundstation2))
 		)
 	)
 	(:action turn_to_satellite1_groundstation2_groundstation4
 		:parameters ()
 		:precondition (pointing satellite1 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation2)
-				(not (pointing satellite1 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation2)
+			(not (pointing satellite1 groundstation4))
 		)
 	)
 	(:action turn_to_satellite1_groundstation2_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite1 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation2)
-				(not (pointing satellite1 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation2)
+			(not (pointing satellite1 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite1_groundstation2_planet10
 		:parameters ()
 		:precondition (pointing satellite1 planet10)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation2)
-				(not (pointing satellite1 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation2)
+			(not (pointing satellite1 planet10))
 		)
 	)
 	(:action turn_to_satellite1_groundstation2_planet11
 		:parameters ()
 		:precondition (pointing satellite1 planet11)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation2)
-				(not (pointing satellite1 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation2)
+			(not (pointing satellite1 planet11))
 		)
 	)
 	(:action turn_to_satellite1_groundstation2_planet8
 		:parameters ()
 		:precondition (pointing satellite1 planet8)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation2)
-				(not (pointing satellite1 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation2)
+			(not (pointing satellite1 planet8))
 		)
 	)
 	(:action turn_to_satellite1_groundstation2_planet9
 		:parameters ()
 		:precondition (pointing satellite1 planet9)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation2)
-				(not (pointing satellite1 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation2)
+			(not (pointing satellite1 planet9))
 		)
 	)
 	(:action turn_to_satellite1_groundstation2_star1
 		:parameters ()
 		:precondition (pointing satellite1 star1)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation2)
-				(not (pointing satellite1 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation2)
+			(not (pointing satellite1 star1))
 		)
 	)
 	(:action turn_to_satellite1_groundstation2_star3
 		:parameters ()
 		:precondition (pointing satellite1 star3)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation2)
-				(not (pointing satellite1 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation2)
+			(not (pointing satellite1 star3))
 		)
 	)
 	(:action turn_to_satellite1_groundstation2_star6
 		:parameters ()
 		:precondition (pointing satellite1 star6)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation2)
-				(not (pointing satellite1 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation2)
+			(not (pointing satellite1 star6))
 		)
 	)
 	(:action turn_to_satellite1_groundstation2_star7
 		:parameters ()
 		:precondition (pointing satellite1 star7)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation2)
-				(not (pointing satellite1 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation2)
+			(not (pointing satellite1 star7))
 		)
 	)
 	(:action turn_to_satellite1_groundstation4_groundstation0
 		:parameters ()
 		:precondition (pointing satellite1 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation4)
-				(not (pointing satellite1 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation4)
+			(not (pointing satellite1 groundstation0))
 		)
 	)
 	(:action turn_to_satellite1_groundstation4_groundstation2
 		:parameters ()
 		:precondition (pointing satellite1 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation4)
-				(not (pointing satellite1 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation4)
+			(not (pointing satellite1 groundstation2))
 		)
 	)
 	(:action turn_to_satellite1_groundstation4_groundstation4
 		:parameters ()
 		:precondition (pointing satellite1 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation4)
-				(not (pointing satellite1 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation4)
+			(not (pointing satellite1 groundstation4))
 		)
 	)
 	(:action turn_to_satellite1_groundstation4_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite1 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation4)
-				(not (pointing satellite1 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation4)
+			(not (pointing satellite1 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite1_groundstation4_planet10
 		:parameters ()
 		:precondition (pointing satellite1 planet10)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation4)
-				(not (pointing satellite1 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation4)
+			(not (pointing satellite1 planet10))
 		)
 	)
 	(:action turn_to_satellite1_groundstation4_planet11
 		:parameters ()
 		:precondition (pointing satellite1 planet11)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation4)
-				(not (pointing satellite1 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation4)
+			(not (pointing satellite1 planet11))
 		)
 	)
 	(:action turn_to_satellite1_groundstation4_planet8
 		:parameters ()
 		:precondition (pointing satellite1 planet8)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation4)
-				(not (pointing satellite1 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation4)
+			(not (pointing satellite1 planet8))
 		)
 	)
 	(:action turn_to_satellite1_groundstation4_planet9
 		:parameters ()
 		:precondition (pointing satellite1 planet9)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation4)
-				(not (pointing satellite1 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation4)
+			(not (pointing satellite1 planet9))
 		)
 	)
 	(:action turn_to_satellite1_groundstation4_star1
 		:parameters ()
 		:precondition (pointing satellite1 star1)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation4)
-				(not (pointing satellite1 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation4)
+			(not (pointing satellite1 star1))
 		)
 	)
 	(:action turn_to_satellite1_groundstation4_star3
 		:parameters ()
 		:precondition (pointing satellite1 star3)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation4)
-				(not (pointing satellite1 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation4)
+			(not (pointing satellite1 star3))
 		)
 	)
 	(:action turn_to_satellite1_groundstation4_star6
 		:parameters ()
 		:precondition (pointing satellite1 star6)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation4)
-				(not (pointing satellite1 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation4)
+			(not (pointing satellite1 star6))
 		)
 	)
 	(:action turn_to_satellite1_groundstation4_star7
 		:parameters ()
 		:precondition (pointing satellite1 star7)
 		:effect (and
-			(and
-				(pointing satellite1 groundstation4)
-				(not (pointing satellite1 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 groundstation4)
+			(not (pointing satellite1 star7))
 		)
 	)
 	(:action turn_to_satellite1_phenomenon5_groundstation0
 		:parameters ()
 		:precondition (pointing satellite1 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite1 phenomenon5)
-				(not (pointing satellite1 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 phenomenon5)
+			(not (pointing satellite1 groundstation0))
 		)
 	)
 	(:action turn_to_satellite1_phenomenon5_groundstation2
 		:parameters ()
 		:precondition (pointing satellite1 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite1 phenomenon5)
-				(not (pointing satellite1 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 phenomenon5)
+			(not (pointing satellite1 groundstation2))
 		)
 	)
 	(:action turn_to_satellite1_phenomenon5_groundstation4
 		:parameters ()
 		:precondition (pointing satellite1 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite1 phenomenon5)
-				(not (pointing satellite1 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 phenomenon5)
+			(not (pointing satellite1 groundstation4))
 		)
 	)
 	(:action turn_to_satellite1_phenomenon5_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite1 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite1 phenomenon5)
-				(not (pointing satellite1 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 phenomenon5)
+			(not (pointing satellite1 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite1_phenomenon5_planet10
 		:parameters ()
 		:precondition (pointing satellite1 planet10)
 		:effect (and
-			(and
-				(pointing satellite1 phenomenon5)
-				(not (pointing satellite1 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 phenomenon5)
+			(not (pointing satellite1 planet10))
 		)
 	)
 	(:action turn_to_satellite1_phenomenon5_planet11
 		:parameters ()
 		:precondition (pointing satellite1 planet11)
 		:effect (and
-			(and
-				(pointing satellite1 phenomenon5)
-				(not (pointing satellite1 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 phenomenon5)
+			(not (pointing satellite1 planet11))
 		)
 	)
 	(:action turn_to_satellite1_phenomenon5_planet8
 		:parameters ()
 		:precondition (pointing satellite1 planet8)
 		:effect (and
-			(and
-				(pointing satellite1 phenomenon5)
-				(not (pointing satellite1 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 phenomenon5)
+			(not (pointing satellite1 planet8))
 		)
 	)
 	(:action turn_to_satellite1_phenomenon5_planet9
 		:parameters ()
 		:precondition (pointing satellite1 planet9)
 		:effect (and
-			(and
-				(pointing satellite1 phenomenon5)
-				(not (pointing satellite1 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 phenomenon5)
+			(not (pointing satellite1 planet9))
 		)
 	)
 	(:action turn_to_satellite1_phenomenon5_star1
 		:parameters ()
 		:precondition (pointing satellite1 star1)
 		:effect (and
-			(and
-				(pointing satellite1 phenomenon5)
-				(not (pointing satellite1 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 phenomenon5)
+			(not (pointing satellite1 star1))
 		)
 	)
 	(:action turn_to_satellite1_phenomenon5_star3
 		:parameters ()
 		:precondition (pointing satellite1 star3)
 		:effect (and
-			(and
-				(pointing satellite1 phenomenon5)
-				(not (pointing satellite1 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 phenomenon5)
+			(not (pointing satellite1 star3))
 		)
 	)
 	(:action turn_to_satellite1_phenomenon5_star6
 		:parameters ()
 		:precondition (pointing satellite1 star6)
 		:effect (and
-			(and
-				(pointing satellite1 phenomenon5)
-				(not (pointing satellite1 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 phenomenon5)
+			(not (pointing satellite1 star6))
 		)
 	)
 	(:action turn_to_satellite1_phenomenon5_star7
 		:parameters ()
 		:precondition (pointing satellite1 star7)
 		:effect (and
-			(and
-				(pointing satellite1 phenomenon5)
-				(not (pointing satellite1 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 phenomenon5)
+			(not (pointing satellite1 star7))
 		)
 	)
 	(:action turn_to_satellite1_planet10_groundstation0
 		:parameters ()
 		:precondition (pointing satellite1 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite1 planet10)
-				(not (pointing satellite1 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet10)
+			(not (pointing satellite1 groundstation0))
 		)
 	)
 	(:action turn_to_satellite1_planet10_groundstation2
 		:parameters ()
 		:precondition (pointing satellite1 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite1 planet10)
-				(not (pointing satellite1 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet10)
+			(not (pointing satellite1 groundstation2))
 		)
 	)
 	(:action turn_to_satellite1_planet10_groundstation4
 		:parameters ()
 		:precondition (pointing satellite1 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite1 planet10)
-				(not (pointing satellite1 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet10)
+			(not (pointing satellite1 groundstation4))
 		)
 	)
 	(:action turn_to_satellite1_planet10_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite1 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite1 planet10)
-				(not (pointing satellite1 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet10)
+			(not (pointing satellite1 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite1_planet10_planet10
 		:parameters ()
 		:precondition (pointing satellite1 planet10)
 		:effect (and
-			(and
-				(pointing satellite1 planet10)
-				(not (pointing satellite1 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet10)
+			(not (pointing satellite1 planet10))
 		)
 	)
 	(:action turn_to_satellite1_planet10_planet11
 		:parameters ()
 		:precondition (pointing satellite1 planet11)
 		:effect (and
-			(and
-				(pointing satellite1 planet10)
-				(not (pointing satellite1 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet10)
+			(not (pointing satellite1 planet11))
 		)
 	)
 	(:action turn_to_satellite1_planet10_planet8
 		:parameters ()
 		:precondition (pointing satellite1 planet8)
 		:effect (and
-			(and
-				(pointing satellite1 planet10)
-				(not (pointing satellite1 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet10)
+			(not (pointing satellite1 planet8))
 		)
 	)
 	(:action turn_to_satellite1_planet10_planet9
 		:parameters ()
 		:precondition (pointing satellite1 planet9)
 		:effect (and
-			(and
-				(pointing satellite1 planet10)
-				(not (pointing satellite1 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet10)
+			(not (pointing satellite1 planet9))
 		)
 	)
 	(:action turn_to_satellite1_planet10_star1
 		:parameters ()
 		:precondition (pointing satellite1 star1)
 		:effect (and
-			(and
-				(pointing satellite1 planet10)
-				(not (pointing satellite1 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet10)
+			(not (pointing satellite1 star1))
 		)
 	)
 	(:action turn_to_satellite1_planet10_star3
 		:parameters ()
 		:precondition (pointing satellite1 star3)
 		:effect (and
-			(and
-				(pointing satellite1 planet10)
-				(not (pointing satellite1 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet10)
+			(not (pointing satellite1 star3))
 		)
 	)
 	(:action turn_to_satellite1_planet10_star6
 		:parameters ()
 		:precondition (pointing satellite1 star6)
 		:effect (and
-			(and
-				(pointing satellite1 planet10)
-				(not (pointing satellite1 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet10)
+			(not (pointing satellite1 star6))
 		)
 	)
 	(:action turn_to_satellite1_planet10_star7
 		:parameters ()
 		:precondition (pointing satellite1 star7)
 		:effect (and
-			(and
-				(pointing satellite1 planet10)
-				(not (pointing satellite1 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet10)
+			(not (pointing satellite1 star7))
 		)
 	)
 	(:action turn_to_satellite1_planet11_groundstation0
 		:parameters ()
 		:precondition (pointing satellite1 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite1 planet11)
-				(not (pointing satellite1 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet11)
+			(not (pointing satellite1 groundstation0))
 		)
 	)
 	(:action turn_to_satellite1_planet11_groundstation2
 		:parameters ()
 		:precondition (pointing satellite1 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite1 planet11)
-				(not (pointing satellite1 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet11)
+			(not (pointing satellite1 groundstation2))
 		)
 	)
 	(:action turn_to_satellite1_planet11_groundstation4
 		:parameters ()
 		:precondition (pointing satellite1 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite1 planet11)
-				(not (pointing satellite1 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet11)
+			(not (pointing satellite1 groundstation4))
 		)
 	)
 	(:action turn_to_satellite1_planet11_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite1 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite1 planet11)
-				(not (pointing satellite1 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet11)
+			(not (pointing satellite1 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite1_planet11_planet10
 		:parameters ()
 		:precondition (pointing satellite1 planet10)
 		:effect (and
-			(and
-				(pointing satellite1 planet11)
-				(not (pointing satellite1 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet11)
+			(not (pointing satellite1 planet10))
 		)
 	)
 	(:action turn_to_satellite1_planet11_planet11
 		:parameters ()
 		:precondition (pointing satellite1 planet11)
 		:effect (and
-			(and
-				(pointing satellite1 planet11)
-				(not (pointing satellite1 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet11)
+			(not (pointing satellite1 planet11))
 		)
 	)
 	(:action turn_to_satellite1_planet11_planet8
 		:parameters ()
 		:precondition (pointing satellite1 planet8)
 		:effect (and
-			(and
-				(pointing satellite1 planet11)
-				(not (pointing satellite1 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet11)
+			(not (pointing satellite1 planet8))
 		)
 	)
 	(:action turn_to_satellite1_planet11_planet9
 		:parameters ()
 		:precondition (pointing satellite1 planet9)
 		:effect (and
-			(and
-				(pointing satellite1 planet11)
-				(not (pointing satellite1 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet11)
+			(not (pointing satellite1 planet9))
 		)
 	)
 	(:action turn_to_satellite1_planet11_star1
 		:parameters ()
 		:precondition (pointing satellite1 star1)
 		:effect (and
-			(and
-				(pointing satellite1 planet11)
-				(not (pointing satellite1 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet11)
+			(not (pointing satellite1 star1))
 		)
 	)
 	(:action turn_to_satellite1_planet11_star3
 		:parameters ()
 		:precondition (pointing satellite1 star3)
 		:effect (and
-			(and
-				(pointing satellite1 planet11)
-				(not (pointing satellite1 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet11)
+			(not (pointing satellite1 star3))
 		)
 	)
 	(:action turn_to_satellite1_planet11_star6
 		:parameters ()
 		:precondition (pointing satellite1 star6)
 		:effect (and
-			(and
-				(pointing satellite1 planet11)
-				(not (pointing satellite1 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet11)
+			(not (pointing satellite1 star6))
 		)
 	)
 	(:action turn_to_satellite1_planet11_star7
 		:parameters ()
 		:precondition (pointing satellite1 star7)
 		:effect (and
-			(and
-				(pointing satellite1 planet11)
-				(not (pointing satellite1 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet11)
+			(not (pointing satellite1 star7))
 		)
 	)
 	(:action turn_to_satellite1_planet8_groundstation0
 		:parameters ()
 		:precondition (pointing satellite1 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite1 planet8)
-				(not (pointing satellite1 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet8)
+			(not (pointing satellite1 groundstation0))
 		)
 	)
 	(:action turn_to_satellite1_planet8_groundstation2
 		:parameters ()
 		:precondition (pointing satellite1 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite1 planet8)
-				(not (pointing satellite1 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet8)
+			(not (pointing satellite1 groundstation2))
 		)
 	)
 	(:action turn_to_satellite1_planet8_groundstation4
 		:parameters ()
 		:precondition (pointing satellite1 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite1 planet8)
-				(not (pointing satellite1 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet8)
+			(not (pointing satellite1 groundstation4))
 		)
 	)
 	(:action turn_to_satellite1_planet8_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite1 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite1 planet8)
-				(not (pointing satellite1 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet8)
+			(not (pointing satellite1 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite1_planet8_planet10
 		:parameters ()
 		:precondition (pointing satellite1 planet10)
 		:effect (and
-			(and
-				(pointing satellite1 planet8)
-				(not (pointing satellite1 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet8)
+			(not (pointing satellite1 planet10))
 		)
 	)
 	(:action turn_to_satellite1_planet8_planet11
 		:parameters ()
 		:precondition (pointing satellite1 planet11)
 		:effect (and
-			(and
-				(pointing satellite1 planet8)
-				(not (pointing satellite1 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet8)
+			(not (pointing satellite1 planet11))
 		)
 	)
 	(:action turn_to_satellite1_planet8_planet8
 		:parameters ()
 		:precondition (pointing satellite1 planet8)
 		:effect (and
-			(and
-				(pointing satellite1 planet8)
-				(not (pointing satellite1 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet8)
+			(not (pointing satellite1 planet8))
 		)
 	)
 	(:action turn_to_satellite1_planet8_planet9
 		:parameters ()
 		:precondition (pointing satellite1 planet9)
 		:effect (and
-			(and
-				(pointing satellite1 planet8)
-				(not (pointing satellite1 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet8)
+			(not (pointing satellite1 planet9))
 		)
 	)
 	(:action turn_to_satellite1_planet8_star1
 		:parameters ()
 		:precondition (pointing satellite1 star1)
 		:effect (and
-			(and
-				(pointing satellite1 planet8)
-				(not (pointing satellite1 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet8)
+			(not (pointing satellite1 star1))
 		)
 	)
 	(:action turn_to_satellite1_planet8_star3
 		:parameters ()
 		:precondition (pointing satellite1 star3)
 		:effect (and
-			(and
-				(pointing satellite1 planet8)
-				(not (pointing satellite1 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet8)
+			(not (pointing satellite1 star3))
 		)
 	)
 	(:action turn_to_satellite1_planet8_star6
 		:parameters ()
 		:precondition (pointing satellite1 star6)
 		:effect (and
-			(and
-				(pointing satellite1 planet8)
-				(not (pointing satellite1 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet8)
+			(not (pointing satellite1 star6))
 		)
 	)
 	(:action turn_to_satellite1_planet8_star7
 		:parameters ()
 		:precondition (pointing satellite1 star7)
 		:effect (and
-			(and
-				(pointing satellite1 planet8)
-				(not (pointing satellite1 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet8)
+			(not (pointing satellite1 star7))
 		)
 	)
 	(:action turn_to_satellite1_planet9_groundstation0
 		:parameters ()
 		:precondition (pointing satellite1 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite1 planet9)
-				(not (pointing satellite1 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet9)
+			(not (pointing satellite1 groundstation0))
 		)
 	)
 	(:action turn_to_satellite1_planet9_groundstation2
 		:parameters ()
 		:precondition (pointing satellite1 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite1 planet9)
-				(not (pointing satellite1 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet9)
+			(not (pointing satellite1 groundstation2))
 		)
 	)
 	(:action turn_to_satellite1_planet9_groundstation4
 		:parameters ()
 		:precondition (pointing satellite1 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite1 planet9)
-				(not (pointing satellite1 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet9)
+			(not (pointing satellite1 groundstation4))
 		)
 	)
 	(:action turn_to_satellite1_planet9_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite1 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite1 planet9)
-				(not (pointing satellite1 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet9)
+			(not (pointing satellite1 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite1_planet9_planet10
 		:parameters ()
 		:precondition (pointing satellite1 planet10)
 		:effect (and
-			(and
-				(pointing satellite1 planet9)
-				(not (pointing satellite1 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet9)
+			(not (pointing satellite1 planet10))
 		)
 	)
 	(:action turn_to_satellite1_planet9_planet11
 		:parameters ()
 		:precondition (pointing satellite1 planet11)
 		:effect (and
-			(and
-				(pointing satellite1 planet9)
-				(not (pointing satellite1 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet9)
+			(not (pointing satellite1 planet11))
 		)
 	)
 	(:action turn_to_satellite1_planet9_planet8
 		:parameters ()
 		:precondition (pointing satellite1 planet8)
 		:effect (and
-			(and
-				(pointing satellite1 planet9)
-				(not (pointing satellite1 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet9)
+			(not (pointing satellite1 planet8))
 		)
 	)
 	(:action turn_to_satellite1_planet9_planet9
 		:parameters ()
 		:precondition (pointing satellite1 planet9)
 		:effect (and
-			(and
-				(pointing satellite1 planet9)
-				(not (pointing satellite1 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet9)
+			(not (pointing satellite1 planet9))
 		)
 	)
 	(:action turn_to_satellite1_planet9_star1
 		:parameters ()
 		:precondition (pointing satellite1 star1)
 		:effect (and
-			(and
-				(pointing satellite1 planet9)
-				(not (pointing satellite1 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet9)
+			(not (pointing satellite1 star1))
 		)
 	)
 	(:action turn_to_satellite1_planet9_star3
 		:parameters ()
 		:precondition (pointing satellite1 star3)
 		:effect (and
-			(and
-				(pointing satellite1 planet9)
-				(not (pointing satellite1 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet9)
+			(not (pointing satellite1 star3))
 		)
 	)
 	(:action turn_to_satellite1_planet9_star6
 		:parameters ()
 		:precondition (pointing satellite1 star6)
 		:effect (and
-			(and
-				(pointing satellite1 planet9)
-				(not (pointing satellite1 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet9)
+			(not (pointing satellite1 star6))
 		)
 	)
 	(:action turn_to_satellite1_planet9_star7
 		:parameters ()
 		:precondition (pointing satellite1 star7)
 		:effect (and
-			(and
-				(pointing satellite1 planet9)
-				(not (pointing satellite1 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 planet9)
+			(not (pointing satellite1 star7))
 		)
 	)
 	(:action turn_to_satellite1_star1_groundstation0
 		:parameters ()
 		:precondition (pointing satellite1 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite1 star1)
-				(not (pointing satellite1 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star1)
+			(not (pointing satellite1 groundstation0))
 		)
 	)
 	(:action turn_to_satellite1_star1_groundstation2
 		:parameters ()
 		:precondition (pointing satellite1 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite1 star1)
-				(not (pointing satellite1 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star1)
+			(not (pointing satellite1 groundstation2))
 		)
 	)
 	(:action turn_to_satellite1_star1_groundstation4
 		:parameters ()
 		:precondition (pointing satellite1 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite1 star1)
-				(not (pointing satellite1 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star1)
+			(not (pointing satellite1 groundstation4))
 		)
 	)
 	(:action turn_to_satellite1_star1_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite1 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite1 star1)
-				(not (pointing satellite1 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star1)
+			(not (pointing satellite1 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite1_star1_planet10
 		:parameters ()
 		:precondition (pointing satellite1 planet10)
 		:effect (and
-			(and
-				(pointing satellite1 star1)
-				(not (pointing satellite1 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star1)
+			(not (pointing satellite1 planet10))
 		)
 	)
 	(:action turn_to_satellite1_star1_planet11
 		:parameters ()
 		:precondition (pointing satellite1 planet11)
 		:effect (and
-			(and
-				(pointing satellite1 star1)
-				(not (pointing satellite1 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star1)
+			(not (pointing satellite1 planet11))
 		)
 	)
 	(:action turn_to_satellite1_star1_planet8
 		:parameters ()
 		:precondition (pointing satellite1 planet8)
 		:effect (and
-			(and
-				(pointing satellite1 star1)
-				(not (pointing satellite1 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star1)
+			(not (pointing satellite1 planet8))
 		)
 	)
 	(:action turn_to_satellite1_star1_planet9
 		:parameters ()
 		:precondition (pointing satellite1 planet9)
 		:effect (and
-			(and
-				(pointing satellite1 star1)
-				(not (pointing satellite1 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star1)
+			(not (pointing satellite1 planet9))
 		)
 	)
 	(:action turn_to_satellite1_star1_star1
 		:parameters ()
 		:precondition (pointing satellite1 star1)
 		:effect (and
-			(and
-				(pointing satellite1 star1)
-				(not (pointing satellite1 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star1)
+			(not (pointing satellite1 star1))
 		)
 	)
 	(:action turn_to_satellite1_star1_star3
 		:parameters ()
 		:precondition (pointing satellite1 star3)
 		:effect (and
-			(and
-				(pointing satellite1 star1)
-				(not (pointing satellite1 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star1)
+			(not (pointing satellite1 star3))
 		)
 	)
 	(:action turn_to_satellite1_star1_star6
 		:parameters ()
 		:precondition (pointing satellite1 star6)
 		:effect (and
-			(and
-				(pointing satellite1 star1)
-				(not (pointing satellite1 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star1)
+			(not (pointing satellite1 star6))
 		)
 	)
 	(:action turn_to_satellite1_star1_star7
 		:parameters ()
 		:precondition (pointing satellite1 star7)
 		:effect (and
-			(and
-				(pointing satellite1 star1)
-				(not (pointing satellite1 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star1)
+			(not (pointing satellite1 star7))
 		)
 	)
 	(:action turn_to_satellite1_star3_groundstation0
 		:parameters ()
 		:precondition (pointing satellite1 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite1 star3)
-				(not (pointing satellite1 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star3)
+			(not (pointing satellite1 groundstation0))
 		)
 	)
 	(:action turn_to_satellite1_star3_groundstation2
 		:parameters ()
 		:precondition (pointing satellite1 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite1 star3)
-				(not (pointing satellite1 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star3)
+			(not (pointing satellite1 groundstation2))
 		)
 	)
 	(:action turn_to_satellite1_star3_groundstation4
 		:parameters ()
 		:precondition (pointing satellite1 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite1 star3)
-				(not (pointing satellite1 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star3)
+			(not (pointing satellite1 groundstation4))
 		)
 	)
 	(:action turn_to_satellite1_star3_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite1 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite1 star3)
-				(not (pointing satellite1 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star3)
+			(not (pointing satellite1 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite1_star3_planet10
 		:parameters ()
 		:precondition (pointing satellite1 planet10)
 		:effect (and
-			(and
-				(pointing satellite1 star3)
-				(not (pointing satellite1 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star3)
+			(not (pointing satellite1 planet10))
 		)
 	)
 	(:action turn_to_satellite1_star3_planet11
 		:parameters ()
 		:precondition (pointing satellite1 planet11)
 		:effect (and
-			(and
-				(pointing satellite1 star3)
-				(not (pointing satellite1 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star3)
+			(not (pointing satellite1 planet11))
 		)
 	)
 	(:action turn_to_satellite1_star3_planet8
 		:parameters ()
 		:precondition (pointing satellite1 planet8)
 		:effect (and
-			(and
-				(pointing satellite1 star3)
-				(not (pointing satellite1 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star3)
+			(not (pointing satellite1 planet8))
 		)
 	)
 	(:action turn_to_satellite1_star3_planet9
 		:parameters ()
 		:precondition (pointing satellite1 planet9)
 		:effect (and
-			(and
-				(pointing satellite1 star3)
-				(not (pointing satellite1 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star3)
+			(not (pointing satellite1 planet9))
 		)
 	)
 	(:action turn_to_satellite1_star3_star1
 		:parameters ()
 		:precondition (pointing satellite1 star1)
 		:effect (and
-			(and
-				(pointing satellite1 star3)
-				(not (pointing satellite1 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star3)
+			(not (pointing satellite1 star1))
 		)
 	)
 	(:action turn_to_satellite1_star3_star3
 		:parameters ()
 		:precondition (pointing satellite1 star3)
 		:effect (and
-			(and
-				(pointing satellite1 star3)
-				(not (pointing satellite1 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star3)
+			(not (pointing satellite1 star3))
 		)
 	)
 	(:action turn_to_satellite1_star3_star6
 		:parameters ()
 		:precondition (pointing satellite1 star6)
 		:effect (and
-			(and
-				(pointing satellite1 star3)
-				(not (pointing satellite1 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star3)
+			(not (pointing satellite1 star6))
 		)
 	)
 	(:action turn_to_satellite1_star3_star7
 		:parameters ()
 		:precondition (pointing satellite1 star7)
 		:effect (and
-			(and
-				(pointing satellite1 star3)
-				(not (pointing satellite1 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star3)
+			(not (pointing satellite1 star7))
 		)
 	)
 	(:action turn_to_satellite1_star6_groundstation0
 		:parameters ()
 		:precondition (pointing satellite1 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite1 star6)
-				(not (pointing satellite1 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star6)
+			(not (pointing satellite1 groundstation0))
 		)
 	)
 	(:action turn_to_satellite1_star6_groundstation2
 		:parameters ()
 		:precondition (pointing satellite1 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite1 star6)
-				(not (pointing satellite1 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star6)
+			(not (pointing satellite1 groundstation2))
 		)
 	)
 	(:action turn_to_satellite1_star6_groundstation4
 		:parameters ()
 		:precondition (pointing satellite1 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite1 star6)
-				(not (pointing satellite1 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star6)
+			(not (pointing satellite1 groundstation4))
 		)
 	)
 	(:action turn_to_satellite1_star6_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite1 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite1 star6)
-				(not (pointing satellite1 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star6)
+			(not (pointing satellite1 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite1_star6_planet10
 		:parameters ()
 		:precondition (pointing satellite1 planet10)
 		:effect (and
-			(and
-				(pointing satellite1 star6)
-				(not (pointing satellite1 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star6)
+			(not (pointing satellite1 planet10))
 		)
 	)
 	(:action turn_to_satellite1_star6_planet11
 		:parameters ()
 		:precondition (pointing satellite1 planet11)
 		:effect (and
-			(and
-				(pointing satellite1 star6)
-				(not (pointing satellite1 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star6)
+			(not (pointing satellite1 planet11))
 		)
 	)
 	(:action turn_to_satellite1_star6_planet8
 		:parameters ()
 		:precondition (pointing satellite1 planet8)
 		:effect (and
-			(and
-				(pointing satellite1 star6)
-				(not (pointing satellite1 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star6)
+			(not (pointing satellite1 planet8))
 		)
 	)
 	(:action turn_to_satellite1_star6_planet9
 		:parameters ()
 		:precondition (pointing satellite1 planet9)
 		:effect (and
-			(and
-				(pointing satellite1 star6)
-				(not (pointing satellite1 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star6)
+			(not (pointing satellite1 planet9))
 		)
 	)
 	(:action turn_to_satellite1_star6_star1
 		:parameters ()
 		:precondition (pointing satellite1 star1)
 		:effect (and
-			(and
-				(pointing satellite1 star6)
-				(not (pointing satellite1 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star6)
+			(not (pointing satellite1 star1))
 		)
 	)
 	(:action turn_to_satellite1_star6_star3
 		:parameters ()
 		:precondition (pointing satellite1 star3)
 		:effect (and
-			(and
-				(pointing satellite1 star6)
-				(not (pointing satellite1 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star6)
+			(not (pointing satellite1 star3))
 		)
 	)
 	(:action turn_to_satellite1_star6_star6
 		:parameters ()
 		:precondition (pointing satellite1 star6)
 		:effect (and
-			(and
-				(pointing satellite1 star6)
-				(not (pointing satellite1 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star6)
+			(not (pointing satellite1 star6))
 		)
 	)
 	(:action turn_to_satellite1_star6_star7
 		:parameters ()
 		:precondition (pointing satellite1 star7)
 		:effect (and
-			(and
-				(pointing satellite1 star6)
-				(not (pointing satellite1 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star6)
+			(not (pointing satellite1 star7))
 		)
 	)
 	(:action turn_to_satellite1_star7_groundstation0
 		:parameters ()
 		:precondition (pointing satellite1 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite1 star7)
-				(not (pointing satellite1 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star7)
+			(not (pointing satellite1 groundstation0))
 		)
 	)
 	(:action turn_to_satellite1_star7_groundstation2
 		:parameters ()
 		:precondition (pointing satellite1 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite1 star7)
-				(not (pointing satellite1 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star7)
+			(not (pointing satellite1 groundstation2))
 		)
 	)
 	(:action turn_to_satellite1_star7_groundstation4
 		:parameters ()
 		:precondition (pointing satellite1 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite1 star7)
-				(not (pointing satellite1 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star7)
+			(not (pointing satellite1 groundstation4))
 		)
 	)
 	(:action turn_to_satellite1_star7_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite1 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite1 star7)
-				(not (pointing satellite1 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star7)
+			(not (pointing satellite1 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite1_star7_planet10
 		:parameters ()
 		:precondition (pointing satellite1 planet10)
 		:effect (and
-			(and
-				(pointing satellite1 star7)
-				(not (pointing satellite1 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star7)
+			(not (pointing satellite1 planet10))
 		)
 	)
 	(:action turn_to_satellite1_star7_planet11
 		:parameters ()
 		:precondition (pointing satellite1 planet11)
 		:effect (and
-			(and
-				(pointing satellite1 star7)
-				(not (pointing satellite1 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star7)
+			(not (pointing satellite1 planet11))
 		)
 	)
 	(:action turn_to_satellite1_star7_planet8
 		:parameters ()
 		:precondition (pointing satellite1 planet8)
 		:effect (and
-			(and
-				(pointing satellite1 star7)
-				(not (pointing satellite1 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star7)
+			(not (pointing satellite1 planet8))
 		)
 	)
 	(:action turn_to_satellite1_star7_planet9
 		:parameters ()
 		:precondition (pointing satellite1 planet9)
 		:effect (and
-			(and
-				(pointing satellite1 star7)
-				(not (pointing satellite1 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star7)
+			(not (pointing satellite1 planet9))
 		)
 	)
 	(:action turn_to_satellite1_star7_star1
 		:parameters ()
 		:precondition (pointing satellite1 star1)
 		:effect (and
-			(and
-				(pointing satellite1 star7)
-				(not (pointing satellite1 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star7)
+			(not (pointing satellite1 star1))
 		)
 	)
 	(:action turn_to_satellite1_star7_star3
 		:parameters ()
 		:precondition (pointing satellite1 star3)
 		:effect (and
-			(and
-				(pointing satellite1 star7)
-				(not (pointing satellite1 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star7)
+			(not (pointing satellite1 star3))
 		)
 	)
 	(:action turn_to_satellite1_star7_star6
 		:parameters ()
 		:precondition (pointing satellite1 star6)
 		:effect (and
-			(and
-				(pointing satellite1 star7)
-				(not (pointing satellite1 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star7)
+			(not (pointing satellite1 star6))
 		)
 	)
 	(:action turn_to_satellite1_star7_star7
 		:parameters ()
 		:precondition (pointing satellite1 star7)
 		:effect (and
-			(and
-				(pointing satellite1 star7)
-				(not (pointing satellite1 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite1 star7)
+			(not (pointing satellite1 star7))
 		)
 	)
 	(:action turn_to_satellite2_groundstation0_groundstation0
 		:parameters ()
 		:precondition (pointing satellite2 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation0)
-				(not (pointing satellite2 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation0)
+			(not (pointing satellite2 groundstation0))
 		)
 	)
 	(:action turn_to_satellite2_groundstation0_groundstation2
 		:parameters ()
 		:precondition (pointing satellite2 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation0)
-				(not (pointing satellite2 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation0)
+			(not (pointing satellite2 groundstation2))
 		)
 	)
 	(:action turn_to_satellite2_groundstation0_groundstation4
 		:parameters ()
 		:precondition (pointing satellite2 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation0)
-				(not (pointing satellite2 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation0)
+			(not (pointing satellite2 groundstation4))
 		)
 	)
 	(:action turn_to_satellite2_groundstation0_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite2 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation0)
-				(not (pointing satellite2 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation0)
+			(not (pointing satellite2 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite2_groundstation0_planet10
 		:parameters ()
 		:precondition (pointing satellite2 planet10)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation0)
-				(not (pointing satellite2 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation0)
+			(not (pointing satellite2 planet10))
 		)
 	)
 	(:action turn_to_satellite2_groundstation0_planet11
 		:parameters ()
 		:precondition (pointing satellite2 planet11)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation0)
-				(not (pointing satellite2 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation0)
+			(not (pointing satellite2 planet11))
 		)
 	)
 	(:action turn_to_satellite2_groundstation0_planet8
 		:parameters ()
 		:precondition (pointing satellite2 planet8)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation0)
-				(not (pointing satellite2 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation0)
+			(not (pointing satellite2 planet8))
 		)
 	)
 	(:action turn_to_satellite2_groundstation0_planet9
 		:parameters ()
 		:precondition (pointing satellite2 planet9)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation0)
-				(not (pointing satellite2 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation0)
+			(not (pointing satellite2 planet9))
 		)
 	)
 	(:action turn_to_satellite2_groundstation0_star1
 		:parameters ()
 		:precondition (pointing satellite2 star1)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation0)
-				(not (pointing satellite2 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation0)
+			(not (pointing satellite2 star1))
 		)
 	)
 	(:action turn_to_satellite2_groundstation0_star3
 		:parameters ()
 		:precondition (pointing satellite2 star3)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation0)
-				(not (pointing satellite2 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation0)
+			(not (pointing satellite2 star3))
 		)
 	)
 	(:action turn_to_satellite2_groundstation0_star6
 		:parameters ()
 		:precondition (pointing satellite2 star6)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation0)
-				(not (pointing satellite2 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation0)
+			(not (pointing satellite2 star6))
 		)
 	)
 	(:action turn_to_satellite2_groundstation0_star7
 		:parameters ()
 		:precondition (pointing satellite2 star7)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation0)
-				(not (pointing satellite2 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation0)
+			(not (pointing satellite2 star7))
 		)
 	)
 	(:action turn_to_satellite2_groundstation2_groundstation0
 		:parameters ()
 		:precondition (pointing satellite2 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation2)
-				(not (pointing satellite2 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation2)
+			(not (pointing satellite2 groundstation0))
 		)
 	)
 	(:action turn_to_satellite2_groundstation2_groundstation2
 		:parameters ()
 		:precondition (pointing satellite2 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation2)
-				(not (pointing satellite2 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation2)
+			(not (pointing satellite2 groundstation2))
 		)
 	)
 	(:action turn_to_satellite2_groundstation2_groundstation4
 		:parameters ()
 		:precondition (pointing satellite2 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation2)
-				(not (pointing satellite2 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation2)
+			(not (pointing satellite2 groundstation4))
 		)
 	)
 	(:action turn_to_satellite2_groundstation2_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite2 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation2)
-				(not (pointing satellite2 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation2)
+			(not (pointing satellite2 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite2_groundstation2_planet10
 		:parameters ()
 		:precondition (pointing satellite2 planet10)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation2)
-				(not (pointing satellite2 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation2)
+			(not (pointing satellite2 planet10))
 		)
 	)
 	(:action turn_to_satellite2_groundstation2_planet11
 		:parameters ()
 		:precondition (pointing satellite2 planet11)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation2)
-				(not (pointing satellite2 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation2)
+			(not (pointing satellite2 planet11))
 		)
 	)
 	(:action turn_to_satellite2_groundstation2_planet8
 		:parameters ()
 		:precondition (pointing satellite2 planet8)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation2)
-				(not (pointing satellite2 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation2)
+			(not (pointing satellite2 planet8))
 		)
 	)
 	(:action turn_to_satellite2_groundstation2_planet9
 		:parameters ()
 		:precondition (pointing satellite2 planet9)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation2)
-				(not (pointing satellite2 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation2)
+			(not (pointing satellite2 planet9))
 		)
 	)
 	(:action turn_to_satellite2_groundstation2_star1
 		:parameters ()
 		:precondition (pointing satellite2 star1)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation2)
-				(not (pointing satellite2 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation2)
+			(not (pointing satellite2 star1))
 		)
 	)
 	(:action turn_to_satellite2_groundstation2_star3
 		:parameters ()
 		:precondition (pointing satellite2 star3)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation2)
-				(not (pointing satellite2 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation2)
+			(not (pointing satellite2 star3))
 		)
 	)
 	(:action turn_to_satellite2_groundstation2_star6
 		:parameters ()
 		:precondition (pointing satellite2 star6)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation2)
-				(not (pointing satellite2 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation2)
+			(not (pointing satellite2 star6))
 		)
 	)
 	(:action turn_to_satellite2_groundstation2_star7
 		:parameters ()
 		:precondition (pointing satellite2 star7)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation2)
-				(not (pointing satellite2 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation2)
+			(not (pointing satellite2 star7))
 		)
 	)
 	(:action turn_to_satellite2_groundstation4_groundstation0
 		:parameters ()
 		:precondition (pointing satellite2 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation4)
-				(not (pointing satellite2 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation4)
+			(not (pointing satellite2 groundstation0))
 		)
 	)
 	(:action turn_to_satellite2_groundstation4_groundstation2
 		:parameters ()
 		:precondition (pointing satellite2 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation4)
-				(not (pointing satellite2 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation4)
+			(not (pointing satellite2 groundstation2))
 		)
 	)
 	(:action turn_to_satellite2_groundstation4_groundstation4
 		:parameters ()
 		:precondition (pointing satellite2 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation4)
-				(not (pointing satellite2 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation4)
+			(not (pointing satellite2 groundstation4))
 		)
 	)
 	(:action turn_to_satellite2_groundstation4_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite2 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation4)
-				(not (pointing satellite2 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation4)
+			(not (pointing satellite2 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite2_groundstation4_planet10
 		:parameters ()
 		:precondition (pointing satellite2 planet10)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation4)
-				(not (pointing satellite2 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation4)
+			(not (pointing satellite2 planet10))
 		)
 	)
 	(:action turn_to_satellite2_groundstation4_planet11
 		:parameters ()
 		:precondition (pointing satellite2 planet11)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation4)
-				(not (pointing satellite2 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation4)
+			(not (pointing satellite2 planet11))
 		)
 	)
 	(:action turn_to_satellite2_groundstation4_planet8
 		:parameters ()
 		:precondition (pointing satellite2 planet8)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation4)
-				(not (pointing satellite2 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation4)
+			(not (pointing satellite2 planet8))
 		)
 	)
 	(:action turn_to_satellite2_groundstation4_planet9
 		:parameters ()
 		:precondition (pointing satellite2 planet9)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation4)
-				(not (pointing satellite2 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation4)
+			(not (pointing satellite2 planet9))
 		)
 	)
 	(:action turn_to_satellite2_groundstation4_star1
 		:parameters ()
 		:precondition (pointing satellite2 star1)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation4)
-				(not (pointing satellite2 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation4)
+			(not (pointing satellite2 star1))
 		)
 	)
 	(:action turn_to_satellite2_groundstation4_star3
 		:parameters ()
 		:precondition (pointing satellite2 star3)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation4)
-				(not (pointing satellite2 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation4)
+			(not (pointing satellite2 star3))
 		)
 	)
 	(:action turn_to_satellite2_groundstation4_star6
 		:parameters ()
 		:precondition (pointing satellite2 star6)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation4)
-				(not (pointing satellite2 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation4)
+			(not (pointing satellite2 star6))
 		)
 	)
 	(:action turn_to_satellite2_groundstation4_star7
 		:parameters ()
 		:precondition (pointing satellite2 star7)
 		:effect (and
-			(and
-				(pointing satellite2 groundstation4)
-				(not (pointing satellite2 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 groundstation4)
+			(not (pointing satellite2 star7))
 		)
 	)
 	(:action turn_to_satellite2_phenomenon5_groundstation0
 		:parameters ()
 		:precondition (pointing satellite2 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite2 phenomenon5)
-				(not (pointing satellite2 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 phenomenon5)
+			(not (pointing satellite2 groundstation0))
 		)
 	)
 	(:action turn_to_satellite2_phenomenon5_groundstation2
 		:parameters ()
 		:precondition (pointing satellite2 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite2 phenomenon5)
-				(not (pointing satellite2 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 phenomenon5)
+			(not (pointing satellite2 groundstation2))
 		)
 	)
 	(:action turn_to_satellite2_phenomenon5_groundstation4
 		:parameters ()
 		:precondition (pointing satellite2 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite2 phenomenon5)
-				(not (pointing satellite2 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 phenomenon5)
+			(not (pointing satellite2 groundstation4))
 		)
 	)
 	(:action turn_to_satellite2_phenomenon5_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite2 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite2 phenomenon5)
-				(not (pointing satellite2 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 phenomenon5)
+			(not (pointing satellite2 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite2_phenomenon5_planet10
 		:parameters ()
 		:precondition (pointing satellite2 planet10)
 		:effect (and
-			(and
-				(pointing satellite2 phenomenon5)
-				(not (pointing satellite2 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 phenomenon5)
+			(not (pointing satellite2 planet10))
 		)
 	)
 	(:action turn_to_satellite2_phenomenon5_planet11
 		:parameters ()
 		:precondition (pointing satellite2 planet11)
 		:effect (and
-			(and
-				(pointing satellite2 phenomenon5)
-				(not (pointing satellite2 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 phenomenon5)
+			(not (pointing satellite2 planet11))
 		)
 	)
 	(:action turn_to_satellite2_phenomenon5_planet8
 		:parameters ()
 		:precondition (pointing satellite2 planet8)
 		:effect (and
-			(and
-				(pointing satellite2 phenomenon5)
-				(not (pointing satellite2 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 phenomenon5)
+			(not (pointing satellite2 planet8))
 		)
 	)
 	(:action turn_to_satellite2_phenomenon5_planet9
 		:parameters ()
 		:precondition (pointing satellite2 planet9)
 		:effect (and
-			(and
-				(pointing satellite2 phenomenon5)
-				(not (pointing satellite2 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 phenomenon5)
+			(not (pointing satellite2 planet9))
 		)
 	)
 	(:action turn_to_satellite2_phenomenon5_star1
 		:parameters ()
 		:precondition (pointing satellite2 star1)
 		:effect (and
-			(and
-				(pointing satellite2 phenomenon5)
-				(not (pointing satellite2 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 phenomenon5)
+			(not (pointing satellite2 star1))
 		)
 	)
 	(:action turn_to_satellite2_phenomenon5_star3
 		:parameters ()
 		:precondition (pointing satellite2 star3)
 		:effect (and
-			(and
-				(pointing satellite2 phenomenon5)
-				(not (pointing satellite2 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 phenomenon5)
+			(not (pointing satellite2 star3))
 		)
 	)
 	(:action turn_to_satellite2_phenomenon5_star6
 		:parameters ()
 		:precondition (pointing satellite2 star6)
 		:effect (and
-			(and
-				(pointing satellite2 phenomenon5)
-				(not (pointing satellite2 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 phenomenon5)
+			(not (pointing satellite2 star6))
 		)
 	)
 	(:action turn_to_satellite2_phenomenon5_star7
 		:parameters ()
 		:precondition (pointing satellite2 star7)
 		:effect (and
-			(and
-				(pointing satellite2 phenomenon5)
-				(not (pointing satellite2 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 phenomenon5)
+			(not (pointing satellite2 star7))
 		)
 	)
 	(:action turn_to_satellite2_planet10_groundstation0
 		:parameters ()
 		:precondition (pointing satellite2 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite2 planet10)
-				(not (pointing satellite2 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet10)
+			(not (pointing satellite2 groundstation0))
 		)
 	)
 	(:action turn_to_satellite2_planet10_groundstation2
 		:parameters ()
 		:precondition (pointing satellite2 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite2 planet10)
-				(not (pointing satellite2 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet10)
+			(not (pointing satellite2 groundstation2))
 		)
 	)
 	(:action turn_to_satellite2_planet10_groundstation4
 		:parameters ()
 		:precondition (pointing satellite2 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite2 planet10)
-				(not (pointing satellite2 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet10)
+			(not (pointing satellite2 groundstation4))
 		)
 	)
 	(:action turn_to_satellite2_planet10_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite2 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite2 planet10)
-				(not (pointing satellite2 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet10)
+			(not (pointing satellite2 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite2_planet10_planet10
 		:parameters ()
 		:precondition (pointing satellite2 planet10)
 		:effect (and
-			(and
-				(pointing satellite2 planet10)
-				(not (pointing satellite2 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet10)
+			(not (pointing satellite2 planet10))
 		)
 	)
 	(:action turn_to_satellite2_planet10_planet11
 		:parameters ()
 		:precondition (pointing satellite2 planet11)
 		:effect (and
-			(and
-				(pointing satellite2 planet10)
-				(not (pointing satellite2 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet10)
+			(not (pointing satellite2 planet11))
 		)
 	)
 	(:action turn_to_satellite2_planet10_planet8
 		:parameters ()
 		:precondition (pointing satellite2 planet8)
 		:effect (and
-			(and
-				(pointing satellite2 planet10)
-				(not (pointing satellite2 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet10)
+			(not (pointing satellite2 planet8))
 		)
 	)
 	(:action turn_to_satellite2_planet10_planet9
 		:parameters ()
 		:precondition (pointing satellite2 planet9)
 		:effect (and
-			(and
-				(pointing satellite2 planet10)
-				(not (pointing satellite2 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet10)
+			(not (pointing satellite2 planet9))
 		)
 	)
 	(:action turn_to_satellite2_planet10_star1
 		:parameters ()
 		:precondition (pointing satellite2 star1)
 		:effect (and
-			(and
-				(pointing satellite2 planet10)
-				(not (pointing satellite2 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet10)
+			(not (pointing satellite2 star1))
 		)
 	)
 	(:action turn_to_satellite2_planet10_star3
 		:parameters ()
 		:precondition (pointing satellite2 star3)
 		:effect (and
-			(and
-				(pointing satellite2 planet10)
-				(not (pointing satellite2 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet10)
+			(not (pointing satellite2 star3))
 		)
 	)
 	(:action turn_to_satellite2_planet10_star6
 		:parameters ()
 		:precondition (pointing satellite2 star6)
 		:effect (and
-			(and
-				(pointing satellite2 planet10)
-				(not (pointing satellite2 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet10)
+			(not (pointing satellite2 star6))
 		)
 	)
 	(:action turn_to_satellite2_planet10_star7
 		:parameters ()
 		:precondition (pointing satellite2 star7)
 		:effect (and
-			(and
-				(pointing satellite2 planet10)
-				(not (pointing satellite2 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet10)
+			(not (pointing satellite2 star7))
 		)
 	)
 	(:action turn_to_satellite2_planet11_groundstation0
 		:parameters ()
 		:precondition (pointing satellite2 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite2 planet11)
-				(not (pointing satellite2 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet11)
+			(not (pointing satellite2 groundstation0))
 		)
 	)
 	(:action turn_to_satellite2_planet11_groundstation2
 		:parameters ()
 		:precondition (pointing satellite2 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite2 planet11)
-				(not (pointing satellite2 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet11)
+			(not (pointing satellite2 groundstation2))
 		)
 	)
 	(:action turn_to_satellite2_planet11_groundstation4
 		:parameters ()
 		:precondition (pointing satellite2 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite2 planet11)
-				(not (pointing satellite2 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet11)
+			(not (pointing satellite2 groundstation4))
 		)
 	)
 	(:action turn_to_satellite2_planet11_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite2 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite2 planet11)
-				(not (pointing satellite2 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet11)
+			(not (pointing satellite2 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite2_planet11_planet10
 		:parameters ()
 		:precondition (pointing satellite2 planet10)
 		:effect (and
-			(and
-				(pointing satellite2 planet11)
-				(not (pointing satellite2 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet11)
+			(not (pointing satellite2 planet10))
 		)
 	)
 	(:action turn_to_satellite2_planet11_planet11
 		:parameters ()
 		:precondition (pointing satellite2 planet11)
 		:effect (and
-			(and
-				(pointing satellite2 planet11)
-				(not (pointing satellite2 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet11)
+			(not (pointing satellite2 planet11))
 		)
 	)
 	(:action turn_to_satellite2_planet11_planet8
 		:parameters ()
 		:precondition (pointing satellite2 planet8)
 		:effect (and
-			(and
-				(pointing satellite2 planet11)
-				(not (pointing satellite2 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet11)
+			(not (pointing satellite2 planet8))
 		)
 	)
 	(:action turn_to_satellite2_planet11_planet9
 		:parameters ()
 		:precondition (pointing satellite2 planet9)
 		:effect (and
-			(and
-				(pointing satellite2 planet11)
-				(not (pointing satellite2 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet11)
+			(not (pointing satellite2 planet9))
 		)
 	)
 	(:action turn_to_satellite2_planet11_star1
 		:parameters ()
 		:precondition (pointing satellite2 star1)
 		:effect (and
-			(and
-				(pointing satellite2 planet11)
-				(not (pointing satellite2 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet11)
+			(not (pointing satellite2 star1))
 		)
 	)
 	(:action turn_to_satellite2_planet11_star3
 		:parameters ()
 		:precondition (pointing satellite2 star3)
 		:effect (and
-			(and
-				(pointing satellite2 planet11)
-				(not (pointing satellite2 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet11)
+			(not (pointing satellite2 star3))
 		)
 	)
 	(:action turn_to_satellite2_planet11_star6
 		:parameters ()
 		:precondition (pointing satellite2 star6)
 		:effect (and
-			(and
-				(pointing satellite2 planet11)
-				(not (pointing satellite2 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet11)
+			(not (pointing satellite2 star6))
 		)
 	)
 	(:action turn_to_satellite2_planet11_star7
 		:parameters ()
 		:precondition (pointing satellite2 star7)
 		:effect (and
-			(and
-				(pointing satellite2 planet11)
-				(not (pointing satellite2 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet11)
+			(not (pointing satellite2 star7))
 		)
 	)
 	(:action turn_to_satellite2_planet8_groundstation0
 		:parameters ()
 		:precondition (pointing satellite2 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite2 planet8)
-				(not (pointing satellite2 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet8)
+			(not (pointing satellite2 groundstation0))
 		)
 	)
 	(:action turn_to_satellite2_planet8_groundstation2
 		:parameters ()
 		:precondition (pointing satellite2 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite2 planet8)
-				(not (pointing satellite2 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet8)
+			(not (pointing satellite2 groundstation2))
 		)
 	)
 	(:action turn_to_satellite2_planet8_groundstation4
 		:parameters ()
 		:precondition (pointing satellite2 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite2 planet8)
-				(not (pointing satellite2 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet8)
+			(not (pointing satellite2 groundstation4))
 		)
 	)
 	(:action turn_to_satellite2_planet8_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite2 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite2 planet8)
-				(not (pointing satellite2 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet8)
+			(not (pointing satellite2 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite2_planet8_planet10
 		:parameters ()
 		:precondition (pointing satellite2 planet10)
 		:effect (and
-			(and
-				(pointing satellite2 planet8)
-				(not (pointing satellite2 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet8)
+			(not (pointing satellite2 planet10))
 		)
 	)
 	(:action turn_to_satellite2_planet8_planet11
 		:parameters ()
 		:precondition (pointing satellite2 planet11)
 		:effect (and
-			(and
-				(pointing satellite2 planet8)
-				(not (pointing satellite2 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet8)
+			(not (pointing satellite2 planet11))
 		)
 	)
 	(:action turn_to_satellite2_planet8_planet8
 		:parameters ()
 		:precondition (pointing satellite2 planet8)
 		:effect (and
-			(and
-				(pointing satellite2 planet8)
-				(not (pointing satellite2 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet8)
+			(not (pointing satellite2 planet8))
 		)
 	)
 	(:action turn_to_satellite2_planet8_planet9
 		:parameters ()
 		:precondition (pointing satellite2 planet9)
 		:effect (and
-			(and
-				(pointing satellite2 planet8)
-				(not (pointing satellite2 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet8)
+			(not (pointing satellite2 planet9))
 		)
 	)
 	(:action turn_to_satellite2_planet8_star1
 		:parameters ()
 		:precondition (pointing satellite2 star1)
 		:effect (and
-			(and
-				(pointing satellite2 planet8)
-				(not (pointing satellite2 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet8)
+			(not (pointing satellite2 star1))
 		)
 	)
 	(:action turn_to_satellite2_planet8_star3
 		:parameters ()
 		:precondition (pointing satellite2 star3)
 		:effect (and
-			(and
-				(pointing satellite2 planet8)
-				(not (pointing satellite2 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet8)
+			(not (pointing satellite2 star3))
 		)
 	)
 	(:action turn_to_satellite2_planet8_star6
 		:parameters ()
 		:precondition (pointing satellite2 star6)
 		:effect (and
-			(and
-				(pointing satellite2 planet8)
-				(not (pointing satellite2 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet8)
+			(not (pointing satellite2 star6))
 		)
 	)
 	(:action turn_to_satellite2_planet8_star7
 		:parameters ()
 		:precondition (pointing satellite2 star7)
 		:effect (and
-			(and
-				(pointing satellite2 planet8)
-				(not (pointing satellite2 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet8)
+			(not (pointing satellite2 star7))
 		)
 	)
 	(:action turn_to_satellite2_planet9_groundstation0
 		:parameters ()
 		:precondition (pointing satellite2 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite2 planet9)
-				(not (pointing satellite2 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet9)
+			(not (pointing satellite2 groundstation0))
 		)
 	)
 	(:action turn_to_satellite2_planet9_groundstation2
 		:parameters ()
 		:precondition (pointing satellite2 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite2 planet9)
-				(not (pointing satellite2 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet9)
+			(not (pointing satellite2 groundstation2))
 		)
 	)
 	(:action turn_to_satellite2_planet9_groundstation4
 		:parameters ()
 		:precondition (pointing satellite2 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite2 planet9)
-				(not (pointing satellite2 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet9)
+			(not (pointing satellite2 groundstation4))
 		)
 	)
 	(:action turn_to_satellite2_planet9_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite2 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite2 planet9)
-				(not (pointing satellite2 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet9)
+			(not (pointing satellite2 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite2_planet9_planet10
 		:parameters ()
 		:precondition (pointing satellite2 planet10)
 		:effect (and
-			(and
-				(pointing satellite2 planet9)
-				(not (pointing satellite2 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet9)
+			(not (pointing satellite2 planet10))
 		)
 	)
 	(:action turn_to_satellite2_planet9_planet11
 		:parameters ()
 		:precondition (pointing satellite2 planet11)
 		:effect (and
-			(and
-				(pointing satellite2 planet9)
-				(not (pointing satellite2 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet9)
+			(not (pointing satellite2 planet11))
 		)
 	)
 	(:action turn_to_satellite2_planet9_planet8
 		:parameters ()
 		:precondition (pointing satellite2 planet8)
 		:effect (and
-			(and
-				(pointing satellite2 planet9)
-				(not (pointing satellite2 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet9)
+			(not (pointing satellite2 planet8))
 		)
 	)
 	(:action turn_to_satellite2_planet9_planet9
 		:parameters ()
 		:precondition (pointing satellite2 planet9)
 		:effect (and
-			(and
-				(pointing satellite2 planet9)
-				(not (pointing satellite2 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet9)
+			(not (pointing satellite2 planet9))
 		)
 	)
 	(:action turn_to_satellite2_planet9_star1
 		:parameters ()
 		:precondition (pointing satellite2 star1)
 		:effect (and
-			(and
-				(pointing satellite2 planet9)
-				(not (pointing satellite2 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet9)
+			(not (pointing satellite2 star1))
 		)
 	)
 	(:action turn_to_satellite2_planet9_star3
 		:parameters ()
 		:precondition (pointing satellite2 star3)
 		:effect (and
-			(and
-				(pointing satellite2 planet9)
-				(not (pointing satellite2 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet9)
+			(not (pointing satellite2 star3))
 		)
 	)
 	(:action turn_to_satellite2_planet9_star6
 		:parameters ()
 		:precondition (pointing satellite2 star6)
 		:effect (and
-			(and
-				(pointing satellite2 planet9)
-				(not (pointing satellite2 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet9)
+			(not (pointing satellite2 star6))
 		)
 	)
 	(:action turn_to_satellite2_planet9_star7
 		:parameters ()
 		:precondition (pointing satellite2 star7)
 		:effect (and
-			(and
-				(pointing satellite2 planet9)
-				(not (pointing satellite2 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 planet9)
+			(not (pointing satellite2 star7))
 		)
 	)
 	(:action turn_to_satellite2_star1_groundstation0
 		:parameters ()
 		:precondition (pointing satellite2 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite2 star1)
-				(not (pointing satellite2 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star1)
+			(not (pointing satellite2 groundstation0))
 		)
 	)
 	(:action turn_to_satellite2_star1_groundstation2
 		:parameters ()
 		:precondition (pointing satellite2 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite2 star1)
-				(not (pointing satellite2 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star1)
+			(not (pointing satellite2 groundstation2))
 		)
 	)
 	(:action turn_to_satellite2_star1_groundstation4
 		:parameters ()
 		:precondition (pointing satellite2 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite2 star1)
-				(not (pointing satellite2 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star1)
+			(not (pointing satellite2 groundstation4))
 		)
 	)
 	(:action turn_to_satellite2_star1_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite2 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite2 star1)
-				(not (pointing satellite2 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star1)
+			(not (pointing satellite2 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite2_star1_planet10
 		:parameters ()
 		:precondition (pointing satellite2 planet10)
 		:effect (and
-			(and
-				(pointing satellite2 star1)
-				(not (pointing satellite2 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star1)
+			(not (pointing satellite2 planet10))
 		)
 	)
 	(:action turn_to_satellite2_star1_planet11
 		:parameters ()
 		:precondition (pointing satellite2 planet11)
 		:effect (and
-			(and
-				(pointing satellite2 star1)
-				(not (pointing satellite2 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star1)
+			(not (pointing satellite2 planet11))
 		)
 	)
 	(:action turn_to_satellite2_star1_planet8
 		:parameters ()
 		:precondition (pointing satellite2 planet8)
 		:effect (and
-			(and
-				(pointing satellite2 star1)
-				(not (pointing satellite2 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star1)
+			(not (pointing satellite2 planet8))
 		)
 	)
 	(:action turn_to_satellite2_star1_planet9
 		:parameters ()
 		:precondition (pointing satellite2 planet9)
 		:effect (and
-			(and
-				(pointing satellite2 star1)
-				(not (pointing satellite2 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star1)
+			(not (pointing satellite2 planet9))
 		)
 	)
 	(:action turn_to_satellite2_star1_star1
 		:parameters ()
 		:precondition (pointing satellite2 star1)
 		:effect (and
-			(and
-				(pointing satellite2 star1)
-				(not (pointing satellite2 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star1)
+			(not (pointing satellite2 star1))
 		)
 	)
 	(:action turn_to_satellite2_star1_star3
 		:parameters ()
 		:precondition (pointing satellite2 star3)
 		:effect (and
-			(and
-				(pointing satellite2 star1)
-				(not (pointing satellite2 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star1)
+			(not (pointing satellite2 star3))
 		)
 	)
 	(:action turn_to_satellite2_star1_star6
 		:parameters ()
 		:precondition (pointing satellite2 star6)
 		:effect (and
-			(and
-				(pointing satellite2 star1)
-				(not (pointing satellite2 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star1)
+			(not (pointing satellite2 star6))
 		)
 	)
 	(:action turn_to_satellite2_star1_star7
 		:parameters ()
 		:precondition (pointing satellite2 star7)
 		:effect (and
-			(and
-				(pointing satellite2 star1)
-				(not (pointing satellite2 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star1)
+			(not (pointing satellite2 star7))
 		)
 	)
 	(:action turn_to_satellite2_star3_groundstation0
 		:parameters ()
 		:precondition (pointing satellite2 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite2 star3)
-				(not (pointing satellite2 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star3)
+			(not (pointing satellite2 groundstation0))
 		)
 	)
 	(:action turn_to_satellite2_star3_groundstation2
 		:parameters ()
 		:precondition (pointing satellite2 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite2 star3)
-				(not (pointing satellite2 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star3)
+			(not (pointing satellite2 groundstation2))
 		)
 	)
 	(:action turn_to_satellite2_star3_groundstation4
 		:parameters ()
 		:precondition (pointing satellite2 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite2 star3)
-				(not (pointing satellite2 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star3)
+			(not (pointing satellite2 groundstation4))
 		)
 	)
 	(:action turn_to_satellite2_star3_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite2 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite2 star3)
-				(not (pointing satellite2 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star3)
+			(not (pointing satellite2 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite2_star3_planet10
 		:parameters ()
 		:precondition (pointing satellite2 planet10)
 		:effect (and
-			(and
-				(pointing satellite2 star3)
-				(not (pointing satellite2 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star3)
+			(not (pointing satellite2 planet10))
 		)
 	)
 	(:action turn_to_satellite2_star3_planet11
 		:parameters ()
 		:precondition (pointing satellite2 planet11)
 		:effect (and
-			(and
-				(pointing satellite2 star3)
-				(not (pointing satellite2 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star3)
+			(not (pointing satellite2 planet11))
 		)
 	)
 	(:action turn_to_satellite2_star3_planet8
 		:parameters ()
 		:precondition (pointing satellite2 planet8)
 		:effect (and
-			(and
-				(pointing satellite2 star3)
-				(not (pointing satellite2 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star3)
+			(not (pointing satellite2 planet8))
 		)
 	)
 	(:action turn_to_satellite2_star3_planet9
 		:parameters ()
 		:precondition (pointing satellite2 planet9)
 		:effect (and
-			(and
-				(pointing satellite2 star3)
-				(not (pointing satellite2 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star3)
+			(not (pointing satellite2 planet9))
 		)
 	)
 	(:action turn_to_satellite2_star3_star1
 		:parameters ()
 		:precondition (pointing satellite2 star1)
 		:effect (and
-			(and
-				(pointing satellite2 star3)
-				(not (pointing satellite2 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star3)
+			(not (pointing satellite2 star1))
 		)
 	)
 	(:action turn_to_satellite2_star3_star3
 		:parameters ()
 		:precondition (pointing satellite2 star3)
 		:effect (and
-			(and
-				(pointing satellite2 star3)
-				(not (pointing satellite2 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star3)
+			(not (pointing satellite2 star3))
 		)
 	)
 	(:action turn_to_satellite2_star3_star6
 		:parameters ()
 		:precondition (pointing satellite2 star6)
 		:effect (and
-			(and
-				(pointing satellite2 star3)
-				(not (pointing satellite2 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star3)
+			(not (pointing satellite2 star6))
 		)
 	)
 	(:action turn_to_satellite2_star3_star7
 		:parameters ()
 		:precondition (pointing satellite2 star7)
 		:effect (and
-			(and
-				(pointing satellite2 star3)
-				(not (pointing satellite2 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star3)
+			(not (pointing satellite2 star7))
 		)
 	)
 	(:action turn_to_satellite2_star6_groundstation0
 		:parameters ()
 		:precondition (pointing satellite2 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite2 star6)
-				(not (pointing satellite2 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star6)
+			(not (pointing satellite2 groundstation0))
 		)
 	)
 	(:action turn_to_satellite2_star6_groundstation2
 		:parameters ()
 		:precondition (pointing satellite2 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite2 star6)
-				(not (pointing satellite2 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star6)
+			(not (pointing satellite2 groundstation2))
 		)
 	)
 	(:action turn_to_satellite2_star6_groundstation4
 		:parameters ()
 		:precondition (pointing satellite2 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite2 star6)
-				(not (pointing satellite2 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star6)
+			(not (pointing satellite2 groundstation4))
 		)
 	)
 	(:action turn_to_satellite2_star6_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite2 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite2 star6)
-				(not (pointing satellite2 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star6)
+			(not (pointing satellite2 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite2_star6_planet10
 		:parameters ()
 		:precondition (pointing satellite2 planet10)
 		:effect (and
-			(and
-				(pointing satellite2 star6)
-				(not (pointing satellite2 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star6)
+			(not (pointing satellite2 planet10))
 		)
 	)
 	(:action turn_to_satellite2_star6_planet11
 		:parameters ()
 		:precondition (pointing satellite2 planet11)
 		:effect (and
-			(and
-				(pointing satellite2 star6)
-				(not (pointing satellite2 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star6)
+			(not (pointing satellite2 planet11))
 		)
 	)
 	(:action turn_to_satellite2_star6_planet8
 		:parameters ()
 		:precondition (pointing satellite2 planet8)
 		:effect (and
-			(and
-				(pointing satellite2 star6)
-				(not (pointing satellite2 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star6)
+			(not (pointing satellite2 planet8))
 		)
 	)
 	(:action turn_to_satellite2_star6_planet9
 		:parameters ()
 		:precondition (pointing satellite2 planet9)
 		:effect (and
-			(and
-				(pointing satellite2 star6)
-				(not (pointing satellite2 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star6)
+			(not (pointing satellite2 planet9))
 		)
 	)
 	(:action turn_to_satellite2_star6_star1
 		:parameters ()
 		:precondition (pointing satellite2 star1)
 		:effect (and
-			(and
-				(pointing satellite2 star6)
-				(not (pointing satellite2 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star6)
+			(not (pointing satellite2 star1))
 		)
 	)
 	(:action turn_to_satellite2_star6_star3
 		:parameters ()
 		:precondition (pointing satellite2 star3)
 		:effect (and
-			(and
-				(pointing satellite2 star6)
-				(not (pointing satellite2 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star6)
+			(not (pointing satellite2 star3))
 		)
 	)
 	(:action turn_to_satellite2_star6_star6
 		:parameters ()
 		:precondition (pointing satellite2 star6)
 		:effect (and
-			(and
-				(pointing satellite2 star6)
-				(not (pointing satellite2 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star6)
+			(not (pointing satellite2 star6))
 		)
 	)
 	(:action turn_to_satellite2_star6_star7
 		:parameters ()
 		:precondition (pointing satellite2 star7)
 		:effect (and
-			(and
-				(pointing satellite2 star6)
-				(not (pointing satellite2 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star6)
+			(not (pointing satellite2 star7))
 		)
 	)
 	(:action turn_to_satellite2_star7_groundstation0
 		:parameters ()
 		:precondition (pointing satellite2 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite2 star7)
-				(not (pointing satellite2 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star7)
+			(not (pointing satellite2 groundstation0))
 		)
 	)
 	(:action turn_to_satellite2_star7_groundstation2
 		:parameters ()
 		:precondition (pointing satellite2 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite2 star7)
-				(not (pointing satellite2 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star7)
+			(not (pointing satellite2 groundstation2))
 		)
 	)
 	(:action turn_to_satellite2_star7_groundstation4
 		:parameters ()
 		:precondition (pointing satellite2 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite2 star7)
-				(not (pointing satellite2 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star7)
+			(not (pointing satellite2 groundstation4))
 		)
 	)
 	(:action turn_to_satellite2_star7_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite2 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite2 star7)
-				(not (pointing satellite2 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star7)
+			(not (pointing satellite2 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite2_star7_planet10
 		:parameters ()
 		:precondition (pointing satellite2 planet10)
 		:effect (and
-			(and
-				(pointing satellite2 star7)
-				(not (pointing satellite2 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star7)
+			(not (pointing satellite2 planet10))
 		)
 	)
 	(:action turn_to_satellite2_star7_planet11
 		:parameters ()
 		:precondition (pointing satellite2 planet11)
 		:effect (and
-			(and
-				(pointing satellite2 star7)
-				(not (pointing satellite2 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star7)
+			(not (pointing satellite2 planet11))
 		)
 	)
 	(:action turn_to_satellite2_star7_planet8
 		:parameters ()
 		:precondition (pointing satellite2 planet8)
 		:effect (and
-			(and
-				(pointing satellite2 star7)
-				(not (pointing satellite2 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star7)
+			(not (pointing satellite2 planet8))
 		)
 	)
 	(:action turn_to_satellite2_star7_planet9
 		:parameters ()
 		:precondition (pointing satellite2 planet9)
 		:effect (and
-			(and
-				(pointing satellite2 star7)
-				(not (pointing satellite2 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star7)
+			(not (pointing satellite2 planet9))
 		)
 	)
 	(:action turn_to_satellite2_star7_star1
 		:parameters ()
 		:precondition (pointing satellite2 star1)
 		:effect (and
-			(and
-				(pointing satellite2 star7)
-				(not (pointing satellite2 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star7)
+			(not (pointing satellite2 star1))
 		)
 	)
 	(:action turn_to_satellite2_star7_star3
 		:parameters ()
 		:precondition (pointing satellite2 star3)
 		:effect (and
-			(and
-				(pointing satellite2 star7)
-				(not (pointing satellite2 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star7)
+			(not (pointing satellite2 star3))
 		)
 	)
 	(:action turn_to_satellite2_star7_star6
 		:parameters ()
 		:precondition (pointing satellite2 star6)
 		:effect (and
-			(and
-				(pointing satellite2 star7)
-				(not (pointing satellite2 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star7)
+			(not (pointing satellite2 star6))
 		)
 	)
 	(:action turn_to_satellite2_star7_star7
 		:parameters ()
 		:precondition (pointing satellite2 star7)
 		:effect (and
-			(and
-				(pointing satellite2 star7)
-				(not (pointing satellite2 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite2 star7)
+			(not (pointing satellite2 star7))
 		)
 	)
 	(:action turn_to_satellite3_groundstation0_groundstation0
 		:parameters ()
 		:precondition (pointing satellite3 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation0)
-				(not (pointing satellite3 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation0)
+			(not (pointing satellite3 groundstation0))
 		)
 	)
 	(:action turn_to_satellite3_groundstation0_groundstation2
 		:parameters ()
 		:precondition (pointing satellite3 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation0)
-				(not (pointing satellite3 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation0)
+			(not (pointing satellite3 groundstation2))
 		)
 	)
 	(:action turn_to_satellite3_groundstation0_groundstation4
 		:parameters ()
 		:precondition (pointing satellite3 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation0)
-				(not (pointing satellite3 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation0)
+			(not (pointing satellite3 groundstation4))
 		)
 	)
 	(:action turn_to_satellite3_groundstation0_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite3 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation0)
-				(not (pointing satellite3 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation0)
+			(not (pointing satellite3 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite3_groundstation0_planet10
 		:parameters ()
 		:precondition (pointing satellite3 planet10)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation0)
-				(not (pointing satellite3 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation0)
+			(not (pointing satellite3 planet10))
 		)
 	)
 	(:action turn_to_satellite3_groundstation0_planet11
 		:parameters ()
 		:precondition (pointing satellite3 planet11)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation0)
-				(not (pointing satellite3 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation0)
+			(not (pointing satellite3 planet11))
 		)
 	)
 	(:action turn_to_satellite3_groundstation0_planet8
 		:parameters ()
 		:precondition (pointing satellite3 planet8)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation0)
-				(not (pointing satellite3 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation0)
+			(not (pointing satellite3 planet8))
 		)
 	)
 	(:action turn_to_satellite3_groundstation0_planet9
 		:parameters ()
 		:precondition (pointing satellite3 planet9)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation0)
-				(not (pointing satellite3 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation0)
+			(not (pointing satellite3 planet9))
 		)
 	)
 	(:action turn_to_satellite3_groundstation0_star1
 		:parameters ()
 		:precondition (pointing satellite3 star1)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation0)
-				(not (pointing satellite3 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation0)
+			(not (pointing satellite3 star1))
 		)
 	)
 	(:action turn_to_satellite3_groundstation0_star3
 		:parameters ()
 		:precondition (pointing satellite3 star3)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation0)
-				(not (pointing satellite3 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation0)
+			(not (pointing satellite3 star3))
 		)
 	)
 	(:action turn_to_satellite3_groundstation0_star6
 		:parameters ()
 		:precondition (pointing satellite3 star6)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation0)
-				(not (pointing satellite3 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation0)
+			(not (pointing satellite3 star6))
 		)
 	)
 	(:action turn_to_satellite3_groundstation0_star7
 		:parameters ()
 		:precondition (pointing satellite3 star7)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation0)
-				(not (pointing satellite3 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation0)
+			(not (pointing satellite3 star7))
 		)
 	)
 	(:action turn_to_satellite3_groundstation2_groundstation0
 		:parameters ()
 		:precondition (pointing satellite3 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation2)
-				(not (pointing satellite3 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation2)
+			(not (pointing satellite3 groundstation0))
 		)
 	)
 	(:action turn_to_satellite3_groundstation2_groundstation2
 		:parameters ()
 		:precondition (pointing satellite3 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation2)
-				(not (pointing satellite3 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation2)
+			(not (pointing satellite3 groundstation2))
 		)
 	)
 	(:action turn_to_satellite3_groundstation2_groundstation4
 		:parameters ()
 		:precondition (pointing satellite3 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation2)
-				(not (pointing satellite3 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation2)
+			(not (pointing satellite3 groundstation4))
 		)
 	)
 	(:action turn_to_satellite3_groundstation2_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite3 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation2)
-				(not (pointing satellite3 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation2)
+			(not (pointing satellite3 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite3_groundstation2_planet10
 		:parameters ()
 		:precondition (pointing satellite3 planet10)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation2)
-				(not (pointing satellite3 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation2)
+			(not (pointing satellite3 planet10))
 		)
 	)
 	(:action turn_to_satellite3_groundstation2_planet11
 		:parameters ()
 		:precondition (pointing satellite3 planet11)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation2)
-				(not (pointing satellite3 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation2)
+			(not (pointing satellite3 planet11))
 		)
 	)
 	(:action turn_to_satellite3_groundstation2_planet8
 		:parameters ()
 		:precondition (pointing satellite3 planet8)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation2)
-				(not (pointing satellite3 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation2)
+			(not (pointing satellite3 planet8))
 		)
 	)
 	(:action turn_to_satellite3_groundstation2_planet9
 		:parameters ()
 		:precondition (pointing satellite3 planet9)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation2)
-				(not (pointing satellite3 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation2)
+			(not (pointing satellite3 planet9))
 		)
 	)
 	(:action turn_to_satellite3_groundstation2_star1
 		:parameters ()
 		:precondition (pointing satellite3 star1)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation2)
-				(not (pointing satellite3 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation2)
+			(not (pointing satellite3 star1))
 		)
 	)
 	(:action turn_to_satellite3_groundstation2_star3
 		:parameters ()
 		:precondition (pointing satellite3 star3)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation2)
-				(not (pointing satellite3 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation2)
+			(not (pointing satellite3 star3))
 		)
 	)
 	(:action turn_to_satellite3_groundstation2_star6
 		:parameters ()
 		:precondition (pointing satellite3 star6)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation2)
-				(not (pointing satellite3 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation2)
+			(not (pointing satellite3 star6))
 		)
 	)
 	(:action turn_to_satellite3_groundstation2_star7
 		:parameters ()
 		:precondition (pointing satellite3 star7)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation2)
-				(not (pointing satellite3 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation2)
+			(not (pointing satellite3 star7))
 		)
 	)
 	(:action turn_to_satellite3_groundstation4_groundstation0
 		:parameters ()
 		:precondition (pointing satellite3 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation4)
-				(not (pointing satellite3 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation4)
+			(not (pointing satellite3 groundstation0))
 		)
 	)
 	(:action turn_to_satellite3_groundstation4_groundstation2
 		:parameters ()
 		:precondition (pointing satellite3 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation4)
-				(not (pointing satellite3 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation4)
+			(not (pointing satellite3 groundstation2))
 		)
 	)
 	(:action turn_to_satellite3_groundstation4_groundstation4
 		:parameters ()
 		:precondition (pointing satellite3 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation4)
-				(not (pointing satellite3 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation4)
+			(not (pointing satellite3 groundstation4))
 		)
 	)
 	(:action turn_to_satellite3_groundstation4_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite3 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation4)
-				(not (pointing satellite3 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation4)
+			(not (pointing satellite3 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite3_groundstation4_planet10
 		:parameters ()
 		:precondition (pointing satellite3 planet10)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation4)
-				(not (pointing satellite3 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation4)
+			(not (pointing satellite3 planet10))
 		)
 	)
 	(:action turn_to_satellite3_groundstation4_planet11
 		:parameters ()
 		:precondition (pointing satellite3 planet11)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation4)
-				(not (pointing satellite3 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation4)
+			(not (pointing satellite3 planet11))
 		)
 	)
 	(:action turn_to_satellite3_groundstation4_planet8
 		:parameters ()
 		:precondition (pointing satellite3 planet8)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation4)
-				(not (pointing satellite3 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation4)
+			(not (pointing satellite3 planet8))
 		)
 	)
 	(:action turn_to_satellite3_groundstation4_planet9
 		:parameters ()
 		:precondition (pointing satellite3 planet9)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation4)
-				(not (pointing satellite3 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation4)
+			(not (pointing satellite3 planet9))
 		)
 	)
 	(:action turn_to_satellite3_groundstation4_star1
 		:parameters ()
 		:precondition (pointing satellite3 star1)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation4)
-				(not (pointing satellite3 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation4)
+			(not (pointing satellite3 star1))
 		)
 	)
 	(:action turn_to_satellite3_groundstation4_star3
 		:parameters ()
 		:precondition (pointing satellite3 star3)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation4)
-				(not (pointing satellite3 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation4)
+			(not (pointing satellite3 star3))
 		)
 	)
 	(:action turn_to_satellite3_groundstation4_star6
 		:parameters ()
 		:precondition (pointing satellite3 star6)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation4)
-				(not (pointing satellite3 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation4)
+			(not (pointing satellite3 star6))
 		)
 	)
 	(:action turn_to_satellite3_groundstation4_star7
 		:parameters ()
 		:precondition (pointing satellite3 star7)
 		:effect (and
-			(and
-				(pointing satellite3 groundstation4)
-				(not (pointing satellite3 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 groundstation4)
+			(not (pointing satellite3 star7))
 		)
 	)
 	(:action turn_to_satellite3_phenomenon5_groundstation0
 		:parameters ()
 		:precondition (pointing satellite3 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite3 phenomenon5)
-				(not (pointing satellite3 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 phenomenon5)
+			(not (pointing satellite3 groundstation0))
 		)
 	)
 	(:action turn_to_satellite3_phenomenon5_groundstation2
 		:parameters ()
 		:precondition (pointing satellite3 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite3 phenomenon5)
-				(not (pointing satellite3 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 phenomenon5)
+			(not (pointing satellite3 groundstation2))
 		)
 	)
 	(:action turn_to_satellite3_phenomenon5_groundstation4
 		:parameters ()
 		:precondition (pointing satellite3 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite3 phenomenon5)
-				(not (pointing satellite3 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 phenomenon5)
+			(not (pointing satellite3 groundstation4))
 		)
 	)
 	(:action turn_to_satellite3_phenomenon5_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite3 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite3 phenomenon5)
-				(not (pointing satellite3 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 phenomenon5)
+			(not (pointing satellite3 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite3_phenomenon5_planet10
 		:parameters ()
 		:precondition (pointing satellite3 planet10)
 		:effect (and
-			(and
-				(pointing satellite3 phenomenon5)
-				(not (pointing satellite3 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 phenomenon5)
+			(not (pointing satellite3 planet10))
 		)
 	)
 	(:action turn_to_satellite3_phenomenon5_planet11
 		:parameters ()
 		:precondition (pointing satellite3 planet11)
 		:effect (and
-			(and
-				(pointing satellite3 phenomenon5)
-				(not (pointing satellite3 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 phenomenon5)
+			(not (pointing satellite3 planet11))
 		)
 	)
 	(:action turn_to_satellite3_phenomenon5_planet8
 		:parameters ()
 		:precondition (pointing satellite3 planet8)
 		:effect (and
-			(and
-				(pointing satellite3 phenomenon5)
-				(not (pointing satellite3 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 phenomenon5)
+			(not (pointing satellite3 planet8))
 		)
 	)
 	(:action turn_to_satellite3_phenomenon5_planet9
 		:parameters ()
 		:precondition (pointing satellite3 planet9)
 		:effect (and
-			(and
-				(pointing satellite3 phenomenon5)
-				(not (pointing satellite3 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 phenomenon5)
+			(not (pointing satellite3 planet9))
 		)
 	)
 	(:action turn_to_satellite3_phenomenon5_star1
 		:parameters ()
 		:precondition (pointing satellite3 star1)
 		:effect (and
-			(and
-				(pointing satellite3 phenomenon5)
-				(not (pointing satellite3 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 phenomenon5)
+			(not (pointing satellite3 star1))
 		)
 	)
 	(:action turn_to_satellite3_phenomenon5_star3
 		:parameters ()
 		:precondition (pointing satellite3 star3)
 		:effect (and
-			(and
-				(pointing satellite3 phenomenon5)
-				(not (pointing satellite3 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 phenomenon5)
+			(not (pointing satellite3 star3))
 		)
 	)
 	(:action turn_to_satellite3_phenomenon5_star6
 		:parameters ()
 		:precondition (pointing satellite3 star6)
 		:effect (and
-			(and
-				(pointing satellite3 phenomenon5)
-				(not (pointing satellite3 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 phenomenon5)
+			(not (pointing satellite3 star6))
 		)
 	)
 	(:action turn_to_satellite3_phenomenon5_star7
 		:parameters ()
 		:precondition (pointing satellite3 star7)
 		:effect (and
-			(and
-				(pointing satellite3 phenomenon5)
-				(not (pointing satellite3 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 phenomenon5)
+			(not (pointing satellite3 star7))
 		)
 	)
 	(:action turn_to_satellite3_planet10_groundstation0
 		:parameters ()
 		:precondition (pointing satellite3 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite3 planet10)
-				(not (pointing satellite3 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet10)
+			(not (pointing satellite3 groundstation0))
 		)
 	)
 	(:action turn_to_satellite3_planet10_groundstation2
 		:parameters ()
 		:precondition (pointing satellite3 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite3 planet10)
-				(not (pointing satellite3 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet10)
+			(not (pointing satellite3 groundstation2))
 		)
 	)
 	(:action turn_to_satellite3_planet10_groundstation4
 		:parameters ()
 		:precondition (pointing satellite3 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite3 planet10)
-				(not (pointing satellite3 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet10)
+			(not (pointing satellite3 groundstation4))
 		)
 	)
 	(:action turn_to_satellite3_planet10_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite3 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite3 planet10)
-				(not (pointing satellite3 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet10)
+			(not (pointing satellite3 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite3_planet10_planet10
 		:parameters ()
 		:precondition (pointing satellite3 planet10)
 		:effect (and
-			(and
-				(pointing satellite3 planet10)
-				(not (pointing satellite3 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet10)
+			(not (pointing satellite3 planet10))
 		)
 	)
 	(:action turn_to_satellite3_planet10_planet11
 		:parameters ()
 		:precondition (pointing satellite3 planet11)
 		:effect (and
-			(and
-				(pointing satellite3 planet10)
-				(not (pointing satellite3 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet10)
+			(not (pointing satellite3 planet11))
 		)
 	)
 	(:action turn_to_satellite3_planet10_planet8
 		:parameters ()
 		:precondition (pointing satellite3 planet8)
 		:effect (and
-			(and
-				(pointing satellite3 planet10)
-				(not (pointing satellite3 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet10)
+			(not (pointing satellite3 planet8))
 		)
 	)
 	(:action turn_to_satellite3_planet10_planet9
 		:parameters ()
 		:precondition (pointing satellite3 planet9)
 		:effect (and
-			(and
-				(pointing satellite3 planet10)
-				(not (pointing satellite3 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet10)
+			(not (pointing satellite3 planet9))
 		)
 	)
 	(:action turn_to_satellite3_planet10_star1
 		:parameters ()
 		:precondition (pointing satellite3 star1)
 		:effect (and
-			(and
-				(pointing satellite3 planet10)
-				(not (pointing satellite3 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet10)
+			(not (pointing satellite3 star1))
 		)
 	)
 	(:action turn_to_satellite3_planet10_star3
 		:parameters ()
 		:precondition (pointing satellite3 star3)
 		:effect (and
-			(and
-				(pointing satellite3 planet10)
-				(not (pointing satellite3 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet10)
+			(not (pointing satellite3 star3))
 		)
 	)
 	(:action turn_to_satellite3_planet10_star6
 		:parameters ()
 		:precondition (pointing satellite3 star6)
 		:effect (and
-			(and
-				(pointing satellite3 planet10)
-				(not (pointing satellite3 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet10)
+			(not (pointing satellite3 star6))
 		)
 	)
 	(:action turn_to_satellite3_planet10_star7
 		:parameters ()
 		:precondition (pointing satellite3 star7)
 		:effect (and
-			(and
-				(pointing satellite3 planet10)
-				(not (pointing satellite3 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet10)
+			(not (pointing satellite3 star7))
 		)
 	)
 	(:action turn_to_satellite3_planet11_groundstation0
 		:parameters ()
 		:precondition (pointing satellite3 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite3 planet11)
-				(not (pointing satellite3 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet11)
+			(not (pointing satellite3 groundstation0))
 		)
 	)
 	(:action turn_to_satellite3_planet11_groundstation2
 		:parameters ()
 		:precondition (pointing satellite3 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite3 planet11)
-				(not (pointing satellite3 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet11)
+			(not (pointing satellite3 groundstation2))
 		)
 	)
 	(:action turn_to_satellite3_planet11_groundstation4
 		:parameters ()
 		:precondition (pointing satellite3 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite3 planet11)
-				(not (pointing satellite3 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet11)
+			(not (pointing satellite3 groundstation4))
 		)
 	)
 	(:action turn_to_satellite3_planet11_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite3 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite3 planet11)
-				(not (pointing satellite3 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet11)
+			(not (pointing satellite3 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite3_planet11_planet10
 		:parameters ()
 		:precondition (pointing satellite3 planet10)
 		:effect (and
-			(and
-				(pointing satellite3 planet11)
-				(not (pointing satellite3 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet11)
+			(not (pointing satellite3 planet10))
 		)
 	)
 	(:action turn_to_satellite3_planet11_planet11
 		:parameters ()
 		:precondition (pointing satellite3 planet11)
 		:effect (and
-			(and
-				(pointing satellite3 planet11)
-				(not (pointing satellite3 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet11)
+			(not (pointing satellite3 planet11))
 		)
 	)
 	(:action turn_to_satellite3_planet11_planet8
 		:parameters ()
 		:precondition (pointing satellite3 planet8)
 		:effect (and
-			(and
-				(pointing satellite3 planet11)
-				(not (pointing satellite3 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet11)
+			(not (pointing satellite3 planet8))
 		)
 	)
 	(:action turn_to_satellite3_planet11_planet9
 		:parameters ()
 		:precondition (pointing satellite3 planet9)
 		:effect (and
-			(and
-				(pointing satellite3 planet11)
-				(not (pointing satellite3 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet11)
+			(not (pointing satellite3 planet9))
 		)
 	)
 	(:action turn_to_satellite3_planet11_star1
 		:parameters ()
 		:precondition (pointing satellite3 star1)
 		:effect (and
-			(and
-				(pointing satellite3 planet11)
-				(not (pointing satellite3 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet11)
+			(not (pointing satellite3 star1))
 		)
 	)
 	(:action turn_to_satellite3_planet11_star3
 		:parameters ()
 		:precondition (pointing satellite3 star3)
 		:effect (and
-			(and
-				(pointing satellite3 planet11)
-				(not (pointing satellite3 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet11)
+			(not (pointing satellite3 star3))
 		)
 	)
 	(:action turn_to_satellite3_planet11_star6
 		:parameters ()
 		:precondition (pointing satellite3 star6)
 		:effect (and
-			(and
-				(pointing satellite3 planet11)
-				(not (pointing satellite3 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet11)
+			(not (pointing satellite3 star6))
 		)
 	)
 	(:action turn_to_satellite3_planet11_star7
 		:parameters ()
 		:precondition (pointing satellite3 star7)
 		:effect (and
-			(and
-				(pointing satellite3 planet11)
-				(not (pointing satellite3 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet11)
+			(not (pointing satellite3 star7))
 		)
 	)
 	(:action turn_to_satellite3_planet8_groundstation0
 		:parameters ()
 		:precondition (pointing satellite3 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite3 planet8)
-				(not (pointing satellite3 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet8)
+			(not (pointing satellite3 groundstation0))
 		)
 	)
 	(:action turn_to_satellite3_planet8_groundstation2
 		:parameters ()
 		:precondition (pointing satellite3 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite3 planet8)
-				(not (pointing satellite3 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet8)
+			(not (pointing satellite3 groundstation2))
 		)
 	)
 	(:action turn_to_satellite3_planet8_groundstation4
 		:parameters ()
 		:precondition (pointing satellite3 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite3 planet8)
-				(not (pointing satellite3 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet8)
+			(not (pointing satellite3 groundstation4))
 		)
 	)
 	(:action turn_to_satellite3_planet8_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite3 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite3 planet8)
-				(not (pointing satellite3 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet8)
+			(not (pointing satellite3 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite3_planet8_planet10
 		:parameters ()
 		:precondition (pointing satellite3 planet10)
 		:effect (and
-			(and
-				(pointing satellite3 planet8)
-				(not (pointing satellite3 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet8)
+			(not (pointing satellite3 planet10))
 		)
 	)
 	(:action turn_to_satellite3_planet8_planet11
 		:parameters ()
 		:precondition (pointing satellite3 planet11)
 		:effect (and
-			(and
-				(pointing satellite3 planet8)
-				(not (pointing satellite3 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet8)
+			(not (pointing satellite3 planet11))
 		)
 	)
 	(:action turn_to_satellite3_planet8_planet8
 		:parameters ()
 		:precondition (pointing satellite3 planet8)
 		:effect (and
-			(and
-				(pointing satellite3 planet8)
-				(not (pointing satellite3 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet8)
+			(not (pointing satellite3 planet8))
 		)
 	)
 	(:action turn_to_satellite3_planet8_planet9
 		:parameters ()
 		:precondition (pointing satellite3 planet9)
 		:effect (and
-			(and
-				(pointing satellite3 planet8)
-				(not (pointing satellite3 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet8)
+			(not (pointing satellite3 planet9))
 		)
 	)
 	(:action turn_to_satellite3_planet8_star1
 		:parameters ()
 		:precondition (pointing satellite3 star1)
 		:effect (and
-			(and
-				(pointing satellite3 planet8)
-				(not (pointing satellite3 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet8)
+			(not (pointing satellite3 star1))
 		)
 	)
 	(:action turn_to_satellite3_planet8_star3
 		:parameters ()
 		:precondition (pointing satellite3 star3)
 		:effect (and
-			(and
-				(pointing satellite3 planet8)
-				(not (pointing satellite3 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet8)
+			(not (pointing satellite3 star3))
 		)
 	)
 	(:action turn_to_satellite3_planet8_star6
 		:parameters ()
 		:precondition (pointing satellite3 star6)
 		:effect (and
-			(and
-				(pointing satellite3 planet8)
-				(not (pointing satellite3 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet8)
+			(not (pointing satellite3 star6))
 		)
 	)
 	(:action turn_to_satellite3_planet8_star7
 		:parameters ()
 		:precondition (pointing satellite3 star7)
 		:effect (and
-			(and
-				(pointing satellite3 planet8)
-				(not (pointing satellite3 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet8)
+			(not (pointing satellite3 star7))
 		)
 	)
 	(:action turn_to_satellite3_planet9_groundstation0
 		:parameters ()
 		:precondition (pointing satellite3 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite3 planet9)
-				(not (pointing satellite3 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet9)
+			(not (pointing satellite3 groundstation0))
 		)
 	)
 	(:action turn_to_satellite3_planet9_groundstation2
 		:parameters ()
 		:precondition (pointing satellite3 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite3 planet9)
-				(not (pointing satellite3 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet9)
+			(not (pointing satellite3 groundstation2))
 		)
 	)
 	(:action turn_to_satellite3_planet9_groundstation4
 		:parameters ()
 		:precondition (pointing satellite3 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite3 planet9)
-				(not (pointing satellite3 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet9)
+			(not (pointing satellite3 groundstation4))
 		)
 	)
 	(:action turn_to_satellite3_planet9_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite3 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite3 planet9)
-				(not (pointing satellite3 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet9)
+			(not (pointing satellite3 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite3_planet9_planet10
 		:parameters ()
 		:precondition (pointing satellite3 planet10)
 		:effect (and
-			(and
-				(pointing satellite3 planet9)
-				(not (pointing satellite3 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet9)
+			(not (pointing satellite3 planet10))
 		)
 	)
 	(:action turn_to_satellite3_planet9_planet11
 		:parameters ()
 		:precondition (pointing satellite3 planet11)
 		:effect (and
-			(and
-				(pointing satellite3 planet9)
-				(not (pointing satellite3 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet9)
+			(not (pointing satellite3 planet11))
 		)
 	)
 	(:action turn_to_satellite3_planet9_planet8
 		:parameters ()
 		:precondition (pointing satellite3 planet8)
 		:effect (and
-			(and
-				(pointing satellite3 planet9)
-				(not (pointing satellite3 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet9)
+			(not (pointing satellite3 planet8))
 		)
 	)
 	(:action turn_to_satellite3_planet9_planet9
 		:parameters ()
 		:precondition (pointing satellite3 planet9)
 		:effect (and
-			(and
-				(pointing satellite3 planet9)
-				(not (pointing satellite3 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet9)
+			(not (pointing satellite3 planet9))
 		)
 	)
 	(:action turn_to_satellite3_planet9_star1
 		:parameters ()
 		:precondition (pointing satellite3 star1)
 		:effect (and
-			(and
-				(pointing satellite3 planet9)
-				(not (pointing satellite3 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet9)
+			(not (pointing satellite3 star1))
 		)
 	)
 	(:action turn_to_satellite3_planet9_star3
 		:parameters ()
 		:precondition (pointing satellite3 star3)
 		:effect (and
-			(and
-				(pointing satellite3 planet9)
-				(not (pointing satellite3 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet9)
+			(not (pointing satellite3 star3))
 		)
 	)
 	(:action turn_to_satellite3_planet9_star6
 		:parameters ()
 		:precondition (pointing satellite3 star6)
 		:effect (and
-			(and
-				(pointing satellite3 planet9)
-				(not (pointing satellite3 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet9)
+			(not (pointing satellite3 star6))
 		)
 	)
 	(:action turn_to_satellite3_planet9_star7
 		:parameters ()
 		:precondition (pointing satellite3 star7)
 		:effect (and
-			(and
-				(pointing satellite3 planet9)
-				(not (pointing satellite3 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 planet9)
+			(not (pointing satellite3 star7))
 		)
 	)
 	(:action turn_to_satellite3_star1_groundstation0
 		:parameters ()
 		:precondition (pointing satellite3 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite3 star1)
-				(not (pointing satellite3 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star1)
+			(not (pointing satellite3 groundstation0))
 		)
 	)
 	(:action turn_to_satellite3_star1_groundstation2
 		:parameters ()
 		:precondition (pointing satellite3 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite3 star1)
-				(not (pointing satellite3 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star1)
+			(not (pointing satellite3 groundstation2))
 		)
 	)
 	(:action turn_to_satellite3_star1_groundstation4
 		:parameters ()
 		:precondition (pointing satellite3 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite3 star1)
-				(not (pointing satellite3 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star1)
+			(not (pointing satellite3 groundstation4))
 		)
 	)
 	(:action turn_to_satellite3_star1_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite3 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite3 star1)
-				(not (pointing satellite3 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star1)
+			(not (pointing satellite3 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite3_star1_planet10
 		:parameters ()
 		:precondition (pointing satellite3 planet10)
 		:effect (and
-			(and
-				(pointing satellite3 star1)
-				(not (pointing satellite3 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star1)
+			(not (pointing satellite3 planet10))
 		)
 	)
 	(:action turn_to_satellite3_star1_planet11
 		:parameters ()
 		:precondition (pointing satellite3 planet11)
 		:effect (and
-			(and
-				(pointing satellite3 star1)
-				(not (pointing satellite3 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star1)
+			(not (pointing satellite3 planet11))
 		)
 	)
 	(:action turn_to_satellite3_star1_planet8
 		:parameters ()
 		:precondition (pointing satellite3 planet8)
 		:effect (and
-			(and
-				(pointing satellite3 star1)
-				(not (pointing satellite3 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star1)
+			(not (pointing satellite3 planet8))
 		)
 	)
 	(:action turn_to_satellite3_star1_planet9
 		:parameters ()
 		:precondition (pointing satellite3 planet9)
 		:effect (and
-			(and
-				(pointing satellite3 star1)
-				(not (pointing satellite3 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star1)
+			(not (pointing satellite3 planet9))
 		)
 	)
 	(:action turn_to_satellite3_star1_star1
 		:parameters ()
 		:precondition (pointing satellite3 star1)
 		:effect (and
-			(and
-				(pointing satellite3 star1)
-				(not (pointing satellite3 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star1)
+			(not (pointing satellite3 star1))
 		)
 	)
 	(:action turn_to_satellite3_star1_star3
 		:parameters ()
 		:precondition (pointing satellite3 star3)
 		:effect (and
-			(and
-				(pointing satellite3 star1)
-				(not (pointing satellite3 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star1)
+			(not (pointing satellite3 star3))
 		)
 	)
 	(:action turn_to_satellite3_star1_star6
 		:parameters ()
 		:precondition (pointing satellite3 star6)
 		:effect (and
-			(and
-				(pointing satellite3 star1)
-				(not (pointing satellite3 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star1)
+			(not (pointing satellite3 star6))
 		)
 	)
 	(:action turn_to_satellite3_star1_star7
 		:parameters ()
 		:precondition (pointing satellite3 star7)
 		:effect (and
-			(and
-				(pointing satellite3 star1)
-				(not (pointing satellite3 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star1)
+			(not (pointing satellite3 star7))
 		)
 	)
 	(:action turn_to_satellite3_star3_groundstation0
 		:parameters ()
 		:precondition (pointing satellite3 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite3 star3)
-				(not (pointing satellite3 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star3)
+			(not (pointing satellite3 groundstation0))
 		)
 	)
 	(:action turn_to_satellite3_star3_groundstation2
 		:parameters ()
 		:precondition (pointing satellite3 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite3 star3)
-				(not (pointing satellite3 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star3)
+			(not (pointing satellite3 groundstation2))
 		)
 	)
 	(:action turn_to_satellite3_star3_groundstation4
 		:parameters ()
 		:precondition (pointing satellite3 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite3 star3)
-				(not (pointing satellite3 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star3)
+			(not (pointing satellite3 groundstation4))
 		)
 	)
 	(:action turn_to_satellite3_star3_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite3 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite3 star3)
-				(not (pointing satellite3 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star3)
+			(not (pointing satellite3 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite3_star3_planet10
 		:parameters ()
 		:precondition (pointing satellite3 planet10)
 		:effect (and
-			(and
-				(pointing satellite3 star3)
-				(not (pointing satellite3 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star3)
+			(not (pointing satellite3 planet10))
 		)
 	)
 	(:action turn_to_satellite3_star3_planet11
 		:parameters ()
 		:precondition (pointing satellite3 planet11)
 		:effect (and
-			(and
-				(pointing satellite3 star3)
-				(not (pointing satellite3 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star3)
+			(not (pointing satellite3 planet11))
 		)
 	)
 	(:action turn_to_satellite3_star3_planet8
 		:parameters ()
 		:precondition (pointing satellite3 planet8)
 		:effect (and
-			(and
-				(pointing satellite3 star3)
-				(not (pointing satellite3 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star3)
+			(not (pointing satellite3 planet8))
 		)
 	)
 	(:action turn_to_satellite3_star3_planet9
 		:parameters ()
 		:precondition (pointing satellite3 planet9)
 		:effect (and
-			(and
-				(pointing satellite3 star3)
-				(not (pointing satellite3 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star3)
+			(not (pointing satellite3 planet9))
 		)
 	)
 	(:action turn_to_satellite3_star3_star1
 		:parameters ()
 		:precondition (pointing satellite3 star1)
 		:effect (and
-			(and
-				(pointing satellite3 star3)
-				(not (pointing satellite3 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star3)
+			(not (pointing satellite3 star1))
 		)
 	)
 	(:action turn_to_satellite3_star3_star3
 		:parameters ()
 		:precondition (pointing satellite3 star3)
 		:effect (and
-			(and
-				(pointing satellite3 star3)
-				(not (pointing satellite3 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star3)
+			(not (pointing satellite3 star3))
 		)
 	)
 	(:action turn_to_satellite3_star3_star6
 		:parameters ()
 		:precondition (pointing satellite3 star6)
 		:effect (and
-			(and
-				(pointing satellite3 star3)
-				(not (pointing satellite3 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star3)
+			(not (pointing satellite3 star6))
 		)
 	)
 	(:action turn_to_satellite3_star3_star7
 		:parameters ()
 		:precondition (pointing satellite3 star7)
 		:effect (and
-			(and
-				(pointing satellite3 star3)
-				(not (pointing satellite3 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star3)
+			(not (pointing satellite3 star7))
 		)
 	)
 	(:action turn_to_satellite3_star6_groundstation0
 		:parameters ()
 		:precondition (pointing satellite3 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite3 star6)
-				(not (pointing satellite3 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star6)
+			(not (pointing satellite3 groundstation0))
 		)
 	)
 	(:action turn_to_satellite3_star6_groundstation2
 		:parameters ()
 		:precondition (pointing satellite3 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite3 star6)
-				(not (pointing satellite3 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star6)
+			(not (pointing satellite3 groundstation2))
 		)
 	)
 	(:action turn_to_satellite3_star6_groundstation4
 		:parameters ()
 		:precondition (pointing satellite3 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite3 star6)
-				(not (pointing satellite3 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star6)
+			(not (pointing satellite3 groundstation4))
 		)
 	)
 	(:action turn_to_satellite3_star6_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite3 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite3 star6)
-				(not (pointing satellite3 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star6)
+			(not (pointing satellite3 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite3_star6_planet10
 		:parameters ()
 		:precondition (pointing satellite3 planet10)
 		:effect (and
-			(and
-				(pointing satellite3 star6)
-				(not (pointing satellite3 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star6)
+			(not (pointing satellite3 planet10))
 		)
 	)
 	(:action turn_to_satellite3_star6_planet11
 		:parameters ()
 		:precondition (pointing satellite3 planet11)
 		:effect (and
-			(and
-				(pointing satellite3 star6)
-				(not (pointing satellite3 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star6)
+			(not (pointing satellite3 planet11))
 		)
 	)
 	(:action turn_to_satellite3_star6_planet8
 		:parameters ()
 		:precondition (pointing satellite3 planet8)
 		:effect (and
-			(and
-				(pointing satellite3 star6)
-				(not (pointing satellite3 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star6)
+			(not (pointing satellite3 planet8))
 		)
 	)
 	(:action turn_to_satellite3_star6_planet9
 		:parameters ()
 		:precondition (pointing satellite3 planet9)
 		:effect (and
-			(and
-				(pointing satellite3 star6)
-				(not (pointing satellite3 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star6)
+			(not (pointing satellite3 planet9))
 		)
 	)
 	(:action turn_to_satellite3_star6_star1
 		:parameters ()
 		:precondition (pointing satellite3 star1)
 		:effect (and
-			(and
-				(pointing satellite3 star6)
-				(not (pointing satellite3 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star6)
+			(not (pointing satellite3 star1))
 		)
 	)
 	(:action turn_to_satellite3_star6_star3
 		:parameters ()
 		:precondition (pointing satellite3 star3)
 		:effect (and
-			(and
-				(pointing satellite3 star6)
-				(not (pointing satellite3 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star6)
+			(not (pointing satellite3 star3))
 		)
 	)
 	(:action turn_to_satellite3_star6_star6
 		:parameters ()
 		:precondition (pointing satellite3 star6)
 		:effect (and
-			(and
-				(pointing satellite3 star6)
-				(not (pointing satellite3 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star6)
+			(not (pointing satellite3 star6))
 		)
 	)
 	(:action turn_to_satellite3_star6_star7
 		:parameters ()
 		:precondition (pointing satellite3 star7)
 		:effect (and
-			(and
-				(pointing satellite3 star6)
-				(not (pointing satellite3 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star6)
+			(not (pointing satellite3 star7))
 		)
 	)
 	(:action turn_to_satellite3_star7_groundstation0
 		:parameters ()
 		:precondition (pointing satellite3 groundstation0)
 		:effect (and
-			(and
-				(pointing satellite3 star7)
-				(not (pointing satellite3 groundstation0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star7)
+			(not (pointing satellite3 groundstation0))
 		)
 	)
 	(:action turn_to_satellite3_star7_groundstation2
 		:parameters ()
 		:precondition (pointing satellite3 groundstation2)
 		:effect (and
-			(and
-				(pointing satellite3 star7)
-				(not (pointing satellite3 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star7)
+			(not (pointing satellite3 groundstation2))
 		)
 	)
 	(:action turn_to_satellite3_star7_groundstation4
 		:parameters ()
 		:precondition (pointing satellite3 groundstation4)
 		:effect (and
-			(and
-				(pointing satellite3 star7)
-				(not (pointing satellite3 groundstation4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star7)
+			(not (pointing satellite3 groundstation4))
 		)
 	)
 	(:action turn_to_satellite3_star7_phenomenon5
 		:parameters ()
 		:precondition (pointing satellite3 phenomenon5)
 		:effect (and
-			(and
-				(pointing satellite3 star7)
-				(not (pointing satellite3 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star7)
+			(not (pointing satellite3 phenomenon5))
 		)
 	)
 	(:action turn_to_satellite3_star7_planet10
 		:parameters ()
 		:precondition (pointing satellite3 planet10)
 		:effect (and
-			(and
-				(pointing satellite3 star7)
-				(not (pointing satellite3 planet10))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star7)
+			(not (pointing satellite3 planet10))
 		)
 	)
 	(:action turn_to_satellite3_star7_planet11
 		:parameters ()
 		:precondition (pointing satellite3 planet11)
 		:effect (and
-			(and
-				(pointing satellite3 star7)
-				(not (pointing satellite3 planet11))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star7)
+			(not (pointing satellite3 planet11))
 		)
 	)
 	(:action turn_to_satellite3_star7_planet8
 		:parameters ()
 		:precondition (pointing satellite3 planet8)
 		:effect (and
-			(and
-				(pointing satellite3 star7)
-				(not (pointing satellite3 planet8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star7)
+			(not (pointing satellite3 planet8))
 		)
 	)
 	(:action turn_to_satellite3_star7_planet9
 		:parameters ()
 		:precondition (pointing satellite3 planet9)
 		:effect (and
-			(and
-				(pointing satellite3 star7)
-				(not (pointing satellite3 planet9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star7)
+			(not (pointing satellite3 planet9))
 		)
 	)
 	(:action turn_to_satellite3_star7_star1
 		:parameters ()
 		:precondition (pointing satellite3 star1)
 		:effect (and
-			(and
-				(pointing satellite3 star7)
-				(not (pointing satellite3 star1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star7)
+			(not (pointing satellite3 star1))
 		)
 	)
 	(:action turn_to_satellite3_star7_star3
 		:parameters ()
 		:precondition (pointing satellite3 star3)
 		:effect (and
-			(and
-				(pointing satellite3 star7)
-				(not (pointing satellite3 star3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star7)
+			(not (pointing satellite3 star3))
 		)
 	)
 	(:action turn_to_satellite3_star7_star6
 		:parameters ()
 		:precondition (pointing satellite3 star6)
 		:effect (and
-			(and
-				(pointing satellite3 star7)
-				(not (pointing satellite3 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star7)
+			(not (pointing satellite3 star6))
 		)
 	)
 	(:action turn_to_satellite3_star7_star7
 		:parameters ()
 		:precondition (pointing satellite3 star7)
 		:effect (and
-			(and
-				(pointing satellite3 star7)
-				(not (pointing satellite3 star7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(pointing satellite3 star7)
+			(not (pointing satellite3 star7))
 		)
 	)
 	(:action switch_on_instrument0_satellite0
 		:parameters ()
 		:precondition (power_avail satellite0)
 		:effect (and
-			(and
-				(power_on instrument0)
-				(not (calibrated instrument0))
-				(not (power_avail satellite0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(power_on instrument0)
+			(not (calibrated instrument0))
+			(not (power_avail satellite0))
 		)
 	)
 	(:action switch_on_instrument1_satellite0
 		:parameters ()
 		:precondition (power_avail satellite0)
 		:effect (and
-			(and
-				(power_on instrument1)
-				(not (calibrated instrument1))
-				(not (power_avail satellite0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(power_on instrument1)
+			(not (calibrated instrument1))
+			(not (power_avail satellite0))
 		)
 	)
 	(:action switch_on_instrument2_satellite0
 		:parameters ()
 		:precondition (power_avail satellite0)
 		:effect (and
-			(and
-				(power_on instrument2)
-				(not (calibrated instrument2))
-				(not (power_avail satellite0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(power_on instrument2)
+			(not (calibrated instrument2))
+			(not (power_avail satellite0))
 		)
 	)
 	(:action switch_on_instrument3_satellite1
 		:parameters ()
 		:precondition (power_avail satellite1)
 		:effect (and
-			(and
-				(power_on instrument3)
-				(not (calibrated instrument3))
-				(not (power_avail satellite1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(power_on instrument3)
+			(not (calibrated instrument3))
+			(not (power_avail satellite1))
 		)
 	)
 	(:action switch_on_instrument4_satellite2
 		:parameters ()
 		:precondition (power_avail satellite2)
 		:effect (and
-			(and
-				(power_on instrument4)
-				(not (calibrated instrument4))
-				(not (power_avail satellite2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(power_on instrument4)
+			(not (calibrated instrument4))
+			(not (power_avail satellite2))
 		)
 	)
 	(:action switch_on_instrument5_satellite2
 		:parameters ()
 		:precondition (power_avail satellite2)
 		:effect (and
-			(and
-				(power_on instrument5)
-				(not (calibrated instrument5))
-				(not (power_avail satellite2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(power_on instrument5)
+			(not (calibrated instrument5))
+			(not (power_avail satellite2))
 		)
 	)
 	(:action switch_on_instrument6_satellite3
 		:parameters ()
 		:precondition (power_avail satellite3)
 		:effect (and
-			(and
-				(power_on instrument6)
-				(not (calibrated instrument6))
-				(not (power_avail satellite3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(power_on instrument6)
+			(not (calibrated instrument6))
+			(not (power_avail satellite3))
 		)
 	)
 	(:action switch_on_instrument7_satellite3
 		:parameters ()
 		:precondition (power_avail satellite3)
 		:effect (and
-			(and
-				(power_on instrument7)
-				(not (calibrated instrument7))
-				(not (power_avail satellite3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(power_on instrument7)
+			(not (calibrated instrument7))
+			(not (power_avail satellite3))
 		)
 	)
 	(:action switch_off_instrument0_satellite0
 		:parameters ()
 		:precondition (power_on instrument0)
 		:effect (and
-			(and
-				(power_avail satellite0)
-				(not (power_on instrument0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(power_avail satellite0)
+			(not (power_on instrument0))
 		)
 	)
 	(:action switch_off_instrument1_satellite0
 		:parameters ()
 		:precondition (power_on instrument1)
 		:effect (and
-			(and
-				(power_avail satellite0)
-				(not (power_on instrument1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(power_avail satellite0)
+			(not (power_on instrument1))
 		)
 	)
 	(:action switch_off_instrument2_satellite0
 		:parameters ()
 		:precondition (power_on instrument2)
 		:effect (and
-			(and
-				(power_avail satellite0)
-				(not (power_on instrument2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(power_avail satellite0)
+			(not (power_on instrument2))
 		)
 	)
 	(:action switch_off_instrument3_satellite1
 		:parameters ()
 		:precondition (power_on instrument3)
 		:effect (and
-			(and
-				(power_avail satellite1)
-				(not (power_on instrument3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(power_avail satellite1)
+			(not (power_on instrument3))
 		)
 	)
 	(:action switch_off_instrument4_satellite2
 		:parameters ()
 		:precondition (power_on instrument4)
 		:effect (and
-			(and
-				(power_avail satellite2)
-				(not (power_on instrument4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(power_avail satellite2)
+			(not (power_on instrument4))
 		)
 	)
 	(:action switch_off_instrument5_satellite2
 		:parameters ()
 		:precondition (power_on instrument5)
 		:effect (and
-			(and
-				(power_avail satellite2)
-				(not (power_on instrument5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(power_avail satellite2)
+			(not (power_on instrument5))
 		)
 	)
 	(:action switch_off_instrument6_satellite3
 		:parameters ()
 		:precondition (power_on instrument6)
 		:effect (and
-			(and
-				(power_avail satellite3)
-				(not (power_on instrument6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(power_avail satellite3)
+			(not (power_on instrument6))
 		)
 	)
 	(:action switch_off_instrument7_satellite3
 		:parameters ()
 		:precondition (power_on instrument7)
 		:effect (and
-			(and
-				(power_avail satellite3)
-				(not (power_on instrument7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(power_avail satellite3)
+			(not (power_on instrument7))
 		)
 	)
 	(:action calibrate_satellite0_instrument0_star1
@@ -11502,15 +10318,13 @@
 			(pointing satellite3 groundstation2)
 		)
 		:effect (and
-			(and
-				(observation0)
-				(pointing satellite3 groundstation4)
-				(not (pointing satellite3 groundstation2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation0)
+			(pointing satellite3 groundstation4)
+			(not (pointing satellite3 groundstation2))
 		)
 	)
 	(:action observe1_take_image_satellite3_phenomenon5_instrument6_image2
@@ -11523,14 +10337,12 @@
 			(not (observation1))
 		)
 		:effect (and
-			(and
-				(have_image phenomenon5 image2)
-				(observation1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(have_image phenomenon5 image2)
+			(observation1)
 		)
 	)
 	(:action observe2_turn_to_satellite3_planet9_phenomenon5
@@ -11541,15 +10353,13 @@
 			(not (observation2))
 		)
 		:effect (and
-			(and
-				(observation2)
-				(pointing satellite3 planet9)
-				(not (pointing satellite3 phenomenon5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation2)
+			(pointing satellite3 planet9)
+			(not (pointing satellite3 phenomenon5))
 		)
 	)
 	(:action observe3_turn_to_satellite0_groundstation2_star6
@@ -11560,15 +10370,13 @@
 			(not (observation3))
 		)
 		:effect (and
-			(and
-				(observation3)
-				(pointing satellite0 groundstation2)
-				(not (pointing satellite0 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation3)
+			(pointing satellite0 groundstation2)
+			(not (pointing satellite0 star6))
 		)
 	)
 	(:action observe4_take_image_satellite3_planet9_instrument6_image1
@@ -11581,14 +10389,12 @@
 			(not (observation4))
 		)
 		:effect (and
-			(and
-				(have_image planet9 image1)
-				(observation4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(have_image planet9 image1)
+			(observation4)
 		)
 	)
 	(:action observe5_turn_to_satellite2_phenomenon5_star6
@@ -11599,15 +10405,13 @@
 			(not (observation5))
 		)
 		:effect (and
-			(and
-				(observation5)
-				(pointing satellite2 phenomenon5)
-				(not (pointing satellite2 star6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation5)
+			(pointing satellite2 phenomenon5)
+			(not (pointing satellite2 star6))
 		)
 	)
 )
