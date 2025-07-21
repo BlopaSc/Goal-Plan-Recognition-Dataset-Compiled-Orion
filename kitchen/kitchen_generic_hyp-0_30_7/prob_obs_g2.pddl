@@ -1,0 +1,15 @@
+(define	(problem kitchen_generic_hyp-1_30_7_g2)
+	(:domain kitchen)
+	(:init
+		(= (total-cost) 0)
+	)
+	(:goal
+		(and
+			(observation1)
+			(made_dinner)
+		)
+	)
+	(:metric minimize
+		(total-cost)
+	)
+)
