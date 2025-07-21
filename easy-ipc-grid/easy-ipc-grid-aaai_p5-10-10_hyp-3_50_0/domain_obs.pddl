@@ -36,14 +36,12 @@
 			(carrying key_1)
 		)
 		:effect (and
-			(and
-				(open place_1_2)
-				(not (locked place_1_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_1_2)
+			(not (locked place_1_2))
 		)
 	)
 	(:action unlock_place_1_1_place_1_2_key_1_shape_1
@@ -54,14 +52,12 @@
 			(carrying key_1)
 		)
 		:effect (and
-			(and
-				(open place_1_2)
-				(not (locked place_1_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_1_2)
+			(not (locked place_1_2))
 		)
 	)
 	(:action unlock_place_1_3_place_1_2_key_1_shape_1
@@ -72,14 +68,12 @@
 			(carrying key_1)
 		)
 		:effect (and
-			(and
-				(open place_1_2)
-				(not (locked place_1_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_1_2)
+			(not (locked place_1_2))
 		)
 	)
 	(:action unlock_place_2_0_place_2_1_key_2_shape_2
@@ -90,14 +84,12 @@
 			(carrying key_2)
 		)
 		:effect (and
-			(and
-				(open place_2_1)
-				(not (locked place_2_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_2_1)
+			(not (locked place_2_1))
 		)
 	)
 	(:action unlock_place_2_2_place_2_1_key_2_shape_2
@@ -108,14 +100,12 @@
 			(carrying key_2)
 		)
 		:effect (and
-			(and
-				(open place_2_1)
-				(not (locked place_2_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_2_1)
+			(not (locked place_2_1))
 		)
 	)
 	(:action unlock_place_3_1_place_2_1_key_2_shape_2
@@ -126,14 +116,12 @@
 			(carrying key_2)
 		)
 		:effect (and
-			(and
-				(open place_2_1)
-				(not (locked place_2_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_2_1)
+			(not (locked place_2_1))
 		)
 	)
 	(:action unlock_place_3_1_place_3_2_key_4_shape_4
@@ -144,14 +132,12 @@
 			(carrying key_4)
 		)
 		:effect (and
-			(and
-				(open place_3_2)
-				(not (locked place_3_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_3_2)
+			(not (locked place_3_2))
 		)
 	)
 	(:action unlock_place_3_3_place_3_2_key_4_shape_4
@@ -162,14 +148,12 @@
 			(carrying key_4)
 		)
 		:effect (and
-			(and
-				(open place_3_2)
-				(not (locked place_3_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_3_2)
+			(not (locked place_3_2))
 		)
 	)
 	(:action unlock_place_4_0_place_4_1_key_7_shape_7
@@ -180,14 +164,12 @@
 			(carrying key_7)
 		)
 		:effect (and
-			(and
-				(open place_4_1)
-				(not (locked place_4_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_4_1)
+			(not (locked place_4_1))
 		)
 	)
 	(:action unlock_place_4_1_place_4_2_key_6_shape_6
@@ -198,14 +180,12 @@
 			(carrying key_6)
 		)
 		:effect (and
-			(and
-				(open place_4_2)
-				(not (locked place_4_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_4_2)
+			(not (locked place_4_2))
 		)
 	)
 	(:action unlock_place_4_1_place_5_1_key_5_shape_5
@@ -216,14 +196,12 @@
 			(carrying key_5)
 		)
 		:effect (and
-			(and
-				(open place_5_1)
-				(not (locked place_5_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_5_1)
+			(not (locked place_5_1))
 		)
 	)
 	(:action unlock_place_4_2_place_4_1_key_7_shape_7
@@ -234,14 +212,12 @@
 			(carrying key_7)
 		)
 		:effect (and
-			(and
-				(open place_4_1)
-				(not (locked place_4_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_4_1)
+			(not (locked place_4_1))
 		)
 	)
 	(:action unlock_place_4_3_place_4_2_key_6_shape_6
@@ -252,14 +228,12 @@
 			(carrying key_6)
 		)
 		:effect (and
-			(and
-				(open place_4_2)
-				(not (locked place_4_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_4_2)
+			(not (locked place_4_2))
 		)
 	)
 	(:action unlock_place_5_0_place_5_1_key_5_shape_5
@@ -270,14 +244,12 @@
 			(carrying key_5)
 		)
 		:effect (and
-			(and
-				(open place_5_1)
-				(not (locked place_5_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_5_1)
+			(not (locked place_5_1))
 		)
 	)
 	(:action unlock_place_5_1_place_4_1_key_7_shape_7
@@ -288,14 +260,12 @@
 			(carrying key_7)
 		)
 		:effect (and
-			(and
-				(open place_4_1)
-				(not (locked place_4_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_4_1)
+			(not (locked place_4_1))
 		)
 	)
 	(:action unlock_place_5_2_place_5_1_key_5_shape_5
@@ -306,14 +276,12 @@
 			(carrying key_5)
 		)
 		:effect (and
-			(and
-				(open place_5_1)
-				(not (locked place_5_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_5_1)
+			(not (locked place_5_1))
 		)
 	)
 	(:action unlock_place_6_0_place_6_1_key_9_shape_9
@@ -324,14 +292,12 @@
 			(carrying key_9)
 		)
 		:effect (and
-			(and
-				(open place_6_1)
-				(not (locked place_6_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_6_1)
+			(not (locked place_6_1))
 		)
 	)
 	(:action unlock_place_6_1_place_6_2_key_0_shape_0
@@ -342,14 +308,12 @@
 			(carrying key_0)
 		)
 		:effect (and
-			(and
-				(open place_6_2)
-				(not (locked place_6_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_6_2)
+			(not (locked place_6_2))
 		)
 	)
 	(:action unlock_place_6_2_place_6_1_key_9_shape_9
@@ -360,14 +324,12 @@
 			(carrying key_9)
 		)
 		:effect (and
-			(and
-				(open place_6_1)
-				(not (locked place_6_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_6_1)
+			(not (locked place_6_1))
 		)
 	)
 	(:action unlock_place_6_3_place_6_2_key_0_shape_0
@@ -378,14 +340,12 @@
 			(carrying key_0)
 		)
 		:effect (and
-			(and
-				(open place_6_2)
-				(not (locked place_6_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_6_2)
+			(not (locked place_6_2))
 		)
 	)
 	(:action unlock_place_7_0_place_7_1_key_3_shape_3
@@ -396,14 +356,12 @@
 			(carrying key_3)
 		)
 		:effect (and
-			(and
-				(open place_7_1)
-				(not (locked place_7_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_7_1)
+			(not (locked place_7_1))
 		)
 	)
 	(:action unlock_place_7_2_place_7_1_key_3_shape_3
@@ -414,14 +372,12 @@
 			(carrying key_3)
 		)
 		:effect (and
-			(and
-				(open place_7_1)
-				(not (locked place_7_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_7_1)
+			(not (locked place_7_1))
 		)
 	)
 	(:action unlock_place_9_1_place_9_2_key_8_shape_8
@@ -432,14 +388,12 @@
 			(carrying key_8)
 		)
 		:effect (and
-			(and
-				(open place_9_2)
-				(not (locked place_9_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_9_2)
+			(not (locked place_9_2))
 		)
 	)
 	(:action unlock_place_9_3_place_9_2_key_8_shape_8
@@ -450,98 +404,84 @@
 			(carrying key_8)
 		)
 		:effect (and
-			(and
-				(open place_9_2)
-				(not (locked place_9_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(open place_9_2)
+			(not (locked place_9_2))
 		)
 	)
 	(:action move_place_0_0_place_0_1
 		:parameters ()
 		:precondition (at-robot place_0_0)
 		:effect (and
-			(and
-				(at-robot place_0_1)
-				(not (at-robot place_0_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_0_1)
+			(not (at-robot place_0_0))
 		)
 	)
 	(:action move_place_0_0_place_1_0
 		:parameters ()
 		:precondition (at-robot place_0_0)
 		:effect (and
-			(and
-				(at-robot place_1_0)
-				(not (at-robot place_0_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_1_0)
+			(not (at-robot place_0_0))
 		)
 	)
 	(:action move_place_0_1_place_0_0
 		:parameters ()
 		:precondition (at-robot place_0_1)
 		:effect (and
-			(and
-				(at-robot place_0_0)
-				(not (at-robot place_0_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_0_0)
+			(not (at-robot place_0_1))
 		)
 	)
 	(:action move_place_0_1_place_0_2
 		:parameters ()
 		:precondition (at-robot place_0_1)
 		:effect (and
-			(and
-				(at-robot place_0_2)
-				(not (at-robot place_0_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_0_2)
+			(not (at-robot place_0_1))
 		)
 	)
 	(:action move_place_0_2_place_0_1
 		:parameters ()
 		:precondition (at-robot place_0_2)
 		:effect (and
-			(and
-				(at-robot place_0_1)
-				(not (at-robot place_0_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_0_1)
+			(not (at-robot place_0_2))
 		)
 	)
 	(:action move_place_0_2_place_0_3
 		:parameters ()
 		:precondition (at-robot place_0_2)
 		:effect (and
-			(and
-				(at-robot place_0_3)
-				(not (at-robot place_0_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_0_3)
+			(not (at-robot place_0_2))
 		)
 	)
 	(:action move_place_0_2_place_1_2
@@ -551,112 +491,96 @@
 			(open place_1_2)
 		)
 		:effect (and
-			(and
-				(at-robot place_1_2)
-				(not (at-robot place_0_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_1_2)
+			(not (at-robot place_0_2))
 		)
 	)
 	(:action move_place_0_3_place_0_2
 		:parameters ()
 		:precondition (at-robot place_0_3)
 		:effect (and
-			(and
-				(at-robot place_0_2)
-				(not (at-robot place_0_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_0_2)
+			(not (at-robot place_0_3))
 		)
 	)
 	(:action move_place_0_3_place_0_4
 		:parameters ()
 		:precondition (at-robot place_0_3)
 		:effect (and
-			(and
-				(at-robot place_0_4)
-				(not (at-robot place_0_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_0_4)
+			(not (at-robot place_0_3))
 		)
 	)
 	(:action move_place_0_4_place_0_3
 		:parameters ()
 		:precondition (at-robot place_0_4)
 		:effect (and
-			(and
-				(at-robot place_0_3)
-				(not (at-robot place_0_4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_0_3)
+			(not (at-robot place_0_4))
 		)
 	)
 	(:action move_place_1_0_place_0_0
 		:parameters ()
 		:precondition (at-robot place_1_0)
 		:effect (and
-			(and
-				(at-robot place_0_0)
-				(not (at-robot place_1_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_0_0)
+			(not (at-robot place_1_0))
 		)
 	)
 	(:action move_place_1_0_place_1_1
 		:parameters ()
 		:precondition (at-robot place_1_0)
 		:effect (and
-			(and
-				(at-robot place_1_1)
-				(not (at-robot place_1_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_1_1)
+			(not (at-robot place_1_0))
 		)
 	)
 	(:action move_place_1_0_place_2_0
 		:parameters ()
 		:precondition (at-robot place_1_0)
 		:effect (and
-			(and
-				(at-robot place_2_0)
-				(not (at-robot place_1_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_2_0)
+			(not (at-robot place_1_0))
 		)
 	)
 	(:action move_place_1_1_place_1_0
 		:parameters ()
 		:precondition (at-robot place_1_1)
 		:effect (and
-			(and
-				(at-robot place_1_0)
-				(not (at-robot place_1_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_1_0)
+			(not (at-robot place_1_1))
 		)
 	)
 	(:action move_place_1_1_place_1_2
@@ -666,56 +590,48 @@
 			(open place_1_2)
 		)
 		:effect (and
-			(and
-				(at-robot place_1_2)
-				(not (at-robot place_1_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_1_2)
+			(not (at-robot place_1_1))
 		)
 	)
 	(:action move_place_1_2_place_0_2
 		:parameters ()
 		:precondition (at-robot place_1_2)
 		:effect (and
-			(and
-				(at-robot place_0_2)
-				(not (at-robot place_1_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_0_2)
+			(not (at-robot place_1_2))
 		)
 	)
 	(:action move_place_1_2_place_1_1
 		:parameters ()
 		:precondition (at-robot place_1_2)
 		:effect (and
-			(and
-				(at-robot place_1_1)
-				(not (at-robot place_1_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_1_1)
+			(not (at-robot place_1_2))
 		)
 	)
 	(:action move_place_1_2_place_1_3
 		:parameters ()
 		:precondition (at-robot place_1_2)
 		:effect (and
-			(and
-				(at-robot place_1_3)
-				(not (at-robot place_1_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_1_3)
+			(not (at-robot place_1_2))
 		)
 	)
 	(:action move_place_1_3_place_1_2
@@ -725,56 +641,48 @@
 			(open place_1_2)
 		)
 		:effect (and
-			(and
-				(at-robot place_1_2)
-				(not (at-robot place_1_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_1_2)
+			(not (at-robot place_1_3))
 		)
 	)
 	(:action move_place_1_3_place_1_4
 		:parameters ()
 		:precondition (at-robot place_1_3)
 		:effect (and
-			(and
-				(at-robot place_1_4)
-				(not (at-robot place_1_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_1_4)
+			(not (at-robot place_1_3))
 		)
 	)
 	(:action move_place_1_4_place_1_3
 		:parameters ()
 		:precondition (at-robot place_1_4)
 		:effect (and
-			(and
-				(at-robot place_1_3)
-				(not (at-robot place_1_4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_1_3)
+			(not (at-robot place_1_4))
 		)
 	)
 	(:action move_place_2_0_place_1_0
 		:parameters ()
 		:precondition (at-robot place_2_0)
 		:effect (and
-			(and
-				(at-robot place_1_0)
-				(not (at-robot place_2_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_1_0)
+			(not (at-robot place_2_0))
 		)
 	)
 	(:action move_place_2_0_place_2_1
@@ -784,70 +692,60 @@
 			(open place_2_1)
 		)
 		:effect (and
-			(and
-				(at-robot place_2_1)
-				(not (at-robot place_2_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_2_1)
+			(not (at-robot place_2_0))
 		)
 	)
 	(:action move_place_2_0_place_3_0
 		:parameters ()
 		:precondition (at-robot place_2_0)
 		:effect (and
-			(and
-				(at-robot place_3_0)
-				(not (at-robot place_2_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_3_0)
+			(not (at-robot place_2_0))
 		)
 	)
 	(:action move_place_2_1_place_2_0
 		:parameters ()
 		:precondition (at-robot place_2_1)
 		:effect (and
-			(and
-				(at-robot place_2_0)
-				(not (at-robot place_2_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_2_0)
+			(not (at-robot place_2_1))
 		)
 	)
 	(:action move_place_2_1_place_2_2
 		:parameters ()
 		:precondition (at-robot place_2_1)
 		:effect (and
-			(and
-				(at-robot place_2_2)
-				(not (at-robot place_2_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_2_2)
+			(not (at-robot place_2_1))
 		)
 	)
 	(:action move_place_2_1_place_3_1
 		:parameters ()
 		:precondition (at-robot place_2_1)
 		:effect (and
-			(and
-				(at-robot place_3_1)
-				(not (at-robot place_2_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_3_1)
+			(not (at-robot place_2_1))
 		)
 	)
 	(:action move_place_2_2_place_2_1
@@ -857,112 +755,96 @@
 			(open place_2_1)
 		)
 		:effect (and
-			(and
-				(at-robot place_2_1)
-				(not (at-robot place_2_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_2_1)
+			(not (at-robot place_2_2))
 		)
 	)
 	(:action move_place_2_2_place_2_3
 		:parameters ()
 		:precondition (at-robot place_2_2)
 		:effect (and
-			(and
-				(at-robot place_2_3)
-				(not (at-robot place_2_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_2_3)
+			(not (at-robot place_2_2))
 		)
 	)
 	(:action move_place_2_3_place_2_2
 		:parameters ()
 		:precondition (at-robot place_2_3)
 		:effect (and
-			(and
-				(at-robot place_2_2)
-				(not (at-robot place_2_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_2_2)
+			(not (at-robot place_2_3))
 		)
 	)
 	(:action move_place_2_3_place_2_4
 		:parameters ()
 		:precondition (at-robot place_2_3)
 		:effect (and
-			(and
-				(at-robot place_2_4)
-				(not (at-robot place_2_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_2_4)
+			(not (at-robot place_2_3))
 		)
 	)
 	(:action move_place_2_4_place_2_3
 		:parameters ()
 		:precondition (at-robot place_2_4)
 		:effect (and
-			(and
-				(at-robot place_2_3)
-				(not (at-robot place_2_4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_2_3)
+			(not (at-robot place_2_4))
 		)
 	)
 	(:action move_place_3_0_place_2_0
 		:parameters ()
 		:precondition (at-robot place_3_0)
 		:effect (and
-			(and
-				(at-robot place_2_0)
-				(not (at-robot place_3_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_2_0)
+			(not (at-robot place_3_0))
 		)
 	)
 	(:action move_place_3_0_place_3_1
 		:parameters ()
 		:precondition (at-robot place_3_0)
 		:effect (and
-			(and
-				(at-robot place_3_1)
-				(not (at-robot place_3_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_3_1)
+			(not (at-robot place_3_0))
 		)
 	)
 	(:action move_place_3_0_place_4_0
 		:parameters ()
 		:precondition (at-robot place_3_0)
 		:effect (and
-			(and
-				(at-robot place_4_0)
-				(not (at-robot place_3_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_4_0)
+			(not (at-robot place_3_0))
 		)
 	)
 	(:action move_place_3_1_place_2_1
@@ -972,28 +854,24 @@
 			(open place_2_1)
 		)
 		:effect (and
-			(and
-				(at-robot place_2_1)
-				(not (at-robot place_3_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_2_1)
+			(not (at-robot place_3_1))
 		)
 	)
 	(:action move_place_3_1_place_3_0
 		:parameters ()
 		:precondition (at-robot place_3_1)
 		:effect (and
-			(and
-				(at-robot place_3_0)
-				(not (at-robot place_3_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_3_0)
+			(not (at-robot place_3_1))
 		)
 	)
 	(:action move_place_3_1_place_3_2
@@ -1003,42 +881,36 @@
 			(open place_3_2)
 		)
 		:effect (and
-			(and
-				(at-robot place_3_2)
-				(not (at-robot place_3_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_3_2)
+			(not (at-robot place_3_1))
 		)
 	)
 	(:action move_place_3_2_place_3_1
 		:parameters ()
 		:precondition (at-robot place_3_2)
 		:effect (and
-			(and
-				(at-robot place_3_1)
-				(not (at-robot place_3_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_3_1)
+			(not (at-robot place_3_2))
 		)
 	)
 	(:action move_place_3_2_place_3_3
 		:parameters ()
 		:precondition (at-robot place_3_2)
 		:effect (and
-			(and
-				(at-robot place_3_3)
-				(not (at-robot place_3_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_3_3)
+			(not (at-robot place_3_2))
 		)
 	)
 	(:action move_place_3_3_place_3_2
@@ -1048,56 +920,48 @@
 			(open place_3_2)
 		)
 		:effect (and
-			(and
-				(at-robot place_3_2)
-				(not (at-robot place_3_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_3_2)
+			(not (at-robot place_3_3))
 		)
 	)
 	(:action move_place_3_3_place_3_4
 		:parameters ()
 		:precondition (at-robot place_3_3)
 		:effect (and
-			(and
-				(at-robot place_3_4)
-				(not (at-robot place_3_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_3_4)
+			(not (at-robot place_3_3))
 		)
 	)
 	(:action move_place_3_4_place_3_3
 		:parameters ()
 		:precondition (at-robot place_3_4)
 		:effect (and
-			(and
-				(at-robot place_3_3)
-				(not (at-robot place_3_4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_3_3)
+			(not (at-robot place_3_4))
 		)
 	)
 	(:action move_place_4_0_place_3_0
 		:parameters ()
 		:precondition (at-robot place_4_0)
 		:effect (and
-			(and
-				(at-robot place_3_0)
-				(not (at-robot place_4_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_3_0)
+			(not (at-robot place_4_0))
 		)
 	)
 	(:action move_place_4_0_place_4_1
@@ -1107,42 +971,36 @@
 			(open place_4_1)
 		)
 		:effect (and
-			(and
-				(at-robot place_4_1)
-				(not (at-robot place_4_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_4_1)
+			(not (at-robot place_4_0))
 		)
 	)
 	(:action move_place_4_0_place_5_0
 		:parameters ()
 		:precondition (at-robot place_4_0)
 		:effect (and
-			(and
-				(at-robot place_5_0)
-				(not (at-robot place_4_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_5_0)
+			(not (at-robot place_4_0))
 		)
 	)
 	(:action move_place_4_1_place_4_0
 		:parameters ()
 		:precondition (at-robot place_4_1)
 		:effect (and
-			(and
-				(at-robot place_4_0)
-				(not (at-robot place_4_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_4_0)
+			(not (at-robot place_4_1))
 		)
 	)
 	(:action move_place_4_1_place_4_2
@@ -1152,14 +1010,12 @@
 			(open place_4_2)
 		)
 		:effect (and
-			(and
-				(at-robot place_4_2)
-				(not (at-robot place_4_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_4_2)
+			(not (at-robot place_4_1))
 		)
 	)
 	(:action move_place_4_1_place_5_1
@@ -1169,14 +1025,12 @@
 			(open place_5_1)
 		)
 		:effect (and
-			(and
-				(at-robot place_5_1)
-				(not (at-robot place_4_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_5_1)
+			(not (at-robot place_4_1))
 		)
 	)
 	(:action move_place_4_2_place_4_1
@@ -1186,28 +1040,24 @@
 			(open place_4_1)
 		)
 		:effect (and
-			(and
-				(at-robot place_4_1)
-				(not (at-robot place_4_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_4_1)
+			(not (at-robot place_4_2))
 		)
 	)
 	(:action move_place_4_2_place_4_3
 		:parameters ()
 		:precondition (at-robot place_4_2)
 		:effect (and
-			(and
-				(at-robot place_4_3)
-				(not (at-robot place_4_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_4_3)
+			(not (at-robot place_4_2))
 		)
 	)
 	(:action move_place_4_3_place_4_2
@@ -1217,56 +1067,48 @@
 			(open place_4_2)
 		)
 		:effect (and
-			(and
-				(at-robot place_4_2)
-				(not (at-robot place_4_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_4_2)
+			(not (at-robot place_4_3))
 		)
 	)
 	(:action move_place_4_3_place_4_4
 		:parameters ()
 		:precondition (at-robot place_4_3)
 		:effect (and
-			(and
-				(at-robot place_4_4)
-				(not (at-robot place_4_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_4_4)
+			(not (at-robot place_4_3))
 		)
 	)
 	(:action move_place_4_4_place_4_3
 		:parameters ()
 		:precondition (at-robot place_4_4)
 		:effect (and
-			(and
-				(at-robot place_4_3)
-				(not (at-robot place_4_4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_4_3)
+			(not (at-robot place_4_4))
 		)
 	)
 	(:action move_place_5_0_place_4_0
 		:parameters ()
 		:precondition (at-robot place_5_0)
 		:effect (and
-			(and
-				(at-robot place_4_0)
-				(not (at-robot place_5_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_4_0)
+			(not (at-robot place_5_0))
 		)
 	)
 	(:action move_place_5_0_place_5_1
@@ -1276,28 +1118,24 @@
 			(open place_5_1)
 		)
 		:effect (and
-			(and
-				(at-robot place_5_1)
-				(not (at-robot place_5_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_5_1)
+			(not (at-robot place_5_0))
 		)
 	)
 	(:action move_place_5_0_place_6_0
 		:parameters ()
 		:precondition (at-robot place_5_0)
 		:effect (and
-			(and
-				(at-robot place_6_0)
-				(not (at-robot place_5_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_6_0)
+			(not (at-robot place_5_0))
 		)
 	)
 	(:action move_place_5_1_place_4_1
@@ -1307,42 +1145,36 @@
 			(open place_4_1)
 		)
 		:effect (and
-			(and
-				(at-robot place_4_1)
-				(not (at-robot place_5_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_4_1)
+			(not (at-robot place_5_1))
 		)
 	)
 	(:action move_place_5_1_place_5_0
 		:parameters ()
 		:precondition (at-robot place_5_1)
 		:effect (and
-			(and
-				(at-robot place_5_0)
-				(not (at-robot place_5_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_5_0)
+			(not (at-robot place_5_1))
 		)
 	)
 	(:action move_place_5_1_place_5_2
 		:parameters ()
 		:precondition (at-robot place_5_1)
 		:effect (and
-			(and
-				(at-robot place_5_2)
-				(not (at-robot place_5_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_5_2)
+			(not (at-robot place_5_1))
 		)
 	)
 	(:action move_place_5_2_place_5_1
@@ -1352,84 +1184,72 @@
 			(open place_5_1)
 		)
 		:effect (and
-			(and
-				(at-robot place_5_1)
-				(not (at-robot place_5_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_5_1)
+			(not (at-robot place_5_2))
 		)
 	)
 	(:action move_place_5_2_place_5_3
 		:parameters ()
 		:precondition (at-robot place_5_2)
 		:effect (and
-			(and
-				(at-robot place_5_3)
-				(not (at-robot place_5_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_5_3)
+			(not (at-robot place_5_2))
 		)
 	)
 	(:action move_place_5_3_place_5_2
 		:parameters ()
 		:precondition (at-robot place_5_3)
 		:effect (and
-			(and
-				(at-robot place_5_2)
-				(not (at-robot place_5_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_5_2)
+			(not (at-robot place_5_3))
 		)
 	)
 	(:action move_place_5_3_place_5_4
 		:parameters ()
 		:precondition (at-robot place_5_3)
 		:effect (and
-			(and
-				(at-robot place_5_4)
-				(not (at-robot place_5_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_5_4)
+			(not (at-robot place_5_3))
 		)
 	)
 	(:action move_place_5_4_place_5_3
 		:parameters ()
 		:precondition (at-robot place_5_4)
 		:effect (and
-			(and
-				(at-robot place_5_3)
-				(not (at-robot place_5_4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_5_3)
+			(not (at-robot place_5_4))
 		)
 	)
 	(:action move_place_6_0_place_5_0
 		:parameters ()
 		:precondition (at-robot place_6_0)
 		:effect (and
-			(and
-				(at-robot place_5_0)
-				(not (at-robot place_6_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_5_0)
+			(not (at-robot place_6_0))
 		)
 	)
 	(:action move_place_6_0_place_6_1
@@ -1439,42 +1259,36 @@
 			(open place_6_1)
 		)
 		:effect (and
-			(and
-				(at-robot place_6_1)
-				(not (at-robot place_6_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_6_1)
+			(not (at-robot place_6_0))
 		)
 	)
 	(:action move_place_6_0_place_7_0
 		:parameters ()
 		:precondition (at-robot place_6_0)
 		:effect (and
-			(and
-				(at-robot place_7_0)
-				(not (at-robot place_6_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_7_0)
+			(not (at-robot place_6_0))
 		)
 	)
 	(:action move_place_6_1_place_6_0
 		:parameters ()
 		:precondition (at-robot place_6_1)
 		:effect (and
-			(and
-				(at-robot place_6_0)
-				(not (at-robot place_6_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_6_0)
+			(not (at-robot place_6_1))
 		)
 	)
 	(:action move_place_6_1_place_6_2
@@ -1484,14 +1298,12 @@
 			(open place_6_2)
 		)
 		:effect (and
-			(and
-				(at-robot place_6_2)
-				(not (at-robot place_6_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_6_2)
+			(not (at-robot place_6_1))
 		)
 	)
 	(:action move_place_6_2_place_6_1
@@ -1501,28 +1313,24 @@
 			(open place_6_1)
 		)
 		:effect (and
-			(and
-				(at-robot place_6_1)
-				(not (at-robot place_6_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_6_1)
+			(not (at-robot place_6_2))
 		)
 	)
 	(:action move_place_6_2_place_6_3
 		:parameters ()
 		:precondition (at-robot place_6_2)
 		:effect (and
-			(and
-				(at-robot place_6_3)
-				(not (at-robot place_6_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_6_3)
+			(not (at-robot place_6_2))
 		)
 	)
 	(:action move_place_6_3_place_6_2
@@ -1532,56 +1340,48 @@
 			(open place_6_2)
 		)
 		:effect (and
-			(and
-				(at-robot place_6_2)
-				(not (at-robot place_6_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_6_2)
+			(not (at-robot place_6_3))
 		)
 	)
 	(:action move_place_6_3_place_6_4
 		:parameters ()
 		:precondition (at-robot place_6_3)
 		:effect (and
-			(and
-				(at-robot place_6_4)
-				(not (at-robot place_6_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_6_4)
+			(not (at-robot place_6_3))
 		)
 	)
 	(:action move_place_6_4_place_6_3
 		:parameters ()
 		:precondition (at-robot place_6_4)
 		:effect (and
-			(and
-				(at-robot place_6_3)
-				(not (at-robot place_6_4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_6_3)
+			(not (at-robot place_6_4))
 		)
 	)
 	(:action move_place_7_0_place_6_0
 		:parameters ()
 		:precondition (at-robot place_7_0)
 		:effect (and
-			(and
-				(at-robot place_6_0)
-				(not (at-robot place_7_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_6_0)
+			(not (at-robot place_7_0))
 		)
 	)
 	(:action move_place_7_0_place_7_1
@@ -1591,56 +1391,48 @@
 			(open place_7_1)
 		)
 		:effect (and
-			(and
-				(at-robot place_7_1)
-				(not (at-robot place_7_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_7_1)
+			(not (at-robot place_7_0))
 		)
 	)
 	(:action move_place_7_0_place_8_0
 		:parameters ()
 		:precondition (at-robot place_7_0)
 		:effect (and
-			(and
-				(at-robot place_8_0)
-				(not (at-robot place_7_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_8_0)
+			(not (at-robot place_7_0))
 		)
 	)
 	(:action move_place_7_1_place_7_0
 		:parameters ()
 		:precondition (at-robot place_7_1)
 		:effect (and
-			(and
-				(at-robot place_7_0)
-				(not (at-robot place_7_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_7_0)
+			(not (at-robot place_7_1))
 		)
 	)
 	(:action move_place_7_1_place_7_2
 		:parameters ()
 		:precondition (at-robot place_7_1)
 		:effect (and
-			(and
-				(at-robot place_7_2)
-				(not (at-robot place_7_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_7_2)
+			(not (at-robot place_7_1))
 		)
 	)
 	(:action move_place_7_2_place_7_1
@@ -1650,266 +1442,228 @@
 			(open place_7_1)
 		)
 		:effect (and
-			(and
-				(at-robot place_7_1)
-				(not (at-robot place_7_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_7_1)
+			(not (at-robot place_7_2))
 		)
 	)
 	(:action move_place_7_2_place_7_3
 		:parameters ()
 		:precondition (at-robot place_7_2)
 		:effect (and
-			(and
-				(at-robot place_7_3)
-				(not (at-robot place_7_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_7_3)
+			(not (at-robot place_7_2))
 		)
 	)
 	(:action move_place_7_3_place_7_2
 		:parameters ()
 		:precondition (at-robot place_7_3)
 		:effect (and
-			(and
-				(at-robot place_7_2)
-				(not (at-robot place_7_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_7_2)
+			(not (at-robot place_7_3))
 		)
 	)
 	(:action move_place_7_3_place_7_4
 		:parameters ()
 		:precondition (at-robot place_7_3)
 		:effect (and
-			(and
-				(at-robot place_7_4)
-				(not (at-robot place_7_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_7_4)
+			(not (at-robot place_7_3))
 		)
 	)
 	(:action move_place_7_4_place_7_3
 		:parameters ()
 		:precondition (at-robot place_7_4)
 		:effect (and
-			(and
-				(at-robot place_7_3)
-				(not (at-robot place_7_4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_7_3)
+			(not (at-robot place_7_4))
 		)
 	)
 	(:action move_place_8_0_place_7_0
 		:parameters ()
 		:precondition (at-robot place_8_0)
 		:effect (and
-			(and
-				(at-robot place_7_0)
-				(not (at-robot place_8_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_7_0)
+			(not (at-robot place_8_0))
 		)
 	)
 	(:action move_place_8_0_place_8_1
 		:parameters ()
 		:precondition (at-robot place_8_0)
 		:effect (and
-			(and
-				(at-robot place_8_1)
-				(not (at-robot place_8_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_8_1)
+			(not (at-robot place_8_0))
 		)
 	)
 	(:action move_place_8_0_place_9_0
 		:parameters ()
 		:precondition (at-robot place_8_0)
 		:effect (and
-			(and
-				(at-robot place_9_0)
-				(not (at-robot place_8_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_9_0)
+			(not (at-robot place_8_0))
 		)
 	)
 	(:action move_place_8_1_place_8_0
 		:parameters ()
 		:precondition (at-robot place_8_1)
 		:effect (and
-			(and
-				(at-robot place_8_0)
-				(not (at-robot place_8_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_8_0)
+			(not (at-robot place_8_1))
 		)
 	)
 	(:action move_place_8_1_place_8_2
 		:parameters ()
 		:precondition (at-robot place_8_1)
 		:effect (and
-			(and
-				(at-robot place_8_2)
-				(not (at-robot place_8_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_8_2)
+			(not (at-robot place_8_1))
 		)
 	)
 	(:action move_place_8_2_place_8_1
 		:parameters ()
 		:precondition (at-robot place_8_2)
 		:effect (and
-			(and
-				(at-robot place_8_1)
-				(not (at-robot place_8_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_8_1)
+			(not (at-robot place_8_2))
 		)
 	)
 	(:action move_place_8_2_place_8_3
 		:parameters ()
 		:precondition (at-robot place_8_2)
 		:effect (and
-			(and
-				(at-robot place_8_3)
-				(not (at-robot place_8_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_8_3)
+			(not (at-robot place_8_2))
 		)
 	)
 	(:action move_place_8_3_place_8_2
 		:parameters ()
 		:precondition (at-robot place_8_3)
 		:effect (and
-			(and
-				(at-robot place_8_2)
-				(not (at-robot place_8_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_8_2)
+			(not (at-robot place_8_3))
 		)
 	)
 	(:action move_place_8_3_place_8_4
 		:parameters ()
 		:precondition (at-robot place_8_3)
 		:effect (and
-			(and
-				(at-robot place_8_4)
-				(not (at-robot place_8_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_8_4)
+			(not (at-robot place_8_3))
 		)
 	)
 	(:action move_place_8_3_place_9_3
 		:parameters ()
 		:precondition (at-robot place_8_3)
 		:effect (and
-			(and
-				(at-robot place_9_3)
-				(not (at-robot place_8_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_9_3)
+			(not (at-robot place_8_3))
 		)
 	)
 	(:action move_place_8_4_place_8_3
 		:parameters ()
 		:precondition (at-robot place_8_4)
 		:effect (and
-			(and
-				(at-robot place_8_3)
-				(not (at-robot place_8_4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_8_3)
+			(not (at-robot place_8_4))
 		)
 	)
 	(:action move_place_9_0_place_8_0
 		:parameters ()
 		:precondition (at-robot place_9_0)
 		:effect (and
-			(and
-				(at-robot place_8_0)
-				(not (at-robot place_9_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_8_0)
+			(not (at-robot place_9_0))
 		)
 	)
 	(:action move_place_9_0_place_9_1
 		:parameters ()
 		:precondition (at-robot place_9_0)
 		:effect (and
-			(and
-				(at-robot place_9_1)
-				(not (at-robot place_9_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_9_1)
+			(not (at-robot place_9_0))
 		)
 	)
 	(:action move_place_9_1_place_9_0
 		:parameters ()
 		:precondition (at-robot place_9_1)
 		:effect (and
-			(and
-				(at-robot place_9_0)
-				(not (at-robot place_9_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_9_0)
+			(not (at-robot place_9_1))
 		)
 	)
 	(:action move_place_9_1_place_9_2
@@ -1919,56 +1673,48 @@
 			(open place_9_2)
 		)
 		:effect (and
-			(and
-				(at-robot place_9_2)
-				(not (at-robot place_9_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_9_2)
+			(not (at-robot place_9_1))
 		)
 	)
 	(:action move_place_9_2_place_9_1
 		:parameters ()
 		:precondition (at-robot place_9_2)
 		:effect (and
-			(and
-				(at-robot place_9_1)
-				(not (at-robot place_9_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_9_1)
+			(not (at-robot place_9_2))
 		)
 	)
 	(:action move_place_9_2_place_9_3
 		:parameters ()
 		:precondition (at-robot place_9_2)
 		:effect (and
-			(and
-				(at-robot place_9_3)
-				(not (at-robot place_9_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_9_3)
+			(not (at-robot place_9_2))
 		)
 	)
 	(:action move_place_9_3_place_8_3
 		:parameters ()
 		:precondition (at-robot place_9_3)
 		:effect (and
-			(and
-				(at-robot place_8_3)
-				(not (at-robot place_9_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_8_3)
+			(not (at-robot place_9_3))
 		)
 	)
 	(:action move_place_9_3_place_9_2
@@ -1978,42 +1724,36 @@
 			(open place_9_2)
 		)
 		:effect (and
-			(and
-				(at-robot place_9_2)
-				(not (at-robot place_9_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_9_2)
+			(not (at-robot place_9_3))
 		)
 	)
 	(:action move_place_9_3_place_9_4
 		:parameters ()
 		:precondition (at-robot place_9_3)
 		:effect (and
-			(and
-				(at-robot place_9_4)
-				(not (at-robot place_9_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_9_4)
+			(not (at-robot place_9_3))
 		)
 	)
 	(:action move_place_9_4_place_9_3
 		:parameters ()
 		:precondition (at-robot place_9_4)
 		:effect (and
-			(and
-				(at-robot place_9_3)
-				(not (at-robot place_9_4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot place_9_3)
+			(not (at-robot place_9_4))
 		)
 	)
 	(:action pickup_place_0_0_key_3
@@ -2023,14 +1763,12 @@
 			(at key_3 place_0_0)
 		)
 		:effect (and
-			(and
-				(carrying key_3)
-				(not (at key_3 place_0_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(carrying key_3)
+			(not (at key_3 place_0_0))
 		)
 	)
 	(:action pickup_place_0_0_key_8
@@ -2040,14 +1778,12 @@
 			(at key_8 place_0_0)
 		)
 		:effect (and
-			(and
-				(carrying key_8)
-				(not (at key_8 place_0_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(carrying key_8)
+			(not (at key_8 place_0_0))
 		)
 	)
 	(:action pickup_place_1_0_key_2
@@ -2057,14 +1793,12 @@
 			(at key_2 place_1_0)
 		)
 		:effect (and
-			(and
-				(carrying key_2)
-				(not (at key_2 place_1_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(carrying key_2)
+			(not (at key_2 place_1_0))
 		)
 	)
 	(:action pickup_place_3_0_key_6
@@ -2074,14 +1808,12 @@
 			(at key_6 place_3_0)
 		)
 		:effect (and
-			(and
-				(carrying key_6)
-				(not (at key_6 place_3_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(carrying key_6)
+			(not (at key_6 place_3_0))
 		)
 	)
 	(:action pickup_place_5_0_key_7
@@ -2091,14 +1823,12 @@
 			(at key_7 place_5_0)
 		)
 		:effect (and
-			(and
-				(carrying key_7)
-				(not (at key_7 place_5_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(carrying key_7)
+			(not (at key_7 place_5_0))
 		)
 	)
 	(:action pickup_place_6_0_key_0
@@ -2108,14 +1838,12 @@
 			(at key_0 place_6_0)
 		)
 		:effect (and
-			(and
-				(carrying key_0)
-				(not (at key_0 place_6_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(carrying key_0)
+			(not (at key_0 place_6_0))
 		)
 	)
 	(:action pickup_place_6_0_key_1
@@ -2125,14 +1853,12 @@
 			(at key_1 place_6_0)
 		)
 		:effect (and
-			(and
-				(carrying key_1)
-				(not (at key_1 place_6_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(carrying key_1)
+			(not (at key_1 place_6_0))
 		)
 	)
 	(:action pickup_place_6_0_key_4
@@ -2142,14 +1868,12 @@
 			(at key_4 place_6_0)
 		)
 		:effect (and
-			(and
-				(carrying key_4)
-				(not (at key_4 place_6_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(carrying key_4)
+			(not (at key_4 place_6_0))
 		)
 	)
 	(:action pickup_place_9_0_key_5
@@ -2159,14 +1883,12 @@
 			(at key_5 place_9_0)
 		)
 		:effect (and
-			(and
-				(carrying key_5)
-				(not (at key_5 place_9_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(carrying key_5)
+			(not (at key_5 place_9_0))
 		)
 	)
 	(:action pickup_place_9_0_key_9
@@ -2176,14 +1898,12 @@
 			(at key_9 place_9_0)
 		)
 		:effect (and
-			(and
-				(carrying key_9)
-				(not (at key_9 place_9_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(carrying key_9)
+			(not (at key_9 place_9_0))
 		)
 	)
 	(:action observe0_move_place_2_0_place_3_0
@@ -2193,15 +1913,13 @@
 			(at-robot place_2_0)
 		)
 		:effect (and
-			(and
-				(observation0)
-				(at-robot place_3_0)
-				(not (at-robot place_2_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation0)
+			(at-robot place_3_0)
+			(not (at-robot place_2_0))
 		)
 	)
 	(:action observe1_move_place_4_0_place_5_0
@@ -2212,15 +1930,13 @@
 			(not (observation1))
 		)
 		:effect (and
-			(and
-				(observation1)
-				(at-robot place_5_0)
-				(not (at-robot place_4_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation1)
+			(at-robot place_5_0)
+			(not (at-robot place_4_0))
 		)
 	)
 	(:action observe2_move_place_8_0_place_8_1
@@ -2231,15 +1947,13 @@
 			(not (observation2))
 		)
 		:effect (and
-			(and
-				(observation2)
-				(at-robot place_8_1)
-				(not (at-robot place_8_0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation2)
+			(at-robot place_8_1)
+			(not (at-robot place_8_0))
 		)
 	)
 	(:action observe3_move_place_8_1_place_8_2
@@ -2250,15 +1964,13 @@
 			(not (observation3))
 		)
 		:effect (and
-			(and
-				(observation3)
-				(at-robot place_8_2)
-				(not (at-robot place_8_1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation3)
+			(at-robot place_8_2)
+			(not (at-robot place_8_1))
 		)
 	)
 	(:action observe4_move_place_8_2_place_8_3
@@ -2269,15 +1981,13 @@
 			(not (observation4))
 		)
 		:effect (and
-			(and
-				(observation4)
-				(at-robot place_8_3)
-				(not (at-robot place_8_2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation4)
+			(at-robot place_8_3)
+			(not (at-robot place_8_2))
 		)
 	)
 	(:action observe5_move_place_8_3_place_8_4
@@ -2288,15 +1998,13 @@
 			(not (observation5))
 		)
 		:effect (and
-			(and
-				(observation5)
-				(at-robot place_8_4)
-				(not (at-robot place_8_3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation5)
+			(at-robot place_8_4)
+			(not (at-robot place_8_3))
 		)
 	)
 )
