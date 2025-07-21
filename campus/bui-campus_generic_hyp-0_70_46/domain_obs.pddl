@@ -33,1694 +33,1452 @@
 		:parameters ()
 		:precondition (at angazi_cafe)
 		:effect (and
-			(and
-				(at angazi_cafe)
-				(not (at angazi_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at angazi_cafe)
+			(not (at angazi_cafe))
 		)
 	)
 	(:action move_angazi_cafe_bank
 		:parameters ()
 		:precondition (at angazi_cafe)
 		:effect (and
-			(and
-				(at bank)
-				(not (at angazi_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bank)
+			(not (at angazi_cafe))
 		)
 	)
 	(:action move_angazi_cafe_bookmark_cafe
 		:parameters ()
 		:precondition (at angazi_cafe)
 		:effect (and
-			(and
-				(at bookmark_cafe)
-				(not (at angazi_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bookmark_cafe)
+			(not (at angazi_cafe))
 		)
 	)
 	(:action move_angazi_cafe_cbs
 		:parameters ()
 		:precondition (at angazi_cafe)
 		:effect (and
-			(and
-				(at cbs)
-				(not (at angazi_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at cbs)
+			(not (at angazi_cafe))
 		)
 	)
 	(:action move_angazi_cafe_davis_theater
 		:parameters ()
 		:precondition (at angazi_cafe)
 		:effect (and
-			(and
-				(at davis_theater)
-				(not (at angazi_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at davis_theater)
+			(not (at angazi_cafe))
 		)
 	)
 	(:action move_angazi_cafe_hayman_theater
 		:parameters ()
 		:precondition (at angazi_cafe)
 		:effect (and
-			(and
-				(at hayman_theater)
-				(not (at angazi_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at hayman_theater)
+			(not (at angazi_cafe))
 		)
 	)
 	(:action move_angazi_cafe_jones_theater
 		:parameters ()
 		:precondition (at angazi_cafe)
 		:effect (and
-			(and
-				(at jones_theater)
-				(not (at angazi_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at jones_theater)
+			(not (at angazi_cafe))
 		)
 	)
 	(:action move_angazi_cafe_library
 		:parameters ()
 		:precondition (at angazi_cafe)
 		:effect (and
-			(and
-				(at library)
-				(not (at angazi_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at library)
+			(not (at angazi_cafe))
 		)
 	)
 	(:action move_angazi_cafe_psychology_bldg
 		:parameters ()
 		:precondition (at angazi_cafe)
 		:effect (and
-			(and
-				(at psychology_bldg)
-				(not (at angazi_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at psychology_bldg)
+			(not (at angazi_cafe))
 		)
 	)
 	(:action move_angazi_cafe_tav
 		:parameters ()
 		:precondition (at angazi_cafe)
 		:effect (and
-			(and
-				(at tav)
-				(not (at angazi_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at tav)
+			(not (at angazi_cafe))
 		)
 	)
 	(:action move_angazi_cafe_watson_theater
 		:parameters ()
 		:precondition (at angazi_cafe)
 		:effect (and
-			(and
-				(at watson_theater)
-				(not (at angazi_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at watson_theater)
+			(not (at angazi_cafe))
 		)
 	)
 	(:action move_bank_angazi_cafe
 		:parameters ()
 		:precondition (at bank)
 		:effect (and
-			(and
-				(at angazi_cafe)
-				(not (at bank))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at angazi_cafe)
+			(not (at bank))
 		)
 	)
 	(:action move_bank_bank
 		:parameters ()
 		:precondition (at bank)
 		:effect (and
-			(and
-				(at bank)
-				(not (at bank))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bank)
+			(not (at bank))
 		)
 	)
 	(:action move_bank_bookmark_cafe
 		:parameters ()
 		:precondition (at bank)
 		:effect (and
-			(and
-				(at bookmark_cafe)
-				(not (at bank))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bookmark_cafe)
+			(not (at bank))
 		)
 	)
 	(:action move_bank_cbs
 		:parameters ()
 		:precondition (at bank)
 		:effect (and
-			(and
-				(at cbs)
-				(not (at bank))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at cbs)
+			(not (at bank))
 		)
 	)
 	(:action move_bank_davis_theater
 		:parameters ()
 		:precondition (at bank)
 		:effect (and
-			(and
-				(at davis_theater)
-				(not (at bank))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at davis_theater)
+			(not (at bank))
 		)
 	)
 	(:action move_bank_hayman_theater
 		:parameters ()
 		:precondition (at bank)
 		:effect (and
-			(and
-				(at hayman_theater)
-				(not (at bank))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at hayman_theater)
+			(not (at bank))
 		)
 	)
 	(:action move_bank_jones_theater
 		:parameters ()
 		:precondition (at bank)
 		:effect (and
-			(and
-				(at jones_theater)
-				(not (at bank))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at jones_theater)
+			(not (at bank))
 		)
 	)
 	(:action move_bank_library
 		:parameters ()
 		:precondition (at bank)
 		:effect (and
-			(and
-				(at library)
-				(not (at bank))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at library)
+			(not (at bank))
 		)
 	)
 	(:action move_bank_psychology_bldg
 		:parameters ()
 		:precondition (at bank)
 		:effect (and
-			(and
-				(at psychology_bldg)
-				(not (at bank))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at psychology_bldg)
+			(not (at bank))
 		)
 	)
 	(:action move_bank_tav
 		:parameters ()
 		:precondition (at bank)
 		:effect (and
-			(and
-				(at tav)
-				(not (at bank))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at tav)
+			(not (at bank))
 		)
 	)
 	(:action move_bank_watson_theater
 		:parameters ()
 		:precondition (at bank)
 		:effect (and
-			(and
-				(at watson_theater)
-				(not (at bank))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at watson_theater)
+			(not (at bank))
 		)
 	)
 	(:action move_bookmark_cafe_angazi_cafe
 		:parameters ()
 		:precondition (at bookmark_cafe)
 		:effect (and
-			(and
-				(at angazi_cafe)
-				(not (at bookmark_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at angazi_cafe)
+			(not (at bookmark_cafe))
 		)
 	)
 	(:action move_bookmark_cafe_bank
 		:parameters ()
 		:precondition (at bookmark_cafe)
 		:effect (and
-			(and
-				(at bank)
-				(not (at bookmark_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bank)
+			(not (at bookmark_cafe))
 		)
 	)
 	(:action move_bookmark_cafe_bookmark_cafe
 		:parameters ()
 		:precondition (at bookmark_cafe)
 		:effect (and
-			(and
-				(at bookmark_cafe)
-				(not (at bookmark_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bookmark_cafe)
+			(not (at bookmark_cafe))
 		)
 	)
 	(:action move_bookmark_cafe_cbs
 		:parameters ()
 		:precondition (at bookmark_cafe)
 		:effect (and
-			(and
-				(at cbs)
-				(not (at bookmark_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at cbs)
+			(not (at bookmark_cafe))
 		)
 	)
 	(:action move_bookmark_cafe_davis_theater
 		:parameters ()
 		:precondition (at bookmark_cafe)
 		:effect (and
-			(and
-				(at davis_theater)
-				(not (at bookmark_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at davis_theater)
+			(not (at bookmark_cafe))
 		)
 	)
 	(:action move_bookmark_cafe_hayman_theater
 		:parameters ()
 		:precondition (at bookmark_cafe)
 		:effect (and
-			(and
-				(at hayman_theater)
-				(not (at bookmark_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at hayman_theater)
+			(not (at bookmark_cafe))
 		)
 	)
 	(:action move_bookmark_cafe_jones_theater
 		:parameters ()
 		:precondition (at bookmark_cafe)
 		:effect (and
-			(and
-				(at jones_theater)
-				(not (at bookmark_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at jones_theater)
+			(not (at bookmark_cafe))
 		)
 	)
 	(:action move_bookmark_cafe_library
 		:parameters ()
 		:precondition (at bookmark_cafe)
 		:effect (and
-			(and
-				(at library)
-				(not (at bookmark_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at library)
+			(not (at bookmark_cafe))
 		)
 	)
 	(:action move_bookmark_cafe_psychology_bldg
 		:parameters ()
 		:precondition (at bookmark_cafe)
 		:effect (and
-			(and
-				(at psychology_bldg)
-				(not (at bookmark_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at psychology_bldg)
+			(not (at bookmark_cafe))
 		)
 	)
 	(:action move_bookmark_cafe_tav
 		:parameters ()
 		:precondition (at bookmark_cafe)
 		:effect (and
-			(and
-				(at tav)
-				(not (at bookmark_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at tav)
+			(not (at bookmark_cafe))
 		)
 	)
 	(:action move_bookmark_cafe_watson_theater
 		:parameters ()
 		:precondition (at bookmark_cafe)
 		:effect (and
-			(and
-				(at watson_theater)
-				(not (at bookmark_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at watson_theater)
+			(not (at bookmark_cafe))
 		)
 	)
 	(:action move_cbs_angazi_cafe
 		:parameters ()
 		:precondition (at cbs)
 		:effect (and
-			(and
-				(at angazi_cafe)
-				(not (at cbs))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at angazi_cafe)
+			(not (at cbs))
 		)
 	)
 	(:action move_cbs_bank
 		:parameters ()
 		:precondition (at cbs)
 		:effect (and
-			(and
-				(at bank)
-				(not (at cbs))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bank)
+			(not (at cbs))
 		)
 	)
 	(:action move_cbs_bookmark_cafe
 		:parameters ()
 		:precondition (at cbs)
 		:effect (and
-			(and
-				(at bookmark_cafe)
-				(not (at cbs))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bookmark_cafe)
+			(not (at cbs))
 		)
 	)
 	(:action move_cbs_cbs
 		:parameters ()
 		:precondition (at cbs)
 		:effect (and
-			(and
-				(at cbs)
-				(not (at cbs))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at cbs)
+			(not (at cbs))
 		)
 	)
 	(:action move_cbs_davis_theater
 		:parameters ()
 		:precondition (at cbs)
 		:effect (and
-			(and
-				(at davis_theater)
-				(not (at cbs))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at davis_theater)
+			(not (at cbs))
 		)
 	)
 	(:action move_cbs_hayman_theater
 		:parameters ()
 		:precondition (at cbs)
 		:effect (and
-			(and
-				(at hayman_theater)
-				(not (at cbs))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at hayman_theater)
+			(not (at cbs))
 		)
 	)
 	(:action move_cbs_jones_theater
 		:parameters ()
 		:precondition (at cbs)
 		:effect (and
-			(and
-				(at jones_theater)
-				(not (at cbs))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at jones_theater)
+			(not (at cbs))
 		)
 	)
 	(:action move_cbs_library
 		:parameters ()
 		:precondition (at cbs)
 		:effect (and
-			(and
-				(at library)
-				(not (at cbs))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at library)
+			(not (at cbs))
 		)
 	)
 	(:action move_cbs_psychology_bldg
 		:parameters ()
 		:precondition (at cbs)
 		:effect (and
-			(and
-				(at psychology_bldg)
-				(not (at cbs))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at psychology_bldg)
+			(not (at cbs))
 		)
 	)
 	(:action move_cbs_tav
 		:parameters ()
 		:precondition (at cbs)
 		:effect (and
-			(and
-				(at tav)
-				(not (at cbs))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at tav)
+			(not (at cbs))
 		)
 	)
 	(:action move_cbs_watson_theater
 		:parameters ()
 		:precondition (at cbs)
 		:effect (and
-			(and
-				(at watson_theater)
-				(not (at cbs))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at watson_theater)
+			(not (at cbs))
 		)
 	)
 	(:action move_davis_theater_angazi_cafe
 		:parameters ()
 		:precondition (at davis_theater)
 		:effect (and
-			(and
-				(at angazi_cafe)
-				(not (at davis_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at angazi_cafe)
+			(not (at davis_theater))
 		)
 	)
 	(:action move_davis_theater_bank
 		:parameters ()
 		:precondition (at davis_theater)
 		:effect (and
-			(and
-				(at bank)
-				(not (at davis_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bank)
+			(not (at davis_theater))
 		)
 	)
 	(:action move_davis_theater_bookmark_cafe
 		:parameters ()
 		:precondition (at davis_theater)
 		:effect (and
-			(and
-				(at bookmark_cafe)
-				(not (at davis_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bookmark_cafe)
+			(not (at davis_theater))
 		)
 	)
 	(:action move_davis_theater_cbs
 		:parameters ()
 		:precondition (at davis_theater)
 		:effect (and
-			(and
-				(at cbs)
-				(not (at davis_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at cbs)
+			(not (at davis_theater))
 		)
 	)
 	(:action move_davis_theater_davis_theater
 		:parameters ()
 		:precondition (at davis_theater)
 		:effect (and
-			(and
-				(at davis_theater)
-				(not (at davis_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at davis_theater)
+			(not (at davis_theater))
 		)
 	)
 	(:action move_davis_theater_hayman_theater
 		:parameters ()
 		:precondition (at davis_theater)
 		:effect (and
-			(and
-				(at hayman_theater)
-				(not (at davis_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at hayman_theater)
+			(not (at davis_theater))
 		)
 	)
 	(:action move_davis_theater_jones_theater
 		:parameters ()
 		:precondition (at davis_theater)
 		:effect (and
-			(and
-				(at jones_theater)
-				(not (at davis_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at jones_theater)
+			(not (at davis_theater))
 		)
 	)
 	(:action move_davis_theater_library
 		:parameters ()
 		:precondition (at davis_theater)
 		:effect (and
-			(and
-				(at library)
-				(not (at davis_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at library)
+			(not (at davis_theater))
 		)
 	)
 	(:action move_davis_theater_psychology_bldg
 		:parameters ()
 		:precondition (at davis_theater)
 		:effect (and
-			(and
-				(at psychology_bldg)
-				(not (at davis_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at psychology_bldg)
+			(not (at davis_theater))
 		)
 	)
 	(:action move_davis_theater_tav
 		:parameters ()
 		:precondition (at davis_theater)
 		:effect (and
-			(and
-				(at tav)
-				(not (at davis_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at tav)
+			(not (at davis_theater))
 		)
 	)
 	(:action move_davis_theater_watson_theater
 		:parameters ()
 		:precondition (at davis_theater)
 		:effect (and
-			(and
-				(at watson_theater)
-				(not (at davis_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at watson_theater)
+			(not (at davis_theater))
 		)
 	)
 	(:action move_hayman_theater_angazi_cafe
 		:parameters ()
 		:precondition (at hayman_theater)
 		:effect (and
-			(and
-				(at angazi_cafe)
-				(not (at hayman_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at angazi_cafe)
+			(not (at hayman_theater))
 		)
 	)
 	(:action move_hayman_theater_bank
 		:parameters ()
 		:precondition (at hayman_theater)
 		:effect (and
-			(and
-				(at bank)
-				(not (at hayman_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bank)
+			(not (at hayman_theater))
 		)
 	)
 	(:action move_hayman_theater_bookmark_cafe
 		:parameters ()
 		:precondition (at hayman_theater)
 		:effect (and
-			(and
-				(at bookmark_cafe)
-				(not (at hayman_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bookmark_cafe)
+			(not (at hayman_theater))
 		)
 	)
 	(:action move_hayman_theater_cbs
 		:parameters ()
 		:precondition (at hayman_theater)
 		:effect (and
-			(and
-				(at cbs)
-				(not (at hayman_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at cbs)
+			(not (at hayman_theater))
 		)
 	)
 	(:action move_hayman_theater_davis_theater
 		:parameters ()
 		:precondition (at hayman_theater)
 		:effect (and
-			(and
-				(at davis_theater)
-				(not (at hayman_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at davis_theater)
+			(not (at hayman_theater))
 		)
 	)
 	(:action move_hayman_theater_hayman_theater
 		:parameters ()
 		:precondition (at hayman_theater)
 		:effect (and
-			(and
-				(at hayman_theater)
-				(not (at hayman_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at hayman_theater)
+			(not (at hayman_theater))
 		)
 	)
 	(:action move_hayman_theater_jones_theater
 		:parameters ()
 		:precondition (at hayman_theater)
 		:effect (and
-			(and
-				(at jones_theater)
-				(not (at hayman_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at jones_theater)
+			(not (at hayman_theater))
 		)
 	)
 	(:action move_hayman_theater_library
 		:parameters ()
 		:precondition (at hayman_theater)
 		:effect (and
-			(and
-				(at library)
-				(not (at hayman_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at library)
+			(not (at hayman_theater))
 		)
 	)
 	(:action move_hayman_theater_psychology_bldg
 		:parameters ()
 		:precondition (at hayman_theater)
 		:effect (and
-			(and
-				(at psychology_bldg)
-				(not (at hayman_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at psychology_bldg)
+			(not (at hayman_theater))
 		)
 	)
 	(:action move_hayman_theater_tav
 		:parameters ()
 		:precondition (at hayman_theater)
 		:effect (and
-			(and
-				(at tav)
-				(not (at hayman_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at tav)
+			(not (at hayman_theater))
 		)
 	)
 	(:action move_hayman_theater_watson_theater
 		:parameters ()
 		:precondition (at hayman_theater)
 		:effect (and
-			(and
-				(at watson_theater)
-				(not (at hayman_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at watson_theater)
+			(not (at hayman_theater))
 		)
 	)
 	(:action move_jones_theater_angazi_cafe
 		:parameters ()
 		:precondition (at jones_theater)
 		:effect (and
-			(and
-				(at angazi_cafe)
-				(not (at jones_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at angazi_cafe)
+			(not (at jones_theater))
 		)
 	)
 	(:action move_jones_theater_bank
 		:parameters ()
 		:precondition (at jones_theater)
 		:effect (and
-			(and
-				(at bank)
-				(not (at jones_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bank)
+			(not (at jones_theater))
 		)
 	)
 	(:action move_jones_theater_bookmark_cafe
 		:parameters ()
 		:precondition (at jones_theater)
 		:effect (and
-			(and
-				(at bookmark_cafe)
-				(not (at jones_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bookmark_cafe)
+			(not (at jones_theater))
 		)
 	)
 	(:action move_jones_theater_cbs
 		:parameters ()
 		:precondition (at jones_theater)
 		:effect (and
-			(and
-				(at cbs)
-				(not (at jones_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at cbs)
+			(not (at jones_theater))
 		)
 	)
 	(:action move_jones_theater_davis_theater
 		:parameters ()
 		:precondition (at jones_theater)
 		:effect (and
-			(and
-				(at davis_theater)
-				(not (at jones_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at davis_theater)
+			(not (at jones_theater))
 		)
 	)
 	(:action move_jones_theater_hayman_theater
 		:parameters ()
 		:precondition (at jones_theater)
 		:effect (and
-			(and
-				(at hayman_theater)
-				(not (at jones_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at hayman_theater)
+			(not (at jones_theater))
 		)
 	)
 	(:action move_jones_theater_jones_theater
 		:parameters ()
 		:precondition (at jones_theater)
 		:effect (and
-			(and
-				(at jones_theater)
-				(not (at jones_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at jones_theater)
+			(not (at jones_theater))
 		)
 	)
 	(:action move_jones_theater_library
 		:parameters ()
 		:precondition (at jones_theater)
 		:effect (and
-			(and
-				(at library)
-				(not (at jones_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at library)
+			(not (at jones_theater))
 		)
 	)
 	(:action move_jones_theater_psychology_bldg
 		:parameters ()
 		:precondition (at jones_theater)
 		:effect (and
-			(and
-				(at psychology_bldg)
-				(not (at jones_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at psychology_bldg)
+			(not (at jones_theater))
 		)
 	)
 	(:action move_jones_theater_tav
 		:parameters ()
 		:precondition (at jones_theater)
 		:effect (and
-			(and
-				(at tav)
-				(not (at jones_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at tav)
+			(not (at jones_theater))
 		)
 	)
 	(:action move_jones_theater_watson_theater
 		:parameters ()
 		:precondition (at jones_theater)
 		:effect (and
-			(and
-				(at watson_theater)
-				(not (at jones_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at watson_theater)
+			(not (at jones_theater))
 		)
 	)
 	(:action move_library_angazi_cafe
 		:parameters ()
 		:precondition (at library)
 		:effect (and
-			(and
-				(at angazi_cafe)
-				(not (at library))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at angazi_cafe)
+			(not (at library))
 		)
 	)
 	(:action move_library_bank
 		:parameters ()
 		:precondition (at library)
 		:effect (and
-			(and
-				(at bank)
-				(not (at library))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bank)
+			(not (at library))
 		)
 	)
 	(:action move_library_bookmark_cafe
 		:parameters ()
 		:precondition (at library)
 		:effect (and
-			(and
-				(at bookmark_cafe)
-				(not (at library))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bookmark_cafe)
+			(not (at library))
 		)
 	)
 	(:action move_library_cbs
 		:parameters ()
 		:precondition (at library)
 		:effect (and
-			(and
-				(at cbs)
-				(not (at library))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at cbs)
+			(not (at library))
 		)
 	)
 	(:action move_library_davis_theater
 		:parameters ()
 		:precondition (at library)
 		:effect (and
-			(and
-				(at davis_theater)
-				(not (at library))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at davis_theater)
+			(not (at library))
 		)
 	)
 	(:action move_library_hayman_theater
 		:parameters ()
 		:precondition (at library)
 		:effect (and
-			(and
-				(at hayman_theater)
-				(not (at library))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at hayman_theater)
+			(not (at library))
 		)
 	)
 	(:action move_library_jones_theater
 		:parameters ()
 		:precondition (at library)
 		:effect (and
-			(and
-				(at jones_theater)
-				(not (at library))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at jones_theater)
+			(not (at library))
 		)
 	)
 	(:action move_library_library
 		:parameters ()
 		:precondition (at library)
 		:effect (and
-			(and
-				(at library)
-				(not (at library))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at library)
+			(not (at library))
 		)
 	)
 	(:action move_library_psychology_bldg
 		:parameters ()
 		:precondition (at library)
 		:effect (and
-			(and
-				(at psychology_bldg)
-				(not (at library))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at psychology_bldg)
+			(not (at library))
 		)
 	)
 	(:action move_library_tav
 		:parameters ()
 		:precondition (at library)
 		:effect (and
-			(and
-				(at tav)
-				(not (at library))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at tav)
+			(not (at library))
 		)
 	)
 	(:action move_library_watson_theater
 		:parameters ()
 		:precondition (at library)
 		:effect (and
-			(and
-				(at watson_theater)
-				(not (at library))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at watson_theater)
+			(not (at library))
 		)
 	)
 	(:action move_psychology_bldg_angazi_cafe
 		:parameters ()
 		:precondition (at psychology_bldg)
 		:effect (and
-			(and
-				(at angazi_cafe)
-				(not (at psychology_bldg))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at angazi_cafe)
+			(not (at psychology_bldg))
 		)
 	)
 	(:action move_psychology_bldg_bank
 		:parameters ()
 		:precondition (at psychology_bldg)
 		:effect (and
-			(and
-				(at bank)
-				(not (at psychology_bldg))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bank)
+			(not (at psychology_bldg))
 		)
 	)
 	(:action move_psychology_bldg_bookmark_cafe
 		:parameters ()
 		:precondition (at psychology_bldg)
 		:effect (and
-			(and
-				(at bookmark_cafe)
-				(not (at psychology_bldg))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bookmark_cafe)
+			(not (at psychology_bldg))
 		)
 	)
 	(:action move_psychology_bldg_cbs
 		:parameters ()
 		:precondition (at psychology_bldg)
 		:effect (and
-			(and
-				(at cbs)
-				(not (at psychology_bldg))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at cbs)
+			(not (at psychology_bldg))
 		)
 	)
 	(:action move_psychology_bldg_davis_theater
 		:parameters ()
 		:precondition (at psychology_bldg)
 		:effect (and
-			(and
-				(at davis_theater)
-				(not (at psychology_bldg))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at davis_theater)
+			(not (at psychology_bldg))
 		)
 	)
 	(:action move_psychology_bldg_hayman_theater
 		:parameters ()
 		:precondition (at psychology_bldg)
 		:effect (and
-			(and
-				(at hayman_theater)
-				(not (at psychology_bldg))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at hayman_theater)
+			(not (at psychology_bldg))
 		)
 	)
 	(:action move_psychology_bldg_jones_theater
 		:parameters ()
 		:precondition (at psychology_bldg)
 		:effect (and
-			(and
-				(at jones_theater)
-				(not (at psychology_bldg))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at jones_theater)
+			(not (at psychology_bldg))
 		)
 	)
 	(:action move_psychology_bldg_library
 		:parameters ()
 		:precondition (at psychology_bldg)
 		:effect (and
-			(and
-				(at library)
-				(not (at psychology_bldg))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at library)
+			(not (at psychology_bldg))
 		)
 	)
 	(:action move_psychology_bldg_psychology_bldg
 		:parameters ()
 		:precondition (at psychology_bldg)
 		:effect (and
-			(and
-				(at psychology_bldg)
-				(not (at psychology_bldg))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at psychology_bldg)
+			(not (at psychology_bldg))
 		)
 	)
 	(:action move_psychology_bldg_tav
 		:parameters ()
 		:precondition (at psychology_bldg)
 		:effect (and
-			(and
-				(at tav)
-				(not (at psychology_bldg))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at tav)
+			(not (at psychology_bldg))
 		)
 	)
 	(:action move_psychology_bldg_watson_theater
 		:parameters ()
 		:precondition (at psychology_bldg)
 		:effect (and
-			(and
-				(at watson_theater)
-				(not (at psychology_bldg))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at watson_theater)
+			(not (at psychology_bldg))
 		)
 	)
 	(:action move_tav_angazi_cafe
 		:parameters ()
 		:precondition (at tav)
 		:effect (and
-			(and
-				(at angazi_cafe)
-				(not (at tav))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at angazi_cafe)
+			(not (at tav))
 		)
 	)
 	(:action move_tav_bank
 		:parameters ()
 		:precondition (at tav)
 		:effect (and
-			(and
-				(at bank)
-				(not (at tav))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bank)
+			(not (at tav))
 		)
 	)
 	(:action move_tav_bookmark_cafe
 		:parameters ()
 		:precondition (at tav)
 		:effect (and
-			(and
-				(at bookmark_cafe)
-				(not (at tav))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bookmark_cafe)
+			(not (at tav))
 		)
 	)
 	(:action move_tav_cbs
 		:parameters ()
 		:precondition (at tav)
 		:effect (and
-			(and
-				(at cbs)
-				(not (at tav))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at cbs)
+			(not (at tav))
 		)
 	)
 	(:action move_tav_davis_theater
 		:parameters ()
 		:precondition (at tav)
 		:effect (and
-			(and
-				(at davis_theater)
-				(not (at tav))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at davis_theater)
+			(not (at tav))
 		)
 	)
 	(:action move_tav_hayman_theater
 		:parameters ()
 		:precondition (at tav)
 		:effect (and
-			(and
-				(at hayman_theater)
-				(not (at tav))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at hayman_theater)
+			(not (at tav))
 		)
 	)
 	(:action move_tav_jones_theater
 		:parameters ()
 		:precondition (at tav)
 		:effect (and
-			(and
-				(at jones_theater)
-				(not (at tav))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at jones_theater)
+			(not (at tav))
 		)
 	)
 	(:action move_tav_library
 		:parameters ()
 		:precondition (at tav)
 		:effect (and
-			(and
-				(at library)
-				(not (at tav))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at library)
+			(not (at tav))
 		)
 	)
 	(:action move_tav_psychology_bldg
 		:parameters ()
 		:precondition (at tav)
 		:effect (and
-			(and
-				(at psychology_bldg)
-				(not (at tav))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at psychology_bldg)
+			(not (at tav))
 		)
 	)
 	(:action move_tav_tav
 		:parameters ()
 		:precondition (at tav)
 		:effect (and
-			(and
-				(at tav)
-				(not (at tav))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at tav)
+			(not (at tav))
 		)
 	)
 	(:action move_tav_watson_theater
 		:parameters ()
 		:precondition (at tav)
 		:effect (and
-			(and
-				(at watson_theater)
-				(not (at tav))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at watson_theater)
+			(not (at tav))
 		)
 	)
 	(:action move_watson_theater_angazi_cafe
 		:parameters ()
 		:precondition (at watson_theater)
 		:effect (and
-			(and
-				(at angazi_cafe)
-				(not (at watson_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at angazi_cafe)
+			(not (at watson_theater))
 		)
 	)
 	(:action move_watson_theater_bank
 		:parameters ()
 		:precondition (at watson_theater)
 		:effect (and
-			(and
-				(at bank)
-				(not (at watson_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bank)
+			(not (at watson_theater))
 		)
 	)
 	(:action move_watson_theater_bookmark_cafe
 		:parameters ()
 		:precondition (at watson_theater)
 		:effect (and
-			(and
-				(at bookmark_cafe)
-				(not (at watson_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at bookmark_cafe)
+			(not (at watson_theater))
 		)
 	)
 	(:action move_watson_theater_cbs
 		:parameters ()
 		:precondition (at watson_theater)
 		:effect (and
-			(and
-				(at cbs)
-				(not (at watson_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at cbs)
+			(not (at watson_theater))
 		)
 	)
 	(:action move_watson_theater_davis_theater
 		:parameters ()
 		:precondition (at watson_theater)
 		:effect (and
-			(and
-				(at davis_theater)
-				(not (at watson_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at davis_theater)
+			(not (at watson_theater))
 		)
 	)
 	(:action move_watson_theater_hayman_theater
 		:parameters ()
 		:precondition (at watson_theater)
 		:effect (and
-			(and
-				(at hayman_theater)
-				(not (at watson_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at hayman_theater)
+			(not (at watson_theater))
 		)
 	)
 	(:action move_watson_theater_jones_theater
 		:parameters ()
 		:precondition (at watson_theater)
 		:effect (and
-			(and
-				(at jones_theater)
-				(not (at watson_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at jones_theater)
+			(not (at watson_theater))
 		)
 	)
 	(:action move_watson_theater_library
 		:parameters ()
 		:precondition (at watson_theater)
 		:effect (and
-			(and
-				(at library)
-				(not (at watson_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at library)
+			(not (at watson_theater))
 		)
 	)
 	(:action move_watson_theater_psychology_bldg
 		:parameters ()
 		:precondition (at watson_theater)
 		:effect (and
-			(and
-				(at psychology_bldg)
-				(not (at watson_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at psychology_bldg)
+			(not (at watson_theater))
 		)
 	)
 	(:action move_watson_theater_tav
 		:parameters ()
 		:precondition (at watson_theater)
 		:effect (and
-			(and
-				(at tav)
-				(not (at watson_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at tav)
+			(not (at watson_theater))
 		)
 	)
 	(:action move_watson_theater_watson_theater
 		:parameters ()
 		:precondition (at watson_theater)
 		:effect (and
-			(and
-				(at watson_theater)
-				(not (at watson_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at watson_theater)
+			(not (at watson_theater))
 		)
 	)
 	(:action activity-banking
@@ -1873,15 +1631,13 @@
 			(at angazi_cafe)
 		)
 		:effect (and
-			(and
-				(observation0)
-				(at library)
-				(not (at angazi_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation0)
+			(at library)
+			(not (at angazi_cafe))
 		)
 	)
 	(:action observe1_move_library_bank
@@ -1892,15 +1648,13 @@
 			(not (observation1))
 		)
 		:effect (and
-			(and
-				(observation1)
-				(at bank)
-				(not (at library))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation1)
+			(at bank)
+			(not (at library))
 		)
 	)
 	(:action observe2_move_bank_davis_theater
@@ -1911,15 +1665,13 @@
 			(not (observation2))
 		)
 		:effect (and
-			(and
-				(observation2)
-				(at davis_theater)
-				(not (at bank))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation2)
+			(at davis_theater)
+			(not (at bank))
 		)
 	)
 	(:action observe3_move_davis_theater_bookmark_cafe
@@ -1930,15 +1682,13 @@
 			(not (observation3))
 		)
 		:effect (and
-			(and
-				(observation3)
-				(at bookmark_cafe)
-				(not (at davis_theater))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation3)
+			(at bookmark_cafe)
+			(not (at davis_theater))
 		)
 	)
 	(:action observe4_move_bookmark_cafe_jones_theater
@@ -1949,15 +1699,13 @@
 			(not (observation4))
 		)
 		:effect (and
-			(and
-				(observation4)
-				(at jones_theater)
-				(not (at bookmark_cafe))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation4)
+			(at jones_theater)
+			(not (at bookmark_cafe))
 		)
 	)
 )
