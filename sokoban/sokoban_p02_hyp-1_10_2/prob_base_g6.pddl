@@ -26,6 +26,9 @@
 		(clear f4-4f)
 	)
 	(:goal
-		(and (at box0 f2-4f) C(at box1 f4-3f))
+		(and
+			(at box0 f2-4f)
+			(at box1 f4-3f)
+		)
 	)
 )

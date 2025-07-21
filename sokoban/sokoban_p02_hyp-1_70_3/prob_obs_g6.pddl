@@ -27,7 +27,11 @@
 		(= (total-cost) 0)
 	)
 	(:goal
-		(and (observation11) (at box0 f2-4f) C(at box1 f4-3f))
+		(and
+			(observation11)
+			(at box0 f2-4f)
+			(at box1 f4-3f)
+		)
 	)
 	(:metric minimize (total-cost))
 )

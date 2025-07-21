@@ -42,14 +42,12 @@
 			(at-robot f0-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-1f)
-				(not (at-robot f0-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-1f)
+			(not (at-robot f0-0f))
 		)
 	)
 	(:action move_f0-0f_f1-0f_down
@@ -59,14 +57,12 @@
 			(at-robot f0-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-0f)
-				(not (at-robot f0-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-0f)
+			(not (at-robot f0-0f))
 		)
 	)
 	(:action move_f0-1f_f0-0f_left
@@ -76,14 +72,12 @@
 			(at-robot f0-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-0f)
-				(not (at-robot f0-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-0f)
+			(not (at-robot f0-1f))
 		)
 	)
 	(:action move_f0-1f_f0-2f_right
@@ -93,14 +87,12 @@
 			(at-robot f0-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-2f)
-				(not (at-robot f0-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-2f)
+			(not (at-robot f0-1f))
 		)
 	)
 	(:action move_f0-1f_f1-1f_down
@@ -110,14 +102,12 @@
 			(at-robot f0-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-1f)
-				(not (at-robot f0-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-1f)
+			(not (at-robot f0-1f))
 		)
 	)
 	(:action move_f0-2f_f0-1f_left
@@ -127,14 +117,12 @@
 			(at-robot f0-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-1f)
-				(not (at-robot f0-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-1f)
+			(not (at-robot f0-2f))
 		)
 	)
 	(:action move_f0-2f_f0-3f_right
@@ -144,14 +132,12 @@
 			(at-robot f0-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-3f)
-				(not (at-robot f0-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-3f)
+			(not (at-robot f0-2f))
 		)
 	)
 	(:action move_f0-2f_f1-2f_down
@@ -161,14 +147,12 @@
 			(at-robot f0-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-2f)
-				(not (at-robot f0-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-2f)
+			(not (at-robot f0-2f))
 		)
 	)
 	(:action move_f0-3f_f0-2f_left
@@ -178,14 +162,12 @@
 			(at-robot f0-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-2f)
-				(not (at-robot f0-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-2f)
+			(not (at-robot f0-3f))
 		)
 	)
 	(:action move_f0-3f_f0-4f_right
@@ -195,14 +177,12 @@
 			(at-robot f0-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-4f)
-				(not (at-robot f0-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-4f)
+			(not (at-robot f0-3f))
 		)
 	)
 	(:action move_f0-3f_f1-3f_down
@@ -212,14 +192,12 @@
 			(at-robot f0-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-3f)
-				(not (at-robot f0-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-3f)
+			(not (at-robot f0-3f))
 		)
 	)
 	(:action move_f0-4f_f0-3f_left
@@ -229,14 +207,12 @@
 			(at-robot f0-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-3f)
-				(not (at-robot f0-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-3f)
+			(not (at-robot f0-4f))
 		)
 	)
 	(:action move_f0-4f_f0-5f_right
@@ -246,14 +222,12 @@
 			(at-robot f0-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-5f)
-				(not (at-robot f0-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-5f)
+			(not (at-robot f0-4f))
 		)
 	)
 	(:action move_f0-4f_f1-4f_down
@@ -263,14 +237,12 @@
 			(at-robot f0-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-4f)
-				(not (at-robot f0-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-4f)
+			(not (at-robot f0-4f))
 		)
 	)
 	(:action move_f0-5f_f0-4f_left
@@ -280,14 +252,12 @@
 			(at-robot f0-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-4f)
-				(not (at-robot f0-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-4f)
+			(not (at-robot f0-5f))
 		)
 	)
 	(:action move_f0-5f_f0-6f_right
@@ -297,14 +267,12 @@
 			(at-robot f0-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-6f)
-				(not (at-robot f0-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-6f)
+			(not (at-robot f0-5f))
 		)
 	)
 	(:action move_f0-5f_f1-5f_down
@@ -314,14 +282,12 @@
 			(at-robot f0-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-5f)
-				(not (at-robot f0-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-5f)
+			(not (at-robot f0-5f))
 		)
 	)
 	(:action move_f0-6f_f0-5f_left
@@ -331,14 +297,12 @@
 			(at-robot f0-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-5f)
-				(not (at-robot f0-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-5f)
+			(not (at-robot f0-6f))
 		)
 	)
 	(:action move_f0-6f_f0-7f_right
@@ -348,14 +312,12 @@
 			(at-robot f0-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-7f)
-				(not (at-robot f0-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-7f)
+			(not (at-robot f0-6f))
 		)
 	)
 	(:action move_f0-6f_f1-6f_down
@@ -365,14 +327,12 @@
 			(at-robot f0-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-6f)
-				(not (at-robot f0-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-6f)
+			(not (at-robot f0-6f))
 		)
 	)
 	(:action move_f0-7f_f0-6f_left
@@ -382,14 +342,12 @@
 			(at-robot f0-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-6f)
-				(not (at-robot f0-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-6f)
+			(not (at-robot f0-7f))
 		)
 	)
 	(:action move_f0-7f_f1-7f_down
@@ -399,14 +357,12 @@
 			(at-robot f0-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-7f)
-				(not (at-robot f0-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-7f)
+			(not (at-robot f0-7f))
 		)
 	)
 	(:action move_f1-0f_f0-0f_up
@@ -416,14 +372,12 @@
 			(at-robot f1-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-0f)
-				(not (at-robot f1-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-0f)
+			(not (at-robot f1-0f))
 		)
 	)
 	(:action move_f1-0f_f1-1f_right
@@ -433,14 +387,12 @@
 			(at-robot f1-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-1f)
-				(not (at-robot f1-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-1f)
+			(not (at-robot f1-0f))
 		)
 	)
 	(:action move_f1-0f_f2-0f_down
@@ -450,14 +402,12 @@
 			(at-robot f1-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-0f)
-				(not (at-robot f1-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-0f)
+			(not (at-robot f1-0f))
 		)
 	)
 	(:action move_f1-1f_f0-1f_up
@@ -467,14 +417,12 @@
 			(at-robot f1-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-1f)
-				(not (at-robot f1-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-1f)
+			(not (at-robot f1-1f))
 		)
 	)
 	(:action move_f1-1f_f1-0f_left
@@ -484,14 +432,12 @@
 			(at-robot f1-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-0f)
-				(not (at-robot f1-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-0f)
+			(not (at-robot f1-1f))
 		)
 	)
 	(:action move_f1-1f_f1-2f_right
@@ -501,14 +447,12 @@
 			(at-robot f1-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-2f)
-				(not (at-robot f1-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-2f)
+			(not (at-robot f1-1f))
 		)
 	)
 	(:action move_f1-1f_f2-1f_down
@@ -518,14 +462,12 @@
 			(at-robot f1-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-1f)
-				(not (at-robot f1-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-1f)
+			(not (at-robot f1-1f))
 		)
 	)
 	(:action move_f1-2f_f0-2f_up
@@ -535,14 +477,12 @@
 			(at-robot f1-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-2f)
-				(not (at-robot f1-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-2f)
+			(not (at-robot f1-2f))
 		)
 	)
 	(:action move_f1-2f_f1-1f_left
@@ -552,14 +492,12 @@
 			(at-robot f1-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-1f)
-				(not (at-robot f1-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-1f)
+			(not (at-robot f1-2f))
 		)
 	)
 	(:action move_f1-2f_f1-3f_right
@@ -569,14 +507,12 @@
 			(at-robot f1-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-3f)
-				(not (at-robot f1-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-3f)
+			(not (at-robot f1-2f))
 		)
 	)
 	(:action move_f1-3f_f0-3f_up
@@ -586,14 +522,12 @@
 			(at-robot f1-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-3f)
-				(not (at-robot f1-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-3f)
+			(not (at-robot f1-3f))
 		)
 	)
 	(:action move_f1-3f_f1-2f_left
@@ -603,14 +537,12 @@
 			(at-robot f1-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-2f)
-				(not (at-robot f1-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-2f)
+			(not (at-robot f1-3f))
 		)
 	)
 	(:action move_f1-3f_f1-4f_right
@@ -620,14 +552,12 @@
 			(at-robot f1-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-4f)
-				(not (at-robot f1-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-4f)
+			(not (at-robot f1-3f))
 		)
 	)
 	(:action move_f1-3f_f2-3f_down
@@ -637,14 +567,12 @@
 			(at-robot f1-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-3f)
-				(not (at-robot f1-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-3f)
+			(not (at-robot f1-3f))
 		)
 	)
 	(:action move_f1-4f_f0-4f_up
@@ -654,14 +582,12 @@
 			(at-robot f1-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-4f)
-				(not (at-robot f1-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-4f)
+			(not (at-robot f1-4f))
 		)
 	)
 	(:action move_f1-4f_f1-3f_left
@@ -671,14 +597,12 @@
 			(at-robot f1-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-3f)
-				(not (at-robot f1-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-3f)
+			(not (at-robot f1-4f))
 		)
 	)
 	(:action move_f1-4f_f1-5f_right
@@ -688,14 +612,12 @@
 			(at-robot f1-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-5f)
-				(not (at-robot f1-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-5f)
+			(not (at-robot f1-4f))
 		)
 	)
 	(:action move_f1-4f_f2-4f_down
@@ -705,14 +627,12 @@
 			(at-robot f1-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-4f)
-				(not (at-robot f1-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-4f)
+			(not (at-robot f1-4f))
 		)
 	)
 	(:action move_f1-5f_f0-5f_up
@@ -722,14 +642,12 @@
 			(at-robot f1-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-5f)
-				(not (at-robot f1-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-5f)
+			(not (at-robot f1-5f))
 		)
 	)
 	(:action move_f1-5f_f1-4f_left
@@ -739,14 +657,12 @@
 			(at-robot f1-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-4f)
-				(not (at-robot f1-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-4f)
+			(not (at-robot f1-5f))
 		)
 	)
 	(:action move_f1-5f_f1-6f_right
@@ -756,14 +672,12 @@
 			(at-robot f1-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-6f)
-				(not (at-robot f1-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-6f)
+			(not (at-robot f1-5f))
 		)
 	)
 	(:action move_f1-5f_f2-5f_down
@@ -773,14 +687,12 @@
 			(at-robot f1-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-5f)
-				(not (at-robot f1-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-5f)
+			(not (at-robot f1-5f))
 		)
 	)
 	(:action move_f1-6f_f0-6f_up
@@ -790,14 +702,12 @@
 			(at-robot f1-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-6f)
-				(not (at-robot f1-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-6f)
+			(not (at-robot f1-6f))
 		)
 	)
 	(:action move_f1-6f_f1-5f_left
@@ -807,14 +717,12 @@
 			(at-robot f1-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-5f)
-				(not (at-robot f1-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-5f)
+			(not (at-robot f1-6f))
 		)
 	)
 	(:action move_f1-6f_f1-7f_right
@@ -824,14 +732,12 @@
 			(at-robot f1-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-7f)
-				(not (at-robot f1-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-7f)
+			(not (at-robot f1-6f))
 		)
 	)
 	(:action move_f1-6f_f2-6f_down
@@ -841,14 +747,12 @@
 			(at-robot f1-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-6f)
-				(not (at-robot f1-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-6f)
+			(not (at-robot f1-6f))
 		)
 	)
 	(:action move_f1-7f_f0-7f_up
@@ -858,14 +762,12 @@
 			(at-robot f1-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-7f)
-				(not (at-robot f1-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-7f)
+			(not (at-robot f1-7f))
 		)
 	)
 	(:action move_f1-7f_f1-6f_left
@@ -875,14 +777,12 @@
 			(at-robot f1-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-6f)
-				(not (at-robot f1-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-6f)
+			(not (at-robot f1-7f))
 		)
 	)
 	(:action move_f1-7f_f2-7f_down
@@ -892,14 +792,12 @@
 			(at-robot f1-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-7f)
-				(not (at-robot f1-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-7f)
+			(not (at-robot f1-7f))
 		)
 	)
 	(:action move_f2-0f_f1-0f_up
@@ -909,14 +807,12 @@
 			(at-robot f2-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-0f)
-				(not (at-robot f2-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-0f)
+			(not (at-robot f2-0f))
 		)
 	)
 	(:action move_f2-0f_f2-1f_right
@@ -926,14 +822,12 @@
 			(at-robot f2-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-1f)
-				(not (at-robot f2-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-1f)
+			(not (at-robot f2-0f))
 		)
 	)
 	(:action move_f2-0f_f3-0f_down
@@ -943,14 +837,12 @@
 			(at-robot f2-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-0f)
-				(not (at-robot f2-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-0f)
+			(not (at-robot f2-0f))
 		)
 	)
 	(:action move_f2-1f_f1-1f_up
@@ -960,14 +852,12 @@
 			(at-robot f2-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-1f)
-				(not (at-robot f2-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-1f)
+			(not (at-robot f2-1f))
 		)
 	)
 	(:action move_f2-1f_f2-0f_left
@@ -977,14 +867,12 @@
 			(at-robot f2-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-0f)
-				(not (at-robot f2-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-0f)
+			(not (at-robot f2-1f))
 		)
 	)
 	(:action move_f2-3f_f1-3f_up
@@ -994,14 +882,12 @@
 			(at-robot f2-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-3f)
-				(not (at-robot f2-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-3f)
+			(not (at-robot f2-3f))
 		)
 	)
 	(:action move_f2-3f_f2-4f_right
@@ -1011,14 +897,12 @@
 			(at-robot f2-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-4f)
-				(not (at-robot f2-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-4f)
+			(not (at-robot f2-3f))
 		)
 	)
 	(:action move_f2-3f_f3-3f_down
@@ -1028,14 +912,12 @@
 			(at-robot f2-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-3f)
-				(not (at-robot f2-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-3f)
+			(not (at-robot f2-3f))
 		)
 	)
 	(:action move_f2-4f_f1-4f_up
@@ -1045,14 +927,12 @@
 			(at-robot f2-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-4f)
-				(not (at-robot f2-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-4f)
+			(not (at-robot f2-4f))
 		)
 	)
 	(:action move_f2-4f_f2-3f_left
@@ -1062,14 +942,12 @@
 			(at-robot f2-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-3f)
-				(not (at-robot f2-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-3f)
+			(not (at-robot f2-4f))
 		)
 	)
 	(:action move_f2-4f_f2-5f_right
@@ -1079,14 +957,12 @@
 			(at-robot f2-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-5f)
-				(not (at-robot f2-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-5f)
+			(not (at-robot f2-4f))
 		)
 	)
 	(:action move_f2-4f_f3-4f_down
@@ -1096,14 +972,12 @@
 			(at-robot f2-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-4f)
-				(not (at-robot f2-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-4f)
+			(not (at-robot f2-4f))
 		)
 	)
 	(:action move_f2-5f_f1-5f_up
@@ -1113,14 +987,12 @@
 			(at-robot f2-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-5f)
-				(not (at-robot f2-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-5f)
+			(not (at-robot f2-5f))
 		)
 	)
 	(:action move_f2-5f_f2-4f_left
@@ -1130,14 +1002,12 @@
 			(at-robot f2-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-4f)
-				(not (at-robot f2-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-4f)
+			(not (at-robot f2-5f))
 		)
 	)
 	(:action move_f2-5f_f2-6f_right
@@ -1147,14 +1017,12 @@
 			(at-robot f2-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-6f)
-				(not (at-robot f2-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-6f)
+			(not (at-robot f2-5f))
 		)
 	)
 	(:action move_f2-5f_f3-5f_down
@@ -1164,14 +1032,12 @@
 			(at-robot f2-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-5f)
-				(not (at-robot f2-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-5f)
+			(not (at-robot f2-5f))
 		)
 	)
 	(:action move_f2-6f_f1-6f_up
@@ -1181,14 +1047,12 @@
 			(at-robot f2-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-6f)
-				(not (at-robot f2-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-6f)
+			(not (at-robot f2-6f))
 		)
 	)
 	(:action move_f2-6f_f2-5f_left
@@ -1198,14 +1062,12 @@
 			(at-robot f2-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-5f)
-				(not (at-robot f2-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-5f)
+			(not (at-robot f2-6f))
 		)
 	)
 	(:action move_f2-6f_f2-7f_right
@@ -1215,14 +1077,12 @@
 			(at-robot f2-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-7f)
-				(not (at-robot f2-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-7f)
+			(not (at-robot f2-6f))
 		)
 	)
 	(:action move_f2-6f_f3-6f_down
@@ -1232,14 +1092,12 @@
 			(at-robot f2-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-6f)
-				(not (at-robot f2-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-6f)
+			(not (at-robot f2-6f))
 		)
 	)
 	(:action move_f2-7f_f1-7f_up
@@ -1249,14 +1107,12 @@
 			(at-robot f2-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-7f)
-				(not (at-robot f2-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-7f)
+			(not (at-robot f2-7f))
 		)
 	)
 	(:action move_f2-7f_f2-6f_left
@@ -1266,14 +1122,12 @@
 			(at-robot f2-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-6f)
-				(not (at-robot f2-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-6f)
+			(not (at-robot f2-7f))
 		)
 	)
 	(:action move_f2-7f_f3-7f_down
@@ -1283,14 +1137,12 @@
 			(at-robot f2-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-7f)
-				(not (at-robot f2-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-7f)
+			(not (at-robot f2-7f))
 		)
 	)
 	(:action move_f3-0f_f2-0f_up
@@ -1300,14 +1152,12 @@
 			(at-robot f3-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-0f)
-				(not (at-robot f3-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-0f)
+			(not (at-robot f3-0f))
 		)
 	)
 	(:action move_f3-0f_f4-0f_down
@@ -1317,14 +1167,12 @@
 			(at-robot f3-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-0f)
-				(not (at-robot f3-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-0f)
+			(not (at-robot f3-0f))
 		)
 	)
 	(:action move_f3-3f_f2-3f_up
@@ -1334,14 +1182,12 @@
 			(at-robot f3-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-3f)
-				(not (at-robot f3-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-3f)
+			(not (at-robot f3-3f))
 		)
 	)
 	(:action move_f3-3f_f3-4f_right
@@ -1351,14 +1197,12 @@
 			(at-robot f3-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-4f)
-				(not (at-robot f3-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-4f)
+			(not (at-robot f3-3f))
 		)
 	)
 	(:action move_f3-3f_f4-3f_down
@@ -1368,14 +1212,12 @@
 			(at-robot f3-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-3f)
-				(not (at-robot f3-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-3f)
+			(not (at-robot f3-3f))
 		)
 	)
 	(:action move_f3-4f_f2-4f_up
@@ -1385,14 +1227,12 @@
 			(at-robot f3-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-4f)
-				(not (at-robot f3-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-4f)
+			(not (at-robot f3-4f))
 		)
 	)
 	(:action move_f3-4f_f3-3f_left
@@ -1402,14 +1242,12 @@
 			(at-robot f3-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-3f)
-				(not (at-robot f3-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-3f)
+			(not (at-robot f3-4f))
 		)
 	)
 	(:action move_f3-4f_f3-5f_right
@@ -1419,14 +1257,12 @@
 			(at-robot f3-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-5f)
-				(not (at-robot f3-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-5f)
+			(not (at-robot f3-4f))
 		)
 	)
 	(:action move_f3-4f_f4-4f_down
@@ -1436,14 +1272,12 @@
 			(at-robot f3-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-4f)
-				(not (at-robot f3-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-4f)
+			(not (at-robot f3-4f))
 		)
 	)
 	(:action move_f3-5f_f2-5f_up
@@ -1453,14 +1287,12 @@
 			(at-robot f3-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-5f)
-				(not (at-robot f3-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-5f)
+			(not (at-robot f3-5f))
 		)
 	)
 	(:action move_f3-5f_f3-4f_left
@@ -1470,14 +1302,12 @@
 			(at-robot f3-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-4f)
-				(not (at-robot f3-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-4f)
+			(not (at-robot f3-5f))
 		)
 	)
 	(:action move_f3-5f_f3-6f_right
@@ -1487,14 +1317,12 @@
 			(at-robot f3-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-6f)
-				(not (at-robot f3-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-6f)
+			(not (at-robot f3-5f))
 		)
 	)
 	(:action move_f3-5f_f4-5f_down
@@ -1504,14 +1332,12 @@
 			(at-robot f3-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-5f)
-				(not (at-robot f3-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-5f)
+			(not (at-robot f3-5f))
 		)
 	)
 	(:action move_f3-6f_f2-6f_up
@@ -1521,14 +1347,12 @@
 			(at-robot f3-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-6f)
-				(not (at-robot f3-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-6f)
+			(not (at-robot f3-6f))
 		)
 	)
 	(:action move_f3-6f_f3-5f_left
@@ -1538,14 +1362,12 @@
 			(at-robot f3-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-5f)
-				(not (at-robot f3-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-5f)
+			(not (at-robot f3-6f))
 		)
 	)
 	(:action move_f3-6f_f3-7f_right
@@ -1555,14 +1377,12 @@
 			(at-robot f3-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-7f)
-				(not (at-robot f3-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-7f)
+			(not (at-robot f3-6f))
 		)
 	)
 	(:action move_f3-6f_f4-6f_down
@@ -1572,14 +1392,12 @@
 			(at-robot f3-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-6f)
-				(not (at-robot f3-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-6f)
+			(not (at-robot f3-6f))
 		)
 	)
 	(:action move_f3-7f_f2-7f_up
@@ -1589,14 +1407,12 @@
 			(at-robot f3-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-7f)
-				(not (at-robot f3-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-7f)
+			(not (at-robot f3-7f))
 		)
 	)
 	(:action move_f3-7f_f3-6f_left
@@ -1606,14 +1422,12 @@
 			(at-robot f3-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-6f)
-				(not (at-robot f3-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-6f)
+			(not (at-robot f3-7f))
 		)
 	)
 	(:action move_f3-7f_f4-7f_down
@@ -1623,14 +1437,12 @@
 			(at-robot f3-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-7f)
-				(not (at-robot f3-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-7f)
+			(not (at-robot f3-7f))
 		)
 	)
 	(:action move_f4-0f_f3-0f_up
@@ -1640,14 +1452,12 @@
 			(at-robot f4-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-0f)
-				(not (at-robot f4-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-0f)
+			(not (at-robot f4-0f))
 		)
 	)
 	(:action move_f4-0f_f5-0f_down
@@ -1657,14 +1467,12 @@
 			(at-robot f4-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-0f)
-				(not (at-robot f4-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-0f)
+			(not (at-robot f4-0f))
 		)
 	)
 	(:action move_f4-2f_f4-3f_right
@@ -1674,14 +1482,12 @@
 			(at-robot f4-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-3f)
-				(not (at-robot f4-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-3f)
+			(not (at-robot f4-2f))
 		)
 	)
 	(:action move_f4-2f_f5-2f_down
@@ -1691,14 +1497,12 @@
 			(at-robot f4-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-2f)
-				(not (at-robot f4-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-2f)
+			(not (at-robot f4-2f))
 		)
 	)
 	(:action move_f4-3f_f3-3f_up
@@ -1708,14 +1512,12 @@
 			(at-robot f4-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-3f)
-				(not (at-robot f4-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-3f)
+			(not (at-robot f4-3f))
 		)
 	)
 	(:action move_f4-3f_f4-2f_left
@@ -1725,14 +1527,12 @@
 			(at-robot f4-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-2f)
-				(not (at-robot f4-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-2f)
+			(not (at-robot f4-3f))
 		)
 	)
 	(:action move_f4-3f_f4-4f_right
@@ -1742,14 +1542,12 @@
 			(at-robot f4-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-4f)
-				(not (at-robot f4-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-4f)
+			(not (at-robot f4-3f))
 		)
 	)
 	(:action move_f4-3f_f5-3f_down
@@ -1759,14 +1557,12 @@
 			(at-robot f4-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-3f)
-				(not (at-robot f4-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-3f)
+			(not (at-robot f4-3f))
 		)
 	)
 	(:action move_f4-4f_f3-4f_up
@@ -1776,14 +1572,12 @@
 			(at-robot f4-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-4f)
-				(not (at-robot f4-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-4f)
+			(not (at-robot f4-4f))
 		)
 	)
 	(:action move_f4-4f_f4-3f_left
@@ -1793,14 +1587,12 @@
 			(at-robot f4-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-3f)
-				(not (at-robot f4-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-3f)
+			(not (at-robot f4-4f))
 		)
 	)
 	(:action move_f4-4f_f4-5f_right
@@ -1810,14 +1602,12 @@
 			(at-robot f4-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-5f)
-				(not (at-robot f4-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-5f)
+			(not (at-robot f4-4f))
 		)
 	)
 	(:action move_f4-4f_f5-4f_down
@@ -1827,14 +1617,12 @@
 			(at-robot f4-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-4f)
-				(not (at-robot f4-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-4f)
+			(not (at-robot f4-4f))
 		)
 	)
 	(:action move_f4-5f_f3-5f_up
@@ -1844,14 +1632,12 @@
 			(at-robot f4-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-5f)
-				(not (at-robot f4-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-5f)
+			(not (at-robot f4-5f))
 		)
 	)
 	(:action move_f4-5f_f4-4f_left
@@ -1861,14 +1647,12 @@
 			(at-robot f4-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-4f)
-				(not (at-robot f4-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-4f)
+			(not (at-robot f4-5f))
 		)
 	)
 	(:action move_f4-5f_f4-6f_right
@@ -1878,14 +1662,12 @@
 			(at-robot f4-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-6f)
-				(not (at-robot f4-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-6f)
+			(not (at-robot f4-5f))
 		)
 	)
 	(:action move_f4-5f_f5-5f_down
@@ -1895,14 +1677,12 @@
 			(at-robot f4-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-5f)
-				(not (at-robot f4-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-5f)
+			(not (at-robot f4-5f))
 		)
 	)
 	(:action move_f4-6f_f3-6f_up
@@ -1912,14 +1692,12 @@
 			(at-robot f4-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-6f)
-				(not (at-robot f4-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-6f)
+			(not (at-robot f4-6f))
 		)
 	)
 	(:action move_f4-6f_f4-5f_left
@@ -1929,14 +1707,12 @@
 			(at-robot f4-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-5f)
-				(not (at-robot f4-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-5f)
+			(not (at-robot f4-6f))
 		)
 	)
 	(:action move_f4-6f_f4-7f_right
@@ -1946,14 +1722,12 @@
 			(at-robot f4-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-7f)
-				(not (at-robot f4-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-7f)
+			(not (at-robot f4-6f))
 		)
 	)
 	(:action move_f4-6f_f5-6f_down
@@ -1963,14 +1737,12 @@
 			(at-robot f4-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-6f)
-				(not (at-robot f4-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-6f)
+			(not (at-robot f4-6f))
 		)
 	)
 	(:action move_f4-7f_f3-7f_up
@@ -1980,14 +1752,12 @@
 			(at-robot f4-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-7f)
-				(not (at-robot f4-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-7f)
+			(not (at-robot f4-7f))
 		)
 	)
 	(:action move_f4-7f_f4-6f_left
@@ -1997,14 +1767,12 @@
 			(at-robot f4-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-6f)
-				(not (at-robot f4-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-6f)
+			(not (at-robot f4-7f))
 		)
 	)
 	(:action move_f4-7f_f5-7f_down
@@ -2014,14 +1782,12 @@
 			(at-robot f4-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-7f)
-				(not (at-robot f4-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-7f)
+			(not (at-robot f4-7f))
 		)
 	)
 	(:action move_f5-0f_f4-0f_up
@@ -2031,14 +1797,12 @@
 			(at-robot f5-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-0f)
-				(not (at-robot f5-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-0f)
+			(not (at-robot f5-0f))
 		)
 	)
 	(:action move_f5-0f_f6-0f_down
@@ -2048,14 +1812,12 @@
 			(at-robot f5-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-0f)
-				(not (at-robot f5-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-0f)
+			(not (at-robot f5-0f))
 		)
 	)
 	(:action move_f5-2f_f4-2f_up
@@ -2065,14 +1827,12 @@
 			(at-robot f5-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-2f)
-				(not (at-robot f5-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-2f)
+			(not (at-robot f5-2f))
 		)
 	)
 	(:action move_f5-2f_f5-3f_right
@@ -2082,14 +1842,12 @@
 			(at-robot f5-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-3f)
-				(not (at-robot f5-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-3f)
+			(not (at-robot f5-2f))
 		)
 	)
 	(:action move_f5-2f_f6-2f_down
@@ -2099,14 +1857,12 @@
 			(at-robot f5-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-2f)
-				(not (at-robot f5-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-2f)
+			(not (at-robot f5-2f))
 		)
 	)
 	(:action move_f5-3f_f4-3f_up
@@ -2116,14 +1872,12 @@
 			(at-robot f5-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-3f)
-				(not (at-robot f5-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-3f)
+			(not (at-robot f5-3f))
 		)
 	)
 	(:action move_f5-3f_f5-2f_left
@@ -2133,14 +1887,12 @@
 			(at-robot f5-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-2f)
-				(not (at-robot f5-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-2f)
+			(not (at-robot f5-3f))
 		)
 	)
 	(:action move_f5-3f_f5-4f_right
@@ -2150,14 +1902,12 @@
 			(at-robot f5-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-4f)
-				(not (at-robot f5-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-4f)
+			(not (at-robot f5-3f))
 		)
 	)
 	(:action move_f5-3f_f6-3f_down
@@ -2167,14 +1917,12 @@
 			(at-robot f5-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-3f)
-				(not (at-robot f5-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-3f)
+			(not (at-robot f5-3f))
 		)
 	)
 	(:action move_f5-4f_f4-4f_up
@@ -2184,14 +1932,12 @@
 			(at-robot f5-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-4f)
-				(not (at-robot f5-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-4f)
+			(not (at-robot f5-4f))
 		)
 	)
 	(:action move_f5-4f_f5-3f_left
@@ -2201,14 +1947,12 @@
 			(at-robot f5-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-3f)
-				(not (at-robot f5-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-3f)
+			(not (at-robot f5-4f))
 		)
 	)
 	(:action move_f5-4f_f5-5f_right
@@ -2218,14 +1962,12 @@
 			(at-robot f5-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-5f)
-				(not (at-robot f5-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-5f)
+			(not (at-robot f5-4f))
 		)
 	)
 	(:action move_f5-4f_f6-4f_down
@@ -2235,14 +1977,12 @@
 			(at-robot f5-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-4f)
-				(not (at-robot f5-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-4f)
+			(not (at-robot f5-4f))
 		)
 	)
 	(:action move_f5-5f_f4-5f_up
@@ -2252,14 +1992,12 @@
 			(at-robot f5-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-5f)
-				(not (at-robot f5-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-5f)
+			(not (at-robot f5-5f))
 		)
 	)
 	(:action move_f5-5f_f5-4f_left
@@ -2269,14 +2007,12 @@
 			(at-robot f5-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-4f)
-				(not (at-robot f5-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-4f)
+			(not (at-robot f5-5f))
 		)
 	)
 	(:action move_f5-5f_f5-6f_right
@@ -2286,14 +2022,12 @@
 			(at-robot f5-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-6f)
-				(not (at-robot f5-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-6f)
+			(not (at-robot f5-5f))
 		)
 	)
 	(:action move_f5-5f_f6-5f_down
@@ -2303,14 +2037,12 @@
 			(at-robot f5-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-5f)
-				(not (at-robot f5-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-5f)
+			(not (at-robot f5-5f))
 		)
 	)
 	(:action move_f5-6f_f4-6f_up
@@ -2320,14 +2052,12 @@
 			(at-robot f5-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-6f)
-				(not (at-robot f5-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-6f)
+			(not (at-robot f5-6f))
 		)
 	)
 	(:action move_f5-6f_f5-5f_left
@@ -2337,14 +2067,12 @@
 			(at-robot f5-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-5f)
-				(not (at-robot f5-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-5f)
+			(not (at-robot f5-6f))
 		)
 	)
 	(:action move_f5-6f_f5-7f_right
@@ -2354,14 +2082,12 @@
 			(at-robot f5-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-7f)
-				(not (at-robot f5-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-7f)
+			(not (at-robot f5-6f))
 		)
 	)
 	(:action move_f5-7f_f4-7f_up
@@ -2371,14 +2097,12 @@
 			(at-robot f5-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-7f)
-				(not (at-robot f5-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-7f)
+			(not (at-robot f5-7f))
 		)
 	)
 	(:action move_f5-7f_f5-6f_left
@@ -2388,14 +2112,12 @@
 			(at-robot f5-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-6f)
-				(not (at-robot f5-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-6f)
+			(not (at-robot f5-7f))
 		)
 	)
 	(:action move_f5-7f_f6-7f_down
@@ -2405,14 +2127,12 @@
 			(at-robot f5-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-7f)
-				(not (at-robot f5-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-7f)
+			(not (at-robot f5-7f))
 		)
 	)
 	(:action move_f6-0f_f5-0f_up
@@ -2422,14 +2142,12 @@
 			(at-robot f6-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-0f)
-				(not (at-robot f6-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-0f)
+			(not (at-robot f6-0f))
 		)
 	)
 	(:action move_f6-0f_f7-0f_down
@@ -2439,14 +2157,12 @@
 			(at-robot f6-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-0f)
-				(not (at-robot f6-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-0f)
+			(not (at-robot f6-0f))
 		)
 	)
 	(:action move_f6-2f_f5-2f_up
@@ -2456,14 +2172,12 @@
 			(at-robot f6-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-2f)
-				(not (at-robot f6-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-2f)
+			(not (at-robot f6-2f))
 		)
 	)
 	(:action move_f6-2f_f6-3f_right
@@ -2473,14 +2187,12 @@
 			(at-robot f6-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-3f)
-				(not (at-robot f6-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-3f)
+			(not (at-robot f6-2f))
 		)
 	)
 	(:action move_f6-2f_f7-2f_down
@@ -2490,14 +2202,12 @@
 			(at-robot f6-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-2f)
-				(not (at-robot f6-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-2f)
+			(not (at-robot f6-2f))
 		)
 	)
 	(:action move_f6-3f_f5-3f_up
@@ -2507,14 +2217,12 @@
 			(at-robot f6-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-3f)
-				(not (at-robot f6-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-3f)
+			(not (at-robot f6-3f))
 		)
 	)
 	(:action move_f6-3f_f6-2f_left
@@ -2524,14 +2232,12 @@
 			(at-robot f6-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-2f)
-				(not (at-robot f6-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-2f)
+			(not (at-robot f6-3f))
 		)
 	)
 	(:action move_f6-3f_f6-4f_right
@@ -2541,14 +2247,12 @@
 			(at-robot f6-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-4f)
-				(not (at-robot f6-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-4f)
+			(not (at-robot f6-3f))
 		)
 	)
 	(:action move_f6-3f_f7-3f_down
@@ -2558,14 +2262,12 @@
 			(at-robot f6-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-3f)
-				(not (at-robot f6-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-3f)
+			(not (at-robot f6-3f))
 		)
 	)
 	(:action move_f6-4f_f5-4f_up
@@ -2575,14 +2277,12 @@
 			(at-robot f6-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-4f)
-				(not (at-robot f6-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-4f)
+			(not (at-robot f6-4f))
 		)
 	)
 	(:action move_f6-4f_f6-3f_left
@@ -2592,14 +2292,12 @@
 			(at-robot f6-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-3f)
-				(not (at-robot f6-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-3f)
+			(not (at-robot f6-4f))
 		)
 	)
 	(:action move_f6-4f_f6-5f_right
@@ -2609,14 +2307,12 @@
 			(at-robot f6-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-5f)
-				(not (at-robot f6-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-5f)
+			(not (at-robot f6-4f))
 		)
 	)
 	(:action move_f6-4f_f7-4f_down
@@ -2626,14 +2322,12 @@
 			(at-robot f6-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-4f)
-				(not (at-robot f6-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-4f)
+			(not (at-robot f6-4f))
 		)
 	)
 	(:action move_f6-5f_f5-5f_up
@@ -2643,14 +2337,12 @@
 			(at-robot f6-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-5f)
-				(not (at-robot f6-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-5f)
+			(not (at-robot f6-5f))
 		)
 	)
 	(:action move_f6-5f_f6-4f_left
@@ -2660,14 +2352,12 @@
 			(at-robot f6-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-4f)
-				(not (at-robot f6-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-4f)
+			(not (at-robot f6-5f))
 		)
 	)
 	(:action move_f6-5f_f7-5f_down
@@ -2677,14 +2367,12 @@
 			(at-robot f6-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-5f)
-				(not (at-robot f6-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-5f)
+			(not (at-robot f6-5f))
 		)
 	)
 	(:action move_f6-7f_f5-7f_up
@@ -2694,14 +2382,12 @@
 			(at-robot f6-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-7f)
-				(not (at-robot f6-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-7f)
+			(not (at-robot f6-7f))
 		)
 	)
 	(:action move_f6-7f_f7-7f_down
@@ -2711,14 +2397,12 @@
 			(at-robot f6-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-7f)
-				(not (at-robot f6-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-7f)
+			(not (at-robot f6-7f))
 		)
 	)
 	(:action move_f7-0f_f6-0f_up
@@ -2728,14 +2412,12 @@
 			(at-robot f7-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-0f)
-				(not (at-robot f7-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-0f)
+			(not (at-robot f7-0f))
 		)
 	)
 	(:action move_f7-0f_f7-1f_right
@@ -2745,14 +2427,12 @@
 			(at-robot f7-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-1f)
-				(not (at-robot f7-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-1f)
+			(not (at-robot f7-0f))
 		)
 	)
 	(:action move_f7-1f_f7-0f_left
@@ -2762,14 +2442,12 @@
 			(at-robot f7-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-0f)
-				(not (at-robot f7-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-0f)
+			(not (at-robot f7-1f))
 		)
 	)
 	(:action move_f7-1f_f7-2f_right
@@ -2779,14 +2457,12 @@
 			(at-robot f7-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-2f)
-				(not (at-robot f7-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-2f)
+			(not (at-robot f7-1f))
 		)
 	)
 	(:action move_f7-2f_f6-2f_up
@@ -2796,14 +2472,12 @@
 			(at-robot f7-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-2f)
-				(not (at-robot f7-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-2f)
+			(not (at-robot f7-2f))
 		)
 	)
 	(:action move_f7-2f_f7-1f_left
@@ -2813,14 +2487,12 @@
 			(at-robot f7-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-1f)
-				(not (at-robot f7-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-1f)
+			(not (at-robot f7-2f))
 		)
 	)
 	(:action move_f7-2f_f7-3f_right
@@ -2830,14 +2502,12 @@
 			(at-robot f7-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-3f)
-				(not (at-robot f7-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-3f)
+			(not (at-robot f7-2f))
 		)
 	)
 	(:action move_f7-3f_f6-3f_up
@@ -2847,14 +2517,12 @@
 			(at-robot f7-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-3f)
-				(not (at-robot f7-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-3f)
+			(not (at-robot f7-3f))
 		)
 	)
 	(:action move_f7-3f_f7-2f_left
@@ -2864,14 +2532,12 @@
 			(at-robot f7-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-2f)
-				(not (at-robot f7-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-2f)
+			(not (at-robot f7-3f))
 		)
 	)
 	(:action move_f7-3f_f7-4f_right
@@ -2881,14 +2547,12 @@
 			(at-robot f7-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-4f)
-				(not (at-robot f7-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-4f)
+			(not (at-robot f7-3f))
 		)
 	)
 	(:action move_f7-4f_f6-4f_up
@@ -2898,14 +2562,12 @@
 			(at-robot f7-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-4f)
-				(not (at-robot f7-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-4f)
+			(not (at-robot f7-4f))
 		)
 	)
 	(:action move_f7-4f_f7-3f_left
@@ -2915,14 +2577,12 @@
 			(at-robot f7-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-3f)
-				(not (at-robot f7-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-3f)
+			(not (at-robot f7-4f))
 		)
 	)
 	(:action move_f7-4f_f7-5f_right
@@ -2932,14 +2592,12 @@
 			(at-robot f7-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-5f)
-				(not (at-robot f7-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-5f)
+			(not (at-robot f7-4f))
 		)
 	)
 	(:action move_f7-5f_f6-5f_up
@@ -2949,14 +2607,12 @@
 			(at-robot f7-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-5f)
-				(not (at-robot f7-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-5f)
+			(not (at-robot f7-5f))
 		)
 	)
 	(:action move_f7-5f_f7-4f_left
@@ -2966,14 +2622,12 @@
 			(at-robot f7-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-4f)
-				(not (at-robot f7-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-4f)
+			(not (at-robot f7-5f))
 		)
 	)
 	(:action move_f7-7f_f6-7f_up
@@ -2983,14 +2637,12 @@
 			(at-robot f7-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-7f)
-				(not (at-robot f7-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-7f)
+			(not (at-robot f7-7f))
 		)
 	)
 	(:action push_f0-0f_f0-1f_f0-2f_right_box0
@@ -3001,18 +2653,16 @@
 			(clear f0-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-1f)
-				(at box0 f0-2f)
-				(clear f0-1f)
-				(not (at-robot f0-0f))
-				(not (at box0 f0-1f))
-				(not (clear f0-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-1f)
+			(at box0 f0-2f)
+			(clear f0-1f)
+			(not (at-robot f0-0f))
+			(not (at box0 f0-1f))
+			(not (clear f0-2f))
 		)
 	)
 	(:action push_f0-0f_f0-1f_f0-2f_right_box1
@@ -3023,18 +2673,16 @@
 			(clear f0-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-1f)
-				(at box1 f0-2f)
-				(clear f0-1f)
-				(not (at-robot f0-0f))
-				(not (at box1 f0-1f))
-				(not (clear f0-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-1f)
+			(at box1 f0-2f)
+			(clear f0-1f)
+			(not (at-robot f0-0f))
+			(not (at box1 f0-1f))
+			(not (clear f0-2f))
 		)
 	)
 	(:action push_f0-0f_f1-0f_f2-0f_down_box0
@@ -3045,18 +2693,16 @@
 			(clear f2-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-0f)
-				(at box0 f2-0f)
-				(clear f1-0f)
-				(not (at-robot f0-0f))
-				(not (at box0 f1-0f))
-				(not (clear f2-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-0f)
+			(at box0 f2-0f)
+			(clear f1-0f)
+			(not (at-robot f0-0f))
+			(not (at box0 f1-0f))
+			(not (clear f2-0f))
 		)
 	)
 	(:action push_f0-0f_f1-0f_f2-0f_down_box1
@@ -3067,18 +2713,16 @@
 			(clear f2-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-0f)
-				(at box1 f2-0f)
-				(clear f1-0f)
-				(not (at-robot f0-0f))
-				(not (at box1 f1-0f))
-				(not (clear f2-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-0f)
+			(at box1 f2-0f)
+			(clear f1-0f)
+			(not (at-robot f0-0f))
+			(not (at box1 f1-0f))
+			(not (clear f2-0f))
 		)
 	)
 	(:action push_f0-1f_f0-2f_f0-3f_right_box0
@@ -3089,18 +2733,16 @@
 			(clear f0-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-2f)
-				(at box0 f0-3f)
-				(clear f0-2f)
-				(not (at-robot f0-1f))
-				(not (at box0 f0-2f))
-				(not (clear f0-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-2f)
+			(at box0 f0-3f)
+			(clear f0-2f)
+			(not (at-robot f0-1f))
+			(not (at box0 f0-2f))
+			(not (clear f0-3f))
 		)
 	)
 	(:action push_f0-1f_f0-2f_f0-3f_right_box1
@@ -3111,18 +2753,16 @@
 			(clear f0-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-2f)
-				(at box1 f0-3f)
-				(clear f0-2f)
-				(not (at-robot f0-1f))
-				(not (at box1 f0-2f))
-				(not (clear f0-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-2f)
+			(at box1 f0-3f)
+			(clear f0-2f)
+			(not (at-robot f0-1f))
+			(not (at box1 f0-2f))
+			(not (clear f0-3f))
 		)
 	)
 	(:action push_f0-1f_f1-1f_f2-1f_down_box0
@@ -3133,18 +2773,16 @@
 			(clear f2-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-1f)
-				(at box0 f2-1f)
-				(clear f1-1f)
-				(not (at-robot f0-1f))
-				(not (at box0 f1-1f))
-				(not (clear f2-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-1f)
+			(at box0 f2-1f)
+			(clear f1-1f)
+			(not (at-robot f0-1f))
+			(not (at box0 f1-1f))
+			(not (clear f2-1f))
 		)
 	)
 	(:action push_f0-1f_f1-1f_f2-1f_down_box1
@@ -3155,18 +2793,16 @@
 			(clear f2-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-1f)
-				(at box1 f2-1f)
-				(clear f1-1f)
-				(not (at-robot f0-1f))
-				(not (at box1 f1-1f))
-				(not (clear f2-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-1f)
+			(at box1 f2-1f)
+			(clear f1-1f)
+			(not (at-robot f0-1f))
+			(not (at box1 f1-1f))
+			(not (clear f2-1f))
 		)
 	)
 	(:action push_f0-2f_f0-1f_f0-0f_left_box0
@@ -3177,18 +2813,16 @@
 			(clear f0-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-1f)
-				(at box0 f0-0f)
-				(clear f0-1f)
-				(not (at-robot f0-2f))
-				(not (at box0 f0-1f))
-				(not (clear f0-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-1f)
+			(at box0 f0-0f)
+			(clear f0-1f)
+			(not (at-robot f0-2f))
+			(not (at box0 f0-1f))
+			(not (clear f0-0f))
 		)
 	)
 	(:action push_f0-2f_f0-1f_f0-0f_left_box1
@@ -3199,18 +2833,16 @@
 			(clear f0-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-1f)
-				(at box1 f0-0f)
-				(clear f0-1f)
-				(not (at-robot f0-2f))
-				(not (at box1 f0-1f))
-				(not (clear f0-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-1f)
+			(at box1 f0-0f)
+			(clear f0-1f)
+			(not (at-robot f0-2f))
+			(not (at box1 f0-1f))
+			(not (clear f0-0f))
 		)
 	)
 	(:action push_f0-2f_f0-3f_f0-4f_right_box0
@@ -3221,18 +2853,16 @@
 			(clear f0-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-3f)
-				(at box0 f0-4f)
-				(clear f0-3f)
-				(not (at-robot f0-2f))
-				(not (at box0 f0-3f))
-				(not (clear f0-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-3f)
+			(at box0 f0-4f)
+			(clear f0-3f)
+			(not (at-robot f0-2f))
+			(not (at box0 f0-3f))
+			(not (clear f0-4f))
 		)
 	)
 	(:action push_f0-2f_f0-3f_f0-4f_right_box1
@@ -3243,18 +2873,16 @@
 			(clear f0-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-3f)
-				(at box1 f0-4f)
-				(clear f0-3f)
-				(not (at-robot f0-2f))
-				(not (at box1 f0-3f))
-				(not (clear f0-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-3f)
+			(at box1 f0-4f)
+			(clear f0-3f)
+			(not (at-robot f0-2f))
+			(not (at box1 f0-3f))
+			(not (clear f0-4f))
 		)
 	)
 	(:action push_f0-3f_f0-2f_f0-1f_left_box0
@@ -3265,18 +2893,16 @@
 			(clear f0-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-2f)
-				(at box0 f0-1f)
-				(clear f0-2f)
-				(not (at-robot f0-3f))
-				(not (at box0 f0-2f))
-				(not (clear f0-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-2f)
+			(at box0 f0-1f)
+			(clear f0-2f)
+			(not (at-robot f0-3f))
+			(not (at box0 f0-2f))
+			(not (clear f0-1f))
 		)
 	)
 	(:action push_f0-3f_f0-2f_f0-1f_left_box1
@@ -3287,18 +2913,16 @@
 			(clear f0-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-2f)
-				(at box1 f0-1f)
-				(clear f0-2f)
-				(not (at-robot f0-3f))
-				(not (at box1 f0-2f))
-				(not (clear f0-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-2f)
+			(at box1 f0-1f)
+			(clear f0-2f)
+			(not (at-robot f0-3f))
+			(not (at box1 f0-2f))
+			(not (clear f0-1f))
 		)
 	)
 	(:action push_f0-3f_f0-4f_f0-5f_right_box0
@@ -3309,18 +2933,16 @@
 			(clear f0-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-4f)
-				(at box0 f0-5f)
-				(clear f0-4f)
-				(not (at-robot f0-3f))
-				(not (at box0 f0-4f))
-				(not (clear f0-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-4f)
+			(at box0 f0-5f)
+			(clear f0-4f)
+			(not (at-robot f0-3f))
+			(not (at box0 f0-4f))
+			(not (clear f0-5f))
 		)
 	)
 	(:action push_f0-3f_f0-4f_f0-5f_right_box1
@@ -3331,18 +2953,16 @@
 			(clear f0-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-4f)
-				(at box1 f0-5f)
-				(clear f0-4f)
-				(not (at-robot f0-3f))
-				(not (at box1 f0-4f))
-				(not (clear f0-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-4f)
+			(at box1 f0-5f)
+			(clear f0-4f)
+			(not (at-robot f0-3f))
+			(not (at box1 f0-4f))
+			(not (clear f0-5f))
 		)
 	)
 	(:action push_f0-3f_f1-3f_f2-3f_down_box0
@@ -3353,18 +2973,16 @@
 			(clear f2-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-3f)
-				(at box0 f2-3f)
-				(clear f1-3f)
-				(not (at-robot f0-3f))
-				(not (at box0 f1-3f))
-				(not (clear f2-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-3f)
+			(at box0 f2-3f)
+			(clear f1-3f)
+			(not (at-robot f0-3f))
+			(not (at box0 f1-3f))
+			(not (clear f2-3f))
 		)
 	)
 	(:action push_f0-3f_f1-3f_f2-3f_down_box1
@@ -3375,18 +2993,16 @@
 			(clear f2-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-3f)
-				(at box1 f2-3f)
-				(clear f1-3f)
-				(not (at-robot f0-3f))
-				(not (at box1 f1-3f))
-				(not (clear f2-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-3f)
+			(at box1 f2-3f)
+			(clear f1-3f)
+			(not (at-robot f0-3f))
+			(not (at box1 f1-3f))
+			(not (clear f2-3f))
 		)
 	)
 	(:action push_f0-4f_f0-3f_f0-2f_left_box0
@@ -3397,18 +3013,16 @@
 			(clear f0-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-3f)
-				(at box0 f0-2f)
-				(clear f0-3f)
-				(not (at-robot f0-4f))
-				(not (at box0 f0-3f))
-				(not (clear f0-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-3f)
+			(at box0 f0-2f)
+			(clear f0-3f)
+			(not (at-robot f0-4f))
+			(not (at box0 f0-3f))
+			(not (clear f0-2f))
 		)
 	)
 	(:action push_f0-4f_f0-3f_f0-2f_left_box1
@@ -3419,18 +3033,16 @@
 			(clear f0-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-3f)
-				(at box1 f0-2f)
-				(clear f0-3f)
-				(not (at-robot f0-4f))
-				(not (at box1 f0-3f))
-				(not (clear f0-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-3f)
+			(at box1 f0-2f)
+			(clear f0-3f)
+			(not (at-robot f0-4f))
+			(not (at box1 f0-3f))
+			(not (clear f0-2f))
 		)
 	)
 	(:action push_f0-4f_f0-5f_f0-6f_right_box0
@@ -3441,18 +3053,16 @@
 			(clear f0-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-5f)
-				(at box0 f0-6f)
-				(clear f0-5f)
-				(not (at-robot f0-4f))
-				(not (at box0 f0-5f))
-				(not (clear f0-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-5f)
+			(at box0 f0-6f)
+			(clear f0-5f)
+			(not (at-robot f0-4f))
+			(not (at box0 f0-5f))
+			(not (clear f0-6f))
 		)
 	)
 	(:action push_f0-4f_f0-5f_f0-6f_right_box1
@@ -3463,18 +3073,16 @@
 			(clear f0-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-5f)
-				(at box1 f0-6f)
-				(clear f0-5f)
-				(not (at-robot f0-4f))
-				(not (at box1 f0-5f))
-				(not (clear f0-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-5f)
+			(at box1 f0-6f)
+			(clear f0-5f)
+			(not (at-robot f0-4f))
+			(not (at box1 f0-5f))
+			(not (clear f0-6f))
 		)
 	)
 	(:action push_f0-4f_f1-4f_f2-4f_down_box0
@@ -3485,18 +3093,16 @@
 			(clear f2-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-4f)
-				(at box0 f2-4f)
-				(clear f1-4f)
-				(not (at-robot f0-4f))
-				(not (at box0 f1-4f))
-				(not (clear f2-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-4f)
+			(at box0 f2-4f)
+			(clear f1-4f)
+			(not (at-robot f0-4f))
+			(not (at box0 f1-4f))
+			(not (clear f2-4f))
 		)
 	)
 	(:action push_f0-4f_f1-4f_f2-4f_down_box1
@@ -3507,18 +3113,16 @@
 			(clear f2-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-4f)
-				(at box1 f2-4f)
-				(clear f1-4f)
-				(not (at-robot f0-4f))
-				(not (at box1 f1-4f))
-				(not (clear f2-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-4f)
+			(at box1 f2-4f)
+			(clear f1-4f)
+			(not (at-robot f0-4f))
+			(not (at box1 f1-4f))
+			(not (clear f2-4f))
 		)
 	)
 	(:action push_f0-5f_f0-4f_f0-3f_left_box0
@@ -3529,18 +3133,16 @@
 			(clear f0-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-4f)
-				(at box0 f0-3f)
-				(clear f0-4f)
-				(not (at-robot f0-5f))
-				(not (at box0 f0-4f))
-				(not (clear f0-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-4f)
+			(at box0 f0-3f)
+			(clear f0-4f)
+			(not (at-robot f0-5f))
+			(not (at box0 f0-4f))
+			(not (clear f0-3f))
 		)
 	)
 	(:action push_f0-5f_f0-4f_f0-3f_left_box1
@@ -3551,18 +3153,16 @@
 			(clear f0-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-4f)
-				(at box1 f0-3f)
-				(clear f0-4f)
-				(not (at-robot f0-5f))
-				(not (at box1 f0-4f))
-				(not (clear f0-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-4f)
+			(at box1 f0-3f)
+			(clear f0-4f)
+			(not (at-robot f0-5f))
+			(not (at box1 f0-4f))
+			(not (clear f0-3f))
 		)
 	)
 	(:action push_f0-5f_f0-6f_f0-7f_right_box0
@@ -3573,18 +3173,16 @@
 			(clear f0-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-6f)
-				(at box0 f0-7f)
-				(clear f0-6f)
-				(not (at-robot f0-5f))
-				(not (at box0 f0-6f))
-				(not (clear f0-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-6f)
+			(at box0 f0-7f)
+			(clear f0-6f)
+			(not (at-robot f0-5f))
+			(not (at box0 f0-6f))
+			(not (clear f0-7f))
 		)
 	)
 	(:action push_f0-5f_f0-6f_f0-7f_right_box1
@@ -3595,18 +3193,16 @@
 			(clear f0-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-6f)
-				(at box1 f0-7f)
-				(clear f0-6f)
-				(not (at-robot f0-5f))
-				(not (at box1 f0-6f))
-				(not (clear f0-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-6f)
+			(at box1 f0-7f)
+			(clear f0-6f)
+			(not (at-robot f0-5f))
+			(not (at box1 f0-6f))
+			(not (clear f0-7f))
 		)
 	)
 	(:action push_f0-5f_f1-5f_f2-5f_down_box0
@@ -3617,18 +3213,16 @@
 			(clear f2-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-5f)
-				(at box0 f2-5f)
-				(clear f1-5f)
-				(not (at-robot f0-5f))
-				(not (at box0 f1-5f))
-				(not (clear f2-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-5f)
+			(at box0 f2-5f)
+			(clear f1-5f)
+			(not (at-robot f0-5f))
+			(not (at box0 f1-5f))
+			(not (clear f2-5f))
 		)
 	)
 	(:action push_f0-5f_f1-5f_f2-5f_down_box1
@@ -3639,18 +3233,16 @@
 			(clear f2-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-5f)
-				(at box1 f2-5f)
-				(clear f1-5f)
-				(not (at-robot f0-5f))
-				(not (at box1 f1-5f))
-				(not (clear f2-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-5f)
+			(at box1 f2-5f)
+			(clear f1-5f)
+			(not (at-robot f0-5f))
+			(not (at box1 f1-5f))
+			(not (clear f2-5f))
 		)
 	)
 	(:action push_f0-6f_f0-5f_f0-4f_left_box0
@@ -3661,18 +3253,16 @@
 			(clear f0-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-5f)
-				(at box0 f0-4f)
-				(clear f0-5f)
-				(not (at-robot f0-6f))
-				(not (at box0 f0-5f))
-				(not (clear f0-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-5f)
+			(at box0 f0-4f)
+			(clear f0-5f)
+			(not (at-robot f0-6f))
+			(not (at box0 f0-5f))
+			(not (clear f0-4f))
 		)
 	)
 	(:action push_f0-6f_f0-5f_f0-4f_left_box1
@@ -3683,18 +3273,16 @@
 			(clear f0-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-5f)
-				(at box1 f0-4f)
-				(clear f0-5f)
-				(not (at-robot f0-6f))
-				(not (at box1 f0-5f))
-				(not (clear f0-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-5f)
+			(at box1 f0-4f)
+			(clear f0-5f)
+			(not (at-robot f0-6f))
+			(not (at box1 f0-5f))
+			(not (clear f0-4f))
 		)
 	)
 	(:action push_f0-6f_f1-6f_f2-6f_down_box0
@@ -3705,18 +3293,16 @@
 			(clear f2-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-6f)
-				(at box0 f2-6f)
-				(clear f1-6f)
-				(not (at-robot f0-6f))
-				(not (at box0 f1-6f))
-				(not (clear f2-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-6f)
+			(at box0 f2-6f)
+			(clear f1-6f)
+			(not (at-robot f0-6f))
+			(not (at box0 f1-6f))
+			(not (clear f2-6f))
 		)
 	)
 	(:action push_f0-6f_f1-6f_f2-6f_down_box1
@@ -3727,18 +3313,16 @@
 			(clear f2-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-6f)
-				(at box1 f2-6f)
-				(clear f1-6f)
-				(not (at-robot f0-6f))
-				(not (at box1 f1-6f))
-				(not (clear f2-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-6f)
+			(at box1 f2-6f)
+			(clear f1-6f)
+			(not (at-robot f0-6f))
+			(not (at box1 f1-6f))
+			(not (clear f2-6f))
 		)
 	)
 	(:action push_f0-7f_f0-6f_f0-5f_left_box0
@@ -3749,18 +3333,16 @@
 			(clear f0-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-6f)
-				(at box0 f0-5f)
-				(clear f0-6f)
-				(not (at-robot f0-7f))
-				(not (at box0 f0-6f))
-				(not (clear f0-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-6f)
+			(at box0 f0-5f)
+			(clear f0-6f)
+			(not (at-robot f0-7f))
+			(not (at box0 f0-6f))
+			(not (clear f0-5f))
 		)
 	)
 	(:action push_f0-7f_f0-6f_f0-5f_left_box1
@@ -3771,18 +3353,16 @@
 			(clear f0-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f0-6f)
-				(at box1 f0-5f)
-				(clear f0-6f)
-				(not (at-robot f0-7f))
-				(not (at box1 f0-6f))
-				(not (clear f0-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f0-6f)
+			(at box1 f0-5f)
+			(clear f0-6f)
+			(not (at-robot f0-7f))
+			(not (at box1 f0-6f))
+			(not (clear f0-5f))
 		)
 	)
 	(:action push_f0-7f_f1-7f_f2-7f_down_box0
@@ -3793,18 +3373,16 @@
 			(clear f2-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-7f)
-				(at box0 f2-7f)
-				(clear f1-7f)
-				(not (at-robot f0-7f))
-				(not (at box0 f1-7f))
-				(not (clear f2-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-7f)
+			(at box0 f2-7f)
+			(clear f1-7f)
+			(not (at-robot f0-7f))
+			(not (at box0 f1-7f))
+			(not (clear f2-7f))
 		)
 	)
 	(:action push_f0-7f_f1-7f_f2-7f_down_box1
@@ -3815,18 +3393,16 @@
 			(clear f2-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-7f)
-				(at box1 f2-7f)
-				(clear f1-7f)
-				(not (at-robot f0-7f))
-				(not (at box1 f1-7f))
-				(not (clear f2-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-7f)
+			(at box1 f2-7f)
+			(clear f1-7f)
+			(not (at-robot f0-7f))
+			(not (at box1 f1-7f))
+			(not (clear f2-7f))
 		)
 	)
 	(:action push_f1-0f_f1-1f_f1-2f_right_box0
@@ -3837,18 +3413,16 @@
 			(clear f1-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-1f)
-				(at box0 f1-2f)
-				(clear f1-1f)
-				(not (at-robot f1-0f))
-				(not (at box0 f1-1f))
-				(not (clear f1-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-1f)
+			(at box0 f1-2f)
+			(clear f1-1f)
+			(not (at-robot f1-0f))
+			(not (at box0 f1-1f))
+			(not (clear f1-2f))
 		)
 	)
 	(:action push_f1-0f_f1-1f_f1-2f_right_box1
@@ -3859,18 +3433,16 @@
 			(clear f1-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-1f)
-				(at box1 f1-2f)
-				(clear f1-1f)
-				(not (at-robot f1-0f))
-				(not (at box1 f1-1f))
-				(not (clear f1-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-1f)
+			(at box1 f1-2f)
+			(clear f1-1f)
+			(not (at-robot f1-0f))
+			(not (at box1 f1-1f))
+			(not (clear f1-2f))
 		)
 	)
 	(:action push_f1-0f_f2-0f_f3-0f_down_box0
@@ -3881,18 +3453,16 @@
 			(clear f3-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-0f)
-				(at box0 f3-0f)
-				(clear f2-0f)
-				(not (at-robot f1-0f))
-				(not (at box0 f2-0f))
-				(not (clear f3-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-0f)
+			(at box0 f3-0f)
+			(clear f2-0f)
+			(not (at-robot f1-0f))
+			(not (at box0 f2-0f))
+			(not (clear f3-0f))
 		)
 	)
 	(:action push_f1-0f_f2-0f_f3-0f_down_box1
@@ -3903,18 +3473,16 @@
 			(clear f3-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-0f)
-				(at box1 f3-0f)
-				(clear f2-0f)
-				(not (at-robot f1-0f))
-				(not (at box1 f2-0f))
-				(not (clear f3-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-0f)
+			(at box1 f3-0f)
+			(clear f2-0f)
+			(not (at-robot f1-0f))
+			(not (at box1 f2-0f))
+			(not (clear f3-0f))
 		)
 	)
 	(:action push_f1-1f_f1-2f_f1-3f_right_box0
@@ -3925,18 +3493,16 @@
 			(clear f1-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-2f)
-				(at box0 f1-3f)
-				(clear f1-2f)
-				(not (at-robot f1-1f))
-				(not (at box0 f1-2f))
-				(not (clear f1-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-2f)
+			(at box0 f1-3f)
+			(clear f1-2f)
+			(not (at-robot f1-1f))
+			(not (at box0 f1-2f))
+			(not (clear f1-3f))
 		)
 	)
 	(:action push_f1-1f_f1-2f_f1-3f_right_box1
@@ -3947,18 +3513,16 @@
 			(clear f1-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-2f)
-				(at box1 f1-3f)
-				(clear f1-2f)
-				(not (at-robot f1-1f))
-				(not (at box1 f1-2f))
-				(not (clear f1-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-2f)
+			(at box1 f1-3f)
+			(clear f1-2f)
+			(not (at-robot f1-1f))
+			(not (at box1 f1-2f))
+			(not (clear f1-3f))
 		)
 	)
 	(:action push_f1-2f_f1-1f_f1-0f_left_box0
@@ -3969,18 +3533,16 @@
 			(clear f1-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-1f)
-				(at box0 f1-0f)
-				(clear f1-1f)
-				(not (at-robot f1-2f))
-				(not (at box0 f1-1f))
-				(not (clear f1-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-1f)
+			(at box0 f1-0f)
+			(clear f1-1f)
+			(not (at-robot f1-2f))
+			(not (at box0 f1-1f))
+			(not (clear f1-0f))
 		)
 	)
 	(:action push_f1-2f_f1-1f_f1-0f_left_box1
@@ -3991,18 +3553,16 @@
 			(clear f1-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-1f)
-				(at box1 f1-0f)
-				(clear f1-1f)
-				(not (at-robot f1-2f))
-				(not (at box1 f1-1f))
-				(not (clear f1-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-1f)
+			(at box1 f1-0f)
+			(clear f1-1f)
+			(not (at-robot f1-2f))
+			(not (at box1 f1-1f))
+			(not (clear f1-0f))
 		)
 	)
 	(:action push_f1-2f_f1-3f_f1-4f_right_box0
@@ -4013,18 +3573,16 @@
 			(clear f1-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-3f)
-				(at box0 f1-4f)
-				(clear f1-3f)
-				(not (at-robot f1-2f))
-				(not (at box0 f1-3f))
-				(not (clear f1-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-3f)
+			(at box0 f1-4f)
+			(clear f1-3f)
+			(not (at-robot f1-2f))
+			(not (at box0 f1-3f))
+			(not (clear f1-4f))
 		)
 	)
 	(:action push_f1-2f_f1-3f_f1-4f_right_box1
@@ -4035,18 +3593,16 @@
 			(clear f1-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-3f)
-				(at box1 f1-4f)
-				(clear f1-3f)
-				(not (at-robot f1-2f))
-				(not (at box1 f1-3f))
-				(not (clear f1-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-3f)
+			(at box1 f1-4f)
+			(clear f1-3f)
+			(not (at-robot f1-2f))
+			(not (at box1 f1-3f))
+			(not (clear f1-4f))
 		)
 	)
 	(:action push_f1-3f_f1-2f_f1-1f_left_box0
@@ -4057,18 +3613,16 @@
 			(clear f1-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-2f)
-				(at box0 f1-1f)
-				(clear f1-2f)
-				(not (at-robot f1-3f))
-				(not (at box0 f1-2f))
-				(not (clear f1-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-2f)
+			(at box0 f1-1f)
+			(clear f1-2f)
+			(not (at-robot f1-3f))
+			(not (at box0 f1-2f))
+			(not (clear f1-1f))
 		)
 	)
 	(:action push_f1-3f_f1-2f_f1-1f_left_box1
@@ -4079,18 +3633,16 @@
 			(clear f1-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-2f)
-				(at box1 f1-1f)
-				(clear f1-2f)
-				(not (at-robot f1-3f))
-				(not (at box1 f1-2f))
-				(not (clear f1-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-2f)
+			(at box1 f1-1f)
+			(clear f1-2f)
+			(not (at-robot f1-3f))
+			(not (at box1 f1-2f))
+			(not (clear f1-1f))
 		)
 	)
 	(:action push_f1-3f_f1-4f_f1-5f_right_box0
@@ -4101,18 +3653,16 @@
 			(clear f1-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-4f)
-				(at box0 f1-5f)
-				(clear f1-4f)
-				(not (at-robot f1-3f))
-				(not (at box0 f1-4f))
-				(not (clear f1-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-4f)
+			(at box0 f1-5f)
+			(clear f1-4f)
+			(not (at-robot f1-3f))
+			(not (at box0 f1-4f))
+			(not (clear f1-5f))
 		)
 	)
 	(:action push_f1-3f_f1-4f_f1-5f_right_box1
@@ -4123,18 +3673,16 @@
 			(clear f1-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-4f)
-				(at box1 f1-5f)
-				(clear f1-4f)
-				(not (at-robot f1-3f))
-				(not (at box1 f1-4f))
-				(not (clear f1-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-4f)
+			(at box1 f1-5f)
+			(clear f1-4f)
+			(not (at-robot f1-3f))
+			(not (at box1 f1-4f))
+			(not (clear f1-5f))
 		)
 	)
 	(:action push_f1-3f_f2-3f_f3-3f_down_box0
@@ -4145,18 +3693,16 @@
 			(clear f3-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-3f)
-				(at box0 f3-3f)
-				(clear f2-3f)
-				(not (at-robot f1-3f))
-				(not (at box0 f2-3f))
-				(not (clear f3-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-3f)
+			(at box0 f3-3f)
+			(clear f2-3f)
+			(not (at-robot f1-3f))
+			(not (at box0 f2-3f))
+			(not (clear f3-3f))
 		)
 	)
 	(:action push_f1-3f_f2-3f_f3-3f_down_box1
@@ -4167,18 +3713,16 @@
 			(clear f3-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-3f)
-				(at box1 f3-3f)
-				(clear f2-3f)
-				(not (at-robot f1-3f))
-				(not (at box1 f2-3f))
-				(not (clear f3-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-3f)
+			(at box1 f3-3f)
+			(clear f2-3f)
+			(not (at-robot f1-3f))
+			(not (at box1 f2-3f))
+			(not (clear f3-3f))
 		)
 	)
 	(:action push_f1-4f_f1-3f_f1-2f_left_box0
@@ -4189,18 +3733,16 @@
 			(clear f1-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-3f)
-				(at box0 f1-2f)
-				(clear f1-3f)
-				(not (at-robot f1-4f))
-				(not (at box0 f1-3f))
-				(not (clear f1-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-3f)
+			(at box0 f1-2f)
+			(clear f1-3f)
+			(not (at-robot f1-4f))
+			(not (at box0 f1-3f))
+			(not (clear f1-2f))
 		)
 	)
 	(:action push_f1-4f_f1-3f_f1-2f_left_box1
@@ -4211,18 +3753,16 @@
 			(clear f1-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-3f)
-				(at box1 f1-2f)
-				(clear f1-3f)
-				(not (at-robot f1-4f))
-				(not (at box1 f1-3f))
-				(not (clear f1-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-3f)
+			(at box1 f1-2f)
+			(clear f1-3f)
+			(not (at-robot f1-4f))
+			(not (at box1 f1-3f))
+			(not (clear f1-2f))
 		)
 	)
 	(:action push_f1-4f_f1-5f_f1-6f_right_box0
@@ -4233,18 +3773,16 @@
 			(clear f1-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-5f)
-				(at box0 f1-6f)
-				(clear f1-5f)
-				(not (at-robot f1-4f))
-				(not (at box0 f1-5f))
-				(not (clear f1-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-5f)
+			(at box0 f1-6f)
+			(clear f1-5f)
+			(not (at-robot f1-4f))
+			(not (at box0 f1-5f))
+			(not (clear f1-6f))
 		)
 	)
 	(:action push_f1-4f_f1-5f_f1-6f_right_box1
@@ -4255,18 +3793,16 @@
 			(clear f1-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-5f)
-				(at box1 f1-6f)
-				(clear f1-5f)
-				(not (at-robot f1-4f))
-				(not (at box1 f1-5f))
-				(not (clear f1-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-5f)
+			(at box1 f1-6f)
+			(clear f1-5f)
+			(not (at-robot f1-4f))
+			(not (at box1 f1-5f))
+			(not (clear f1-6f))
 		)
 	)
 	(:action push_f1-4f_f2-4f_f3-4f_down_box0
@@ -4277,18 +3813,16 @@
 			(clear f3-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-4f)
-				(at box0 f3-4f)
-				(clear f2-4f)
-				(not (at-robot f1-4f))
-				(not (at box0 f2-4f))
-				(not (clear f3-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-4f)
+			(at box0 f3-4f)
+			(clear f2-4f)
+			(not (at-robot f1-4f))
+			(not (at box0 f2-4f))
+			(not (clear f3-4f))
 		)
 	)
 	(:action push_f1-4f_f2-4f_f3-4f_down_box1
@@ -4299,18 +3833,16 @@
 			(clear f3-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-4f)
-				(at box1 f3-4f)
-				(clear f2-4f)
-				(not (at-robot f1-4f))
-				(not (at box1 f2-4f))
-				(not (clear f3-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-4f)
+			(at box1 f3-4f)
+			(clear f2-4f)
+			(not (at-robot f1-4f))
+			(not (at box1 f2-4f))
+			(not (clear f3-4f))
 		)
 	)
 	(:action push_f1-5f_f1-4f_f1-3f_left_box0
@@ -4321,18 +3853,16 @@
 			(clear f1-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-4f)
-				(at box0 f1-3f)
-				(clear f1-4f)
-				(not (at-robot f1-5f))
-				(not (at box0 f1-4f))
-				(not (clear f1-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-4f)
+			(at box0 f1-3f)
+			(clear f1-4f)
+			(not (at-robot f1-5f))
+			(not (at box0 f1-4f))
+			(not (clear f1-3f))
 		)
 	)
 	(:action push_f1-5f_f1-4f_f1-3f_left_box1
@@ -4343,18 +3873,16 @@
 			(clear f1-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-4f)
-				(at box1 f1-3f)
-				(clear f1-4f)
-				(not (at-robot f1-5f))
-				(not (at box1 f1-4f))
-				(not (clear f1-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-4f)
+			(at box1 f1-3f)
+			(clear f1-4f)
+			(not (at-robot f1-5f))
+			(not (at box1 f1-4f))
+			(not (clear f1-3f))
 		)
 	)
 	(:action push_f1-5f_f1-6f_f1-7f_right_box0
@@ -4365,18 +3893,16 @@
 			(clear f1-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-6f)
-				(at box0 f1-7f)
-				(clear f1-6f)
-				(not (at-robot f1-5f))
-				(not (at box0 f1-6f))
-				(not (clear f1-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-6f)
+			(at box0 f1-7f)
+			(clear f1-6f)
+			(not (at-robot f1-5f))
+			(not (at box0 f1-6f))
+			(not (clear f1-7f))
 		)
 	)
 	(:action push_f1-5f_f1-6f_f1-7f_right_box1
@@ -4387,18 +3913,16 @@
 			(clear f1-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-6f)
-				(at box1 f1-7f)
-				(clear f1-6f)
-				(not (at-robot f1-5f))
-				(not (at box1 f1-6f))
-				(not (clear f1-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-6f)
+			(at box1 f1-7f)
+			(clear f1-6f)
+			(not (at-robot f1-5f))
+			(not (at box1 f1-6f))
+			(not (clear f1-7f))
 		)
 	)
 	(:action push_f1-5f_f2-5f_f3-5f_down_box0
@@ -4409,18 +3933,16 @@
 			(clear f3-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-5f)
-				(at box0 f3-5f)
-				(clear f2-5f)
-				(not (at-robot f1-5f))
-				(not (at box0 f2-5f))
-				(not (clear f3-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-5f)
+			(at box0 f3-5f)
+			(clear f2-5f)
+			(not (at-robot f1-5f))
+			(not (at box0 f2-5f))
+			(not (clear f3-5f))
 		)
 	)
 	(:action push_f1-5f_f2-5f_f3-5f_down_box1
@@ -4431,18 +3953,16 @@
 			(clear f3-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-5f)
-				(at box1 f3-5f)
-				(clear f2-5f)
-				(not (at-robot f1-5f))
-				(not (at box1 f2-5f))
-				(not (clear f3-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-5f)
+			(at box1 f3-5f)
+			(clear f2-5f)
+			(not (at-robot f1-5f))
+			(not (at box1 f2-5f))
+			(not (clear f3-5f))
 		)
 	)
 	(:action push_f1-6f_f1-5f_f1-4f_left_box0
@@ -4453,18 +3973,16 @@
 			(clear f1-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-5f)
-				(at box0 f1-4f)
-				(clear f1-5f)
-				(not (at-robot f1-6f))
-				(not (at box0 f1-5f))
-				(not (clear f1-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-5f)
+			(at box0 f1-4f)
+			(clear f1-5f)
+			(not (at-robot f1-6f))
+			(not (at box0 f1-5f))
+			(not (clear f1-4f))
 		)
 	)
 	(:action push_f1-6f_f1-5f_f1-4f_left_box1
@@ -4475,18 +3993,16 @@
 			(clear f1-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-5f)
-				(at box1 f1-4f)
-				(clear f1-5f)
-				(not (at-robot f1-6f))
-				(not (at box1 f1-5f))
-				(not (clear f1-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-5f)
+			(at box1 f1-4f)
+			(clear f1-5f)
+			(not (at-robot f1-6f))
+			(not (at box1 f1-5f))
+			(not (clear f1-4f))
 		)
 	)
 	(:action push_f1-6f_f2-6f_f3-6f_down_box0
@@ -4497,18 +4013,16 @@
 			(clear f3-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-6f)
-				(at box0 f3-6f)
-				(clear f2-6f)
-				(not (at-robot f1-6f))
-				(not (at box0 f2-6f))
-				(not (clear f3-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-6f)
+			(at box0 f3-6f)
+			(clear f2-6f)
+			(not (at-robot f1-6f))
+			(not (at box0 f2-6f))
+			(not (clear f3-6f))
 		)
 	)
 	(:action push_f1-6f_f2-6f_f3-6f_down_box1
@@ -4519,18 +4033,16 @@
 			(clear f3-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-6f)
-				(at box1 f3-6f)
-				(clear f2-6f)
-				(not (at-robot f1-6f))
-				(not (at box1 f2-6f))
-				(not (clear f3-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-6f)
+			(at box1 f3-6f)
+			(clear f2-6f)
+			(not (at-robot f1-6f))
+			(not (at box1 f2-6f))
+			(not (clear f3-6f))
 		)
 	)
 	(:action push_f1-7f_f1-6f_f1-5f_left_box0
@@ -4541,18 +4053,16 @@
 			(clear f1-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-6f)
-				(at box0 f1-5f)
-				(clear f1-6f)
-				(not (at-robot f1-7f))
-				(not (at box0 f1-6f))
-				(not (clear f1-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-6f)
+			(at box0 f1-5f)
+			(clear f1-6f)
+			(not (at-robot f1-7f))
+			(not (at box0 f1-6f))
+			(not (clear f1-5f))
 		)
 	)
 	(:action push_f1-7f_f1-6f_f1-5f_left_box1
@@ -4563,18 +4073,16 @@
 			(clear f1-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-6f)
-				(at box1 f1-5f)
-				(clear f1-6f)
-				(not (at-robot f1-7f))
-				(not (at box1 f1-6f))
-				(not (clear f1-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-6f)
+			(at box1 f1-5f)
+			(clear f1-6f)
+			(not (at-robot f1-7f))
+			(not (at box1 f1-6f))
+			(not (clear f1-5f))
 		)
 	)
 	(:action push_f1-7f_f2-7f_f3-7f_down_box0
@@ -4585,18 +4093,16 @@
 			(clear f3-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-7f)
-				(at box0 f3-7f)
-				(clear f2-7f)
-				(not (at-robot f1-7f))
-				(not (at box0 f2-7f))
-				(not (clear f3-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-7f)
+			(at box0 f3-7f)
+			(clear f2-7f)
+			(not (at-robot f1-7f))
+			(not (at box0 f2-7f))
+			(not (clear f3-7f))
 		)
 	)
 	(:action push_f1-7f_f2-7f_f3-7f_down_box1
@@ -4607,18 +4113,16 @@
 			(clear f3-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-7f)
-				(at box1 f3-7f)
-				(clear f2-7f)
-				(not (at-robot f1-7f))
-				(not (at box1 f2-7f))
-				(not (clear f3-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-7f)
+			(at box1 f3-7f)
+			(clear f2-7f)
+			(not (at-robot f1-7f))
+			(not (at box1 f2-7f))
+			(not (clear f3-7f))
 		)
 	)
 	(:action push_f2-0f_f1-0f_f0-0f_up_box0
@@ -4629,18 +4133,16 @@
 			(clear f0-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-0f)
-				(at box0 f0-0f)
-				(clear f1-0f)
-				(not (at-robot f2-0f))
-				(not (at box0 f1-0f))
-				(not (clear f0-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-0f)
+			(at box0 f0-0f)
+			(clear f1-0f)
+			(not (at-robot f2-0f))
+			(not (at box0 f1-0f))
+			(not (clear f0-0f))
 		)
 	)
 	(:action push_f2-0f_f1-0f_f0-0f_up_box1
@@ -4651,18 +4153,16 @@
 			(clear f0-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-0f)
-				(at box1 f0-0f)
-				(clear f1-0f)
-				(not (at-robot f2-0f))
-				(not (at box1 f1-0f))
-				(not (clear f0-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-0f)
+			(at box1 f0-0f)
+			(clear f1-0f)
+			(not (at-robot f2-0f))
+			(not (at box1 f1-0f))
+			(not (clear f0-0f))
 		)
 	)
 	(:action push_f2-0f_f3-0f_f4-0f_down_box0
@@ -4673,18 +4173,16 @@
 			(clear f4-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-0f)
-				(at box0 f4-0f)
-				(clear f3-0f)
-				(not (at-robot f2-0f))
-				(not (at box0 f3-0f))
-				(not (clear f4-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-0f)
+			(at box0 f4-0f)
+			(clear f3-0f)
+			(not (at-robot f2-0f))
+			(not (at box0 f3-0f))
+			(not (clear f4-0f))
 		)
 	)
 	(:action push_f2-0f_f3-0f_f4-0f_down_box1
@@ -4695,18 +4193,16 @@
 			(clear f4-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-0f)
-				(at box1 f4-0f)
-				(clear f3-0f)
-				(not (at-robot f2-0f))
-				(not (at box1 f3-0f))
-				(not (clear f4-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-0f)
+			(at box1 f4-0f)
+			(clear f3-0f)
+			(not (at-robot f2-0f))
+			(not (at box1 f3-0f))
+			(not (clear f4-0f))
 		)
 	)
 	(:action push_f2-1f_f1-1f_f0-1f_up_box0
@@ -4717,18 +4213,16 @@
 			(clear f0-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-1f)
-				(at box0 f0-1f)
-				(clear f1-1f)
-				(not (at-robot f2-1f))
-				(not (at box0 f1-1f))
-				(not (clear f0-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-1f)
+			(at box0 f0-1f)
+			(clear f1-1f)
+			(not (at-robot f2-1f))
+			(not (at box0 f1-1f))
+			(not (clear f0-1f))
 		)
 	)
 	(:action push_f2-1f_f1-1f_f0-1f_up_box1
@@ -4739,18 +4233,16 @@
 			(clear f0-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-1f)
-				(at box1 f0-1f)
-				(clear f1-1f)
-				(not (at-robot f2-1f))
-				(not (at box1 f1-1f))
-				(not (clear f0-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-1f)
+			(at box1 f0-1f)
+			(clear f1-1f)
+			(not (at-robot f2-1f))
+			(not (at box1 f1-1f))
+			(not (clear f0-1f))
 		)
 	)
 	(:action push_f2-3f_f1-3f_f0-3f_up_box0
@@ -4761,18 +4253,16 @@
 			(clear f0-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-3f)
-				(at box0 f0-3f)
-				(clear f1-3f)
-				(not (at-robot f2-3f))
-				(not (at box0 f1-3f))
-				(not (clear f0-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-3f)
+			(at box0 f0-3f)
+			(clear f1-3f)
+			(not (at-robot f2-3f))
+			(not (at box0 f1-3f))
+			(not (clear f0-3f))
 		)
 	)
 	(:action push_f2-3f_f1-3f_f0-3f_up_box1
@@ -4783,18 +4273,16 @@
 			(clear f0-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-3f)
-				(at box1 f0-3f)
-				(clear f1-3f)
-				(not (at-robot f2-3f))
-				(not (at box1 f1-3f))
-				(not (clear f0-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-3f)
+			(at box1 f0-3f)
+			(clear f1-3f)
+			(not (at-robot f2-3f))
+			(not (at box1 f1-3f))
+			(not (clear f0-3f))
 		)
 	)
 	(:action push_f2-3f_f2-4f_f2-5f_right_box0
@@ -4805,18 +4293,16 @@
 			(clear f2-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-4f)
-				(at box0 f2-5f)
-				(clear f2-4f)
-				(not (at-robot f2-3f))
-				(not (at box0 f2-4f))
-				(not (clear f2-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-4f)
+			(at box0 f2-5f)
+			(clear f2-4f)
+			(not (at-robot f2-3f))
+			(not (at box0 f2-4f))
+			(not (clear f2-5f))
 		)
 	)
 	(:action push_f2-3f_f2-4f_f2-5f_right_box1
@@ -4827,18 +4313,16 @@
 			(clear f2-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-4f)
-				(at box1 f2-5f)
-				(clear f2-4f)
-				(not (at-robot f2-3f))
-				(not (at box1 f2-4f))
-				(not (clear f2-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-4f)
+			(at box1 f2-5f)
+			(clear f2-4f)
+			(not (at-robot f2-3f))
+			(not (at box1 f2-4f))
+			(not (clear f2-5f))
 		)
 	)
 	(:action push_f2-3f_f3-3f_f4-3f_down_box0
@@ -4849,18 +4333,16 @@
 			(clear f4-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-3f)
-				(at box0 f4-3f)
-				(clear f3-3f)
-				(not (at-robot f2-3f))
-				(not (at box0 f3-3f))
-				(not (clear f4-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-3f)
+			(at box0 f4-3f)
+			(clear f3-3f)
+			(not (at-robot f2-3f))
+			(not (at box0 f3-3f))
+			(not (clear f4-3f))
 		)
 	)
 	(:action push_f2-3f_f3-3f_f4-3f_down_box1
@@ -4871,18 +4353,16 @@
 			(clear f4-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-3f)
-				(at box1 f4-3f)
-				(clear f3-3f)
-				(not (at-robot f2-3f))
-				(not (at box1 f3-3f))
-				(not (clear f4-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-3f)
+			(at box1 f4-3f)
+			(clear f3-3f)
+			(not (at-robot f2-3f))
+			(not (at box1 f3-3f))
+			(not (clear f4-3f))
 		)
 	)
 	(:action push_f2-4f_f1-4f_f0-4f_up_box0
@@ -4893,18 +4373,16 @@
 			(clear f0-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-4f)
-				(at box0 f0-4f)
-				(clear f1-4f)
-				(not (at-robot f2-4f))
-				(not (at box0 f1-4f))
-				(not (clear f0-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-4f)
+			(at box0 f0-4f)
+			(clear f1-4f)
+			(not (at-robot f2-4f))
+			(not (at box0 f1-4f))
+			(not (clear f0-4f))
 		)
 	)
 	(:action push_f2-4f_f1-4f_f0-4f_up_box1
@@ -4915,18 +4393,16 @@
 			(clear f0-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-4f)
-				(at box1 f0-4f)
-				(clear f1-4f)
-				(not (at-robot f2-4f))
-				(not (at box1 f1-4f))
-				(not (clear f0-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-4f)
+			(at box1 f0-4f)
+			(clear f1-4f)
+			(not (at-robot f2-4f))
+			(not (at box1 f1-4f))
+			(not (clear f0-4f))
 		)
 	)
 	(:action push_f2-4f_f2-5f_f2-6f_right_box0
@@ -4937,18 +4413,16 @@
 			(clear f2-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-5f)
-				(at box0 f2-6f)
-				(clear f2-5f)
-				(not (at-robot f2-4f))
-				(not (at box0 f2-5f))
-				(not (clear f2-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-5f)
+			(at box0 f2-6f)
+			(clear f2-5f)
+			(not (at-robot f2-4f))
+			(not (at box0 f2-5f))
+			(not (clear f2-6f))
 		)
 	)
 	(:action push_f2-4f_f2-5f_f2-6f_right_box1
@@ -4959,18 +4433,16 @@
 			(clear f2-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-5f)
-				(at box1 f2-6f)
-				(clear f2-5f)
-				(not (at-robot f2-4f))
-				(not (at box1 f2-5f))
-				(not (clear f2-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-5f)
+			(at box1 f2-6f)
+			(clear f2-5f)
+			(not (at-robot f2-4f))
+			(not (at box1 f2-5f))
+			(not (clear f2-6f))
 		)
 	)
 	(:action push_f2-4f_f3-4f_f4-4f_down_box0
@@ -4981,18 +4453,16 @@
 			(clear f4-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-4f)
-				(at box0 f4-4f)
-				(clear f3-4f)
-				(not (at-robot f2-4f))
-				(not (at box0 f3-4f))
-				(not (clear f4-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-4f)
+			(at box0 f4-4f)
+			(clear f3-4f)
+			(not (at-robot f2-4f))
+			(not (at box0 f3-4f))
+			(not (clear f4-4f))
 		)
 	)
 	(:action push_f2-4f_f3-4f_f4-4f_down_box1
@@ -5003,18 +4473,16 @@
 			(clear f4-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-4f)
-				(at box1 f4-4f)
-				(clear f3-4f)
-				(not (at-robot f2-4f))
-				(not (at box1 f3-4f))
-				(not (clear f4-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-4f)
+			(at box1 f4-4f)
+			(clear f3-4f)
+			(not (at-robot f2-4f))
+			(not (at box1 f3-4f))
+			(not (clear f4-4f))
 		)
 	)
 	(:action push_f2-5f_f1-5f_f0-5f_up_box0
@@ -5025,18 +4493,16 @@
 			(clear f0-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-5f)
-				(at box0 f0-5f)
-				(clear f1-5f)
-				(not (at-robot f2-5f))
-				(not (at box0 f1-5f))
-				(not (clear f0-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-5f)
+			(at box0 f0-5f)
+			(clear f1-5f)
+			(not (at-robot f2-5f))
+			(not (at box0 f1-5f))
+			(not (clear f0-5f))
 		)
 	)
 	(:action push_f2-5f_f1-5f_f0-5f_up_box1
@@ -5047,18 +4513,16 @@
 			(clear f0-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-5f)
-				(at box1 f0-5f)
-				(clear f1-5f)
-				(not (at-robot f2-5f))
-				(not (at box1 f1-5f))
-				(not (clear f0-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-5f)
+			(at box1 f0-5f)
+			(clear f1-5f)
+			(not (at-robot f2-5f))
+			(not (at box1 f1-5f))
+			(not (clear f0-5f))
 		)
 	)
 	(:action push_f2-5f_f2-4f_f2-3f_left_box0
@@ -5069,18 +4533,16 @@
 			(clear f2-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-4f)
-				(at box0 f2-3f)
-				(clear f2-4f)
-				(not (at-robot f2-5f))
-				(not (at box0 f2-4f))
-				(not (clear f2-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-4f)
+			(at box0 f2-3f)
+			(clear f2-4f)
+			(not (at-robot f2-5f))
+			(not (at box0 f2-4f))
+			(not (clear f2-3f))
 		)
 	)
 	(:action push_f2-5f_f2-4f_f2-3f_left_box1
@@ -5091,18 +4553,16 @@
 			(clear f2-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-4f)
-				(at box1 f2-3f)
-				(clear f2-4f)
-				(not (at-robot f2-5f))
-				(not (at box1 f2-4f))
-				(not (clear f2-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-4f)
+			(at box1 f2-3f)
+			(clear f2-4f)
+			(not (at-robot f2-5f))
+			(not (at box1 f2-4f))
+			(not (clear f2-3f))
 		)
 	)
 	(:action push_f2-5f_f2-6f_f2-7f_right_box0
@@ -5113,18 +4573,16 @@
 			(clear f2-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-6f)
-				(at box0 f2-7f)
-				(clear f2-6f)
-				(not (at-robot f2-5f))
-				(not (at box0 f2-6f))
-				(not (clear f2-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-6f)
+			(at box0 f2-7f)
+			(clear f2-6f)
+			(not (at-robot f2-5f))
+			(not (at box0 f2-6f))
+			(not (clear f2-7f))
 		)
 	)
 	(:action push_f2-5f_f2-6f_f2-7f_right_box1
@@ -5135,18 +4593,16 @@
 			(clear f2-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-6f)
-				(at box1 f2-7f)
-				(clear f2-6f)
-				(not (at-robot f2-5f))
-				(not (at box1 f2-6f))
-				(not (clear f2-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-6f)
+			(at box1 f2-7f)
+			(clear f2-6f)
+			(not (at-robot f2-5f))
+			(not (at box1 f2-6f))
+			(not (clear f2-7f))
 		)
 	)
 	(:action push_f2-5f_f3-5f_f4-5f_down_box0
@@ -5157,18 +4613,16 @@
 			(clear f4-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-5f)
-				(at box0 f4-5f)
-				(clear f3-5f)
-				(not (at-robot f2-5f))
-				(not (at box0 f3-5f))
-				(not (clear f4-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-5f)
+			(at box0 f4-5f)
+			(clear f3-5f)
+			(not (at-robot f2-5f))
+			(not (at box0 f3-5f))
+			(not (clear f4-5f))
 		)
 	)
 	(:action push_f2-5f_f3-5f_f4-5f_down_box1
@@ -5179,18 +4633,16 @@
 			(clear f4-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-5f)
-				(at box1 f4-5f)
-				(clear f3-5f)
-				(not (at-robot f2-5f))
-				(not (at box1 f3-5f))
-				(not (clear f4-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-5f)
+			(at box1 f4-5f)
+			(clear f3-5f)
+			(not (at-robot f2-5f))
+			(not (at box1 f3-5f))
+			(not (clear f4-5f))
 		)
 	)
 	(:action push_f2-6f_f1-6f_f0-6f_up_box0
@@ -5201,18 +4653,16 @@
 			(clear f0-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-6f)
-				(at box0 f0-6f)
-				(clear f1-6f)
-				(not (at-robot f2-6f))
-				(not (at box0 f1-6f))
-				(not (clear f0-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-6f)
+			(at box0 f0-6f)
+			(clear f1-6f)
+			(not (at-robot f2-6f))
+			(not (at box0 f1-6f))
+			(not (clear f0-6f))
 		)
 	)
 	(:action push_f2-6f_f1-6f_f0-6f_up_box1
@@ -5223,18 +4673,16 @@
 			(clear f0-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-6f)
-				(at box1 f0-6f)
-				(clear f1-6f)
-				(not (at-robot f2-6f))
-				(not (at box1 f1-6f))
-				(not (clear f0-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-6f)
+			(at box1 f0-6f)
+			(clear f1-6f)
+			(not (at-robot f2-6f))
+			(not (at box1 f1-6f))
+			(not (clear f0-6f))
 		)
 	)
 	(:action push_f2-6f_f2-5f_f2-4f_left_box0
@@ -5245,18 +4693,16 @@
 			(clear f2-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-5f)
-				(at box0 f2-4f)
-				(clear f2-5f)
-				(not (at-robot f2-6f))
-				(not (at box0 f2-5f))
-				(not (clear f2-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-5f)
+			(at box0 f2-4f)
+			(clear f2-5f)
+			(not (at-robot f2-6f))
+			(not (at box0 f2-5f))
+			(not (clear f2-4f))
 		)
 	)
 	(:action push_f2-6f_f2-5f_f2-4f_left_box1
@@ -5267,18 +4713,16 @@
 			(clear f2-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-5f)
-				(at box1 f2-4f)
-				(clear f2-5f)
-				(not (at-robot f2-6f))
-				(not (at box1 f2-5f))
-				(not (clear f2-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-5f)
+			(at box1 f2-4f)
+			(clear f2-5f)
+			(not (at-robot f2-6f))
+			(not (at box1 f2-5f))
+			(not (clear f2-4f))
 		)
 	)
 	(:action push_f2-6f_f3-6f_f4-6f_down_box0
@@ -5289,18 +4733,16 @@
 			(clear f4-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-6f)
-				(at box0 f4-6f)
-				(clear f3-6f)
-				(not (at-robot f2-6f))
-				(not (at box0 f3-6f))
-				(not (clear f4-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-6f)
+			(at box0 f4-6f)
+			(clear f3-6f)
+			(not (at-robot f2-6f))
+			(not (at box0 f3-6f))
+			(not (clear f4-6f))
 		)
 	)
 	(:action push_f2-6f_f3-6f_f4-6f_down_box1
@@ -5311,18 +4753,16 @@
 			(clear f4-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-6f)
-				(at box1 f4-6f)
-				(clear f3-6f)
-				(not (at-robot f2-6f))
-				(not (at box1 f3-6f))
-				(not (clear f4-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-6f)
+			(at box1 f4-6f)
+			(clear f3-6f)
+			(not (at-robot f2-6f))
+			(not (at box1 f3-6f))
+			(not (clear f4-6f))
 		)
 	)
 	(:action push_f2-7f_f1-7f_f0-7f_up_box0
@@ -5333,18 +4773,16 @@
 			(clear f0-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-7f)
-				(at box0 f0-7f)
-				(clear f1-7f)
-				(not (at-robot f2-7f))
-				(not (at box0 f1-7f))
-				(not (clear f0-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-7f)
+			(at box0 f0-7f)
+			(clear f1-7f)
+			(not (at-robot f2-7f))
+			(not (at box0 f1-7f))
+			(not (clear f0-7f))
 		)
 	)
 	(:action push_f2-7f_f1-7f_f0-7f_up_box1
@@ -5355,18 +4793,16 @@
 			(clear f0-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f1-7f)
-				(at box1 f0-7f)
-				(clear f1-7f)
-				(not (at-robot f2-7f))
-				(not (at box1 f1-7f))
-				(not (clear f0-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f1-7f)
+			(at box1 f0-7f)
+			(clear f1-7f)
+			(not (at-robot f2-7f))
+			(not (at box1 f1-7f))
+			(not (clear f0-7f))
 		)
 	)
 	(:action push_f2-7f_f2-6f_f2-5f_left_box0
@@ -5377,18 +4813,16 @@
 			(clear f2-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-6f)
-				(at box0 f2-5f)
-				(clear f2-6f)
-				(not (at-robot f2-7f))
-				(not (at box0 f2-6f))
-				(not (clear f2-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-6f)
+			(at box0 f2-5f)
+			(clear f2-6f)
+			(not (at-robot f2-7f))
+			(not (at box0 f2-6f))
+			(not (clear f2-5f))
 		)
 	)
 	(:action push_f2-7f_f2-6f_f2-5f_left_box1
@@ -5399,18 +4833,16 @@
 			(clear f2-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-6f)
-				(at box1 f2-5f)
-				(clear f2-6f)
-				(not (at-robot f2-7f))
-				(not (at box1 f2-6f))
-				(not (clear f2-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-6f)
+			(at box1 f2-5f)
+			(clear f2-6f)
+			(not (at-robot f2-7f))
+			(not (at box1 f2-6f))
+			(not (clear f2-5f))
 		)
 	)
 	(:action push_f2-7f_f3-7f_f4-7f_down_box0
@@ -5421,18 +4853,16 @@
 			(clear f4-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-7f)
-				(at box0 f4-7f)
-				(clear f3-7f)
-				(not (at-robot f2-7f))
-				(not (at box0 f3-7f))
-				(not (clear f4-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-7f)
+			(at box0 f4-7f)
+			(clear f3-7f)
+			(not (at-robot f2-7f))
+			(not (at box0 f3-7f))
+			(not (clear f4-7f))
 		)
 	)
 	(:action push_f2-7f_f3-7f_f4-7f_down_box1
@@ -5443,18 +4873,16 @@
 			(clear f4-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-7f)
-				(at box1 f4-7f)
-				(clear f3-7f)
-				(not (at-robot f2-7f))
-				(not (at box1 f3-7f))
-				(not (clear f4-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-7f)
+			(at box1 f4-7f)
+			(clear f3-7f)
+			(not (at-robot f2-7f))
+			(not (at box1 f3-7f))
+			(not (clear f4-7f))
 		)
 	)
 	(:action push_f3-0f_f2-0f_f1-0f_up_box0
@@ -5465,18 +4893,16 @@
 			(clear f1-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-0f)
-				(at box0 f1-0f)
-				(clear f2-0f)
-				(not (at-robot f3-0f))
-				(not (at box0 f2-0f))
-				(not (clear f1-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-0f)
+			(at box0 f1-0f)
+			(clear f2-0f)
+			(not (at-robot f3-0f))
+			(not (at box0 f2-0f))
+			(not (clear f1-0f))
 		)
 	)
 	(:action push_f3-0f_f2-0f_f1-0f_up_box1
@@ -5487,18 +4913,16 @@
 			(clear f1-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-0f)
-				(at box1 f1-0f)
-				(clear f2-0f)
-				(not (at-robot f3-0f))
-				(not (at box1 f2-0f))
-				(not (clear f1-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-0f)
+			(at box1 f1-0f)
+			(clear f2-0f)
+			(not (at-robot f3-0f))
+			(not (at box1 f2-0f))
+			(not (clear f1-0f))
 		)
 	)
 	(:action push_f3-0f_f4-0f_f5-0f_down_box0
@@ -5509,18 +4933,16 @@
 			(clear f5-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-0f)
-				(at box0 f5-0f)
-				(clear f4-0f)
-				(not (at-robot f3-0f))
-				(not (at box0 f4-0f))
-				(not (clear f5-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-0f)
+			(at box0 f5-0f)
+			(clear f4-0f)
+			(not (at-robot f3-0f))
+			(not (at box0 f4-0f))
+			(not (clear f5-0f))
 		)
 	)
 	(:action push_f3-0f_f4-0f_f5-0f_down_box1
@@ -5531,18 +4953,16 @@
 			(clear f5-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-0f)
-				(at box1 f5-0f)
-				(clear f4-0f)
-				(not (at-robot f3-0f))
-				(not (at box1 f4-0f))
-				(not (clear f5-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-0f)
+			(at box1 f5-0f)
+			(clear f4-0f)
+			(not (at-robot f3-0f))
+			(not (at box1 f4-0f))
+			(not (clear f5-0f))
 		)
 	)
 	(:action push_f3-3f_f2-3f_f1-3f_up_box0
@@ -5553,18 +4973,16 @@
 			(clear f1-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-3f)
-				(at box0 f1-3f)
-				(clear f2-3f)
-				(not (at-robot f3-3f))
-				(not (at box0 f2-3f))
-				(not (clear f1-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-3f)
+			(at box0 f1-3f)
+			(clear f2-3f)
+			(not (at-robot f3-3f))
+			(not (at box0 f2-3f))
+			(not (clear f1-3f))
 		)
 	)
 	(:action push_f3-3f_f2-3f_f1-3f_up_box1
@@ -5575,18 +4993,16 @@
 			(clear f1-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-3f)
-				(at box1 f1-3f)
-				(clear f2-3f)
-				(not (at-robot f3-3f))
-				(not (at box1 f2-3f))
-				(not (clear f1-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-3f)
+			(at box1 f1-3f)
+			(clear f2-3f)
+			(not (at-robot f3-3f))
+			(not (at box1 f2-3f))
+			(not (clear f1-3f))
 		)
 	)
 	(:action push_f3-3f_f3-4f_f3-5f_right_box0
@@ -5597,18 +5013,16 @@
 			(clear f3-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-4f)
-				(at box0 f3-5f)
-				(clear f3-4f)
-				(not (at-robot f3-3f))
-				(not (at box0 f3-4f))
-				(not (clear f3-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-4f)
+			(at box0 f3-5f)
+			(clear f3-4f)
+			(not (at-robot f3-3f))
+			(not (at box0 f3-4f))
+			(not (clear f3-5f))
 		)
 	)
 	(:action push_f3-3f_f3-4f_f3-5f_right_box1
@@ -5619,18 +5033,16 @@
 			(clear f3-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-4f)
-				(at box1 f3-5f)
-				(clear f3-4f)
-				(not (at-robot f3-3f))
-				(not (at box1 f3-4f))
-				(not (clear f3-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-4f)
+			(at box1 f3-5f)
+			(clear f3-4f)
+			(not (at-robot f3-3f))
+			(not (at box1 f3-4f))
+			(not (clear f3-5f))
 		)
 	)
 	(:action push_f3-3f_f4-3f_f5-3f_down_box0
@@ -5641,18 +5053,16 @@
 			(clear f5-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-3f)
-				(at box0 f5-3f)
-				(clear f4-3f)
-				(not (at-robot f3-3f))
-				(not (at box0 f4-3f))
-				(not (clear f5-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-3f)
+			(at box0 f5-3f)
+			(clear f4-3f)
+			(not (at-robot f3-3f))
+			(not (at box0 f4-3f))
+			(not (clear f5-3f))
 		)
 	)
 	(:action push_f3-3f_f4-3f_f5-3f_down_box1
@@ -5663,18 +5073,16 @@
 			(clear f5-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-3f)
-				(at box1 f5-3f)
-				(clear f4-3f)
-				(not (at-robot f3-3f))
-				(not (at box1 f4-3f))
-				(not (clear f5-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-3f)
+			(at box1 f5-3f)
+			(clear f4-3f)
+			(not (at-robot f3-3f))
+			(not (at box1 f4-3f))
+			(not (clear f5-3f))
 		)
 	)
 	(:action push_f3-4f_f2-4f_f1-4f_up_box0
@@ -5685,18 +5093,16 @@
 			(clear f1-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-4f)
-				(at box0 f1-4f)
-				(clear f2-4f)
-				(not (at-robot f3-4f))
-				(not (at box0 f2-4f))
-				(not (clear f1-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-4f)
+			(at box0 f1-4f)
+			(clear f2-4f)
+			(not (at-robot f3-4f))
+			(not (at box0 f2-4f))
+			(not (clear f1-4f))
 		)
 	)
 	(:action push_f3-4f_f2-4f_f1-4f_up_box1
@@ -5707,18 +5113,16 @@
 			(clear f1-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-4f)
-				(at box1 f1-4f)
-				(clear f2-4f)
-				(not (at-robot f3-4f))
-				(not (at box1 f2-4f))
-				(not (clear f1-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-4f)
+			(at box1 f1-4f)
+			(clear f2-4f)
+			(not (at-robot f3-4f))
+			(not (at box1 f2-4f))
+			(not (clear f1-4f))
 		)
 	)
 	(:action push_f3-4f_f3-5f_f3-6f_right_box0
@@ -5729,18 +5133,16 @@
 			(clear f3-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-5f)
-				(at box0 f3-6f)
-				(clear f3-5f)
-				(not (at-robot f3-4f))
-				(not (at box0 f3-5f))
-				(not (clear f3-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-5f)
+			(at box0 f3-6f)
+			(clear f3-5f)
+			(not (at-robot f3-4f))
+			(not (at box0 f3-5f))
+			(not (clear f3-6f))
 		)
 	)
 	(:action push_f3-4f_f3-5f_f3-6f_right_box1
@@ -5751,18 +5153,16 @@
 			(clear f3-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-5f)
-				(at box1 f3-6f)
-				(clear f3-5f)
-				(not (at-robot f3-4f))
-				(not (at box1 f3-5f))
-				(not (clear f3-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-5f)
+			(at box1 f3-6f)
+			(clear f3-5f)
+			(not (at-robot f3-4f))
+			(not (at box1 f3-5f))
+			(not (clear f3-6f))
 		)
 	)
 	(:action push_f3-4f_f4-4f_f5-4f_down_box0
@@ -5773,18 +5173,16 @@
 			(clear f5-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-4f)
-				(at box0 f5-4f)
-				(clear f4-4f)
-				(not (at-robot f3-4f))
-				(not (at box0 f4-4f))
-				(not (clear f5-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-4f)
+			(at box0 f5-4f)
+			(clear f4-4f)
+			(not (at-robot f3-4f))
+			(not (at box0 f4-4f))
+			(not (clear f5-4f))
 		)
 	)
 	(:action push_f3-4f_f4-4f_f5-4f_down_box1
@@ -5795,18 +5193,16 @@
 			(clear f5-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-4f)
-				(at box1 f5-4f)
-				(clear f4-4f)
-				(not (at-robot f3-4f))
-				(not (at box1 f4-4f))
-				(not (clear f5-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-4f)
+			(at box1 f5-4f)
+			(clear f4-4f)
+			(not (at-robot f3-4f))
+			(not (at box1 f4-4f))
+			(not (clear f5-4f))
 		)
 	)
 	(:action push_f3-5f_f2-5f_f1-5f_up_box0
@@ -5817,18 +5213,16 @@
 			(clear f1-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-5f)
-				(at box0 f1-5f)
-				(clear f2-5f)
-				(not (at-robot f3-5f))
-				(not (at box0 f2-5f))
-				(not (clear f1-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-5f)
+			(at box0 f1-5f)
+			(clear f2-5f)
+			(not (at-robot f3-5f))
+			(not (at box0 f2-5f))
+			(not (clear f1-5f))
 		)
 	)
 	(:action push_f3-5f_f2-5f_f1-5f_up_box1
@@ -5839,18 +5233,16 @@
 			(clear f1-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-5f)
-				(at box1 f1-5f)
-				(clear f2-5f)
-				(not (at-robot f3-5f))
-				(not (at box1 f2-5f))
-				(not (clear f1-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-5f)
+			(at box1 f1-5f)
+			(clear f2-5f)
+			(not (at-robot f3-5f))
+			(not (at box1 f2-5f))
+			(not (clear f1-5f))
 		)
 	)
 	(:action push_f3-5f_f3-4f_f3-3f_left_box0
@@ -5861,18 +5253,16 @@
 			(clear f3-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-4f)
-				(at box0 f3-3f)
-				(clear f3-4f)
-				(not (at-robot f3-5f))
-				(not (at box0 f3-4f))
-				(not (clear f3-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-4f)
+			(at box0 f3-3f)
+			(clear f3-4f)
+			(not (at-robot f3-5f))
+			(not (at box0 f3-4f))
+			(not (clear f3-3f))
 		)
 	)
 	(:action push_f3-5f_f3-4f_f3-3f_left_box1
@@ -5883,18 +5273,16 @@
 			(clear f3-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-4f)
-				(at box1 f3-3f)
-				(clear f3-4f)
-				(not (at-robot f3-5f))
-				(not (at box1 f3-4f))
-				(not (clear f3-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-4f)
+			(at box1 f3-3f)
+			(clear f3-4f)
+			(not (at-robot f3-5f))
+			(not (at box1 f3-4f))
+			(not (clear f3-3f))
 		)
 	)
 	(:action push_f3-5f_f3-6f_f3-7f_right_box0
@@ -5905,18 +5293,16 @@
 			(clear f3-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-6f)
-				(at box0 f3-7f)
-				(clear f3-6f)
-				(not (at-robot f3-5f))
-				(not (at box0 f3-6f))
-				(not (clear f3-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-6f)
+			(at box0 f3-7f)
+			(clear f3-6f)
+			(not (at-robot f3-5f))
+			(not (at box0 f3-6f))
+			(not (clear f3-7f))
 		)
 	)
 	(:action push_f3-5f_f3-6f_f3-7f_right_box1
@@ -5927,18 +5313,16 @@
 			(clear f3-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-6f)
-				(at box1 f3-7f)
-				(clear f3-6f)
-				(not (at-robot f3-5f))
-				(not (at box1 f3-6f))
-				(not (clear f3-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-6f)
+			(at box1 f3-7f)
+			(clear f3-6f)
+			(not (at-robot f3-5f))
+			(not (at box1 f3-6f))
+			(not (clear f3-7f))
 		)
 	)
 	(:action push_f3-5f_f4-5f_f5-5f_down_box0
@@ -5949,18 +5333,16 @@
 			(clear f5-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-5f)
-				(at box0 f5-5f)
-				(clear f4-5f)
-				(not (at-robot f3-5f))
-				(not (at box0 f4-5f))
-				(not (clear f5-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-5f)
+			(at box0 f5-5f)
+			(clear f4-5f)
+			(not (at-robot f3-5f))
+			(not (at box0 f4-5f))
+			(not (clear f5-5f))
 		)
 	)
 	(:action push_f3-5f_f4-5f_f5-5f_down_box1
@@ -5971,18 +5353,16 @@
 			(clear f5-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-5f)
-				(at box1 f5-5f)
-				(clear f4-5f)
-				(not (at-robot f3-5f))
-				(not (at box1 f4-5f))
-				(not (clear f5-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-5f)
+			(at box1 f5-5f)
+			(clear f4-5f)
+			(not (at-robot f3-5f))
+			(not (at box1 f4-5f))
+			(not (clear f5-5f))
 		)
 	)
 	(:action push_f3-6f_f2-6f_f1-6f_up_box0
@@ -5993,18 +5373,16 @@
 			(clear f1-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-6f)
-				(at box0 f1-6f)
-				(clear f2-6f)
-				(not (at-robot f3-6f))
-				(not (at box0 f2-6f))
-				(not (clear f1-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-6f)
+			(at box0 f1-6f)
+			(clear f2-6f)
+			(not (at-robot f3-6f))
+			(not (at box0 f2-6f))
+			(not (clear f1-6f))
 		)
 	)
 	(:action push_f3-6f_f2-6f_f1-6f_up_box1
@@ -6015,18 +5393,16 @@
 			(clear f1-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-6f)
-				(at box1 f1-6f)
-				(clear f2-6f)
-				(not (at-robot f3-6f))
-				(not (at box1 f2-6f))
-				(not (clear f1-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-6f)
+			(at box1 f1-6f)
+			(clear f2-6f)
+			(not (at-robot f3-6f))
+			(not (at box1 f2-6f))
+			(not (clear f1-6f))
 		)
 	)
 	(:action push_f3-6f_f3-5f_f3-4f_left_box0
@@ -6037,18 +5413,16 @@
 			(clear f3-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-5f)
-				(at box0 f3-4f)
-				(clear f3-5f)
-				(not (at-robot f3-6f))
-				(not (at box0 f3-5f))
-				(not (clear f3-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-5f)
+			(at box0 f3-4f)
+			(clear f3-5f)
+			(not (at-robot f3-6f))
+			(not (at box0 f3-5f))
+			(not (clear f3-4f))
 		)
 	)
 	(:action push_f3-6f_f3-5f_f3-4f_left_box1
@@ -6059,18 +5433,16 @@
 			(clear f3-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-5f)
-				(at box1 f3-4f)
-				(clear f3-5f)
-				(not (at-robot f3-6f))
-				(not (at box1 f3-5f))
-				(not (clear f3-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-5f)
+			(at box1 f3-4f)
+			(clear f3-5f)
+			(not (at-robot f3-6f))
+			(not (at box1 f3-5f))
+			(not (clear f3-4f))
 		)
 	)
 	(:action push_f3-6f_f4-6f_f5-6f_down_box0
@@ -6081,18 +5453,16 @@
 			(clear f5-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-6f)
-				(at box0 f5-6f)
-				(clear f4-6f)
-				(not (at-robot f3-6f))
-				(not (at box0 f4-6f))
-				(not (clear f5-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-6f)
+			(at box0 f5-6f)
+			(clear f4-6f)
+			(not (at-robot f3-6f))
+			(not (at box0 f4-6f))
+			(not (clear f5-6f))
 		)
 	)
 	(:action push_f3-6f_f4-6f_f5-6f_down_box1
@@ -6103,18 +5473,16 @@
 			(clear f5-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-6f)
-				(at box1 f5-6f)
-				(clear f4-6f)
-				(not (at-robot f3-6f))
-				(not (at box1 f4-6f))
-				(not (clear f5-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-6f)
+			(at box1 f5-6f)
+			(clear f4-6f)
+			(not (at-robot f3-6f))
+			(not (at box1 f4-6f))
+			(not (clear f5-6f))
 		)
 	)
 	(:action push_f3-7f_f2-7f_f1-7f_up_box0
@@ -6125,18 +5493,16 @@
 			(clear f1-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-7f)
-				(at box0 f1-7f)
-				(clear f2-7f)
-				(not (at-robot f3-7f))
-				(not (at box0 f2-7f))
-				(not (clear f1-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-7f)
+			(at box0 f1-7f)
+			(clear f2-7f)
+			(not (at-robot f3-7f))
+			(not (at box0 f2-7f))
+			(not (clear f1-7f))
 		)
 	)
 	(:action push_f3-7f_f2-7f_f1-7f_up_box1
@@ -6147,18 +5513,16 @@
 			(clear f1-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f2-7f)
-				(at box1 f1-7f)
-				(clear f2-7f)
-				(not (at-robot f3-7f))
-				(not (at box1 f2-7f))
-				(not (clear f1-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f2-7f)
+			(at box1 f1-7f)
+			(clear f2-7f)
+			(not (at-robot f3-7f))
+			(not (at box1 f2-7f))
+			(not (clear f1-7f))
 		)
 	)
 	(:action push_f3-7f_f3-6f_f3-5f_left_box0
@@ -6169,18 +5533,16 @@
 			(clear f3-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-6f)
-				(at box0 f3-5f)
-				(clear f3-6f)
-				(not (at-robot f3-7f))
-				(not (at box0 f3-6f))
-				(not (clear f3-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-6f)
+			(at box0 f3-5f)
+			(clear f3-6f)
+			(not (at-robot f3-7f))
+			(not (at box0 f3-6f))
+			(not (clear f3-5f))
 		)
 	)
 	(:action push_f3-7f_f3-6f_f3-5f_left_box1
@@ -6191,18 +5553,16 @@
 			(clear f3-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-6f)
-				(at box1 f3-5f)
-				(clear f3-6f)
-				(not (at-robot f3-7f))
-				(not (at box1 f3-6f))
-				(not (clear f3-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-6f)
+			(at box1 f3-5f)
+			(clear f3-6f)
+			(not (at-robot f3-7f))
+			(not (at box1 f3-6f))
+			(not (clear f3-5f))
 		)
 	)
 	(:action push_f3-7f_f4-7f_f5-7f_down_box0
@@ -6213,18 +5573,16 @@
 			(clear f5-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-7f)
-				(at box0 f5-7f)
-				(clear f4-7f)
-				(not (at-robot f3-7f))
-				(not (at box0 f4-7f))
-				(not (clear f5-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-7f)
+			(at box0 f5-7f)
+			(clear f4-7f)
+			(not (at-robot f3-7f))
+			(not (at box0 f4-7f))
+			(not (clear f5-7f))
 		)
 	)
 	(:action push_f3-7f_f4-7f_f5-7f_down_box1
@@ -6235,18 +5593,16 @@
 			(clear f5-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-7f)
-				(at box1 f5-7f)
-				(clear f4-7f)
-				(not (at-robot f3-7f))
-				(not (at box1 f4-7f))
-				(not (clear f5-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-7f)
+			(at box1 f5-7f)
+			(clear f4-7f)
+			(not (at-robot f3-7f))
+			(not (at box1 f4-7f))
+			(not (clear f5-7f))
 		)
 	)
 	(:action push_f4-0f_f3-0f_f2-0f_up_box0
@@ -6257,18 +5613,16 @@
 			(clear f2-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-0f)
-				(at box0 f2-0f)
-				(clear f3-0f)
-				(not (at-robot f4-0f))
-				(not (at box0 f3-0f))
-				(not (clear f2-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-0f)
+			(at box0 f2-0f)
+			(clear f3-0f)
+			(not (at-robot f4-0f))
+			(not (at box0 f3-0f))
+			(not (clear f2-0f))
 		)
 	)
 	(:action push_f4-0f_f3-0f_f2-0f_up_box1
@@ -6279,18 +5633,16 @@
 			(clear f2-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-0f)
-				(at box1 f2-0f)
-				(clear f3-0f)
-				(not (at-robot f4-0f))
-				(not (at box1 f3-0f))
-				(not (clear f2-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-0f)
+			(at box1 f2-0f)
+			(clear f3-0f)
+			(not (at-robot f4-0f))
+			(not (at box1 f3-0f))
+			(not (clear f2-0f))
 		)
 	)
 	(:action push_f4-0f_f5-0f_f6-0f_down_box0
@@ -6301,18 +5653,16 @@
 			(clear f6-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-0f)
-				(at box0 f6-0f)
-				(clear f5-0f)
-				(not (at-robot f4-0f))
-				(not (at box0 f5-0f))
-				(not (clear f6-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-0f)
+			(at box0 f6-0f)
+			(clear f5-0f)
+			(not (at-robot f4-0f))
+			(not (at box0 f5-0f))
+			(not (clear f6-0f))
 		)
 	)
 	(:action push_f4-0f_f5-0f_f6-0f_down_box1
@@ -6323,18 +5673,16 @@
 			(clear f6-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-0f)
-				(at box1 f6-0f)
-				(clear f5-0f)
-				(not (at-robot f4-0f))
-				(not (at box1 f5-0f))
-				(not (clear f6-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-0f)
+			(at box1 f6-0f)
+			(clear f5-0f)
+			(not (at-robot f4-0f))
+			(not (at box1 f5-0f))
+			(not (clear f6-0f))
 		)
 	)
 	(:action push_f4-2f_f4-3f_f4-4f_right_box0
@@ -6345,18 +5693,16 @@
 			(clear f4-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-3f)
-				(at box0 f4-4f)
-				(clear f4-3f)
-				(not (at-robot f4-2f))
-				(not (at box0 f4-3f))
-				(not (clear f4-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-3f)
+			(at box0 f4-4f)
+			(clear f4-3f)
+			(not (at-robot f4-2f))
+			(not (at box0 f4-3f))
+			(not (clear f4-4f))
 		)
 	)
 	(:action push_f4-2f_f4-3f_f4-4f_right_box1
@@ -6367,18 +5713,16 @@
 			(clear f4-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-3f)
-				(at box1 f4-4f)
-				(clear f4-3f)
-				(not (at-robot f4-2f))
-				(not (at box1 f4-3f))
-				(not (clear f4-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-3f)
+			(at box1 f4-4f)
+			(clear f4-3f)
+			(not (at-robot f4-2f))
+			(not (at box1 f4-3f))
+			(not (clear f4-4f))
 		)
 	)
 	(:action push_f4-2f_f5-2f_f6-2f_down_box0
@@ -6389,18 +5733,16 @@
 			(clear f6-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-2f)
-				(at box0 f6-2f)
-				(clear f5-2f)
-				(not (at-robot f4-2f))
-				(not (at box0 f5-2f))
-				(not (clear f6-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-2f)
+			(at box0 f6-2f)
+			(clear f5-2f)
+			(not (at-robot f4-2f))
+			(not (at box0 f5-2f))
+			(not (clear f6-2f))
 		)
 	)
 	(:action push_f4-2f_f5-2f_f6-2f_down_box1
@@ -6411,18 +5753,16 @@
 			(clear f6-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-2f)
-				(at box1 f6-2f)
-				(clear f5-2f)
-				(not (at-robot f4-2f))
-				(not (at box1 f5-2f))
-				(not (clear f6-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-2f)
+			(at box1 f6-2f)
+			(clear f5-2f)
+			(not (at-robot f4-2f))
+			(not (at box1 f5-2f))
+			(not (clear f6-2f))
 		)
 	)
 	(:action push_f4-3f_f3-3f_f2-3f_up_box0
@@ -6433,18 +5773,16 @@
 			(clear f2-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-3f)
-				(at box0 f2-3f)
-				(clear f3-3f)
-				(not (at-robot f4-3f))
-				(not (at box0 f3-3f))
-				(not (clear f2-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-3f)
+			(at box0 f2-3f)
+			(clear f3-3f)
+			(not (at-robot f4-3f))
+			(not (at box0 f3-3f))
+			(not (clear f2-3f))
 		)
 	)
 	(:action push_f4-3f_f3-3f_f2-3f_up_box1
@@ -6455,18 +5793,16 @@
 			(clear f2-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-3f)
-				(at box1 f2-3f)
-				(clear f3-3f)
-				(not (at-robot f4-3f))
-				(not (at box1 f3-3f))
-				(not (clear f2-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-3f)
+			(at box1 f2-3f)
+			(clear f3-3f)
+			(not (at-robot f4-3f))
+			(not (at box1 f3-3f))
+			(not (clear f2-3f))
 		)
 	)
 	(:action push_f4-3f_f4-4f_f4-5f_right_box0
@@ -6477,18 +5813,16 @@
 			(clear f4-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-4f)
-				(at box0 f4-5f)
-				(clear f4-4f)
-				(not (at-robot f4-3f))
-				(not (at box0 f4-4f))
-				(not (clear f4-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-4f)
+			(at box0 f4-5f)
+			(clear f4-4f)
+			(not (at-robot f4-3f))
+			(not (at box0 f4-4f))
+			(not (clear f4-5f))
 		)
 	)
 	(:action push_f4-3f_f4-4f_f4-5f_right_box1
@@ -6499,18 +5833,16 @@
 			(clear f4-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-4f)
-				(at box1 f4-5f)
-				(clear f4-4f)
-				(not (at-robot f4-3f))
-				(not (at box1 f4-4f))
-				(not (clear f4-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-4f)
+			(at box1 f4-5f)
+			(clear f4-4f)
+			(not (at-robot f4-3f))
+			(not (at box1 f4-4f))
+			(not (clear f4-5f))
 		)
 	)
 	(:action push_f4-3f_f5-3f_f6-3f_down_box0
@@ -6521,18 +5853,16 @@
 			(clear f6-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-3f)
-				(at box0 f6-3f)
-				(clear f5-3f)
-				(not (at-robot f4-3f))
-				(not (at box0 f5-3f))
-				(not (clear f6-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-3f)
+			(at box0 f6-3f)
+			(clear f5-3f)
+			(not (at-robot f4-3f))
+			(not (at box0 f5-3f))
+			(not (clear f6-3f))
 		)
 	)
 	(:action push_f4-3f_f5-3f_f6-3f_down_box1
@@ -6543,18 +5873,16 @@
 			(clear f6-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-3f)
-				(at box1 f6-3f)
-				(clear f5-3f)
-				(not (at-robot f4-3f))
-				(not (at box1 f5-3f))
-				(not (clear f6-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-3f)
+			(at box1 f6-3f)
+			(clear f5-3f)
+			(not (at-robot f4-3f))
+			(not (at box1 f5-3f))
+			(not (clear f6-3f))
 		)
 	)
 	(:action push_f4-4f_f3-4f_f2-4f_up_box0
@@ -6565,18 +5893,16 @@
 			(clear f2-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-4f)
-				(at box0 f2-4f)
-				(clear f3-4f)
-				(not (at-robot f4-4f))
-				(not (at box0 f3-4f))
-				(not (clear f2-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-4f)
+			(at box0 f2-4f)
+			(clear f3-4f)
+			(not (at-robot f4-4f))
+			(not (at box0 f3-4f))
+			(not (clear f2-4f))
 		)
 	)
 	(:action push_f4-4f_f3-4f_f2-4f_up_box1
@@ -6587,18 +5913,16 @@
 			(clear f2-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-4f)
-				(at box1 f2-4f)
-				(clear f3-4f)
-				(not (at-robot f4-4f))
-				(not (at box1 f3-4f))
-				(not (clear f2-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-4f)
+			(at box1 f2-4f)
+			(clear f3-4f)
+			(not (at-robot f4-4f))
+			(not (at box1 f3-4f))
+			(not (clear f2-4f))
 		)
 	)
 	(:action push_f4-4f_f4-3f_f4-2f_left_box0
@@ -6609,18 +5933,16 @@
 			(clear f4-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-3f)
-				(at box0 f4-2f)
-				(clear f4-3f)
-				(not (at-robot f4-4f))
-				(not (at box0 f4-3f))
-				(not (clear f4-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-3f)
+			(at box0 f4-2f)
+			(clear f4-3f)
+			(not (at-robot f4-4f))
+			(not (at box0 f4-3f))
+			(not (clear f4-2f))
 		)
 	)
 	(:action push_f4-4f_f4-3f_f4-2f_left_box1
@@ -6631,18 +5953,16 @@
 			(clear f4-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-3f)
-				(at box1 f4-2f)
-				(clear f4-3f)
-				(not (at-robot f4-4f))
-				(not (at box1 f4-3f))
-				(not (clear f4-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-3f)
+			(at box1 f4-2f)
+			(clear f4-3f)
+			(not (at-robot f4-4f))
+			(not (at box1 f4-3f))
+			(not (clear f4-2f))
 		)
 	)
 	(:action push_f4-4f_f4-5f_f4-6f_right_box0
@@ -6653,18 +5973,16 @@
 			(clear f4-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-5f)
-				(at box0 f4-6f)
-				(clear f4-5f)
-				(not (at-robot f4-4f))
-				(not (at box0 f4-5f))
-				(not (clear f4-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-5f)
+			(at box0 f4-6f)
+			(clear f4-5f)
+			(not (at-robot f4-4f))
+			(not (at box0 f4-5f))
+			(not (clear f4-6f))
 		)
 	)
 	(:action push_f4-4f_f4-5f_f4-6f_right_box1
@@ -6675,18 +5993,16 @@
 			(clear f4-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-5f)
-				(at box1 f4-6f)
-				(clear f4-5f)
-				(not (at-robot f4-4f))
-				(not (at box1 f4-5f))
-				(not (clear f4-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-5f)
+			(at box1 f4-6f)
+			(clear f4-5f)
+			(not (at-robot f4-4f))
+			(not (at box1 f4-5f))
+			(not (clear f4-6f))
 		)
 	)
 	(:action push_f4-4f_f5-4f_f6-4f_down_box0
@@ -6697,18 +6013,16 @@
 			(clear f6-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-4f)
-				(at box0 f6-4f)
-				(clear f5-4f)
-				(not (at-robot f4-4f))
-				(not (at box0 f5-4f))
-				(not (clear f6-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-4f)
+			(at box0 f6-4f)
+			(clear f5-4f)
+			(not (at-robot f4-4f))
+			(not (at box0 f5-4f))
+			(not (clear f6-4f))
 		)
 	)
 	(:action push_f4-4f_f5-4f_f6-4f_down_box1
@@ -6719,18 +6033,16 @@
 			(clear f6-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-4f)
-				(at box1 f6-4f)
-				(clear f5-4f)
-				(not (at-robot f4-4f))
-				(not (at box1 f5-4f))
-				(not (clear f6-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-4f)
+			(at box1 f6-4f)
+			(clear f5-4f)
+			(not (at-robot f4-4f))
+			(not (at box1 f5-4f))
+			(not (clear f6-4f))
 		)
 	)
 	(:action push_f4-5f_f3-5f_f2-5f_up_box0
@@ -6741,18 +6053,16 @@
 			(clear f2-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-5f)
-				(at box0 f2-5f)
-				(clear f3-5f)
-				(not (at-robot f4-5f))
-				(not (at box0 f3-5f))
-				(not (clear f2-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-5f)
+			(at box0 f2-5f)
+			(clear f3-5f)
+			(not (at-robot f4-5f))
+			(not (at box0 f3-5f))
+			(not (clear f2-5f))
 		)
 	)
 	(:action push_f4-5f_f3-5f_f2-5f_up_box1
@@ -6763,18 +6073,16 @@
 			(clear f2-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-5f)
-				(at box1 f2-5f)
-				(clear f3-5f)
-				(not (at-robot f4-5f))
-				(not (at box1 f3-5f))
-				(not (clear f2-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-5f)
+			(at box1 f2-5f)
+			(clear f3-5f)
+			(not (at-robot f4-5f))
+			(not (at box1 f3-5f))
+			(not (clear f2-5f))
 		)
 	)
 	(:action push_f4-5f_f4-4f_f4-3f_left_box0
@@ -6785,18 +6093,16 @@
 			(clear f4-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-4f)
-				(at box0 f4-3f)
-				(clear f4-4f)
-				(not (at-robot f4-5f))
-				(not (at box0 f4-4f))
-				(not (clear f4-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-4f)
+			(at box0 f4-3f)
+			(clear f4-4f)
+			(not (at-robot f4-5f))
+			(not (at box0 f4-4f))
+			(not (clear f4-3f))
 		)
 	)
 	(:action push_f4-5f_f4-4f_f4-3f_left_box1
@@ -6807,18 +6113,16 @@
 			(clear f4-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-4f)
-				(at box1 f4-3f)
-				(clear f4-4f)
-				(not (at-robot f4-5f))
-				(not (at box1 f4-4f))
-				(not (clear f4-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-4f)
+			(at box1 f4-3f)
+			(clear f4-4f)
+			(not (at-robot f4-5f))
+			(not (at box1 f4-4f))
+			(not (clear f4-3f))
 		)
 	)
 	(:action push_f4-5f_f4-6f_f4-7f_right_box0
@@ -6829,18 +6133,16 @@
 			(clear f4-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-6f)
-				(at box0 f4-7f)
-				(clear f4-6f)
-				(not (at-robot f4-5f))
-				(not (at box0 f4-6f))
-				(not (clear f4-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-6f)
+			(at box0 f4-7f)
+			(clear f4-6f)
+			(not (at-robot f4-5f))
+			(not (at box0 f4-6f))
+			(not (clear f4-7f))
 		)
 	)
 	(:action push_f4-5f_f4-6f_f4-7f_right_box1
@@ -6851,18 +6153,16 @@
 			(clear f4-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-6f)
-				(at box1 f4-7f)
-				(clear f4-6f)
-				(not (at-robot f4-5f))
-				(not (at box1 f4-6f))
-				(not (clear f4-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-6f)
+			(at box1 f4-7f)
+			(clear f4-6f)
+			(not (at-robot f4-5f))
+			(not (at box1 f4-6f))
+			(not (clear f4-7f))
 		)
 	)
 	(:action push_f4-5f_f5-5f_f6-5f_down_box0
@@ -6873,18 +6173,16 @@
 			(clear f6-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-5f)
-				(at box0 f6-5f)
-				(clear f5-5f)
-				(not (at-robot f4-5f))
-				(not (at box0 f5-5f))
-				(not (clear f6-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-5f)
+			(at box0 f6-5f)
+			(clear f5-5f)
+			(not (at-robot f4-5f))
+			(not (at box0 f5-5f))
+			(not (clear f6-5f))
 		)
 	)
 	(:action push_f4-5f_f5-5f_f6-5f_down_box1
@@ -6895,18 +6193,16 @@
 			(clear f6-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-5f)
-				(at box1 f6-5f)
-				(clear f5-5f)
-				(not (at-robot f4-5f))
-				(not (at box1 f5-5f))
-				(not (clear f6-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-5f)
+			(at box1 f6-5f)
+			(clear f5-5f)
+			(not (at-robot f4-5f))
+			(not (at box1 f5-5f))
+			(not (clear f6-5f))
 		)
 	)
 	(:action push_f4-6f_f3-6f_f2-6f_up_box0
@@ -6917,18 +6213,16 @@
 			(clear f2-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-6f)
-				(at box0 f2-6f)
-				(clear f3-6f)
-				(not (at-robot f4-6f))
-				(not (at box0 f3-6f))
-				(not (clear f2-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-6f)
+			(at box0 f2-6f)
+			(clear f3-6f)
+			(not (at-robot f4-6f))
+			(not (at box0 f3-6f))
+			(not (clear f2-6f))
 		)
 	)
 	(:action push_f4-6f_f3-6f_f2-6f_up_box1
@@ -6939,18 +6233,16 @@
 			(clear f2-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-6f)
-				(at box1 f2-6f)
-				(clear f3-6f)
-				(not (at-robot f4-6f))
-				(not (at box1 f3-6f))
-				(not (clear f2-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-6f)
+			(at box1 f2-6f)
+			(clear f3-6f)
+			(not (at-robot f4-6f))
+			(not (at box1 f3-6f))
+			(not (clear f2-6f))
 		)
 	)
 	(:action push_f4-6f_f4-5f_f4-4f_left_box0
@@ -6961,18 +6253,16 @@
 			(clear f4-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-5f)
-				(at box0 f4-4f)
-				(clear f4-5f)
-				(not (at-robot f4-6f))
-				(not (at box0 f4-5f))
-				(not (clear f4-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-5f)
+			(at box0 f4-4f)
+			(clear f4-5f)
+			(not (at-robot f4-6f))
+			(not (at box0 f4-5f))
+			(not (clear f4-4f))
 		)
 	)
 	(:action push_f4-6f_f4-5f_f4-4f_left_box1
@@ -6983,18 +6273,16 @@
 			(clear f4-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-5f)
-				(at box1 f4-4f)
-				(clear f4-5f)
-				(not (at-robot f4-6f))
-				(not (at box1 f4-5f))
-				(not (clear f4-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-5f)
+			(at box1 f4-4f)
+			(clear f4-5f)
+			(not (at-robot f4-6f))
+			(not (at box1 f4-5f))
+			(not (clear f4-4f))
 		)
 	)
 	(:action push_f4-7f_f3-7f_f2-7f_up_box0
@@ -7005,18 +6293,16 @@
 			(clear f2-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-7f)
-				(at box0 f2-7f)
-				(clear f3-7f)
-				(not (at-robot f4-7f))
-				(not (at box0 f3-7f))
-				(not (clear f2-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-7f)
+			(at box0 f2-7f)
+			(clear f3-7f)
+			(not (at-robot f4-7f))
+			(not (at box0 f3-7f))
+			(not (clear f2-7f))
 		)
 	)
 	(:action push_f4-7f_f3-7f_f2-7f_up_box1
@@ -7027,18 +6313,16 @@
 			(clear f2-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f3-7f)
-				(at box1 f2-7f)
-				(clear f3-7f)
-				(not (at-robot f4-7f))
-				(not (at box1 f3-7f))
-				(not (clear f2-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f3-7f)
+			(at box1 f2-7f)
+			(clear f3-7f)
+			(not (at-robot f4-7f))
+			(not (at box1 f3-7f))
+			(not (clear f2-7f))
 		)
 	)
 	(:action push_f4-7f_f4-6f_f4-5f_left_box0
@@ -7049,18 +6333,16 @@
 			(clear f4-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-6f)
-				(at box0 f4-5f)
-				(clear f4-6f)
-				(not (at-robot f4-7f))
-				(not (at box0 f4-6f))
-				(not (clear f4-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-6f)
+			(at box0 f4-5f)
+			(clear f4-6f)
+			(not (at-robot f4-7f))
+			(not (at box0 f4-6f))
+			(not (clear f4-5f))
 		)
 	)
 	(:action push_f4-7f_f4-6f_f4-5f_left_box1
@@ -7071,18 +6353,16 @@
 			(clear f4-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-6f)
-				(at box1 f4-5f)
-				(clear f4-6f)
-				(not (at-robot f4-7f))
-				(not (at box1 f4-6f))
-				(not (clear f4-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-6f)
+			(at box1 f4-5f)
+			(clear f4-6f)
+			(not (at-robot f4-7f))
+			(not (at box1 f4-6f))
+			(not (clear f4-5f))
 		)
 	)
 	(:action push_f4-7f_f5-7f_f6-7f_down_box0
@@ -7093,18 +6373,16 @@
 			(clear f6-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-7f)
-				(at box0 f6-7f)
-				(clear f5-7f)
-				(not (at-robot f4-7f))
-				(not (at box0 f5-7f))
-				(not (clear f6-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-7f)
+			(at box0 f6-7f)
+			(clear f5-7f)
+			(not (at-robot f4-7f))
+			(not (at box0 f5-7f))
+			(not (clear f6-7f))
 		)
 	)
 	(:action push_f4-7f_f5-7f_f6-7f_down_box1
@@ -7115,18 +6393,16 @@
 			(clear f6-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-7f)
-				(at box1 f6-7f)
-				(clear f5-7f)
-				(not (at-robot f4-7f))
-				(not (at box1 f5-7f))
-				(not (clear f6-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-7f)
+			(at box1 f6-7f)
+			(clear f5-7f)
+			(not (at-robot f4-7f))
+			(not (at box1 f5-7f))
+			(not (clear f6-7f))
 		)
 	)
 	(:action push_f5-0f_f4-0f_f3-0f_up_box0
@@ -7137,18 +6413,16 @@
 			(clear f3-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-0f)
-				(at box0 f3-0f)
-				(clear f4-0f)
-				(not (at-robot f5-0f))
-				(not (at box0 f4-0f))
-				(not (clear f3-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-0f)
+			(at box0 f3-0f)
+			(clear f4-0f)
+			(not (at-robot f5-0f))
+			(not (at box0 f4-0f))
+			(not (clear f3-0f))
 		)
 	)
 	(:action push_f5-0f_f4-0f_f3-0f_up_box1
@@ -7159,18 +6433,16 @@
 			(clear f3-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-0f)
-				(at box1 f3-0f)
-				(clear f4-0f)
-				(not (at-robot f5-0f))
-				(not (at box1 f4-0f))
-				(not (clear f3-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-0f)
+			(at box1 f3-0f)
+			(clear f4-0f)
+			(not (at-robot f5-0f))
+			(not (at box1 f4-0f))
+			(not (clear f3-0f))
 		)
 	)
 	(:action push_f5-0f_f6-0f_f7-0f_down_box0
@@ -7181,18 +6453,16 @@
 			(clear f7-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-0f)
-				(at box0 f7-0f)
-				(clear f6-0f)
-				(not (at-robot f5-0f))
-				(not (at box0 f6-0f))
-				(not (clear f7-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-0f)
+			(at box0 f7-0f)
+			(clear f6-0f)
+			(not (at-robot f5-0f))
+			(not (at box0 f6-0f))
+			(not (clear f7-0f))
 		)
 	)
 	(:action push_f5-0f_f6-0f_f7-0f_down_box1
@@ -7203,18 +6473,16 @@
 			(clear f7-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-0f)
-				(at box1 f7-0f)
-				(clear f6-0f)
-				(not (at-robot f5-0f))
-				(not (at box1 f6-0f))
-				(not (clear f7-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-0f)
+			(at box1 f7-0f)
+			(clear f6-0f)
+			(not (at-robot f5-0f))
+			(not (at box1 f6-0f))
+			(not (clear f7-0f))
 		)
 	)
 	(:action push_f5-2f_f5-3f_f5-4f_right_box0
@@ -7225,18 +6493,16 @@
 			(clear f5-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-3f)
-				(at box0 f5-4f)
-				(clear f5-3f)
-				(not (at-robot f5-2f))
-				(not (at box0 f5-3f))
-				(not (clear f5-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-3f)
+			(at box0 f5-4f)
+			(clear f5-3f)
+			(not (at-robot f5-2f))
+			(not (at box0 f5-3f))
+			(not (clear f5-4f))
 		)
 	)
 	(:action push_f5-2f_f5-3f_f5-4f_right_box1
@@ -7247,18 +6513,16 @@
 			(clear f5-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-3f)
-				(at box1 f5-4f)
-				(clear f5-3f)
-				(not (at-robot f5-2f))
-				(not (at box1 f5-3f))
-				(not (clear f5-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-3f)
+			(at box1 f5-4f)
+			(clear f5-3f)
+			(not (at-robot f5-2f))
+			(not (at box1 f5-3f))
+			(not (clear f5-4f))
 		)
 	)
 	(:action push_f5-2f_f6-2f_f7-2f_down_box0
@@ -7269,18 +6533,16 @@
 			(clear f7-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-2f)
-				(at box0 f7-2f)
-				(clear f6-2f)
-				(not (at-robot f5-2f))
-				(not (at box0 f6-2f))
-				(not (clear f7-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-2f)
+			(at box0 f7-2f)
+			(clear f6-2f)
+			(not (at-robot f5-2f))
+			(not (at box0 f6-2f))
+			(not (clear f7-2f))
 		)
 	)
 	(:action push_f5-2f_f6-2f_f7-2f_down_box1
@@ -7291,18 +6553,16 @@
 			(clear f7-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-2f)
-				(at box1 f7-2f)
-				(clear f6-2f)
-				(not (at-robot f5-2f))
-				(not (at box1 f6-2f))
-				(not (clear f7-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-2f)
+			(at box1 f7-2f)
+			(clear f6-2f)
+			(not (at-robot f5-2f))
+			(not (at box1 f6-2f))
+			(not (clear f7-2f))
 		)
 	)
 	(:action push_f5-3f_f4-3f_f3-3f_up_box0
@@ -7313,18 +6573,16 @@
 			(clear f3-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-3f)
-				(at box0 f3-3f)
-				(clear f4-3f)
-				(not (at-robot f5-3f))
-				(not (at box0 f4-3f))
-				(not (clear f3-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-3f)
+			(at box0 f3-3f)
+			(clear f4-3f)
+			(not (at-robot f5-3f))
+			(not (at box0 f4-3f))
+			(not (clear f3-3f))
 		)
 	)
 	(:action push_f5-3f_f4-3f_f3-3f_up_box1
@@ -7335,18 +6593,16 @@
 			(clear f3-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-3f)
-				(at box1 f3-3f)
-				(clear f4-3f)
-				(not (at-robot f5-3f))
-				(not (at box1 f4-3f))
-				(not (clear f3-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-3f)
+			(at box1 f3-3f)
+			(clear f4-3f)
+			(not (at-robot f5-3f))
+			(not (at box1 f4-3f))
+			(not (clear f3-3f))
 		)
 	)
 	(:action push_f5-3f_f5-4f_f5-5f_right_box0
@@ -7357,18 +6613,16 @@
 			(clear f5-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-4f)
-				(at box0 f5-5f)
-				(clear f5-4f)
-				(not (at-robot f5-3f))
-				(not (at box0 f5-4f))
-				(not (clear f5-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-4f)
+			(at box0 f5-5f)
+			(clear f5-4f)
+			(not (at-robot f5-3f))
+			(not (at box0 f5-4f))
+			(not (clear f5-5f))
 		)
 	)
 	(:action push_f5-3f_f5-4f_f5-5f_right_box1
@@ -7379,18 +6633,16 @@
 			(clear f5-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-4f)
-				(at box1 f5-5f)
-				(clear f5-4f)
-				(not (at-robot f5-3f))
-				(not (at box1 f5-4f))
-				(not (clear f5-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-4f)
+			(at box1 f5-5f)
+			(clear f5-4f)
+			(not (at-robot f5-3f))
+			(not (at box1 f5-4f))
+			(not (clear f5-5f))
 		)
 	)
 	(:action push_f5-3f_f6-3f_f7-3f_down_box0
@@ -7401,18 +6653,16 @@
 			(clear f7-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-3f)
-				(at box0 f7-3f)
-				(clear f6-3f)
-				(not (at-robot f5-3f))
-				(not (at box0 f6-3f))
-				(not (clear f7-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-3f)
+			(at box0 f7-3f)
+			(clear f6-3f)
+			(not (at-robot f5-3f))
+			(not (at box0 f6-3f))
+			(not (clear f7-3f))
 		)
 	)
 	(:action push_f5-3f_f6-3f_f7-3f_down_box1
@@ -7423,18 +6673,16 @@
 			(clear f7-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-3f)
-				(at box1 f7-3f)
-				(clear f6-3f)
-				(not (at-robot f5-3f))
-				(not (at box1 f6-3f))
-				(not (clear f7-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-3f)
+			(at box1 f7-3f)
+			(clear f6-3f)
+			(not (at-robot f5-3f))
+			(not (at box1 f6-3f))
+			(not (clear f7-3f))
 		)
 	)
 	(:action push_f5-4f_f4-4f_f3-4f_up_box0
@@ -7445,18 +6693,16 @@
 			(clear f3-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-4f)
-				(at box0 f3-4f)
-				(clear f4-4f)
-				(not (at-robot f5-4f))
-				(not (at box0 f4-4f))
-				(not (clear f3-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-4f)
+			(at box0 f3-4f)
+			(clear f4-4f)
+			(not (at-robot f5-4f))
+			(not (at box0 f4-4f))
+			(not (clear f3-4f))
 		)
 	)
 	(:action push_f5-4f_f4-4f_f3-4f_up_box1
@@ -7467,18 +6713,16 @@
 			(clear f3-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-4f)
-				(at box1 f3-4f)
-				(clear f4-4f)
-				(not (at-robot f5-4f))
-				(not (at box1 f4-4f))
-				(not (clear f3-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-4f)
+			(at box1 f3-4f)
+			(clear f4-4f)
+			(not (at-robot f5-4f))
+			(not (at box1 f4-4f))
+			(not (clear f3-4f))
 		)
 	)
 	(:action push_f5-4f_f5-3f_f5-2f_left_box0
@@ -7489,18 +6733,16 @@
 			(clear f5-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-3f)
-				(at box0 f5-2f)
-				(clear f5-3f)
-				(not (at-robot f5-4f))
-				(not (at box0 f5-3f))
-				(not (clear f5-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-3f)
+			(at box0 f5-2f)
+			(clear f5-3f)
+			(not (at-robot f5-4f))
+			(not (at box0 f5-3f))
+			(not (clear f5-2f))
 		)
 	)
 	(:action push_f5-4f_f5-3f_f5-2f_left_box1
@@ -7511,18 +6753,16 @@
 			(clear f5-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-3f)
-				(at box1 f5-2f)
-				(clear f5-3f)
-				(not (at-robot f5-4f))
-				(not (at box1 f5-3f))
-				(not (clear f5-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-3f)
+			(at box1 f5-2f)
+			(clear f5-3f)
+			(not (at-robot f5-4f))
+			(not (at box1 f5-3f))
+			(not (clear f5-2f))
 		)
 	)
 	(:action push_f5-4f_f5-5f_f5-6f_right_box0
@@ -7533,18 +6773,16 @@
 			(clear f5-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-5f)
-				(at box0 f5-6f)
-				(clear f5-5f)
-				(not (at-robot f5-4f))
-				(not (at box0 f5-5f))
-				(not (clear f5-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-5f)
+			(at box0 f5-6f)
+			(clear f5-5f)
+			(not (at-robot f5-4f))
+			(not (at box0 f5-5f))
+			(not (clear f5-6f))
 		)
 	)
 	(:action push_f5-4f_f5-5f_f5-6f_right_box1
@@ -7555,18 +6793,16 @@
 			(clear f5-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-5f)
-				(at box1 f5-6f)
-				(clear f5-5f)
-				(not (at-robot f5-4f))
-				(not (at box1 f5-5f))
-				(not (clear f5-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-5f)
+			(at box1 f5-6f)
+			(clear f5-5f)
+			(not (at-robot f5-4f))
+			(not (at box1 f5-5f))
+			(not (clear f5-6f))
 		)
 	)
 	(:action push_f5-4f_f6-4f_f7-4f_down_box0
@@ -7577,18 +6813,16 @@
 			(clear f7-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-4f)
-				(at box0 f7-4f)
-				(clear f6-4f)
-				(not (at-robot f5-4f))
-				(not (at box0 f6-4f))
-				(not (clear f7-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-4f)
+			(at box0 f7-4f)
+			(clear f6-4f)
+			(not (at-robot f5-4f))
+			(not (at box0 f6-4f))
+			(not (clear f7-4f))
 		)
 	)
 	(:action push_f5-4f_f6-4f_f7-4f_down_box1
@@ -7599,18 +6833,16 @@
 			(clear f7-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-4f)
-				(at box1 f7-4f)
-				(clear f6-4f)
-				(not (at-robot f5-4f))
-				(not (at box1 f6-4f))
-				(not (clear f7-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-4f)
+			(at box1 f7-4f)
+			(clear f6-4f)
+			(not (at-robot f5-4f))
+			(not (at box1 f6-4f))
+			(not (clear f7-4f))
 		)
 	)
 	(:action push_f5-5f_f4-5f_f3-5f_up_box0
@@ -7621,18 +6853,16 @@
 			(clear f3-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-5f)
-				(at box0 f3-5f)
-				(clear f4-5f)
-				(not (at-robot f5-5f))
-				(not (at box0 f4-5f))
-				(not (clear f3-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-5f)
+			(at box0 f3-5f)
+			(clear f4-5f)
+			(not (at-robot f5-5f))
+			(not (at box0 f4-5f))
+			(not (clear f3-5f))
 		)
 	)
 	(:action push_f5-5f_f4-5f_f3-5f_up_box1
@@ -7643,18 +6873,16 @@
 			(clear f3-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-5f)
-				(at box1 f3-5f)
-				(clear f4-5f)
-				(not (at-robot f5-5f))
-				(not (at box1 f4-5f))
-				(not (clear f3-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-5f)
+			(at box1 f3-5f)
+			(clear f4-5f)
+			(not (at-robot f5-5f))
+			(not (at box1 f4-5f))
+			(not (clear f3-5f))
 		)
 	)
 	(:action push_f5-5f_f5-4f_f5-3f_left_box0
@@ -7665,18 +6893,16 @@
 			(clear f5-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-4f)
-				(at box0 f5-3f)
-				(clear f5-4f)
-				(not (at-robot f5-5f))
-				(not (at box0 f5-4f))
-				(not (clear f5-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-4f)
+			(at box0 f5-3f)
+			(clear f5-4f)
+			(not (at-robot f5-5f))
+			(not (at box0 f5-4f))
+			(not (clear f5-3f))
 		)
 	)
 	(:action push_f5-5f_f5-4f_f5-3f_left_box1
@@ -7687,18 +6913,16 @@
 			(clear f5-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-4f)
-				(at box1 f5-3f)
-				(clear f5-4f)
-				(not (at-robot f5-5f))
-				(not (at box1 f5-4f))
-				(not (clear f5-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-4f)
+			(at box1 f5-3f)
+			(clear f5-4f)
+			(not (at-robot f5-5f))
+			(not (at box1 f5-4f))
+			(not (clear f5-3f))
 		)
 	)
 	(:action push_f5-5f_f5-6f_f5-7f_right_box0
@@ -7709,18 +6933,16 @@
 			(clear f5-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-6f)
-				(at box0 f5-7f)
-				(clear f5-6f)
-				(not (at-robot f5-5f))
-				(not (at box0 f5-6f))
-				(not (clear f5-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-6f)
+			(at box0 f5-7f)
+			(clear f5-6f)
+			(not (at-robot f5-5f))
+			(not (at box0 f5-6f))
+			(not (clear f5-7f))
 		)
 	)
 	(:action push_f5-5f_f5-6f_f5-7f_right_box1
@@ -7731,18 +6953,16 @@
 			(clear f5-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-6f)
-				(at box1 f5-7f)
-				(clear f5-6f)
-				(not (at-robot f5-5f))
-				(not (at box1 f5-6f))
-				(not (clear f5-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-6f)
+			(at box1 f5-7f)
+			(clear f5-6f)
+			(not (at-robot f5-5f))
+			(not (at box1 f5-6f))
+			(not (clear f5-7f))
 		)
 	)
 	(:action push_f5-5f_f6-5f_f7-5f_down_box0
@@ -7753,18 +6973,16 @@
 			(clear f7-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-5f)
-				(at box0 f7-5f)
-				(clear f6-5f)
-				(not (at-robot f5-5f))
-				(not (at box0 f6-5f))
-				(not (clear f7-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-5f)
+			(at box0 f7-5f)
+			(clear f6-5f)
+			(not (at-robot f5-5f))
+			(not (at box0 f6-5f))
+			(not (clear f7-5f))
 		)
 	)
 	(:action push_f5-5f_f6-5f_f7-5f_down_box1
@@ -7775,18 +6993,16 @@
 			(clear f7-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-5f)
-				(at box1 f7-5f)
-				(clear f6-5f)
-				(not (at-robot f5-5f))
-				(not (at box1 f6-5f))
-				(not (clear f7-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-5f)
+			(at box1 f7-5f)
+			(clear f6-5f)
+			(not (at-robot f5-5f))
+			(not (at box1 f6-5f))
+			(not (clear f7-5f))
 		)
 	)
 	(:action push_f5-6f_f4-6f_f3-6f_up_box0
@@ -7797,18 +7013,16 @@
 			(clear f3-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-6f)
-				(at box0 f3-6f)
-				(clear f4-6f)
-				(not (at-robot f5-6f))
-				(not (at box0 f4-6f))
-				(not (clear f3-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-6f)
+			(at box0 f3-6f)
+			(clear f4-6f)
+			(not (at-robot f5-6f))
+			(not (at box0 f4-6f))
+			(not (clear f3-6f))
 		)
 	)
 	(:action push_f5-6f_f4-6f_f3-6f_up_box1
@@ -7819,18 +7033,16 @@
 			(clear f3-6f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-6f)
-				(at box1 f3-6f)
-				(clear f4-6f)
-				(not (at-robot f5-6f))
-				(not (at box1 f4-6f))
-				(not (clear f3-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-6f)
+			(at box1 f3-6f)
+			(clear f4-6f)
+			(not (at-robot f5-6f))
+			(not (at box1 f4-6f))
+			(not (clear f3-6f))
 		)
 	)
 	(:action push_f5-6f_f5-5f_f5-4f_left_box0
@@ -7841,18 +7053,16 @@
 			(clear f5-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-5f)
-				(at box0 f5-4f)
-				(clear f5-5f)
-				(not (at-robot f5-6f))
-				(not (at box0 f5-5f))
-				(not (clear f5-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-5f)
+			(at box0 f5-4f)
+			(clear f5-5f)
+			(not (at-robot f5-6f))
+			(not (at box0 f5-5f))
+			(not (clear f5-4f))
 		)
 	)
 	(:action push_f5-6f_f5-5f_f5-4f_left_box1
@@ -7863,18 +7073,16 @@
 			(clear f5-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-5f)
-				(at box1 f5-4f)
-				(clear f5-5f)
-				(not (at-robot f5-6f))
-				(not (at box1 f5-5f))
-				(not (clear f5-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-5f)
+			(at box1 f5-4f)
+			(clear f5-5f)
+			(not (at-robot f5-6f))
+			(not (at box1 f5-5f))
+			(not (clear f5-4f))
 		)
 	)
 	(:action push_f5-7f_f4-7f_f3-7f_up_box0
@@ -7885,18 +7093,16 @@
 			(clear f3-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-7f)
-				(at box0 f3-7f)
-				(clear f4-7f)
-				(not (at-robot f5-7f))
-				(not (at box0 f4-7f))
-				(not (clear f3-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-7f)
+			(at box0 f3-7f)
+			(clear f4-7f)
+			(not (at-robot f5-7f))
+			(not (at box0 f4-7f))
+			(not (clear f3-7f))
 		)
 	)
 	(:action push_f5-7f_f4-7f_f3-7f_up_box1
@@ -7907,18 +7113,16 @@
 			(clear f3-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f4-7f)
-				(at box1 f3-7f)
-				(clear f4-7f)
-				(not (at-robot f5-7f))
-				(not (at box1 f4-7f))
-				(not (clear f3-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f4-7f)
+			(at box1 f3-7f)
+			(clear f4-7f)
+			(not (at-robot f5-7f))
+			(not (at box1 f4-7f))
+			(not (clear f3-7f))
 		)
 	)
 	(:action push_f5-7f_f5-6f_f5-5f_left_box0
@@ -7929,18 +7133,16 @@
 			(clear f5-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-6f)
-				(at box0 f5-5f)
-				(clear f5-6f)
-				(not (at-robot f5-7f))
-				(not (at box0 f5-6f))
-				(not (clear f5-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-6f)
+			(at box0 f5-5f)
+			(clear f5-6f)
+			(not (at-robot f5-7f))
+			(not (at box0 f5-6f))
+			(not (clear f5-5f))
 		)
 	)
 	(:action push_f5-7f_f5-6f_f5-5f_left_box1
@@ -7951,18 +7153,16 @@
 			(clear f5-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-6f)
-				(at box1 f5-5f)
-				(clear f5-6f)
-				(not (at-robot f5-7f))
-				(not (at box1 f5-6f))
-				(not (clear f5-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-6f)
+			(at box1 f5-5f)
+			(clear f5-6f)
+			(not (at-robot f5-7f))
+			(not (at box1 f5-6f))
+			(not (clear f5-5f))
 		)
 	)
 	(:action push_f5-7f_f6-7f_f7-7f_down_box0
@@ -7973,18 +7173,16 @@
 			(clear f7-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-7f)
-				(at box0 f7-7f)
-				(clear f6-7f)
-				(not (at-robot f5-7f))
-				(not (at box0 f6-7f))
-				(not (clear f7-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-7f)
+			(at box0 f7-7f)
+			(clear f6-7f)
+			(not (at-robot f5-7f))
+			(not (at box0 f6-7f))
+			(not (clear f7-7f))
 		)
 	)
 	(:action push_f5-7f_f6-7f_f7-7f_down_box1
@@ -7995,18 +7193,16 @@
 			(clear f7-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-7f)
-				(at box1 f7-7f)
-				(clear f6-7f)
-				(not (at-robot f5-7f))
-				(not (at box1 f6-7f))
-				(not (clear f7-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-7f)
+			(at box1 f7-7f)
+			(clear f6-7f)
+			(not (at-robot f5-7f))
+			(not (at box1 f6-7f))
+			(not (clear f7-7f))
 		)
 	)
 	(:action push_f6-0f_f5-0f_f4-0f_up_box0
@@ -8017,18 +7213,16 @@
 			(clear f4-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-0f)
-				(at box0 f4-0f)
-				(clear f5-0f)
-				(not (at-robot f6-0f))
-				(not (at box0 f5-0f))
-				(not (clear f4-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-0f)
+			(at box0 f4-0f)
+			(clear f5-0f)
+			(not (at-robot f6-0f))
+			(not (at box0 f5-0f))
+			(not (clear f4-0f))
 		)
 	)
 	(:action push_f6-0f_f5-0f_f4-0f_up_box1
@@ -8039,18 +7233,16 @@
 			(clear f4-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-0f)
-				(at box1 f4-0f)
-				(clear f5-0f)
-				(not (at-robot f6-0f))
-				(not (at box1 f5-0f))
-				(not (clear f4-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-0f)
+			(at box1 f4-0f)
+			(clear f5-0f)
+			(not (at-robot f6-0f))
+			(not (at box1 f5-0f))
+			(not (clear f4-0f))
 		)
 	)
 	(:action push_f6-2f_f5-2f_f4-2f_up_box0
@@ -8061,18 +7253,16 @@
 			(clear f4-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-2f)
-				(at box0 f4-2f)
-				(clear f5-2f)
-				(not (at-robot f6-2f))
-				(not (at box0 f5-2f))
-				(not (clear f4-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-2f)
+			(at box0 f4-2f)
+			(clear f5-2f)
+			(not (at-robot f6-2f))
+			(not (at box0 f5-2f))
+			(not (clear f4-2f))
 		)
 	)
 	(:action push_f6-2f_f5-2f_f4-2f_up_box1
@@ -8083,18 +7273,16 @@
 			(clear f4-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-2f)
-				(at box1 f4-2f)
-				(clear f5-2f)
-				(not (at-robot f6-2f))
-				(not (at box1 f5-2f))
-				(not (clear f4-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-2f)
+			(at box1 f4-2f)
+			(clear f5-2f)
+			(not (at-robot f6-2f))
+			(not (at box1 f5-2f))
+			(not (clear f4-2f))
 		)
 	)
 	(:action push_f6-2f_f6-3f_f6-4f_right_box0
@@ -8105,18 +7293,16 @@
 			(clear f6-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-3f)
-				(at box0 f6-4f)
-				(clear f6-3f)
-				(not (at-robot f6-2f))
-				(not (at box0 f6-3f))
-				(not (clear f6-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-3f)
+			(at box0 f6-4f)
+			(clear f6-3f)
+			(not (at-robot f6-2f))
+			(not (at box0 f6-3f))
+			(not (clear f6-4f))
 		)
 	)
 	(:action push_f6-2f_f6-3f_f6-4f_right_box1
@@ -8127,18 +7313,16 @@
 			(clear f6-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-3f)
-				(at box1 f6-4f)
-				(clear f6-3f)
-				(not (at-robot f6-2f))
-				(not (at box1 f6-3f))
-				(not (clear f6-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-3f)
+			(at box1 f6-4f)
+			(clear f6-3f)
+			(not (at-robot f6-2f))
+			(not (at box1 f6-3f))
+			(not (clear f6-4f))
 		)
 	)
 	(:action push_f6-3f_f5-3f_f4-3f_up_box0
@@ -8149,18 +7333,16 @@
 			(clear f4-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-3f)
-				(at box0 f4-3f)
-				(clear f5-3f)
-				(not (at-robot f6-3f))
-				(not (at box0 f5-3f))
-				(not (clear f4-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-3f)
+			(at box0 f4-3f)
+			(clear f5-3f)
+			(not (at-robot f6-3f))
+			(not (at box0 f5-3f))
+			(not (clear f4-3f))
 		)
 	)
 	(:action push_f6-3f_f5-3f_f4-3f_up_box1
@@ -8171,18 +7353,16 @@
 			(clear f4-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-3f)
-				(at box1 f4-3f)
-				(clear f5-3f)
-				(not (at-robot f6-3f))
-				(not (at box1 f5-3f))
-				(not (clear f4-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-3f)
+			(at box1 f4-3f)
+			(clear f5-3f)
+			(not (at-robot f6-3f))
+			(not (at box1 f5-3f))
+			(not (clear f4-3f))
 		)
 	)
 	(:action push_f6-3f_f6-4f_f6-5f_right_box0
@@ -8193,18 +7373,16 @@
 			(clear f6-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-4f)
-				(at box0 f6-5f)
-				(clear f6-4f)
-				(not (at-robot f6-3f))
-				(not (at box0 f6-4f))
-				(not (clear f6-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-4f)
+			(at box0 f6-5f)
+			(clear f6-4f)
+			(not (at-robot f6-3f))
+			(not (at box0 f6-4f))
+			(not (clear f6-5f))
 		)
 	)
 	(:action push_f6-3f_f6-4f_f6-5f_right_box1
@@ -8215,18 +7393,16 @@
 			(clear f6-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-4f)
-				(at box1 f6-5f)
-				(clear f6-4f)
-				(not (at-robot f6-3f))
-				(not (at box1 f6-4f))
-				(not (clear f6-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-4f)
+			(at box1 f6-5f)
+			(clear f6-4f)
+			(not (at-robot f6-3f))
+			(not (at box1 f6-4f))
+			(not (clear f6-5f))
 		)
 	)
 	(:action push_f6-4f_f5-4f_f4-4f_up_box0
@@ -8237,18 +7413,16 @@
 			(clear f4-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-4f)
-				(at box0 f4-4f)
-				(clear f5-4f)
-				(not (at-robot f6-4f))
-				(not (at box0 f5-4f))
-				(not (clear f4-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-4f)
+			(at box0 f4-4f)
+			(clear f5-4f)
+			(not (at-robot f6-4f))
+			(not (at box0 f5-4f))
+			(not (clear f4-4f))
 		)
 	)
 	(:action push_f6-4f_f5-4f_f4-4f_up_box1
@@ -8259,18 +7433,16 @@
 			(clear f4-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-4f)
-				(at box1 f4-4f)
-				(clear f5-4f)
-				(not (at-robot f6-4f))
-				(not (at box1 f5-4f))
-				(not (clear f4-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-4f)
+			(at box1 f4-4f)
+			(clear f5-4f)
+			(not (at-robot f6-4f))
+			(not (at box1 f5-4f))
+			(not (clear f4-4f))
 		)
 	)
 	(:action push_f6-4f_f6-3f_f6-2f_left_box0
@@ -8281,18 +7453,16 @@
 			(clear f6-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-3f)
-				(at box0 f6-2f)
-				(clear f6-3f)
-				(not (at-robot f6-4f))
-				(not (at box0 f6-3f))
-				(not (clear f6-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-3f)
+			(at box0 f6-2f)
+			(clear f6-3f)
+			(not (at-robot f6-4f))
+			(not (at box0 f6-3f))
+			(not (clear f6-2f))
 		)
 	)
 	(:action push_f6-4f_f6-3f_f6-2f_left_box1
@@ -8303,18 +7473,16 @@
 			(clear f6-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-3f)
-				(at box1 f6-2f)
-				(clear f6-3f)
-				(not (at-robot f6-4f))
-				(not (at box1 f6-3f))
-				(not (clear f6-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-3f)
+			(at box1 f6-2f)
+			(clear f6-3f)
+			(not (at-robot f6-4f))
+			(not (at box1 f6-3f))
+			(not (clear f6-2f))
 		)
 	)
 	(:action push_f6-5f_f5-5f_f4-5f_up_box0
@@ -8325,18 +7493,16 @@
 			(clear f4-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-5f)
-				(at box0 f4-5f)
-				(clear f5-5f)
-				(not (at-robot f6-5f))
-				(not (at box0 f5-5f))
-				(not (clear f4-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-5f)
+			(at box0 f4-5f)
+			(clear f5-5f)
+			(not (at-robot f6-5f))
+			(not (at box0 f5-5f))
+			(not (clear f4-5f))
 		)
 	)
 	(:action push_f6-5f_f5-5f_f4-5f_up_box1
@@ -8347,18 +7513,16 @@
 			(clear f4-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-5f)
-				(at box1 f4-5f)
-				(clear f5-5f)
-				(not (at-robot f6-5f))
-				(not (at box1 f5-5f))
-				(not (clear f4-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-5f)
+			(at box1 f4-5f)
+			(clear f5-5f)
+			(not (at-robot f6-5f))
+			(not (at box1 f5-5f))
+			(not (clear f4-5f))
 		)
 	)
 	(:action push_f6-5f_f6-4f_f6-3f_left_box0
@@ -8369,18 +7533,16 @@
 			(clear f6-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-4f)
-				(at box0 f6-3f)
-				(clear f6-4f)
-				(not (at-robot f6-5f))
-				(not (at box0 f6-4f))
-				(not (clear f6-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-4f)
+			(at box0 f6-3f)
+			(clear f6-4f)
+			(not (at-robot f6-5f))
+			(not (at box0 f6-4f))
+			(not (clear f6-3f))
 		)
 	)
 	(:action push_f6-5f_f6-4f_f6-3f_left_box1
@@ -8391,18 +7553,16 @@
 			(clear f6-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-4f)
-				(at box1 f6-3f)
-				(clear f6-4f)
-				(not (at-robot f6-5f))
-				(not (at box1 f6-4f))
-				(not (clear f6-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-4f)
+			(at box1 f6-3f)
+			(clear f6-4f)
+			(not (at-robot f6-5f))
+			(not (at box1 f6-4f))
+			(not (clear f6-3f))
 		)
 	)
 	(:action push_f6-7f_f5-7f_f4-7f_up_box0
@@ -8413,18 +7573,16 @@
 			(clear f4-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-7f)
-				(at box0 f4-7f)
-				(clear f5-7f)
-				(not (at-robot f6-7f))
-				(not (at box0 f5-7f))
-				(not (clear f4-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-7f)
+			(at box0 f4-7f)
+			(clear f5-7f)
+			(not (at-robot f6-7f))
+			(not (at box0 f5-7f))
+			(not (clear f4-7f))
 		)
 	)
 	(:action push_f6-7f_f5-7f_f4-7f_up_box1
@@ -8435,18 +7593,16 @@
 			(clear f4-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f5-7f)
-				(at box1 f4-7f)
-				(clear f5-7f)
-				(not (at-robot f6-7f))
-				(not (at box1 f5-7f))
-				(not (clear f4-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f5-7f)
+			(at box1 f4-7f)
+			(clear f5-7f)
+			(not (at-robot f6-7f))
+			(not (at box1 f5-7f))
+			(not (clear f4-7f))
 		)
 	)
 	(:action push_f7-0f_f6-0f_f5-0f_up_box0
@@ -8457,18 +7613,16 @@
 			(clear f5-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-0f)
-				(at box0 f5-0f)
-				(clear f6-0f)
-				(not (at-robot f7-0f))
-				(not (at box0 f6-0f))
-				(not (clear f5-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-0f)
+			(at box0 f5-0f)
+			(clear f6-0f)
+			(not (at-robot f7-0f))
+			(not (at box0 f6-0f))
+			(not (clear f5-0f))
 		)
 	)
 	(:action push_f7-0f_f6-0f_f5-0f_up_box1
@@ -8479,18 +7633,16 @@
 			(clear f5-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-0f)
-				(at box1 f5-0f)
-				(clear f6-0f)
-				(not (at-robot f7-0f))
-				(not (at box1 f6-0f))
-				(not (clear f5-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-0f)
+			(at box1 f5-0f)
+			(clear f6-0f)
+			(not (at-robot f7-0f))
+			(not (at box1 f6-0f))
+			(not (clear f5-0f))
 		)
 	)
 	(:action push_f7-0f_f7-1f_f7-2f_right_box0
@@ -8501,18 +7653,16 @@
 			(clear f7-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-1f)
-				(at box0 f7-2f)
-				(clear f7-1f)
-				(not (at-robot f7-0f))
-				(not (at box0 f7-1f))
-				(not (clear f7-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-1f)
+			(at box0 f7-2f)
+			(clear f7-1f)
+			(not (at-robot f7-0f))
+			(not (at box0 f7-1f))
+			(not (clear f7-2f))
 		)
 	)
 	(:action push_f7-0f_f7-1f_f7-2f_right_box1
@@ -8523,18 +7673,16 @@
 			(clear f7-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-1f)
-				(at box1 f7-2f)
-				(clear f7-1f)
-				(not (at-robot f7-0f))
-				(not (at box1 f7-1f))
-				(not (clear f7-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-1f)
+			(at box1 f7-2f)
+			(clear f7-1f)
+			(not (at-robot f7-0f))
+			(not (at box1 f7-1f))
+			(not (clear f7-2f))
 		)
 	)
 	(:action push_f7-1f_f7-2f_f7-3f_right_box0
@@ -8545,18 +7693,16 @@
 			(clear f7-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-2f)
-				(at box0 f7-3f)
-				(clear f7-2f)
-				(not (at-robot f7-1f))
-				(not (at box0 f7-2f))
-				(not (clear f7-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-2f)
+			(at box0 f7-3f)
+			(clear f7-2f)
+			(not (at-robot f7-1f))
+			(not (at box0 f7-2f))
+			(not (clear f7-3f))
 		)
 	)
 	(:action push_f7-1f_f7-2f_f7-3f_right_box1
@@ -8567,18 +7713,16 @@
 			(clear f7-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-2f)
-				(at box1 f7-3f)
-				(clear f7-2f)
-				(not (at-robot f7-1f))
-				(not (at box1 f7-2f))
-				(not (clear f7-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-2f)
+			(at box1 f7-3f)
+			(clear f7-2f)
+			(not (at-robot f7-1f))
+			(not (at box1 f7-2f))
+			(not (clear f7-3f))
 		)
 	)
 	(:action push_f7-2f_f6-2f_f5-2f_up_box0
@@ -8589,18 +7733,16 @@
 			(clear f5-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-2f)
-				(at box0 f5-2f)
-				(clear f6-2f)
-				(not (at-robot f7-2f))
-				(not (at box0 f6-2f))
-				(not (clear f5-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-2f)
+			(at box0 f5-2f)
+			(clear f6-2f)
+			(not (at-robot f7-2f))
+			(not (at box0 f6-2f))
+			(not (clear f5-2f))
 		)
 	)
 	(:action push_f7-2f_f6-2f_f5-2f_up_box1
@@ -8611,18 +7753,16 @@
 			(clear f5-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-2f)
-				(at box1 f5-2f)
-				(clear f6-2f)
-				(not (at-robot f7-2f))
-				(not (at box1 f6-2f))
-				(not (clear f5-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-2f)
+			(at box1 f5-2f)
+			(clear f6-2f)
+			(not (at-robot f7-2f))
+			(not (at box1 f6-2f))
+			(not (clear f5-2f))
 		)
 	)
 	(:action push_f7-2f_f7-1f_f7-0f_left_box0
@@ -8633,18 +7773,16 @@
 			(clear f7-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-1f)
-				(at box0 f7-0f)
-				(clear f7-1f)
-				(not (at-robot f7-2f))
-				(not (at box0 f7-1f))
-				(not (clear f7-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-1f)
+			(at box0 f7-0f)
+			(clear f7-1f)
+			(not (at-robot f7-2f))
+			(not (at box0 f7-1f))
+			(not (clear f7-0f))
 		)
 	)
 	(:action push_f7-2f_f7-1f_f7-0f_left_box1
@@ -8655,18 +7793,16 @@
 			(clear f7-0f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-1f)
-				(at box1 f7-0f)
-				(clear f7-1f)
-				(not (at-robot f7-2f))
-				(not (at box1 f7-1f))
-				(not (clear f7-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-1f)
+			(at box1 f7-0f)
+			(clear f7-1f)
+			(not (at-robot f7-2f))
+			(not (at box1 f7-1f))
+			(not (clear f7-0f))
 		)
 	)
 	(:action push_f7-2f_f7-3f_f7-4f_right_box0
@@ -8677,18 +7813,16 @@
 			(clear f7-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-3f)
-				(at box0 f7-4f)
-				(clear f7-3f)
-				(not (at-robot f7-2f))
-				(not (at box0 f7-3f))
-				(not (clear f7-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-3f)
+			(at box0 f7-4f)
+			(clear f7-3f)
+			(not (at-robot f7-2f))
+			(not (at box0 f7-3f))
+			(not (clear f7-4f))
 		)
 	)
 	(:action push_f7-2f_f7-3f_f7-4f_right_box1
@@ -8699,18 +7833,16 @@
 			(clear f7-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-3f)
-				(at box1 f7-4f)
-				(clear f7-3f)
-				(not (at-robot f7-2f))
-				(not (at box1 f7-3f))
-				(not (clear f7-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-3f)
+			(at box1 f7-4f)
+			(clear f7-3f)
+			(not (at-robot f7-2f))
+			(not (at box1 f7-3f))
+			(not (clear f7-4f))
 		)
 	)
 	(:action push_f7-3f_f6-3f_f5-3f_up_box0
@@ -8721,18 +7853,16 @@
 			(clear f5-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-3f)
-				(at box0 f5-3f)
-				(clear f6-3f)
-				(not (at-robot f7-3f))
-				(not (at box0 f6-3f))
-				(not (clear f5-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-3f)
+			(at box0 f5-3f)
+			(clear f6-3f)
+			(not (at-robot f7-3f))
+			(not (at box0 f6-3f))
+			(not (clear f5-3f))
 		)
 	)
 	(:action push_f7-3f_f6-3f_f5-3f_up_box1
@@ -8743,18 +7873,16 @@
 			(clear f5-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-3f)
-				(at box1 f5-3f)
-				(clear f6-3f)
-				(not (at-robot f7-3f))
-				(not (at box1 f6-3f))
-				(not (clear f5-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-3f)
+			(at box1 f5-3f)
+			(clear f6-3f)
+			(not (at-robot f7-3f))
+			(not (at box1 f6-3f))
+			(not (clear f5-3f))
 		)
 	)
 	(:action push_f7-3f_f7-2f_f7-1f_left_box0
@@ -8765,18 +7893,16 @@
 			(clear f7-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-2f)
-				(at box0 f7-1f)
-				(clear f7-2f)
-				(not (at-robot f7-3f))
-				(not (at box0 f7-2f))
-				(not (clear f7-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-2f)
+			(at box0 f7-1f)
+			(clear f7-2f)
+			(not (at-robot f7-3f))
+			(not (at box0 f7-2f))
+			(not (clear f7-1f))
 		)
 	)
 	(:action push_f7-3f_f7-2f_f7-1f_left_box1
@@ -8787,18 +7913,16 @@
 			(clear f7-1f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-2f)
-				(at box1 f7-1f)
-				(clear f7-2f)
-				(not (at-robot f7-3f))
-				(not (at box1 f7-2f))
-				(not (clear f7-1f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-2f)
+			(at box1 f7-1f)
+			(clear f7-2f)
+			(not (at-robot f7-3f))
+			(not (at box1 f7-2f))
+			(not (clear f7-1f))
 		)
 	)
 	(:action push_f7-3f_f7-4f_f7-5f_right_box0
@@ -8809,18 +7933,16 @@
 			(clear f7-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-4f)
-				(at box0 f7-5f)
-				(clear f7-4f)
-				(not (at-robot f7-3f))
-				(not (at box0 f7-4f))
-				(not (clear f7-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-4f)
+			(at box0 f7-5f)
+			(clear f7-4f)
+			(not (at-robot f7-3f))
+			(not (at box0 f7-4f))
+			(not (clear f7-5f))
 		)
 	)
 	(:action push_f7-3f_f7-4f_f7-5f_right_box1
@@ -8831,18 +7953,16 @@
 			(clear f7-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-4f)
-				(at box1 f7-5f)
-				(clear f7-4f)
-				(not (at-robot f7-3f))
-				(not (at box1 f7-4f))
-				(not (clear f7-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-4f)
+			(at box1 f7-5f)
+			(clear f7-4f)
+			(not (at-robot f7-3f))
+			(not (at box1 f7-4f))
+			(not (clear f7-5f))
 		)
 	)
 	(:action push_f7-4f_f6-4f_f5-4f_up_box0
@@ -8853,18 +7973,16 @@
 			(clear f5-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-4f)
-				(at box0 f5-4f)
-				(clear f6-4f)
-				(not (at-robot f7-4f))
-				(not (at box0 f6-4f))
-				(not (clear f5-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-4f)
+			(at box0 f5-4f)
+			(clear f6-4f)
+			(not (at-robot f7-4f))
+			(not (at box0 f6-4f))
+			(not (clear f5-4f))
 		)
 	)
 	(:action push_f7-4f_f6-4f_f5-4f_up_box1
@@ -8875,18 +7993,16 @@
 			(clear f5-4f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-4f)
-				(at box1 f5-4f)
-				(clear f6-4f)
-				(not (at-robot f7-4f))
-				(not (at box1 f6-4f))
-				(not (clear f5-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-4f)
+			(at box1 f5-4f)
+			(clear f6-4f)
+			(not (at-robot f7-4f))
+			(not (at box1 f6-4f))
+			(not (clear f5-4f))
 		)
 	)
 	(:action push_f7-4f_f7-3f_f7-2f_left_box0
@@ -8897,18 +8013,16 @@
 			(clear f7-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-3f)
-				(at box0 f7-2f)
-				(clear f7-3f)
-				(not (at-robot f7-4f))
-				(not (at box0 f7-3f))
-				(not (clear f7-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-3f)
+			(at box0 f7-2f)
+			(clear f7-3f)
+			(not (at-robot f7-4f))
+			(not (at box0 f7-3f))
+			(not (clear f7-2f))
 		)
 	)
 	(:action push_f7-4f_f7-3f_f7-2f_left_box1
@@ -8919,18 +8033,16 @@
 			(clear f7-2f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-3f)
-				(at box1 f7-2f)
-				(clear f7-3f)
-				(not (at-robot f7-4f))
-				(not (at box1 f7-3f))
-				(not (clear f7-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-3f)
+			(at box1 f7-2f)
+			(clear f7-3f)
+			(not (at-robot f7-4f))
+			(not (at box1 f7-3f))
+			(not (clear f7-2f))
 		)
 	)
 	(:action push_f7-5f_f6-5f_f5-5f_up_box0
@@ -8941,18 +8053,16 @@
 			(clear f5-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-5f)
-				(at box0 f5-5f)
-				(clear f6-5f)
-				(not (at-robot f7-5f))
-				(not (at box0 f6-5f))
-				(not (clear f5-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-5f)
+			(at box0 f5-5f)
+			(clear f6-5f)
+			(not (at-robot f7-5f))
+			(not (at box0 f6-5f))
+			(not (clear f5-5f))
 		)
 	)
 	(:action push_f7-5f_f6-5f_f5-5f_up_box1
@@ -8963,18 +8073,16 @@
 			(clear f5-5f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-5f)
-				(at box1 f5-5f)
-				(clear f6-5f)
-				(not (at-robot f7-5f))
-				(not (at box1 f6-5f))
-				(not (clear f5-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-5f)
+			(at box1 f5-5f)
+			(clear f6-5f)
+			(not (at-robot f7-5f))
+			(not (at box1 f6-5f))
+			(not (clear f5-5f))
 		)
 	)
 	(:action push_f7-5f_f7-4f_f7-3f_left_box0
@@ -8985,18 +8093,16 @@
 			(clear f7-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-4f)
-				(at box0 f7-3f)
-				(clear f7-4f)
-				(not (at-robot f7-5f))
-				(not (at box0 f7-4f))
-				(not (clear f7-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-4f)
+			(at box0 f7-3f)
+			(clear f7-4f)
+			(not (at-robot f7-5f))
+			(not (at box0 f7-4f))
+			(not (clear f7-3f))
 		)
 	)
 	(:action push_f7-5f_f7-4f_f7-3f_left_box1
@@ -9007,18 +8113,16 @@
 			(clear f7-3f)
 		)
 		:effect (and
-			(and
-				(at-robot f7-4f)
-				(at box1 f7-3f)
-				(clear f7-4f)
-				(not (at-robot f7-5f))
-				(not (at box1 f7-4f))
-				(not (clear f7-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f7-4f)
+			(at box1 f7-3f)
+			(clear f7-4f)
+			(not (at-robot f7-5f))
+			(not (at box1 f7-4f))
+			(not (clear f7-3f))
 		)
 	)
 	(:action push_f7-7f_f6-7f_f5-7f_up_box0
@@ -9029,18 +8133,16 @@
 			(clear f5-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-7f)
-				(at box0 f5-7f)
-				(clear f6-7f)
-				(not (at-robot f7-7f))
-				(not (at box0 f6-7f))
-				(not (clear f5-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-7f)
+			(at box0 f5-7f)
+			(clear f6-7f)
+			(not (at-robot f7-7f))
+			(not (at box0 f6-7f))
+			(not (clear f5-7f))
 		)
 	)
 	(:action push_f7-7f_f6-7f_f5-7f_up_box1
@@ -9051,18 +8153,16 @@
 			(clear f5-7f)
 		)
 		:effect (and
-			(and
-				(at-robot f6-7f)
-				(at box1 f5-7f)
-				(clear f6-7f)
-				(not (at-robot f7-7f))
-				(not (at box1 f6-7f))
-				(not (clear f5-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-robot f6-7f)
+			(at box1 f5-7f)
+			(clear f6-7f)
+			(not (at-robot f7-7f))
+			(not (at box1 f6-7f))
+			(not (clear f5-7f))
 		)
 	)
 	(:action observe0_move_f3-0f_f2-0f_up
@@ -9073,15 +8173,13 @@
 			(at-robot f3-0f)
 		)
 		:effect (and
-			(and
-				(observation0)
-				(at-robot f2-0f)
-				(not (at-robot f3-0f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation0)
+			(at-robot f2-0f)
+			(not (at-robot f3-0f))
 		)
 	)
 	(:action observe1_move_f1-2f_f1-3f_right
@@ -9093,15 +8191,13 @@
 			(not (observation1))
 		)
 		:effect (and
-			(and
-				(observation1)
-				(at-robot f1-3f)
-				(not (at-robot f1-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation1)
+			(at-robot f1-3f)
+			(not (at-robot f1-2f))
 		)
 	)
 	(:action observe2_move_f1-3f_f1-4f_right
@@ -9113,15 +8209,13 @@
 			(not (observation2))
 		)
 		:effect (and
-			(and
-				(observation2)
-				(at-robot f1-4f)
-				(not (at-robot f1-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation2)
+			(at-robot f1-4f)
+			(not (at-robot f1-3f))
 		)
 	)
 	(:action observe3_move_f1-4f_f0-4f_up
@@ -9133,15 +8227,13 @@
 			(not (observation3))
 		)
 		:effect (and
-			(and
-				(observation3)
-				(at-robot f0-4f)
-				(not (at-robot f1-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation3)
+			(at-robot f0-4f)
+			(not (at-robot f1-4f))
 		)
 	)
 	(:action observe4_push_f0-5f_f1-5f_f2-5f_down_box0
@@ -9154,19 +8246,17 @@
 			(not (observation4))
 		)
 		:effect (and
-			(and
-				(observation4)
-				(at-robot f1-5f)
-				(at box0 f2-5f)
-				(clear f1-5f)
-				(not (at-robot f0-5f))
-				(not (at box0 f1-5f))
-				(not (clear f2-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation4)
+			(at-robot f1-5f)
+			(at box0 f2-5f)
+			(clear f1-5f)
+			(not (at-robot f0-5f))
+			(not (at box0 f1-5f))
+			(not (clear f2-5f))
 		)
 	)
 	(:action observe5_push_f1-5f_f2-5f_f3-5f_down_box0
@@ -9179,19 +8269,17 @@
 			(not (observation5))
 		)
 		:effect (and
-			(and
-				(observation5)
-				(at-robot f2-5f)
-				(at box0 f3-5f)
-				(clear f2-5f)
-				(not (at-robot f1-5f))
-				(not (at box0 f2-5f))
-				(not (clear f3-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation5)
+			(at-robot f2-5f)
+			(at box0 f3-5f)
+			(clear f2-5f)
+			(not (at-robot f1-5f))
+			(not (at box0 f2-5f))
+			(not (clear f3-5f))
 		)
 	)
 	(:action observe6_move_f2-4f_f3-4f_down
@@ -9203,15 +8291,13 @@
 			(not (observation6))
 		)
 		:effect (and
-			(and
-				(observation6)
-				(at-robot f3-4f)
-				(not (at-robot f2-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation6)
+			(at-robot f3-4f)
+			(not (at-robot f2-4f))
 		)
 	)
 	(:action observe7_move_f5-4f_f5-3f_left
@@ -9223,15 +8309,13 @@
 			(not (observation7))
 		)
 		:effect (and
-			(and
-				(observation7)
-				(at-robot f5-3f)
-				(not (at-robot f5-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation7)
+			(at-robot f5-3f)
+			(not (at-robot f5-4f))
 		)
 	)
 	(:action observe8_push_f3-3f_f2-3f_f1-3f_up_box1
@@ -9244,19 +8328,17 @@
 			(not (observation8))
 		)
 		:effect (and
-			(and
-				(observation8)
-				(at-robot f2-3f)
-				(at box1 f1-3f)
-				(clear f2-3f)
-				(not (at-robot f3-3f))
-				(not (at box1 f2-3f))
-				(not (clear f1-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation8)
+			(at-robot f2-3f)
+			(at box1 f1-3f)
+			(clear f2-3f)
+			(not (at-robot f3-3f))
+			(not (at box1 f2-3f))
+			(not (clear f1-3f))
 		)
 	)
 	(:action observe9_push_f2-3f_f1-3f_f0-3f_up_box1
@@ -9269,19 +8351,17 @@
 			(not (observation9))
 		)
 		:effect (and
-			(and
-				(observation9)
-				(at-robot f1-3f)
-				(at box1 f0-3f)
-				(clear f1-3f)
-				(not (at-robot f2-3f))
-				(not (at box1 f1-3f))
-				(not (clear f0-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation9)
+			(at-robot f1-3f)
+			(at box1 f0-3f)
+			(clear f1-3f)
+			(not (at-robot f2-3f))
+			(not (at box1 f1-3f))
+			(not (clear f0-3f))
 		)
 	)
 	(:action observe10_push_f0-4f_f0-3f_f0-2f_left_box1
@@ -9294,19 +8374,17 @@
 			(not (observation10))
 		)
 		:effect (and
-			(and
-				(observation10)
-				(at-robot f0-3f)
-				(at box1 f0-2f)
-				(clear f0-3f)
-				(not (at-robot f0-4f))
-				(not (at box1 f0-3f))
-				(not (clear f0-2f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation10)
+			(at-robot f0-3f)
+			(at box1 f0-2f)
+			(clear f0-3f)
+			(not (at-robot f0-4f))
+			(not (at box1 f0-3f))
+			(not (clear f0-2f))
 		)
 	)
 	(:action observe11_move_f1-4f_f2-4f_down
@@ -9318,15 +8396,13 @@
 			(not (observation11))
 		)
 		:effect (and
-			(and
-				(observation11)
-				(at-robot f2-4f)
-				(not (at-robot f1-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation11)
+			(at-robot f2-4f)
+			(not (at-robot f1-4f))
 		)
 	)
 	(:action observe12_move_f2-4f_f3-4f_down
@@ -9338,15 +8414,13 @@
 			(not (observation12))
 		)
 		:effect (and
-			(and
-				(observation12)
-				(at-robot f3-4f)
-				(not (at-robot f2-4f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation12)
+			(at-robot f3-4f)
+			(not (at-robot f2-4f))
 		)
 	)
 	(:action observe13_move_f4-6f_f4-7f_right
@@ -9358,15 +8432,13 @@
 			(not (observation13))
 		)
 		:effect (and
-			(and
-				(observation13)
-				(at-robot f4-7f)
-				(not (at-robot f4-6f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation13)
+			(at-robot f4-7f)
+			(not (at-robot f4-6f))
 		)
 	)
 	(:action observe14_move_f4-7f_f3-7f_up
@@ -9378,15 +8450,13 @@
 			(not (observation14))
 		)
 		:effect (and
-			(and
-				(observation14)
-				(at-robot f3-7f)
-				(not (at-robot f4-7f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation14)
+			(at-robot f3-7f)
+			(not (at-robot f4-7f))
 		)
 	)
 	(:action observe15_push_f3-7f_f3-6f_f3-5f_left_box0
@@ -9399,19 +8469,17 @@
 			(not (observation15))
 		)
 		:effect (and
-			(and
-				(observation15)
-				(at-robot f3-6f)
-				(at box0 f3-5f)
-				(clear f3-6f)
-				(not (at-robot f3-7f))
-				(not (at box0 f3-6f))
-				(not (clear f3-5f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation15)
+			(at-robot f3-6f)
+			(at box0 f3-5f)
+			(clear f3-6f)
+			(not (at-robot f3-7f))
+			(not (at box0 f3-6f))
+			(not (clear f3-5f))
 		)
 	)
 	(:action observe16_push_f3-5f_f3-4f_f3-3f_left_box0
@@ -9424,19 +8492,17 @@
 			(not (observation16))
 		)
 		:effect (and
-			(and
-				(observation16)
-				(at-robot f3-4f)
-				(at box0 f3-3f)
-				(clear f3-4f)
-				(not (at-robot f3-5f))
-				(not (at box0 f3-4f))
-				(not (clear f3-3f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation16)
+			(at-robot f3-4f)
+			(at box0 f3-3f)
+			(clear f3-4f)
+			(not (at-robot f3-5f))
+			(not (at box0 f3-4f))
+			(not (clear f3-3f))
 		)
 	)
 )
