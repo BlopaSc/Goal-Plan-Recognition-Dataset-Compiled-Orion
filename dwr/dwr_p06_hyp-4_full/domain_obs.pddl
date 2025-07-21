@@ -118,16 +118,14 @@
 			(not (occupied l2))
 		)
 		:effect (and
-			(and
-				(at r1 l2)
-				(not (occupied l1))
-				(occupied l2)
-				(not (at r1 l1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at r1 l2)
+			(not (occupied l1))
+			(occupied l2)
+			(not (at r1 l1))
 		)
 	)
 	(:action move_r1_l1_l4
@@ -137,16 +135,14 @@
 			(not (occupied l4))
 		)
 		:effect (and
-			(and
-				(at r1 l4)
-				(not (occupied l1))
-				(occupied l4)
-				(not (at r1 l1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at r1 l4)
+			(not (occupied l1))
+			(occupied l4)
+			(not (at r1 l1))
 		)
 	)
 	(:action move_r1_l2_l1
@@ -156,16 +152,14 @@
 			(not (occupied l1))
 		)
 		:effect (and
-			(and
-				(at r1 l1)
-				(not (occupied l2))
-				(occupied l1)
-				(not (at r1 l2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at r1 l1)
+			(not (occupied l2))
+			(occupied l1)
+			(not (at r1 l2))
 		)
 	)
 	(:action move_r1_l2_l3
@@ -175,16 +169,14 @@
 			(not (occupied l3))
 		)
 		:effect (and
-			(and
-				(at r1 l3)
-				(not (occupied l2))
-				(occupied l3)
-				(not (at r1 l2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at r1 l3)
+			(not (occupied l2))
+			(occupied l3)
+			(not (at r1 l2))
 		)
 	)
 	(:action move_r1_l2_l5
@@ -194,16 +186,14 @@
 			(not (occupied l5))
 		)
 		:effect (and
-			(and
-				(at r1 l5)
-				(not (occupied l2))
-				(occupied l5)
-				(not (at r1 l2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at r1 l5)
+			(not (occupied l2))
+			(occupied l5)
+			(not (at r1 l2))
 		)
 	)
 	(:action move_r1_l3_l2
@@ -213,16 +203,14 @@
 			(not (occupied l2))
 		)
 		:effect (and
-			(and
-				(at r1 l2)
-				(not (occupied l3))
-				(occupied l2)
-				(not (at r1 l3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at r1 l2)
+			(not (occupied l3))
+			(occupied l2)
+			(not (at r1 l3))
 		)
 	)
 	(:action move_r1_l3_l6
@@ -232,16 +220,14 @@
 			(not (occupied l6))
 		)
 		:effect (and
-			(and
-				(at r1 l6)
-				(not (occupied l3))
-				(occupied l6)
-				(not (at r1 l3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at r1 l6)
+			(not (occupied l3))
+			(occupied l6)
+			(not (at r1 l3))
 		)
 	)
 	(:action move_r1_l4_l1
@@ -251,16 +237,14 @@
 			(not (occupied l1))
 		)
 		:effect (and
-			(and
-				(at r1 l1)
-				(not (occupied l4))
-				(occupied l1)
-				(not (at r1 l4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at r1 l1)
+			(not (occupied l4))
+			(occupied l1)
+			(not (at r1 l4))
 		)
 	)
 	(:action move_r1_l4_l5
@@ -270,16 +254,14 @@
 			(not (occupied l5))
 		)
 		:effect (and
-			(and
-				(at r1 l5)
-				(not (occupied l4))
-				(occupied l5)
-				(not (at r1 l4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at r1 l5)
+			(not (occupied l4))
+			(occupied l5)
+			(not (at r1 l4))
 		)
 	)
 	(:action move_r1_l5_l2
@@ -289,16 +271,14 @@
 			(not (occupied l2))
 		)
 		:effect (and
-			(and
-				(at r1 l2)
-				(not (occupied l5))
-				(occupied l2)
-				(not (at r1 l5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at r1 l2)
+			(not (occupied l5))
+			(occupied l2)
+			(not (at r1 l5))
 		)
 	)
 	(:action move_r1_l5_l4
@@ -308,16 +288,14 @@
 			(not (occupied l4))
 		)
 		:effect (and
-			(and
-				(at r1 l4)
-				(not (occupied l5))
-				(occupied l4)
-				(not (at r1 l5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at r1 l4)
+			(not (occupied l5))
+			(occupied l4)
+			(not (at r1 l5))
 		)
 	)
 	(:action move_r1_l5_l6
@@ -327,16 +305,14 @@
 			(not (occupied l6))
 		)
 		:effect (and
-			(and
-				(at r1 l6)
-				(not (occupied l5))
-				(occupied l6)
-				(not (at r1 l5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at r1 l6)
+			(not (occupied l5))
+			(occupied l6)
+			(not (at r1 l5))
 		)
 	)
 	(:action move_r1_l6_l3
@@ -346,16 +322,14 @@
 			(not (occupied l3))
 		)
 		:effect (and
-			(and
-				(at r1 l3)
-				(not (occupied l6))
-				(occupied l3)
-				(not (at r1 l6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at r1 l3)
+			(not (occupied l6))
+			(occupied l3)
+			(not (at r1 l6))
 		)
 	)
 	(:action move_r1_l6_l5
@@ -365,16 +339,14 @@
 			(not (occupied l5))
 		)
 		:effect (and
-			(and
-				(at r1 l5)
-				(not (occupied l6))
-				(occupied l5)
-				(not (at r1 l6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at r1 l5)
+			(not (occupied l6))
+			(occupied l5)
+			(not (at r1 l6))
 		)
 	)
 	(:action load_k1_ca_r1_l1
@@ -385,16 +357,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 ca)
-				(not (unloaded r1))
-				(empty k1)
-				(not (holding k1 ca))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 ca)
+			(not (unloaded r1))
+			(empty k1)
+			(not (holding k1 ca))
 		)
 	)
 	(:action load_k1_cb_r1_l1
@@ -405,16 +375,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 cb)
-				(not (unloaded r1))
-				(empty k1)
-				(not (holding k1 cb))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 cb)
+			(not (unloaded r1))
+			(empty k1)
+			(not (holding k1 cb))
 		)
 	)
 	(:action load_k1_cc_r1_l1
@@ -425,16 +393,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 cc)
-				(not (unloaded r1))
-				(empty k1)
-				(not (holding k1 cc))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 cc)
+			(not (unloaded r1))
+			(empty k1)
+			(not (holding k1 cc))
 		)
 	)
 	(:action load_k1_cd_r1_l1
@@ -445,16 +411,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 cd)
-				(not (unloaded r1))
-				(empty k1)
-				(not (holding k1 cd))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 cd)
+			(not (unloaded r1))
+			(empty k1)
+			(not (holding k1 cd))
 		)
 	)
 	(:action load_k1_ce_r1_l1
@@ -465,16 +429,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 ce)
-				(not (unloaded r1))
-				(empty k1)
-				(not (holding k1 ce))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 ce)
+			(not (unloaded r1))
+			(empty k1)
+			(not (holding k1 ce))
 		)
 	)
 	(:action load_k1_cf_r1_l1
@@ -485,16 +447,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 cf)
-				(not (unloaded r1))
-				(empty k1)
-				(not (holding k1 cf))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 cf)
+			(not (unloaded r1))
+			(empty k1)
+			(not (holding k1 cf))
 		)
 	)
 	(:action load_k2_ca_r1_l3
@@ -505,16 +465,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 ca)
-				(not (unloaded r1))
-				(empty k2)
-				(not (holding k2 ca))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 ca)
+			(not (unloaded r1))
+			(empty k2)
+			(not (holding k2 ca))
 		)
 	)
 	(:action load_k2_cb_r1_l3
@@ -525,16 +483,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 cb)
-				(not (unloaded r1))
-				(empty k2)
-				(not (holding k2 cb))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 cb)
+			(not (unloaded r1))
+			(empty k2)
+			(not (holding k2 cb))
 		)
 	)
 	(:action load_k2_cc_r1_l3
@@ -545,16 +501,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 cc)
-				(not (unloaded r1))
-				(empty k2)
-				(not (holding k2 cc))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 cc)
+			(not (unloaded r1))
+			(empty k2)
+			(not (holding k2 cc))
 		)
 	)
 	(:action load_k2_cd_r1_l3
@@ -565,16 +519,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 cd)
-				(not (unloaded r1))
-				(empty k2)
-				(not (holding k2 cd))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 cd)
+			(not (unloaded r1))
+			(empty k2)
+			(not (holding k2 cd))
 		)
 	)
 	(:action load_k2_ce_r1_l3
@@ -585,16 +537,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 ce)
-				(not (unloaded r1))
-				(empty k2)
-				(not (holding k2 ce))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 ce)
+			(not (unloaded r1))
+			(empty k2)
+			(not (holding k2 ce))
 		)
 	)
 	(:action load_k2_cf_r1_l3
@@ -605,16 +555,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 cf)
-				(not (unloaded r1))
-				(empty k2)
-				(not (holding k2 cf))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 cf)
+			(not (unloaded r1))
+			(empty k2)
+			(not (holding k2 cf))
 		)
 	)
 	(:action load_k3_ca_r1_l4
@@ -625,16 +573,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 ca)
-				(not (unloaded r1))
-				(empty k3)
-				(not (holding k3 ca))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 ca)
+			(not (unloaded r1))
+			(empty k3)
+			(not (holding k3 ca))
 		)
 	)
 	(:action load_k3_cb_r1_l4
@@ -645,16 +591,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 cb)
-				(not (unloaded r1))
-				(empty k3)
-				(not (holding k3 cb))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 cb)
+			(not (unloaded r1))
+			(empty k3)
+			(not (holding k3 cb))
 		)
 	)
 	(:action load_k3_cc_r1_l4
@@ -665,16 +609,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 cc)
-				(not (unloaded r1))
-				(empty k3)
-				(not (holding k3 cc))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 cc)
+			(not (unloaded r1))
+			(empty k3)
+			(not (holding k3 cc))
 		)
 	)
 	(:action load_k3_cd_r1_l4
@@ -685,16 +627,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 cd)
-				(not (unloaded r1))
-				(empty k3)
-				(not (holding k3 cd))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 cd)
+			(not (unloaded r1))
+			(empty k3)
+			(not (holding k3 cd))
 		)
 	)
 	(:action load_k3_ce_r1_l4
@@ -705,16 +645,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 ce)
-				(not (unloaded r1))
-				(empty k3)
-				(not (holding k3 ce))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 ce)
+			(not (unloaded r1))
+			(empty k3)
+			(not (holding k3 ce))
 		)
 	)
 	(:action load_k3_cf_r1_l4
@@ -725,16 +663,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 cf)
-				(not (unloaded r1))
-				(empty k3)
-				(not (holding k3 cf))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 cf)
+			(not (unloaded r1))
+			(empty k3)
+			(not (holding k3 cf))
 		)
 	)
 	(:action load_k4_ca_r1_l6
@@ -745,16 +681,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 ca)
-				(not (unloaded r1))
-				(empty k4)
-				(not (holding k4 ca))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 ca)
+			(not (unloaded r1))
+			(empty k4)
+			(not (holding k4 ca))
 		)
 	)
 	(:action load_k4_cb_r1_l6
@@ -765,16 +699,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 cb)
-				(not (unloaded r1))
-				(empty k4)
-				(not (holding k4 cb))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 cb)
+			(not (unloaded r1))
+			(empty k4)
+			(not (holding k4 cb))
 		)
 	)
 	(:action load_k4_cc_r1_l6
@@ -785,16 +717,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 cc)
-				(not (unloaded r1))
-				(empty k4)
-				(not (holding k4 cc))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 cc)
+			(not (unloaded r1))
+			(empty k4)
+			(not (holding k4 cc))
 		)
 	)
 	(:action load_k4_cd_r1_l6
@@ -805,16 +735,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 cd)
-				(not (unloaded r1))
-				(empty k4)
-				(not (holding k4 cd))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 cd)
+			(not (unloaded r1))
+			(empty k4)
+			(not (holding k4 cd))
 		)
 	)
 	(:action load_k4_ce_r1_l6
@@ -825,16 +753,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 ce)
-				(not (unloaded r1))
-				(empty k4)
-				(not (holding k4 ce))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 ce)
+			(not (unloaded r1))
+			(empty k4)
+			(not (holding k4 ce))
 		)
 	)
 	(:action load_k4_cf_r1_l6
@@ -845,16 +771,14 @@
 			(unloaded r1)
 		)
 		:effect (and
-			(and
-				(loaded r1 cf)
-				(not (unloaded r1))
-				(empty k4)
-				(not (holding k4 cf))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(loaded r1 cf)
+			(not (unloaded r1))
+			(empty k4)
+			(not (holding k4 cf))
 		)
 	)
 	(:action unload_k1_ca_r1_l1
@@ -865,16 +789,14 @@
 			(empty k1)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k1 ca)
-				(not (loaded r1 ca))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k1 ca)
+			(not (loaded r1 ca))
+			(not (empty k1))
 		)
 	)
 	(:action unload_k1_cb_r1_l1
@@ -885,16 +807,14 @@
 			(empty k1)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k1 cb)
-				(not (loaded r1 cb))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k1 cb)
+			(not (loaded r1 cb))
+			(not (empty k1))
 		)
 	)
 	(:action unload_k1_cc_r1_l1
@@ -905,16 +825,14 @@
 			(empty k1)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k1 cc)
-				(not (loaded r1 cc))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k1 cc)
+			(not (loaded r1 cc))
+			(not (empty k1))
 		)
 	)
 	(:action unload_k1_cd_r1_l1
@@ -925,16 +843,14 @@
 			(empty k1)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k1 cd)
-				(not (loaded r1 cd))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k1 cd)
+			(not (loaded r1 cd))
+			(not (empty k1))
 		)
 	)
 	(:action unload_k1_ce_r1_l1
@@ -945,16 +861,14 @@
 			(empty k1)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k1 ce)
-				(not (loaded r1 ce))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k1 ce)
+			(not (loaded r1 ce))
+			(not (empty k1))
 		)
 	)
 	(:action unload_k1_cf_r1_l1
@@ -965,16 +879,14 @@
 			(empty k1)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k1 cf)
-				(not (loaded r1 cf))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k1 cf)
+			(not (loaded r1 cf))
+			(not (empty k1))
 		)
 	)
 	(:action unload_k2_ca_r1_l3
@@ -985,16 +897,14 @@
 			(empty k2)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k2 ca)
-				(not (loaded r1 ca))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k2 ca)
+			(not (loaded r1 ca))
+			(not (empty k2))
 		)
 	)
 	(:action unload_k2_cb_r1_l3
@@ -1005,16 +915,14 @@
 			(empty k2)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k2 cb)
-				(not (loaded r1 cb))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k2 cb)
+			(not (loaded r1 cb))
+			(not (empty k2))
 		)
 	)
 	(:action unload_k2_cc_r1_l3
@@ -1025,16 +933,14 @@
 			(empty k2)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k2 cc)
-				(not (loaded r1 cc))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k2 cc)
+			(not (loaded r1 cc))
+			(not (empty k2))
 		)
 	)
 	(:action unload_k2_cd_r1_l3
@@ -1045,16 +951,14 @@
 			(empty k2)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k2 cd)
-				(not (loaded r1 cd))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k2 cd)
+			(not (loaded r1 cd))
+			(not (empty k2))
 		)
 	)
 	(:action unload_k2_ce_r1_l3
@@ -1065,16 +969,14 @@
 			(empty k2)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k2 ce)
-				(not (loaded r1 ce))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k2 ce)
+			(not (loaded r1 ce))
+			(not (empty k2))
 		)
 	)
 	(:action unload_k2_cf_r1_l3
@@ -1085,16 +987,14 @@
 			(empty k2)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k2 cf)
-				(not (loaded r1 cf))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k2 cf)
+			(not (loaded r1 cf))
+			(not (empty k2))
 		)
 	)
 	(:action unload_k3_ca_r1_l4
@@ -1105,16 +1005,14 @@
 			(empty k3)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k3 ca)
-				(not (loaded r1 ca))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k3 ca)
+			(not (loaded r1 ca))
+			(not (empty k3))
 		)
 	)
 	(:action unload_k3_cb_r1_l4
@@ -1125,16 +1023,14 @@
 			(empty k3)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k3 cb)
-				(not (loaded r1 cb))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k3 cb)
+			(not (loaded r1 cb))
+			(not (empty k3))
 		)
 	)
 	(:action unload_k3_cc_r1_l4
@@ -1145,16 +1041,14 @@
 			(empty k3)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k3 cc)
-				(not (loaded r1 cc))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k3 cc)
+			(not (loaded r1 cc))
+			(not (empty k3))
 		)
 	)
 	(:action unload_k3_cd_r1_l4
@@ -1165,16 +1059,14 @@
 			(empty k3)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k3 cd)
-				(not (loaded r1 cd))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k3 cd)
+			(not (loaded r1 cd))
+			(not (empty k3))
 		)
 	)
 	(:action unload_k3_ce_r1_l4
@@ -1185,16 +1077,14 @@
 			(empty k3)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k3 ce)
-				(not (loaded r1 ce))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k3 ce)
+			(not (loaded r1 ce))
+			(not (empty k3))
 		)
 	)
 	(:action unload_k3_cf_r1_l4
@@ -1205,16 +1095,14 @@
 			(empty k3)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k3 cf)
-				(not (loaded r1 cf))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k3 cf)
+			(not (loaded r1 cf))
+			(not (empty k3))
 		)
 	)
 	(:action unload_k4_ca_r1_l6
@@ -1225,16 +1113,14 @@
 			(empty k4)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k4 ca)
-				(not (loaded r1 ca))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k4 ca)
+			(not (loaded r1 ca))
+			(not (empty k4))
 		)
 	)
 	(:action unload_k4_cb_r1_l6
@@ -1245,16 +1131,14 @@
 			(empty k4)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k4 cb)
-				(not (loaded r1 cb))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k4 cb)
+			(not (loaded r1 cb))
+			(not (empty k4))
 		)
 	)
 	(:action unload_k4_cc_r1_l6
@@ -1265,16 +1149,14 @@
 			(empty k4)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k4 cc)
-				(not (loaded r1 cc))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k4 cc)
+			(not (loaded r1 cc))
+			(not (empty k4))
 		)
 	)
 	(:action unload_k4_cd_r1_l6
@@ -1285,16 +1167,14 @@
 			(empty k4)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k4 cd)
-				(not (loaded r1 cd))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k4 cd)
+			(not (loaded r1 cd))
+			(not (empty k4))
 		)
 	)
 	(:action unload_k4_ce_r1_l6
@@ -1305,16 +1185,14 @@
 			(empty k4)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k4 ce)
-				(not (loaded r1 ce))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k4 ce)
+			(not (loaded r1 ce))
+			(not (empty k4))
 		)
 	)
 	(:action unload_k4_cf_r1_l6
@@ -1325,16 +1203,14 @@
 			(empty k4)
 		)
 		:effect (and
-			(and
-				(unloaded r1)
-				(holding k4 cf)
-				(not (loaded r1 cf))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(unloaded r1)
+			(holding k4 cf)
+			(not (loaded r1 cf))
+			(not (empty k4))
 		)
 	)
 	(:action take_k1_ca_p1_ca_l1
@@ -1346,18 +1222,16 @@
 			(on ca ca)
 		)
 		:effect (and
-			(and
-				(holding k1 ca)
-				(top ca p1)
-				(not (in ca p1))
-				(not (top ca p1))
-				(not (on ca ca))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 ca)
+			(top ca p1)
+			(not (in ca p1))
+			(not (top ca p1))
+			(not (on ca ca))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_ca_p1_cb_l1
@@ -1369,18 +1243,16 @@
 			(on ca cb)
 		)
 		:effect (and
-			(and
-				(holding k1 ca)
-				(top cb p1)
-				(not (in ca p1))
-				(not (top ca p1))
-				(not (on ca cb))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 ca)
+			(top cb p1)
+			(not (in ca p1))
+			(not (top ca p1))
+			(not (on ca cb))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_ca_p1_cc_l1
@@ -1392,18 +1264,16 @@
 			(on ca cc)
 		)
 		:effect (and
-			(and
-				(holding k1 ca)
-				(top cc p1)
-				(not (in ca p1))
-				(not (top ca p1))
-				(not (on ca cc))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 ca)
+			(top cc p1)
+			(not (in ca p1))
+			(not (top ca p1))
+			(not (on ca cc))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_ca_p1_cd_l1
@@ -1415,18 +1285,16 @@
 			(on ca cd)
 		)
 		:effect (and
-			(and
-				(holding k1 ca)
-				(top cd p1)
-				(not (in ca p1))
-				(not (top ca p1))
-				(not (on ca cd))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 ca)
+			(top cd p1)
+			(not (in ca p1))
+			(not (top ca p1))
+			(not (on ca cd))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_ca_p1_ce_l1
@@ -1438,18 +1306,16 @@
 			(on ca ce)
 		)
 		:effect (and
-			(and
-				(holding k1 ca)
-				(top ce p1)
-				(not (in ca p1))
-				(not (top ca p1))
-				(not (on ca ce))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 ca)
+			(top ce p1)
+			(not (in ca p1))
+			(not (top ca p1))
+			(not (on ca ce))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_ca_p1_cf_l1
@@ -1461,18 +1327,16 @@
 			(on ca cf)
 		)
 		:effect (and
-			(and
-				(holding k1 ca)
-				(top cf p1)
-				(not (in ca p1))
-				(not (top ca p1))
-				(not (on ca cf))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 ca)
+			(top cf p1)
+			(not (in ca p1))
+			(not (top ca p1))
+			(not (on ca cf))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_ca_p1_pallet_l1
@@ -1484,18 +1348,16 @@
 			(on ca pallet)
 		)
 		:effect (and
-			(and
-				(holding k1 ca)
-				(top pallet p1)
-				(not (in ca p1))
-				(not (top ca p1))
-				(not (on ca pallet))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 ca)
+			(top pallet p1)
+			(not (in ca p1))
+			(not (top ca p1))
+			(not (on ca pallet))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cb_p1_ca_l1
@@ -1507,18 +1369,16 @@
 			(on cb ca)
 		)
 		:effect (and
-			(and
-				(holding k1 cb)
-				(top ca p1)
-				(not (in cb p1))
-				(not (top cb p1))
-				(not (on cb ca))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cb)
+			(top ca p1)
+			(not (in cb p1))
+			(not (top cb p1))
+			(not (on cb ca))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cb_p1_cb_l1
@@ -1530,18 +1390,16 @@
 			(on cb cb)
 		)
 		:effect (and
-			(and
-				(holding k1 cb)
-				(top cb p1)
-				(not (in cb p1))
-				(not (top cb p1))
-				(not (on cb cb))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cb)
+			(top cb p1)
+			(not (in cb p1))
+			(not (top cb p1))
+			(not (on cb cb))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cb_p1_cc_l1
@@ -1553,18 +1411,16 @@
 			(on cb cc)
 		)
 		:effect (and
-			(and
-				(holding k1 cb)
-				(top cc p1)
-				(not (in cb p1))
-				(not (top cb p1))
-				(not (on cb cc))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cb)
+			(top cc p1)
+			(not (in cb p1))
+			(not (top cb p1))
+			(not (on cb cc))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cb_p1_cd_l1
@@ -1576,18 +1432,16 @@
 			(on cb cd)
 		)
 		:effect (and
-			(and
-				(holding k1 cb)
-				(top cd p1)
-				(not (in cb p1))
-				(not (top cb p1))
-				(not (on cb cd))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cb)
+			(top cd p1)
+			(not (in cb p1))
+			(not (top cb p1))
+			(not (on cb cd))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cb_p1_ce_l1
@@ -1599,18 +1453,16 @@
 			(on cb ce)
 		)
 		:effect (and
-			(and
-				(holding k1 cb)
-				(top ce p1)
-				(not (in cb p1))
-				(not (top cb p1))
-				(not (on cb ce))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cb)
+			(top ce p1)
+			(not (in cb p1))
+			(not (top cb p1))
+			(not (on cb ce))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cb_p1_cf_l1
@@ -1622,18 +1474,16 @@
 			(on cb cf)
 		)
 		:effect (and
-			(and
-				(holding k1 cb)
-				(top cf p1)
-				(not (in cb p1))
-				(not (top cb p1))
-				(not (on cb cf))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cb)
+			(top cf p1)
+			(not (in cb p1))
+			(not (top cb p1))
+			(not (on cb cf))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cb_p1_pallet_l1
@@ -1645,18 +1495,16 @@
 			(on cb pallet)
 		)
 		:effect (and
-			(and
-				(holding k1 cb)
-				(top pallet p1)
-				(not (in cb p1))
-				(not (top cb p1))
-				(not (on cb pallet))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cb)
+			(top pallet p1)
+			(not (in cb p1))
+			(not (top cb p1))
+			(not (on cb pallet))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cc_p1_ca_l1
@@ -1668,18 +1516,16 @@
 			(on cc ca)
 		)
 		:effect (and
-			(and
-				(holding k1 cc)
-				(top ca p1)
-				(not (in cc p1))
-				(not (top cc p1))
-				(not (on cc ca))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cc)
+			(top ca p1)
+			(not (in cc p1))
+			(not (top cc p1))
+			(not (on cc ca))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cc_p1_cb_l1
@@ -1691,18 +1537,16 @@
 			(on cc cb)
 		)
 		:effect (and
-			(and
-				(holding k1 cc)
-				(top cb p1)
-				(not (in cc p1))
-				(not (top cc p1))
-				(not (on cc cb))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cc)
+			(top cb p1)
+			(not (in cc p1))
+			(not (top cc p1))
+			(not (on cc cb))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cc_p1_cc_l1
@@ -1714,18 +1558,16 @@
 			(on cc cc)
 		)
 		:effect (and
-			(and
-				(holding k1 cc)
-				(top cc p1)
-				(not (in cc p1))
-				(not (top cc p1))
-				(not (on cc cc))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cc)
+			(top cc p1)
+			(not (in cc p1))
+			(not (top cc p1))
+			(not (on cc cc))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cc_p1_cd_l1
@@ -1737,18 +1579,16 @@
 			(on cc cd)
 		)
 		:effect (and
-			(and
-				(holding k1 cc)
-				(top cd p1)
-				(not (in cc p1))
-				(not (top cc p1))
-				(not (on cc cd))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cc)
+			(top cd p1)
+			(not (in cc p1))
+			(not (top cc p1))
+			(not (on cc cd))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cc_p1_ce_l1
@@ -1760,18 +1600,16 @@
 			(on cc ce)
 		)
 		:effect (and
-			(and
-				(holding k1 cc)
-				(top ce p1)
-				(not (in cc p1))
-				(not (top cc p1))
-				(not (on cc ce))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cc)
+			(top ce p1)
+			(not (in cc p1))
+			(not (top cc p1))
+			(not (on cc ce))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cc_p1_cf_l1
@@ -1783,18 +1621,16 @@
 			(on cc cf)
 		)
 		:effect (and
-			(and
-				(holding k1 cc)
-				(top cf p1)
-				(not (in cc p1))
-				(not (top cc p1))
-				(not (on cc cf))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cc)
+			(top cf p1)
+			(not (in cc p1))
+			(not (top cc p1))
+			(not (on cc cf))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cc_p1_pallet_l1
@@ -1806,18 +1642,16 @@
 			(on cc pallet)
 		)
 		:effect (and
-			(and
-				(holding k1 cc)
-				(top pallet p1)
-				(not (in cc p1))
-				(not (top cc p1))
-				(not (on cc pallet))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cc)
+			(top pallet p1)
+			(not (in cc p1))
+			(not (top cc p1))
+			(not (on cc pallet))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cd_p1_ca_l1
@@ -1829,18 +1663,16 @@
 			(on cd ca)
 		)
 		:effect (and
-			(and
-				(holding k1 cd)
-				(top ca p1)
-				(not (in cd p1))
-				(not (top cd p1))
-				(not (on cd ca))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cd)
+			(top ca p1)
+			(not (in cd p1))
+			(not (top cd p1))
+			(not (on cd ca))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cd_p1_cb_l1
@@ -1852,18 +1684,16 @@
 			(on cd cb)
 		)
 		:effect (and
-			(and
-				(holding k1 cd)
-				(top cb p1)
-				(not (in cd p1))
-				(not (top cd p1))
-				(not (on cd cb))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cd)
+			(top cb p1)
+			(not (in cd p1))
+			(not (top cd p1))
+			(not (on cd cb))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cd_p1_cc_l1
@@ -1875,18 +1705,16 @@
 			(on cd cc)
 		)
 		:effect (and
-			(and
-				(holding k1 cd)
-				(top cc p1)
-				(not (in cd p1))
-				(not (top cd p1))
-				(not (on cd cc))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cd)
+			(top cc p1)
+			(not (in cd p1))
+			(not (top cd p1))
+			(not (on cd cc))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cd_p1_cd_l1
@@ -1898,18 +1726,16 @@
 			(on cd cd)
 		)
 		:effect (and
-			(and
-				(holding k1 cd)
-				(top cd p1)
-				(not (in cd p1))
-				(not (top cd p1))
-				(not (on cd cd))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cd)
+			(top cd p1)
+			(not (in cd p1))
+			(not (top cd p1))
+			(not (on cd cd))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cd_p1_ce_l1
@@ -1921,18 +1747,16 @@
 			(on cd ce)
 		)
 		:effect (and
-			(and
-				(holding k1 cd)
-				(top ce p1)
-				(not (in cd p1))
-				(not (top cd p1))
-				(not (on cd ce))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cd)
+			(top ce p1)
+			(not (in cd p1))
+			(not (top cd p1))
+			(not (on cd ce))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cd_p1_cf_l1
@@ -1944,18 +1768,16 @@
 			(on cd cf)
 		)
 		:effect (and
-			(and
-				(holding k1 cd)
-				(top cf p1)
-				(not (in cd p1))
-				(not (top cd p1))
-				(not (on cd cf))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cd)
+			(top cf p1)
+			(not (in cd p1))
+			(not (top cd p1))
+			(not (on cd cf))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cd_p1_pallet_l1
@@ -1967,18 +1789,16 @@
 			(on cd pallet)
 		)
 		:effect (and
-			(and
-				(holding k1 cd)
-				(top pallet p1)
-				(not (in cd p1))
-				(not (top cd p1))
-				(not (on cd pallet))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cd)
+			(top pallet p1)
+			(not (in cd p1))
+			(not (top cd p1))
+			(not (on cd pallet))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_ce_p1_ca_l1
@@ -1990,18 +1810,16 @@
 			(on ce ca)
 		)
 		:effect (and
-			(and
-				(holding k1 ce)
-				(top ca p1)
-				(not (in ce p1))
-				(not (top ce p1))
-				(not (on ce ca))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 ce)
+			(top ca p1)
+			(not (in ce p1))
+			(not (top ce p1))
+			(not (on ce ca))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_ce_p1_cb_l1
@@ -2013,18 +1831,16 @@
 			(on ce cb)
 		)
 		:effect (and
-			(and
-				(holding k1 ce)
-				(top cb p1)
-				(not (in ce p1))
-				(not (top ce p1))
-				(not (on ce cb))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 ce)
+			(top cb p1)
+			(not (in ce p1))
+			(not (top ce p1))
+			(not (on ce cb))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_ce_p1_cc_l1
@@ -2036,18 +1852,16 @@
 			(on ce cc)
 		)
 		:effect (and
-			(and
-				(holding k1 ce)
-				(top cc p1)
-				(not (in ce p1))
-				(not (top ce p1))
-				(not (on ce cc))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 ce)
+			(top cc p1)
+			(not (in ce p1))
+			(not (top ce p1))
+			(not (on ce cc))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_ce_p1_cd_l1
@@ -2059,18 +1873,16 @@
 			(on ce cd)
 		)
 		:effect (and
-			(and
-				(holding k1 ce)
-				(top cd p1)
-				(not (in ce p1))
-				(not (top ce p1))
-				(not (on ce cd))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 ce)
+			(top cd p1)
+			(not (in ce p1))
+			(not (top ce p1))
+			(not (on ce cd))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_ce_p1_ce_l1
@@ -2082,18 +1894,16 @@
 			(on ce ce)
 		)
 		:effect (and
-			(and
-				(holding k1 ce)
-				(top ce p1)
-				(not (in ce p1))
-				(not (top ce p1))
-				(not (on ce ce))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 ce)
+			(top ce p1)
+			(not (in ce p1))
+			(not (top ce p1))
+			(not (on ce ce))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_ce_p1_cf_l1
@@ -2105,18 +1915,16 @@
 			(on ce cf)
 		)
 		:effect (and
-			(and
-				(holding k1 ce)
-				(top cf p1)
-				(not (in ce p1))
-				(not (top ce p1))
-				(not (on ce cf))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 ce)
+			(top cf p1)
+			(not (in ce p1))
+			(not (top ce p1))
+			(not (on ce cf))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_ce_p1_pallet_l1
@@ -2128,18 +1936,16 @@
 			(on ce pallet)
 		)
 		:effect (and
-			(and
-				(holding k1 ce)
-				(top pallet p1)
-				(not (in ce p1))
-				(not (top ce p1))
-				(not (on ce pallet))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 ce)
+			(top pallet p1)
+			(not (in ce p1))
+			(not (top ce p1))
+			(not (on ce pallet))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cf_p1_ca_l1
@@ -2151,18 +1957,16 @@
 			(on cf ca)
 		)
 		:effect (and
-			(and
-				(holding k1 cf)
-				(top ca p1)
-				(not (in cf p1))
-				(not (top cf p1))
-				(not (on cf ca))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cf)
+			(top ca p1)
+			(not (in cf p1))
+			(not (top cf p1))
+			(not (on cf ca))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cf_p1_cb_l1
@@ -2174,18 +1978,16 @@
 			(on cf cb)
 		)
 		:effect (and
-			(and
-				(holding k1 cf)
-				(top cb p1)
-				(not (in cf p1))
-				(not (top cf p1))
-				(not (on cf cb))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cf)
+			(top cb p1)
+			(not (in cf p1))
+			(not (top cf p1))
+			(not (on cf cb))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cf_p1_cc_l1
@@ -2197,18 +1999,16 @@
 			(on cf cc)
 		)
 		:effect (and
-			(and
-				(holding k1 cf)
-				(top cc p1)
-				(not (in cf p1))
-				(not (top cf p1))
-				(not (on cf cc))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cf)
+			(top cc p1)
+			(not (in cf p1))
+			(not (top cf p1))
+			(not (on cf cc))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cf_p1_cd_l1
@@ -2220,18 +2020,16 @@
 			(on cf cd)
 		)
 		:effect (and
-			(and
-				(holding k1 cf)
-				(top cd p1)
-				(not (in cf p1))
-				(not (top cf p1))
-				(not (on cf cd))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cf)
+			(top cd p1)
+			(not (in cf p1))
+			(not (top cf p1))
+			(not (on cf cd))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cf_p1_ce_l1
@@ -2243,18 +2041,16 @@
 			(on cf ce)
 		)
 		:effect (and
-			(and
-				(holding k1 cf)
-				(top ce p1)
-				(not (in cf p1))
-				(not (top cf p1))
-				(not (on cf ce))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cf)
+			(top ce p1)
+			(not (in cf p1))
+			(not (top cf p1))
+			(not (on cf ce))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cf_p1_cf_l1
@@ -2266,18 +2062,16 @@
 			(on cf cf)
 		)
 		:effect (and
-			(and
-				(holding k1 cf)
-				(top cf p1)
-				(not (in cf p1))
-				(not (top cf p1))
-				(not (on cf cf))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cf)
+			(top cf p1)
+			(not (in cf p1))
+			(not (top cf p1))
+			(not (on cf cf))
+			(not (empty k1))
 		)
 	)
 	(:action take_k1_cf_p1_pallet_l1
@@ -2289,18 +2083,16 @@
 			(on cf pallet)
 		)
 		:effect (and
-			(and
-				(holding k1 cf)
-				(top pallet p1)
-				(not (in cf p1))
-				(not (top cf p1))
-				(not (on cf pallet))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k1 cf)
+			(top pallet p1)
+			(not (in cf p1))
+			(not (top cf p1))
+			(not (on cf pallet))
+			(not (empty k1))
 		)
 	)
 	(:action take_k2_ca_p2_ca_l3
@@ -2312,18 +2104,16 @@
 			(on ca ca)
 		)
 		:effect (and
-			(and
-				(holding k2 ca)
-				(top ca p2)
-				(not (in ca p2))
-				(not (top ca p2))
-				(not (on ca ca))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 ca)
+			(top ca p2)
+			(not (in ca p2))
+			(not (top ca p2))
+			(not (on ca ca))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_ca_p2_cb_l3
@@ -2335,18 +2125,16 @@
 			(on ca cb)
 		)
 		:effect (and
-			(and
-				(holding k2 ca)
-				(top cb p2)
-				(not (in ca p2))
-				(not (top ca p2))
-				(not (on ca cb))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 ca)
+			(top cb p2)
+			(not (in ca p2))
+			(not (top ca p2))
+			(not (on ca cb))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_ca_p2_cc_l3
@@ -2358,18 +2146,16 @@
 			(on ca cc)
 		)
 		:effect (and
-			(and
-				(holding k2 ca)
-				(top cc p2)
-				(not (in ca p2))
-				(not (top ca p2))
-				(not (on ca cc))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 ca)
+			(top cc p2)
+			(not (in ca p2))
+			(not (top ca p2))
+			(not (on ca cc))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_ca_p2_cd_l3
@@ -2381,18 +2167,16 @@
 			(on ca cd)
 		)
 		:effect (and
-			(and
-				(holding k2 ca)
-				(top cd p2)
-				(not (in ca p2))
-				(not (top ca p2))
-				(not (on ca cd))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 ca)
+			(top cd p2)
+			(not (in ca p2))
+			(not (top ca p2))
+			(not (on ca cd))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_ca_p2_ce_l3
@@ -2404,18 +2188,16 @@
 			(on ca ce)
 		)
 		:effect (and
-			(and
-				(holding k2 ca)
-				(top ce p2)
-				(not (in ca p2))
-				(not (top ca p2))
-				(not (on ca ce))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 ca)
+			(top ce p2)
+			(not (in ca p2))
+			(not (top ca p2))
+			(not (on ca ce))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_ca_p2_cf_l3
@@ -2427,18 +2209,16 @@
 			(on ca cf)
 		)
 		:effect (and
-			(and
-				(holding k2 ca)
-				(top cf p2)
-				(not (in ca p2))
-				(not (top ca p2))
-				(not (on ca cf))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 ca)
+			(top cf p2)
+			(not (in ca p2))
+			(not (top ca p2))
+			(not (on ca cf))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_ca_p2_pallet_l3
@@ -2450,18 +2230,16 @@
 			(on ca pallet)
 		)
 		:effect (and
-			(and
-				(holding k2 ca)
-				(top pallet p2)
-				(not (in ca p2))
-				(not (top ca p2))
-				(not (on ca pallet))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 ca)
+			(top pallet p2)
+			(not (in ca p2))
+			(not (top ca p2))
+			(not (on ca pallet))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cb_p2_ca_l3
@@ -2473,18 +2251,16 @@
 			(on cb ca)
 		)
 		:effect (and
-			(and
-				(holding k2 cb)
-				(top ca p2)
-				(not (in cb p2))
-				(not (top cb p2))
-				(not (on cb ca))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cb)
+			(top ca p2)
+			(not (in cb p2))
+			(not (top cb p2))
+			(not (on cb ca))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cb_p2_cb_l3
@@ -2496,18 +2272,16 @@
 			(on cb cb)
 		)
 		:effect (and
-			(and
-				(holding k2 cb)
-				(top cb p2)
-				(not (in cb p2))
-				(not (top cb p2))
-				(not (on cb cb))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cb)
+			(top cb p2)
+			(not (in cb p2))
+			(not (top cb p2))
+			(not (on cb cb))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cb_p2_cc_l3
@@ -2519,18 +2293,16 @@
 			(on cb cc)
 		)
 		:effect (and
-			(and
-				(holding k2 cb)
-				(top cc p2)
-				(not (in cb p2))
-				(not (top cb p2))
-				(not (on cb cc))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cb)
+			(top cc p2)
+			(not (in cb p2))
+			(not (top cb p2))
+			(not (on cb cc))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cb_p2_cd_l3
@@ -2542,18 +2314,16 @@
 			(on cb cd)
 		)
 		:effect (and
-			(and
-				(holding k2 cb)
-				(top cd p2)
-				(not (in cb p2))
-				(not (top cb p2))
-				(not (on cb cd))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cb)
+			(top cd p2)
+			(not (in cb p2))
+			(not (top cb p2))
+			(not (on cb cd))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cb_p2_ce_l3
@@ -2565,18 +2335,16 @@
 			(on cb ce)
 		)
 		:effect (and
-			(and
-				(holding k2 cb)
-				(top ce p2)
-				(not (in cb p2))
-				(not (top cb p2))
-				(not (on cb ce))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cb)
+			(top ce p2)
+			(not (in cb p2))
+			(not (top cb p2))
+			(not (on cb ce))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cb_p2_cf_l3
@@ -2588,18 +2356,16 @@
 			(on cb cf)
 		)
 		:effect (and
-			(and
-				(holding k2 cb)
-				(top cf p2)
-				(not (in cb p2))
-				(not (top cb p2))
-				(not (on cb cf))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cb)
+			(top cf p2)
+			(not (in cb p2))
+			(not (top cb p2))
+			(not (on cb cf))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cb_p2_pallet_l3
@@ -2611,18 +2377,16 @@
 			(on cb pallet)
 		)
 		:effect (and
-			(and
-				(holding k2 cb)
-				(top pallet p2)
-				(not (in cb p2))
-				(not (top cb p2))
-				(not (on cb pallet))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cb)
+			(top pallet p2)
+			(not (in cb p2))
+			(not (top cb p2))
+			(not (on cb pallet))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cc_p2_ca_l3
@@ -2634,18 +2398,16 @@
 			(on cc ca)
 		)
 		:effect (and
-			(and
-				(holding k2 cc)
-				(top ca p2)
-				(not (in cc p2))
-				(not (top cc p2))
-				(not (on cc ca))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cc)
+			(top ca p2)
+			(not (in cc p2))
+			(not (top cc p2))
+			(not (on cc ca))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cc_p2_cb_l3
@@ -2657,18 +2419,16 @@
 			(on cc cb)
 		)
 		:effect (and
-			(and
-				(holding k2 cc)
-				(top cb p2)
-				(not (in cc p2))
-				(not (top cc p2))
-				(not (on cc cb))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cc)
+			(top cb p2)
+			(not (in cc p2))
+			(not (top cc p2))
+			(not (on cc cb))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cc_p2_cc_l3
@@ -2680,18 +2440,16 @@
 			(on cc cc)
 		)
 		:effect (and
-			(and
-				(holding k2 cc)
-				(top cc p2)
-				(not (in cc p2))
-				(not (top cc p2))
-				(not (on cc cc))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cc)
+			(top cc p2)
+			(not (in cc p2))
+			(not (top cc p2))
+			(not (on cc cc))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cc_p2_cd_l3
@@ -2703,18 +2461,16 @@
 			(on cc cd)
 		)
 		:effect (and
-			(and
-				(holding k2 cc)
-				(top cd p2)
-				(not (in cc p2))
-				(not (top cc p2))
-				(not (on cc cd))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cc)
+			(top cd p2)
+			(not (in cc p2))
+			(not (top cc p2))
+			(not (on cc cd))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cc_p2_ce_l3
@@ -2726,18 +2482,16 @@
 			(on cc ce)
 		)
 		:effect (and
-			(and
-				(holding k2 cc)
-				(top ce p2)
-				(not (in cc p2))
-				(not (top cc p2))
-				(not (on cc ce))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cc)
+			(top ce p2)
+			(not (in cc p2))
+			(not (top cc p2))
+			(not (on cc ce))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cc_p2_cf_l3
@@ -2749,18 +2503,16 @@
 			(on cc cf)
 		)
 		:effect (and
-			(and
-				(holding k2 cc)
-				(top cf p2)
-				(not (in cc p2))
-				(not (top cc p2))
-				(not (on cc cf))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cc)
+			(top cf p2)
+			(not (in cc p2))
+			(not (top cc p2))
+			(not (on cc cf))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cc_p2_pallet_l3
@@ -2772,18 +2524,16 @@
 			(on cc pallet)
 		)
 		:effect (and
-			(and
-				(holding k2 cc)
-				(top pallet p2)
-				(not (in cc p2))
-				(not (top cc p2))
-				(not (on cc pallet))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cc)
+			(top pallet p2)
+			(not (in cc p2))
+			(not (top cc p2))
+			(not (on cc pallet))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cd_p2_ca_l3
@@ -2795,18 +2545,16 @@
 			(on cd ca)
 		)
 		:effect (and
-			(and
-				(holding k2 cd)
-				(top ca p2)
-				(not (in cd p2))
-				(not (top cd p2))
-				(not (on cd ca))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cd)
+			(top ca p2)
+			(not (in cd p2))
+			(not (top cd p2))
+			(not (on cd ca))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cd_p2_cb_l3
@@ -2818,18 +2566,16 @@
 			(on cd cb)
 		)
 		:effect (and
-			(and
-				(holding k2 cd)
-				(top cb p2)
-				(not (in cd p2))
-				(not (top cd p2))
-				(not (on cd cb))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cd)
+			(top cb p2)
+			(not (in cd p2))
+			(not (top cd p2))
+			(not (on cd cb))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cd_p2_cc_l3
@@ -2841,18 +2587,16 @@
 			(on cd cc)
 		)
 		:effect (and
-			(and
-				(holding k2 cd)
-				(top cc p2)
-				(not (in cd p2))
-				(not (top cd p2))
-				(not (on cd cc))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cd)
+			(top cc p2)
+			(not (in cd p2))
+			(not (top cd p2))
+			(not (on cd cc))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cd_p2_cd_l3
@@ -2864,18 +2608,16 @@
 			(on cd cd)
 		)
 		:effect (and
-			(and
-				(holding k2 cd)
-				(top cd p2)
-				(not (in cd p2))
-				(not (top cd p2))
-				(not (on cd cd))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cd)
+			(top cd p2)
+			(not (in cd p2))
+			(not (top cd p2))
+			(not (on cd cd))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cd_p2_ce_l3
@@ -2887,18 +2629,16 @@
 			(on cd ce)
 		)
 		:effect (and
-			(and
-				(holding k2 cd)
-				(top ce p2)
-				(not (in cd p2))
-				(not (top cd p2))
-				(not (on cd ce))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cd)
+			(top ce p2)
+			(not (in cd p2))
+			(not (top cd p2))
+			(not (on cd ce))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cd_p2_cf_l3
@@ -2910,18 +2650,16 @@
 			(on cd cf)
 		)
 		:effect (and
-			(and
-				(holding k2 cd)
-				(top cf p2)
-				(not (in cd p2))
-				(not (top cd p2))
-				(not (on cd cf))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cd)
+			(top cf p2)
+			(not (in cd p2))
+			(not (top cd p2))
+			(not (on cd cf))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cd_p2_pallet_l3
@@ -2933,18 +2671,16 @@
 			(on cd pallet)
 		)
 		:effect (and
-			(and
-				(holding k2 cd)
-				(top pallet p2)
-				(not (in cd p2))
-				(not (top cd p2))
-				(not (on cd pallet))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cd)
+			(top pallet p2)
+			(not (in cd p2))
+			(not (top cd p2))
+			(not (on cd pallet))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_ce_p2_ca_l3
@@ -2956,18 +2692,16 @@
 			(on ce ca)
 		)
 		:effect (and
-			(and
-				(holding k2 ce)
-				(top ca p2)
-				(not (in ce p2))
-				(not (top ce p2))
-				(not (on ce ca))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 ce)
+			(top ca p2)
+			(not (in ce p2))
+			(not (top ce p2))
+			(not (on ce ca))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_ce_p2_cb_l3
@@ -2979,18 +2713,16 @@
 			(on ce cb)
 		)
 		:effect (and
-			(and
-				(holding k2 ce)
-				(top cb p2)
-				(not (in ce p2))
-				(not (top ce p2))
-				(not (on ce cb))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 ce)
+			(top cb p2)
+			(not (in ce p2))
+			(not (top ce p2))
+			(not (on ce cb))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_ce_p2_cc_l3
@@ -3002,18 +2734,16 @@
 			(on ce cc)
 		)
 		:effect (and
-			(and
-				(holding k2 ce)
-				(top cc p2)
-				(not (in ce p2))
-				(not (top ce p2))
-				(not (on ce cc))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 ce)
+			(top cc p2)
+			(not (in ce p2))
+			(not (top ce p2))
+			(not (on ce cc))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_ce_p2_cd_l3
@@ -3025,18 +2755,16 @@
 			(on ce cd)
 		)
 		:effect (and
-			(and
-				(holding k2 ce)
-				(top cd p2)
-				(not (in ce p2))
-				(not (top ce p2))
-				(not (on ce cd))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 ce)
+			(top cd p2)
+			(not (in ce p2))
+			(not (top ce p2))
+			(not (on ce cd))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_ce_p2_ce_l3
@@ -3048,18 +2776,16 @@
 			(on ce ce)
 		)
 		:effect (and
-			(and
-				(holding k2 ce)
-				(top ce p2)
-				(not (in ce p2))
-				(not (top ce p2))
-				(not (on ce ce))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 ce)
+			(top ce p2)
+			(not (in ce p2))
+			(not (top ce p2))
+			(not (on ce ce))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_ce_p2_cf_l3
@@ -3071,18 +2797,16 @@
 			(on ce cf)
 		)
 		:effect (and
-			(and
-				(holding k2 ce)
-				(top cf p2)
-				(not (in ce p2))
-				(not (top ce p2))
-				(not (on ce cf))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 ce)
+			(top cf p2)
+			(not (in ce p2))
+			(not (top ce p2))
+			(not (on ce cf))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_ce_p2_pallet_l3
@@ -3094,18 +2818,16 @@
 			(on ce pallet)
 		)
 		:effect (and
-			(and
-				(holding k2 ce)
-				(top pallet p2)
-				(not (in ce p2))
-				(not (top ce p2))
-				(not (on ce pallet))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 ce)
+			(top pallet p2)
+			(not (in ce p2))
+			(not (top ce p2))
+			(not (on ce pallet))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cf_p2_ca_l3
@@ -3117,18 +2839,16 @@
 			(on cf ca)
 		)
 		:effect (and
-			(and
-				(holding k2 cf)
-				(top ca p2)
-				(not (in cf p2))
-				(not (top cf p2))
-				(not (on cf ca))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cf)
+			(top ca p2)
+			(not (in cf p2))
+			(not (top cf p2))
+			(not (on cf ca))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cf_p2_cb_l3
@@ -3140,18 +2860,16 @@
 			(on cf cb)
 		)
 		:effect (and
-			(and
-				(holding k2 cf)
-				(top cb p2)
-				(not (in cf p2))
-				(not (top cf p2))
-				(not (on cf cb))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cf)
+			(top cb p2)
+			(not (in cf p2))
+			(not (top cf p2))
+			(not (on cf cb))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cf_p2_cc_l3
@@ -3163,18 +2881,16 @@
 			(on cf cc)
 		)
 		:effect (and
-			(and
-				(holding k2 cf)
-				(top cc p2)
-				(not (in cf p2))
-				(not (top cf p2))
-				(not (on cf cc))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cf)
+			(top cc p2)
+			(not (in cf p2))
+			(not (top cf p2))
+			(not (on cf cc))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cf_p2_cd_l3
@@ -3186,18 +2902,16 @@
 			(on cf cd)
 		)
 		:effect (and
-			(and
-				(holding k2 cf)
-				(top cd p2)
-				(not (in cf p2))
-				(not (top cf p2))
-				(not (on cf cd))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cf)
+			(top cd p2)
+			(not (in cf p2))
+			(not (top cf p2))
+			(not (on cf cd))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cf_p2_ce_l3
@@ -3209,18 +2923,16 @@
 			(on cf ce)
 		)
 		:effect (and
-			(and
-				(holding k2 cf)
-				(top ce p2)
-				(not (in cf p2))
-				(not (top cf p2))
-				(not (on cf ce))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cf)
+			(top ce p2)
+			(not (in cf p2))
+			(not (top cf p2))
+			(not (on cf ce))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cf_p2_cf_l3
@@ -3232,18 +2944,16 @@
 			(on cf cf)
 		)
 		:effect (and
-			(and
-				(holding k2 cf)
-				(top cf p2)
-				(not (in cf p2))
-				(not (top cf p2))
-				(not (on cf cf))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cf)
+			(top cf p2)
+			(not (in cf p2))
+			(not (top cf p2))
+			(not (on cf cf))
+			(not (empty k2))
 		)
 	)
 	(:action take_k2_cf_p2_pallet_l3
@@ -3255,18 +2965,16 @@
 			(on cf pallet)
 		)
 		:effect (and
-			(and
-				(holding k2 cf)
-				(top pallet p2)
-				(not (in cf p2))
-				(not (top cf p2))
-				(not (on cf pallet))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k2 cf)
+			(top pallet p2)
+			(not (in cf p2))
+			(not (top cf p2))
+			(not (on cf pallet))
+			(not (empty k2))
 		)
 	)
 	(:action take_k3_ca_p3_ca_l4
@@ -3278,18 +2986,16 @@
 			(on ca ca)
 		)
 		:effect (and
-			(and
-				(holding k3 ca)
-				(top ca p3)
-				(not (in ca p3))
-				(not (top ca p3))
-				(not (on ca ca))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 ca)
+			(top ca p3)
+			(not (in ca p3))
+			(not (top ca p3))
+			(not (on ca ca))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_ca_p3_cb_l4
@@ -3301,18 +3007,16 @@
 			(on ca cb)
 		)
 		:effect (and
-			(and
-				(holding k3 ca)
-				(top cb p3)
-				(not (in ca p3))
-				(not (top ca p3))
-				(not (on ca cb))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 ca)
+			(top cb p3)
+			(not (in ca p3))
+			(not (top ca p3))
+			(not (on ca cb))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_ca_p3_cc_l4
@@ -3324,18 +3028,16 @@
 			(on ca cc)
 		)
 		:effect (and
-			(and
-				(holding k3 ca)
-				(top cc p3)
-				(not (in ca p3))
-				(not (top ca p3))
-				(not (on ca cc))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 ca)
+			(top cc p3)
+			(not (in ca p3))
+			(not (top ca p3))
+			(not (on ca cc))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_ca_p3_cd_l4
@@ -3347,18 +3049,16 @@
 			(on ca cd)
 		)
 		:effect (and
-			(and
-				(holding k3 ca)
-				(top cd p3)
-				(not (in ca p3))
-				(not (top ca p3))
-				(not (on ca cd))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 ca)
+			(top cd p3)
+			(not (in ca p3))
+			(not (top ca p3))
+			(not (on ca cd))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_ca_p3_ce_l4
@@ -3370,18 +3070,16 @@
 			(on ca ce)
 		)
 		:effect (and
-			(and
-				(holding k3 ca)
-				(top ce p3)
-				(not (in ca p3))
-				(not (top ca p3))
-				(not (on ca ce))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 ca)
+			(top ce p3)
+			(not (in ca p3))
+			(not (top ca p3))
+			(not (on ca ce))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_ca_p3_cf_l4
@@ -3393,18 +3091,16 @@
 			(on ca cf)
 		)
 		:effect (and
-			(and
-				(holding k3 ca)
-				(top cf p3)
-				(not (in ca p3))
-				(not (top ca p3))
-				(not (on ca cf))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 ca)
+			(top cf p3)
+			(not (in ca p3))
+			(not (top ca p3))
+			(not (on ca cf))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_ca_p3_pallet_l4
@@ -3416,18 +3112,16 @@
 			(on ca pallet)
 		)
 		:effect (and
-			(and
-				(holding k3 ca)
-				(top pallet p3)
-				(not (in ca p3))
-				(not (top ca p3))
-				(not (on ca pallet))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 ca)
+			(top pallet p3)
+			(not (in ca p3))
+			(not (top ca p3))
+			(not (on ca pallet))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cb_p3_ca_l4
@@ -3439,18 +3133,16 @@
 			(on cb ca)
 		)
 		:effect (and
-			(and
-				(holding k3 cb)
-				(top ca p3)
-				(not (in cb p3))
-				(not (top cb p3))
-				(not (on cb ca))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cb)
+			(top ca p3)
+			(not (in cb p3))
+			(not (top cb p3))
+			(not (on cb ca))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cb_p3_cb_l4
@@ -3462,18 +3154,16 @@
 			(on cb cb)
 		)
 		:effect (and
-			(and
-				(holding k3 cb)
-				(top cb p3)
-				(not (in cb p3))
-				(not (top cb p3))
-				(not (on cb cb))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cb)
+			(top cb p3)
+			(not (in cb p3))
+			(not (top cb p3))
+			(not (on cb cb))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cb_p3_cc_l4
@@ -3485,18 +3175,16 @@
 			(on cb cc)
 		)
 		:effect (and
-			(and
-				(holding k3 cb)
-				(top cc p3)
-				(not (in cb p3))
-				(not (top cb p3))
-				(not (on cb cc))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cb)
+			(top cc p3)
+			(not (in cb p3))
+			(not (top cb p3))
+			(not (on cb cc))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cb_p3_cd_l4
@@ -3508,18 +3196,16 @@
 			(on cb cd)
 		)
 		:effect (and
-			(and
-				(holding k3 cb)
-				(top cd p3)
-				(not (in cb p3))
-				(not (top cb p3))
-				(not (on cb cd))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cb)
+			(top cd p3)
+			(not (in cb p3))
+			(not (top cb p3))
+			(not (on cb cd))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cb_p3_ce_l4
@@ -3531,18 +3217,16 @@
 			(on cb ce)
 		)
 		:effect (and
-			(and
-				(holding k3 cb)
-				(top ce p3)
-				(not (in cb p3))
-				(not (top cb p3))
-				(not (on cb ce))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cb)
+			(top ce p3)
+			(not (in cb p3))
+			(not (top cb p3))
+			(not (on cb ce))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cb_p3_cf_l4
@@ -3554,18 +3238,16 @@
 			(on cb cf)
 		)
 		:effect (and
-			(and
-				(holding k3 cb)
-				(top cf p3)
-				(not (in cb p3))
-				(not (top cb p3))
-				(not (on cb cf))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cb)
+			(top cf p3)
+			(not (in cb p3))
+			(not (top cb p3))
+			(not (on cb cf))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cb_p3_pallet_l4
@@ -3577,18 +3259,16 @@
 			(on cb pallet)
 		)
 		:effect (and
-			(and
-				(holding k3 cb)
-				(top pallet p3)
-				(not (in cb p3))
-				(not (top cb p3))
-				(not (on cb pallet))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cb)
+			(top pallet p3)
+			(not (in cb p3))
+			(not (top cb p3))
+			(not (on cb pallet))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cc_p3_ca_l4
@@ -3600,18 +3280,16 @@
 			(on cc ca)
 		)
 		:effect (and
-			(and
-				(holding k3 cc)
-				(top ca p3)
-				(not (in cc p3))
-				(not (top cc p3))
-				(not (on cc ca))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cc)
+			(top ca p3)
+			(not (in cc p3))
+			(not (top cc p3))
+			(not (on cc ca))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cc_p3_cb_l4
@@ -3623,18 +3301,16 @@
 			(on cc cb)
 		)
 		:effect (and
-			(and
-				(holding k3 cc)
-				(top cb p3)
-				(not (in cc p3))
-				(not (top cc p3))
-				(not (on cc cb))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cc)
+			(top cb p3)
+			(not (in cc p3))
+			(not (top cc p3))
+			(not (on cc cb))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cc_p3_cc_l4
@@ -3646,18 +3322,16 @@
 			(on cc cc)
 		)
 		:effect (and
-			(and
-				(holding k3 cc)
-				(top cc p3)
-				(not (in cc p3))
-				(not (top cc p3))
-				(not (on cc cc))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cc)
+			(top cc p3)
+			(not (in cc p3))
+			(not (top cc p3))
+			(not (on cc cc))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cc_p3_cd_l4
@@ -3669,18 +3343,16 @@
 			(on cc cd)
 		)
 		:effect (and
-			(and
-				(holding k3 cc)
-				(top cd p3)
-				(not (in cc p3))
-				(not (top cc p3))
-				(not (on cc cd))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cc)
+			(top cd p3)
+			(not (in cc p3))
+			(not (top cc p3))
+			(not (on cc cd))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cc_p3_ce_l4
@@ -3692,18 +3364,16 @@
 			(on cc ce)
 		)
 		:effect (and
-			(and
-				(holding k3 cc)
-				(top ce p3)
-				(not (in cc p3))
-				(not (top cc p3))
-				(not (on cc ce))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cc)
+			(top ce p3)
+			(not (in cc p3))
+			(not (top cc p3))
+			(not (on cc ce))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cc_p3_cf_l4
@@ -3715,18 +3385,16 @@
 			(on cc cf)
 		)
 		:effect (and
-			(and
-				(holding k3 cc)
-				(top cf p3)
-				(not (in cc p3))
-				(not (top cc p3))
-				(not (on cc cf))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cc)
+			(top cf p3)
+			(not (in cc p3))
+			(not (top cc p3))
+			(not (on cc cf))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cc_p3_pallet_l4
@@ -3738,18 +3406,16 @@
 			(on cc pallet)
 		)
 		:effect (and
-			(and
-				(holding k3 cc)
-				(top pallet p3)
-				(not (in cc p3))
-				(not (top cc p3))
-				(not (on cc pallet))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cc)
+			(top pallet p3)
+			(not (in cc p3))
+			(not (top cc p3))
+			(not (on cc pallet))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cd_p3_ca_l4
@@ -3761,18 +3427,16 @@
 			(on cd ca)
 		)
 		:effect (and
-			(and
-				(holding k3 cd)
-				(top ca p3)
-				(not (in cd p3))
-				(not (top cd p3))
-				(not (on cd ca))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cd)
+			(top ca p3)
+			(not (in cd p3))
+			(not (top cd p3))
+			(not (on cd ca))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cd_p3_cb_l4
@@ -3784,18 +3448,16 @@
 			(on cd cb)
 		)
 		:effect (and
-			(and
-				(holding k3 cd)
-				(top cb p3)
-				(not (in cd p3))
-				(not (top cd p3))
-				(not (on cd cb))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cd)
+			(top cb p3)
+			(not (in cd p3))
+			(not (top cd p3))
+			(not (on cd cb))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cd_p3_cc_l4
@@ -3807,18 +3469,16 @@
 			(on cd cc)
 		)
 		:effect (and
-			(and
-				(holding k3 cd)
-				(top cc p3)
-				(not (in cd p3))
-				(not (top cd p3))
-				(not (on cd cc))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cd)
+			(top cc p3)
+			(not (in cd p3))
+			(not (top cd p3))
+			(not (on cd cc))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cd_p3_cd_l4
@@ -3830,18 +3490,16 @@
 			(on cd cd)
 		)
 		:effect (and
-			(and
-				(holding k3 cd)
-				(top cd p3)
-				(not (in cd p3))
-				(not (top cd p3))
-				(not (on cd cd))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cd)
+			(top cd p3)
+			(not (in cd p3))
+			(not (top cd p3))
+			(not (on cd cd))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cd_p3_ce_l4
@@ -3853,18 +3511,16 @@
 			(on cd ce)
 		)
 		:effect (and
-			(and
-				(holding k3 cd)
-				(top ce p3)
-				(not (in cd p3))
-				(not (top cd p3))
-				(not (on cd ce))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cd)
+			(top ce p3)
+			(not (in cd p3))
+			(not (top cd p3))
+			(not (on cd ce))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cd_p3_cf_l4
@@ -3876,18 +3532,16 @@
 			(on cd cf)
 		)
 		:effect (and
-			(and
-				(holding k3 cd)
-				(top cf p3)
-				(not (in cd p3))
-				(not (top cd p3))
-				(not (on cd cf))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cd)
+			(top cf p3)
+			(not (in cd p3))
+			(not (top cd p3))
+			(not (on cd cf))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cd_p3_pallet_l4
@@ -3899,18 +3553,16 @@
 			(on cd pallet)
 		)
 		:effect (and
-			(and
-				(holding k3 cd)
-				(top pallet p3)
-				(not (in cd p3))
-				(not (top cd p3))
-				(not (on cd pallet))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cd)
+			(top pallet p3)
+			(not (in cd p3))
+			(not (top cd p3))
+			(not (on cd pallet))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_ce_p3_ca_l4
@@ -3922,18 +3574,16 @@
 			(on ce ca)
 		)
 		:effect (and
-			(and
-				(holding k3 ce)
-				(top ca p3)
-				(not (in ce p3))
-				(not (top ce p3))
-				(not (on ce ca))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 ce)
+			(top ca p3)
+			(not (in ce p3))
+			(not (top ce p3))
+			(not (on ce ca))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_ce_p3_cb_l4
@@ -3945,18 +3595,16 @@
 			(on ce cb)
 		)
 		:effect (and
-			(and
-				(holding k3 ce)
-				(top cb p3)
-				(not (in ce p3))
-				(not (top ce p3))
-				(not (on ce cb))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 ce)
+			(top cb p3)
+			(not (in ce p3))
+			(not (top ce p3))
+			(not (on ce cb))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_ce_p3_cc_l4
@@ -3968,18 +3616,16 @@
 			(on ce cc)
 		)
 		:effect (and
-			(and
-				(holding k3 ce)
-				(top cc p3)
-				(not (in ce p3))
-				(not (top ce p3))
-				(not (on ce cc))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 ce)
+			(top cc p3)
+			(not (in ce p3))
+			(not (top ce p3))
+			(not (on ce cc))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_ce_p3_cd_l4
@@ -3991,18 +3637,16 @@
 			(on ce cd)
 		)
 		:effect (and
-			(and
-				(holding k3 ce)
-				(top cd p3)
-				(not (in ce p3))
-				(not (top ce p3))
-				(not (on ce cd))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 ce)
+			(top cd p3)
+			(not (in ce p3))
+			(not (top ce p3))
+			(not (on ce cd))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_ce_p3_ce_l4
@@ -4014,18 +3658,16 @@
 			(on ce ce)
 		)
 		:effect (and
-			(and
-				(holding k3 ce)
-				(top ce p3)
-				(not (in ce p3))
-				(not (top ce p3))
-				(not (on ce ce))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 ce)
+			(top ce p3)
+			(not (in ce p3))
+			(not (top ce p3))
+			(not (on ce ce))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_ce_p3_cf_l4
@@ -4037,18 +3679,16 @@
 			(on ce cf)
 		)
 		:effect (and
-			(and
-				(holding k3 ce)
-				(top cf p3)
-				(not (in ce p3))
-				(not (top ce p3))
-				(not (on ce cf))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 ce)
+			(top cf p3)
+			(not (in ce p3))
+			(not (top ce p3))
+			(not (on ce cf))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_ce_p3_pallet_l4
@@ -4060,18 +3700,16 @@
 			(on ce pallet)
 		)
 		:effect (and
-			(and
-				(holding k3 ce)
-				(top pallet p3)
-				(not (in ce p3))
-				(not (top ce p3))
-				(not (on ce pallet))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 ce)
+			(top pallet p3)
+			(not (in ce p3))
+			(not (top ce p3))
+			(not (on ce pallet))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cf_p3_ca_l4
@@ -4083,18 +3721,16 @@
 			(on cf ca)
 		)
 		:effect (and
-			(and
-				(holding k3 cf)
-				(top ca p3)
-				(not (in cf p3))
-				(not (top cf p3))
-				(not (on cf ca))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cf)
+			(top ca p3)
+			(not (in cf p3))
+			(not (top cf p3))
+			(not (on cf ca))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cf_p3_cb_l4
@@ -4106,18 +3742,16 @@
 			(on cf cb)
 		)
 		:effect (and
-			(and
-				(holding k3 cf)
-				(top cb p3)
-				(not (in cf p3))
-				(not (top cf p3))
-				(not (on cf cb))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cf)
+			(top cb p3)
+			(not (in cf p3))
+			(not (top cf p3))
+			(not (on cf cb))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cf_p3_cc_l4
@@ -4129,18 +3763,16 @@
 			(on cf cc)
 		)
 		:effect (and
-			(and
-				(holding k3 cf)
-				(top cc p3)
-				(not (in cf p3))
-				(not (top cf p3))
-				(not (on cf cc))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cf)
+			(top cc p3)
+			(not (in cf p3))
+			(not (top cf p3))
+			(not (on cf cc))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cf_p3_cd_l4
@@ -4152,18 +3784,16 @@
 			(on cf cd)
 		)
 		:effect (and
-			(and
-				(holding k3 cf)
-				(top cd p3)
-				(not (in cf p3))
-				(not (top cf p3))
-				(not (on cf cd))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cf)
+			(top cd p3)
+			(not (in cf p3))
+			(not (top cf p3))
+			(not (on cf cd))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cf_p3_ce_l4
@@ -4175,18 +3805,16 @@
 			(on cf ce)
 		)
 		:effect (and
-			(and
-				(holding k3 cf)
-				(top ce p3)
-				(not (in cf p3))
-				(not (top cf p3))
-				(not (on cf ce))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cf)
+			(top ce p3)
+			(not (in cf p3))
+			(not (top cf p3))
+			(not (on cf ce))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cf_p3_cf_l4
@@ -4198,18 +3826,16 @@
 			(on cf cf)
 		)
 		:effect (and
-			(and
-				(holding k3 cf)
-				(top cf p3)
-				(not (in cf p3))
-				(not (top cf p3))
-				(not (on cf cf))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cf)
+			(top cf p3)
+			(not (in cf p3))
+			(not (top cf p3))
+			(not (on cf cf))
+			(not (empty k3))
 		)
 	)
 	(:action take_k3_cf_p3_pallet_l4
@@ -4221,18 +3847,16 @@
 			(on cf pallet)
 		)
 		:effect (and
-			(and
-				(holding k3 cf)
-				(top pallet p3)
-				(not (in cf p3))
-				(not (top cf p3))
-				(not (on cf pallet))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k3 cf)
+			(top pallet p3)
+			(not (in cf p3))
+			(not (top cf p3))
+			(not (on cf pallet))
+			(not (empty k3))
 		)
 	)
 	(:action take_k4_ca_p4_ca_l6
@@ -4244,18 +3868,16 @@
 			(on ca ca)
 		)
 		:effect (and
-			(and
-				(holding k4 ca)
-				(top ca p4)
-				(not (in ca p4))
-				(not (top ca p4))
-				(not (on ca ca))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 ca)
+			(top ca p4)
+			(not (in ca p4))
+			(not (top ca p4))
+			(not (on ca ca))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_ca_p4_cb_l6
@@ -4267,18 +3889,16 @@
 			(on ca cb)
 		)
 		:effect (and
-			(and
-				(holding k4 ca)
-				(top cb p4)
-				(not (in ca p4))
-				(not (top ca p4))
-				(not (on ca cb))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 ca)
+			(top cb p4)
+			(not (in ca p4))
+			(not (top ca p4))
+			(not (on ca cb))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_ca_p4_cc_l6
@@ -4290,18 +3910,16 @@
 			(on ca cc)
 		)
 		:effect (and
-			(and
-				(holding k4 ca)
-				(top cc p4)
-				(not (in ca p4))
-				(not (top ca p4))
-				(not (on ca cc))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 ca)
+			(top cc p4)
+			(not (in ca p4))
+			(not (top ca p4))
+			(not (on ca cc))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_ca_p4_cd_l6
@@ -4313,18 +3931,16 @@
 			(on ca cd)
 		)
 		:effect (and
-			(and
-				(holding k4 ca)
-				(top cd p4)
-				(not (in ca p4))
-				(not (top ca p4))
-				(not (on ca cd))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 ca)
+			(top cd p4)
+			(not (in ca p4))
+			(not (top ca p4))
+			(not (on ca cd))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_ca_p4_ce_l6
@@ -4336,18 +3952,16 @@
 			(on ca ce)
 		)
 		:effect (and
-			(and
-				(holding k4 ca)
-				(top ce p4)
-				(not (in ca p4))
-				(not (top ca p4))
-				(not (on ca ce))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 ca)
+			(top ce p4)
+			(not (in ca p4))
+			(not (top ca p4))
+			(not (on ca ce))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_ca_p4_cf_l6
@@ -4359,18 +3973,16 @@
 			(on ca cf)
 		)
 		:effect (and
-			(and
-				(holding k4 ca)
-				(top cf p4)
-				(not (in ca p4))
-				(not (top ca p4))
-				(not (on ca cf))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 ca)
+			(top cf p4)
+			(not (in ca p4))
+			(not (top ca p4))
+			(not (on ca cf))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_ca_p4_pallet_l6
@@ -4382,18 +3994,16 @@
 			(on ca pallet)
 		)
 		:effect (and
-			(and
-				(holding k4 ca)
-				(top pallet p4)
-				(not (in ca p4))
-				(not (top ca p4))
-				(not (on ca pallet))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 ca)
+			(top pallet p4)
+			(not (in ca p4))
+			(not (top ca p4))
+			(not (on ca pallet))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cb_p4_ca_l6
@@ -4405,18 +4015,16 @@
 			(on cb ca)
 		)
 		:effect (and
-			(and
-				(holding k4 cb)
-				(top ca p4)
-				(not (in cb p4))
-				(not (top cb p4))
-				(not (on cb ca))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cb)
+			(top ca p4)
+			(not (in cb p4))
+			(not (top cb p4))
+			(not (on cb ca))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cb_p4_cb_l6
@@ -4428,18 +4036,16 @@
 			(on cb cb)
 		)
 		:effect (and
-			(and
-				(holding k4 cb)
-				(top cb p4)
-				(not (in cb p4))
-				(not (top cb p4))
-				(not (on cb cb))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cb)
+			(top cb p4)
+			(not (in cb p4))
+			(not (top cb p4))
+			(not (on cb cb))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cb_p4_cc_l6
@@ -4451,18 +4057,16 @@
 			(on cb cc)
 		)
 		:effect (and
-			(and
-				(holding k4 cb)
-				(top cc p4)
-				(not (in cb p4))
-				(not (top cb p4))
-				(not (on cb cc))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cb)
+			(top cc p4)
+			(not (in cb p4))
+			(not (top cb p4))
+			(not (on cb cc))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cb_p4_cd_l6
@@ -4474,18 +4078,16 @@
 			(on cb cd)
 		)
 		:effect (and
-			(and
-				(holding k4 cb)
-				(top cd p4)
-				(not (in cb p4))
-				(not (top cb p4))
-				(not (on cb cd))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cb)
+			(top cd p4)
+			(not (in cb p4))
+			(not (top cb p4))
+			(not (on cb cd))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cb_p4_ce_l6
@@ -4497,18 +4099,16 @@
 			(on cb ce)
 		)
 		:effect (and
-			(and
-				(holding k4 cb)
-				(top ce p4)
-				(not (in cb p4))
-				(not (top cb p4))
-				(not (on cb ce))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cb)
+			(top ce p4)
+			(not (in cb p4))
+			(not (top cb p4))
+			(not (on cb ce))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cb_p4_cf_l6
@@ -4520,18 +4120,16 @@
 			(on cb cf)
 		)
 		:effect (and
-			(and
-				(holding k4 cb)
-				(top cf p4)
-				(not (in cb p4))
-				(not (top cb p4))
-				(not (on cb cf))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cb)
+			(top cf p4)
+			(not (in cb p4))
+			(not (top cb p4))
+			(not (on cb cf))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cb_p4_pallet_l6
@@ -4543,18 +4141,16 @@
 			(on cb pallet)
 		)
 		:effect (and
-			(and
-				(holding k4 cb)
-				(top pallet p4)
-				(not (in cb p4))
-				(not (top cb p4))
-				(not (on cb pallet))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cb)
+			(top pallet p4)
+			(not (in cb p4))
+			(not (top cb p4))
+			(not (on cb pallet))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cc_p4_ca_l6
@@ -4566,18 +4162,16 @@
 			(on cc ca)
 		)
 		:effect (and
-			(and
-				(holding k4 cc)
-				(top ca p4)
-				(not (in cc p4))
-				(not (top cc p4))
-				(not (on cc ca))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cc)
+			(top ca p4)
+			(not (in cc p4))
+			(not (top cc p4))
+			(not (on cc ca))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cc_p4_cb_l6
@@ -4589,18 +4183,16 @@
 			(on cc cb)
 		)
 		:effect (and
-			(and
-				(holding k4 cc)
-				(top cb p4)
-				(not (in cc p4))
-				(not (top cc p4))
-				(not (on cc cb))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cc)
+			(top cb p4)
+			(not (in cc p4))
+			(not (top cc p4))
+			(not (on cc cb))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cc_p4_cc_l6
@@ -4612,18 +4204,16 @@
 			(on cc cc)
 		)
 		:effect (and
-			(and
-				(holding k4 cc)
-				(top cc p4)
-				(not (in cc p4))
-				(not (top cc p4))
-				(not (on cc cc))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cc)
+			(top cc p4)
+			(not (in cc p4))
+			(not (top cc p4))
+			(not (on cc cc))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cc_p4_cd_l6
@@ -4635,18 +4225,16 @@
 			(on cc cd)
 		)
 		:effect (and
-			(and
-				(holding k4 cc)
-				(top cd p4)
-				(not (in cc p4))
-				(not (top cc p4))
-				(not (on cc cd))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cc)
+			(top cd p4)
+			(not (in cc p4))
+			(not (top cc p4))
+			(not (on cc cd))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cc_p4_ce_l6
@@ -4658,18 +4246,16 @@
 			(on cc ce)
 		)
 		:effect (and
-			(and
-				(holding k4 cc)
-				(top ce p4)
-				(not (in cc p4))
-				(not (top cc p4))
-				(not (on cc ce))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cc)
+			(top ce p4)
+			(not (in cc p4))
+			(not (top cc p4))
+			(not (on cc ce))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cc_p4_cf_l6
@@ -4681,18 +4267,16 @@
 			(on cc cf)
 		)
 		:effect (and
-			(and
-				(holding k4 cc)
-				(top cf p4)
-				(not (in cc p4))
-				(not (top cc p4))
-				(not (on cc cf))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cc)
+			(top cf p4)
+			(not (in cc p4))
+			(not (top cc p4))
+			(not (on cc cf))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cc_p4_pallet_l6
@@ -4704,18 +4288,16 @@
 			(on cc pallet)
 		)
 		:effect (and
-			(and
-				(holding k4 cc)
-				(top pallet p4)
-				(not (in cc p4))
-				(not (top cc p4))
-				(not (on cc pallet))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cc)
+			(top pallet p4)
+			(not (in cc p4))
+			(not (top cc p4))
+			(not (on cc pallet))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cd_p4_ca_l6
@@ -4727,18 +4309,16 @@
 			(on cd ca)
 		)
 		:effect (and
-			(and
-				(holding k4 cd)
-				(top ca p4)
-				(not (in cd p4))
-				(not (top cd p4))
-				(not (on cd ca))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cd)
+			(top ca p4)
+			(not (in cd p4))
+			(not (top cd p4))
+			(not (on cd ca))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cd_p4_cb_l6
@@ -4750,18 +4330,16 @@
 			(on cd cb)
 		)
 		:effect (and
-			(and
-				(holding k4 cd)
-				(top cb p4)
-				(not (in cd p4))
-				(not (top cd p4))
-				(not (on cd cb))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cd)
+			(top cb p4)
+			(not (in cd p4))
+			(not (top cd p4))
+			(not (on cd cb))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cd_p4_cc_l6
@@ -4773,18 +4351,16 @@
 			(on cd cc)
 		)
 		:effect (and
-			(and
-				(holding k4 cd)
-				(top cc p4)
-				(not (in cd p4))
-				(not (top cd p4))
-				(not (on cd cc))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cd)
+			(top cc p4)
+			(not (in cd p4))
+			(not (top cd p4))
+			(not (on cd cc))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cd_p4_cd_l6
@@ -4796,18 +4372,16 @@
 			(on cd cd)
 		)
 		:effect (and
-			(and
-				(holding k4 cd)
-				(top cd p4)
-				(not (in cd p4))
-				(not (top cd p4))
-				(not (on cd cd))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cd)
+			(top cd p4)
+			(not (in cd p4))
+			(not (top cd p4))
+			(not (on cd cd))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cd_p4_ce_l6
@@ -4819,18 +4393,16 @@
 			(on cd ce)
 		)
 		:effect (and
-			(and
-				(holding k4 cd)
-				(top ce p4)
-				(not (in cd p4))
-				(not (top cd p4))
-				(not (on cd ce))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cd)
+			(top ce p4)
+			(not (in cd p4))
+			(not (top cd p4))
+			(not (on cd ce))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cd_p4_cf_l6
@@ -4842,18 +4414,16 @@
 			(on cd cf)
 		)
 		:effect (and
-			(and
-				(holding k4 cd)
-				(top cf p4)
-				(not (in cd p4))
-				(not (top cd p4))
-				(not (on cd cf))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cd)
+			(top cf p4)
+			(not (in cd p4))
+			(not (top cd p4))
+			(not (on cd cf))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cd_p4_pallet_l6
@@ -4865,18 +4435,16 @@
 			(on cd pallet)
 		)
 		:effect (and
-			(and
-				(holding k4 cd)
-				(top pallet p4)
-				(not (in cd p4))
-				(not (top cd p4))
-				(not (on cd pallet))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cd)
+			(top pallet p4)
+			(not (in cd p4))
+			(not (top cd p4))
+			(not (on cd pallet))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_ce_p4_ca_l6
@@ -4888,18 +4456,16 @@
 			(on ce ca)
 		)
 		:effect (and
-			(and
-				(holding k4 ce)
-				(top ca p4)
-				(not (in ce p4))
-				(not (top ce p4))
-				(not (on ce ca))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 ce)
+			(top ca p4)
+			(not (in ce p4))
+			(not (top ce p4))
+			(not (on ce ca))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_ce_p4_cb_l6
@@ -4911,18 +4477,16 @@
 			(on ce cb)
 		)
 		:effect (and
-			(and
-				(holding k4 ce)
-				(top cb p4)
-				(not (in ce p4))
-				(not (top ce p4))
-				(not (on ce cb))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 ce)
+			(top cb p4)
+			(not (in ce p4))
+			(not (top ce p4))
+			(not (on ce cb))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_ce_p4_cc_l6
@@ -4934,18 +4498,16 @@
 			(on ce cc)
 		)
 		:effect (and
-			(and
-				(holding k4 ce)
-				(top cc p4)
-				(not (in ce p4))
-				(not (top ce p4))
-				(not (on ce cc))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 ce)
+			(top cc p4)
+			(not (in ce p4))
+			(not (top ce p4))
+			(not (on ce cc))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_ce_p4_cd_l6
@@ -4957,18 +4519,16 @@
 			(on ce cd)
 		)
 		:effect (and
-			(and
-				(holding k4 ce)
-				(top cd p4)
-				(not (in ce p4))
-				(not (top ce p4))
-				(not (on ce cd))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 ce)
+			(top cd p4)
+			(not (in ce p4))
+			(not (top ce p4))
+			(not (on ce cd))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_ce_p4_ce_l6
@@ -4980,18 +4540,16 @@
 			(on ce ce)
 		)
 		:effect (and
-			(and
-				(holding k4 ce)
-				(top ce p4)
-				(not (in ce p4))
-				(not (top ce p4))
-				(not (on ce ce))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 ce)
+			(top ce p4)
+			(not (in ce p4))
+			(not (top ce p4))
+			(not (on ce ce))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_ce_p4_cf_l6
@@ -5003,18 +4561,16 @@
 			(on ce cf)
 		)
 		:effect (and
-			(and
-				(holding k4 ce)
-				(top cf p4)
-				(not (in ce p4))
-				(not (top ce p4))
-				(not (on ce cf))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 ce)
+			(top cf p4)
+			(not (in ce p4))
+			(not (top ce p4))
+			(not (on ce cf))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_ce_p4_pallet_l6
@@ -5026,18 +4582,16 @@
 			(on ce pallet)
 		)
 		:effect (and
-			(and
-				(holding k4 ce)
-				(top pallet p4)
-				(not (in ce p4))
-				(not (top ce p4))
-				(not (on ce pallet))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 ce)
+			(top pallet p4)
+			(not (in ce p4))
+			(not (top ce p4))
+			(not (on ce pallet))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cf_p4_ca_l6
@@ -5049,18 +4603,16 @@
 			(on cf ca)
 		)
 		:effect (and
-			(and
-				(holding k4 cf)
-				(top ca p4)
-				(not (in cf p4))
-				(not (top cf p4))
-				(not (on cf ca))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cf)
+			(top ca p4)
+			(not (in cf p4))
+			(not (top cf p4))
+			(not (on cf ca))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cf_p4_cb_l6
@@ -5072,18 +4624,16 @@
 			(on cf cb)
 		)
 		:effect (and
-			(and
-				(holding k4 cf)
-				(top cb p4)
-				(not (in cf p4))
-				(not (top cf p4))
-				(not (on cf cb))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cf)
+			(top cb p4)
+			(not (in cf p4))
+			(not (top cf p4))
+			(not (on cf cb))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cf_p4_cc_l6
@@ -5095,18 +4645,16 @@
 			(on cf cc)
 		)
 		:effect (and
-			(and
-				(holding k4 cf)
-				(top cc p4)
-				(not (in cf p4))
-				(not (top cf p4))
-				(not (on cf cc))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cf)
+			(top cc p4)
+			(not (in cf p4))
+			(not (top cf p4))
+			(not (on cf cc))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cf_p4_cd_l6
@@ -5118,18 +4666,16 @@
 			(on cf cd)
 		)
 		:effect (and
-			(and
-				(holding k4 cf)
-				(top cd p4)
-				(not (in cf p4))
-				(not (top cf p4))
-				(not (on cf cd))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cf)
+			(top cd p4)
+			(not (in cf p4))
+			(not (top cf p4))
+			(not (on cf cd))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cf_p4_ce_l6
@@ -5141,18 +4687,16 @@
 			(on cf ce)
 		)
 		:effect (and
-			(and
-				(holding k4 cf)
-				(top ce p4)
-				(not (in cf p4))
-				(not (top cf p4))
-				(not (on cf ce))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cf)
+			(top ce p4)
+			(not (in cf p4))
+			(not (top cf p4))
+			(not (on cf ce))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cf_p4_cf_l6
@@ -5164,18 +4708,16 @@
 			(on cf cf)
 		)
 		:effect (and
-			(and
-				(holding k4 cf)
-				(top cf p4)
-				(not (in cf p4))
-				(not (top cf p4))
-				(not (on cf cf))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cf)
+			(top cf p4)
+			(not (in cf p4))
+			(not (top cf p4))
+			(not (on cf cf))
+			(not (empty k4))
 		)
 	)
 	(:action take_k4_cf_p4_pallet_l6
@@ -5187,18 +4729,16 @@
 			(on cf pallet)
 		)
 		:effect (and
-			(and
-				(holding k4 cf)
-				(top pallet p4)
-				(not (in cf p4))
-				(not (top cf p4))
-				(not (on cf pallet))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k4 cf)
+			(top pallet p4)
+			(not (in cf p4))
+			(not (top cf p4))
+			(not (on cf pallet))
+			(not (empty k4))
 		)
 	)
 	(:action put_k1_ca_p1_ca_l1
@@ -5208,18 +4748,16 @@
 			(top ca p1)
 		)
 		:effect (and
-			(and
-				(in ca p1)
-				(top ca p1)
-				(on ca ca)
-				(not (top ca p1))
-				(not (holding k1 ca))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p1)
+			(top ca p1)
+			(on ca ca)
+			(not (top ca p1))
+			(not (holding k1 ca))
+			(empty k1)
 		)
 	)
 	(:action put_k1_ca_p1_cb_l1
@@ -5229,18 +4767,16 @@
 			(top cb p1)
 		)
 		:effect (and
-			(and
-				(in ca p1)
-				(top ca p1)
-				(on ca cb)
-				(not (top cb p1))
-				(not (holding k1 ca))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p1)
+			(top ca p1)
+			(on ca cb)
+			(not (top cb p1))
+			(not (holding k1 ca))
+			(empty k1)
 		)
 	)
 	(:action put_k1_ca_p1_cc_l1
@@ -5250,18 +4786,16 @@
 			(top cc p1)
 		)
 		:effect (and
-			(and
-				(in ca p1)
-				(top ca p1)
-				(on ca cc)
-				(not (top cc p1))
-				(not (holding k1 ca))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p1)
+			(top ca p1)
+			(on ca cc)
+			(not (top cc p1))
+			(not (holding k1 ca))
+			(empty k1)
 		)
 	)
 	(:action put_k1_ca_p1_cd_l1
@@ -5271,18 +4805,16 @@
 			(top cd p1)
 		)
 		:effect (and
-			(and
-				(in ca p1)
-				(top ca p1)
-				(on ca cd)
-				(not (top cd p1))
-				(not (holding k1 ca))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p1)
+			(top ca p1)
+			(on ca cd)
+			(not (top cd p1))
+			(not (holding k1 ca))
+			(empty k1)
 		)
 	)
 	(:action put_k1_ca_p1_ce_l1
@@ -5292,18 +4824,16 @@
 			(top ce p1)
 		)
 		:effect (and
-			(and
-				(in ca p1)
-				(top ca p1)
-				(on ca ce)
-				(not (top ce p1))
-				(not (holding k1 ca))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p1)
+			(top ca p1)
+			(on ca ce)
+			(not (top ce p1))
+			(not (holding k1 ca))
+			(empty k1)
 		)
 	)
 	(:action put_k1_ca_p1_cf_l1
@@ -5313,18 +4843,16 @@
 			(top cf p1)
 		)
 		:effect (and
-			(and
-				(in ca p1)
-				(top ca p1)
-				(on ca cf)
-				(not (top cf p1))
-				(not (holding k1 ca))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p1)
+			(top ca p1)
+			(on ca cf)
+			(not (top cf p1))
+			(not (holding k1 ca))
+			(empty k1)
 		)
 	)
 	(:action put_k1_ca_p1_pallet_l1
@@ -5334,18 +4862,16 @@
 			(top pallet p1)
 		)
 		:effect (and
-			(and
-				(in ca p1)
-				(top ca p1)
-				(on ca pallet)
-				(not (top pallet p1))
-				(not (holding k1 ca))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p1)
+			(top ca p1)
+			(on ca pallet)
+			(not (top pallet p1))
+			(not (holding k1 ca))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cb_p1_ca_l1
@@ -5355,18 +4881,16 @@
 			(top ca p1)
 		)
 		:effect (and
-			(and
-				(in cb p1)
-				(top cb p1)
-				(on cb ca)
-				(not (top ca p1))
-				(not (holding k1 cb))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p1)
+			(top cb p1)
+			(on cb ca)
+			(not (top ca p1))
+			(not (holding k1 cb))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cb_p1_cb_l1
@@ -5376,18 +4900,16 @@
 			(top cb p1)
 		)
 		:effect (and
-			(and
-				(in cb p1)
-				(top cb p1)
-				(on cb cb)
-				(not (top cb p1))
-				(not (holding k1 cb))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p1)
+			(top cb p1)
+			(on cb cb)
+			(not (top cb p1))
+			(not (holding k1 cb))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cb_p1_cc_l1
@@ -5397,18 +4919,16 @@
 			(top cc p1)
 		)
 		:effect (and
-			(and
-				(in cb p1)
-				(top cb p1)
-				(on cb cc)
-				(not (top cc p1))
-				(not (holding k1 cb))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p1)
+			(top cb p1)
+			(on cb cc)
+			(not (top cc p1))
+			(not (holding k1 cb))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cb_p1_cd_l1
@@ -5418,18 +4938,16 @@
 			(top cd p1)
 		)
 		:effect (and
-			(and
-				(in cb p1)
-				(top cb p1)
-				(on cb cd)
-				(not (top cd p1))
-				(not (holding k1 cb))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p1)
+			(top cb p1)
+			(on cb cd)
+			(not (top cd p1))
+			(not (holding k1 cb))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cb_p1_ce_l1
@@ -5439,18 +4957,16 @@
 			(top ce p1)
 		)
 		:effect (and
-			(and
-				(in cb p1)
-				(top cb p1)
-				(on cb ce)
-				(not (top ce p1))
-				(not (holding k1 cb))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p1)
+			(top cb p1)
+			(on cb ce)
+			(not (top ce p1))
+			(not (holding k1 cb))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cb_p1_cf_l1
@@ -5460,18 +4976,16 @@
 			(top cf p1)
 		)
 		:effect (and
-			(and
-				(in cb p1)
-				(top cb p1)
-				(on cb cf)
-				(not (top cf p1))
-				(not (holding k1 cb))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p1)
+			(top cb p1)
+			(on cb cf)
+			(not (top cf p1))
+			(not (holding k1 cb))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cb_p1_pallet_l1
@@ -5481,18 +4995,16 @@
 			(top pallet p1)
 		)
 		:effect (and
-			(and
-				(in cb p1)
-				(top cb p1)
-				(on cb pallet)
-				(not (top pallet p1))
-				(not (holding k1 cb))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p1)
+			(top cb p1)
+			(on cb pallet)
+			(not (top pallet p1))
+			(not (holding k1 cb))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cc_p1_ca_l1
@@ -5502,18 +5014,16 @@
 			(top ca p1)
 		)
 		:effect (and
-			(and
-				(in cc p1)
-				(top cc p1)
-				(on cc ca)
-				(not (top ca p1))
-				(not (holding k1 cc))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p1)
+			(top cc p1)
+			(on cc ca)
+			(not (top ca p1))
+			(not (holding k1 cc))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cc_p1_cb_l1
@@ -5523,18 +5033,16 @@
 			(top cb p1)
 		)
 		:effect (and
-			(and
-				(in cc p1)
-				(top cc p1)
-				(on cc cb)
-				(not (top cb p1))
-				(not (holding k1 cc))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p1)
+			(top cc p1)
+			(on cc cb)
+			(not (top cb p1))
+			(not (holding k1 cc))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cc_p1_cc_l1
@@ -5544,18 +5052,16 @@
 			(top cc p1)
 		)
 		:effect (and
-			(and
-				(in cc p1)
-				(top cc p1)
-				(on cc cc)
-				(not (top cc p1))
-				(not (holding k1 cc))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p1)
+			(top cc p1)
+			(on cc cc)
+			(not (top cc p1))
+			(not (holding k1 cc))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cc_p1_cd_l1
@@ -5565,18 +5071,16 @@
 			(top cd p1)
 		)
 		:effect (and
-			(and
-				(in cc p1)
-				(top cc p1)
-				(on cc cd)
-				(not (top cd p1))
-				(not (holding k1 cc))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p1)
+			(top cc p1)
+			(on cc cd)
+			(not (top cd p1))
+			(not (holding k1 cc))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cc_p1_ce_l1
@@ -5586,18 +5090,16 @@
 			(top ce p1)
 		)
 		:effect (and
-			(and
-				(in cc p1)
-				(top cc p1)
-				(on cc ce)
-				(not (top ce p1))
-				(not (holding k1 cc))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p1)
+			(top cc p1)
+			(on cc ce)
+			(not (top ce p1))
+			(not (holding k1 cc))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cc_p1_cf_l1
@@ -5607,18 +5109,16 @@
 			(top cf p1)
 		)
 		:effect (and
-			(and
-				(in cc p1)
-				(top cc p1)
-				(on cc cf)
-				(not (top cf p1))
-				(not (holding k1 cc))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p1)
+			(top cc p1)
+			(on cc cf)
+			(not (top cf p1))
+			(not (holding k1 cc))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cc_p1_pallet_l1
@@ -5628,18 +5128,16 @@
 			(top pallet p1)
 		)
 		:effect (and
-			(and
-				(in cc p1)
-				(top cc p1)
-				(on cc pallet)
-				(not (top pallet p1))
-				(not (holding k1 cc))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p1)
+			(top cc p1)
+			(on cc pallet)
+			(not (top pallet p1))
+			(not (holding k1 cc))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cd_p1_ca_l1
@@ -5649,18 +5147,16 @@
 			(top ca p1)
 		)
 		:effect (and
-			(and
-				(in cd p1)
-				(top cd p1)
-				(on cd ca)
-				(not (top ca p1))
-				(not (holding k1 cd))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p1)
+			(top cd p1)
+			(on cd ca)
+			(not (top ca p1))
+			(not (holding k1 cd))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cd_p1_cb_l1
@@ -5670,18 +5166,16 @@
 			(top cb p1)
 		)
 		:effect (and
-			(and
-				(in cd p1)
-				(top cd p1)
-				(on cd cb)
-				(not (top cb p1))
-				(not (holding k1 cd))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p1)
+			(top cd p1)
+			(on cd cb)
+			(not (top cb p1))
+			(not (holding k1 cd))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cd_p1_cc_l1
@@ -5691,18 +5185,16 @@
 			(top cc p1)
 		)
 		:effect (and
-			(and
-				(in cd p1)
-				(top cd p1)
-				(on cd cc)
-				(not (top cc p1))
-				(not (holding k1 cd))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p1)
+			(top cd p1)
+			(on cd cc)
+			(not (top cc p1))
+			(not (holding k1 cd))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cd_p1_cd_l1
@@ -5712,18 +5204,16 @@
 			(top cd p1)
 		)
 		:effect (and
-			(and
-				(in cd p1)
-				(top cd p1)
-				(on cd cd)
-				(not (top cd p1))
-				(not (holding k1 cd))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p1)
+			(top cd p1)
+			(on cd cd)
+			(not (top cd p1))
+			(not (holding k1 cd))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cd_p1_ce_l1
@@ -5733,18 +5223,16 @@
 			(top ce p1)
 		)
 		:effect (and
-			(and
-				(in cd p1)
-				(top cd p1)
-				(on cd ce)
-				(not (top ce p1))
-				(not (holding k1 cd))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p1)
+			(top cd p1)
+			(on cd ce)
+			(not (top ce p1))
+			(not (holding k1 cd))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cd_p1_cf_l1
@@ -5754,18 +5242,16 @@
 			(top cf p1)
 		)
 		:effect (and
-			(and
-				(in cd p1)
-				(top cd p1)
-				(on cd cf)
-				(not (top cf p1))
-				(not (holding k1 cd))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p1)
+			(top cd p1)
+			(on cd cf)
+			(not (top cf p1))
+			(not (holding k1 cd))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cd_p1_pallet_l1
@@ -5775,18 +5261,16 @@
 			(top pallet p1)
 		)
 		:effect (and
-			(and
-				(in cd p1)
-				(top cd p1)
-				(on cd pallet)
-				(not (top pallet p1))
-				(not (holding k1 cd))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p1)
+			(top cd p1)
+			(on cd pallet)
+			(not (top pallet p1))
+			(not (holding k1 cd))
+			(empty k1)
 		)
 	)
 	(:action put_k1_ce_p1_ca_l1
@@ -5796,18 +5280,16 @@
 			(top ca p1)
 		)
 		:effect (and
-			(and
-				(in ce p1)
-				(top ce p1)
-				(on ce ca)
-				(not (top ca p1))
-				(not (holding k1 ce))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p1)
+			(top ce p1)
+			(on ce ca)
+			(not (top ca p1))
+			(not (holding k1 ce))
+			(empty k1)
 		)
 	)
 	(:action put_k1_ce_p1_cb_l1
@@ -5817,18 +5299,16 @@
 			(top cb p1)
 		)
 		:effect (and
-			(and
-				(in ce p1)
-				(top ce p1)
-				(on ce cb)
-				(not (top cb p1))
-				(not (holding k1 ce))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p1)
+			(top ce p1)
+			(on ce cb)
+			(not (top cb p1))
+			(not (holding k1 ce))
+			(empty k1)
 		)
 	)
 	(:action put_k1_ce_p1_cc_l1
@@ -5838,18 +5318,16 @@
 			(top cc p1)
 		)
 		:effect (and
-			(and
-				(in ce p1)
-				(top ce p1)
-				(on ce cc)
-				(not (top cc p1))
-				(not (holding k1 ce))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p1)
+			(top ce p1)
+			(on ce cc)
+			(not (top cc p1))
+			(not (holding k1 ce))
+			(empty k1)
 		)
 	)
 	(:action put_k1_ce_p1_cd_l1
@@ -5859,18 +5337,16 @@
 			(top cd p1)
 		)
 		:effect (and
-			(and
-				(in ce p1)
-				(top ce p1)
-				(on ce cd)
-				(not (top cd p1))
-				(not (holding k1 ce))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p1)
+			(top ce p1)
+			(on ce cd)
+			(not (top cd p1))
+			(not (holding k1 ce))
+			(empty k1)
 		)
 	)
 	(:action put_k1_ce_p1_ce_l1
@@ -5880,18 +5356,16 @@
 			(top ce p1)
 		)
 		:effect (and
-			(and
-				(in ce p1)
-				(top ce p1)
-				(on ce ce)
-				(not (top ce p1))
-				(not (holding k1 ce))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p1)
+			(top ce p1)
+			(on ce ce)
+			(not (top ce p1))
+			(not (holding k1 ce))
+			(empty k1)
 		)
 	)
 	(:action put_k1_ce_p1_cf_l1
@@ -5901,18 +5375,16 @@
 			(top cf p1)
 		)
 		:effect (and
-			(and
-				(in ce p1)
-				(top ce p1)
-				(on ce cf)
-				(not (top cf p1))
-				(not (holding k1 ce))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p1)
+			(top ce p1)
+			(on ce cf)
+			(not (top cf p1))
+			(not (holding k1 ce))
+			(empty k1)
 		)
 	)
 	(:action put_k1_ce_p1_pallet_l1
@@ -5922,18 +5394,16 @@
 			(top pallet p1)
 		)
 		:effect (and
-			(and
-				(in ce p1)
-				(top ce p1)
-				(on ce pallet)
-				(not (top pallet p1))
-				(not (holding k1 ce))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p1)
+			(top ce p1)
+			(on ce pallet)
+			(not (top pallet p1))
+			(not (holding k1 ce))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cf_p1_ca_l1
@@ -5943,18 +5413,16 @@
 			(top ca p1)
 		)
 		:effect (and
-			(and
-				(in cf p1)
-				(top cf p1)
-				(on cf ca)
-				(not (top ca p1))
-				(not (holding k1 cf))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p1)
+			(top cf p1)
+			(on cf ca)
+			(not (top ca p1))
+			(not (holding k1 cf))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cf_p1_cb_l1
@@ -5964,18 +5432,16 @@
 			(top cb p1)
 		)
 		:effect (and
-			(and
-				(in cf p1)
-				(top cf p1)
-				(on cf cb)
-				(not (top cb p1))
-				(not (holding k1 cf))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p1)
+			(top cf p1)
+			(on cf cb)
+			(not (top cb p1))
+			(not (holding k1 cf))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cf_p1_cc_l1
@@ -5985,18 +5451,16 @@
 			(top cc p1)
 		)
 		:effect (and
-			(and
-				(in cf p1)
-				(top cf p1)
-				(on cf cc)
-				(not (top cc p1))
-				(not (holding k1 cf))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p1)
+			(top cf p1)
+			(on cf cc)
+			(not (top cc p1))
+			(not (holding k1 cf))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cf_p1_cd_l1
@@ -6006,18 +5470,16 @@
 			(top cd p1)
 		)
 		:effect (and
-			(and
-				(in cf p1)
-				(top cf p1)
-				(on cf cd)
-				(not (top cd p1))
-				(not (holding k1 cf))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p1)
+			(top cf p1)
+			(on cf cd)
+			(not (top cd p1))
+			(not (holding k1 cf))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cf_p1_ce_l1
@@ -6027,18 +5489,16 @@
 			(top ce p1)
 		)
 		:effect (and
-			(and
-				(in cf p1)
-				(top cf p1)
-				(on cf ce)
-				(not (top ce p1))
-				(not (holding k1 cf))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p1)
+			(top cf p1)
+			(on cf ce)
+			(not (top ce p1))
+			(not (holding k1 cf))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cf_p1_cf_l1
@@ -6048,18 +5508,16 @@
 			(top cf p1)
 		)
 		:effect (and
-			(and
-				(in cf p1)
-				(top cf p1)
-				(on cf cf)
-				(not (top cf p1))
-				(not (holding k1 cf))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p1)
+			(top cf p1)
+			(on cf cf)
+			(not (top cf p1))
+			(not (holding k1 cf))
+			(empty k1)
 		)
 	)
 	(:action put_k1_cf_p1_pallet_l1
@@ -6069,18 +5527,16 @@
 			(top pallet p1)
 		)
 		:effect (and
-			(and
-				(in cf p1)
-				(top cf p1)
-				(on cf pallet)
-				(not (top pallet p1))
-				(not (holding k1 cf))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p1)
+			(top cf p1)
+			(on cf pallet)
+			(not (top pallet p1))
+			(not (holding k1 cf))
+			(empty k1)
 		)
 	)
 	(:action put_k2_ca_p2_ca_l3
@@ -6090,18 +5546,16 @@
 			(top ca p2)
 		)
 		:effect (and
-			(and
-				(in ca p2)
-				(top ca p2)
-				(on ca ca)
-				(not (top ca p2))
-				(not (holding k2 ca))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p2)
+			(top ca p2)
+			(on ca ca)
+			(not (top ca p2))
+			(not (holding k2 ca))
+			(empty k2)
 		)
 	)
 	(:action put_k2_ca_p2_cb_l3
@@ -6111,18 +5565,16 @@
 			(top cb p2)
 		)
 		:effect (and
-			(and
-				(in ca p2)
-				(top ca p2)
-				(on ca cb)
-				(not (top cb p2))
-				(not (holding k2 ca))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p2)
+			(top ca p2)
+			(on ca cb)
+			(not (top cb p2))
+			(not (holding k2 ca))
+			(empty k2)
 		)
 	)
 	(:action put_k2_ca_p2_cc_l3
@@ -6132,18 +5584,16 @@
 			(top cc p2)
 		)
 		:effect (and
-			(and
-				(in ca p2)
-				(top ca p2)
-				(on ca cc)
-				(not (top cc p2))
-				(not (holding k2 ca))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p2)
+			(top ca p2)
+			(on ca cc)
+			(not (top cc p2))
+			(not (holding k2 ca))
+			(empty k2)
 		)
 	)
 	(:action put_k2_ca_p2_cd_l3
@@ -6153,18 +5603,16 @@
 			(top cd p2)
 		)
 		:effect (and
-			(and
-				(in ca p2)
-				(top ca p2)
-				(on ca cd)
-				(not (top cd p2))
-				(not (holding k2 ca))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p2)
+			(top ca p2)
+			(on ca cd)
+			(not (top cd p2))
+			(not (holding k2 ca))
+			(empty k2)
 		)
 	)
 	(:action put_k2_ca_p2_ce_l3
@@ -6174,18 +5622,16 @@
 			(top ce p2)
 		)
 		:effect (and
-			(and
-				(in ca p2)
-				(top ca p2)
-				(on ca ce)
-				(not (top ce p2))
-				(not (holding k2 ca))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p2)
+			(top ca p2)
+			(on ca ce)
+			(not (top ce p2))
+			(not (holding k2 ca))
+			(empty k2)
 		)
 	)
 	(:action put_k2_ca_p2_cf_l3
@@ -6195,18 +5641,16 @@
 			(top cf p2)
 		)
 		:effect (and
-			(and
-				(in ca p2)
-				(top ca p2)
-				(on ca cf)
-				(not (top cf p2))
-				(not (holding k2 ca))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p2)
+			(top ca p2)
+			(on ca cf)
+			(not (top cf p2))
+			(not (holding k2 ca))
+			(empty k2)
 		)
 	)
 	(:action put_k2_ca_p2_pallet_l3
@@ -6216,18 +5660,16 @@
 			(top pallet p2)
 		)
 		:effect (and
-			(and
-				(in ca p2)
-				(top ca p2)
-				(on ca pallet)
-				(not (top pallet p2))
-				(not (holding k2 ca))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p2)
+			(top ca p2)
+			(on ca pallet)
+			(not (top pallet p2))
+			(not (holding k2 ca))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cb_p2_ca_l3
@@ -6237,18 +5679,16 @@
 			(top ca p2)
 		)
 		:effect (and
-			(and
-				(in cb p2)
-				(top cb p2)
-				(on cb ca)
-				(not (top ca p2))
-				(not (holding k2 cb))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p2)
+			(top cb p2)
+			(on cb ca)
+			(not (top ca p2))
+			(not (holding k2 cb))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cb_p2_cb_l3
@@ -6258,18 +5698,16 @@
 			(top cb p2)
 		)
 		:effect (and
-			(and
-				(in cb p2)
-				(top cb p2)
-				(on cb cb)
-				(not (top cb p2))
-				(not (holding k2 cb))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p2)
+			(top cb p2)
+			(on cb cb)
+			(not (top cb p2))
+			(not (holding k2 cb))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cb_p2_cc_l3
@@ -6279,18 +5717,16 @@
 			(top cc p2)
 		)
 		:effect (and
-			(and
-				(in cb p2)
-				(top cb p2)
-				(on cb cc)
-				(not (top cc p2))
-				(not (holding k2 cb))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p2)
+			(top cb p2)
+			(on cb cc)
+			(not (top cc p2))
+			(not (holding k2 cb))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cb_p2_cd_l3
@@ -6300,18 +5736,16 @@
 			(top cd p2)
 		)
 		:effect (and
-			(and
-				(in cb p2)
-				(top cb p2)
-				(on cb cd)
-				(not (top cd p2))
-				(not (holding k2 cb))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p2)
+			(top cb p2)
+			(on cb cd)
+			(not (top cd p2))
+			(not (holding k2 cb))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cb_p2_ce_l3
@@ -6321,18 +5755,16 @@
 			(top ce p2)
 		)
 		:effect (and
-			(and
-				(in cb p2)
-				(top cb p2)
-				(on cb ce)
-				(not (top ce p2))
-				(not (holding k2 cb))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p2)
+			(top cb p2)
+			(on cb ce)
+			(not (top ce p2))
+			(not (holding k2 cb))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cb_p2_cf_l3
@@ -6342,18 +5774,16 @@
 			(top cf p2)
 		)
 		:effect (and
-			(and
-				(in cb p2)
-				(top cb p2)
-				(on cb cf)
-				(not (top cf p2))
-				(not (holding k2 cb))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p2)
+			(top cb p2)
+			(on cb cf)
+			(not (top cf p2))
+			(not (holding k2 cb))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cb_p2_pallet_l3
@@ -6363,18 +5793,16 @@
 			(top pallet p2)
 		)
 		:effect (and
-			(and
-				(in cb p2)
-				(top cb p2)
-				(on cb pallet)
-				(not (top pallet p2))
-				(not (holding k2 cb))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p2)
+			(top cb p2)
+			(on cb pallet)
+			(not (top pallet p2))
+			(not (holding k2 cb))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cc_p2_ca_l3
@@ -6384,18 +5812,16 @@
 			(top ca p2)
 		)
 		:effect (and
-			(and
-				(in cc p2)
-				(top cc p2)
-				(on cc ca)
-				(not (top ca p2))
-				(not (holding k2 cc))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p2)
+			(top cc p2)
+			(on cc ca)
+			(not (top ca p2))
+			(not (holding k2 cc))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cc_p2_cb_l3
@@ -6405,18 +5831,16 @@
 			(top cb p2)
 		)
 		:effect (and
-			(and
-				(in cc p2)
-				(top cc p2)
-				(on cc cb)
-				(not (top cb p2))
-				(not (holding k2 cc))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p2)
+			(top cc p2)
+			(on cc cb)
+			(not (top cb p2))
+			(not (holding k2 cc))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cc_p2_cc_l3
@@ -6426,18 +5850,16 @@
 			(top cc p2)
 		)
 		:effect (and
-			(and
-				(in cc p2)
-				(top cc p2)
-				(on cc cc)
-				(not (top cc p2))
-				(not (holding k2 cc))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p2)
+			(top cc p2)
+			(on cc cc)
+			(not (top cc p2))
+			(not (holding k2 cc))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cc_p2_cd_l3
@@ -6447,18 +5869,16 @@
 			(top cd p2)
 		)
 		:effect (and
-			(and
-				(in cc p2)
-				(top cc p2)
-				(on cc cd)
-				(not (top cd p2))
-				(not (holding k2 cc))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p2)
+			(top cc p2)
+			(on cc cd)
+			(not (top cd p2))
+			(not (holding k2 cc))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cc_p2_ce_l3
@@ -6468,18 +5888,16 @@
 			(top ce p2)
 		)
 		:effect (and
-			(and
-				(in cc p2)
-				(top cc p2)
-				(on cc ce)
-				(not (top ce p2))
-				(not (holding k2 cc))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p2)
+			(top cc p2)
+			(on cc ce)
+			(not (top ce p2))
+			(not (holding k2 cc))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cc_p2_cf_l3
@@ -6489,18 +5907,16 @@
 			(top cf p2)
 		)
 		:effect (and
-			(and
-				(in cc p2)
-				(top cc p2)
-				(on cc cf)
-				(not (top cf p2))
-				(not (holding k2 cc))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p2)
+			(top cc p2)
+			(on cc cf)
+			(not (top cf p2))
+			(not (holding k2 cc))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cc_p2_pallet_l3
@@ -6510,18 +5926,16 @@
 			(top pallet p2)
 		)
 		:effect (and
-			(and
-				(in cc p2)
-				(top cc p2)
-				(on cc pallet)
-				(not (top pallet p2))
-				(not (holding k2 cc))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p2)
+			(top cc p2)
+			(on cc pallet)
+			(not (top pallet p2))
+			(not (holding k2 cc))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cd_p2_ca_l3
@@ -6531,18 +5945,16 @@
 			(top ca p2)
 		)
 		:effect (and
-			(and
-				(in cd p2)
-				(top cd p2)
-				(on cd ca)
-				(not (top ca p2))
-				(not (holding k2 cd))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p2)
+			(top cd p2)
+			(on cd ca)
+			(not (top ca p2))
+			(not (holding k2 cd))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cd_p2_cb_l3
@@ -6552,18 +5964,16 @@
 			(top cb p2)
 		)
 		:effect (and
-			(and
-				(in cd p2)
-				(top cd p2)
-				(on cd cb)
-				(not (top cb p2))
-				(not (holding k2 cd))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p2)
+			(top cd p2)
+			(on cd cb)
+			(not (top cb p2))
+			(not (holding k2 cd))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cd_p2_cc_l3
@@ -6573,18 +5983,16 @@
 			(top cc p2)
 		)
 		:effect (and
-			(and
-				(in cd p2)
-				(top cd p2)
-				(on cd cc)
-				(not (top cc p2))
-				(not (holding k2 cd))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p2)
+			(top cd p2)
+			(on cd cc)
+			(not (top cc p2))
+			(not (holding k2 cd))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cd_p2_cd_l3
@@ -6594,18 +6002,16 @@
 			(top cd p2)
 		)
 		:effect (and
-			(and
-				(in cd p2)
-				(top cd p2)
-				(on cd cd)
-				(not (top cd p2))
-				(not (holding k2 cd))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p2)
+			(top cd p2)
+			(on cd cd)
+			(not (top cd p2))
+			(not (holding k2 cd))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cd_p2_ce_l3
@@ -6615,18 +6021,16 @@
 			(top ce p2)
 		)
 		:effect (and
-			(and
-				(in cd p2)
-				(top cd p2)
-				(on cd ce)
-				(not (top ce p2))
-				(not (holding k2 cd))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p2)
+			(top cd p2)
+			(on cd ce)
+			(not (top ce p2))
+			(not (holding k2 cd))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cd_p2_cf_l3
@@ -6636,18 +6040,16 @@
 			(top cf p2)
 		)
 		:effect (and
-			(and
-				(in cd p2)
-				(top cd p2)
-				(on cd cf)
-				(not (top cf p2))
-				(not (holding k2 cd))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p2)
+			(top cd p2)
+			(on cd cf)
+			(not (top cf p2))
+			(not (holding k2 cd))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cd_p2_pallet_l3
@@ -6657,18 +6059,16 @@
 			(top pallet p2)
 		)
 		:effect (and
-			(and
-				(in cd p2)
-				(top cd p2)
-				(on cd pallet)
-				(not (top pallet p2))
-				(not (holding k2 cd))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p2)
+			(top cd p2)
+			(on cd pallet)
+			(not (top pallet p2))
+			(not (holding k2 cd))
+			(empty k2)
 		)
 	)
 	(:action put_k2_ce_p2_ca_l3
@@ -6678,18 +6078,16 @@
 			(top ca p2)
 		)
 		:effect (and
-			(and
-				(in ce p2)
-				(top ce p2)
-				(on ce ca)
-				(not (top ca p2))
-				(not (holding k2 ce))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p2)
+			(top ce p2)
+			(on ce ca)
+			(not (top ca p2))
+			(not (holding k2 ce))
+			(empty k2)
 		)
 	)
 	(:action put_k2_ce_p2_cb_l3
@@ -6699,18 +6097,16 @@
 			(top cb p2)
 		)
 		:effect (and
-			(and
-				(in ce p2)
-				(top ce p2)
-				(on ce cb)
-				(not (top cb p2))
-				(not (holding k2 ce))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p2)
+			(top ce p2)
+			(on ce cb)
+			(not (top cb p2))
+			(not (holding k2 ce))
+			(empty k2)
 		)
 	)
 	(:action put_k2_ce_p2_cc_l3
@@ -6720,18 +6116,16 @@
 			(top cc p2)
 		)
 		:effect (and
-			(and
-				(in ce p2)
-				(top ce p2)
-				(on ce cc)
-				(not (top cc p2))
-				(not (holding k2 ce))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p2)
+			(top ce p2)
+			(on ce cc)
+			(not (top cc p2))
+			(not (holding k2 ce))
+			(empty k2)
 		)
 	)
 	(:action put_k2_ce_p2_cd_l3
@@ -6741,18 +6135,16 @@
 			(top cd p2)
 		)
 		:effect (and
-			(and
-				(in ce p2)
-				(top ce p2)
-				(on ce cd)
-				(not (top cd p2))
-				(not (holding k2 ce))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p2)
+			(top ce p2)
+			(on ce cd)
+			(not (top cd p2))
+			(not (holding k2 ce))
+			(empty k2)
 		)
 	)
 	(:action put_k2_ce_p2_ce_l3
@@ -6762,18 +6154,16 @@
 			(top ce p2)
 		)
 		:effect (and
-			(and
-				(in ce p2)
-				(top ce p2)
-				(on ce ce)
-				(not (top ce p2))
-				(not (holding k2 ce))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p2)
+			(top ce p2)
+			(on ce ce)
+			(not (top ce p2))
+			(not (holding k2 ce))
+			(empty k2)
 		)
 	)
 	(:action put_k2_ce_p2_cf_l3
@@ -6783,18 +6173,16 @@
 			(top cf p2)
 		)
 		:effect (and
-			(and
-				(in ce p2)
-				(top ce p2)
-				(on ce cf)
-				(not (top cf p2))
-				(not (holding k2 ce))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p2)
+			(top ce p2)
+			(on ce cf)
+			(not (top cf p2))
+			(not (holding k2 ce))
+			(empty k2)
 		)
 	)
 	(:action put_k2_ce_p2_pallet_l3
@@ -6804,18 +6192,16 @@
 			(top pallet p2)
 		)
 		:effect (and
-			(and
-				(in ce p2)
-				(top ce p2)
-				(on ce pallet)
-				(not (top pallet p2))
-				(not (holding k2 ce))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p2)
+			(top ce p2)
+			(on ce pallet)
+			(not (top pallet p2))
+			(not (holding k2 ce))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cf_p2_ca_l3
@@ -6825,18 +6211,16 @@
 			(top ca p2)
 		)
 		:effect (and
-			(and
-				(in cf p2)
-				(top cf p2)
-				(on cf ca)
-				(not (top ca p2))
-				(not (holding k2 cf))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p2)
+			(top cf p2)
+			(on cf ca)
+			(not (top ca p2))
+			(not (holding k2 cf))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cf_p2_cb_l3
@@ -6846,18 +6230,16 @@
 			(top cb p2)
 		)
 		:effect (and
-			(and
-				(in cf p2)
-				(top cf p2)
-				(on cf cb)
-				(not (top cb p2))
-				(not (holding k2 cf))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p2)
+			(top cf p2)
+			(on cf cb)
+			(not (top cb p2))
+			(not (holding k2 cf))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cf_p2_cc_l3
@@ -6867,18 +6249,16 @@
 			(top cc p2)
 		)
 		:effect (and
-			(and
-				(in cf p2)
-				(top cf p2)
-				(on cf cc)
-				(not (top cc p2))
-				(not (holding k2 cf))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p2)
+			(top cf p2)
+			(on cf cc)
+			(not (top cc p2))
+			(not (holding k2 cf))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cf_p2_cd_l3
@@ -6888,18 +6268,16 @@
 			(top cd p2)
 		)
 		:effect (and
-			(and
-				(in cf p2)
-				(top cf p2)
-				(on cf cd)
-				(not (top cd p2))
-				(not (holding k2 cf))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p2)
+			(top cf p2)
+			(on cf cd)
+			(not (top cd p2))
+			(not (holding k2 cf))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cf_p2_ce_l3
@@ -6909,18 +6287,16 @@
 			(top ce p2)
 		)
 		:effect (and
-			(and
-				(in cf p2)
-				(top cf p2)
-				(on cf ce)
-				(not (top ce p2))
-				(not (holding k2 cf))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p2)
+			(top cf p2)
+			(on cf ce)
+			(not (top ce p2))
+			(not (holding k2 cf))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cf_p2_cf_l3
@@ -6930,18 +6306,16 @@
 			(top cf p2)
 		)
 		:effect (and
-			(and
-				(in cf p2)
-				(top cf p2)
-				(on cf cf)
-				(not (top cf p2))
-				(not (holding k2 cf))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p2)
+			(top cf p2)
+			(on cf cf)
+			(not (top cf p2))
+			(not (holding k2 cf))
+			(empty k2)
 		)
 	)
 	(:action put_k2_cf_p2_pallet_l3
@@ -6951,18 +6325,16 @@
 			(top pallet p2)
 		)
 		:effect (and
-			(and
-				(in cf p2)
-				(top cf p2)
-				(on cf pallet)
-				(not (top pallet p2))
-				(not (holding k2 cf))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p2)
+			(top cf p2)
+			(on cf pallet)
+			(not (top pallet p2))
+			(not (holding k2 cf))
+			(empty k2)
 		)
 	)
 	(:action put_k3_ca_p3_ca_l4
@@ -6972,18 +6344,16 @@
 			(top ca p3)
 		)
 		:effect (and
-			(and
-				(in ca p3)
-				(top ca p3)
-				(on ca ca)
-				(not (top ca p3))
-				(not (holding k3 ca))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p3)
+			(top ca p3)
+			(on ca ca)
+			(not (top ca p3))
+			(not (holding k3 ca))
+			(empty k3)
 		)
 	)
 	(:action put_k3_ca_p3_cb_l4
@@ -6993,18 +6363,16 @@
 			(top cb p3)
 		)
 		:effect (and
-			(and
-				(in ca p3)
-				(top ca p3)
-				(on ca cb)
-				(not (top cb p3))
-				(not (holding k3 ca))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p3)
+			(top ca p3)
+			(on ca cb)
+			(not (top cb p3))
+			(not (holding k3 ca))
+			(empty k3)
 		)
 	)
 	(:action put_k3_ca_p3_cc_l4
@@ -7014,18 +6382,16 @@
 			(top cc p3)
 		)
 		:effect (and
-			(and
-				(in ca p3)
-				(top ca p3)
-				(on ca cc)
-				(not (top cc p3))
-				(not (holding k3 ca))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p3)
+			(top ca p3)
+			(on ca cc)
+			(not (top cc p3))
+			(not (holding k3 ca))
+			(empty k3)
 		)
 	)
 	(:action put_k3_ca_p3_cd_l4
@@ -7035,18 +6401,16 @@
 			(top cd p3)
 		)
 		:effect (and
-			(and
-				(in ca p3)
-				(top ca p3)
-				(on ca cd)
-				(not (top cd p3))
-				(not (holding k3 ca))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p3)
+			(top ca p3)
+			(on ca cd)
+			(not (top cd p3))
+			(not (holding k3 ca))
+			(empty k3)
 		)
 	)
 	(:action put_k3_ca_p3_ce_l4
@@ -7056,18 +6420,16 @@
 			(top ce p3)
 		)
 		:effect (and
-			(and
-				(in ca p3)
-				(top ca p3)
-				(on ca ce)
-				(not (top ce p3))
-				(not (holding k3 ca))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p3)
+			(top ca p3)
+			(on ca ce)
+			(not (top ce p3))
+			(not (holding k3 ca))
+			(empty k3)
 		)
 	)
 	(:action put_k3_ca_p3_cf_l4
@@ -7077,18 +6439,16 @@
 			(top cf p3)
 		)
 		:effect (and
-			(and
-				(in ca p3)
-				(top ca p3)
-				(on ca cf)
-				(not (top cf p3))
-				(not (holding k3 ca))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p3)
+			(top ca p3)
+			(on ca cf)
+			(not (top cf p3))
+			(not (holding k3 ca))
+			(empty k3)
 		)
 	)
 	(:action put_k3_ca_p3_pallet_l4
@@ -7098,18 +6458,16 @@
 			(top pallet p3)
 		)
 		:effect (and
-			(and
-				(in ca p3)
-				(top ca p3)
-				(on ca pallet)
-				(not (top pallet p3))
-				(not (holding k3 ca))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p3)
+			(top ca p3)
+			(on ca pallet)
+			(not (top pallet p3))
+			(not (holding k3 ca))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cb_p3_ca_l4
@@ -7119,18 +6477,16 @@
 			(top ca p3)
 		)
 		:effect (and
-			(and
-				(in cb p3)
-				(top cb p3)
-				(on cb ca)
-				(not (top ca p3))
-				(not (holding k3 cb))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p3)
+			(top cb p3)
+			(on cb ca)
+			(not (top ca p3))
+			(not (holding k3 cb))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cb_p3_cb_l4
@@ -7140,18 +6496,16 @@
 			(top cb p3)
 		)
 		:effect (and
-			(and
-				(in cb p3)
-				(top cb p3)
-				(on cb cb)
-				(not (top cb p3))
-				(not (holding k3 cb))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p3)
+			(top cb p3)
+			(on cb cb)
+			(not (top cb p3))
+			(not (holding k3 cb))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cb_p3_cc_l4
@@ -7161,18 +6515,16 @@
 			(top cc p3)
 		)
 		:effect (and
-			(and
-				(in cb p3)
-				(top cb p3)
-				(on cb cc)
-				(not (top cc p3))
-				(not (holding k3 cb))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p3)
+			(top cb p3)
+			(on cb cc)
+			(not (top cc p3))
+			(not (holding k3 cb))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cb_p3_cd_l4
@@ -7182,18 +6534,16 @@
 			(top cd p3)
 		)
 		:effect (and
-			(and
-				(in cb p3)
-				(top cb p3)
-				(on cb cd)
-				(not (top cd p3))
-				(not (holding k3 cb))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p3)
+			(top cb p3)
+			(on cb cd)
+			(not (top cd p3))
+			(not (holding k3 cb))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cb_p3_ce_l4
@@ -7203,18 +6553,16 @@
 			(top ce p3)
 		)
 		:effect (and
-			(and
-				(in cb p3)
-				(top cb p3)
-				(on cb ce)
-				(not (top ce p3))
-				(not (holding k3 cb))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p3)
+			(top cb p3)
+			(on cb ce)
+			(not (top ce p3))
+			(not (holding k3 cb))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cb_p3_cf_l4
@@ -7224,18 +6572,16 @@
 			(top cf p3)
 		)
 		:effect (and
-			(and
-				(in cb p3)
-				(top cb p3)
-				(on cb cf)
-				(not (top cf p3))
-				(not (holding k3 cb))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p3)
+			(top cb p3)
+			(on cb cf)
+			(not (top cf p3))
+			(not (holding k3 cb))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cb_p3_pallet_l4
@@ -7245,18 +6591,16 @@
 			(top pallet p3)
 		)
 		:effect (and
-			(and
-				(in cb p3)
-				(top cb p3)
-				(on cb pallet)
-				(not (top pallet p3))
-				(not (holding k3 cb))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p3)
+			(top cb p3)
+			(on cb pallet)
+			(not (top pallet p3))
+			(not (holding k3 cb))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cc_p3_ca_l4
@@ -7266,18 +6610,16 @@
 			(top ca p3)
 		)
 		:effect (and
-			(and
-				(in cc p3)
-				(top cc p3)
-				(on cc ca)
-				(not (top ca p3))
-				(not (holding k3 cc))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p3)
+			(top cc p3)
+			(on cc ca)
+			(not (top ca p3))
+			(not (holding k3 cc))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cc_p3_cb_l4
@@ -7287,18 +6629,16 @@
 			(top cb p3)
 		)
 		:effect (and
-			(and
-				(in cc p3)
-				(top cc p3)
-				(on cc cb)
-				(not (top cb p3))
-				(not (holding k3 cc))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p3)
+			(top cc p3)
+			(on cc cb)
+			(not (top cb p3))
+			(not (holding k3 cc))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cc_p3_cc_l4
@@ -7308,18 +6648,16 @@
 			(top cc p3)
 		)
 		:effect (and
-			(and
-				(in cc p3)
-				(top cc p3)
-				(on cc cc)
-				(not (top cc p3))
-				(not (holding k3 cc))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p3)
+			(top cc p3)
+			(on cc cc)
+			(not (top cc p3))
+			(not (holding k3 cc))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cc_p3_cd_l4
@@ -7329,18 +6667,16 @@
 			(top cd p3)
 		)
 		:effect (and
-			(and
-				(in cc p3)
-				(top cc p3)
-				(on cc cd)
-				(not (top cd p3))
-				(not (holding k3 cc))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p3)
+			(top cc p3)
+			(on cc cd)
+			(not (top cd p3))
+			(not (holding k3 cc))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cc_p3_ce_l4
@@ -7350,18 +6686,16 @@
 			(top ce p3)
 		)
 		:effect (and
-			(and
-				(in cc p3)
-				(top cc p3)
-				(on cc ce)
-				(not (top ce p3))
-				(not (holding k3 cc))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p3)
+			(top cc p3)
+			(on cc ce)
+			(not (top ce p3))
+			(not (holding k3 cc))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cc_p3_cf_l4
@@ -7371,18 +6705,16 @@
 			(top cf p3)
 		)
 		:effect (and
-			(and
-				(in cc p3)
-				(top cc p3)
-				(on cc cf)
-				(not (top cf p3))
-				(not (holding k3 cc))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p3)
+			(top cc p3)
+			(on cc cf)
+			(not (top cf p3))
+			(not (holding k3 cc))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cc_p3_pallet_l4
@@ -7392,18 +6724,16 @@
 			(top pallet p3)
 		)
 		:effect (and
-			(and
-				(in cc p3)
-				(top cc p3)
-				(on cc pallet)
-				(not (top pallet p3))
-				(not (holding k3 cc))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p3)
+			(top cc p3)
+			(on cc pallet)
+			(not (top pallet p3))
+			(not (holding k3 cc))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cd_p3_ca_l4
@@ -7413,18 +6743,16 @@
 			(top ca p3)
 		)
 		:effect (and
-			(and
-				(in cd p3)
-				(top cd p3)
-				(on cd ca)
-				(not (top ca p3))
-				(not (holding k3 cd))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p3)
+			(top cd p3)
+			(on cd ca)
+			(not (top ca p3))
+			(not (holding k3 cd))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cd_p3_cb_l4
@@ -7434,18 +6762,16 @@
 			(top cb p3)
 		)
 		:effect (and
-			(and
-				(in cd p3)
-				(top cd p3)
-				(on cd cb)
-				(not (top cb p3))
-				(not (holding k3 cd))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p3)
+			(top cd p3)
+			(on cd cb)
+			(not (top cb p3))
+			(not (holding k3 cd))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cd_p3_cc_l4
@@ -7455,18 +6781,16 @@
 			(top cc p3)
 		)
 		:effect (and
-			(and
-				(in cd p3)
-				(top cd p3)
-				(on cd cc)
-				(not (top cc p3))
-				(not (holding k3 cd))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p3)
+			(top cd p3)
+			(on cd cc)
+			(not (top cc p3))
+			(not (holding k3 cd))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cd_p3_cd_l4
@@ -7476,18 +6800,16 @@
 			(top cd p3)
 		)
 		:effect (and
-			(and
-				(in cd p3)
-				(top cd p3)
-				(on cd cd)
-				(not (top cd p3))
-				(not (holding k3 cd))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p3)
+			(top cd p3)
+			(on cd cd)
+			(not (top cd p3))
+			(not (holding k3 cd))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cd_p3_ce_l4
@@ -7497,18 +6819,16 @@
 			(top ce p3)
 		)
 		:effect (and
-			(and
-				(in cd p3)
-				(top cd p3)
-				(on cd ce)
-				(not (top ce p3))
-				(not (holding k3 cd))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p3)
+			(top cd p3)
+			(on cd ce)
+			(not (top ce p3))
+			(not (holding k3 cd))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cd_p3_cf_l4
@@ -7518,18 +6838,16 @@
 			(top cf p3)
 		)
 		:effect (and
-			(and
-				(in cd p3)
-				(top cd p3)
-				(on cd cf)
-				(not (top cf p3))
-				(not (holding k3 cd))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p3)
+			(top cd p3)
+			(on cd cf)
+			(not (top cf p3))
+			(not (holding k3 cd))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cd_p3_pallet_l4
@@ -7539,18 +6857,16 @@
 			(top pallet p3)
 		)
 		:effect (and
-			(and
-				(in cd p3)
-				(top cd p3)
-				(on cd pallet)
-				(not (top pallet p3))
-				(not (holding k3 cd))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p3)
+			(top cd p3)
+			(on cd pallet)
+			(not (top pallet p3))
+			(not (holding k3 cd))
+			(empty k3)
 		)
 	)
 	(:action put_k3_ce_p3_ca_l4
@@ -7560,18 +6876,16 @@
 			(top ca p3)
 		)
 		:effect (and
-			(and
-				(in ce p3)
-				(top ce p3)
-				(on ce ca)
-				(not (top ca p3))
-				(not (holding k3 ce))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p3)
+			(top ce p3)
+			(on ce ca)
+			(not (top ca p3))
+			(not (holding k3 ce))
+			(empty k3)
 		)
 	)
 	(:action put_k3_ce_p3_cb_l4
@@ -7581,18 +6895,16 @@
 			(top cb p3)
 		)
 		:effect (and
-			(and
-				(in ce p3)
-				(top ce p3)
-				(on ce cb)
-				(not (top cb p3))
-				(not (holding k3 ce))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p3)
+			(top ce p3)
+			(on ce cb)
+			(not (top cb p3))
+			(not (holding k3 ce))
+			(empty k3)
 		)
 	)
 	(:action put_k3_ce_p3_cc_l4
@@ -7602,18 +6914,16 @@
 			(top cc p3)
 		)
 		:effect (and
-			(and
-				(in ce p3)
-				(top ce p3)
-				(on ce cc)
-				(not (top cc p3))
-				(not (holding k3 ce))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p3)
+			(top ce p3)
+			(on ce cc)
+			(not (top cc p3))
+			(not (holding k3 ce))
+			(empty k3)
 		)
 	)
 	(:action put_k3_ce_p3_cd_l4
@@ -7623,18 +6933,16 @@
 			(top cd p3)
 		)
 		:effect (and
-			(and
-				(in ce p3)
-				(top ce p3)
-				(on ce cd)
-				(not (top cd p3))
-				(not (holding k3 ce))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p3)
+			(top ce p3)
+			(on ce cd)
+			(not (top cd p3))
+			(not (holding k3 ce))
+			(empty k3)
 		)
 	)
 	(:action put_k3_ce_p3_ce_l4
@@ -7644,18 +6952,16 @@
 			(top ce p3)
 		)
 		:effect (and
-			(and
-				(in ce p3)
-				(top ce p3)
-				(on ce ce)
-				(not (top ce p3))
-				(not (holding k3 ce))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p3)
+			(top ce p3)
+			(on ce ce)
+			(not (top ce p3))
+			(not (holding k3 ce))
+			(empty k3)
 		)
 	)
 	(:action put_k3_ce_p3_cf_l4
@@ -7665,18 +6971,16 @@
 			(top cf p3)
 		)
 		:effect (and
-			(and
-				(in ce p3)
-				(top ce p3)
-				(on ce cf)
-				(not (top cf p3))
-				(not (holding k3 ce))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p3)
+			(top ce p3)
+			(on ce cf)
+			(not (top cf p3))
+			(not (holding k3 ce))
+			(empty k3)
 		)
 	)
 	(:action put_k3_ce_p3_pallet_l4
@@ -7686,18 +6990,16 @@
 			(top pallet p3)
 		)
 		:effect (and
-			(and
-				(in ce p3)
-				(top ce p3)
-				(on ce pallet)
-				(not (top pallet p3))
-				(not (holding k3 ce))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p3)
+			(top ce p3)
+			(on ce pallet)
+			(not (top pallet p3))
+			(not (holding k3 ce))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cf_p3_ca_l4
@@ -7707,18 +7009,16 @@
 			(top ca p3)
 		)
 		:effect (and
-			(and
-				(in cf p3)
-				(top cf p3)
-				(on cf ca)
-				(not (top ca p3))
-				(not (holding k3 cf))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p3)
+			(top cf p3)
+			(on cf ca)
+			(not (top ca p3))
+			(not (holding k3 cf))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cf_p3_cb_l4
@@ -7728,18 +7028,16 @@
 			(top cb p3)
 		)
 		:effect (and
-			(and
-				(in cf p3)
-				(top cf p3)
-				(on cf cb)
-				(not (top cb p3))
-				(not (holding k3 cf))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p3)
+			(top cf p3)
+			(on cf cb)
+			(not (top cb p3))
+			(not (holding k3 cf))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cf_p3_cc_l4
@@ -7749,18 +7047,16 @@
 			(top cc p3)
 		)
 		:effect (and
-			(and
-				(in cf p3)
-				(top cf p3)
-				(on cf cc)
-				(not (top cc p3))
-				(not (holding k3 cf))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p3)
+			(top cf p3)
+			(on cf cc)
+			(not (top cc p3))
+			(not (holding k3 cf))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cf_p3_cd_l4
@@ -7770,18 +7066,16 @@
 			(top cd p3)
 		)
 		:effect (and
-			(and
-				(in cf p3)
-				(top cf p3)
-				(on cf cd)
-				(not (top cd p3))
-				(not (holding k3 cf))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p3)
+			(top cf p3)
+			(on cf cd)
+			(not (top cd p3))
+			(not (holding k3 cf))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cf_p3_ce_l4
@@ -7791,18 +7085,16 @@
 			(top ce p3)
 		)
 		:effect (and
-			(and
-				(in cf p3)
-				(top cf p3)
-				(on cf ce)
-				(not (top ce p3))
-				(not (holding k3 cf))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p3)
+			(top cf p3)
+			(on cf ce)
+			(not (top ce p3))
+			(not (holding k3 cf))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cf_p3_cf_l4
@@ -7812,18 +7104,16 @@
 			(top cf p3)
 		)
 		:effect (and
-			(and
-				(in cf p3)
-				(top cf p3)
-				(on cf cf)
-				(not (top cf p3))
-				(not (holding k3 cf))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p3)
+			(top cf p3)
+			(on cf cf)
+			(not (top cf p3))
+			(not (holding k3 cf))
+			(empty k3)
 		)
 	)
 	(:action put_k3_cf_p3_pallet_l4
@@ -7833,18 +7123,16 @@
 			(top pallet p3)
 		)
 		:effect (and
-			(and
-				(in cf p3)
-				(top cf p3)
-				(on cf pallet)
-				(not (top pallet p3))
-				(not (holding k3 cf))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p3)
+			(top cf p3)
+			(on cf pallet)
+			(not (top pallet p3))
+			(not (holding k3 cf))
+			(empty k3)
 		)
 	)
 	(:action put_k4_ca_p4_ca_l6
@@ -7854,18 +7142,16 @@
 			(top ca p4)
 		)
 		:effect (and
-			(and
-				(in ca p4)
-				(top ca p4)
-				(on ca ca)
-				(not (top ca p4))
-				(not (holding k4 ca))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p4)
+			(top ca p4)
+			(on ca ca)
+			(not (top ca p4))
+			(not (holding k4 ca))
+			(empty k4)
 		)
 	)
 	(:action put_k4_ca_p4_cb_l6
@@ -7875,18 +7161,16 @@
 			(top cb p4)
 		)
 		:effect (and
-			(and
-				(in ca p4)
-				(top ca p4)
-				(on ca cb)
-				(not (top cb p4))
-				(not (holding k4 ca))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p4)
+			(top ca p4)
+			(on ca cb)
+			(not (top cb p4))
+			(not (holding k4 ca))
+			(empty k4)
 		)
 	)
 	(:action put_k4_ca_p4_cc_l6
@@ -7896,18 +7180,16 @@
 			(top cc p4)
 		)
 		:effect (and
-			(and
-				(in ca p4)
-				(top ca p4)
-				(on ca cc)
-				(not (top cc p4))
-				(not (holding k4 ca))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p4)
+			(top ca p4)
+			(on ca cc)
+			(not (top cc p4))
+			(not (holding k4 ca))
+			(empty k4)
 		)
 	)
 	(:action put_k4_ca_p4_cd_l6
@@ -7917,18 +7199,16 @@
 			(top cd p4)
 		)
 		:effect (and
-			(and
-				(in ca p4)
-				(top ca p4)
-				(on ca cd)
-				(not (top cd p4))
-				(not (holding k4 ca))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p4)
+			(top ca p4)
+			(on ca cd)
+			(not (top cd p4))
+			(not (holding k4 ca))
+			(empty k4)
 		)
 	)
 	(:action put_k4_ca_p4_ce_l6
@@ -7938,18 +7218,16 @@
 			(top ce p4)
 		)
 		:effect (and
-			(and
-				(in ca p4)
-				(top ca p4)
-				(on ca ce)
-				(not (top ce p4))
-				(not (holding k4 ca))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p4)
+			(top ca p4)
+			(on ca ce)
+			(not (top ce p4))
+			(not (holding k4 ca))
+			(empty k4)
 		)
 	)
 	(:action put_k4_ca_p4_cf_l6
@@ -7959,18 +7237,16 @@
 			(top cf p4)
 		)
 		:effect (and
-			(and
-				(in ca p4)
-				(top ca p4)
-				(on ca cf)
-				(not (top cf p4))
-				(not (holding k4 ca))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p4)
+			(top ca p4)
+			(on ca cf)
+			(not (top cf p4))
+			(not (holding k4 ca))
+			(empty k4)
 		)
 	)
 	(:action put_k4_ca_p4_pallet_l6
@@ -7980,18 +7256,16 @@
 			(top pallet p4)
 		)
 		:effect (and
-			(and
-				(in ca p4)
-				(top ca p4)
-				(on ca pallet)
-				(not (top pallet p4))
-				(not (holding k4 ca))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ca p4)
+			(top ca p4)
+			(on ca pallet)
+			(not (top pallet p4))
+			(not (holding k4 ca))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cb_p4_ca_l6
@@ -8001,18 +7275,16 @@
 			(top ca p4)
 		)
 		:effect (and
-			(and
-				(in cb p4)
-				(top cb p4)
-				(on cb ca)
-				(not (top ca p4))
-				(not (holding k4 cb))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p4)
+			(top cb p4)
+			(on cb ca)
+			(not (top ca p4))
+			(not (holding k4 cb))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cb_p4_cb_l6
@@ -8022,18 +7294,16 @@
 			(top cb p4)
 		)
 		:effect (and
-			(and
-				(in cb p4)
-				(top cb p4)
-				(on cb cb)
-				(not (top cb p4))
-				(not (holding k4 cb))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p4)
+			(top cb p4)
+			(on cb cb)
+			(not (top cb p4))
+			(not (holding k4 cb))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cb_p4_cc_l6
@@ -8043,18 +7313,16 @@
 			(top cc p4)
 		)
 		:effect (and
-			(and
-				(in cb p4)
-				(top cb p4)
-				(on cb cc)
-				(not (top cc p4))
-				(not (holding k4 cb))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p4)
+			(top cb p4)
+			(on cb cc)
+			(not (top cc p4))
+			(not (holding k4 cb))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cb_p4_cd_l6
@@ -8064,18 +7332,16 @@
 			(top cd p4)
 		)
 		:effect (and
-			(and
-				(in cb p4)
-				(top cb p4)
-				(on cb cd)
-				(not (top cd p4))
-				(not (holding k4 cb))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p4)
+			(top cb p4)
+			(on cb cd)
+			(not (top cd p4))
+			(not (holding k4 cb))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cb_p4_ce_l6
@@ -8085,18 +7351,16 @@
 			(top ce p4)
 		)
 		:effect (and
-			(and
-				(in cb p4)
-				(top cb p4)
-				(on cb ce)
-				(not (top ce p4))
-				(not (holding k4 cb))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p4)
+			(top cb p4)
+			(on cb ce)
+			(not (top ce p4))
+			(not (holding k4 cb))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cb_p4_cf_l6
@@ -8106,18 +7370,16 @@
 			(top cf p4)
 		)
 		:effect (and
-			(and
-				(in cb p4)
-				(top cb p4)
-				(on cb cf)
-				(not (top cf p4))
-				(not (holding k4 cb))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p4)
+			(top cb p4)
+			(on cb cf)
+			(not (top cf p4))
+			(not (holding k4 cb))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cb_p4_pallet_l6
@@ -8127,18 +7389,16 @@
 			(top pallet p4)
 		)
 		:effect (and
-			(and
-				(in cb p4)
-				(top cb p4)
-				(on cb pallet)
-				(not (top pallet p4))
-				(not (holding k4 cb))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cb p4)
+			(top cb p4)
+			(on cb pallet)
+			(not (top pallet p4))
+			(not (holding k4 cb))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cc_p4_ca_l6
@@ -8148,18 +7408,16 @@
 			(top ca p4)
 		)
 		:effect (and
-			(and
-				(in cc p4)
-				(top cc p4)
-				(on cc ca)
-				(not (top ca p4))
-				(not (holding k4 cc))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p4)
+			(top cc p4)
+			(on cc ca)
+			(not (top ca p4))
+			(not (holding k4 cc))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cc_p4_cb_l6
@@ -8169,18 +7427,16 @@
 			(top cb p4)
 		)
 		:effect (and
-			(and
-				(in cc p4)
-				(top cc p4)
-				(on cc cb)
-				(not (top cb p4))
-				(not (holding k4 cc))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p4)
+			(top cc p4)
+			(on cc cb)
+			(not (top cb p4))
+			(not (holding k4 cc))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cc_p4_cc_l6
@@ -8190,18 +7446,16 @@
 			(top cc p4)
 		)
 		:effect (and
-			(and
-				(in cc p4)
-				(top cc p4)
-				(on cc cc)
-				(not (top cc p4))
-				(not (holding k4 cc))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p4)
+			(top cc p4)
+			(on cc cc)
+			(not (top cc p4))
+			(not (holding k4 cc))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cc_p4_cd_l6
@@ -8211,18 +7465,16 @@
 			(top cd p4)
 		)
 		:effect (and
-			(and
-				(in cc p4)
-				(top cc p4)
-				(on cc cd)
-				(not (top cd p4))
-				(not (holding k4 cc))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p4)
+			(top cc p4)
+			(on cc cd)
+			(not (top cd p4))
+			(not (holding k4 cc))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cc_p4_ce_l6
@@ -8232,18 +7484,16 @@
 			(top ce p4)
 		)
 		:effect (and
-			(and
-				(in cc p4)
-				(top cc p4)
-				(on cc ce)
-				(not (top ce p4))
-				(not (holding k4 cc))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p4)
+			(top cc p4)
+			(on cc ce)
+			(not (top ce p4))
+			(not (holding k4 cc))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cc_p4_cf_l6
@@ -8253,18 +7503,16 @@
 			(top cf p4)
 		)
 		:effect (and
-			(and
-				(in cc p4)
-				(top cc p4)
-				(on cc cf)
-				(not (top cf p4))
-				(not (holding k4 cc))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p4)
+			(top cc p4)
+			(on cc cf)
+			(not (top cf p4))
+			(not (holding k4 cc))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cc_p4_pallet_l6
@@ -8274,18 +7522,16 @@
 			(top pallet p4)
 		)
 		:effect (and
-			(and
-				(in cc p4)
-				(top cc p4)
-				(on cc pallet)
-				(not (top pallet p4))
-				(not (holding k4 cc))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cc p4)
+			(top cc p4)
+			(on cc pallet)
+			(not (top pallet p4))
+			(not (holding k4 cc))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cd_p4_ca_l6
@@ -8295,18 +7541,16 @@
 			(top ca p4)
 		)
 		:effect (and
-			(and
-				(in cd p4)
-				(top cd p4)
-				(on cd ca)
-				(not (top ca p4))
-				(not (holding k4 cd))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p4)
+			(top cd p4)
+			(on cd ca)
+			(not (top ca p4))
+			(not (holding k4 cd))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cd_p4_cb_l6
@@ -8316,18 +7560,16 @@
 			(top cb p4)
 		)
 		:effect (and
-			(and
-				(in cd p4)
-				(top cd p4)
-				(on cd cb)
-				(not (top cb p4))
-				(not (holding k4 cd))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p4)
+			(top cd p4)
+			(on cd cb)
+			(not (top cb p4))
+			(not (holding k4 cd))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cd_p4_cc_l6
@@ -8337,18 +7579,16 @@
 			(top cc p4)
 		)
 		:effect (and
-			(and
-				(in cd p4)
-				(top cd p4)
-				(on cd cc)
-				(not (top cc p4))
-				(not (holding k4 cd))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p4)
+			(top cd p4)
+			(on cd cc)
+			(not (top cc p4))
+			(not (holding k4 cd))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cd_p4_cd_l6
@@ -8358,18 +7598,16 @@
 			(top cd p4)
 		)
 		:effect (and
-			(and
-				(in cd p4)
-				(top cd p4)
-				(on cd cd)
-				(not (top cd p4))
-				(not (holding k4 cd))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p4)
+			(top cd p4)
+			(on cd cd)
+			(not (top cd p4))
+			(not (holding k4 cd))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cd_p4_ce_l6
@@ -8379,18 +7617,16 @@
 			(top ce p4)
 		)
 		:effect (and
-			(and
-				(in cd p4)
-				(top cd p4)
-				(on cd ce)
-				(not (top ce p4))
-				(not (holding k4 cd))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p4)
+			(top cd p4)
+			(on cd ce)
+			(not (top ce p4))
+			(not (holding k4 cd))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cd_p4_cf_l6
@@ -8400,18 +7636,16 @@
 			(top cf p4)
 		)
 		:effect (and
-			(and
-				(in cd p4)
-				(top cd p4)
-				(on cd cf)
-				(not (top cf p4))
-				(not (holding k4 cd))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p4)
+			(top cd p4)
+			(on cd cf)
+			(not (top cf p4))
+			(not (holding k4 cd))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cd_p4_pallet_l6
@@ -8421,18 +7655,16 @@
 			(top pallet p4)
 		)
 		:effect (and
-			(and
-				(in cd p4)
-				(top cd p4)
-				(on cd pallet)
-				(not (top pallet p4))
-				(not (holding k4 cd))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cd p4)
+			(top cd p4)
+			(on cd pallet)
+			(not (top pallet p4))
+			(not (holding k4 cd))
+			(empty k4)
 		)
 	)
 	(:action put_k4_ce_p4_ca_l6
@@ -8442,18 +7674,16 @@
 			(top ca p4)
 		)
 		:effect (and
-			(and
-				(in ce p4)
-				(top ce p4)
-				(on ce ca)
-				(not (top ca p4))
-				(not (holding k4 ce))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p4)
+			(top ce p4)
+			(on ce ca)
+			(not (top ca p4))
+			(not (holding k4 ce))
+			(empty k4)
 		)
 	)
 	(:action put_k4_ce_p4_cb_l6
@@ -8463,18 +7693,16 @@
 			(top cb p4)
 		)
 		:effect (and
-			(and
-				(in ce p4)
-				(top ce p4)
-				(on ce cb)
-				(not (top cb p4))
-				(not (holding k4 ce))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p4)
+			(top ce p4)
+			(on ce cb)
+			(not (top cb p4))
+			(not (holding k4 ce))
+			(empty k4)
 		)
 	)
 	(:action put_k4_ce_p4_cc_l6
@@ -8484,18 +7712,16 @@
 			(top cc p4)
 		)
 		:effect (and
-			(and
-				(in ce p4)
-				(top ce p4)
-				(on ce cc)
-				(not (top cc p4))
-				(not (holding k4 ce))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p4)
+			(top ce p4)
+			(on ce cc)
+			(not (top cc p4))
+			(not (holding k4 ce))
+			(empty k4)
 		)
 	)
 	(:action put_k4_ce_p4_cd_l6
@@ -8505,18 +7731,16 @@
 			(top cd p4)
 		)
 		:effect (and
-			(and
-				(in ce p4)
-				(top ce p4)
-				(on ce cd)
-				(not (top cd p4))
-				(not (holding k4 ce))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p4)
+			(top ce p4)
+			(on ce cd)
+			(not (top cd p4))
+			(not (holding k4 ce))
+			(empty k4)
 		)
 	)
 	(:action put_k4_ce_p4_ce_l6
@@ -8526,18 +7750,16 @@
 			(top ce p4)
 		)
 		:effect (and
-			(and
-				(in ce p4)
-				(top ce p4)
-				(on ce ce)
-				(not (top ce p4))
-				(not (holding k4 ce))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p4)
+			(top ce p4)
+			(on ce ce)
+			(not (top ce p4))
+			(not (holding k4 ce))
+			(empty k4)
 		)
 	)
 	(:action put_k4_ce_p4_cf_l6
@@ -8547,18 +7769,16 @@
 			(top cf p4)
 		)
 		:effect (and
-			(and
-				(in ce p4)
-				(top ce p4)
-				(on ce cf)
-				(not (top cf p4))
-				(not (holding k4 ce))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p4)
+			(top ce p4)
+			(on ce cf)
+			(not (top cf p4))
+			(not (holding k4 ce))
+			(empty k4)
 		)
 	)
 	(:action put_k4_ce_p4_pallet_l6
@@ -8568,18 +7788,16 @@
 			(top pallet p4)
 		)
 		:effect (and
-			(and
-				(in ce p4)
-				(top ce p4)
-				(on ce pallet)
-				(not (top pallet p4))
-				(not (holding k4 ce))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in ce p4)
+			(top ce p4)
+			(on ce pallet)
+			(not (top pallet p4))
+			(not (holding k4 ce))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cf_p4_ca_l6
@@ -8589,18 +7807,16 @@
 			(top ca p4)
 		)
 		:effect (and
-			(and
-				(in cf p4)
-				(top cf p4)
-				(on cf ca)
-				(not (top ca p4))
-				(not (holding k4 cf))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p4)
+			(top cf p4)
+			(on cf ca)
+			(not (top ca p4))
+			(not (holding k4 cf))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cf_p4_cb_l6
@@ -8610,18 +7826,16 @@
 			(top cb p4)
 		)
 		:effect (and
-			(and
-				(in cf p4)
-				(top cf p4)
-				(on cf cb)
-				(not (top cb p4))
-				(not (holding k4 cf))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p4)
+			(top cf p4)
+			(on cf cb)
+			(not (top cb p4))
+			(not (holding k4 cf))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cf_p4_cc_l6
@@ -8631,18 +7845,16 @@
 			(top cc p4)
 		)
 		:effect (and
-			(and
-				(in cf p4)
-				(top cf p4)
-				(on cf cc)
-				(not (top cc p4))
-				(not (holding k4 cf))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p4)
+			(top cf p4)
+			(on cf cc)
+			(not (top cc p4))
+			(not (holding k4 cf))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cf_p4_cd_l6
@@ -8652,18 +7864,16 @@
 			(top cd p4)
 		)
 		:effect (and
-			(and
-				(in cf p4)
-				(top cf p4)
-				(on cf cd)
-				(not (top cd p4))
-				(not (holding k4 cf))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p4)
+			(top cf p4)
+			(on cf cd)
+			(not (top cd p4))
+			(not (holding k4 cf))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cf_p4_ce_l6
@@ -8673,18 +7883,16 @@
 			(top ce p4)
 		)
 		:effect (and
-			(and
-				(in cf p4)
-				(top cf p4)
-				(on cf ce)
-				(not (top ce p4))
-				(not (holding k4 cf))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p4)
+			(top cf p4)
+			(on cf ce)
+			(not (top ce p4))
+			(not (holding k4 cf))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cf_p4_cf_l6
@@ -8694,18 +7902,16 @@
 			(top cf p4)
 		)
 		:effect (and
-			(and
-				(in cf p4)
-				(top cf p4)
-				(on cf cf)
-				(not (top cf p4))
-				(not (holding k4 cf))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p4)
+			(top cf p4)
+			(on cf cf)
+			(not (top cf p4))
+			(not (holding k4 cf))
+			(empty k4)
 		)
 	)
 	(:action put_k4_cf_p4_pallet_l6
@@ -8715,18 +7921,16 @@
 			(top pallet p4)
 		)
 		:effect (and
-			(and
-				(in cf p4)
-				(top cf p4)
-				(on cf pallet)
-				(not (top pallet p4))
-				(not (holding k4 cf))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in cf p4)
+			(top cf p4)
+			(on cf pallet)
+			(not (top pallet p4))
+			(not (holding k4 cf))
+			(empty k4)
 		)
 	)
 	(:action observe0_put_k2_cd_p2_pallet_l3
@@ -8737,19 +7941,17 @@
 			(top pallet p2)
 		)
 		:effect (and
-			(and
-				(observation0)
-				(in cd p2)
-				(top cd p2)
-				(on cd pallet)
-				(not (top pallet p2))
-				(not (holding k2 cd))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation0)
+			(in cd p2)
+			(top cd p2)
+			(on cd pallet)
+			(not (top pallet p2))
+			(not (holding k2 cd))
+			(empty k2)
 		)
 	)
 	(:action observe1_move_r1_l2_l1
@@ -8761,17 +7963,15 @@
 			(not (observation1))
 		)
 		:effect (and
-			(and
-				(observation1)
-				(at r1 l1)
-				(not (occupied l2))
-				(occupied l1)
-				(not (at r1 l2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation1)
+			(at r1 l1)
+			(not (occupied l2))
+			(occupied l1)
+			(not (at r1 l2))
 		)
 	)
 	(:action observe2_load_k1_cc_r1_l1
@@ -8784,17 +7984,15 @@
 			(not (observation2))
 		)
 		:effect (and
-			(and
-				(observation2)
-				(loaded r1 cc)
-				(not (unloaded r1))
-				(empty k1)
-				(not (holding k1 cc))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation2)
+			(loaded r1 cc)
+			(not (unloaded r1))
+			(empty k1)
+			(not (holding k1 cc))
 		)
 	)
 	(:action observe3_move_r1_l1_l4
@@ -8806,17 +8004,15 @@
 			(not (observation3))
 		)
 		:effect (and
-			(and
-				(observation3)
-				(at r1 l4)
-				(not (occupied l1))
-				(occupied l4)
-				(not (at r1 l1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation3)
+			(at r1 l4)
+			(not (occupied l1))
+			(occupied l4)
+			(not (at r1 l1))
 		)
 	)
 	(:action observe4_unload_k3_cc_r1_l4
@@ -8829,17 +8025,15 @@
 			(not (observation4))
 		)
 		:effect (and
-			(and
-				(observation4)
-				(unloaded r1)
-				(holding k3 cc)
-				(not (loaded r1 cc))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation4)
+			(unloaded r1)
+			(holding k3 cc)
+			(not (loaded r1 cc))
+			(not (empty k3))
 		)
 	)
 	(:action observe5_put_k3_cc_p3_pallet_l4
@@ -8851,19 +8045,17 @@
 			(not (observation5))
 		)
 		:effect (and
-			(and
-				(observation5)
-				(in cc p3)
-				(top cc p3)
-				(on cc pallet)
-				(not (top pallet p3))
-				(not (holding k3 cc))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation5)
+			(in cc p3)
+			(top cc p3)
+			(on cc pallet)
+			(not (top pallet p3))
+			(not (holding k3 cc))
+			(empty k3)
 		)
 	)
 	(:action observe6_move_r1_l4_l1
@@ -8875,17 +8067,15 @@
 			(not (observation6))
 		)
 		:effect (and
-			(and
-				(observation6)
-				(at r1 l1)
-				(not (occupied l4))
-				(occupied l1)
-				(not (at r1 l4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation6)
+			(at r1 l1)
+			(not (occupied l4))
+			(occupied l1)
+			(not (at r1 l4))
 		)
 	)
 	(:action observe7_take_k1_cf_p1_ce_l1
@@ -8899,19 +8089,17 @@
 			(not (observation7))
 		)
 		:effect (and
-			(and
-				(observation7)
-				(holding k1 cf)
-				(top ce p1)
-				(not (in cf p1))
-				(not (top cf p1))
-				(not (on cf ce))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation7)
+			(holding k1 cf)
+			(top ce p1)
+			(not (in cf p1))
+			(not (top cf p1))
+			(not (on cf ce))
+			(not (empty k1))
 		)
 	)
 	(:action observe8_load_k1_cf_r1_l1
@@ -8924,17 +8112,15 @@
 			(not (observation8))
 		)
 		:effect (and
-			(and
-				(observation8)
-				(loaded r1 cf)
-				(not (unloaded r1))
-				(empty k1)
-				(not (holding k1 cf))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation8)
+			(loaded r1 cf)
+			(not (unloaded r1))
+			(empty k1)
+			(not (holding k1 cf))
 		)
 	)
 	(:action observe9_move_r1_l1_l4
@@ -8946,17 +8132,15 @@
 			(not (observation9))
 		)
 		:effect (and
-			(and
-				(observation9)
-				(at r1 l4)
-				(not (occupied l1))
-				(occupied l4)
-				(not (at r1 l1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation9)
+			(at r1 l4)
+			(not (occupied l1))
+			(occupied l4)
+			(not (at r1 l1))
 		)
 	)
 	(:action observe10_unload_k3_cf_r1_l4
@@ -8969,17 +8153,15 @@
 			(not (observation10))
 		)
 		:effect (and
-			(and
-				(observation10)
-				(unloaded r1)
-				(holding k3 cf)
-				(not (loaded r1 cf))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation10)
+			(unloaded r1)
+			(holding k3 cf)
+			(not (loaded r1 cf))
+			(not (empty k3))
 		)
 	)
 	(:action observe11_move_r1_l4_l1
@@ -8991,17 +8173,15 @@
 			(not (observation11))
 		)
 		:effect (and
-			(and
-				(observation11)
-				(at r1 l1)
-				(not (occupied l4))
-				(occupied l1)
-				(not (at r1 l4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation11)
+			(at r1 l1)
+			(not (occupied l4))
+			(occupied l1)
+			(not (at r1 l4))
 		)
 	)
 	(:action observe12_put_k3_cf_p3_cc_l4
@@ -9013,19 +8193,17 @@
 			(not (observation12))
 		)
 		:effect (and
-			(and
-				(observation12)
-				(in cf p3)
-				(top cf p3)
-				(on cf cc)
-				(not (top cc p3))
-				(not (holding k3 cf))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation12)
+			(in cf p3)
+			(top cf p3)
+			(on cf cc)
+			(not (top cc p3))
+			(not (holding k3 cf))
+			(empty k3)
 		)
 	)
 	(:action observe13_take_k1_ce_p1_cb_l1
@@ -9039,19 +8217,17 @@
 			(not (observation13))
 		)
 		:effect (and
-			(and
-				(observation13)
-				(holding k1 ce)
-				(top cb p1)
-				(not (in ce p1))
-				(not (top ce p1))
-				(not (on ce cb))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation13)
+			(holding k1 ce)
+			(top cb p1)
+			(not (in ce p1))
+			(not (top ce p1))
+			(not (on ce cb))
+			(not (empty k1))
 		)
 	)
 	(:action observe14_load_k1_ce_r1_l1
@@ -9064,17 +8240,15 @@
 			(not (observation14))
 		)
 		:effect (and
-			(and
-				(observation14)
-				(loaded r1 ce)
-				(not (unloaded r1))
-				(empty k1)
-				(not (holding k1 ce))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation14)
+			(loaded r1 ce)
+			(not (unloaded r1))
+			(empty k1)
+			(not (holding k1 ce))
 		)
 	)
 	(:action observe15_take_k1_cb_p1_ca_l1
@@ -9088,19 +8262,17 @@
 			(not (observation15))
 		)
 		:effect (and
-			(and
-				(observation15)
-				(holding k1 cb)
-				(top ca p1)
-				(not (in cb p1))
-				(not (top cb p1))
-				(not (on cb ca))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation15)
+			(holding k1 cb)
+			(top ca p1)
+			(not (in cb p1))
+			(not (top cb p1))
+			(not (on cb ca))
+			(not (empty k1))
 		)
 	)
 	(:action observe16_move_r1_l1_l4
@@ -9112,17 +8284,15 @@
 			(not (observation16))
 		)
 		:effect (and
-			(and
-				(observation16)
-				(at r1 l4)
-				(not (occupied l1))
-				(occupied l4)
-				(not (at r1 l1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation16)
+			(at r1 l4)
+			(not (occupied l1))
+			(occupied l4)
+			(not (at r1 l1))
 		)
 	)
 	(:action observe17_unload_k3_ce_r1_l4
@@ -9135,17 +8305,15 @@
 			(not (observation17))
 		)
 		:effect (and
-			(and
-				(observation17)
-				(unloaded r1)
-				(holding k3 ce)
-				(not (loaded r1 ce))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation17)
+			(unloaded r1)
+			(holding k3 ce)
+			(not (loaded r1 ce))
+			(not (empty k3))
 		)
 	)
 	(:action observe18_put_k3_ce_p3_cf_l4
@@ -9157,19 +8325,17 @@
 			(not (observation18))
 		)
 		:effect (and
-			(and
-				(observation18)
-				(in ce p3)
-				(top ce p3)
-				(on ce cf)
-				(not (top cf p3))
-				(not (holding k3 ce))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation18)
+			(in ce p3)
+			(top ce p3)
+			(on ce cf)
+			(not (top cf p3))
+			(not (holding k3 ce))
+			(empty k3)
 		)
 	)
 	(:action observe19_move_r1_l4_l1
@@ -9181,17 +8347,15 @@
 			(not (observation19))
 		)
 		:effect (and
-			(and
-				(observation19)
-				(at r1 l1)
-				(not (occupied l4))
-				(occupied l1)
-				(not (at r1 l4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation19)
+			(at r1 l1)
+			(not (occupied l4))
+			(occupied l1)
+			(not (at r1 l4))
 		)
 	)
 	(:action observe20_load_k1_cb_r1_l1
@@ -9204,17 +8368,15 @@
 			(not (observation20))
 		)
 		:effect (and
-			(and
-				(observation20)
-				(loaded r1 cb)
-				(not (unloaded r1))
-				(empty k1)
-				(not (holding k1 cb))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation20)
+			(loaded r1 cb)
+			(not (unloaded r1))
+			(empty k1)
+			(not (holding k1 cb))
 		)
 	)
 	(:action observe21_move_r1_l1_l2
@@ -9226,17 +8388,15 @@
 			(not (observation21))
 		)
 		:effect (and
-			(and
-				(observation21)
-				(at r1 l2)
-				(not (occupied l1))
-				(occupied l2)
-				(not (at r1 l1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation21)
+			(at r1 l2)
+			(not (occupied l1))
+			(occupied l2)
+			(not (at r1 l1))
 		)
 	)
 	(:action observe22_move_r1_l2_l3
@@ -9248,17 +8408,15 @@
 			(not (observation22))
 		)
 		:effect (and
-			(and
-				(observation22)
-				(at r1 l3)
-				(not (occupied l2))
-				(occupied l3)
-				(not (at r1 l2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation22)
+			(at r1 l3)
+			(not (occupied l2))
+			(occupied l3)
+			(not (at r1 l2))
 		)
 	)
 	(:action observe23_unload_k2_cb_r1_l3
@@ -9271,17 +8429,15 @@
 			(not (observation23))
 		)
 		:effect (and
-			(and
-				(observation23)
-				(unloaded r1)
-				(holding k2 cb)
-				(not (loaded r1 cb))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation23)
+			(unloaded r1)
+			(holding k2 cb)
+			(not (loaded r1 cb))
+			(not (empty k2))
 		)
 	)
 	(:action observe24_put_k2_cb_p2_cd_l3
@@ -9293,19 +8449,17 @@
 			(not (observation24))
 		)
 		:effect (and
-			(and
-				(observation24)
-				(in cb p2)
-				(top cb p2)
-				(on cb cd)
-				(not (top cd p2))
-				(not (holding k2 cb))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation24)
+			(in cb p2)
+			(top cb p2)
+			(on cb cd)
+			(not (top cd p2))
+			(not (holding k2 cb))
+			(empty k2)
 		)
 	)
 	(:action observe25_move_r1_l3_l2
@@ -9317,17 +8471,15 @@
 			(not (observation25))
 		)
 		:effect (and
-			(and
-				(observation25)
-				(at r1 l2)
-				(not (occupied l3))
-				(occupied l2)
-				(not (at r1 l3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation25)
+			(at r1 l2)
+			(not (occupied l3))
+			(occupied l2)
+			(not (at r1 l3))
 		)
 	)
 	(:action observe26_move_r1_l2_l1
@@ -9339,17 +8491,15 @@
 			(not (observation26))
 		)
 		:effect (and
-			(and
-				(observation26)
-				(at r1 l1)
-				(not (occupied l2))
-				(occupied l1)
-				(not (at r1 l2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation26)
+			(at r1 l1)
+			(not (occupied l2))
+			(occupied l1)
+			(not (at r1 l2))
 		)
 	)
 	(:action observe27_move_r1_l1_l4
@@ -9361,17 +8511,15 @@
 			(not (observation27))
 		)
 		:effect (and
-			(and
-				(observation27)
-				(at r1 l4)
-				(not (occupied l1))
-				(occupied l4)
-				(not (at r1 l1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation27)
+			(at r1 l4)
+			(not (occupied l1))
+			(occupied l4)
+			(not (at r1 l1))
 		)
 	)
 	(:action observe28_take_k3_ce_p3_cf_l4
@@ -9385,19 +8533,17 @@
 			(not (observation28))
 		)
 		:effect (and
-			(and
-				(observation28)
-				(holding k3 ce)
-				(top cf p3)
-				(not (in ce p3))
-				(not (top ce p3))
-				(not (on ce cf))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation28)
+			(holding k3 ce)
+			(top cf p3)
+			(not (in ce p3))
+			(not (top ce p3))
+			(not (on ce cf))
+			(not (empty k3))
 		)
 	)
 	(:action observe29_load_k3_ce_r1_l4
@@ -9410,17 +8556,15 @@
 			(not (observation29))
 		)
 		:effect (and
-			(and
-				(observation29)
-				(loaded r1 ce)
-				(not (unloaded r1))
-				(empty k3)
-				(not (holding k3 ce))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation29)
+			(loaded r1 ce)
+			(not (unloaded r1))
+			(empty k3)
+			(not (holding k3 ce))
 		)
 	)
 	(:action observe30_take_k3_cf_p3_cc_l4
@@ -9434,19 +8578,17 @@
 			(not (observation30))
 		)
 		:effect (and
-			(and
-				(observation30)
-				(holding k3 cf)
-				(top cc p3)
-				(not (in cf p3))
-				(not (top cf p3))
-				(not (on cf cc))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation30)
+			(holding k3 cf)
+			(top cc p3)
+			(not (in cf p3))
+			(not (top cf p3))
+			(not (on cf cc))
+			(not (empty k3))
 		)
 	)
 	(:action observe31_move_r1_l4_l1
@@ -9458,17 +8600,15 @@
 			(not (observation31))
 		)
 		:effect (and
-			(and
-				(observation31)
-				(at r1 l1)
-				(not (occupied l4))
-				(occupied l1)
-				(not (at r1 l4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation31)
+			(at r1 l1)
+			(not (occupied l4))
+			(occupied l1)
+			(not (at r1 l4))
 		)
 	)
 	(:action observe32_unload_k1_ce_r1_l1
@@ -9481,17 +8621,15 @@
 			(not (observation32))
 		)
 		:effect (and
-			(and
-				(observation32)
-				(unloaded r1)
-				(holding k1 ce)
-				(not (loaded r1 ce))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation32)
+			(unloaded r1)
+			(holding k1 ce)
+			(not (loaded r1 ce))
+			(not (empty k1))
 		)
 	)
 	(:action observe33_move_r1_l1_l4
@@ -9503,17 +8641,15 @@
 			(not (observation33))
 		)
 		:effect (and
-			(and
-				(observation33)
-				(at r1 l4)
-				(not (occupied l1))
-				(occupied l4)
-				(not (at r1 l1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation33)
+			(at r1 l4)
+			(not (occupied l1))
+			(occupied l4)
+			(not (at r1 l1))
 		)
 	)
 	(:action observe34_load_k3_cf_r1_l4
@@ -9526,17 +8662,15 @@
 			(not (observation34))
 		)
 		:effect (and
-			(and
-				(observation34)
-				(loaded r1 cf)
-				(not (unloaded r1))
-				(empty k3)
-				(not (holding k3 cf))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation34)
+			(loaded r1 cf)
+			(not (unloaded r1))
+			(empty k3)
+			(not (holding k3 cf))
 		)
 	)
 	(:action observe35_put_k1_ce_p1_ca_l1
@@ -9548,19 +8682,17 @@
 			(not (observation35))
 		)
 		:effect (and
-			(and
-				(observation35)
-				(in ce p1)
-				(top ce p1)
-				(on ce ca)
-				(not (top ca p1))
-				(not (holding k1 ce))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation35)
+			(in ce p1)
+			(top ce p1)
+			(on ce ca)
+			(not (top ca p1))
+			(not (holding k1 ce))
+			(empty k1)
 		)
 	)
 	(:action observe36_move_r1_l4_l1
@@ -9572,17 +8704,15 @@
 			(not (observation36))
 		)
 		:effect (and
-			(and
-				(observation36)
-				(at r1 l1)
-				(not (occupied l4))
-				(occupied l1)
-				(not (at r1 l4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation36)
+			(at r1 l1)
+			(not (occupied l4))
+			(occupied l1)
+			(not (at r1 l4))
 		)
 	)
 	(:action observe37_unload_k1_cf_r1_l1
@@ -9595,17 +8725,15 @@
 			(not (observation37))
 		)
 		:effect (and
-			(and
-				(observation37)
-				(unloaded r1)
-				(holding k1 cf)
-				(not (loaded r1 cf))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation37)
+			(unloaded r1)
+			(holding k1 cf)
+			(not (loaded r1 cf))
+			(not (empty k1))
 		)
 	)
 	(:action observe38_take_k3_cc_p3_pallet_l4
@@ -9619,19 +8747,17 @@
 			(not (observation38))
 		)
 		:effect (and
-			(and
-				(observation38)
-				(holding k3 cc)
-				(top pallet p3)
-				(not (in cc p3))
-				(not (top cc p3))
-				(not (on cc pallet))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation38)
+			(holding k3 cc)
+			(top pallet p3)
+			(not (in cc p3))
+			(not (top cc p3))
+			(not (on cc pallet))
+			(not (empty k3))
 		)
 	)
 	(:action observe39_move_r1_l1_l4
@@ -9643,17 +8769,15 @@
 			(not (observation39))
 		)
 		:effect (and
-			(and
-				(observation39)
-				(at r1 l4)
-				(not (occupied l1))
-				(occupied l4)
-				(not (at r1 l1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation39)
+			(at r1 l4)
+			(not (occupied l1))
+			(occupied l4)
+			(not (at r1 l1))
 		)
 	)
 	(:action observe40_load_k3_cc_r1_l4
@@ -9666,17 +8790,15 @@
 			(not (observation40))
 		)
 		:effect (and
-			(and
-				(observation40)
-				(loaded r1 cc)
-				(not (unloaded r1))
-				(empty k3)
-				(not (holding k3 cc))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation40)
+			(loaded r1 cc)
+			(not (unloaded r1))
+			(empty k3)
+			(not (holding k3 cc))
 		)
 	)
 	(:action observe41_move_r1_l4_l5
@@ -9688,17 +8810,15 @@
 			(not (observation41))
 		)
 		:effect (and
-			(and
-				(observation41)
-				(at r1 l5)
-				(not (occupied l4))
-				(occupied l5)
-				(not (at r1 l4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation41)
+			(at r1 l5)
+			(not (occupied l4))
+			(occupied l5)
+			(not (at r1 l4))
 		)
 	)
 	(:action observe42_put_k1_cf_p1_ce_l1
@@ -9710,19 +8830,17 @@
 			(not (observation42))
 		)
 		:effect (and
-			(and
-				(observation42)
-				(in cf p1)
-				(top cf p1)
-				(on cf ce)
-				(not (top ce p1))
-				(not (holding k1 cf))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation42)
+			(in cf p1)
+			(top cf p1)
+			(on cf ce)
+			(not (top ce p1))
+			(not (holding k1 cf))
+			(empty k1)
 		)
 	)
 	(:action observe43_move_r1_l5_l6
@@ -9734,17 +8852,15 @@
 			(not (observation43))
 		)
 		:effect (and
-			(and
-				(observation43)
-				(at r1 l6)
-				(not (occupied l5))
-				(occupied l6)
-				(not (at r1 l5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation43)
+			(at r1 l6)
+			(not (occupied l5))
+			(occupied l6)
+			(not (at r1 l5))
 		)
 	)
 	(:action observe44_unload_k4_cc_r1_l6
@@ -9757,17 +8873,15 @@
 			(not (observation44))
 		)
 		:effect (and
-			(and
-				(observation44)
-				(unloaded r1)
-				(holding k4 cc)
-				(not (loaded r1 cc))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation44)
+			(unloaded r1)
+			(holding k4 cc)
+			(not (loaded r1 cc))
+			(not (empty k4))
 		)
 	)
 	(:action observe45_move_r1_l6_l5
@@ -9779,17 +8893,15 @@
 			(not (observation45))
 		)
 		:effect (and
-			(and
-				(observation45)
-				(at r1 l5)
-				(not (occupied l6))
-				(occupied l5)
-				(not (at r1 l6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation45)
+			(at r1 l5)
+			(not (occupied l6))
+			(occupied l5)
+			(not (at r1 l6))
 		)
 	)
 	(:action observe46_take_k1_cf_p1_ce_l1
@@ -9803,19 +8915,17 @@
 			(not (observation46))
 		)
 		:effect (and
-			(and
-				(observation46)
-				(holding k1 cf)
-				(top ce p1)
-				(not (in cf p1))
-				(not (top cf p1))
-				(not (on cf ce))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation46)
+			(holding k1 cf)
+			(top ce p1)
+			(not (in cf p1))
+			(not (top cf p1))
+			(not (on cf ce))
+			(not (empty k1))
 		)
 	)
 	(:action observe47_take_k2_cb_p2_cd_l3
@@ -9829,19 +8939,17 @@
 			(not (observation47))
 		)
 		:effect (and
-			(and
-				(observation47)
-				(holding k2 cb)
-				(top cd p2)
-				(not (in cb p2))
-				(not (top cb p2))
-				(not (on cb cd))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation47)
+			(holding k2 cb)
+			(top cd p2)
+			(not (in cb p2))
+			(not (top cb p2))
+			(not (on cb cd))
+			(not (empty k2))
 		)
 	)
 	(:action observe48_move_r1_l5_l4
@@ -9853,17 +8961,15 @@
 			(not (observation48))
 		)
 		:effect (and
-			(and
-				(observation48)
-				(at r1 l4)
-				(not (occupied l5))
-				(occupied l4)
-				(not (at r1 l5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation48)
+			(at r1 l4)
+			(not (occupied l5))
+			(occupied l4)
+			(not (at r1 l5))
 		)
 	)
 	(:action observe49_move_r1_l4_l1
@@ -9875,17 +8981,15 @@
 			(not (observation49))
 		)
 		:effect (and
-			(and
-				(observation49)
-				(at r1 l1)
-				(not (occupied l4))
-				(occupied l1)
-				(not (at r1 l4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation49)
+			(at r1 l1)
+			(not (occupied l4))
+			(occupied l1)
+			(not (at r1 l4))
 		)
 	)
 	(:action observe50_load_k1_cf_r1_l1
@@ -9898,17 +9002,15 @@
 			(not (observation50))
 		)
 		:effect (and
-			(and
-				(observation50)
-				(loaded r1 cf)
-				(not (unloaded r1))
-				(empty k1)
-				(not (holding k1 cf))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation50)
+			(loaded r1 cf)
+			(not (unloaded r1))
+			(empty k1)
+			(not (holding k1 cf))
 		)
 	)
 	(:action observe51_put_k2_cb_p2_cd_l3
@@ -9920,19 +9022,17 @@
 			(not (observation51))
 		)
 		:effect (and
-			(and
-				(observation51)
-				(in cb p2)
-				(top cb p2)
-				(on cb cd)
-				(not (top cd p2))
-				(not (holding k2 cb))
-				(empty k2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation51)
+			(in cb p2)
+			(top cb p2)
+			(on cb cd)
+			(not (top cd p2))
+			(not (holding k2 cb))
+			(empty k2)
 		)
 	)
 	(:action observe52_put_k4_cc_p4_pallet_l6
@@ -9944,19 +9044,17 @@
 			(not (observation52))
 		)
 		:effect (and
-			(and
-				(observation52)
-				(in cc p4)
-				(top cc p4)
-				(on cc pallet)
-				(not (top pallet p4))
-				(not (holding k4 cc))
-				(empty k4)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation52)
+			(in cc p4)
+			(top cc p4)
+			(on cc pallet)
+			(not (top pallet p4))
+			(not (holding k4 cc))
+			(empty k4)
 		)
 	)
 	(:action observe53_take_k1_ce_p1_ca_l1
@@ -9970,19 +9068,17 @@
 			(not (observation53))
 		)
 		:effect (and
-			(and
-				(observation53)
-				(holding k1 ce)
-				(top ca p1)
-				(not (in ce p1))
-				(not (top ce p1))
-				(not (on ce ca))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation53)
+			(holding k1 ce)
+			(top ca p1)
+			(not (in ce p1))
+			(not (top ce p1))
+			(not (on ce ca))
+			(not (empty k1))
 		)
 	)
 	(:action observe54_move_r1_l1_l4
@@ -9994,17 +9090,15 @@
 			(not (observation54))
 		)
 		:effect (and
-			(and
-				(observation54)
-				(at r1 l4)
-				(not (occupied l1))
-				(occupied l4)
-				(not (at r1 l1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation54)
+			(at r1 l4)
+			(not (occupied l1))
+			(occupied l4)
+			(not (at r1 l1))
 		)
 	)
 	(:action observe55_unload_k3_cf_r1_l4
@@ -10017,17 +9111,15 @@
 			(not (observation55))
 		)
 		:effect (and
-			(and
-				(observation55)
-				(unloaded r1)
-				(holding k3 cf)
-				(not (loaded r1 cf))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation55)
+			(unloaded r1)
+			(holding k3 cf)
+			(not (loaded r1 cf))
+			(not (empty k3))
 		)
 	)
 	(:action observe56_put_k3_cf_p3_pallet_l4
@@ -10039,19 +9131,17 @@
 			(not (observation56))
 		)
 		:effect (and
-			(and
-				(observation56)
-				(in cf p3)
-				(top cf p3)
-				(on cf pallet)
-				(not (top pallet p3))
-				(not (holding k3 cf))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation56)
+			(in cf p3)
+			(top cf p3)
+			(on cf pallet)
+			(not (top pallet p3))
+			(not (holding k3 cf))
+			(empty k3)
 		)
 	)
 	(:action observe57_move_r1_l4_l1
@@ -10063,17 +9153,15 @@
 			(not (observation57))
 		)
 		:effect (and
-			(and
-				(observation57)
-				(at r1 l1)
-				(not (occupied l4))
-				(occupied l1)
-				(not (at r1 l4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation57)
+			(at r1 l1)
+			(not (occupied l4))
+			(occupied l1)
+			(not (at r1 l4))
 		)
 	)
 	(:action observe58_load_k1_ce_r1_l1
@@ -10086,17 +9174,15 @@
 			(not (observation58))
 		)
 		:effect (and
-			(and
-				(observation58)
-				(loaded r1 ce)
-				(not (unloaded r1))
-				(empty k1)
-				(not (holding k1 ce))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation58)
+			(loaded r1 ce)
+			(not (unloaded r1))
+			(empty k1)
+			(not (holding k1 ce))
 		)
 	)
 	(:action observe59_move_r1_l1_l4
@@ -10108,17 +9194,15 @@
 			(not (observation59))
 		)
 		:effect (and
-			(and
-				(observation59)
-				(at r1 l4)
-				(not (occupied l1))
-				(occupied l4)
-				(not (at r1 l1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation59)
+			(at r1 l4)
+			(not (occupied l1))
+			(occupied l4)
+			(not (at r1 l1))
 		)
 	)
 	(:action observe60_unload_k3_ce_r1_l4
@@ -10131,17 +9215,15 @@
 			(not (observation60))
 		)
 		:effect (and
-			(and
-				(observation60)
-				(unloaded r1)
-				(holding k3 ce)
-				(not (loaded r1 ce))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation60)
+			(unloaded r1)
+			(holding k3 ce)
+			(not (loaded r1 ce))
+			(not (empty k3))
 		)
 	)
 	(:action observe61_put_k3_ce_p3_cf_l4
@@ -10153,19 +9235,17 @@
 			(not (observation61))
 		)
 		:effect (and
-			(and
-				(observation61)
-				(in ce p3)
-				(top ce p3)
-				(on ce cf)
-				(not (top cf p3))
-				(not (holding k3 ce))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation61)
+			(in ce p3)
+			(top ce p3)
+			(on ce cf)
+			(not (top cf p3))
+			(not (holding k3 ce))
+			(empty k3)
 		)
 	)
 	(:action observe62_move_r1_l4_l5
@@ -10177,17 +9257,15 @@
 			(not (observation62))
 		)
 		:effect (and
-			(and
-				(observation62)
-				(at r1 l5)
-				(not (occupied l4))
-				(occupied l5)
-				(not (at r1 l4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation62)
+			(at r1 l5)
+			(not (occupied l4))
+			(occupied l5)
+			(not (at r1 l4))
 		)
 	)
 	(:action observe63_move_r1_l5_l6
@@ -10199,17 +9277,15 @@
 			(not (observation63))
 		)
 		:effect (and
-			(and
-				(observation63)
-				(at r1 l6)
-				(not (occupied l5))
-				(occupied l6)
-				(not (at r1 l5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation63)
+			(at r1 l6)
+			(not (occupied l5))
+			(occupied l6)
+			(not (at r1 l5))
 		)
 	)
 	(:action observe64_take_k4_cc_p4_pallet_l6
@@ -10223,19 +9299,17 @@
 			(not (observation64))
 		)
 		:effect (and
-			(and
-				(observation64)
-				(holding k4 cc)
-				(top pallet p4)
-				(not (in cc p4))
-				(not (top cc p4))
-				(not (on cc pallet))
-				(not (empty k4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation64)
+			(holding k4 cc)
+			(top pallet p4)
+			(not (in cc p4))
+			(not (top cc p4))
+			(not (on cc pallet))
+			(not (empty k4))
 		)
 	)
 	(:action observe65_load_k4_cc_r1_l6
@@ -10248,17 +9322,15 @@
 			(not (observation65))
 		)
 		:effect (and
-			(and
-				(observation65)
-				(loaded r1 cc)
-				(not (unloaded r1))
-				(empty k4)
-				(not (holding k4 cc))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation65)
+			(loaded r1 cc)
+			(not (unloaded r1))
+			(empty k4)
+			(not (holding k4 cc))
 		)
 	)
 	(:action observe66_move_r1_l6_l3
@@ -10270,17 +9342,15 @@
 			(not (observation66))
 		)
 		:effect (and
-			(and
-				(observation66)
-				(at r1 l3)
-				(not (occupied l6))
-				(occupied l3)
-				(not (at r1 l6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation66)
+			(at r1 l3)
+			(not (occupied l6))
+			(occupied l3)
+			(not (at r1 l6))
 		)
 	)
 	(:action observe67_unload_k2_cc_r1_l3
@@ -10293,17 +9363,15 @@
 			(not (observation67))
 		)
 		:effect (and
-			(and
-				(observation67)
-				(unloaded r1)
-				(holding k2 cc)
-				(not (loaded r1 cc))
-				(not (empty k2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation67)
+			(unloaded r1)
+			(holding k2 cc)
+			(not (loaded r1 cc))
+			(not (empty k2))
 		)
 	)
 	(:action observe68_move_r1_l3_l2
@@ -10315,17 +9383,15 @@
 			(not (observation68))
 		)
 		:effect (and
-			(and
-				(observation68)
-				(at r1 l2)
-				(not (occupied l3))
-				(occupied l2)
-				(not (at r1 l3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation68)
+			(at r1 l2)
+			(not (occupied l3))
+			(occupied l2)
+			(not (at r1 l3))
 		)
 	)
 	(:action observe69_move_r1_l2_l1
@@ -10337,17 +9403,15 @@
 			(not (observation69))
 		)
 		:effect (and
-			(and
-				(observation69)
-				(at r1 l1)
-				(not (occupied l2))
-				(occupied l1)
-				(not (at r1 l2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation69)
+			(at r1 l1)
+			(not (occupied l2))
+			(occupied l1)
+			(not (at r1 l2))
 		)
 	)
 	(:action observe70_take_k1_ca_p1_pallet_l1
@@ -10361,19 +9425,17 @@
 			(not (observation70))
 		)
 		:effect (and
-			(and
-				(observation70)
-				(holding k1 ca)
-				(top pallet p1)
-				(not (in ca p1))
-				(not (top ca p1))
-				(not (on ca pallet))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation70)
+			(holding k1 ca)
+			(top pallet p1)
+			(not (in ca p1))
+			(not (top ca p1))
+			(not (on ca pallet))
+			(not (empty k1))
 		)
 	)
 	(:action observe71_load_k1_ca_r1_l1
@@ -10386,17 +9448,15 @@
 			(not (observation71))
 		)
 		:effect (and
-			(and
-				(observation71)
-				(loaded r1 ca)
-				(not (unloaded r1))
-				(empty k1)
-				(not (holding k1 ca))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation71)
+			(loaded r1 ca)
+			(not (unloaded r1))
+			(empty k1)
+			(not (holding k1 ca))
 		)
 	)
 	(:action observe72_move_r1_l1_l4
@@ -10408,17 +9468,15 @@
 			(not (observation72))
 		)
 		:effect (and
-			(and
-				(observation72)
-				(at r1 l4)
-				(not (occupied l1))
-				(occupied l4)
-				(not (at r1 l1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation72)
+			(at r1 l4)
+			(not (occupied l1))
+			(occupied l4)
+			(not (at r1 l1))
 		)
 	)
 	(:action observe73_unload_k3_ca_r1_l4
@@ -10431,17 +9489,15 @@
 			(not (observation73))
 		)
 		:effect (and
-			(and
-				(observation73)
-				(unloaded r1)
-				(holding k3 ca)
-				(not (loaded r1 ca))
-				(not (empty k3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation73)
+			(unloaded r1)
+			(holding k3 ca)
+			(not (loaded r1 ca))
+			(not (empty k3))
 		)
 	)
 	(:action observe74_put_k3_ca_p3_ce_l4
@@ -10453,19 +9509,17 @@
 			(not (observation74))
 		)
 		:effect (and
-			(and
-				(observation74)
-				(in ca p3)
-				(top ca p3)
-				(on ca ce)
-				(not (top ce p3))
-				(not (holding k3 ca))
-				(empty k3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation74)
+			(in ca p3)
+			(top ca p3)
+			(on ca ce)
+			(not (top ce p3))
+			(not (holding k3 ca))
+			(empty k3)
 		)
 	)
 	(:action observe75_move_r1_l4_l1
@@ -10477,17 +9531,15 @@
 			(not (observation75))
 		)
 		:effect (and
-			(and
-				(observation75)
-				(at r1 l1)
-				(not (occupied l4))
-				(occupied l1)
-				(not (at r1 l4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation75)
+			(at r1 l1)
+			(not (occupied l4))
+			(occupied l1)
+			(not (at r1 l4))
 		)
 	)
 	(:action observe76_move_r1_l1_l2
@@ -10499,17 +9551,15 @@
 			(not (observation76))
 		)
 		:effect (and
-			(and
-				(observation76)
-				(at r1 l2)
-				(not (occupied l1))
-				(occupied l2)
-				(not (at r1 l1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation76)
+			(at r1 l2)
+			(not (occupied l1))
+			(occupied l2)
+			(not (at r1 l1))
 		)
 	)
 	(:action observe77_move_r1_l2_l3
@@ -10521,17 +9571,15 @@
 			(not (observation77))
 		)
 		:effect (and
-			(and
-				(observation77)
-				(at r1 l3)
-				(not (occupied l2))
-				(occupied l3)
-				(not (at r1 l2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation77)
+			(at r1 l3)
+			(not (occupied l2))
+			(occupied l3)
+			(not (at r1 l2))
 		)
 	)
 	(:action observe78_load_k2_cc_r1_l3
@@ -10544,17 +9592,15 @@
 			(not (observation78))
 		)
 		:effect (and
-			(and
-				(observation78)
-				(loaded r1 cc)
-				(not (unloaded r1))
-				(empty k2)
-				(not (holding k2 cc))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation78)
+			(loaded r1 cc)
+			(not (unloaded r1))
+			(empty k2)
+			(not (holding k2 cc))
 		)
 	)
 	(:action observe79_move_r1_l3_l2
@@ -10566,17 +9612,15 @@
 			(not (observation79))
 		)
 		:effect (and
-			(and
-				(observation79)
-				(at r1 l2)
-				(not (occupied l3))
-				(occupied l2)
-				(not (at r1 l3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation79)
+			(at r1 l2)
+			(not (occupied l3))
+			(occupied l2)
+			(not (at r1 l3))
 		)
 	)
 	(:action observe80_move_r1_l2_l1
@@ -10588,17 +9632,15 @@
 			(not (observation80))
 		)
 		:effect (and
-			(and
-				(observation80)
-				(at r1 l1)
-				(not (occupied l2))
-				(occupied l1)
-				(not (at r1 l2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation80)
+			(at r1 l1)
+			(not (occupied l2))
+			(occupied l1)
+			(not (at r1 l2))
 		)
 	)
 	(:action observe81_unload_k1_cc_r1_l1
@@ -10611,17 +9653,15 @@
 			(not (observation81))
 		)
 		:effect (and
-			(and
-				(observation81)
-				(unloaded r1)
-				(holding k1 cc)
-				(not (loaded r1 cc))
-				(not (empty k1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation81)
+			(unloaded r1)
+			(holding k1 cc)
+			(not (loaded r1 cc))
+			(not (empty k1))
 		)
 	)
 	(:action observe82_put_k1_cc_p1_pallet_l1
@@ -10633,19 +9673,17 @@
 			(not (observation82))
 		)
 		:effect (and
-			(and
-				(observation82)
-				(in cc p1)
-				(top cc p1)
-				(on cc pallet)
-				(not (top pallet p1))
-				(not (holding k1 cc))
-				(empty k1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation82)
+			(in cc p1)
+			(top cc p1)
+			(on cc pallet)
+			(not (top pallet p1))
+			(not (holding k1 cc))
+			(empty k1)
 		)
 	)
 )
