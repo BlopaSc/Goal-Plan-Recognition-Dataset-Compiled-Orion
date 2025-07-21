@@ -1,0 +1,19 @@
+(define	(problem intrusion-detection-10-hosts_g0)
+	(:domain intrusion-detection)
+	(:init
+	)
+	(:goal
+		(and
+			(information-gathered perseus)
+			(information-gathered cassiopea)
+			(information-gathered andromeda)
+			(information-gathered sagittarius)
+			(information-gathered scorpio)
+			(information-gathered virgo)
+			(information-gathered aries)
+			(information-gathered leo)
+			(information-gathered libra)
+			(information-gathered taurus)
+		)
+	)
+)
