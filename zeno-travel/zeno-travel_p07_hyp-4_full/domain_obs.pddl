@@ -71,14 +71,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(in person1 plane1)
-				(not (at person1 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person1 plane1)
+			(not (at person1 city0))
 		)
 	)
 	(:action board_person1_plane1_city1
@@ -88,14 +86,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(in person1 plane1)
-				(not (at person1 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person1 plane1)
+			(not (at person1 city1))
 		)
 	)
 	(:action board_person1_plane1_city2
@@ -105,14 +101,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(in person1 plane1)
-				(not (at person1 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person1 plane1)
+			(not (at person1 city2))
 		)
 	)
 	(:action board_person1_plane1_city3
@@ -122,14 +116,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(in person1 plane1)
-				(not (at person1 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person1 plane1)
+			(not (at person1 city3))
 		)
 	)
 	(:action board_person1_plane1_city4
@@ -139,14 +131,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(in person1 plane1)
-				(not (at person1 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person1 plane1)
+			(not (at person1 city4))
 		)
 	)
 	(:action board_person1_plane1_city5
@@ -156,14 +146,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(in person1 plane1)
-				(not (at person1 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person1 plane1)
+			(not (at person1 city5))
 		)
 	)
 	(:action board_person1_plane2_city0
@@ -173,14 +161,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(in person1 plane2)
-				(not (at person1 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person1 plane2)
+			(not (at person1 city0))
 		)
 	)
 	(:action board_person1_plane2_city1
@@ -190,14 +176,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(in person1 plane2)
-				(not (at person1 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person1 plane2)
+			(not (at person1 city1))
 		)
 	)
 	(:action board_person1_plane2_city2
@@ -207,14 +191,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(in person1 plane2)
-				(not (at person1 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person1 plane2)
+			(not (at person1 city2))
 		)
 	)
 	(:action board_person1_plane2_city3
@@ -224,14 +206,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(in person1 plane2)
-				(not (at person1 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person1 plane2)
+			(not (at person1 city3))
 		)
 	)
 	(:action board_person1_plane2_city4
@@ -241,14 +221,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(in person1 plane2)
-				(not (at person1 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person1 plane2)
+			(not (at person1 city4))
 		)
 	)
 	(:action board_person1_plane2_city5
@@ -258,14 +236,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(in person1 plane2)
-				(not (at person1 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person1 plane2)
+			(not (at person1 city5))
 		)
 	)
 	(:action board_person1_plane3_city0
@@ -275,14 +251,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(in person1 plane3)
-				(not (at person1 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person1 plane3)
+			(not (at person1 city0))
 		)
 	)
 	(:action board_person1_plane3_city1
@@ -292,14 +266,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(in person1 plane3)
-				(not (at person1 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person1 plane3)
+			(not (at person1 city1))
 		)
 	)
 	(:action board_person1_plane3_city2
@@ -309,14 +281,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(in person1 plane3)
-				(not (at person1 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person1 plane3)
+			(not (at person1 city2))
 		)
 	)
 	(:action board_person1_plane3_city3
@@ -326,14 +296,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(in person1 plane3)
-				(not (at person1 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person1 plane3)
+			(not (at person1 city3))
 		)
 	)
 	(:action board_person1_plane3_city4
@@ -343,14 +311,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(in person1 plane3)
-				(not (at person1 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person1 plane3)
+			(not (at person1 city4))
 		)
 	)
 	(:action board_person1_plane3_city5
@@ -360,14 +326,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(in person1 plane3)
-				(not (at person1 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person1 plane3)
+			(not (at person1 city5))
 		)
 	)
 	(:action board_person2_plane1_city0
@@ -377,14 +341,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(in person2 plane1)
-				(not (at person2 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person2 plane1)
+			(not (at person2 city0))
 		)
 	)
 	(:action board_person2_plane1_city1
@@ -394,14 +356,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(in person2 plane1)
-				(not (at person2 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person2 plane1)
+			(not (at person2 city1))
 		)
 	)
 	(:action board_person2_plane1_city2
@@ -411,14 +371,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(in person2 plane1)
-				(not (at person2 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person2 plane1)
+			(not (at person2 city2))
 		)
 	)
 	(:action board_person2_plane1_city3
@@ -428,14 +386,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(in person2 plane1)
-				(not (at person2 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person2 plane1)
+			(not (at person2 city3))
 		)
 	)
 	(:action board_person2_plane1_city4
@@ -445,14 +401,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(in person2 plane1)
-				(not (at person2 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person2 plane1)
+			(not (at person2 city4))
 		)
 	)
 	(:action board_person2_plane1_city5
@@ -462,14 +416,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(in person2 plane1)
-				(not (at person2 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person2 plane1)
+			(not (at person2 city5))
 		)
 	)
 	(:action board_person2_plane2_city0
@@ -479,14 +431,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(in person2 plane2)
-				(not (at person2 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person2 plane2)
+			(not (at person2 city0))
 		)
 	)
 	(:action board_person2_plane2_city1
@@ -496,14 +446,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(in person2 plane2)
-				(not (at person2 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person2 plane2)
+			(not (at person2 city1))
 		)
 	)
 	(:action board_person2_plane2_city2
@@ -513,14 +461,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(in person2 plane2)
-				(not (at person2 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person2 plane2)
+			(not (at person2 city2))
 		)
 	)
 	(:action board_person2_plane2_city3
@@ -530,14 +476,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(in person2 plane2)
-				(not (at person2 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person2 plane2)
+			(not (at person2 city3))
 		)
 	)
 	(:action board_person2_plane2_city4
@@ -547,14 +491,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(in person2 plane2)
-				(not (at person2 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person2 plane2)
+			(not (at person2 city4))
 		)
 	)
 	(:action board_person2_plane2_city5
@@ -564,14 +506,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(in person2 plane2)
-				(not (at person2 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person2 plane2)
+			(not (at person2 city5))
 		)
 	)
 	(:action board_person2_plane3_city0
@@ -581,14 +521,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(in person2 plane3)
-				(not (at person2 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person2 plane3)
+			(not (at person2 city0))
 		)
 	)
 	(:action board_person2_plane3_city1
@@ -598,14 +536,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(in person2 plane3)
-				(not (at person2 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person2 plane3)
+			(not (at person2 city1))
 		)
 	)
 	(:action board_person2_plane3_city2
@@ -615,14 +551,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(in person2 plane3)
-				(not (at person2 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person2 plane3)
+			(not (at person2 city2))
 		)
 	)
 	(:action board_person2_plane3_city3
@@ -632,14 +566,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(in person2 plane3)
-				(not (at person2 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person2 plane3)
+			(not (at person2 city3))
 		)
 	)
 	(:action board_person2_plane3_city4
@@ -649,14 +581,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(in person2 plane3)
-				(not (at person2 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person2 plane3)
+			(not (at person2 city4))
 		)
 	)
 	(:action board_person2_plane3_city5
@@ -666,14 +596,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(in person2 plane3)
-				(not (at person2 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person2 plane3)
+			(not (at person2 city5))
 		)
 	)
 	(:action board_person3_plane1_city0
@@ -683,14 +611,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(in person3 plane1)
-				(not (at person3 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person3 plane1)
+			(not (at person3 city0))
 		)
 	)
 	(:action board_person3_plane1_city1
@@ -700,14 +626,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(in person3 plane1)
-				(not (at person3 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person3 plane1)
+			(not (at person3 city1))
 		)
 	)
 	(:action board_person3_plane1_city2
@@ -717,14 +641,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(in person3 plane1)
-				(not (at person3 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person3 plane1)
+			(not (at person3 city2))
 		)
 	)
 	(:action board_person3_plane1_city3
@@ -734,14 +656,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(in person3 plane1)
-				(not (at person3 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person3 plane1)
+			(not (at person3 city3))
 		)
 	)
 	(:action board_person3_plane1_city4
@@ -751,14 +671,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(in person3 plane1)
-				(not (at person3 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person3 plane1)
+			(not (at person3 city4))
 		)
 	)
 	(:action board_person3_plane1_city5
@@ -768,14 +686,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(in person3 plane1)
-				(not (at person3 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person3 plane1)
+			(not (at person3 city5))
 		)
 	)
 	(:action board_person3_plane2_city0
@@ -785,14 +701,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(in person3 plane2)
-				(not (at person3 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person3 plane2)
+			(not (at person3 city0))
 		)
 	)
 	(:action board_person3_plane2_city1
@@ -802,14 +716,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(in person3 plane2)
-				(not (at person3 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person3 plane2)
+			(not (at person3 city1))
 		)
 	)
 	(:action board_person3_plane2_city2
@@ -819,14 +731,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(in person3 plane2)
-				(not (at person3 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person3 plane2)
+			(not (at person3 city2))
 		)
 	)
 	(:action board_person3_plane2_city3
@@ -836,14 +746,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(in person3 plane2)
-				(not (at person3 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person3 plane2)
+			(not (at person3 city3))
 		)
 	)
 	(:action board_person3_plane2_city4
@@ -853,14 +761,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(in person3 plane2)
-				(not (at person3 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person3 plane2)
+			(not (at person3 city4))
 		)
 	)
 	(:action board_person3_plane2_city5
@@ -870,14 +776,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(in person3 plane2)
-				(not (at person3 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person3 plane2)
+			(not (at person3 city5))
 		)
 	)
 	(:action board_person3_plane3_city0
@@ -887,14 +791,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(in person3 plane3)
-				(not (at person3 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person3 plane3)
+			(not (at person3 city0))
 		)
 	)
 	(:action board_person3_plane3_city1
@@ -904,14 +806,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(in person3 plane3)
-				(not (at person3 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person3 plane3)
+			(not (at person3 city1))
 		)
 	)
 	(:action board_person3_plane3_city2
@@ -921,14 +821,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(in person3 plane3)
-				(not (at person3 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person3 plane3)
+			(not (at person3 city2))
 		)
 	)
 	(:action board_person3_plane3_city3
@@ -938,14 +836,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(in person3 plane3)
-				(not (at person3 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person3 plane3)
+			(not (at person3 city3))
 		)
 	)
 	(:action board_person3_plane3_city4
@@ -955,14 +851,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(in person3 plane3)
-				(not (at person3 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person3 plane3)
+			(not (at person3 city4))
 		)
 	)
 	(:action board_person3_plane3_city5
@@ -972,14 +866,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(in person3 plane3)
-				(not (at person3 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person3 plane3)
+			(not (at person3 city5))
 		)
 	)
 	(:action board_person4_plane1_city0
@@ -989,14 +881,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(in person4 plane1)
-				(not (at person4 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person4 plane1)
+			(not (at person4 city0))
 		)
 	)
 	(:action board_person4_plane1_city1
@@ -1006,14 +896,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(in person4 plane1)
-				(not (at person4 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person4 plane1)
+			(not (at person4 city1))
 		)
 	)
 	(:action board_person4_plane1_city2
@@ -1023,14 +911,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(in person4 plane1)
-				(not (at person4 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person4 plane1)
+			(not (at person4 city2))
 		)
 	)
 	(:action board_person4_plane1_city3
@@ -1040,14 +926,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(in person4 plane1)
-				(not (at person4 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person4 plane1)
+			(not (at person4 city3))
 		)
 	)
 	(:action board_person4_plane1_city4
@@ -1057,14 +941,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(in person4 plane1)
-				(not (at person4 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person4 plane1)
+			(not (at person4 city4))
 		)
 	)
 	(:action board_person4_plane1_city5
@@ -1074,14 +956,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(in person4 plane1)
-				(not (at person4 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person4 plane1)
+			(not (at person4 city5))
 		)
 	)
 	(:action board_person4_plane2_city0
@@ -1091,14 +971,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(in person4 plane2)
-				(not (at person4 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person4 plane2)
+			(not (at person4 city0))
 		)
 	)
 	(:action board_person4_plane2_city1
@@ -1108,14 +986,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(in person4 plane2)
-				(not (at person4 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person4 plane2)
+			(not (at person4 city1))
 		)
 	)
 	(:action board_person4_plane2_city2
@@ -1125,14 +1001,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(in person4 plane2)
-				(not (at person4 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person4 plane2)
+			(not (at person4 city2))
 		)
 	)
 	(:action board_person4_plane2_city3
@@ -1142,14 +1016,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(in person4 plane2)
-				(not (at person4 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person4 plane2)
+			(not (at person4 city3))
 		)
 	)
 	(:action board_person4_plane2_city4
@@ -1159,14 +1031,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(in person4 plane2)
-				(not (at person4 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person4 plane2)
+			(not (at person4 city4))
 		)
 	)
 	(:action board_person4_plane2_city5
@@ -1176,14 +1046,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(in person4 plane2)
-				(not (at person4 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person4 plane2)
+			(not (at person4 city5))
 		)
 	)
 	(:action board_person4_plane3_city0
@@ -1193,14 +1061,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(in person4 plane3)
-				(not (at person4 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person4 plane3)
+			(not (at person4 city0))
 		)
 	)
 	(:action board_person4_plane3_city1
@@ -1210,14 +1076,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(in person4 plane3)
-				(not (at person4 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person4 plane3)
+			(not (at person4 city1))
 		)
 	)
 	(:action board_person4_plane3_city2
@@ -1227,14 +1091,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(in person4 plane3)
-				(not (at person4 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person4 plane3)
+			(not (at person4 city2))
 		)
 	)
 	(:action board_person4_plane3_city3
@@ -1244,14 +1106,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(in person4 plane3)
-				(not (at person4 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person4 plane3)
+			(not (at person4 city3))
 		)
 	)
 	(:action board_person4_plane3_city4
@@ -1261,14 +1121,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(in person4 plane3)
-				(not (at person4 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person4 plane3)
+			(not (at person4 city4))
 		)
 	)
 	(:action board_person4_plane3_city5
@@ -1278,14 +1136,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(in person4 plane3)
-				(not (at person4 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person4 plane3)
+			(not (at person4 city5))
 		)
 	)
 	(:action board_person5_plane1_city0
@@ -1295,14 +1151,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(in person5 plane1)
-				(not (at person5 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person5 plane1)
+			(not (at person5 city0))
 		)
 	)
 	(:action board_person5_plane1_city1
@@ -1312,14 +1166,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(in person5 plane1)
-				(not (at person5 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person5 plane1)
+			(not (at person5 city1))
 		)
 	)
 	(:action board_person5_plane1_city2
@@ -1329,14 +1181,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(in person5 plane1)
-				(not (at person5 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person5 plane1)
+			(not (at person5 city2))
 		)
 	)
 	(:action board_person5_plane1_city3
@@ -1346,14 +1196,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(in person5 plane1)
-				(not (at person5 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person5 plane1)
+			(not (at person5 city3))
 		)
 	)
 	(:action board_person5_plane1_city4
@@ -1363,14 +1211,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(in person5 plane1)
-				(not (at person5 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person5 plane1)
+			(not (at person5 city4))
 		)
 	)
 	(:action board_person5_plane1_city5
@@ -1380,14 +1226,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(in person5 plane1)
-				(not (at person5 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person5 plane1)
+			(not (at person5 city5))
 		)
 	)
 	(:action board_person5_plane2_city0
@@ -1397,14 +1241,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(in person5 plane2)
-				(not (at person5 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person5 plane2)
+			(not (at person5 city0))
 		)
 	)
 	(:action board_person5_plane2_city1
@@ -1414,14 +1256,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(in person5 plane2)
-				(not (at person5 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person5 plane2)
+			(not (at person5 city1))
 		)
 	)
 	(:action board_person5_plane2_city2
@@ -1431,14 +1271,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(in person5 plane2)
-				(not (at person5 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person5 plane2)
+			(not (at person5 city2))
 		)
 	)
 	(:action board_person5_plane2_city3
@@ -1448,14 +1286,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(in person5 plane2)
-				(not (at person5 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person5 plane2)
+			(not (at person5 city3))
 		)
 	)
 	(:action board_person5_plane2_city4
@@ -1465,14 +1301,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(in person5 plane2)
-				(not (at person5 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person5 plane2)
+			(not (at person5 city4))
 		)
 	)
 	(:action board_person5_plane2_city5
@@ -1482,14 +1316,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(in person5 plane2)
-				(not (at person5 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person5 plane2)
+			(not (at person5 city5))
 		)
 	)
 	(:action board_person5_plane3_city0
@@ -1499,14 +1331,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(in person5 plane3)
-				(not (at person5 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person5 plane3)
+			(not (at person5 city0))
 		)
 	)
 	(:action board_person5_plane3_city1
@@ -1516,14 +1346,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(in person5 plane3)
-				(not (at person5 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person5 plane3)
+			(not (at person5 city1))
 		)
 	)
 	(:action board_person5_plane3_city2
@@ -1533,14 +1361,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(in person5 plane3)
-				(not (at person5 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person5 plane3)
+			(not (at person5 city2))
 		)
 	)
 	(:action board_person5_plane3_city3
@@ -1550,14 +1376,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(in person5 plane3)
-				(not (at person5 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person5 plane3)
+			(not (at person5 city3))
 		)
 	)
 	(:action board_person5_plane3_city4
@@ -1567,14 +1391,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(in person5 plane3)
-				(not (at person5 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person5 plane3)
+			(not (at person5 city4))
 		)
 	)
 	(:action board_person5_plane3_city5
@@ -1584,14 +1406,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(in person5 plane3)
-				(not (at person5 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person5 plane3)
+			(not (at person5 city5))
 		)
 	)
 	(:action board_person6_plane1_city0
@@ -1601,14 +1421,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(in person6 plane1)
-				(not (at person6 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person6 plane1)
+			(not (at person6 city0))
 		)
 	)
 	(:action board_person6_plane1_city1
@@ -1618,14 +1436,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(in person6 plane1)
-				(not (at person6 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person6 plane1)
+			(not (at person6 city1))
 		)
 	)
 	(:action board_person6_plane1_city2
@@ -1635,14 +1451,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(in person6 plane1)
-				(not (at person6 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person6 plane1)
+			(not (at person6 city2))
 		)
 	)
 	(:action board_person6_plane1_city3
@@ -1652,14 +1466,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(in person6 plane1)
-				(not (at person6 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person6 plane1)
+			(not (at person6 city3))
 		)
 	)
 	(:action board_person6_plane1_city4
@@ -1669,14 +1481,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(in person6 plane1)
-				(not (at person6 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person6 plane1)
+			(not (at person6 city4))
 		)
 	)
 	(:action board_person6_plane1_city5
@@ -1686,14 +1496,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(in person6 plane1)
-				(not (at person6 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person6 plane1)
+			(not (at person6 city5))
 		)
 	)
 	(:action board_person6_plane2_city0
@@ -1703,14 +1511,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(in person6 plane2)
-				(not (at person6 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person6 plane2)
+			(not (at person6 city0))
 		)
 	)
 	(:action board_person6_plane2_city1
@@ -1720,14 +1526,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(in person6 plane2)
-				(not (at person6 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person6 plane2)
+			(not (at person6 city1))
 		)
 	)
 	(:action board_person6_plane2_city2
@@ -1737,14 +1541,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(in person6 plane2)
-				(not (at person6 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person6 plane2)
+			(not (at person6 city2))
 		)
 	)
 	(:action board_person6_plane2_city3
@@ -1754,14 +1556,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(in person6 plane2)
-				(not (at person6 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person6 plane2)
+			(not (at person6 city3))
 		)
 	)
 	(:action board_person6_plane2_city4
@@ -1771,14 +1571,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(in person6 plane2)
-				(not (at person6 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person6 plane2)
+			(not (at person6 city4))
 		)
 	)
 	(:action board_person6_plane2_city5
@@ -1788,14 +1586,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(in person6 plane2)
-				(not (at person6 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person6 plane2)
+			(not (at person6 city5))
 		)
 	)
 	(:action board_person6_plane3_city0
@@ -1805,14 +1601,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(in person6 plane3)
-				(not (at person6 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person6 plane3)
+			(not (at person6 city0))
 		)
 	)
 	(:action board_person6_plane3_city1
@@ -1822,14 +1616,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(in person6 plane3)
-				(not (at person6 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person6 plane3)
+			(not (at person6 city1))
 		)
 	)
 	(:action board_person6_plane3_city2
@@ -1839,14 +1631,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(in person6 plane3)
-				(not (at person6 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person6 plane3)
+			(not (at person6 city2))
 		)
 	)
 	(:action board_person6_plane3_city3
@@ -1856,14 +1646,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(in person6 plane3)
-				(not (at person6 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person6 plane3)
+			(not (at person6 city3))
 		)
 	)
 	(:action board_person6_plane3_city4
@@ -1873,14 +1661,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(in person6 plane3)
-				(not (at person6 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person6 plane3)
+			(not (at person6 city4))
 		)
 	)
 	(:action board_person6_plane3_city5
@@ -1890,14 +1676,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(in person6 plane3)
-				(not (at person6 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person6 plane3)
+			(not (at person6 city5))
 		)
 	)
 	(:action board_person7_plane1_city0
@@ -1907,14 +1691,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(in person7 plane1)
-				(not (at person7 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person7 plane1)
+			(not (at person7 city0))
 		)
 	)
 	(:action board_person7_plane1_city1
@@ -1924,14 +1706,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(in person7 plane1)
-				(not (at person7 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person7 plane1)
+			(not (at person7 city1))
 		)
 	)
 	(:action board_person7_plane1_city2
@@ -1941,14 +1721,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(in person7 plane1)
-				(not (at person7 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person7 plane1)
+			(not (at person7 city2))
 		)
 	)
 	(:action board_person7_plane1_city3
@@ -1958,14 +1736,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(in person7 plane1)
-				(not (at person7 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person7 plane1)
+			(not (at person7 city3))
 		)
 	)
 	(:action board_person7_plane1_city4
@@ -1975,14 +1751,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(in person7 plane1)
-				(not (at person7 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person7 plane1)
+			(not (at person7 city4))
 		)
 	)
 	(:action board_person7_plane1_city5
@@ -1992,14 +1766,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(in person7 plane1)
-				(not (at person7 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person7 plane1)
+			(not (at person7 city5))
 		)
 	)
 	(:action board_person7_plane2_city0
@@ -2009,14 +1781,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(in person7 plane2)
-				(not (at person7 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person7 plane2)
+			(not (at person7 city0))
 		)
 	)
 	(:action board_person7_plane2_city1
@@ -2026,14 +1796,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(in person7 plane2)
-				(not (at person7 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person7 plane2)
+			(not (at person7 city1))
 		)
 	)
 	(:action board_person7_plane2_city2
@@ -2043,14 +1811,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(in person7 plane2)
-				(not (at person7 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person7 plane2)
+			(not (at person7 city2))
 		)
 	)
 	(:action board_person7_plane2_city3
@@ -2060,14 +1826,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(in person7 plane2)
-				(not (at person7 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person7 plane2)
+			(not (at person7 city3))
 		)
 	)
 	(:action board_person7_plane2_city4
@@ -2077,14 +1841,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(in person7 plane2)
-				(not (at person7 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person7 plane2)
+			(not (at person7 city4))
 		)
 	)
 	(:action board_person7_plane2_city5
@@ -2094,14 +1856,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(in person7 plane2)
-				(not (at person7 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person7 plane2)
+			(not (at person7 city5))
 		)
 	)
 	(:action board_person7_plane3_city0
@@ -2111,14 +1871,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(in person7 plane3)
-				(not (at person7 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person7 plane3)
+			(not (at person7 city0))
 		)
 	)
 	(:action board_person7_plane3_city1
@@ -2128,14 +1886,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(in person7 plane3)
-				(not (at person7 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person7 plane3)
+			(not (at person7 city1))
 		)
 	)
 	(:action board_person7_plane3_city2
@@ -2145,14 +1901,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(in person7 plane3)
-				(not (at person7 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person7 plane3)
+			(not (at person7 city2))
 		)
 	)
 	(:action board_person7_plane3_city3
@@ -2162,14 +1916,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(in person7 plane3)
-				(not (at person7 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person7 plane3)
+			(not (at person7 city3))
 		)
 	)
 	(:action board_person7_plane3_city4
@@ -2179,14 +1931,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(in person7 plane3)
-				(not (at person7 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person7 plane3)
+			(not (at person7 city4))
 		)
 	)
 	(:action board_person7_plane3_city5
@@ -2196,14 +1946,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(in person7 plane3)
-				(not (at person7 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person7 plane3)
+			(not (at person7 city5))
 		)
 	)
 	(:action board_person8_plane1_city0
@@ -2213,14 +1961,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(in person8 plane1)
-				(not (at person8 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person8 plane1)
+			(not (at person8 city0))
 		)
 	)
 	(:action board_person8_plane1_city1
@@ -2230,14 +1976,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(in person8 plane1)
-				(not (at person8 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person8 plane1)
+			(not (at person8 city1))
 		)
 	)
 	(:action board_person8_plane1_city2
@@ -2247,14 +1991,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(in person8 plane1)
-				(not (at person8 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person8 plane1)
+			(not (at person8 city2))
 		)
 	)
 	(:action board_person8_plane1_city3
@@ -2264,14 +2006,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(in person8 plane1)
-				(not (at person8 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person8 plane1)
+			(not (at person8 city3))
 		)
 	)
 	(:action board_person8_plane1_city4
@@ -2281,14 +2021,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(in person8 plane1)
-				(not (at person8 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person8 plane1)
+			(not (at person8 city4))
 		)
 	)
 	(:action board_person8_plane1_city5
@@ -2298,14 +2036,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(in person8 plane1)
-				(not (at person8 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person8 plane1)
+			(not (at person8 city5))
 		)
 	)
 	(:action board_person8_plane2_city0
@@ -2315,14 +2051,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(in person8 plane2)
-				(not (at person8 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person8 plane2)
+			(not (at person8 city0))
 		)
 	)
 	(:action board_person8_plane2_city1
@@ -2332,14 +2066,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(in person8 plane2)
-				(not (at person8 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person8 plane2)
+			(not (at person8 city1))
 		)
 	)
 	(:action board_person8_plane2_city2
@@ -2349,14 +2081,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(in person8 plane2)
-				(not (at person8 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person8 plane2)
+			(not (at person8 city2))
 		)
 	)
 	(:action board_person8_plane2_city3
@@ -2366,14 +2096,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(in person8 plane2)
-				(not (at person8 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person8 plane2)
+			(not (at person8 city3))
 		)
 	)
 	(:action board_person8_plane2_city4
@@ -2383,14 +2111,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(in person8 plane2)
-				(not (at person8 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person8 plane2)
+			(not (at person8 city4))
 		)
 	)
 	(:action board_person8_plane2_city5
@@ -2400,14 +2126,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(in person8 plane2)
-				(not (at person8 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person8 plane2)
+			(not (at person8 city5))
 		)
 	)
 	(:action board_person8_plane3_city0
@@ -2417,14 +2141,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(in person8 plane3)
-				(not (at person8 city0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person8 plane3)
+			(not (at person8 city0))
 		)
 	)
 	(:action board_person8_plane3_city1
@@ -2434,14 +2156,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(in person8 plane3)
-				(not (at person8 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person8 plane3)
+			(not (at person8 city1))
 		)
 	)
 	(:action board_person8_plane3_city2
@@ -2451,14 +2171,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(in person8 plane3)
-				(not (at person8 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person8 plane3)
+			(not (at person8 city2))
 		)
 	)
 	(:action board_person8_plane3_city3
@@ -2468,14 +2186,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(in person8 plane3)
-				(not (at person8 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person8 plane3)
+			(not (at person8 city3))
 		)
 	)
 	(:action board_person8_plane3_city4
@@ -2485,14 +2201,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(in person8 plane3)
-				(not (at person8 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person8 plane3)
+			(not (at person8 city4))
 		)
 	)
 	(:action board_person8_plane3_city5
@@ -2502,14 +2216,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(in person8 plane3)
-				(not (at person8 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(in person8 plane3)
+			(not (at person8 city5))
 		)
 	)
 	(:action debark_person1_plane1_city0
@@ -2519,14 +2231,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(at person1 city0)
-				(not (in person1 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person1 city0)
+			(not (in person1 plane1))
 		)
 	)
 	(:action debark_person1_plane1_city1
@@ -2536,14 +2246,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(at person1 city1)
-				(not (in person1 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person1 city1)
+			(not (in person1 plane1))
 		)
 	)
 	(:action debark_person1_plane1_city2
@@ -2553,14 +2261,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(at person1 city2)
-				(not (in person1 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person1 city2)
+			(not (in person1 plane1))
 		)
 	)
 	(:action debark_person1_plane1_city3
@@ -2570,14 +2276,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(at person1 city3)
-				(not (in person1 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person1 city3)
+			(not (in person1 plane1))
 		)
 	)
 	(:action debark_person1_plane1_city4
@@ -2587,14 +2291,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(at person1 city4)
-				(not (in person1 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person1 city4)
+			(not (in person1 plane1))
 		)
 	)
 	(:action debark_person1_plane1_city5
@@ -2604,14 +2306,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(at person1 city5)
-				(not (in person1 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person1 city5)
+			(not (in person1 plane1))
 		)
 	)
 	(:action debark_person1_plane2_city0
@@ -2621,14 +2321,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(at person1 city0)
-				(not (in person1 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person1 city0)
+			(not (in person1 plane2))
 		)
 	)
 	(:action debark_person1_plane2_city1
@@ -2638,14 +2336,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(at person1 city1)
-				(not (in person1 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person1 city1)
+			(not (in person1 plane2))
 		)
 	)
 	(:action debark_person1_plane2_city2
@@ -2655,14 +2351,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(at person1 city2)
-				(not (in person1 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person1 city2)
+			(not (in person1 plane2))
 		)
 	)
 	(:action debark_person1_plane2_city3
@@ -2672,14 +2366,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(at person1 city3)
-				(not (in person1 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person1 city3)
+			(not (in person1 plane2))
 		)
 	)
 	(:action debark_person1_plane2_city4
@@ -2689,14 +2381,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(at person1 city4)
-				(not (in person1 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person1 city4)
+			(not (in person1 plane2))
 		)
 	)
 	(:action debark_person1_plane2_city5
@@ -2706,14 +2396,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(at person1 city5)
-				(not (in person1 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person1 city5)
+			(not (in person1 plane2))
 		)
 	)
 	(:action debark_person1_plane3_city0
@@ -2723,14 +2411,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(at person1 city0)
-				(not (in person1 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person1 city0)
+			(not (in person1 plane3))
 		)
 	)
 	(:action debark_person1_plane3_city1
@@ -2740,14 +2426,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(at person1 city1)
-				(not (in person1 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person1 city1)
+			(not (in person1 plane3))
 		)
 	)
 	(:action debark_person1_plane3_city2
@@ -2757,14 +2441,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(at person1 city2)
-				(not (in person1 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person1 city2)
+			(not (in person1 plane3))
 		)
 	)
 	(:action debark_person1_plane3_city3
@@ -2774,14 +2456,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(at person1 city3)
-				(not (in person1 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person1 city3)
+			(not (in person1 plane3))
 		)
 	)
 	(:action debark_person1_plane3_city4
@@ -2791,14 +2471,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(at person1 city4)
-				(not (in person1 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person1 city4)
+			(not (in person1 plane3))
 		)
 	)
 	(:action debark_person1_plane3_city5
@@ -2808,14 +2486,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(at person1 city5)
-				(not (in person1 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person1 city5)
+			(not (in person1 plane3))
 		)
 	)
 	(:action debark_person2_plane1_city0
@@ -2825,14 +2501,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(at person2 city0)
-				(not (in person2 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person2 city0)
+			(not (in person2 plane1))
 		)
 	)
 	(:action debark_person2_plane1_city1
@@ -2842,14 +2516,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(at person2 city1)
-				(not (in person2 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person2 city1)
+			(not (in person2 plane1))
 		)
 	)
 	(:action debark_person2_plane1_city2
@@ -2859,14 +2531,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(at person2 city2)
-				(not (in person2 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person2 city2)
+			(not (in person2 plane1))
 		)
 	)
 	(:action debark_person2_plane1_city3
@@ -2876,14 +2546,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(at person2 city3)
-				(not (in person2 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person2 city3)
+			(not (in person2 plane1))
 		)
 	)
 	(:action debark_person2_plane1_city4
@@ -2893,14 +2561,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(at person2 city4)
-				(not (in person2 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person2 city4)
+			(not (in person2 plane1))
 		)
 	)
 	(:action debark_person2_plane1_city5
@@ -2910,14 +2576,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(at person2 city5)
-				(not (in person2 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person2 city5)
+			(not (in person2 plane1))
 		)
 	)
 	(:action debark_person2_plane2_city0
@@ -2927,14 +2591,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(at person2 city0)
-				(not (in person2 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person2 city0)
+			(not (in person2 plane2))
 		)
 	)
 	(:action debark_person2_plane2_city1
@@ -2944,14 +2606,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(at person2 city1)
-				(not (in person2 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person2 city1)
+			(not (in person2 plane2))
 		)
 	)
 	(:action debark_person2_plane2_city2
@@ -2961,14 +2621,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(at person2 city2)
-				(not (in person2 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person2 city2)
+			(not (in person2 plane2))
 		)
 	)
 	(:action debark_person2_plane2_city3
@@ -2978,14 +2636,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(at person2 city3)
-				(not (in person2 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person2 city3)
+			(not (in person2 plane2))
 		)
 	)
 	(:action debark_person2_plane2_city4
@@ -2995,14 +2651,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(at person2 city4)
-				(not (in person2 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person2 city4)
+			(not (in person2 plane2))
 		)
 	)
 	(:action debark_person2_plane2_city5
@@ -3012,14 +2666,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(at person2 city5)
-				(not (in person2 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person2 city5)
+			(not (in person2 plane2))
 		)
 	)
 	(:action debark_person2_plane3_city0
@@ -3029,14 +2681,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(at person2 city0)
-				(not (in person2 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person2 city0)
+			(not (in person2 plane3))
 		)
 	)
 	(:action debark_person2_plane3_city1
@@ -3046,14 +2696,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(at person2 city1)
-				(not (in person2 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person2 city1)
+			(not (in person2 plane3))
 		)
 	)
 	(:action debark_person2_plane3_city2
@@ -3063,14 +2711,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(at person2 city2)
-				(not (in person2 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person2 city2)
+			(not (in person2 plane3))
 		)
 	)
 	(:action debark_person2_plane3_city3
@@ -3080,14 +2726,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(at person2 city3)
-				(not (in person2 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person2 city3)
+			(not (in person2 plane3))
 		)
 	)
 	(:action debark_person2_plane3_city4
@@ -3097,14 +2741,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(at person2 city4)
-				(not (in person2 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person2 city4)
+			(not (in person2 plane3))
 		)
 	)
 	(:action debark_person2_plane3_city5
@@ -3114,14 +2756,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(at person2 city5)
-				(not (in person2 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person2 city5)
+			(not (in person2 plane3))
 		)
 	)
 	(:action debark_person3_plane1_city0
@@ -3131,14 +2771,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(at person3 city0)
-				(not (in person3 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person3 city0)
+			(not (in person3 plane1))
 		)
 	)
 	(:action debark_person3_plane1_city1
@@ -3148,14 +2786,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(at person3 city1)
-				(not (in person3 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person3 city1)
+			(not (in person3 plane1))
 		)
 	)
 	(:action debark_person3_plane1_city2
@@ -3165,14 +2801,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(at person3 city2)
-				(not (in person3 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person3 city2)
+			(not (in person3 plane1))
 		)
 	)
 	(:action debark_person3_plane1_city3
@@ -3182,14 +2816,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(at person3 city3)
-				(not (in person3 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person3 city3)
+			(not (in person3 plane1))
 		)
 	)
 	(:action debark_person3_plane1_city4
@@ -3199,14 +2831,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(at person3 city4)
-				(not (in person3 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person3 city4)
+			(not (in person3 plane1))
 		)
 	)
 	(:action debark_person3_plane1_city5
@@ -3216,14 +2846,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(at person3 city5)
-				(not (in person3 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person3 city5)
+			(not (in person3 plane1))
 		)
 	)
 	(:action debark_person3_plane2_city0
@@ -3233,14 +2861,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(at person3 city0)
-				(not (in person3 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person3 city0)
+			(not (in person3 plane2))
 		)
 	)
 	(:action debark_person3_plane2_city1
@@ -3250,14 +2876,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(at person3 city1)
-				(not (in person3 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person3 city1)
+			(not (in person3 plane2))
 		)
 	)
 	(:action debark_person3_plane2_city2
@@ -3267,14 +2891,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(at person3 city2)
-				(not (in person3 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person3 city2)
+			(not (in person3 plane2))
 		)
 	)
 	(:action debark_person3_plane2_city3
@@ -3284,14 +2906,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(at person3 city3)
-				(not (in person3 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person3 city3)
+			(not (in person3 plane2))
 		)
 	)
 	(:action debark_person3_plane2_city4
@@ -3301,14 +2921,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(at person3 city4)
-				(not (in person3 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person3 city4)
+			(not (in person3 plane2))
 		)
 	)
 	(:action debark_person3_plane2_city5
@@ -3318,14 +2936,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(at person3 city5)
-				(not (in person3 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person3 city5)
+			(not (in person3 plane2))
 		)
 	)
 	(:action debark_person3_plane3_city0
@@ -3335,14 +2951,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(at person3 city0)
-				(not (in person3 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person3 city0)
+			(not (in person3 plane3))
 		)
 	)
 	(:action debark_person3_plane3_city1
@@ -3352,14 +2966,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(at person3 city1)
-				(not (in person3 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person3 city1)
+			(not (in person3 plane3))
 		)
 	)
 	(:action debark_person3_plane3_city2
@@ -3369,14 +2981,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(at person3 city2)
-				(not (in person3 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person3 city2)
+			(not (in person3 plane3))
 		)
 	)
 	(:action debark_person3_plane3_city3
@@ -3386,14 +2996,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(at person3 city3)
-				(not (in person3 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person3 city3)
+			(not (in person3 plane3))
 		)
 	)
 	(:action debark_person3_plane3_city4
@@ -3403,14 +3011,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(at person3 city4)
-				(not (in person3 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person3 city4)
+			(not (in person3 plane3))
 		)
 	)
 	(:action debark_person3_plane3_city5
@@ -3420,14 +3026,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(at person3 city5)
-				(not (in person3 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person3 city5)
+			(not (in person3 plane3))
 		)
 	)
 	(:action debark_person4_plane1_city0
@@ -3437,14 +3041,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(at person4 city0)
-				(not (in person4 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person4 city0)
+			(not (in person4 plane1))
 		)
 	)
 	(:action debark_person4_plane1_city1
@@ -3454,14 +3056,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(at person4 city1)
-				(not (in person4 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person4 city1)
+			(not (in person4 plane1))
 		)
 	)
 	(:action debark_person4_plane1_city2
@@ -3471,14 +3071,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(at person4 city2)
-				(not (in person4 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person4 city2)
+			(not (in person4 plane1))
 		)
 	)
 	(:action debark_person4_plane1_city3
@@ -3488,14 +3086,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(at person4 city3)
-				(not (in person4 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person4 city3)
+			(not (in person4 plane1))
 		)
 	)
 	(:action debark_person4_plane1_city4
@@ -3505,14 +3101,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(at person4 city4)
-				(not (in person4 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person4 city4)
+			(not (in person4 plane1))
 		)
 	)
 	(:action debark_person4_plane1_city5
@@ -3522,14 +3116,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(at person4 city5)
-				(not (in person4 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person4 city5)
+			(not (in person4 plane1))
 		)
 	)
 	(:action debark_person4_plane2_city0
@@ -3539,14 +3131,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(at person4 city0)
-				(not (in person4 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person4 city0)
+			(not (in person4 plane2))
 		)
 	)
 	(:action debark_person4_plane2_city1
@@ -3556,14 +3146,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(at person4 city1)
-				(not (in person4 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person4 city1)
+			(not (in person4 plane2))
 		)
 	)
 	(:action debark_person4_plane2_city2
@@ -3573,14 +3161,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(at person4 city2)
-				(not (in person4 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person4 city2)
+			(not (in person4 plane2))
 		)
 	)
 	(:action debark_person4_plane2_city3
@@ -3590,14 +3176,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(at person4 city3)
-				(not (in person4 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person4 city3)
+			(not (in person4 plane2))
 		)
 	)
 	(:action debark_person4_plane2_city4
@@ -3607,14 +3191,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(at person4 city4)
-				(not (in person4 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person4 city4)
+			(not (in person4 plane2))
 		)
 	)
 	(:action debark_person4_plane2_city5
@@ -3624,14 +3206,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(at person4 city5)
-				(not (in person4 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person4 city5)
+			(not (in person4 plane2))
 		)
 	)
 	(:action debark_person4_plane3_city0
@@ -3641,14 +3221,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(at person4 city0)
-				(not (in person4 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person4 city0)
+			(not (in person4 plane3))
 		)
 	)
 	(:action debark_person4_plane3_city1
@@ -3658,14 +3236,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(at person4 city1)
-				(not (in person4 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person4 city1)
+			(not (in person4 plane3))
 		)
 	)
 	(:action debark_person4_plane3_city2
@@ -3675,14 +3251,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(at person4 city2)
-				(not (in person4 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person4 city2)
+			(not (in person4 plane3))
 		)
 	)
 	(:action debark_person4_plane3_city3
@@ -3692,14 +3266,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(at person4 city3)
-				(not (in person4 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person4 city3)
+			(not (in person4 plane3))
 		)
 	)
 	(:action debark_person4_plane3_city4
@@ -3709,14 +3281,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(at person4 city4)
-				(not (in person4 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person4 city4)
+			(not (in person4 plane3))
 		)
 	)
 	(:action debark_person4_plane3_city5
@@ -3726,14 +3296,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(at person4 city5)
-				(not (in person4 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person4 city5)
+			(not (in person4 plane3))
 		)
 	)
 	(:action debark_person5_plane1_city0
@@ -3743,14 +3311,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(at person5 city0)
-				(not (in person5 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person5 city0)
+			(not (in person5 plane1))
 		)
 	)
 	(:action debark_person5_plane1_city1
@@ -3760,14 +3326,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(at person5 city1)
-				(not (in person5 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person5 city1)
+			(not (in person5 plane1))
 		)
 	)
 	(:action debark_person5_plane1_city2
@@ -3777,14 +3341,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(at person5 city2)
-				(not (in person5 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person5 city2)
+			(not (in person5 plane1))
 		)
 	)
 	(:action debark_person5_plane1_city3
@@ -3794,14 +3356,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(at person5 city3)
-				(not (in person5 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person5 city3)
+			(not (in person5 plane1))
 		)
 	)
 	(:action debark_person5_plane1_city4
@@ -3811,14 +3371,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(at person5 city4)
-				(not (in person5 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person5 city4)
+			(not (in person5 plane1))
 		)
 	)
 	(:action debark_person5_plane1_city5
@@ -3828,14 +3386,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(at person5 city5)
-				(not (in person5 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person5 city5)
+			(not (in person5 plane1))
 		)
 	)
 	(:action debark_person5_plane2_city0
@@ -3845,14 +3401,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(at person5 city0)
-				(not (in person5 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person5 city0)
+			(not (in person5 plane2))
 		)
 	)
 	(:action debark_person5_plane2_city1
@@ -3862,14 +3416,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(at person5 city1)
-				(not (in person5 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person5 city1)
+			(not (in person5 plane2))
 		)
 	)
 	(:action debark_person5_plane2_city2
@@ -3879,14 +3431,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(at person5 city2)
-				(not (in person5 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person5 city2)
+			(not (in person5 plane2))
 		)
 	)
 	(:action debark_person5_plane2_city3
@@ -3896,14 +3446,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(at person5 city3)
-				(not (in person5 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person5 city3)
+			(not (in person5 plane2))
 		)
 	)
 	(:action debark_person5_plane2_city4
@@ -3913,14 +3461,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(at person5 city4)
-				(not (in person5 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person5 city4)
+			(not (in person5 plane2))
 		)
 	)
 	(:action debark_person5_plane2_city5
@@ -3930,14 +3476,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(at person5 city5)
-				(not (in person5 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person5 city5)
+			(not (in person5 plane2))
 		)
 	)
 	(:action debark_person5_plane3_city0
@@ -3947,14 +3491,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(at person5 city0)
-				(not (in person5 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person5 city0)
+			(not (in person5 plane3))
 		)
 	)
 	(:action debark_person5_plane3_city1
@@ -3964,14 +3506,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(at person5 city1)
-				(not (in person5 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person5 city1)
+			(not (in person5 plane3))
 		)
 	)
 	(:action debark_person5_plane3_city2
@@ -3981,14 +3521,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(at person5 city2)
-				(not (in person5 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person5 city2)
+			(not (in person5 plane3))
 		)
 	)
 	(:action debark_person5_plane3_city3
@@ -3998,14 +3536,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(at person5 city3)
-				(not (in person5 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person5 city3)
+			(not (in person5 plane3))
 		)
 	)
 	(:action debark_person5_plane3_city4
@@ -4015,14 +3551,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(at person5 city4)
-				(not (in person5 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person5 city4)
+			(not (in person5 plane3))
 		)
 	)
 	(:action debark_person5_plane3_city5
@@ -4032,14 +3566,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(at person5 city5)
-				(not (in person5 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person5 city5)
+			(not (in person5 plane3))
 		)
 	)
 	(:action debark_person6_plane1_city0
@@ -4049,14 +3581,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(at person6 city0)
-				(not (in person6 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person6 city0)
+			(not (in person6 plane1))
 		)
 	)
 	(:action debark_person6_plane1_city1
@@ -4066,14 +3596,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(at person6 city1)
-				(not (in person6 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person6 city1)
+			(not (in person6 plane1))
 		)
 	)
 	(:action debark_person6_plane1_city2
@@ -4083,14 +3611,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(at person6 city2)
-				(not (in person6 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person6 city2)
+			(not (in person6 plane1))
 		)
 	)
 	(:action debark_person6_plane1_city3
@@ -4100,14 +3626,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(at person6 city3)
-				(not (in person6 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person6 city3)
+			(not (in person6 plane1))
 		)
 	)
 	(:action debark_person6_plane1_city4
@@ -4117,14 +3641,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(at person6 city4)
-				(not (in person6 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person6 city4)
+			(not (in person6 plane1))
 		)
 	)
 	(:action debark_person6_plane1_city5
@@ -4134,14 +3656,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(at person6 city5)
-				(not (in person6 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person6 city5)
+			(not (in person6 plane1))
 		)
 	)
 	(:action debark_person6_plane2_city0
@@ -4151,14 +3671,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(at person6 city0)
-				(not (in person6 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person6 city0)
+			(not (in person6 plane2))
 		)
 	)
 	(:action debark_person6_plane2_city1
@@ -4168,14 +3686,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(at person6 city1)
-				(not (in person6 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person6 city1)
+			(not (in person6 plane2))
 		)
 	)
 	(:action debark_person6_plane2_city2
@@ -4185,14 +3701,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(at person6 city2)
-				(not (in person6 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person6 city2)
+			(not (in person6 plane2))
 		)
 	)
 	(:action debark_person6_plane2_city3
@@ -4202,14 +3716,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(at person6 city3)
-				(not (in person6 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person6 city3)
+			(not (in person6 plane2))
 		)
 	)
 	(:action debark_person6_plane2_city4
@@ -4219,14 +3731,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(at person6 city4)
-				(not (in person6 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person6 city4)
+			(not (in person6 plane2))
 		)
 	)
 	(:action debark_person6_plane2_city5
@@ -4236,14 +3746,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(at person6 city5)
-				(not (in person6 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person6 city5)
+			(not (in person6 plane2))
 		)
 	)
 	(:action debark_person6_plane3_city0
@@ -4253,14 +3761,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(at person6 city0)
-				(not (in person6 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person6 city0)
+			(not (in person6 plane3))
 		)
 	)
 	(:action debark_person6_plane3_city1
@@ -4270,14 +3776,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(at person6 city1)
-				(not (in person6 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person6 city1)
+			(not (in person6 plane3))
 		)
 	)
 	(:action debark_person6_plane3_city2
@@ -4287,14 +3791,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(at person6 city2)
-				(not (in person6 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person6 city2)
+			(not (in person6 plane3))
 		)
 	)
 	(:action debark_person6_plane3_city3
@@ -4304,14 +3806,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(at person6 city3)
-				(not (in person6 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person6 city3)
+			(not (in person6 plane3))
 		)
 	)
 	(:action debark_person6_plane3_city4
@@ -4321,14 +3821,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(at person6 city4)
-				(not (in person6 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person6 city4)
+			(not (in person6 plane3))
 		)
 	)
 	(:action debark_person6_plane3_city5
@@ -4338,14 +3836,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(at person6 city5)
-				(not (in person6 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person6 city5)
+			(not (in person6 plane3))
 		)
 	)
 	(:action debark_person7_plane1_city0
@@ -4355,14 +3851,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(at person7 city0)
-				(not (in person7 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person7 city0)
+			(not (in person7 plane1))
 		)
 	)
 	(:action debark_person7_plane1_city1
@@ -4372,14 +3866,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(at person7 city1)
-				(not (in person7 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person7 city1)
+			(not (in person7 plane1))
 		)
 	)
 	(:action debark_person7_plane1_city2
@@ -4389,14 +3881,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(at person7 city2)
-				(not (in person7 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person7 city2)
+			(not (in person7 plane1))
 		)
 	)
 	(:action debark_person7_plane1_city3
@@ -4406,14 +3896,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(at person7 city3)
-				(not (in person7 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person7 city3)
+			(not (in person7 plane1))
 		)
 	)
 	(:action debark_person7_plane1_city4
@@ -4423,14 +3911,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(at person7 city4)
-				(not (in person7 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person7 city4)
+			(not (in person7 plane1))
 		)
 	)
 	(:action debark_person7_plane1_city5
@@ -4440,14 +3926,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(at person7 city5)
-				(not (in person7 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person7 city5)
+			(not (in person7 plane1))
 		)
 	)
 	(:action debark_person7_plane2_city0
@@ -4457,14 +3941,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(at person7 city0)
-				(not (in person7 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person7 city0)
+			(not (in person7 plane2))
 		)
 	)
 	(:action debark_person7_plane2_city1
@@ -4474,14 +3956,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(at person7 city1)
-				(not (in person7 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person7 city1)
+			(not (in person7 plane2))
 		)
 	)
 	(:action debark_person7_plane2_city2
@@ -4491,14 +3971,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(at person7 city2)
-				(not (in person7 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person7 city2)
+			(not (in person7 plane2))
 		)
 	)
 	(:action debark_person7_plane2_city3
@@ -4508,14 +3986,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(at person7 city3)
-				(not (in person7 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person7 city3)
+			(not (in person7 plane2))
 		)
 	)
 	(:action debark_person7_plane2_city4
@@ -4525,14 +4001,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(at person7 city4)
-				(not (in person7 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person7 city4)
+			(not (in person7 plane2))
 		)
 	)
 	(:action debark_person7_plane2_city5
@@ -4542,14 +4016,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(at person7 city5)
-				(not (in person7 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person7 city5)
+			(not (in person7 plane2))
 		)
 	)
 	(:action debark_person7_plane3_city0
@@ -4559,14 +4031,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(at person7 city0)
-				(not (in person7 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person7 city0)
+			(not (in person7 plane3))
 		)
 	)
 	(:action debark_person7_plane3_city1
@@ -4576,14 +4046,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(at person7 city1)
-				(not (in person7 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person7 city1)
+			(not (in person7 plane3))
 		)
 	)
 	(:action debark_person7_plane3_city2
@@ -4593,14 +4061,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(at person7 city2)
-				(not (in person7 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person7 city2)
+			(not (in person7 plane3))
 		)
 	)
 	(:action debark_person7_plane3_city3
@@ -4610,14 +4076,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(at person7 city3)
-				(not (in person7 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person7 city3)
+			(not (in person7 plane3))
 		)
 	)
 	(:action debark_person7_plane3_city4
@@ -4627,14 +4091,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(at person7 city4)
-				(not (in person7 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person7 city4)
+			(not (in person7 plane3))
 		)
 	)
 	(:action debark_person7_plane3_city5
@@ -4644,14 +4106,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(at person7 city5)
-				(not (in person7 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person7 city5)
+			(not (in person7 plane3))
 		)
 	)
 	(:action debark_person8_plane1_city0
@@ -4661,14 +4121,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(at person8 city0)
-				(not (in person8 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person8 city0)
+			(not (in person8 plane1))
 		)
 	)
 	(:action debark_person8_plane1_city1
@@ -4678,14 +4136,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(at person8 city1)
-				(not (in person8 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person8 city1)
+			(not (in person8 plane1))
 		)
 	)
 	(:action debark_person8_plane1_city2
@@ -4695,14 +4151,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(at person8 city2)
-				(not (in person8 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person8 city2)
+			(not (in person8 plane1))
 		)
 	)
 	(:action debark_person8_plane1_city3
@@ -4712,14 +4166,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(at person8 city3)
-				(not (in person8 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person8 city3)
+			(not (in person8 plane1))
 		)
 	)
 	(:action debark_person8_plane1_city4
@@ -4729,14 +4181,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(at person8 city4)
-				(not (in person8 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person8 city4)
+			(not (in person8 plane1))
 		)
 	)
 	(:action debark_person8_plane1_city5
@@ -4746,14 +4196,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(at person8 city5)
-				(not (in person8 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person8 city5)
+			(not (in person8 plane1))
 		)
 	)
 	(:action debark_person8_plane2_city0
@@ -4763,14 +4211,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(at person8 city0)
-				(not (in person8 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person8 city0)
+			(not (in person8 plane2))
 		)
 	)
 	(:action debark_person8_plane2_city1
@@ -4780,14 +4226,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(at person8 city1)
-				(not (in person8 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person8 city1)
+			(not (in person8 plane2))
 		)
 	)
 	(:action debark_person8_plane2_city2
@@ -4797,14 +4241,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(at person8 city2)
-				(not (in person8 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person8 city2)
+			(not (in person8 plane2))
 		)
 	)
 	(:action debark_person8_plane2_city3
@@ -4814,14 +4256,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(at person8 city3)
-				(not (in person8 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person8 city3)
+			(not (in person8 plane2))
 		)
 	)
 	(:action debark_person8_plane2_city4
@@ -4831,14 +4271,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(at person8 city4)
-				(not (in person8 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person8 city4)
+			(not (in person8 plane2))
 		)
 	)
 	(:action debark_person8_plane2_city5
@@ -4848,14 +4286,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(at person8 city5)
-				(not (in person8 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person8 city5)
+			(not (in person8 plane2))
 		)
 	)
 	(:action debark_person8_plane3_city0
@@ -4865,14 +4301,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(at person8 city0)
-				(not (in person8 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person8 city0)
+			(not (in person8 plane3))
 		)
 	)
 	(:action debark_person8_plane3_city1
@@ -4882,14 +4316,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(at person8 city1)
-				(not (in person8 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person8 city1)
+			(not (in person8 plane3))
 		)
 	)
 	(:action debark_person8_plane3_city2
@@ -4899,14 +4331,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(at person8 city2)
-				(not (in person8 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person8 city2)
+			(not (in person8 plane3))
 		)
 	)
 	(:action debark_person8_plane3_city3
@@ -4916,14 +4346,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(at person8 city3)
-				(not (in person8 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person8 city3)
+			(not (in person8 plane3))
 		)
 	)
 	(:action debark_person8_plane3_city4
@@ -4933,14 +4361,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(at person8 city4)
-				(not (in person8 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person8 city4)
+			(not (in person8 plane3))
 		)
 	)
 	(:action debark_person8_plane3_city5
@@ -4950,14 +4376,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(at person8 city5)
-				(not (in person8 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at person8 city5)
+			(not (in person8 plane3))
 		)
 	)
 	(:action fly_plane1_city0_city0_fl1_fl0
@@ -4967,16 +4391,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city0_city0_fl2_fl1
@@ -4986,16 +4408,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city0_city0_fl3_fl2
@@ -5005,16 +4425,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city0_city0_fl4_fl3
@@ -5024,16 +4442,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city0_city0_fl5_fl4
@@ -5043,16 +4459,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city0_city0_fl6_fl5
@@ -5062,16 +4476,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city0_city1_fl1_fl0
@@ -5081,16 +4493,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city0_city1_fl2_fl1
@@ -5100,16 +4510,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city0_city1_fl3_fl2
@@ -5119,16 +4527,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city0_city1_fl4_fl3
@@ -5138,16 +4544,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city0_city1_fl5_fl4
@@ -5157,16 +4561,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city0_city1_fl6_fl5
@@ -5176,16 +4578,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city0_city2_fl1_fl0
@@ -5195,16 +4595,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city0_city2_fl2_fl1
@@ -5214,16 +4612,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city0_city2_fl3_fl2
@@ -5233,16 +4629,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city0_city2_fl4_fl3
@@ -5252,16 +4646,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city0_city2_fl5_fl4
@@ -5271,16 +4663,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city0_city2_fl6_fl5
@@ -5290,16 +4680,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city0_city3_fl1_fl0
@@ -5309,16 +4697,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city0_city3_fl2_fl1
@@ -5328,16 +4714,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city0_city3_fl3_fl2
@@ -5347,16 +4731,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city0_city3_fl4_fl3
@@ -5366,16 +4748,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city0_city3_fl5_fl4
@@ -5385,16 +4765,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city0_city3_fl6_fl5
@@ -5404,16 +4782,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city0_city4_fl1_fl0
@@ -5423,16 +4799,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city0_city4_fl2_fl1
@@ -5442,16 +4816,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city0_city4_fl3_fl2
@@ -5461,16 +4833,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city0_city4_fl4_fl3
@@ -5480,16 +4850,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city0_city4_fl5_fl4
@@ -5499,16 +4867,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city0_city4_fl6_fl5
@@ -5518,16 +4884,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city0_city5_fl1_fl0
@@ -5537,16 +4901,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city0_city5_fl2_fl1
@@ -5556,16 +4918,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city0_city5_fl3_fl2
@@ -5575,16 +4935,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city0_city5_fl4_fl3
@@ -5594,16 +4952,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city0_city5_fl5_fl4
@@ -5613,16 +4969,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city0_city5_fl6_fl5
@@ -5632,16 +4986,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city1_city0_fl1_fl0
@@ -5651,16 +5003,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city1_city0_fl2_fl1
@@ -5670,16 +5020,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city1_city0_fl3_fl2
@@ -5689,16 +5037,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city1_city0_fl4_fl3
@@ -5708,16 +5054,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city1_city0_fl5_fl4
@@ -5727,16 +5071,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city1_city0_fl6_fl5
@@ -5746,16 +5088,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city1_city1_fl1_fl0
@@ -5765,16 +5105,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city1_city1_fl2_fl1
@@ -5784,16 +5122,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city1_city1_fl3_fl2
@@ -5803,16 +5139,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city1_city1_fl4_fl3
@@ -5822,16 +5156,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city1_city1_fl5_fl4
@@ -5841,16 +5173,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city1_city1_fl6_fl5
@@ -5860,16 +5190,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city1_city2_fl1_fl0
@@ -5879,16 +5207,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city1_city2_fl2_fl1
@@ -5898,16 +5224,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city1_city2_fl3_fl2
@@ -5917,16 +5241,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city1_city2_fl4_fl3
@@ -5936,16 +5258,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city1_city2_fl5_fl4
@@ -5955,16 +5275,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city1_city2_fl6_fl5
@@ -5974,16 +5292,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city1_city3_fl1_fl0
@@ -5993,16 +5309,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city1_city3_fl2_fl1
@@ -6012,16 +5326,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city1_city3_fl3_fl2
@@ -6031,16 +5343,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city1_city3_fl4_fl3
@@ -6050,16 +5360,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city1_city3_fl5_fl4
@@ -6069,16 +5377,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city1_city3_fl6_fl5
@@ -6088,16 +5394,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city1_city4_fl1_fl0
@@ -6107,16 +5411,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city1_city4_fl2_fl1
@@ -6126,16 +5428,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city1_city4_fl3_fl2
@@ -6145,16 +5445,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city1_city4_fl4_fl3
@@ -6164,16 +5462,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city1_city4_fl5_fl4
@@ -6183,16 +5479,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city1_city4_fl6_fl5
@@ -6202,16 +5496,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city1_city5_fl1_fl0
@@ -6221,16 +5513,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city1_city5_fl2_fl1
@@ -6240,16 +5530,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city1_city5_fl3_fl2
@@ -6259,16 +5547,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city1_city5_fl4_fl3
@@ -6278,16 +5564,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city1_city5_fl5_fl4
@@ -6297,16 +5581,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city1_city5_fl6_fl5
@@ -6316,16 +5598,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city2_city0_fl1_fl0
@@ -6335,16 +5615,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city2_city0_fl2_fl1
@@ -6354,16 +5632,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city2_city0_fl3_fl2
@@ -6373,16 +5649,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city2_city0_fl4_fl3
@@ -6392,16 +5666,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city2_city0_fl5_fl4
@@ -6411,16 +5683,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city2_city0_fl6_fl5
@@ -6430,16 +5700,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city2_city1_fl1_fl0
@@ -6449,16 +5717,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city2_city1_fl2_fl1
@@ -6468,16 +5734,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city2_city1_fl3_fl2
@@ -6487,16 +5751,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city2_city1_fl4_fl3
@@ -6506,16 +5768,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city2_city1_fl5_fl4
@@ -6525,16 +5785,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city2_city1_fl6_fl5
@@ -6544,16 +5802,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city2_city2_fl1_fl0
@@ -6563,16 +5819,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city2_city2_fl2_fl1
@@ -6582,16 +5836,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city2_city2_fl3_fl2
@@ -6601,16 +5853,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city2_city2_fl4_fl3
@@ -6620,16 +5870,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city2_city2_fl5_fl4
@@ -6639,16 +5887,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city2_city2_fl6_fl5
@@ -6658,16 +5904,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city2_city3_fl1_fl0
@@ -6677,16 +5921,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city2_city3_fl2_fl1
@@ -6696,16 +5938,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city2_city3_fl3_fl2
@@ -6715,16 +5955,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city2_city3_fl4_fl3
@@ -6734,16 +5972,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city2_city3_fl5_fl4
@@ -6753,16 +5989,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city2_city3_fl6_fl5
@@ -6772,16 +6006,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city2_city4_fl1_fl0
@@ -6791,16 +6023,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city2_city4_fl2_fl1
@@ -6810,16 +6040,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city2_city4_fl3_fl2
@@ -6829,16 +6057,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city2_city4_fl4_fl3
@@ -6848,16 +6074,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city2_city4_fl5_fl4
@@ -6867,16 +6091,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city2_city4_fl6_fl5
@@ -6886,16 +6108,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city2_city5_fl1_fl0
@@ -6905,16 +6125,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city2_city5_fl2_fl1
@@ -6924,16 +6142,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city2_city5_fl3_fl2
@@ -6943,16 +6159,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city2_city5_fl4_fl3
@@ -6962,16 +6176,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city2_city5_fl5_fl4
@@ -6981,16 +6193,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city2_city5_fl6_fl5
@@ -7000,16 +6210,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city3_city0_fl1_fl0
@@ -7019,16 +6227,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city3_city0_fl2_fl1
@@ -7038,16 +6244,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city3_city0_fl3_fl2
@@ -7057,16 +6261,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city3_city0_fl4_fl3
@@ -7076,16 +6278,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city3_city0_fl5_fl4
@@ -7095,16 +6295,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city3_city0_fl6_fl5
@@ -7114,16 +6312,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city3_city1_fl1_fl0
@@ -7133,16 +6329,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city3_city1_fl2_fl1
@@ -7152,16 +6346,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city3_city1_fl3_fl2
@@ -7171,16 +6363,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city3_city1_fl4_fl3
@@ -7190,16 +6380,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city3_city1_fl5_fl4
@@ -7209,16 +6397,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city3_city1_fl6_fl5
@@ -7228,16 +6414,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city3_city2_fl1_fl0
@@ -7247,16 +6431,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city3_city2_fl2_fl1
@@ -7266,16 +6448,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city3_city2_fl3_fl2
@@ -7285,16 +6465,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city3_city2_fl4_fl3
@@ -7304,16 +6482,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city3_city2_fl5_fl4
@@ -7323,16 +6499,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city3_city2_fl6_fl5
@@ -7342,16 +6516,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city3_city3_fl1_fl0
@@ -7361,16 +6533,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city3_city3_fl2_fl1
@@ -7380,16 +6550,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city3_city3_fl3_fl2
@@ -7399,16 +6567,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city3_city3_fl4_fl3
@@ -7418,16 +6584,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city3_city3_fl5_fl4
@@ -7437,16 +6601,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city3_city3_fl6_fl5
@@ -7456,16 +6618,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city3_city4_fl1_fl0
@@ -7475,16 +6635,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city3_city4_fl2_fl1
@@ -7494,16 +6652,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city3_city4_fl3_fl2
@@ -7513,16 +6669,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city3_city4_fl4_fl3
@@ -7532,16 +6686,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city3_city4_fl5_fl4
@@ -7551,16 +6703,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city3_city4_fl6_fl5
@@ -7570,16 +6720,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city3_city5_fl1_fl0
@@ -7589,16 +6737,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city3_city5_fl2_fl1
@@ -7608,16 +6754,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city3_city5_fl3_fl2
@@ -7627,16 +6771,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city3_city5_fl4_fl3
@@ -7646,16 +6788,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city3_city5_fl5_fl4
@@ -7665,16 +6805,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city3_city5_fl6_fl5
@@ -7684,16 +6822,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city4_city0_fl1_fl0
@@ -7703,16 +6839,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city4_city0_fl2_fl1
@@ -7722,16 +6856,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city4_city0_fl3_fl2
@@ -7741,16 +6873,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city4_city0_fl4_fl3
@@ -7760,16 +6890,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city4_city0_fl5_fl4
@@ -7779,16 +6907,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city4_city0_fl6_fl5
@@ -7798,16 +6924,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city4_city1_fl1_fl0
@@ -7817,16 +6941,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city4_city1_fl2_fl1
@@ -7836,16 +6958,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city4_city1_fl3_fl2
@@ -7855,16 +6975,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city4_city1_fl4_fl3
@@ -7874,16 +6992,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city4_city1_fl5_fl4
@@ -7893,16 +7009,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city4_city1_fl6_fl5
@@ -7912,16 +7026,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city4_city2_fl1_fl0
@@ -7931,16 +7043,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city4_city2_fl2_fl1
@@ -7950,16 +7060,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city4_city2_fl3_fl2
@@ -7969,16 +7077,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city4_city2_fl4_fl3
@@ -7988,16 +7094,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city4_city2_fl5_fl4
@@ -8007,16 +7111,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city4_city2_fl6_fl5
@@ -8026,16 +7128,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city4_city3_fl1_fl0
@@ -8045,16 +7145,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city4_city3_fl2_fl1
@@ -8064,16 +7162,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city4_city3_fl3_fl2
@@ -8083,16 +7179,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city4_city3_fl4_fl3
@@ -8102,16 +7196,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city4_city3_fl5_fl4
@@ -8121,16 +7213,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city4_city3_fl6_fl5
@@ -8140,16 +7230,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city4_city4_fl1_fl0
@@ -8159,16 +7247,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city4_city4_fl2_fl1
@@ -8178,16 +7264,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city4_city4_fl3_fl2
@@ -8197,16 +7281,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city4_city4_fl4_fl3
@@ -8216,16 +7298,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city4_city4_fl5_fl4
@@ -8235,16 +7315,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city4_city4_fl6_fl5
@@ -8254,16 +7332,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city4_city5_fl1_fl0
@@ -8273,16 +7349,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city4_city5_fl2_fl1
@@ -8292,16 +7366,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city4_city5_fl3_fl2
@@ -8311,16 +7383,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city4_city5_fl4_fl3
@@ -8330,16 +7400,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city4_city5_fl5_fl4
@@ -8349,16 +7417,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city4_city5_fl6_fl5
@@ -8368,16 +7434,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city5_city0_fl1_fl0
@@ -8387,16 +7451,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city5_city0_fl2_fl1
@@ -8406,16 +7468,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city5_city0_fl3_fl2
@@ -8425,16 +7485,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city5_city0_fl4_fl3
@@ -8444,16 +7502,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city5_city0_fl5_fl4
@@ -8463,16 +7519,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city5_city0_fl6_fl5
@@ -8482,16 +7536,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city5_city1_fl1_fl0
@@ -8501,16 +7553,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city5_city1_fl2_fl1
@@ -8520,16 +7570,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city5_city1_fl3_fl2
@@ -8539,16 +7587,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city5_city1_fl4_fl3
@@ -8558,16 +7604,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city5_city1_fl5_fl4
@@ -8577,16 +7621,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city5_city1_fl6_fl5
@@ -8596,16 +7638,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city5_city2_fl1_fl0
@@ -8615,16 +7655,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city5_city2_fl2_fl1
@@ -8634,16 +7672,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city5_city2_fl3_fl2
@@ -8653,16 +7689,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city5_city2_fl4_fl3
@@ -8672,16 +7706,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city5_city2_fl5_fl4
@@ -8691,16 +7723,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city5_city2_fl6_fl5
@@ -8710,16 +7740,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city5_city3_fl1_fl0
@@ -8729,16 +7757,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city5_city3_fl2_fl1
@@ -8748,16 +7774,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city5_city3_fl3_fl2
@@ -8767,16 +7791,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city5_city3_fl4_fl3
@@ -8786,16 +7808,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city5_city3_fl5_fl4
@@ -8805,16 +7825,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city5_city3_fl6_fl5
@@ -8824,16 +7842,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city5_city4_fl1_fl0
@@ -8843,16 +7859,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city5_city4_fl2_fl1
@@ -8862,16 +7876,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city5_city4_fl3_fl2
@@ -8881,16 +7893,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city5_city4_fl4_fl3
@@ -8900,16 +7910,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city5_city4_fl5_fl4
@@ -8919,16 +7927,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city5_city4_fl6_fl5
@@ -8938,16 +7944,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane1_city5_city5_fl1_fl0
@@ -8957,16 +7961,14 @@
 			(fuellevel plane1 fl1)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action fly_plane1_city5_city5_fl2_fl1
@@ -8976,16 +7978,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action fly_plane1_city5_city5_fl3_fl2
@@ -8995,16 +7995,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action fly_plane1_city5_city5_fl4_fl3
@@ -9014,16 +8012,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action fly_plane1_city5_city5_fl5_fl4
@@ -9033,16 +8029,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action fly_plane1_city5_city5_fl6_fl5
@@ -9052,16 +8046,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl5)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl5)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action fly_plane2_city0_city0_fl1_fl0
@@ -9071,16 +8063,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city0_city0_fl2_fl1
@@ -9090,16 +8080,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city0_city0_fl3_fl2
@@ -9109,16 +8097,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city0_city0_fl4_fl3
@@ -9128,16 +8114,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city0_city0_fl5_fl4
@@ -9147,16 +8131,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city0_city0_fl6_fl5
@@ -9166,16 +8148,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city0_city1_fl1_fl0
@@ -9185,16 +8165,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city0_city1_fl2_fl1
@@ -9204,16 +8182,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city0_city1_fl3_fl2
@@ -9223,16 +8199,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city0_city1_fl4_fl3
@@ -9242,16 +8216,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city0_city1_fl5_fl4
@@ -9261,16 +8233,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city0_city1_fl6_fl5
@@ -9280,16 +8250,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city0_city2_fl1_fl0
@@ -9299,16 +8267,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city0_city2_fl2_fl1
@@ -9318,16 +8284,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city0_city2_fl3_fl2
@@ -9337,16 +8301,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city0_city2_fl4_fl3
@@ -9356,16 +8318,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city0_city2_fl5_fl4
@@ -9375,16 +8335,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city0_city2_fl6_fl5
@@ -9394,16 +8352,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city0_city3_fl1_fl0
@@ -9413,16 +8369,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city0_city3_fl2_fl1
@@ -9432,16 +8386,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city0_city3_fl3_fl2
@@ -9451,16 +8403,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city0_city3_fl4_fl3
@@ -9470,16 +8420,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city0_city3_fl5_fl4
@@ -9489,16 +8437,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city0_city3_fl6_fl5
@@ -9508,16 +8454,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city0_city4_fl1_fl0
@@ -9527,16 +8471,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city0_city4_fl2_fl1
@@ -9546,16 +8488,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city0_city4_fl3_fl2
@@ -9565,16 +8505,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city0_city4_fl4_fl3
@@ -9584,16 +8522,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city0_city4_fl5_fl4
@@ -9603,16 +8539,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city0_city4_fl6_fl5
@@ -9622,16 +8556,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city0_city5_fl1_fl0
@@ -9641,16 +8573,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city0_city5_fl2_fl1
@@ -9660,16 +8590,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city0_city5_fl3_fl2
@@ -9679,16 +8607,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city0_city5_fl4_fl3
@@ -9698,16 +8624,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city0_city5_fl5_fl4
@@ -9717,16 +8641,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city0_city5_fl6_fl5
@@ -9736,16 +8658,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city1_city0_fl1_fl0
@@ -9755,16 +8675,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city1_city0_fl2_fl1
@@ -9774,16 +8692,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city1_city0_fl3_fl2
@@ -9793,16 +8709,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city1_city0_fl4_fl3
@@ -9812,16 +8726,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city1_city0_fl5_fl4
@@ -9831,16 +8743,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city1_city0_fl6_fl5
@@ -9850,16 +8760,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city1_city1_fl1_fl0
@@ -9869,16 +8777,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city1_city1_fl2_fl1
@@ -9888,16 +8794,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city1_city1_fl3_fl2
@@ -9907,16 +8811,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city1_city1_fl4_fl3
@@ -9926,16 +8828,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city1_city1_fl5_fl4
@@ -9945,16 +8845,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city1_city1_fl6_fl5
@@ -9964,16 +8862,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city1_city2_fl1_fl0
@@ -9983,16 +8879,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city1_city2_fl2_fl1
@@ -10002,16 +8896,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city1_city2_fl3_fl2
@@ -10021,16 +8913,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city1_city2_fl4_fl3
@@ -10040,16 +8930,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city1_city2_fl5_fl4
@@ -10059,16 +8947,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city1_city2_fl6_fl5
@@ -10078,16 +8964,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city1_city3_fl1_fl0
@@ -10097,16 +8981,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city1_city3_fl2_fl1
@@ -10116,16 +8998,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city1_city3_fl3_fl2
@@ -10135,16 +9015,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city1_city3_fl4_fl3
@@ -10154,16 +9032,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city1_city3_fl5_fl4
@@ -10173,16 +9049,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city1_city3_fl6_fl5
@@ -10192,16 +9066,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city1_city4_fl1_fl0
@@ -10211,16 +9083,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city1_city4_fl2_fl1
@@ -10230,16 +9100,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city1_city4_fl3_fl2
@@ -10249,16 +9117,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city1_city4_fl4_fl3
@@ -10268,16 +9134,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city1_city4_fl5_fl4
@@ -10287,16 +9151,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city1_city4_fl6_fl5
@@ -10306,16 +9168,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city1_city5_fl1_fl0
@@ -10325,16 +9185,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city1_city5_fl2_fl1
@@ -10344,16 +9202,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city1_city5_fl3_fl2
@@ -10363,16 +9219,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city1_city5_fl4_fl3
@@ -10382,16 +9236,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city1_city5_fl5_fl4
@@ -10401,16 +9253,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city1_city5_fl6_fl5
@@ -10420,16 +9270,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city2_city0_fl1_fl0
@@ -10439,16 +9287,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city2_city0_fl2_fl1
@@ -10458,16 +9304,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city2_city0_fl3_fl2
@@ -10477,16 +9321,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city2_city0_fl4_fl3
@@ -10496,16 +9338,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city2_city0_fl5_fl4
@@ -10515,16 +9355,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city2_city0_fl6_fl5
@@ -10534,16 +9372,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city2_city1_fl1_fl0
@@ -10553,16 +9389,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city2_city1_fl2_fl1
@@ -10572,16 +9406,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city2_city1_fl3_fl2
@@ -10591,16 +9423,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city2_city1_fl4_fl3
@@ -10610,16 +9440,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city2_city1_fl5_fl4
@@ -10629,16 +9457,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city2_city1_fl6_fl5
@@ -10648,16 +9474,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city2_city2_fl1_fl0
@@ -10667,16 +9491,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city2_city2_fl2_fl1
@@ -10686,16 +9508,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city2_city2_fl3_fl2
@@ -10705,16 +9525,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city2_city2_fl4_fl3
@@ -10724,16 +9542,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city2_city2_fl5_fl4
@@ -10743,16 +9559,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city2_city2_fl6_fl5
@@ -10762,16 +9576,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city2_city3_fl1_fl0
@@ -10781,16 +9593,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city2_city3_fl2_fl1
@@ -10800,16 +9610,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city2_city3_fl3_fl2
@@ -10819,16 +9627,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city2_city3_fl4_fl3
@@ -10838,16 +9644,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city2_city3_fl5_fl4
@@ -10857,16 +9661,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city2_city3_fl6_fl5
@@ -10876,16 +9678,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city2_city4_fl1_fl0
@@ -10895,16 +9695,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city2_city4_fl2_fl1
@@ -10914,16 +9712,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city2_city4_fl3_fl2
@@ -10933,16 +9729,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city2_city4_fl4_fl3
@@ -10952,16 +9746,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city2_city4_fl5_fl4
@@ -10971,16 +9763,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city2_city4_fl6_fl5
@@ -10990,16 +9780,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city2_city5_fl1_fl0
@@ -11009,16 +9797,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city2_city5_fl2_fl1
@@ -11028,16 +9814,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city2_city5_fl3_fl2
@@ -11047,16 +9831,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city2_city5_fl4_fl3
@@ -11066,16 +9848,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city2_city5_fl5_fl4
@@ -11085,16 +9865,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city2_city5_fl6_fl5
@@ -11104,16 +9882,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city3_city0_fl1_fl0
@@ -11123,16 +9899,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city3_city0_fl2_fl1
@@ -11142,16 +9916,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city3_city0_fl3_fl2
@@ -11161,16 +9933,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city3_city0_fl4_fl3
@@ -11180,16 +9950,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city3_city0_fl5_fl4
@@ -11199,16 +9967,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city3_city0_fl6_fl5
@@ -11218,16 +9984,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city3_city1_fl1_fl0
@@ -11237,16 +10001,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city3_city1_fl2_fl1
@@ -11256,16 +10018,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city3_city1_fl3_fl2
@@ -11275,16 +10035,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city3_city1_fl4_fl3
@@ -11294,16 +10052,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city3_city1_fl5_fl4
@@ -11313,16 +10069,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city3_city1_fl6_fl5
@@ -11332,16 +10086,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city3_city2_fl1_fl0
@@ -11351,16 +10103,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city3_city2_fl2_fl1
@@ -11370,16 +10120,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city3_city2_fl3_fl2
@@ -11389,16 +10137,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city3_city2_fl4_fl3
@@ -11408,16 +10154,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city3_city2_fl5_fl4
@@ -11427,16 +10171,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city3_city2_fl6_fl5
@@ -11446,16 +10188,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city3_city3_fl1_fl0
@@ -11465,16 +10205,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city3_city3_fl2_fl1
@@ -11484,16 +10222,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city3_city3_fl3_fl2
@@ -11503,16 +10239,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city3_city3_fl4_fl3
@@ -11522,16 +10256,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city3_city3_fl5_fl4
@@ -11541,16 +10273,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city3_city3_fl6_fl5
@@ -11560,16 +10290,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city3_city4_fl1_fl0
@@ -11579,16 +10307,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city3_city4_fl2_fl1
@@ -11598,16 +10324,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city3_city4_fl3_fl2
@@ -11617,16 +10341,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city3_city4_fl4_fl3
@@ -11636,16 +10358,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city3_city4_fl5_fl4
@@ -11655,16 +10375,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city3_city4_fl6_fl5
@@ -11674,16 +10392,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city3_city5_fl1_fl0
@@ -11693,16 +10409,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city3_city5_fl2_fl1
@@ -11712,16 +10426,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city3_city5_fl3_fl2
@@ -11731,16 +10443,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city3_city5_fl4_fl3
@@ -11750,16 +10460,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city3_city5_fl5_fl4
@@ -11769,16 +10477,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city3_city5_fl6_fl5
@@ -11788,16 +10494,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city4_city0_fl1_fl0
@@ -11807,16 +10511,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city4_city0_fl2_fl1
@@ -11826,16 +10528,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city4_city0_fl3_fl2
@@ -11845,16 +10545,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city4_city0_fl4_fl3
@@ -11864,16 +10562,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city4_city0_fl5_fl4
@@ -11883,16 +10579,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city4_city0_fl6_fl5
@@ -11902,16 +10596,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city4_city1_fl1_fl0
@@ -11921,16 +10613,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city4_city1_fl2_fl1
@@ -11940,16 +10630,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city4_city1_fl3_fl2
@@ -11959,16 +10647,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city4_city1_fl4_fl3
@@ -11978,16 +10664,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city4_city1_fl5_fl4
@@ -11997,16 +10681,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city4_city1_fl6_fl5
@@ -12016,16 +10698,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city4_city2_fl1_fl0
@@ -12035,16 +10715,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city4_city2_fl2_fl1
@@ -12054,16 +10732,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city4_city2_fl3_fl2
@@ -12073,16 +10749,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city4_city2_fl4_fl3
@@ -12092,16 +10766,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city4_city2_fl5_fl4
@@ -12111,16 +10783,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city4_city2_fl6_fl5
@@ -12130,16 +10800,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city4_city3_fl1_fl0
@@ -12149,16 +10817,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city4_city3_fl2_fl1
@@ -12168,16 +10834,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city4_city3_fl3_fl2
@@ -12187,16 +10851,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city4_city3_fl4_fl3
@@ -12206,16 +10868,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city4_city3_fl5_fl4
@@ -12225,16 +10885,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city4_city3_fl6_fl5
@@ -12244,16 +10902,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city4_city4_fl1_fl0
@@ -12263,16 +10919,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city4_city4_fl2_fl1
@@ -12282,16 +10936,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city4_city4_fl3_fl2
@@ -12301,16 +10953,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city4_city4_fl4_fl3
@@ -12320,16 +10970,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city4_city4_fl5_fl4
@@ -12339,16 +10987,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city4_city4_fl6_fl5
@@ -12358,16 +11004,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city4_city5_fl1_fl0
@@ -12377,16 +11021,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city4_city5_fl2_fl1
@@ -12396,16 +11038,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city4_city5_fl3_fl2
@@ -12415,16 +11055,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city4_city5_fl4_fl3
@@ -12434,16 +11072,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city4_city5_fl5_fl4
@@ -12453,16 +11089,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city4_city5_fl6_fl5
@@ -12472,16 +11106,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city5_city0_fl1_fl0
@@ -12491,16 +11123,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city5_city0_fl2_fl1
@@ -12510,16 +11140,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city5_city0_fl3_fl2
@@ -12529,16 +11157,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city5_city0_fl4_fl3
@@ -12548,16 +11174,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city5_city0_fl5_fl4
@@ -12567,16 +11191,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city5_city0_fl6_fl5
@@ -12586,16 +11208,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city5_city1_fl1_fl0
@@ -12605,16 +11225,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city5_city1_fl2_fl1
@@ -12624,16 +11242,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city5_city1_fl3_fl2
@@ -12643,16 +11259,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city5_city1_fl4_fl3
@@ -12662,16 +11276,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city5_city1_fl5_fl4
@@ -12681,16 +11293,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city5_city1_fl6_fl5
@@ -12700,16 +11310,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city5_city2_fl1_fl0
@@ -12719,16 +11327,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city5_city2_fl2_fl1
@@ -12738,16 +11344,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city5_city2_fl3_fl2
@@ -12757,16 +11361,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city5_city2_fl4_fl3
@@ -12776,16 +11378,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city5_city2_fl5_fl4
@@ -12795,16 +11395,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city5_city2_fl6_fl5
@@ -12814,16 +11412,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city5_city3_fl1_fl0
@@ -12833,16 +11429,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city5_city3_fl2_fl1
@@ -12852,16 +11446,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city5_city3_fl3_fl2
@@ -12871,16 +11463,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city5_city3_fl4_fl3
@@ -12890,16 +11480,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city5_city3_fl5_fl4
@@ -12909,16 +11497,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city5_city3_fl6_fl5
@@ -12928,16 +11514,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city5_city4_fl1_fl0
@@ -12947,16 +11531,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city5_city4_fl2_fl1
@@ -12966,16 +11548,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city5_city4_fl3_fl2
@@ -12985,16 +11565,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city5_city4_fl4_fl3
@@ -13004,16 +11582,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city5_city4_fl5_fl4
@@ -13023,16 +11599,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city5_city4_fl6_fl5
@@ -13042,16 +11616,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane2_city5_city5_fl1_fl0
@@ -13061,16 +11633,14 @@
 			(fuellevel plane2 fl1)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action fly_plane2_city5_city5_fl2_fl1
@@ -13080,16 +11650,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action fly_plane2_city5_city5_fl3_fl2
@@ -13099,16 +11667,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action fly_plane2_city5_city5_fl4_fl3
@@ -13118,16 +11684,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action fly_plane2_city5_city5_fl5_fl4
@@ -13137,16 +11701,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action fly_plane2_city5_city5_fl6_fl5
@@ -13156,16 +11718,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl5)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl5)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action fly_plane3_city0_city0_fl1_fl0
@@ -13175,16 +11735,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city0_city0_fl2_fl1
@@ -13194,16 +11752,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city0_city0_fl3_fl2
@@ -13213,16 +11769,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city0_city0_fl4_fl3
@@ -13232,16 +11786,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city0_city0_fl5_fl4
@@ -13251,16 +11803,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city0_city0_fl6_fl5
@@ -13270,16 +11820,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city0_city1_fl1_fl0
@@ -13289,16 +11837,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city0_city1_fl2_fl1
@@ -13308,16 +11854,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city0_city1_fl3_fl2
@@ -13327,16 +11871,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city0_city1_fl4_fl3
@@ -13346,16 +11888,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city0_city1_fl5_fl4
@@ -13365,16 +11905,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city0_city1_fl6_fl5
@@ -13384,16 +11922,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city0_city2_fl1_fl0
@@ -13403,16 +11939,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city0_city2_fl2_fl1
@@ -13422,16 +11956,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city0_city2_fl3_fl2
@@ -13441,16 +11973,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city0_city2_fl4_fl3
@@ -13460,16 +11990,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city0_city2_fl5_fl4
@@ -13479,16 +12007,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city0_city2_fl6_fl5
@@ -13498,16 +12024,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city0_city3_fl1_fl0
@@ -13517,16 +12041,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city0_city3_fl2_fl1
@@ -13536,16 +12058,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city0_city3_fl3_fl2
@@ -13555,16 +12075,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city0_city3_fl4_fl3
@@ -13574,16 +12092,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city0_city3_fl5_fl4
@@ -13593,16 +12109,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city0_city3_fl6_fl5
@@ -13612,16 +12126,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city0_city4_fl1_fl0
@@ -13631,16 +12143,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city0_city4_fl2_fl1
@@ -13650,16 +12160,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city0_city4_fl3_fl2
@@ -13669,16 +12177,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city0_city4_fl4_fl3
@@ -13688,16 +12194,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city0_city4_fl5_fl4
@@ -13707,16 +12211,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city0_city4_fl6_fl5
@@ -13726,16 +12228,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city0_city5_fl1_fl0
@@ -13745,16 +12245,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city0_city5_fl2_fl1
@@ -13764,16 +12262,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city0_city5_fl3_fl2
@@ -13783,16 +12279,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city0_city5_fl4_fl3
@@ -13802,16 +12296,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city0_city5_fl5_fl4
@@ -13821,16 +12313,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city0_city5_fl6_fl5
@@ -13840,16 +12330,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city1_city0_fl1_fl0
@@ -13859,16 +12347,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city1_city0_fl2_fl1
@@ -13878,16 +12364,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city1_city0_fl3_fl2
@@ -13897,16 +12381,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city1_city0_fl4_fl3
@@ -13916,16 +12398,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city1_city0_fl5_fl4
@@ -13935,16 +12415,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city1_city0_fl6_fl5
@@ -13954,16 +12432,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city1_city1_fl1_fl0
@@ -13973,16 +12449,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city1_city1_fl2_fl1
@@ -13992,16 +12466,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city1_city1_fl3_fl2
@@ -14011,16 +12483,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city1_city1_fl4_fl3
@@ -14030,16 +12500,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city1_city1_fl5_fl4
@@ -14049,16 +12517,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city1_city1_fl6_fl5
@@ -14068,16 +12534,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city1_city2_fl1_fl0
@@ -14087,16 +12551,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city1_city2_fl2_fl1
@@ -14106,16 +12568,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city1_city2_fl3_fl2
@@ -14125,16 +12585,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city1_city2_fl4_fl3
@@ -14144,16 +12602,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city1_city2_fl5_fl4
@@ -14163,16 +12619,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city1_city2_fl6_fl5
@@ -14182,16 +12636,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city1_city3_fl1_fl0
@@ -14201,16 +12653,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city1_city3_fl2_fl1
@@ -14220,16 +12670,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city1_city3_fl3_fl2
@@ -14239,16 +12687,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city1_city3_fl4_fl3
@@ -14258,16 +12704,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city1_city3_fl5_fl4
@@ -14277,16 +12721,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city1_city3_fl6_fl5
@@ -14296,16 +12738,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city1_city4_fl1_fl0
@@ -14315,16 +12755,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city1_city4_fl2_fl1
@@ -14334,16 +12772,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city1_city4_fl3_fl2
@@ -14353,16 +12789,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city1_city4_fl4_fl3
@@ -14372,16 +12806,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city1_city4_fl5_fl4
@@ -14391,16 +12823,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city1_city4_fl6_fl5
@@ -14410,16 +12840,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city1_city5_fl1_fl0
@@ -14429,16 +12857,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city1_city5_fl2_fl1
@@ -14448,16 +12874,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city1_city5_fl3_fl2
@@ -14467,16 +12891,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city1_city5_fl4_fl3
@@ -14486,16 +12908,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city1_city5_fl5_fl4
@@ -14505,16 +12925,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city1_city5_fl6_fl5
@@ -14524,16 +12942,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city2_city0_fl1_fl0
@@ -14543,16 +12959,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city2_city0_fl2_fl1
@@ -14562,16 +12976,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city2_city0_fl3_fl2
@@ -14581,16 +12993,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city2_city0_fl4_fl3
@@ -14600,16 +13010,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city2_city0_fl5_fl4
@@ -14619,16 +13027,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city2_city0_fl6_fl5
@@ -14638,16 +13044,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city2_city1_fl1_fl0
@@ -14657,16 +13061,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city2_city1_fl2_fl1
@@ -14676,16 +13078,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city2_city1_fl3_fl2
@@ -14695,16 +13095,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city2_city1_fl4_fl3
@@ -14714,16 +13112,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city2_city1_fl5_fl4
@@ -14733,16 +13129,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city2_city1_fl6_fl5
@@ -14752,16 +13146,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city2_city2_fl1_fl0
@@ -14771,16 +13163,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city2_city2_fl2_fl1
@@ -14790,16 +13180,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city2_city2_fl3_fl2
@@ -14809,16 +13197,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city2_city2_fl4_fl3
@@ -14828,16 +13214,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city2_city2_fl5_fl4
@@ -14847,16 +13231,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city2_city2_fl6_fl5
@@ -14866,16 +13248,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city2_city3_fl1_fl0
@@ -14885,16 +13265,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city2_city3_fl2_fl1
@@ -14904,16 +13282,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city2_city3_fl3_fl2
@@ -14923,16 +13299,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city2_city3_fl4_fl3
@@ -14942,16 +13316,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city2_city3_fl5_fl4
@@ -14961,16 +13333,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city2_city3_fl6_fl5
@@ -14980,16 +13350,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city2_city4_fl1_fl0
@@ -14999,16 +13367,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city2_city4_fl2_fl1
@@ -15018,16 +13384,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city2_city4_fl3_fl2
@@ -15037,16 +13401,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city2_city4_fl4_fl3
@@ -15056,16 +13418,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city2_city4_fl5_fl4
@@ -15075,16 +13435,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city2_city4_fl6_fl5
@@ -15094,16 +13452,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city2_city5_fl1_fl0
@@ -15113,16 +13469,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city2_city5_fl2_fl1
@@ -15132,16 +13486,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city2_city5_fl3_fl2
@@ -15151,16 +13503,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city2_city5_fl4_fl3
@@ -15170,16 +13520,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city2_city5_fl5_fl4
@@ -15189,16 +13537,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city2_city5_fl6_fl5
@@ -15208,16 +13554,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city3_city0_fl1_fl0
@@ -15227,16 +13571,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city3_city0_fl2_fl1
@@ -15246,16 +13588,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city3_city0_fl3_fl2
@@ -15265,16 +13605,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city3_city0_fl4_fl3
@@ -15284,16 +13622,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city3_city0_fl5_fl4
@@ -15303,16 +13639,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city3_city0_fl6_fl5
@@ -15322,16 +13656,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city3_city1_fl1_fl0
@@ -15341,16 +13673,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city3_city1_fl2_fl1
@@ -15360,16 +13690,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city3_city1_fl3_fl2
@@ -15379,16 +13707,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city3_city1_fl4_fl3
@@ -15398,16 +13724,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city3_city1_fl5_fl4
@@ -15417,16 +13741,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city3_city1_fl6_fl5
@@ -15436,16 +13758,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city3_city2_fl1_fl0
@@ -15455,16 +13775,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city3_city2_fl2_fl1
@@ -15474,16 +13792,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city3_city2_fl3_fl2
@@ -15493,16 +13809,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city3_city2_fl4_fl3
@@ -15512,16 +13826,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city3_city2_fl5_fl4
@@ -15531,16 +13843,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city3_city2_fl6_fl5
@@ -15550,16 +13860,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city3_city3_fl1_fl0
@@ -15569,16 +13877,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city3_city3_fl2_fl1
@@ -15588,16 +13894,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city3_city3_fl3_fl2
@@ -15607,16 +13911,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city3_city3_fl4_fl3
@@ -15626,16 +13928,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city3_city3_fl5_fl4
@@ -15645,16 +13945,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city3_city3_fl6_fl5
@@ -15664,16 +13962,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city3_city4_fl1_fl0
@@ -15683,16 +13979,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city3_city4_fl2_fl1
@@ -15702,16 +13996,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city3_city4_fl3_fl2
@@ -15721,16 +14013,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city3_city4_fl4_fl3
@@ -15740,16 +14030,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city3_city4_fl5_fl4
@@ -15759,16 +14047,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city3_city4_fl6_fl5
@@ -15778,16 +14064,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city3_city5_fl1_fl0
@@ -15797,16 +14081,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city3_city5_fl2_fl1
@@ -15816,16 +14098,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city3_city5_fl3_fl2
@@ -15835,16 +14115,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city3_city5_fl4_fl3
@@ -15854,16 +14132,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city3_city5_fl5_fl4
@@ -15873,16 +14149,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city3_city5_fl6_fl5
@@ -15892,16 +14166,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city4_city0_fl1_fl0
@@ -15911,16 +14183,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city4_city0_fl2_fl1
@@ -15930,16 +14200,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city4_city0_fl3_fl2
@@ -15949,16 +14217,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city4_city0_fl4_fl3
@@ -15968,16 +14234,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city4_city0_fl5_fl4
@@ -15987,16 +14251,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city4_city0_fl6_fl5
@@ -16006,16 +14268,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city4_city1_fl1_fl0
@@ -16025,16 +14285,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city4_city1_fl2_fl1
@@ -16044,16 +14302,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city4_city1_fl3_fl2
@@ -16063,16 +14319,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city4_city1_fl4_fl3
@@ -16082,16 +14336,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city4_city1_fl5_fl4
@@ -16101,16 +14353,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city4_city1_fl6_fl5
@@ -16120,16 +14370,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city4_city2_fl1_fl0
@@ -16139,16 +14387,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city4_city2_fl2_fl1
@@ -16158,16 +14404,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city4_city2_fl3_fl2
@@ -16177,16 +14421,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city4_city2_fl4_fl3
@@ -16196,16 +14438,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city4_city2_fl5_fl4
@@ -16215,16 +14455,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city4_city2_fl6_fl5
@@ -16234,16 +14472,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city4_city3_fl1_fl0
@@ -16253,16 +14489,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city4_city3_fl2_fl1
@@ -16272,16 +14506,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city4_city3_fl3_fl2
@@ -16291,16 +14523,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city4_city3_fl4_fl3
@@ -16310,16 +14540,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city4_city3_fl5_fl4
@@ -16329,16 +14557,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city4_city3_fl6_fl5
@@ -16348,16 +14574,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city4_city4_fl1_fl0
@@ -16367,16 +14591,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city4_city4_fl2_fl1
@@ -16386,16 +14608,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city4_city4_fl3_fl2
@@ -16405,16 +14625,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city4_city4_fl4_fl3
@@ -16424,16 +14642,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city4_city4_fl5_fl4
@@ -16443,16 +14659,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city4_city4_fl6_fl5
@@ -16462,16 +14676,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city4_city5_fl1_fl0
@@ -16481,16 +14693,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city4_city5_fl2_fl1
@@ -16500,16 +14710,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city4_city5_fl3_fl2
@@ -16519,16 +14727,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city4_city5_fl4_fl3
@@ -16538,16 +14744,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city4_city5_fl5_fl4
@@ -16557,16 +14761,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city4_city5_fl6_fl5
@@ -16576,16 +14778,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city5_city0_fl1_fl0
@@ -16595,16 +14795,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city5_city0_fl2_fl1
@@ -16614,16 +14812,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city5_city0_fl3_fl2
@@ -16633,16 +14829,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city5_city0_fl4_fl3
@@ -16652,16 +14846,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city5_city0_fl5_fl4
@@ -16671,16 +14863,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city5_city0_fl6_fl5
@@ -16690,16 +14880,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city5_city1_fl1_fl0
@@ -16709,16 +14897,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city5_city1_fl2_fl1
@@ -16728,16 +14914,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city5_city1_fl3_fl2
@@ -16747,16 +14931,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city5_city1_fl4_fl3
@@ -16766,16 +14948,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city5_city1_fl5_fl4
@@ -16785,16 +14965,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city5_city1_fl6_fl5
@@ -16804,16 +14982,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city5_city2_fl1_fl0
@@ -16823,16 +14999,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city5_city2_fl2_fl1
@@ -16842,16 +15016,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city5_city2_fl3_fl2
@@ -16861,16 +15033,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city5_city2_fl4_fl3
@@ -16880,16 +15050,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city5_city2_fl5_fl4
@@ -16899,16 +15067,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city5_city2_fl6_fl5
@@ -16918,16 +15084,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city5_city3_fl1_fl0
@@ -16937,16 +15101,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city5_city3_fl2_fl1
@@ -16956,16 +15118,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city5_city3_fl3_fl2
@@ -16975,16 +15135,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city5_city3_fl4_fl3
@@ -16994,16 +15152,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city5_city3_fl5_fl4
@@ -17013,16 +15169,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city5_city3_fl6_fl5
@@ -17032,16 +15186,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city5_city4_fl1_fl0
@@ -17051,16 +15203,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city5_city4_fl2_fl1
@@ -17070,16 +15220,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city5_city4_fl3_fl2
@@ -17089,16 +15237,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city5_city4_fl4_fl3
@@ -17108,16 +15254,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city5_city4_fl5_fl4
@@ -17127,16 +15271,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city5_city4_fl6_fl5
@@ -17146,16 +15288,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action fly_plane3_city5_city5_fl1_fl0
@@ -17165,16 +15305,14 @@
 			(fuellevel plane3 fl1)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action fly_plane3_city5_city5_fl2_fl1
@@ -17184,16 +15322,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action fly_plane3_city5_city5_fl3_fl2
@@ -17203,16 +15339,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action fly_plane3_city5_city5_fl4_fl3
@@ -17222,16 +15356,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action fly_plane3_city5_city5_fl5_fl4
@@ -17241,16 +15373,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action fly_plane3_city5_city5_fl6_fl5
@@ -17260,16 +15390,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl5)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl5)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane1_city0_city0_fl2_fl1_fl0
@@ -17279,16 +15407,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city0_city0_fl3_fl2_fl1
@@ -17298,16 +15424,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city0_city0_fl4_fl3_fl2
@@ -17317,16 +15441,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city0_city0_fl5_fl4_fl3
@@ -17336,16 +15458,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city0_city0_fl6_fl5_fl4
@@ -17355,16 +15475,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city0_city1_fl2_fl1_fl0
@@ -17374,16 +15492,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city0_city1_fl3_fl2_fl1
@@ -17393,16 +15509,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city0_city1_fl4_fl3_fl2
@@ -17412,16 +15526,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city0_city1_fl5_fl4_fl3
@@ -17431,16 +15543,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city0_city1_fl6_fl5_fl4
@@ -17450,16 +15560,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city0_city2_fl2_fl1_fl0
@@ -17469,16 +15577,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city0_city2_fl3_fl2_fl1
@@ -17488,16 +15594,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city0_city2_fl4_fl3_fl2
@@ -17507,16 +15611,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city0_city2_fl5_fl4_fl3
@@ -17526,16 +15628,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city0_city2_fl6_fl5_fl4
@@ -17545,16 +15645,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city0_city3_fl2_fl1_fl0
@@ -17564,16 +15662,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city0_city3_fl3_fl2_fl1
@@ -17583,16 +15679,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city0_city3_fl4_fl3_fl2
@@ -17602,16 +15696,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city0_city3_fl5_fl4_fl3
@@ -17621,16 +15713,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city0_city3_fl6_fl5_fl4
@@ -17640,16 +15730,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city0_city4_fl2_fl1_fl0
@@ -17659,16 +15747,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city0_city4_fl3_fl2_fl1
@@ -17678,16 +15764,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city0_city4_fl4_fl3_fl2
@@ -17697,16 +15781,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city0_city4_fl5_fl4_fl3
@@ -17716,16 +15798,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city0_city4_fl6_fl5_fl4
@@ -17735,16 +15815,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city0_city5_fl2_fl1_fl0
@@ -17754,16 +15832,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city0_city5_fl3_fl2_fl1
@@ -17773,16 +15849,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city0_city5_fl4_fl3_fl2
@@ -17792,16 +15866,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city0_city5_fl5_fl4_fl3
@@ -17811,16 +15883,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city0_city5_fl6_fl5_fl4
@@ -17830,16 +15900,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city1_city0_fl2_fl1_fl0
@@ -17849,16 +15917,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city1_city0_fl3_fl2_fl1
@@ -17868,16 +15934,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city1_city0_fl4_fl3_fl2
@@ -17887,16 +15951,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city1_city0_fl5_fl4_fl3
@@ -17906,16 +15968,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city1_city0_fl6_fl5_fl4
@@ -17925,16 +15985,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city1_city1_fl2_fl1_fl0
@@ -17944,16 +16002,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city1_city1_fl3_fl2_fl1
@@ -17963,16 +16019,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city1_city1_fl4_fl3_fl2
@@ -17982,16 +16036,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city1_city1_fl5_fl4_fl3
@@ -18001,16 +16053,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city1_city1_fl6_fl5_fl4
@@ -18020,16 +16070,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city1_city2_fl2_fl1_fl0
@@ -18039,16 +16087,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city1_city2_fl3_fl2_fl1
@@ -18058,16 +16104,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city1_city2_fl4_fl3_fl2
@@ -18077,16 +16121,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city1_city2_fl5_fl4_fl3
@@ -18096,16 +16138,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city1_city2_fl6_fl5_fl4
@@ -18115,16 +16155,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city1_city3_fl2_fl1_fl0
@@ -18134,16 +16172,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city1_city3_fl3_fl2_fl1
@@ -18153,16 +16189,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city1_city3_fl4_fl3_fl2
@@ -18172,16 +16206,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city1_city3_fl5_fl4_fl3
@@ -18191,16 +16223,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city1_city3_fl6_fl5_fl4
@@ -18210,16 +16240,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city1_city4_fl2_fl1_fl0
@@ -18229,16 +16257,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city1_city4_fl3_fl2_fl1
@@ -18248,16 +16274,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city1_city4_fl4_fl3_fl2
@@ -18267,16 +16291,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city1_city4_fl5_fl4_fl3
@@ -18286,16 +16308,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city1_city4_fl6_fl5_fl4
@@ -18305,16 +16325,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city1_city5_fl2_fl1_fl0
@@ -18324,16 +16342,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city1_city5_fl3_fl2_fl1
@@ -18343,16 +16359,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city1_city5_fl4_fl3_fl2
@@ -18362,16 +16376,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city1_city5_fl5_fl4_fl3
@@ -18381,16 +16393,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city1_city5_fl6_fl5_fl4
@@ -18400,16 +16410,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city1))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city1))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city2_city0_fl2_fl1_fl0
@@ -18419,16 +16427,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city2_city0_fl3_fl2_fl1
@@ -18438,16 +16444,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city2_city0_fl4_fl3_fl2
@@ -18457,16 +16461,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city2_city0_fl5_fl4_fl3
@@ -18476,16 +16478,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city2_city0_fl6_fl5_fl4
@@ -18495,16 +16495,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city2_city1_fl2_fl1_fl0
@@ -18514,16 +16512,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city2_city1_fl3_fl2_fl1
@@ -18533,16 +16529,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city2_city1_fl4_fl3_fl2
@@ -18552,16 +16546,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city2_city1_fl5_fl4_fl3
@@ -18571,16 +16563,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city2_city1_fl6_fl5_fl4
@@ -18590,16 +16580,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city2_city2_fl2_fl1_fl0
@@ -18609,16 +16597,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city2_city2_fl3_fl2_fl1
@@ -18628,16 +16614,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city2_city2_fl4_fl3_fl2
@@ -18647,16 +16631,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city2_city2_fl5_fl4_fl3
@@ -18666,16 +16648,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city2_city2_fl6_fl5_fl4
@@ -18685,16 +16665,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city2_city3_fl2_fl1_fl0
@@ -18704,16 +16682,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city2_city3_fl3_fl2_fl1
@@ -18723,16 +16699,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city2_city3_fl4_fl3_fl2
@@ -18742,16 +16716,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city2_city3_fl5_fl4_fl3
@@ -18761,16 +16733,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city2_city3_fl6_fl5_fl4
@@ -18780,16 +16750,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city2_city4_fl2_fl1_fl0
@@ -18799,16 +16767,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city2_city4_fl3_fl2_fl1
@@ -18818,16 +16784,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city2_city4_fl4_fl3_fl2
@@ -18837,16 +16801,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city2_city4_fl5_fl4_fl3
@@ -18856,16 +16818,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city2_city4_fl6_fl5_fl4
@@ -18875,16 +16835,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city2_city5_fl2_fl1_fl0
@@ -18894,16 +16852,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city2_city5_fl3_fl2_fl1
@@ -18913,16 +16869,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city2_city5_fl4_fl3_fl2
@@ -18932,16 +16886,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city2_city5_fl5_fl4_fl3
@@ -18951,16 +16903,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city2_city5_fl6_fl5_fl4
@@ -18970,16 +16920,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city3_city0_fl2_fl1_fl0
@@ -18989,16 +16937,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city3_city0_fl3_fl2_fl1
@@ -19008,16 +16954,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city3_city0_fl4_fl3_fl2
@@ -19027,16 +16971,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city3_city0_fl5_fl4_fl3
@@ -19046,16 +16988,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city3_city0_fl6_fl5_fl4
@@ -19065,16 +17005,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city3_city1_fl2_fl1_fl0
@@ -19084,16 +17022,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city3_city1_fl3_fl2_fl1
@@ -19103,16 +17039,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city3_city1_fl4_fl3_fl2
@@ -19122,16 +17056,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city3_city1_fl5_fl4_fl3
@@ -19141,16 +17073,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city3_city1_fl6_fl5_fl4
@@ -19160,16 +17090,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city3_city2_fl2_fl1_fl0
@@ -19179,16 +17107,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city3_city2_fl3_fl2_fl1
@@ -19198,16 +17124,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city3_city2_fl4_fl3_fl2
@@ -19217,16 +17141,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city3_city2_fl5_fl4_fl3
@@ -19236,16 +17158,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city3_city2_fl6_fl5_fl4
@@ -19255,16 +17175,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city3_city3_fl2_fl1_fl0
@@ -19274,16 +17192,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city3_city3_fl3_fl2_fl1
@@ -19293,16 +17209,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city3_city3_fl4_fl3_fl2
@@ -19312,16 +17226,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city3_city3_fl5_fl4_fl3
@@ -19331,16 +17243,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city3_city3_fl6_fl5_fl4
@@ -19350,16 +17260,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city3_city4_fl2_fl1_fl0
@@ -19369,16 +17277,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city3_city4_fl3_fl2_fl1
@@ -19388,16 +17294,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city3_city4_fl4_fl3_fl2
@@ -19407,16 +17311,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city3_city4_fl5_fl4_fl3
@@ -19426,16 +17328,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city3_city4_fl6_fl5_fl4
@@ -19445,16 +17345,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city3_city5_fl2_fl1_fl0
@@ -19464,16 +17362,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city3_city5_fl3_fl2_fl1
@@ -19483,16 +17379,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city3_city5_fl4_fl3_fl2
@@ -19502,16 +17396,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city3_city5_fl5_fl4_fl3
@@ -19521,16 +17413,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city3_city5_fl6_fl5_fl4
@@ -19540,16 +17430,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city4_city0_fl2_fl1_fl0
@@ -19559,16 +17447,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city4_city0_fl3_fl2_fl1
@@ -19578,16 +17464,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city4_city0_fl4_fl3_fl2
@@ -19597,16 +17481,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city4_city0_fl5_fl4_fl3
@@ -19616,16 +17498,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city4_city0_fl6_fl5_fl4
@@ -19635,16 +17515,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city4_city1_fl2_fl1_fl0
@@ -19654,16 +17532,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city4_city1_fl3_fl2_fl1
@@ -19673,16 +17549,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city4_city1_fl4_fl3_fl2
@@ -19692,16 +17566,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city4_city1_fl5_fl4_fl3
@@ -19711,16 +17583,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city4_city1_fl6_fl5_fl4
@@ -19730,16 +17600,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city4_city2_fl2_fl1_fl0
@@ -19749,16 +17617,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city4_city2_fl3_fl2_fl1
@@ -19768,16 +17634,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city4_city2_fl4_fl3_fl2
@@ -19787,16 +17651,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city4_city2_fl5_fl4_fl3
@@ -19806,16 +17668,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city4_city2_fl6_fl5_fl4
@@ -19825,16 +17685,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city4_city3_fl2_fl1_fl0
@@ -19844,16 +17702,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city4_city3_fl3_fl2_fl1
@@ -19863,16 +17719,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city4_city3_fl4_fl3_fl2
@@ -19882,16 +17736,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city4_city3_fl5_fl4_fl3
@@ -19901,16 +17753,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city4_city3_fl6_fl5_fl4
@@ -19920,16 +17770,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city4_city4_fl2_fl1_fl0
@@ -19939,16 +17787,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city4_city4_fl3_fl2_fl1
@@ -19958,16 +17804,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city4_city4_fl4_fl3_fl2
@@ -19977,16 +17821,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city4_city4_fl5_fl4_fl3
@@ -19996,16 +17838,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city4_city4_fl6_fl5_fl4
@@ -20015,16 +17855,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city4_city5_fl2_fl1_fl0
@@ -20034,16 +17872,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city4_city5_fl3_fl2_fl1
@@ -20053,16 +17889,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city4_city5_fl4_fl3_fl2
@@ -20072,16 +17906,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city4_city5_fl5_fl4_fl3
@@ -20091,16 +17923,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city4_city5_fl6_fl5_fl4
@@ -20110,16 +17940,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city4))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city4))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city5_city0_fl2_fl1_fl0
@@ -20129,16 +17957,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city5_city0_fl3_fl2_fl1
@@ -20148,16 +17974,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city5_city0_fl4_fl3_fl2
@@ -20167,16 +17991,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city5_city0_fl5_fl4_fl3
@@ -20186,16 +18008,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city5_city0_fl6_fl5_fl4
@@ -20205,16 +18025,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city0)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city0)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city5_city1_fl2_fl1_fl0
@@ -20224,16 +18042,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city5_city1_fl3_fl2_fl1
@@ -20243,16 +18059,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city5_city1_fl4_fl3_fl2
@@ -20262,16 +18076,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city5_city1_fl5_fl4_fl3
@@ -20281,16 +18093,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city5_city1_fl6_fl5_fl4
@@ -20300,16 +18110,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city1)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city1)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city5_city2_fl2_fl1_fl0
@@ -20319,16 +18127,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city5_city2_fl3_fl2_fl1
@@ -20338,16 +18144,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city5_city2_fl4_fl3_fl2
@@ -20357,16 +18161,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city5_city2_fl5_fl4_fl3
@@ -20376,16 +18178,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city5_city2_fl6_fl5_fl4
@@ -20395,16 +18195,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city2)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city2)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city5_city3_fl2_fl1_fl0
@@ -20414,16 +18212,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city5_city3_fl3_fl2_fl1
@@ -20433,16 +18229,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city5_city3_fl4_fl3_fl2
@@ -20452,16 +18246,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city5_city3_fl5_fl4_fl3
@@ -20471,16 +18263,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city5_city3_fl6_fl5_fl4
@@ -20490,16 +18280,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city3)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city3)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city5_city4_fl2_fl1_fl0
@@ -20509,16 +18297,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city5_city4_fl3_fl2_fl1
@@ -20528,16 +18314,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city5_city4_fl4_fl3_fl2
@@ -20547,16 +18331,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city5_city4_fl5_fl4_fl3
@@ -20566,16 +18348,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city5_city4_fl6_fl5_fl4
@@ -20585,16 +18365,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city4)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city4)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane1_city5_city5_fl2_fl1_fl0
@@ -20604,16 +18382,14 @@
 			(fuellevel plane1 fl2)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action zoom_plane1_city5_city5_fl3_fl2_fl1
@@ -20623,16 +18399,14 @@
 			(fuellevel plane1 fl3)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action zoom_plane1_city5_city5_fl4_fl3_fl2
@@ -20642,16 +18416,14 @@
 			(fuellevel plane1 fl4)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl2)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl2)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action zoom_plane1_city5_city5_fl5_fl4_fl3
@@ -20661,16 +18433,14 @@
 			(fuellevel plane1 fl5)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl3)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl3)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action zoom_plane1_city5_city5_fl6_fl5_fl4
@@ -20680,16 +18450,14 @@
 			(fuellevel plane1 fl6)
 		)
 		:effect (and
-			(and
-				(at plane1 city5)
-				(fuellevel plane1 fl4)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane1 city5)
+			(fuellevel plane1 fl4)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl6))
 		)
 	)
 	(:action zoom_plane2_city0_city0_fl2_fl1_fl0
@@ -20699,16 +18467,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city0_city0_fl3_fl2_fl1
@@ -20718,16 +18484,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city0_city0_fl4_fl3_fl2
@@ -20737,16 +18501,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city0_city0_fl5_fl4_fl3
@@ -20756,16 +18518,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city0_city0_fl6_fl5_fl4
@@ -20775,16 +18535,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city0_city1_fl2_fl1_fl0
@@ -20794,16 +18552,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city0_city1_fl3_fl2_fl1
@@ -20813,16 +18569,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city0_city1_fl4_fl3_fl2
@@ -20832,16 +18586,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city0_city1_fl5_fl4_fl3
@@ -20851,16 +18603,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city0_city1_fl6_fl5_fl4
@@ -20870,16 +18620,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city0_city2_fl2_fl1_fl0
@@ -20889,16 +18637,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city0_city2_fl3_fl2_fl1
@@ -20908,16 +18654,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city0_city2_fl4_fl3_fl2
@@ -20927,16 +18671,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city0_city2_fl5_fl4_fl3
@@ -20946,16 +18688,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city0_city2_fl6_fl5_fl4
@@ -20965,16 +18705,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city0_city3_fl2_fl1_fl0
@@ -20984,16 +18722,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city0_city3_fl3_fl2_fl1
@@ -21003,16 +18739,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city0_city3_fl4_fl3_fl2
@@ -21022,16 +18756,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city0_city3_fl5_fl4_fl3
@@ -21041,16 +18773,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city0_city3_fl6_fl5_fl4
@@ -21060,16 +18790,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city0_city4_fl2_fl1_fl0
@@ -21079,16 +18807,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city0_city4_fl3_fl2_fl1
@@ -21098,16 +18824,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city0_city4_fl4_fl3_fl2
@@ -21117,16 +18841,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city0_city4_fl5_fl4_fl3
@@ -21136,16 +18858,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city0_city4_fl6_fl5_fl4
@@ -21155,16 +18875,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city0_city5_fl2_fl1_fl0
@@ -21174,16 +18892,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city0_city5_fl3_fl2_fl1
@@ -21193,16 +18909,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city0_city5_fl4_fl3_fl2
@@ -21212,16 +18926,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city0_city5_fl5_fl4_fl3
@@ -21231,16 +18943,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city0_city5_fl6_fl5_fl4
@@ -21250,16 +18960,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city0))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city0))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city1_city0_fl2_fl1_fl0
@@ -21269,16 +18977,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city1_city0_fl3_fl2_fl1
@@ -21288,16 +18994,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city1_city0_fl4_fl3_fl2
@@ -21307,16 +19011,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city1_city0_fl5_fl4_fl3
@@ -21326,16 +19028,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city1_city0_fl6_fl5_fl4
@@ -21345,16 +19045,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city1_city1_fl2_fl1_fl0
@@ -21364,16 +19062,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city1_city1_fl3_fl2_fl1
@@ -21383,16 +19079,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city1_city1_fl4_fl3_fl2
@@ -21402,16 +19096,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city1_city1_fl5_fl4_fl3
@@ -21421,16 +19113,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city1_city1_fl6_fl5_fl4
@@ -21440,16 +19130,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city1_city2_fl2_fl1_fl0
@@ -21459,16 +19147,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city1_city2_fl3_fl2_fl1
@@ -21478,16 +19164,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city1_city2_fl4_fl3_fl2
@@ -21497,16 +19181,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city1_city2_fl5_fl4_fl3
@@ -21516,16 +19198,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city1_city2_fl6_fl5_fl4
@@ -21535,16 +19215,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city1_city3_fl2_fl1_fl0
@@ -21554,16 +19232,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city1_city3_fl3_fl2_fl1
@@ -21573,16 +19249,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city1_city3_fl4_fl3_fl2
@@ -21592,16 +19266,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city1_city3_fl5_fl4_fl3
@@ -21611,16 +19283,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city1_city3_fl6_fl5_fl4
@@ -21630,16 +19300,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city1_city4_fl2_fl1_fl0
@@ -21649,16 +19317,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city1_city4_fl3_fl2_fl1
@@ -21668,16 +19334,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city1_city4_fl4_fl3_fl2
@@ -21687,16 +19351,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city1_city4_fl5_fl4_fl3
@@ -21706,16 +19368,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city1_city4_fl6_fl5_fl4
@@ -21725,16 +19385,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city1_city5_fl2_fl1_fl0
@@ -21744,16 +19402,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city1_city5_fl3_fl2_fl1
@@ -21763,16 +19419,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city1_city5_fl4_fl3_fl2
@@ -21782,16 +19436,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city1_city5_fl5_fl4_fl3
@@ -21801,16 +19453,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city1_city5_fl6_fl5_fl4
@@ -21820,16 +19470,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city2_city0_fl2_fl1_fl0
@@ -21839,16 +19487,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city2_city0_fl3_fl2_fl1
@@ -21858,16 +19504,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city2_city0_fl4_fl3_fl2
@@ -21877,16 +19521,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city2_city0_fl5_fl4_fl3
@@ -21896,16 +19538,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city2_city0_fl6_fl5_fl4
@@ -21915,16 +19555,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city2_city1_fl2_fl1_fl0
@@ -21934,16 +19572,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city2_city1_fl3_fl2_fl1
@@ -21953,16 +19589,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city2_city1_fl4_fl3_fl2
@@ -21972,16 +19606,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city2_city1_fl5_fl4_fl3
@@ -21991,16 +19623,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city2_city1_fl6_fl5_fl4
@@ -22010,16 +19640,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city2_city2_fl2_fl1_fl0
@@ -22029,16 +19657,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city2_city2_fl3_fl2_fl1
@@ -22048,16 +19674,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city2_city2_fl4_fl3_fl2
@@ -22067,16 +19691,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city2_city2_fl5_fl4_fl3
@@ -22086,16 +19708,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city2_city2_fl6_fl5_fl4
@@ -22105,16 +19725,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city2_city3_fl2_fl1_fl0
@@ -22124,16 +19742,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city2_city3_fl3_fl2_fl1
@@ -22143,16 +19759,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city2_city3_fl4_fl3_fl2
@@ -22162,16 +19776,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city2_city3_fl5_fl4_fl3
@@ -22181,16 +19793,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city2_city3_fl6_fl5_fl4
@@ -22200,16 +19810,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city2_city4_fl2_fl1_fl0
@@ -22219,16 +19827,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city2_city4_fl3_fl2_fl1
@@ -22238,16 +19844,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city2_city4_fl4_fl3_fl2
@@ -22257,16 +19861,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city2_city4_fl5_fl4_fl3
@@ -22276,16 +19878,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city2_city4_fl6_fl5_fl4
@@ -22295,16 +19895,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city2_city5_fl2_fl1_fl0
@@ -22314,16 +19912,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city2_city5_fl3_fl2_fl1
@@ -22333,16 +19929,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city2_city5_fl4_fl3_fl2
@@ -22352,16 +19946,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city2_city5_fl5_fl4_fl3
@@ -22371,16 +19963,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city2_city5_fl6_fl5_fl4
@@ -22390,16 +19980,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city3_city0_fl2_fl1_fl0
@@ -22409,16 +19997,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city3_city0_fl3_fl2_fl1
@@ -22428,16 +20014,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city3_city0_fl4_fl3_fl2
@@ -22447,16 +20031,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city3_city0_fl5_fl4_fl3
@@ -22466,16 +20048,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city3_city0_fl6_fl5_fl4
@@ -22485,16 +20065,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city3_city1_fl2_fl1_fl0
@@ -22504,16 +20082,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city3_city1_fl3_fl2_fl1
@@ -22523,16 +20099,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city3_city1_fl4_fl3_fl2
@@ -22542,16 +20116,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city3_city1_fl5_fl4_fl3
@@ -22561,16 +20133,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city3_city1_fl6_fl5_fl4
@@ -22580,16 +20150,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city3_city2_fl2_fl1_fl0
@@ -22599,16 +20167,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city3_city2_fl3_fl2_fl1
@@ -22618,16 +20184,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city3_city2_fl4_fl3_fl2
@@ -22637,16 +20201,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city3_city2_fl5_fl4_fl3
@@ -22656,16 +20218,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city3_city2_fl6_fl5_fl4
@@ -22675,16 +20235,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city3_city3_fl2_fl1_fl0
@@ -22694,16 +20252,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city3_city3_fl3_fl2_fl1
@@ -22713,16 +20269,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city3_city3_fl4_fl3_fl2
@@ -22732,16 +20286,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city3_city3_fl5_fl4_fl3
@@ -22751,16 +20303,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city3_city3_fl6_fl5_fl4
@@ -22770,16 +20320,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city3_city4_fl2_fl1_fl0
@@ -22789,16 +20337,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city3_city4_fl3_fl2_fl1
@@ -22808,16 +20354,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city3_city4_fl4_fl3_fl2
@@ -22827,16 +20371,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city3_city4_fl5_fl4_fl3
@@ -22846,16 +20388,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city3_city4_fl6_fl5_fl4
@@ -22865,16 +20405,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city3_city5_fl2_fl1_fl0
@@ -22884,16 +20422,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city3_city5_fl3_fl2_fl1
@@ -22903,16 +20439,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city3_city5_fl4_fl3_fl2
@@ -22922,16 +20456,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city3_city5_fl5_fl4_fl3
@@ -22941,16 +20473,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city3_city5_fl6_fl5_fl4
@@ -22960,16 +20490,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city4_city0_fl2_fl1_fl0
@@ -22979,16 +20507,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city4_city0_fl3_fl2_fl1
@@ -22998,16 +20524,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city4_city0_fl4_fl3_fl2
@@ -23017,16 +20541,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city4_city0_fl5_fl4_fl3
@@ -23036,16 +20558,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city4_city0_fl6_fl5_fl4
@@ -23055,16 +20575,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city4_city1_fl2_fl1_fl0
@@ -23074,16 +20592,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city4_city1_fl3_fl2_fl1
@@ -23093,16 +20609,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city4_city1_fl4_fl3_fl2
@@ -23112,16 +20626,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city4_city1_fl5_fl4_fl3
@@ -23131,16 +20643,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city4_city1_fl6_fl5_fl4
@@ -23150,16 +20660,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city4_city2_fl2_fl1_fl0
@@ -23169,16 +20677,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city4_city2_fl3_fl2_fl1
@@ -23188,16 +20694,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city4_city2_fl4_fl3_fl2
@@ -23207,16 +20711,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city4_city2_fl5_fl4_fl3
@@ -23226,16 +20728,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city4_city2_fl6_fl5_fl4
@@ -23245,16 +20745,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city4_city3_fl2_fl1_fl0
@@ -23264,16 +20762,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city4_city3_fl3_fl2_fl1
@@ -23283,16 +20779,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city4_city3_fl4_fl3_fl2
@@ -23302,16 +20796,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city4_city3_fl5_fl4_fl3
@@ -23321,16 +20813,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city4_city3_fl6_fl5_fl4
@@ -23340,16 +20830,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city4_city4_fl2_fl1_fl0
@@ -23359,16 +20847,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city4_city4_fl3_fl2_fl1
@@ -23378,16 +20864,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city4_city4_fl4_fl3_fl2
@@ -23397,16 +20881,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city4_city4_fl5_fl4_fl3
@@ -23416,16 +20898,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city4_city4_fl6_fl5_fl4
@@ -23435,16 +20915,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city4_city5_fl2_fl1_fl0
@@ -23454,16 +20932,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city4_city5_fl3_fl2_fl1
@@ -23473,16 +20949,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city4_city5_fl4_fl3_fl2
@@ -23492,16 +20966,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city4_city5_fl5_fl4_fl3
@@ -23511,16 +20983,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city4_city5_fl6_fl5_fl4
@@ -23530,16 +21000,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city5_city0_fl2_fl1_fl0
@@ -23549,16 +21017,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city5_city0_fl3_fl2_fl1
@@ -23568,16 +21034,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city5_city0_fl4_fl3_fl2
@@ -23587,16 +21051,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city5_city0_fl5_fl4_fl3
@@ -23606,16 +21068,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city5_city0_fl6_fl5_fl4
@@ -23625,16 +21085,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city0)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city0)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city5_city1_fl2_fl1_fl0
@@ -23644,16 +21102,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city5_city1_fl3_fl2_fl1
@@ -23663,16 +21119,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city5_city1_fl4_fl3_fl2
@@ -23682,16 +21136,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city5_city1_fl5_fl4_fl3
@@ -23701,16 +21153,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city5_city1_fl6_fl5_fl4
@@ -23720,16 +21170,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city1)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city1)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city5_city2_fl2_fl1_fl0
@@ -23739,16 +21187,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city5_city2_fl3_fl2_fl1
@@ -23758,16 +21204,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city5_city2_fl4_fl3_fl2
@@ -23777,16 +21221,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city5_city2_fl5_fl4_fl3
@@ -23796,16 +21238,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city5_city2_fl6_fl5_fl4
@@ -23815,16 +21255,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city2)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city2)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city5_city3_fl2_fl1_fl0
@@ -23834,16 +21272,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city5_city3_fl3_fl2_fl1
@@ -23853,16 +21289,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city5_city3_fl4_fl3_fl2
@@ -23872,16 +21306,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city5_city3_fl5_fl4_fl3
@@ -23891,16 +21323,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city5_city3_fl6_fl5_fl4
@@ -23910,16 +21340,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city3)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city3)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city5_city4_fl2_fl1_fl0
@@ -23929,16 +21357,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city5_city4_fl3_fl2_fl1
@@ -23948,16 +21374,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city5_city4_fl4_fl3_fl2
@@ -23967,16 +21391,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city5_city4_fl5_fl4_fl3
@@ -23986,16 +21408,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city5_city4_fl6_fl5_fl4
@@ -24005,16 +21425,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city4)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city4)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane2_city5_city5_fl2_fl1_fl0
@@ -24024,16 +21442,14 @@
 			(fuellevel plane2 fl2)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action zoom_plane2_city5_city5_fl3_fl2_fl1
@@ -24043,16 +21459,14 @@
 			(fuellevel plane2 fl3)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action zoom_plane2_city5_city5_fl4_fl3_fl2
@@ -24062,16 +21476,14 @@
 			(fuellevel plane2 fl4)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl2)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl2)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action zoom_plane2_city5_city5_fl5_fl4_fl3
@@ -24081,16 +21493,14 @@
 			(fuellevel plane2 fl5)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action zoom_plane2_city5_city5_fl6_fl5_fl4
@@ -24100,16 +21510,14 @@
 			(fuellevel plane2 fl6)
 		)
 		:effect (and
-			(and
-				(at plane2 city5)
-				(fuellevel plane2 fl4)
-				(not (at plane2 city5))
-				(not (fuellevel plane2 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane2 city5)
+			(fuellevel plane2 fl4)
+			(not (at plane2 city5))
+			(not (fuellevel plane2 fl6))
 		)
 	)
 	(:action zoom_plane3_city0_city0_fl2_fl1_fl0
@@ -24119,16 +21527,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city0_city0_fl3_fl2_fl1
@@ -24138,16 +21544,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city0_city0_fl4_fl3_fl2
@@ -24157,16 +21561,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city0_city0_fl5_fl4_fl3
@@ -24176,16 +21578,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city0_city0_fl6_fl5_fl4
@@ -24195,16 +21595,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city0_city1_fl2_fl1_fl0
@@ -24214,16 +21612,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city0_city1_fl3_fl2_fl1
@@ -24233,16 +21629,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city0_city1_fl4_fl3_fl2
@@ -24252,16 +21646,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city0_city1_fl5_fl4_fl3
@@ -24271,16 +21663,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city0_city1_fl6_fl5_fl4
@@ -24290,16 +21680,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city0_city2_fl2_fl1_fl0
@@ -24309,16 +21697,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city0_city2_fl3_fl2_fl1
@@ -24328,16 +21714,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city0_city2_fl4_fl3_fl2
@@ -24347,16 +21731,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city0_city2_fl5_fl4_fl3
@@ -24366,16 +21748,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city0_city2_fl6_fl5_fl4
@@ -24385,16 +21765,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city0_city3_fl2_fl1_fl0
@@ -24404,16 +21782,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city0_city3_fl3_fl2_fl1
@@ -24423,16 +21799,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city0_city3_fl4_fl3_fl2
@@ -24442,16 +21816,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city0_city3_fl5_fl4_fl3
@@ -24461,16 +21833,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city0_city3_fl6_fl5_fl4
@@ -24480,16 +21850,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city0_city4_fl2_fl1_fl0
@@ -24499,16 +21867,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city0_city4_fl3_fl2_fl1
@@ -24518,16 +21884,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city0_city4_fl4_fl3_fl2
@@ -24537,16 +21901,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city0_city4_fl5_fl4_fl3
@@ -24556,16 +21918,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city0_city4_fl6_fl5_fl4
@@ -24575,16 +21935,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city0_city5_fl2_fl1_fl0
@@ -24594,16 +21952,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city0_city5_fl3_fl2_fl1
@@ -24613,16 +21969,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city0_city5_fl4_fl3_fl2
@@ -24632,16 +21986,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city0_city5_fl5_fl4_fl3
@@ -24651,16 +22003,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city0_city5_fl6_fl5_fl4
@@ -24670,16 +22020,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city0))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city0))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city1_city0_fl2_fl1_fl0
@@ -24689,16 +22037,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city1_city0_fl3_fl2_fl1
@@ -24708,16 +22054,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city1_city0_fl4_fl3_fl2
@@ -24727,16 +22071,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city1_city0_fl5_fl4_fl3
@@ -24746,16 +22088,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city1_city0_fl6_fl5_fl4
@@ -24765,16 +22105,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city1_city1_fl2_fl1_fl0
@@ -24784,16 +22122,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city1_city1_fl3_fl2_fl1
@@ -24803,16 +22139,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city1_city1_fl4_fl3_fl2
@@ -24822,16 +22156,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city1_city1_fl5_fl4_fl3
@@ -24841,16 +22173,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city1_city1_fl6_fl5_fl4
@@ -24860,16 +22190,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city1_city2_fl2_fl1_fl0
@@ -24879,16 +22207,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city1_city2_fl3_fl2_fl1
@@ -24898,16 +22224,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city1_city2_fl4_fl3_fl2
@@ -24917,16 +22241,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city1_city2_fl5_fl4_fl3
@@ -24936,16 +22258,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city1_city2_fl6_fl5_fl4
@@ -24955,16 +22275,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city1_city3_fl2_fl1_fl0
@@ -24974,16 +22292,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city1_city3_fl3_fl2_fl1
@@ -24993,16 +22309,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city1_city3_fl4_fl3_fl2
@@ -25012,16 +22326,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city1_city3_fl5_fl4_fl3
@@ -25031,16 +22343,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city1_city3_fl6_fl5_fl4
@@ -25050,16 +22360,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city1_city4_fl2_fl1_fl0
@@ -25069,16 +22377,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city1_city4_fl3_fl2_fl1
@@ -25088,16 +22394,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city1_city4_fl4_fl3_fl2
@@ -25107,16 +22411,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city1_city4_fl5_fl4_fl3
@@ -25126,16 +22428,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city1_city4_fl6_fl5_fl4
@@ -25145,16 +22445,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city1_city5_fl2_fl1_fl0
@@ -25164,16 +22462,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city1_city5_fl3_fl2_fl1
@@ -25183,16 +22479,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city1_city5_fl4_fl3_fl2
@@ -25202,16 +22496,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city1_city5_fl5_fl4_fl3
@@ -25221,16 +22513,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city1_city5_fl6_fl5_fl4
@@ -25240,16 +22530,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city2_city0_fl2_fl1_fl0
@@ -25259,16 +22547,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city2_city0_fl3_fl2_fl1
@@ -25278,16 +22564,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city2_city0_fl4_fl3_fl2
@@ -25297,16 +22581,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city2_city0_fl5_fl4_fl3
@@ -25316,16 +22598,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city2_city0_fl6_fl5_fl4
@@ -25335,16 +22615,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city2_city1_fl2_fl1_fl0
@@ -25354,16 +22632,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city2_city1_fl3_fl2_fl1
@@ -25373,16 +22649,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city2_city1_fl4_fl3_fl2
@@ -25392,16 +22666,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city2_city1_fl5_fl4_fl3
@@ -25411,16 +22683,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city2_city1_fl6_fl5_fl4
@@ -25430,16 +22700,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city2_city2_fl2_fl1_fl0
@@ -25449,16 +22717,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city2_city2_fl3_fl2_fl1
@@ -25468,16 +22734,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city2_city2_fl4_fl3_fl2
@@ -25487,16 +22751,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city2_city2_fl5_fl4_fl3
@@ -25506,16 +22768,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city2_city2_fl6_fl5_fl4
@@ -25525,16 +22785,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city2_city3_fl2_fl1_fl0
@@ -25544,16 +22802,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city2_city3_fl3_fl2_fl1
@@ -25563,16 +22819,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city2_city3_fl4_fl3_fl2
@@ -25582,16 +22836,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city2_city3_fl5_fl4_fl3
@@ -25601,16 +22853,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city2_city3_fl6_fl5_fl4
@@ -25620,16 +22870,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city2_city4_fl2_fl1_fl0
@@ -25639,16 +22887,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city2_city4_fl3_fl2_fl1
@@ -25658,16 +22904,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city2_city4_fl4_fl3_fl2
@@ -25677,16 +22921,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city2_city4_fl5_fl4_fl3
@@ -25696,16 +22938,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city2_city4_fl6_fl5_fl4
@@ -25715,16 +22955,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city2_city5_fl2_fl1_fl0
@@ -25734,16 +22972,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city2_city5_fl3_fl2_fl1
@@ -25753,16 +22989,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city2_city5_fl4_fl3_fl2
@@ -25772,16 +23006,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city2_city5_fl5_fl4_fl3
@@ -25791,16 +23023,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city2_city5_fl6_fl5_fl4
@@ -25810,16 +23040,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city3_city0_fl2_fl1_fl0
@@ -25829,16 +23057,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city3_city0_fl3_fl2_fl1
@@ -25848,16 +23074,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city3_city0_fl4_fl3_fl2
@@ -25867,16 +23091,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city3_city0_fl5_fl4_fl3
@@ -25886,16 +23108,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city3_city0_fl6_fl5_fl4
@@ -25905,16 +23125,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city3_city1_fl2_fl1_fl0
@@ -25924,16 +23142,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city3_city1_fl3_fl2_fl1
@@ -25943,16 +23159,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city3_city1_fl4_fl3_fl2
@@ -25962,16 +23176,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city3_city1_fl5_fl4_fl3
@@ -25981,16 +23193,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city3_city1_fl6_fl5_fl4
@@ -26000,16 +23210,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city3_city2_fl2_fl1_fl0
@@ -26019,16 +23227,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city3_city2_fl3_fl2_fl1
@@ -26038,16 +23244,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city3_city2_fl4_fl3_fl2
@@ -26057,16 +23261,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city3_city2_fl5_fl4_fl3
@@ -26076,16 +23278,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city3_city2_fl6_fl5_fl4
@@ -26095,16 +23295,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city3_city3_fl2_fl1_fl0
@@ -26114,16 +23312,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city3_city3_fl3_fl2_fl1
@@ -26133,16 +23329,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city3_city3_fl4_fl3_fl2
@@ -26152,16 +23346,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city3_city3_fl5_fl4_fl3
@@ -26171,16 +23363,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city3_city3_fl6_fl5_fl4
@@ -26190,16 +23380,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city3_city4_fl2_fl1_fl0
@@ -26209,16 +23397,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city3_city4_fl3_fl2_fl1
@@ -26228,16 +23414,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city3_city4_fl4_fl3_fl2
@@ -26247,16 +23431,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city3_city4_fl5_fl4_fl3
@@ -26266,16 +23448,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city3_city4_fl6_fl5_fl4
@@ -26285,16 +23465,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city3_city5_fl2_fl1_fl0
@@ -26304,16 +23482,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city3_city5_fl3_fl2_fl1
@@ -26323,16 +23499,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city3_city5_fl4_fl3_fl2
@@ -26342,16 +23516,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city3_city5_fl5_fl4_fl3
@@ -26361,16 +23533,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city3_city5_fl6_fl5_fl4
@@ -26380,16 +23550,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city4_city0_fl2_fl1_fl0
@@ -26399,16 +23567,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city4_city0_fl3_fl2_fl1
@@ -26418,16 +23584,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city4_city0_fl4_fl3_fl2
@@ -26437,16 +23601,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city4_city0_fl5_fl4_fl3
@@ -26456,16 +23618,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city4_city0_fl6_fl5_fl4
@@ -26475,16 +23635,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city4_city1_fl2_fl1_fl0
@@ -26494,16 +23652,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city4_city1_fl3_fl2_fl1
@@ -26513,16 +23669,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city4_city1_fl4_fl3_fl2
@@ -26532,16 +23686,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city4_city1_fl5_fl4_fl3
@@ -26551,16 +23703,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city4_city1_fl6_fl5_fl4
@@ -26570,16 +23720,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city4_city2_fl2_fl1_fl0
@@ -26589,16 +23737,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city4_city2_fl3_fl2_fl1
@@ -26608,16 +23754,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city4_city2_fl4_fl3_fl2
@@ -26627,16 +23771,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city4_city2_fl5_fl4_fl3
@@ -26646,16 +23788,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city4_city2_fl6_fl5_fl4
@@ -26665,16 +23805,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city4_city3_fl2_fl1_fl0
@@ -26684,16 +23822,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city4_city3_fl3_fl2_fl1
@@ -26703,16 +23839,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city4_city3_fl4_fl3_fl2
@@ -26722,16 +23856,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city4_city3_fl5_fl4_fl3
@@ -26741,16 +23873,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city4_city3_fl6_fl5_fl4
@@ -26760,16 +23890,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city4_city4_fl2_fl1_fl0
@@ -26779,16 +23907,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city4_city4_fl3_fl2_fl1
@@ -26798,16 +23924,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city4_city4_fl4_fl3_fl2
@@ -26817,16 +23941,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city4_city4_fl5_fl4_fl3
@@ -26836,16 +23958,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city4_city4_fl6_fl5_fl4
@@ -26855,16 +23975,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city4_city5_fl2_fl1_fl0
@@ -26874,16 +23992,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city4_city5_fl3_fl2_fl1
@@ -26893,16 +24009,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city4_city5_fl4_fl3_fl2
@@ -26912,16 +24026,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city4_city5_fl5_fl4_fl3
@@ -26931,16 +24043,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city4_city5_fl6_fl5_fl4
@@ -26950,16 +24060,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city4))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city4))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city5_city0_fl2_fl1_fl0
@@ -26969,16 +24077,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city5_city0_fl3_fl2_fl1
@@ -26988,16 +24094,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city5_city0_fl4_fl3_fl2
@@ -27007,16 +24111,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city5_city0_fl5_fl4_fl3
@@ -27026,16 +24128,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city5_city0_fl6_fl5_fl4
@@ -27045,16 +24145,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city0)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city0)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city5_city1_fl2_fl1_fl0
@@ -27064,16 +24162,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city5_city1_fl3_fl2_fl1
@@ -27083,16 +24179,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city5_city1_fl4_fl3_fl2
@@ -27102,16 +24196,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city5_city1_fl5_fl4_fl3
@@ -27121,16 +24213,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city5_city1_fl6_fl5_fl4
@@ -27140,16 +24230,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city1)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city1)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city5_city2_fl2_fl1_fl0
@@ -27159,16 +24247,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city5_city2_fl3_fl2_fl1
@@ -27178,16 +24264,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city5_city2_fl4_fl3_fl2
@@ -27197,16 +24281,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city5_city2_fl5_fl4_fl3
@@ -27216,16 +24298,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city5_city2_fl6_fl5_fl4
@@ -27235,16 +24315,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city2)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city2)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city5_city3_fl2_fl1_fl0
@@ -27254,16 +24332,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city5_city3_fl3_fl2_fl1
@@ -27273,16 +24349,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city5_city3_fl4_fl3_fl2
@@ -27292,16 +24366,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city5_city3_fl5_fl4_fl3
@@ -27311,16 +24383,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city5_city3_fl6_fl5_fl4
@@ -27330,16 +24400,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city3)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city3)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city5_city4_fl2_fl1_fl0
@@ -27349,16 +24417,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city5_city4_fl3_fl2_fl1
@@ -27368,16 +24434,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city5_city4_fl4_fl3_fl2
@@ -27387,16 +24451,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city5_city4_fl5_fl4_fl3
@@ -27406,16 +24468,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city5_city4_fl6_fl5_fl4
@@ -27425,16 +24485,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city4)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city4)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action zoom_plane3_city5_city5_fl2_fl1_fl0
@@ -27444,16 +24502,14 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action zoom_plane3_city5_city5_fl3_fl2_fl1
@@ -27463,16 +24519,14 @@
 			(fuellevel plane3 fl3)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl1)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl1)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action zoom_plane3_city5_city5_fl4_fl3_fl2
@@ -27482,16 +24536,14 @@
 			(fuellevel plane3 fl4)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl2)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl2)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action zoom_plane3_city5_city5_fl5_fl4_fl3
@@ -27501,16 +24553,14 @@
 			(fuellevel plane3 fl5)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl3)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl3)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action zoom_plane3_city5_city5_fl6_fl5_fl4
@@ -27520,16 +24570,14 @@
 			(fuellevel plane3 fl6)
 		)
 		:effect (and
-			(and
-				(at plane3 city5)
-				(fuellevel plane3 fl4)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at plane3 city5)
+			(fuellevel plane3 fl4)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl6))
 		)
 	)
 	(:action refuel_plane1_city0_fl0_fl1
@@ -27539,14 +24587,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl1)
-				(not (fuellevel plane1 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl1)
+			(not (fuellevel plane1 fl0))
 		)
 	)
 	(:action refuel_plane1_city0_fl1_fl2
@@ -27556,14 +24602,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl2)
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl2)
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action refuel_plane1_city0_fl2_fl3
@@ -27573,14 +24617,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl3)
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl3)
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action refuel_plane1_city0_fl3_fl4
@@ -27590,14 +24632,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl4)
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl4)
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action refuel_plane1_city0_fl4_fl5
@@ -27607,14 +24647,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl5)
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl5)
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action refuel_plane1_city0_fl5_fl6
@@ -27624,14 +24662,12 @@
 			(at plane1 city0)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl6)
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl6)
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action refuel_plane1_city1_fl0_fl1
@@ -27641,14 +24677,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl1)
-				(not (fuellevel plane1 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl1)
+			(not (fuellevel plane1 fl0))
 		)
 	)
 	(:action refuel_plane1_city1_fl1_fl2
@@ -27658,14 +24692,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl2)
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl2)
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action refuel_plane1_city1_fl2_fl3
@@ -27675,14 +24707,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl3)
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl3)
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action refuel_plane1_city1_fl3_fl4
@@ -27692,14 +24722,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl4)
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl4)
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action refuel_plane1_city1_fl4_fl5
@@ -27709,14 +24737,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl5)
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl5)
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action refuel_plane1_city1_fl5_fl6
@@ -27726,14 +24752,12 @@
 			(at plane1 city1)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl6)
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl6)
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action refuel_plane1_city2_fl0_fl1
@@ -27743,14 +24767,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl1)
-				(not (fuellevel plane1 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl1)
+			(not (fuellevel plane1 fl0))
 		)
 	)
 	(:action refuel_plane1_city2_fl1_fl2
@@ -27760,14 +24782,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl2)
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl2)
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action refuel_plane1_city2_fl2_fl3
@@ -27777,14 +24797,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl3)
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl3)
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action refuel_plane1_city2_fl3_fl4
@@ -27794,14 +24812,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl4)
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl4)
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action refuel_plane1_city2_fl4_fl5
@@ -27811,14 +24827,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl5)
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl5)
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action refuel_plane1_city2_fl5_fl6
@@ -27828,14 +24842,12 @@
 			(at plane1 city2)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl6)
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl6)
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action refuel_plane1_city3_fl0_fl1
@@ -27845,14 +24857,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl1)
-				(not (fuellevel plane1 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl1)
+			(not (fuellevel plane1 fl0))
 		)
 	)
 	(:action refuel_plane1_city3_fl1_fl2
@@ -27862,14 +24872,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl2)
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl2)
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action refuel_plane1_city3_fl2_fl3
@@ -27879,14 +24887,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl3)
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl3)
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action refuel_plane1_city3_fl3_fl4
@@ -27896,14 +24902,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl4)
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl4)
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action refuel_plane1_city3_fl4_fl5
@@ -27913,14 +24917,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl5)
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl5)
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action refuel_plane1_city3_fl5_fl6
@@ -27930,14 +24932,12 @@
 			(at plane1 city3)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl6)
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl6)
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action refuel_plane1_city4_fl0_fl1
@@ -27947,14 +24947,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl1)
-				(not (fuellevel plane1 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl1)
+			(not (fuellevel plane1 fl0))
 		)
 	)
 	(:action refuel_plane1_city4_fl1_fl2
@@ -27964,14 +24962,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl2)
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl2)
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action refuel_plane1_city4_fl2_fl3
@@ -27981,14 +24977,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl3)
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl3)
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action refuel_plane1_city4_fl3_fl4
@@ -27998,14 +24992,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl4)
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl4)
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action refuel_plane1_city4_fl4_fl5
@@ -28015,14 +25007,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl5)
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl5)
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action refuel_plane1_city4_fl5_fl6
@@ -28032,14 +25022,12 @@
 			(at plane1 city4)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl6)
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl6)
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action refuel_plane1_city5_fl0_fl1
@@ -28049,14 +25037,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl1)
-				(not (fuellevel plane1 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl1)
+			(not (fuellevel plane1 fl0))
 		)
 	)
 	(:action refuel_plane1_city5_fl1_fl2
@@ -28066,14 +25052,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl2)
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl2)
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action refuel_plane1_city5_fl2_fl3
@@ -28083,14 +25067,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl3)
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl3)
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action refuel_plane1_city5_fl3_fl4
@@ -28100,14 +25082,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl4)
-				(not (fuellevel plane1 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl4)
+			(not (fuellevel plane1 fl3))
 		)
 	)
 	(:action refuel_plane1_city5_fl4_fl5
@@ -28117,14 +25097,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl5)
-				(not (fuellevel plane1 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl5)
+			(not (fuellevel plane1 fl4))
 		)
 	)
 	(:action refuel_plane1_city5_fl5_fl6
@@ -28134,14 +25112,12 @@
 			(at plane1 city5)
 		)
 		:effect (and
-			(and
-				(fuellevel plane1 fl6)
-				(not (fuellevel plane1 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane1 fl6)
+			(not (fuellevel plane1 fl5))
 		)
 	)
 	(:action refuel_plane2_city0_fl0_fl1
@@ -28151,14 +25127,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl1)
-				(not (fuellevel plane2 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl1)
+			(not (fuellevel plane2 fl0))
 		)
 	)
 	(:action refuel_plane2_city0_fl1_fl2
@@ -28168,14 +25142,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl2)
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl2)
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action refuel_plane2_city0_fl2_fl3
@@ -28185,14 +25157,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl3)
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl3)
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action refuel_plane2_city0_fl3_fl4
@@ -28202,14 +25172,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl4)
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl4)
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action refuel_plane2_city0_fl4_fl5
@@ -28219,14 +25187,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl5)
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl5)
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action refuel_plane2_city0_fl5_fl6
@@ -28236,14 +25202,12 @@
 			(at plane2 city0)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl6)
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl6)
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action refuel_plane2_city1_fl0_fl1
@@ -28253,14 +25217,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl1)
-				(not (fuellevel plane2 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl1)
+			(not (fuellevel plane2 fl0))
 		)
 	)
 	(:action refuel_plane2_city1_fl1_fl2
@@ -28270,14 +25232,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl2)
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl2)
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action refuel_plane2_city1_fl2_fl3
@@ -28287,14 +25247,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl3)
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl3)
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action refuel_plane2_city1_fl3_fl4
@@ -28304,14 +25262,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl4)
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl4)
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action refuel_plane2_city1_fl4_fl5
@@ -28321,14 +25277,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl5)
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl5)
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action refuel_plane2_city1_fl5_fl6
@@ -28338,14 +25292,12 @@
 			(at plane2 city1)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl6)
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl6)
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action refuel_plane2_city2_fl0_fl1
@@ -28355,14 +25307,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl1)
-				(not (fuellevel plane2 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl1)
+			(not (fuellevel plane2 fl0))
 		)
 	)
 	(:action refuel_plane2_city2_fl1_fl2
@@ -28372,14 +25322,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl2)
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl2)
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action refuel_plane2_city2_fl2_fl3
@@ -28389,14 +25337,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl3)
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl3)
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action refuel_plane2_city2_fl3_fl4
@@ -28406,14 +25352,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl4)
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl4)
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action refuel_plane2_city2_fl4_fl5
@@ -28423,14 +25367,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl5)
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl5)
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action refuel_plane2_city2_fl5_fl6
@@ -28440,14 +25382,12 @@
 			(at plane2 city2)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl6)
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl6)
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action refuel_plane2_city3_fl0_fl1
@@ -28457,14 +25397,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl1)
-				(not (fuellevel plane2 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl1)
+			(not (fuellevel plane2 fl0))
 		)
 	)
 	(:action refuel_plane2_city3_fl1_fl2
@@ -28474,14 +25412,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl2)
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl2)
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action refuel_plane2_city3_fl2_fl3
@@ -28491,14 +25427,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl3)
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl3)
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action refuel_plane2_city3_fl3_fl4
@@ -28508,14 +25442,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl4)
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl4)
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action refuel_plane2_city3_fl4_fl5
@@ -28525,14 +25457,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl5)
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl5)
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action refuel_plane2_city3_fl5_fl6
@@ -28542,14 +25472,12 @@
 			(at plane2 city3)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl6)
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl6)
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action refuel_plane2_city4_fl0_fl1
@@ -28559,14 +25487,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl1)
-				(not (fuellevel plane2 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl1)
+			(not (fuellevel plane2 fl0))
 		)
 	)
 	(:action refuel_plane2_city4_fl1_fl2
@@ -28576,14 +25502,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl2)
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl2)
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action refuel_plane2_city4_fl2_fl3
@@ -28593,14 +25517,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl3)
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl3)
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action refuel_plane2_city4_fl3_fl4
@@ -28610,14 +25532,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl4)
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl4)
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action refuel_plane2_city4_fl4_fl5
@@ -28627,14 +25547,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl5)
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl5)
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action refuel_plane2_city4_fl5_fl6
@@ -28644,14 +25562,12 @@
 			(at plane2 city4)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl6)
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl6)
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action refuel_plane2_city5_fl0_fl1
@@ -28661,14 +25577,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl1)
-				(not (fuellevel plane2 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl1)
+			(not (fuellevel plane2 fl0))
 		)
 	)
 	(:action refuel_plane2_city5_fl1_fl2
@@ -28678,14 +25592,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl2)
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl2)
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action refuel_plane2_city5_fl2_fl3
@@ -28695,14 +25607,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl3)
-				(not (fuellevel plane2 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl3)
+			(not (fuellevel plane2 fl2))
 		)
 	)
 	(:action refuel_plane2_city5_fl3_fl4
@@ -28712,14 +25622,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl4)
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl4)
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action refuel_plane2_city5_fl4_fl5
@@ -28729,14 +25637,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl5)
-				(not (fuellevel plane2 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl5)
+			(not (fuellevel plane2 fl4))
 		)
 	)
 	(:action refuel_plane2_city5_fl5_fl6
@@ -28746,14 +25652,12 @@
 			(at plane2 city5)
 		)
 		:effect (and
-			(and
-				(fuellevel plane2 fl6)
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane2 fl6)
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action refuel_plane3_city0_fl0_fl1
@@ -28763,14 +25667,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl1)
-				(not (fuellevel plane3 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl1)
+			(not (fuellevel plane3 fl0))
 		)
 	)
 	(:action refuel_plane3_city0_fl1_fl2
@@ -28780,14 +25682,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl2)
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl2)
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action refuel_plane3_city0_fl2_fl3
@@ -28797,14 +25697,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl3)
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl3)
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action refuel_plane3_city0_fl3_fl4
@@ -28814,14 +25712,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl4)
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl4)
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action refuel_plane3_city0_fl4_fl5
@@ -28831,14 +25727,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl5)
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl5)
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action refuel_plane3_city0_fl5_fl6
@@ -28848,14 +25742,12 @@
 			(at plane3 city0)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl6)
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl6)
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action refuel_plane3_city1_fl0_fl1
@@ -28865,14 +25757,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl1)
-				(not (fuellevel plane3 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl1)
+			(not (fuellevel plane3 fl0))
 		)
 	)
 	(:action refuel_plane3_city1_fl1_fl2
@@ -28882,14 +25772,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl2)
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl2)
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action refuel_plane3_city1_fl2_fl3
@@ -28899,14 +25787,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl3)
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl3)
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action refuel_plane3_city1_fl3_fl4
@@ -28916,14 +25802,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl4)
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl4)
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action refuel_plane3_city1_fl4_fl5
@@ -28933,14 +25817,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl5)
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl5)
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action refuel_plane3_city1_fl5_fl6
@@ -28950,14 +25832,12 @@
 			(at plane3 city1)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl6)
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl6)
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action refuel_plane3_city2_fl0_fl1
@@ -28967,14 +25847,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl1)
-				(not (fuellevel plane3 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl1)
+			(not (fuellevel plane3 fl0))
 		)
 	)
 	(:action refuel_plane3_city2_fl1_fl2
@@ -28984,14 +25862,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl2)
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl2)
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action refuel_plane3_city2_fl2_fl3
@@ -29001,14 +25877,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl3)
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl3)
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action refuel_plane3_city2_fl3_fl4
@@ -29018,14 +25892,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl4)
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl4)
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action refuel_plane3_city2_fl4_fl5
@@ -29035,14 +25907,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl5)
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl5)
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action refuel_plane3_city2_fl5_fl6
@@ -29052,14 +25922,12 @@
 			(at plane3 city2)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl6)
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl6)
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action refuel_plane3_city3_fl0_fl1
@@ -29069,14 +25937,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl1)
-				(not (fuellevel plane3 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl1)
+			(not (fuellevel plane3 fl0))
 		)
 	)
 	(:action refuel_plane3_city3_fl1_fl2
@@ -29086,14 +25952,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl2)
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl2)
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action refuel_plane3_city3_fl2_fl3
@@ -29103,14 +25967,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl3)
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl3)
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action refuel_plane3_city3_fl3_fl4
@@ -29120,14 +25982,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl4)
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl4)
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action refuel_plane3_city3_fl4_fl5
@@ -29137,14 +25997,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl5)
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl5)
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action refuel_plane3_city3_fl5_fl6
@@ -29154,14 +26012,12 @@
 			(at plane3 city3)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl6)
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl6)
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action refuel_plane3_city4_fl0_fl1
@@ -29171,14 +26027,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl1)
-				(not (fuellevel plane3 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl1)
+			(not (fuellevel plane3 fl0))
 		)
 	)
 	(:action refuel_plane3_city4_fl1_fl2
@@ -29188,14 +26042,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl2)
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl2)
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action refuel_plane3_city4_fl2_fl3
@@ -29205,14 +26057,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl3)
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl3)
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action refuel_plane3_city4_fl3_fl4
@@ -29222,14 +26072,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl4)
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl4)
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action refuel_plane3_city4_fl4_fl5
@@ -29239,14 +26087,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl5)
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl5)
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action refuel_plane3_city4_fl5_fl6
@@ -29256,14 +26102,12 @@
 			(at plane3 city4)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl6)
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl6)
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action refuel_plane3_city5_fl0_fl1
@@ -29273,14 +26117,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl1)
-				(not (fuellevel plane3 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl1)
+			(not (fuellevel plane3 fl0))
 		)
 	)
 	(:action refuel_plane3_city5_fl1_fl2
@@ -29290,14 +26132,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl2)
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl2)
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action refuel_plane3_city5_fl2_fl3
@@ -29307,14 +26147,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl3)
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl3)
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action refuel_plane3_city5_fl3_fl4
@@ -29324,14 +26162,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl4)
-				(not (fuellevel plane3 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl4)
+			(not (fuellevel plane3 fl3))
 		)
 	)
 	(:action refuel_plane3_city5_fl4_fl5
@@ -29341,14 +26177,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl5)
-				(not (fuellevel plane3 fl4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl5)
+			(not (fuellevel plane3 fl4))
 		)
 	)
 	(:action refuel_plane3_city5_fl5_fl6
@@ -29358,14 +26192,12 @@
 			(at plane3 city5)
 		)
 		:effect (and
-			(and
-				(fuellevel plane3 fl6)
-				(not (fuellevel plane3 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(fuellevel plane3 fl6)
+			(not (fuellevel plane3 fl5))
 		)
 	)
 	(:action observe0_zoom_plane3_city3_city5_fl2_fl1_fl0
@@ -29376,17 +26208,15 @@
 			(fuellevel plane3 fl2)
 		)
 		:effect (and
-			(and
-				(observation0)
-				(at plane3 city5)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation0)
+			(at plane3 city5)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl2))
 		)
 	)
 	(:action observe1_board_person3_plane2_city4
@@ -29398,15 +26228,13 @@
 			(not (observation1))
 		)
 		:effect (and
-			(and
-				(observation1)
-				(in person3 plane2)
-				(not (at person3 city4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation1)
+			(in person3 plane2)
+			(not (at person3 city4))
 		)
 	)
 	(:action observe2_zoom_plane2_city4_city1_fl5_fl4_fl3
@@ -29418,17 +26246,15 @@
 			(not (observation2))
 		)
 		:effect (and
-			(and
-				(observation2)
-				(at plane2 city1)
-				(fuellevel plane2 fl3)
-				(not (at plane2 city4))
-				(not (fuellevel plane2 fl5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation2)
+			(at plane2 city1)
+			(fuellevel plane2 fl3)
+			(not (at plane2 city4))
+			(not (fuellevel plane2 fl5))
 		)
 	)
 	(:action observe3_debark_person3_plane2_city1
@@ -29440,15 +26266,13 @@
 			(not (observation3))
 		)
 		:effect (and
-			(and
-				(observation3)
-				(at person3 city1)
-				(not (in person3 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation3)
+			(at person3 city1)
+			(not (in person3 plane2))
 		)
 	)
 	(:action observe4_zoom_plane1_city2_city0_fl2_fl1_fl0
@@ -29460,17 +26284,15 @@
 			(not (observation4))
 		)
 		:effect (and
-			(and
-				(observation4)
-				(at plane1 city0)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city2))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation4)
+			(at plane1 city0)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city2))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action observe5_zoom_plane2_city1_city2_fl3_fl2_fl1
@@ -29482,17 +26304,15 @@
 			(not (observation5))
 		)
 		:effect (and
-			(and
-				(observation5)
-				(at plane2 city2)
-				(fuellevel plane2 fl1)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation5)
+			(at plane2 city2)
+			(fuellevel plane2 fl1)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl3))
 		)
 	)
 	(:action observe6_board_person6_plane2_city2
@@ -29504,15 +26324,13 @@
 			(not (observation6))
 		)
 		:effect (and
-			(and
-				(observation6)
-				(in person6 plane2)
-				(not (at person6 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation6)
+			(in person6 plane2)
+			(not (at person6 city2))
 		)
 	)
 	(:action observe7_fly_plane2_city2_city1_fl1_fl0
@@ -29524,17 +26342,15 @@
 			(not (observation7))
 		)
 		:effect (and
-			(and
-				(observation7)
-				(at plane2 city1)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation7)
+			(at plane2 city1)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action observe8_debark_person6_plane2_city1
@@ -29546,15 +26362,13 @@
 			(not (observation8))
 		)
 		:effect (and
-			(and
-				(observation8)
-				(at person6 city1)
-				(not (in person6 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation8)
+			(at person6 city1)
+			(not (in person6 plane2))
 		)
 	)
 	(:action observe9_refuel_plane1_city0_fl0_fl1
@@ -29566,15 +26380,13 @@
 			(not (observation9))
 		)
 		:effect (and
-			(and
-				(observation9)
-				(fuellevel plane1 fl1)
-				(not (fuellevel plane1 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation9)
+			(fuellevel plane1 fl1)
+			(not (fuellevel plane1 fl0))
 		)
 	)
 	(:action observe10_fly_plane1_city0_city5_fl1_fl0
@@ -29586,17 +26398,15 @@
 			(not (observation10))
 		)
 		:effect (and
-			(and
-				(observation10)
-				(at plane1 city5)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation10)
+			(at plane1 city5)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action observe11_board_person1_plane1_city5
@@ -29608,15 +26418,13 @@
 			(not (observation11))
 		)
 		:effect (and
-			(and
-				(observation11)
-				(in person1 plane1)
-				(not (at person1 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation11)
+			(in person1 plane1)
+			(not (at person1 city5))
 		)
 	)
 	(:action observe12_board_person8_plane3_city5
@@ -29628,15 +26436,13 @@
 			(not (observation12))
 		)
 		:effect (and
-			(and
-				(observation12)
-				(in person8 plane3)
-				(not (at person8 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation12)
+			(in person8 plane3)
+			(not (at person8 city5))
 		)
 	)
 	(:action observe13_board_person5_plane3_city5
@@ -29648,15 +26454,13 @@
 			(not (observation13))
 		)
 		:effect (and
-			(and
-				(observation13)
-				(in person5 plane3)
-				(not (at person5 city5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation13)
+			(in person5 plane3)
+			(not (at person5 city5))
 		)
 	)
 	(:action observe14_refuel_plane3_city5_fl0_fl1
@@ -29668,15 +26472,13 @@
 			(not (observation14))
 		)
 		:effect (and
-			(and
-				(observation14)
-				(fuellevel plane3 fl1)
-				(not (fuellevel plane3 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation14)
+			(fuellevel plane3 fl1)
+			(not (fuellevel plane3 fl0))
 		)
 	)
 	(:action observe15_fly_plane3_city5_city1_fl1_fl0
@@ -29688,17 +26490,15 @@
 			(not (observation15))
 		)
 		:effect (and
-			(and
-				(observation15)
-				(at plane3 city1)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation15)
+			(at plane3 city1)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action observe16_board_person7_plane3_city1
@@ -29710,15 +26510,13 @@
 			(not (observation16))
 		)
 		:effect (and
-			(and
-				(observation16)
-				(in person7 plane3)
-				(not (at person7 city1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation16)
+			(in person7 plane3)
+			(not (at person7 city1))
 		)
 	)
 	(:action observe17_refuel_plane3_city1_fl0_fl1
@@ -29730,15 +26528,13 @@
 			(not (observation17))
 		)
 		:effect (and
-			(and
-				(observation17)
-				(fuellevel plane3 fl1)
-				(not (fuellevel plane3 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation17)
+			(fuellevel plane3 fl1)
+			(not (fuellevel plane3 fl0))
 		)
 	)
 	(:action observe18_fly_plane3_city1_city5_fl1_fl0
@@ -29750,17 +26546,15 @@
 			(not (observation18))
 		)
 		:effect (and
-			(and
-				(observation18)
-				(at plane3 city5)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city1))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation18)
+			(at plane3 city5)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city1))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action observe19_debark_person7_plane3_city5
@@ -29772,15 +26566,13 @@
 			(not (observation19))
 		)
 		:effect (and
-			(and
-				(observation19)
-				(at person7 city5)
-				(not (in person7 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation19)
+			(at person7 city5)
+			(not (in person7 plane3))
 		)
 	)
 	(:action observe20_refuel_plane1_city5_fl0_fl1
@@ -29792,15 +26584,13 @@
 			(not (observation20))
 		)
 		:effect (and
-			(and
-				(observation20)
-				(fuellevel plane1 fl1)
-				(not (fuellevel plane1 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation20)
+			(fuellevel plane1 fl1)
+			(not (fuellevel plane1 fl0))
 		)
 	)
 	(:action observe21_fly_plane1_city5_city0_fl1_fl0
@@ -29812,17 +26602,15 @@
 			(not (observation21))
 		)
 		:effect (and
-			(and
-				(observation21)
-				(at plane1 city0)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city5))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation21)
+			(at plane1 city0)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city5))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action observe22_debark_person1_plane1_city0
@@ -29834,15 +26622,13 @@
 			(not (observation22))
 		)
 		:effect (and
-			(and
-				(observation22)
-				(at person1 city0)
-				(not (in person1 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation22)
+			(at person1 city0)
+			(not (in person1 plane1))
 		)
 	)
 	(:action observe23_refuel_plane3_city5_fl0_fl1
@@ -29854,15 +26640,13 @@
 			(not (observation23))
 		)
 		:effect (and
-			(and
-				(observation23)
-				(fuellevel plane3 fl1)
-				(not (fuellevel plane3 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation23)
+			(fuellevel plane3 fl1)
+			(not (fuellevel plane3 fl0))
 		)
 	)
 	(:action observe24_fly_plane3_city5_city2_fl1_fl0
@@ -29874,17 +26658,15 @@
 			(not (observation24))
 		)
 		:effect (and
-			(and
-				(observation24)
-				(at plane3 city2)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation24)
+			(at plane3 city2)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action observe25_debark_person5_plane3_city2
@@ -29896,15 +26678,13 @@
 			(not (observation25))
 		)
 		:effect (and
-			(and
-				(observation25)
-				(at person5 city2)
-				(not (in person5 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation25)
+			(at person5 city2)
+			(not (in person5 plane3))
 		)
 	)
 	(:action observe26_refuel_plane2_city1_fl0_fl1
@@ -29916,15 +26696,13 @@
 			(not (observation26))
 		)
 		:effect (and
-			(and
-				(observation26)
-				(fuellevel plane2 fl1)
-				(not (fuellevel plane2 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation26)
+			(fuellevel plane2 fl1)
+			(not (fuellevel plane2 fl0))
 		)
 	)
 	(:action observe27_fly_plane2_city1_city2_fl1_fl0
@@ -29936,17 +26714,15 @@
 			(not (observation27))
 		)
 		:effect (and
-			(and
-				(observation27)
-				(at plane2 city2)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city1))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation27)
+			(at plane2 city2)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city1))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action observe28_refuel_plane3_city2_fl0_fl1
@@ -29958,15 +26734,13 @@
 			(not (observation28))
 		)
 		:effect (and
-			(and
-				(observation28)
-				(fuellevel plane3 fl1)
-				(not (fuellevel plane3 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation28)
+			(fuellevel plane3 fl1)
+			(not (fuellevel plane3 fl0))
 		)
 	)
 	(:action observe29_fly_plane3_city2_city5_fl1_fl0
@@ -29978,17 +26752,15 @@
 			(not (observation29))
 		)
 		:effect (and
-			(and
-				(observation29)
-				(at plane3 city5)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city2))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation29)
+			(at plane3 city5)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city2))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action observe30_refuel_plane3_city5_fl0_fl1
@@ -30000,15 +26772,13 @@
 			(not (observation30))
 		)
 		:effect (and
-			(and
-				(observation30)
-				(fuellevel plane3 fl1)
-				(not (fuellevel plane3 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation30)
+			(fuellevel plane3 fl1)
+			(not (fuellevel plane3 fl0))
 		)
 	)
 	(:action observe31_fly_plane3_city5_city3_fl1_fl0
@@ -30020,17 +26790,15 @@
 			(not (observation31))
 		)
 		:effect (and
-			(and
-				(observation31)
-				(at plane3 city3)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city5))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation31)
+			(at plane3 city3)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city5))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action observe32_debark_person8_plane3_city3
@@ -30042,15 +26810,13 @@
 			(not (observation32))
 		)
 		:effect (and
-			(and
-				(observation32)
-				(at person8 city3)
-				(not (in person8 plane3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation32)
+			(at person8 city3)
+			(not (in person8 plane3))
 		)
 	)
 	(:action observe33_board_person4_plane2_city2
@@ -30062,15 +26828,13 @@
 			(not (observation33))
 		)
 		:effect (and
-			(and
-				(observation33)
-				(in person4 plane2)
-				(not (at person4 city2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation33)
+			(in person4 plane2)
+			(not (at person4 city2))
 		)
 	)
 	(:action observe34_refuel_plane2_city2_fl0_fl1
@@ -30082,15 +26846,13 @@
 			(not (observation34))
 		)
 		:effect (and
-			(and
-				(observation34)
-				(fuellevel plane2 fl1)
-				(not (fuellevel plane2 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation34)
+			(fuellevel plane2 fl1)
+			(not (fuellevel plane2 fl0))
 		)
 	)
 	(:action observe35_fly_plane2_city2_city3_fl1_fl0
@@ -30102,17 +26864,15 @@
 			(not (observation35))
 		)
 		:effect (and
-			(and
-				(observation35)
-				(at plane2 city3)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city2))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation35)
+			(at plane2 city3)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city2))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action observe36_refuel_plane3_city3_fl0_fl1
@@ -30124,15 +26884,13 @@
 			(not (observation36))
 		)
 		:effect (and
-			(and
-				(observation36)
-				(fuellevel plane3 fl1)
-				(not (fuellevel plane3 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation36)
+			(fuellevel plane3 fl1)
+			(not (fuellevel plane3 fl0))
 		)
 	)
 	(:action observe37_fly_plane3_city3_city5_fl1_fl0
@@ -30144,17 +26902,15 @@
 			(not (observation37))
 		)
 		:effect (and
-			(and
-				(observation37)
-				(at plane3 city5)
-				(fuellevel plane3 fl0)
-				(not (at plane3 city3))
-				(not (fuellevel plane3 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation37)
+			(at plane3 city5)
+			(fuellevel plane3 fl0)
+			(not (at plane3 city3))
+			(not (fuellevel plane3 fl1))
 		)
 	)
 	(:action observe38_refuel_plane2_city3_fl0_fl1
@@ -30166,15 +26922,13 @@
 			(not (observation38))
 		)
 		:effect (and
-			(and
-				(observation38)
-				(fuellevel plane2 fl1)
-				(not (fuellevel plane2 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation38)
+			(fuellevel plane2 fl1)
+			(not (fuellevel plane2 fl0))
 		)
 	)
 	(:action observe39_fly_plane2_city3_city4_fl1_fl0
@@ -30186,17 +26940,15 @@
 			(not (observation39))
 		)
 		:effect (and
-			(and
-				(observation39)
-				(at plane2 city4)
-				(fuellevel plane2 fl0)
-				(not (at plane2 city3))
-				(not (fuellevel plane2 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation39)
+			(at plane2 city4)
+			(fuellevel plane2 fl0)
+			(not (at plane2 city3))
+			(not (fuellevel plane2 fl1))
 		)
 	)
 	(:action observe40_debark_person4_plane2_city4
@@ -30208,15 +26960,13 @@
 			(not (observation40))
 		)
 		:effect (and
-			(and
-				(observation40)
-				(at person4 city4)
-				(not (in person4 plane2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation40)
+			(at person4 city4)
+			(not (in person4 plane2))
 		)
 	)
 	(:action observe41_refuel_plane1_city0_fl0_fl1
@@ -30228,15 +26978,13 @@
 			(not (observation41))
 		)
 		:effect (and
-			(and
-				(observation41)
-				(fuellevel plane1 fl1)
-				(not (fuellevel plane1 fl0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation41)
+			(fuellevel plane1 fl1)
+			(not (fuellevel plane1 fl0))
 		)
 	)
 	(:action observe42_refuel_plane1_city0_fl1_fl2
@@ -30248,15 +26996,13 @@
 			(not (observation42))
 		)
 		:effect (and
-			(and
-				(observation42)
-				(fuellevel plane1 fl2)
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation42)
+			(fuellevel plane1 fl2)
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action observe43_fly_plane1_city0_city3_fl2_fl1
@@ -30268,17 +27014,15 @@
 			(not (observation43))
 		)
 		:effect (and
-			(and
-				(observation43)
-				(at plane1 city3)
-				(fuellevel plane1 fl1)
-				(not (at plane1 city0))
-				(not (fuellevel plane1 fl2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation43)
+			(at plane1 city3)
+			(fuellevel plane1 fl1)
+			(not (at plane1 city0))
+			(not (fuellevel plane1 fl2))
 		)
 	)
 	(:action observe44_board_person2_plane1_city3
@@ -30290,15 +27034,13 @@
 			(not (observation44))
 		)
 		:effect (and
-			(and
-				(observation44)
-				(in person2 plane1)
-				(not (at person2 city3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation44)
+			(in person2 plane1)
+			(not (at person2 city3))
 		)
 	)
 	(:action observe45_fly_plane1_city3_city2_fl1_fl0
@@ -30310,17 +27052,15 @@
 			(not (observation45))
 		)
 		:effect (and
-			(and
-				(observation45)
-				(at plane1 city2)
-				(fuellevel plane1 fl0)
-				(not (at plane1 city3))
-				(not (fuellevel plane1 fl1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation45)
+			(at plane1 city2)
+			(fuellevel plane1 fl0)
+			(not (at plane1 city3))
+			(not (fuellevel plane1 fl1))
 		)
 	)
 	(:action observe46_debark_person2_plane1_city2
@@ -30332,15 +27072,13 @@
 			(not (observation46))
 		)
 		:effect (and
-			(and
-				(observation46)
-				(at person2 city2)
-				(not (in person2 plane1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation46)
+			(at person2 city2)
+			(not (in person2 plane1))
 		)
 	)
 )
