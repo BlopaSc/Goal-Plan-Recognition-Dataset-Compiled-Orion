@@ -66,16 +66,14 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(not (ontable a))
-				(not (clear a))
-				(not (handempty))
-				(holding a)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (ontable a))
+			(not (clear a))
+			(not (handempty))
+			(holding a)
 		)
 	)
 	(:action pick-up_b
@@ -86,16 +84,14 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(not (ontable b))
-				(not (clear b))
-				(not (handempty))
-				(holding b)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (ontable b))
+			(not (clear b))
+			(not (handempty))
+			(holding b)
 		)
 	)
 	(:action pick-up_c
@@ -106,16 +102,14 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(not (ontable c))
-				(not (clear c))
-				(not (handempty))
-				(holding c)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (ontable c))
+			(not (clear c))
+			(not (handempty))
+			(holding c)
 		)
 	)
 	(:action pick-up_d
@@ -126,16 +120,14 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(not (ontable d))
-				(not (clear d))
-				(not (handempty))
-				(holding d)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (ontable d))
+			(not (clear d))
+			(not (handempty))
+			(holding d)
 		)
 	)
 	(:action pick-up_e
@@ -146,16 +138,14 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(not (ontable e))
-				(not (clear e))
-				(not (handempty))
-				(holding e)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (ontable e))
+			(not (clear e))
+			(not (handempty))
+			(holding e)
 		)
 	)
 	(:action pick-up_f
@@ -166,16 +156,14 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(not (ontable f))
-				(not (clear f))
-				(not (handempty))
-				(holding f)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (ontable f))
+			(not (clear f))
+			(not (handempty))
+			(holding f)
 		)
 	)
 	(:action pick-up_g
@@ -186,16 +174,14 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(not (ontable g))
-				(not (clear g))
-				(not (handempty))
-				(holding g)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (ontable g))
+			(not (clear g))
+			(not (handempty))
+			(holding g)
 		)
 	)
 	(:action pick-up_h
@@ -206,16 +192,14 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(not (ontable h))
-				(not (clear h))
-				(not (handempty))
-				(holding h)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (ontable h))
+			(not (clear h))
+			(not (handempty))
+			(holding h)
 		)
 	)
 	(:action pick-up_i
@@ -226,16 +210,14 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(not (ontable i))
-				(not (clear i))
-				(not (handempty))
-				(holding i)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (ontable i))
+			(not (clear i))
+			(not (handempty))
+			(holding i)
 		)
 	)
 	(:action pick-up_j
@@ -246,16 +228,14 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(not (ontable j))
-				(not (clear j))
-				(not (handempty))
-				(holding j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (ontable j))
+			(not (clear j))
+			(not (handempty))
+			(holding j)
 		)
 	)
 	(:action pick-up_k
@@ -266,16 +246,14 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(not (ontable k))
-				(not (clear k))
-				(not (handempty))
-				(holding k)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (ontable k))
+			(not (clear k))
+			(not (handempty))
+			(holding k)
 		)
 	)
 	(:action pick-up_l
@@ -286,16 +264,14 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(not (ontable l))
-				(not (clear l))
-				(not (handempty))
-				(holding l)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (ontable l))
+			(not (clear l))
+			(not (handempty))
+			(holding l)
 		)
 	)
 	(:action pick-up_m
@@ -306,16 +282,14 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(not (ontable m))
-				(not (clear m))
-				(not (handempty))
-				(holding m)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (ontable m))
+			(not (clear m))
+			(not (handempty))
+			(holding m)
 		)
 	)
 	(:action pick-up_n
@@ -326,16 +300,14 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(not (ontable n))
-				(not (clear n))
-				(not (handempty))
-				(holding n)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (ontable n))
+			(not (clear n))
+			(not (handempty))
+			(holding n)
 		)
 	)
 	(:action pick-up_o
@@ -346,16 +318,14 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(not (ontable o))
-				(not (clear o))
-				(not (handempty))
-				(holding o)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (ontable o))
+			(not (clear o))
+			(not (handempty))
+			(holding o)
 		)
 	)
 	(:action pick-up_p
@@ -366,16 +336,14 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(not (ontable p))
-				(not (clear p))
-				(not (handempty))
-				(holding p)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (ontable p))
+			(not (clear p))
+			(not (handempty))
+			(holding p)
 		)
 	)
 	(:action pick-up_q
@@ -386,288 +354,252 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(not (ontable q))
-				(not (clear q))
-				(not (handempty))
-				(holding q)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (ontable q))
+			(not (clear q))
+			(not (handempty))
+			(holding q)
 		)
 	)
 	(:action put-down_a
 		:parameters ()
 		:precondition (holding a)
 		:effect (and
-			(and
-				(not (holding a))
-				(clear a)
-				(handempty)
-				(ontable a)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding a))
+			(clear a)
+			(handempty)
+			(ontable a)
 		)
 	)
 	(:action put-down_b
 		:parameters ()
 		:precondition (holding b)
 		:effect (and
-			(and
-				(not (holding b))
-				(clear b)
-				(handempty)
-				(ontable b)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding b))
+			(clear b)
+			(handempty)
+			(ontable b)
 		)
 	)
 	(:action put-down_c
 		:parameters ()
 		:precondition (holding c)
 		:effect (and
-			(and
-				(not (holding c))
-				(clear c)
-				(handempty)
-				(ontable c)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding c))
+			(clear c)
+			(handempty)
+			(ontable c)
 		)
 	)
 	(:action put-down_d
 		:parameters ()
 		:precondition (holding d)
 		:effect (and
-			(and
-				(not (holding d))
-				(clear d)
-				(handempty)
-				(ontable d)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding d))
+			(clear d)
+			(handempty)
+			(ontable d)
 		)
 	)
 	(:action put-down_e
 		:parameters ()
 		:precondition (holding e)
 		:effect (and
-			(and
-				(not (holding e))
-				(clear e)
-				(handempty)
-				(ontable e)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding e))
+			(clear e)
+			(handempty)
+			(ontable e)
 		)
 	)
 	(:action put-down_f
 		:parameters ()
 		:precondition (holding f)
 		:effect (and
-			(and
-				(not (holding f))
-				(clear f)
-				(handempty)
-				(ontable f)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding f))
+			(clear f)
+			(handempty)
+			(ontable f)
 		)
 	)
 	(:action put-down_g
 		:parameters ()
 		:precondition (holding g)
 		:effect (and
-			(and
-				(not (holding g))
-				(clear g)
-				(handempty)
-				(ontable g)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding g))
+			(clear g)
+			(handempty)
+			(ontable g)
 		)
 	)
 	(:action put-down_h
 		:parameters ()
 		:precondition (holding h)
 		:effect (and
-			(and
-				(not (holding h))
-				(clear h)
-				(handempty)
-				(ontable h)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding h))
+			(clear h)
+			(handempty)
+			(ontable h)
 		)
 	)
 	(:action put-down_i
 		:parameters ()
 		:precondition (holding i)
 		:effect (and
-			(and
-				(not (holding i))
-				(clear i)
-				(handempty)
-				(ontable i)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding i))
+			(clear i)
+			(handempty)
+			(ontable i)
 		)
 	)
 	(:action put-down_j
 		:parameters ()
 		:precondition (holding j)
 		:effect (and
-			(and
-				(not (holding j))
-				(clear j)
-				(handempty)
-				(ontable j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding j))
+			(clear j)
+			(handempty)
+			(ontable j)
 		)
 	)
 	(:action put-down_k
 		:parameters ()
 		:precondition (holding k)
 		:effect (and
-			(and
-				(not (holding k))
-				(clear k)
-				(handempty)
-				(ontable k)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding k))
+			(clear k)
+			(handempty)
+			(ontable k)
 		)
 	)
 	(:action put-down_l
 		:parameters ()
 		:precondition (holding l)
 		:effect (and
-			(and
-				(not (holding l))
-				(clear l)
-				(handempty)
-				(ontable l)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding l))
+			(clear l)
+			(handempty)
+			(ontable l)
 		)
 	)
 	(:action put-down_m
 		:parameters ()
 		:precondition (holding m)
 		:effect (and
-			(and
-				(not (holding m))
-				(clear m)
-				(handempty)
-				(ontable m)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding m))
+			(clear m)
+			(handempty)
+			(ontable m)
 		)
 	)
 	(:action put-down_n
 		:parameters ()
 		:precondition (holding n)
 		:effect (and
-			(and
-				(not (holding n))
-				(clear n)
-				(handempty)
-				(ontable n)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding n))
+			(clear n)
+			(handempty)
+			(ontable n)
 		)
 	)
 	(:action put-down_o
 		:parameters ()
 		:precondition (holding o)
 		:effect (and
-			(and
-				(not (holding o))
-				(clear o)
-				(handempty)
-				(ontable o)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding o))
+			(clear o)
+			(handempty)
+			(ontable o)
 		)
 	)
 	(:action put-down_p
 		:parameters ()
 		:precondition (holding p)
 		:effect (and
-			(and
-				(not (holding p))
-				(clear p)
-				(handempty)
-				(ontable p)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding p))
+			(clear p)
+			(handempty)
+			(ontable p)
 		)
 	)
 	(:action put-down_q
 		:parameters ()
 		:precondition (holding q)
 		:effect (and
-			(and
-				(not (holding q))
-				(clear q)
-				(handempty)
-				(ontable q)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding q))
+			(clear q)
+			(handempty)
+			(ontable q)
 		)
 	)
 	(:action stack_a_b
@@ -677,17 +609,15 @@
 			(clear b)
 		)
 		:effect (and
-			(and
-				(not (holding a))
-				(not (clear b))
-				(clear a)
-				(handempty)
-				(on a b)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding a))
+			(not (clear b))
+			(clear a)
+			(handempty)
+			(on a b)
 		)
 	)
 	(:action stack_a_c
@@ -697,17 +627,15 @@
 			(clear c)
 		)
 		:effect (and
-			(and
-				(not (holding a))
-				(not (clear c))
-				(clear a)
-				(handempty)
-				(on a c)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding a))
+			(not (clear c))
+			(clear a)
+			(handempty)
+			(on a c)
 		)
 	)
 	(:action stack_a_d
@@ -717,17 +645,15 @@
 			(clear d)
 		)
 		:effect (and
-			(and
-				(not (holding a))
-				(not (clear d))
-				(clear a)
-				(handempty)
-				(on a d)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding a))
+			(not (clear d))
+			(clear a)
+			(handempty)
+			(on a d)
 		)
 	)
 	(:action stack_a_e
@@ -737,17 +663,15 @@
 			(clear e)
 		)
 		:effect (and
-			(and
-				(not (holding a))
-				(not (clear e))
-				(clear a)
-				(handempty)
-				(on a e)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding a))
+			(not (clear e))
+			(clear a)
+			(handempty)
+			(on a e)
 		)
 	)
 	(:action stack_a_f
@@ -757,17 +681,15 @@
 			(clear f)
 		)
 		:effect (and
-			(and
-				(not (holding a))
-				(not (clear f))
-				(clear a)
-				(handempty)
-				(on a f)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding a))
+			(not (clear f))
+			(clear a)
+			(handempty)
+			(on a f)
 		)
 	)
 	(:action stack_a_g
@@ -777,17 +699,15 @@
 			(clear g)
 		)
 		:effect (and
-			(and
-				(not (holding a))
-				(not (clear g))
-				(clear a)
-				(handempty)
-				(on a g)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding a))
+			(not (clear g))
+			(clear a)
+			(handempty)
+			(on a g)
 		)
 	)
 	(:action stack_a_h
@@ -797,17 +717,15 @@
 			(clear h)
 		)
 		:effect (and
-			(and
-				(not (holding a))
-				(not (clear h))
-				(clear a)
-				(handempty)
-				(on a h)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding a))
+			(not (clear h))
+			(clear a)
+			(handempty)
+			(on a h)
 		)
 	)
 	(:action stack_a_i
@@ -817,17 +735,15 @@
 			(clear i)
 		)
 		:effect (and
-			(and
-				(not (holding a))
-				(not (clear i))
-				(clear a)
-				(handempty)
-				(on a i)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding a))
+			(not (clear i))
+			(clear a)
+			(handempty)
+			(on a i)
 		)
 	)
 	(:action stack_a_j
@@ -837,17 +753,15 @@
 			(clear j)
 		)
 		:effect (and
-			(and
-				(not (holding a))
-				(not (clear j))
-				(clear a)
-				(handempty)
-				(on a j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding a))
+			(not (clear j))
+			(clear a)
+			(handempty)
+			(on a j)
 		)
 	)
 	(:action stack_a_k
@@ -857,17 +771,15 @@
 			(clear k)
 		)
 		:effect (and
-			(and
-				(not (holding a))
-				(not (clear k))
-				(clear a)
-				(handempty)
-				(on a k)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding a))
+			(not (clear k))
+			(clear a)
+			(handempty)
+			(on a k)
 		)
 	)
 	(:action stack_a_l
@@ -877,17 +789,15 @@
 			(clear l)
 		)
 		:effect (and
-			(and
-				(not (holding a))
-				(not (clear l))
-				(clear a)
-				(handempty)
-				(on a l)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding a))
+			(not (clear l))
+			(clear a)
+			(handempty)
+			(on a l)
 		)
 	)
 	(:action stack_a_m
@@ -897,17 +807,15 @@
 			(clear m)
 		)
 		:effect (and
-			(and
-				(not (holding a))
-				(not (clear m))
-				(clear a)
-				(handempty)
-				(on a m)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding a))
+			(not (clear m))
+			(clear a)
+			(handempty)
+			(on a m)
 		)
 	)
 	(:action stack_a_n
@@ -917,17 +825,15 @@
 			(clear n)
 		)
 		:effect (and
-			(and
-				(not (holding a))
-				(not (clear n))
-				(clear a)
-				(handempty)
-				(on a n)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding a))
+			(not (clear n))
+			(clear a)
+			(handempty)
+			(on a n)
 		)
 	)
 	(:action stack_a_o
@@ -937,17 +843,15 @@
 			(clear o)
 		)
 		:effect (and
-			(and
-				(not (holding a))
-				(not (clear o))
-				(clear a)
-				(handempty)
-				(on a o)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding a))
+			(not (clear o))
+			(clear a)
+			(handempty)
+			(on a o)
 		)
 	)
 	(:action stack_a_p
@@ -957,17 +861,15 @@
 			(clear p)
 		)
 		:effect (and
-			(and
-				(not (holding a))
-				(not (clear p))
-				(clear a)
-				(handempty)
-				(on a p)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding a))
+			(not (clear p))
+			(clear a)
+			(handempty)
+			(on a p)
 		)
 	)
 	(:action stack_a_q
@@ -977,17 +879,15 @@
 			(clear q)
 		)
 		:effect (and
-			(and
-				(not (holding a))
-				(not (clear q))
-				(clear a)
-				(handempty)
-				(on a q)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding a))
+			(not (clear q))
+			(clear a)
+			(handempty)
+			(on a q)
 		)
 	)
 	(:action stack_b_a
@@ -997,17 +897,15 @@
 			(clear a)
 		)
 		:effect (and
-			(and
-				(not (holding b))
-				(not (clear a))
-				(clear b)
-				(handempty)
-				(on b a)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding b))
+			(not (clear a))
+			(clear b)
+			(handempty)
+			(on b a)
 		)
 	)
 	(:action stack_b_c
@@ -1017,17 +915,15 @@
 			(clear c)
 		)
 		:effect (and
-			(and
-				(not (holding b))
-				(not (clear c))
-				(clear b)
-				(handempty)
-				(on b c)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding b))
+			(not (clear c))
+			(clear b)
+			(handempty)
+			(on b c)
 		)
 	)
 	(:action stack_b_d
@@ -1037,17 +933,15 @@
 			(clear d)
 		)
 		:effect (and
-			(and
-				(not (holding b))
-				(not (clear d))
-				(clear b)
-				(handempty)
-				(on b d)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding b))
+			(not (clear d))
+			(clear b)
+			(handempty)
+			(on b d)
 		)
 	)
 	(:action stack_b_e
@@ -1057,17 +951,15 @@
 			(clear e)
 		)
 		:effect (and
-			(and
-				(not (holding b))
-				(not (clear e))
-				(clear b)
-				(handempty)
-				(on b e)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding b))
+			(not (clear e))
+			(clear b)
+			(handempty)
+			(on b e)
 		)
 	)
 	(:action stack_b_f
@@ -1077,17 +969,15 @@
 			(clear f)
 		)
 		:effect (and
-			(and
-				(not (holding b))
-				(not (clear f))
-				(clear b)
-				(handempty)
-				(on b f)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding b))
+			(not (clear f))
+			(clear b)
+			(handempty)
+			(on b f)
 		)
 	)
 	(:action stack_b_g
@@ -1097,17 +987,15 @@
 			(clear g)
 		)
 		:effect (and
-			(and
-				(not (holding b))
-				(not (clear g))
-				(clear b)
-				(handempty)
-				(on b g)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding b))
+			(not (clear g))
+			(clear b)
+			(handempty)
+			(on b g)
 		)
 	)
 	(:action stack_b_h
@@ -1117,17 +1005,15 @@
 			(clear h)
 		)
 		:effect (and
-			(and
-				(not (holding b))
-				(not (clear h))
-				(clear b)
-				(handempty)
-				(on b h)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding b))
+			(not (clear h))
+			(clear b)
+			(handempty)
+			(on b h)
 		)
 	)
 	(:action stack_b_i
@@ -1137,17 +1023,15 @@
 			(clear i)
 		)
 		:effect (and
-			(and
-				(not (holding b))
-				(not (clear i))
-				(clear b)
-				(handempty)
-				(on b i)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding b))
+			(not (clear i))
+			(clear b)
+			(handempty)
+			(on b i)
 		)
 	)
 	(:action stack_b_j
@@ -1157,17 +1041,15 @@
 			(clear j)
 		)
 		:effect (and
-			(and
-				(not (holding b))
-				(not (clear j))
-				(clear b)
-				(handempty)
-				(on b j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding b))
+			(not (clear j))
+			(clear b)
+			(handempty)
+			(on b j)
 		)
 	)
 	(:action stack_b_k
@@ -1177,17 +1059,15 @@
 			(clear k)
 		)
 		:effect (and
-			(and
-				(not (holding b))
-				(not (clear k))
-				(clear b)
-				(handempty)
-				(on b k)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding b))
+			(not (clear k))
+			(clear b)
+			(handempty)
+			(on b k)
 		)
 	)
 	(:action stack_b_l
@@ -1197,17 +1077,15 @@
 			(clear l)
 		)
 		:effect (and
-			(and
-				(not (holding b))
-				(not (clear l))
-				(clear b)
-				(handempty)
-				(on b l)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding b))
+			(not (clear l))
+			(clear b)
+			(handempty)
+			(on b l)
 		)
 	)
 	(:action stack_b_m
@@ -1217,17 +1095,15 @@
 			(clear m)
 		)
 		:effect (and
-			(and
-				(not (holding b))
-				(not (clear m))
-				(clear b)
-				(handempty)
-				(on b m)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding b))
+			(not (clear m))
+			(clear b)
+			(handempty)
+			(on b m)
 		)
 	)
 	(:action stack_b_n
@@ -1237,17 +1113,15 @@
 			(clear n)
 		)
 		:effect (and
-			(and
-				(not (holding b))
-				(not (clear n))
-				(clear b)
-				(handempty)
-				(on b n)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding b))
+			(not (clear n))
+			(clear b)
+			(handempty)
+			(on b n)
 		)
 	)
 	(:action stack_b_o
@@ -1257,17 +1131,15 @@
 			(clear o)
 		)
 		:effect (and
-			(and
-				(not (holding b))
-				(not (clear o))
-				(clear b)
-				(handempty)
-				(on b o)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding b))
+			(not (clear o))
+			(clear b)
+			(handempty)
+			(on b o)
 		)
 	)
 	(:action stack_b_p
@@ -1277,17 +1149,15 @@
 			(clear p)
 		)
 		:effect (and
-			(and
-				(not (holding b))
-				(not (clear p))
-				(clear b)
-				(handempty)
-				(on b p)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding b))
+			(not (clear p))
+			(clear b)
+			(handempty)
+			(on b p)
 		)
 	)
 	(:action stack_b_q
@@ -1297,17 +1167,15 @@
 			(clear q)
 		)
 		:effect (and
-			(and
-				(not (holding b))
-				(not (clear q))
-				(clear b)
-				(handempty)
-				(on b q)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding b))
+			(not (clear q))
+			(clear b)
+			(handempty)
+			(on b q)
 		)
 	)
 	(:action stack_c_a
@@ -1317,17 +1185,15 @@
 			(clear a)
 		)
 		:effect (and
-			(and
-				(not (holding c))
-				(not (clear a))
-				(clear c)
-				(handempty)
-				(on c a)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding c))
+			(not (clear a))
+			(clear c)
+			(handempty)
+			(on c a)
 		)
 	)
 	(:action stack_c_b
@@ -1337,17 +1203,15 @@
 			(clear b)
 		)
 		:effect (and
-			(and
-				(not (holding c))
-				(not (clear b))
-				(clear c)
-				(handempty)
-				(on c b)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding c))
+			(not (clear b))
+			(clear c)
+			(handempty)
+			(on c b)
 		)
 	)
 	(:action stack_c_d
@@ -1357,17 +1221,15 @@
 			(clear d)
 		)
 		:effect (and
-			(and
-				(not (holding c))
-				(not (clear d))
-				(clear c)
-				(handempty)
-				(on c d)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding c))
+			(not (clear d))
+			(clear c)
+			(handempty)
+			(on c d)
 		)
 	)
 	(:action stack_c_e
@@ -1377,17 +1239,15 @@
 			(clear e)
 		)
 		:effect (and
-			(and
-				(not (holding c))
-				(not (clear e))
-				(clear c)
-				(handempty)
-				(on c e)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding c))
+			(not (clear e))
+			(clear c)
+			(handempty)
+			(on c e)
 		)
 	)
 	(:action stack_c_f
@@ -1397,17 +1257,15 @@
 			(clear f)
 		)
 		:effect (and
-			(and
-				(not (holding c))
-				(not (clear f))
-				(clear c)
-				(handempty)
-				(on c f)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding c))
+			(not (clear f))
+			(clear c)
+			(handempty)
+			(on c f)
 		)
 	)
 	(:action stack_c_g
@@ -1417,17 +1275,15 @@
 			(clear g)
 		)
 		:effect (and
-			(and
-				(not (holding c))
-				(not (clear g))
-				(clear c)
-				(handempty)
-				(on c g)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding c))
+			(not (clear g))
+			(clear c)
+			(handempty)
+			(on c g)
 		)
 	)
 	(:action stack_c_h
@@ -1437,17 +1293,15 @@
 			(clear h)
 		)
 		:effect (and
-			(and
-				(not (holding c))
-				(not (clear h))
-				(clear c)
-				(handempty)
-				(on c h)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding c))
+			(not (clear h))
+			(clear c)
+			(handempty)
+			(on c h)
 		)
 	)
 	(:action stack_c_i
@@ -1457,17 +1311,15 @@
 			(clear i)
 		)
 		:effect (and
-			(and
-				(not (holding c))
-				(not (clear i))
-				(clear c)
-				(handempty)
-				(on c i)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding c))
+			(not (clear i))
+			(clear c)
+			(handempty)
+			(on c i)
 		)
 	)
 	(:action stack_c_j
@@ -1477,17 +1329,15 @@
 			(clear j)
 		)
 		:effect (and
-			(and
-				(not (holding c))
-				(not (clear j))
-				(clear c)
-				(handempty)
-				(on c j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding c))
+			(not (clear j))
+			(clear c)
+			(handempty)
+			(on c j)
 		)
 	)
 	(:action stack_c_k
@@ -1497,17 +1347,15 @@
 			(clear k)
 		)
 		:effect (and
-			(and
-				(not (holding c))
-				(not (clear k))
-				(clear c)
-				(handempty)
-				(on c k)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding c))
+			(not (clear k))
+			(clear c)
+			(handempty)
+			(on c k)
 		)
 	)
 	(:action stack_c_l
@@ -1517,17 +1365,15 @@
 			(clear l)
 		)
 		:effect (and
-			(and
-				(not (holding c))
-				(not (clear l))
-				(clear c)
-				(handempty)
-				(on c l)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding c))
+			(not (clear l))
+			(clear c)
+			(handempty)
+			(on c l)
 		)
 	)
 	(:action stack_c_m
@@ -1537,17 +1383,15 @@
 			(clear m)
 		)
 		:effect (and
-			(and
-				(not (holding c))
-				(not (clear m))
-				(clear c)
-				(handempty)
-				(on c m)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding c))
+			(not (clear m))
+			(clear c)
+			(handempty)
+			(on c m)
 		)
 	)
 	(:action stack_c_n
@@ -1557,17 +1401,15 @@
 			(clear n)
 		)
 		:effect (and
-			(and
-				(not (holding c))
-				(not (clear n))
-				(clear c)
-				(handempty)
-				(on c n)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding c))
+			(not (clear n))
+			(clear c)
+			(handempty)
+			(on c n)
 		)
 	)
 	(:action stack_c_o
@@ -1577,17 +1419,15 @@
 			(clear o)
 		)
 		:effect (and
-			(and
-				(not (holding c))
-				(not (clear o))
-				(clear c)
-				(handempty)
-				(on c o)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding c))
+			(not (clear o))
+			(clear c)
+			(handempty)
+			(on c o)
 		)
 	)
 	(:action stack_c_p
@@ -1597,17 +1437,15 @@
 			(clear p)
 		)
 		:effect (and
-			(and
-				(not (holding c))
-				(not (clear p))
-				(clear c)
-				(handempty)
-				(on c p)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding c))
+			(not (clear p))
+			(clear c)
+			(handempty)
+			(on c p)
 		)
 	)
 	(:action stack_c_q
@@ -1617,17 +1455,15 @@
 			(clear q)
 		)
 		:effect (and
-			(and
-				(not (holding c))
-				(not (clear q))
-				(clear c)
-				(handempty)
-				(on c q)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding c))
+			(not (clear q))
+			(clear c)
+			(handempty)
+			(on c q)
 		)
 	)
 	(:action stack_d_a
@@ -1637,17 +1473,15 @@
 			(clear a)
 		)
 		:effect (and
-			(and
-				(not (holding d))
-				(not (clear a))
-				(clear d)
-				(handempty)
-				(on d a)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding d))
+			(not (clear a))
+			(clear d)
+			(handempty)
+			(on d a)
 		)
 	)
 	(:action stack_d_b
@@ -1657,17 +1491,15 @@
 			(clear b)
 		)
 		:effect (and
-			(and
-				(not (holding d))
-				(not (clear b))
-				(clear d)
-				(handempty)
-				(on d b)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding d))
+			(not (clear b))
+			(clear d)
+			(handempty)
+			(on d b)
 		)
 	)
 	(:action stack_d_c
@@ -1677,17 +1509,15 @@
 			(clear c)
 		)
 		:effect (and
-			(and
-				(not (holding d))
-				(not (clear c))
-				(clear d)
-				(handempty)
-				(on d c)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding d))
+			(not (clear c))
+			(clear d)
+			(handempty)
+			(on d c)
 		)
 	)
 	(:action stack_d_e
@@ -1697,17 +1527,15 @@
 			(clear e)
 		)
 		:effect (and
-			(and
-				(not (holding d))
-				(not (clear e))
-				(clear d)
-				(handempty)
-				(on d e)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding d))
+			(not (clear e))
+			(clear d)
+			(handempty)
+			(on d e)
 		)
 	)
 	(:action stack_d_f
@@ -1717,17 +1545,15 @@
 			(clear f)
 		)
 		:effect (and
-			(and
-				(not (holding d))
-				(not (clear f))
-				(clear d)
-				(handempty)
-				(on d f)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding d))
+			(not (clear f))
+			(clear d)
+			(handempty)
+			(on d f)
 		)
 	)
 	(:action stack_d_g
@@ -1737,17 +1563,15 @@
 			(clear g)
 		)
 		:effect (and
-			(and
-				(not (holding d))
-				(not (clear g))
-				(clear d)
-				(handempty)
-				(on d g)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding d))
+			(not (clear g))
+			(clear d)
+			(handempty)
+			(on d g)
 		)
 	)
 	(:action stack_d_h
@@ -1757,17 +1581,15 @@
 			(clear h)
 		)
 		:effect (and
-			(and
-				(not (holding d))
-				(not (clear h))
-				(clear d)
-				(handempty)
-				(on d h)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding d))
+			(not (clear h))
+			(clear d)
+			(handempty)
+			(on d h)
 		)
 	)
 	(:action stack_d_i
@@ -1777,17 +1599,15 @@
 			(clear i)
 		)
 		:effect (and
-			(and
-				(not (holding d))
-				(not (clear i))
-				(clear d)
-				(handempty)
-				(on d i)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding d))
+			(not (clear i))
+			(clear d)
+			(handempty)
+			(on d i)
 		)
 	)
 	(:action stack_d_j
@@ -1797,17 +1617,15 @@
 			(clear j)
 		)
 		:effect (and
-			(and
-				(not (holding d))
-				(not (clear j))
-				(clear d)
-				(handempty)
-				(on d j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding d))
+			(not (clear j))
+			(clear d)
+			(handempty)
+			(on d j)
 		)
 	)
 	(:action stack_d_k
@@ -1817,17 +1635,15 @@
 			(clear k)
 		)
 		:effect (and
-			(and
-				(not (holding d))
-				(not (clear k))
-				(clear d)
-				(handempty)
-				(on d k)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding d))
+			(not (clear k))
+			(clear d)
+			(handempty)
+			(on d k)
 		)
 	)
 	(:action stack_d_l
@@ -1837,17 +1653,15 @@
 			(clear l)
 		)
 		:effect (and
-			(and
-				(not (holding d))
-				(not (clear l))
-				(clear d)
-				(handempty)
-				(on d l)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding d))
+			(not (clear l))
+			(clear d)
+			(handempty)
+			(on d l)
 		)
 	)
 	(:action stack_d_m
@@ -1857,17 +1671,15 @@
 			(clear m)
 		)
 		:effect (and
-			(and
-				(not (holding d))
-				(not (clear m))
-				(clear d)
-				(handempty)
-				(on d m)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding d))
+			(not (clear m))
+			(clear d)
+			(handempty)
+			(on d m)
 		)
 	)
 	(:action stack_d_n
@@ -1877,17 +1689,15 @@
 			(clear n)
 		)
 		:effect (and
-			(and
-				(not (holding d))
-				(not (clear n))
-				(clear d)
-				(handempty)
-				(on d n)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding d))
+			(not (clear n))
+			(clear d)
+			(handempty)
+			(on d n)
 		)
 	)
 	(:action stack_d_o
@@ -1897,17 +1707,15 @@
 			(clear o)
 		)
 		:effect (and
-			(and
-				(not (holding d))
-				(not (clear o))
-				(clear d)
-				(handempty)
-				(on d o)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding d))
+			(not (clear o))
+			(clear d)
+			(handempty)
+			(on d o)
 		)
 	)
 	(:action stack_d_p
@@ -1917,17 +1725,15 @@
 			(clear p)
 		)
 		:effect (and
-			(and
-				(not (holding d))
-				(not (clear p))
-				(clear d)
-				(handempty)
-				(on d p)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding d))
+			(not (clear p))
+			(clear d)
+			(handempty)
+			(on d p)
 		)
 	)
 	(:action stack_d_q
@@ -1937,17 +1743,15 @@
 			(clear q)
 		)
 		:effect (and
-			(and
-				(not (holding d))
-				(not (clear q))
-				(clear d)
-				(handempty)
-				(on d q)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding d))
+			(not (clear q))
+			(clear d)
+			(handempty)
+			(on d q)
 		)
 	)
 	(:action stack_e_a
@@ -1957,17 +1761,15 @@
 			(clear a)
 		)
 		:effect (and
-			(and
-				(not (holding e))
-				(not (clear a))
-				(clear e)
-				(handempty)
-				(on e a)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding e))
+			(not (clear a))
+			(clear e)
+			(handempty)
+			(on e a)
 		)
 	)
 	(:action stack_e_b
@@ -1977,17 +1779,15 @@
 			(clear b)
 		)
 		:effect (and
-			(and
-				(not (holding e))
-				(not (clear b))
-				(clear e)
-				(handempty)
-				(on e b)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding e))
+			(not (clear b))
+			(clear e)
+			(handempty)
+			(on e b)
 		)
 	)
 	(:action stack_e_c
@@ -1997,17 +1797,15 @@
 			(clear c)
 		)
 		:effect (and
-			(and
-				(not (holding e))
-				(not (clear c))
-				(clear e)
-				(handempty)
-				(on e c)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding e))
+			(not (clear c))
+			(clear e)
+			(handempty)
+			(on e c)
 		)
 	)
 	(:action stack_e_d
@@ -2017,17 +1815,15 @@
 			(clear d)
 		)
 		:effect (and
-			(and
-				(not (holding e))
-				(not (clear d))
-				(clear e)
-				(handempty)
-				(on e d)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding e))
+			(not (clear d))
+			(clear e)
+			(handempty)
+			(on e d)
 		)
 	)
 	(:action stack_e_f
@@ -2037,17 +1833,15 @@
 			(clear f)
 		)
 		:effect (and
-			(and
-				(not (holding e))
-				(not (clear f))
-				(clear e)
-				(handempty)
-				(on e f)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding e))
+			(not (clear f))
+			(clear e)
+			(handempty)
+			(on e f)
 		)
 	)
 	(:action stack_e_g
@@ -2057,17 +1851,15 @@
 			(clear g)
 		)
 		:effect (and
-			(and
-				(not (holding e))
-				(not (clear g))
-				(clear e)
-				(handempty)
-				(on e g)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding e))
+			(not (clear g))
+			(clear e)
+			(handempty)
+			(on e g)
 		)
 	)
 	(:action stack_e_h
@@ -2077,17 +1869,15 @@
 			(clear h)
 		)
 		:effect (and
-			(and
-				(not (holding e))
-				(not (clear h))
-				(clear e)
-				(handempty)
-				(on e h)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding e))
+			(not (clear h))
+			(clear e)
+			(handempty)
+			(on e h)
 		)
 	)
 	(:action stack_e_i
@@ -2097,17 +1887,15 @@
 			(clear i)
 		)
 		:effect (and
-			(and
-				(not (holding e))
-				(not (clear i))
-				(clear e)
-				(handempty)
-				(on e i)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding e))
+			(not (clear i))
+			(clear e)
+			(handempty)
+			(on e i)
 		)
 	)
 	(:action stack_e_j
@@ -2117,17 +1905,15 @@
 			(clear j)
 		)
 		:effect (and
-			(and
-				(not (holding e))
-				(not (clear j))
-				(clear e)
-				(handempty)
-				(on e j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding e))
+			(not (clear j))
+			(clear e)
+			(handempty)
+			(on e j)
 		)
 	)
 	(:action stack_e_k
@@ -2137,17 +1923,15 @@
 			(clear k)
 		)
 		:effect (and
-			(and
-				(not (holding e))
-				(not (clear k))
-				(clear e)
-				(handempty)
-				(on e k)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding e))
+			(not (clear k))
+			(clear e)
+			(handempty)
+			(on e k)
 		)
 	)
 	(:action stack_e_l
@@ -2157,17 +1941,15 @@
 			(clear l)
 		)
 		:effect (and
-			(and
-				(not (holding e))
-				(not (clear l))
-				(clear e)
-				(handempty)
-				(on e l)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding e))
+			(not (clear l))
+			(clear e)
+			(handempty)
+			(on e l)
 		)
 	)
 	(:action stack_e_m
@@ -2177,17 +1959,15 @@
 			(clear m)
 		)
 		:effect (and
-			(and
-				(not (holding e))
-				(not (clear m))
-				(clear e)
-				(handempty)
-				(on e m)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding e))
+			(not (clear m))
+			(clear e)
+			(handempty)
+			(on e m)
 		)
 	)
 	(:action stack_e_n
@@ -2197,17 +1977,15 @@
 			(clear n)
 		)
 		:effect (and
-			(and
-				(not (holding e))
-				(not (clear n))
-				(clear e)
-				(handempty)
-				(on e n)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding e))
+			(not (clear n))
+			(clear e)
+			(handempty)
+			(on e n)
 		)
 	)
 	(:action stack_e_o
@@ -2217,17 +1995,15 @@
 			(clear o)
 		)
 		:effect (and
-			(and
-				(not (holding e))
-				(not (clear o))
-				(clear e)
-				(handempty)
-				(on e o)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding e))
+			(not (clear o))
+			(clear e)
+			(handempty)
+			(on e o)
 		)
 	)
 	(:action stack_e_p
@@ -2237,17 +2013,15 @@
 			(clear p)
 		)
 		:effect (and
-			(and
-				(not (holding e))
-				(not (clear p))
-				(clear e)
-				(handempty)
-				(on e p)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding e))
+			(not (clear p))
+			(clear e)
+			(handempty)
+			(on e p)
 		)
 	)
 	(:action stack_e_q
@@ -2257,17 +2031,15 @@
 			(clear q)
 		)
 		:effect (and
-			(and
-				(not (holding e))
-				(not (clear q))
-				(clear e)
-				(handempty)
-				(on e q)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding e))
+			(not (clear q))
+			(clear e)
+			(handempty)
+			(on e q)
 		)
 	)
 	(:action stack_f_a
@@ -2277,17 +2049,15 @@
 			(clear a)
 		)
 		:effect (and
-			(and
-				(not (holding f))
-				(not (clear a))
-				(clear f)
-				(handempty)
-				(on f a)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding f))
+			(not (clear a))
+			(clear f)
+			(handempty)
+			(on f a)
 		)
 	)
 	(:action stack_f_b
@@ -2297,17 +2067,15 @@
 			(clear b)
 		)
 		:effect (and
-			(and
-				(not (holding f))
-				(not (clear b))
-				(clear f)
-				(handempty)
-				(on f b)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding f))
+			(not (clear b))
+			(clear f)
+			(handempty)
+			(on f b)
 		)
 	)
 	(:action stack_f_c
@@ -2317,17 +2085,15 @@
 			(clear c)
 		)
 		:effect (and
-			(and
-				(not (holding f))
-				(not (clear c))
-				(clear f)
-				(handempty)
-				(on f c)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding f))
+			(not (clear c))
+			(clear f)
+			(handempty)
+			(on f c)
 		)
 	)
 	(:action stack_f_d
@@ -2337,17 +2103,15 @@
 			(clear d)
 		)
 		:effect (and
-			(and
-				(not (holding f))
-				(not (clear d))
-				(clear f)
-				(handempty)
-				(on f d)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding f))
+			(not (clear d))
+			(clear f)
+			(handempty)
+			(on f d)
 		)
 	)
 	(:action stack_f_e
@@ -2357,17 +2121,15 @@
 			(clear e)
 		)
 		:effect (and
-			(and
-				(not (holding f))
-				(not (clear e))
-				(clear f)
-				(handempty)
-				(on f e)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding f))
+			(not (clear e))
+			(clear f)
+			(handempty)
+			(on f e)
 		)
 	)
 	(:action stack_f_g
@@ -2377,17 +2139,15 @@
 			(clear g)
 		)
 		:effect (and
-			(and
-				(not (holding f))
-				(not (clear g))
-				(clear f)
-				(handempty)
-				(on f g)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding f))
+			(not (clear g))
+			(clear f)
+			(handempty)
+			(on f g)
 		)
 	)
 	(:action stack_f_h
@@ -2397,17 +2157,15 @@
 			(clear h)
 		)
 		:effect (and
-			(and
-				(not (holding f))
-				(not (clear h))
-				(clear f)
-				(handempty)
-				(on f h)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding f))
+			(not (clear h))
+			(clear f)
+			(handempty)
+			(on f h)
 		)
 	)
 	(:action stack_f_i
@@ -2417,17 +2175,15 @@
 			(clear i)
 		)
 		:effect (and
-			(and
-				(not (holding f))
-				(not (clear i))
-				(clear f)
-				(handempty)
-				(on f i)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding f))
+			(not (clear i))
+			(clear f)
+			(handempty)
+			(on f i)
 		)
 	)
 	(:action stack_f_j
@@ -2437,17 +2193,15 @@
 			(clear j)
 		)
 		:effect (and
-			(and
-				(not (holding f))
-				(not (clear j))
-				(clear f)
-				(handempty)
-				(on f j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding f))
+			(not (clear j))
+			(clear f)
+			(handempty)
+			(on f j)
 		)
 	)
 	(:action stack_f_k
@@ -2457,17 +2211,15 @@
 			(clear k)
 		)
 		:effect (and
-			(and
-				(not (holding f))
-				(not (clear k))
-				(clear f)
-				(handempty)
-				(on f k)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding f))
+			(not (clear k))
+			(clear f)
+			(handempty)
+			(on f k)
 		)
 	)
 	(:action stack_f_l
@@ -2477,17 +2229,15 @@
 			(clear l)
 		)
 		:effect (and
-			(and
-				(not (holding f))
-				(not (clear l))
-				(clear f)
-				(handempty)
-				(on f l)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding f))
+			(not (clear l))
+			(clear f)
+			(handempty)
+			(on f l)
 		)
 	)
 	(:action stack_f_m
@@ -2497,17 +2247,15 @@
 			(clear m)
 		)
 		:effect (and
-			(and
-				(not (holding f))
-				(not (clear m))
-				(clear f)
-				(handempty)
-				(on f m)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding f))
+			(not (clear m))
+			(clear f)
+			(handempty)
+			(on f m)
 		)
 	)
 	(:action stack_f_n
@@ -2517,17 +2265,15 @@
 			(clear n)
 		)
 		:effect (and
-			(and
-				(not (holding f))
-				(not (clear n))
-				(clear f)
-				(handempty)
-				(on f n)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding f))
+			(not (clear n))
+			(clear f)
+			(handempty)
+			(on f n)
 		)
 	)
 	(:action stack_f_o
@@ -2537,17 +2283,15 @@
 			(clear o)
 		)
 		:effect (and
-			(and
-				(not (holding f))
-				(not (clear o))
-				(clear f)
-				(handempty)
-				(on f o)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding f))
+			(not (clear o))
+			(clear f)
+			(handempty)
+			(on f o)
 		)
 	)
 	(:action stack_f_p
@@ -2557,17 +2301,15 @@
 			(clear p)
 		)
 		:effect (and
-			(and
-				(not (holding f))
-				(not (clear p))
-				(clear f)
-				(handempty)
-				(on f p)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding f))
+			(not (clear p))
+			(clear f)
+			(handempty)
+			(on f p)
 		)
 	)
 	(:action stack_f_q
@@ -2577,17 +2319,15 @@
 			(clear q)
 		)
 		:effect (and
-			(and
-				(not (holding f))
-				(not (clear q))
-				(clear f)
-				(handempty)
-				(on f q)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding f))
+			(not (clear q))
+			(clear f)
+			(handempty)
+			(on f q)
 		)
 	)
 	(:action stack_g_a
@@ -2597,17 +2337,15 @@
 			(clear a)
 		)
 		:effect (and
-			(and
-				(not (holding g))
-				(not (clear a))
-				(clear g)
-				(handempty)
-				(on g a)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding g))
+			(not (clear a))
+			(clear g)
+			(handempty)
+			(on g a)
 		)
 	)
 	(:action stack_g_b
@@ -2617,17 +2355,15 @@
 			(clear b)
 		)
 		:effect (and
-			(and
-				(not (holding g))
-				(not (clear b))
-				(clear g)
-				(handempty)
-				(on g b)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding g))
+			(not (clear b))
+			(clear g)
+			(handempty)
+			(on g b)
 		)
 	)
 	(:action stack_g_c
@@ -2637,17 +2373,15 @@
 			(clear c)
 		)
 		:effect (and
-			(and
-				(not (holding g))
-				(not (clear c))
-				(clear g)
-				(handempty)
-				(on g c)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding g))
+			(not (clear c))
+			(clear g)
+			(handempty)
+			(on g c)
 		)
 	)
 	(:action stack_g_d
@@ -2657,17 +2391,15 @@
 			(clear d)
 		)
 		:effect (and
-			(and
-				(not (holding g))
-				(not (clear d))
-				(clear g)
-				(handempty)
-				(on g d)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding g))
+			(not (clear d))
+			(clear g)
+			(handempty)
+			(on g d)
 		)
 	)
 	(:action stack_g_e
@@ -2677,17 +2409,15 @@
 			(clear e)
 		)
 		:effect (and
-			(and
-				(not (holding g))
-				(not (clear e))
-				(clear g)
-				(handempty)
-				(on g e)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding g))
+			(not (clear e))
+			(clear g)
+			(handempty)
+			(on g e)
 		)
 	)
 	(:action stack_g_f
@@ -2697,17 +2427,15 @@
 			(clear f)
 		)
 		:effect (and
-			(and
-				(not (holding g))
-				(not (clear f))
-				(clear g)
-				(handempty)
-				(on g f)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding g))
+			(not (clear f))
+			(clear g)
+			(handempty)
+			(on g f)
 		)
 	)
 	(:action stack_g_h
@@ -2717,17 +2445,15 @@
 			(clear h)
 		)
 		:effect (and
-			(and
-				(not (holding g))
-				(not (clear h))
-				(clear g)
-				(handempty)
-				(on g h)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding g))
+			(not (clear h))
+			(clear g)
+			(handempty)
+			(on g h)
 		)
 	)
 	(:action stack_g_i
@@ -2737,17 +2463,15 @@
 			(clear i)
 		)
 		:effect (and
-			(and
-				(not (holding g))
-				(not (clear i))
-				(clear g)
-				(handempty)
-				(on g i)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding g))
+			(not (clear i))
+			(clear g)
+			(handempty)
+			(on g i)
 		)
 	)
 	(:action stack_g_j
@@ -2757,17 +2481,15 @@
 			(clear j)
 		)
 		:effect (and
-			(and
-				(not (holding g))
-				(not (clear j))
-				(clear g)
-				(handempty)
-				(on g j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding g))
+			(not (clear j))
+			(clear g)
+			(handempty)
+			(on g j)
 		)
 	)
 	(:action stack_g_k
@@ -2777,17 +2499,15 @@
 			(clear k)
 		)
 		:effect (and
-			(and
-				(not (holding g))
-				(not (clear k))
-				(clear g)
-				(handempty)
-				(on g k)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding g))
+			(not (clear k))
+			(clear g)
+			(handempty)
+			(on g k)
 		)
 	)
 	(:action stack_g_l
@@ -2797,17 +2517,15 @@
 			(clear l)
 		)
 		:effect (and
-			(and
-				(not (holding g))
-				(not (clear l))
-				(clear g)
-				(handempty)
-				(on g l)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding g))
+			(not (clear l))
+			(clear g)
+			(handempty)
+			(on g l)
 		)
 	)
 	(:action stack_g_m
@@ -2817,17 +2535,15 @@
 			(clear m)
 		)
 		:effect (and
-			(and
-				(not (holding g))
-				(not (clear m))
-				(clear g)
-				(handempty)
-				(on g m)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding g))
+			(not (clear m))
+			(clear g)
+			(handempty)
+			(on g m)
 		)
 	)
 	(:action stack_g_n
@@ -2837,17 +2553,15 @@
 			(clear n)
 		)
 		:effect (and
-			(and
-				(not (holding g))
-				(not (clear n))
-				(clear g)
-				(handempty)
-				(on g n)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding g))
+			(not (clear n))
+			(clear g)
+			(handempty)
+			(on g n)
 		)
 	)
 	(:action stack_g_o
@@ -2857,17 +2571,15 @@
 			(clear o)
 		)
 		:effect (and
-			(and
-				(not (holding g))
-				(not (clear o))
-				(clear g)
-				(handempty)
-				(on g o)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding g))
+			(not (clear o))
+			(clear g)
+			(handempty)
+			(on g o)
 		)
 	)
 	(:action stack_g_p
@@ -2877,17 +2589,15 @@
 			(clear p)
 		)
 		:effect (and
-			(and
-				(not (holding g))
-				(not (clear p))
-				(clear g)
-				(handempty)
-				(on g p)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding g))
+			(not (clear p))
+			(clear g)
+			(handempty)
+			(on g p)
 		)
 	)
 	(:action stack_g_q
@@ -2897,17 +2607,15 @@
 			(clear q)
 		)
 		:effect (and
-			(and
-				(not (holding g))
-				(not (clear q))
-				(clear g)
-				(handempty)
-				(on g q)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding g))
+			(not (clear q))
+			(clear g)
+			(handempty)
+			(on g q)
 		)
 	)
 	(:action stack_h_a
@@ -2917,17 +2625,15 @@
 			(clear a)
 		)
 		:effect (and
-			(and
-				(not (holding h))
-				(not (clear a))
-				(clear h)
-				(handempty)
-				(on h a)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding h))
+			(not (clear a))
+			(clear h)
+			(handempty)
+			(on h a)
 		)
 	)
 	(:action stack_h_b
@@ -2937,17 +2643,15 @@
 			(clear b)
 		)
 		:effect (and
-			(and
-				(not (holding h))
-				(not (clear b))
-				(clear h)
-				(handempty)
-				(on h b)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding h))
+			(not (clear b))
+			(clear h)
+			(handempty)
+			(on h b)
 		)
 	)
 	(:action stack_h_c
@@ -2957,17 +2661,15 @@
 			(clear c)
 		)
 		:effect (and
-			(and
-				(not (holding h))
-				(not (clear c))
-				(clear h)
-				(handempty)
-				(on h c)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding h))
+			(not (clear c))
+			(clear h)
+			(handempty)
+			(on h c)
 		)
 	)
 	(:action stack_h_d
@@ -2977,17 +2679,15 @@
 			(clear d)
 		)
 		:effect (and
-			(and
-				(not (holding h))
-				(not (clear d))
-				(clear h)
-				(handempty)
-				(on h d)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding h))
+			(not (clear d))
+			(clear h)
+			(handempty)
+			(on h d)
 		)
 	)
 	(:action stack_h_e
@@ -2997,17 +2697,15 @@
 			(clear e)
 		)
 		:effect (and
-			(and
-				(not (holding h))
-				(not (clear e))
-				(clear h)
-				(handempty)
-				(on h e)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding h))
+			(not (clear e))
+			(clear h)
+			(handempty)
+			(on h e)
 		)
 	)
 	(:action stack_h_f
@@ -3017,17 +2715,15 @@
 			(clear f)
 		)
 		:effect (and
-			(and
-				(not (holding h))
-				(not (clear f))
-				(clear h)
-				(handempty)
-				(on h f)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding h))
+			(not (clear f))
+			(clear h)
+			(handempty)
+			(on h f)
 		)
 	)
 	(:action stack_h_g
@@ -3037,17 +2733,15 @@
 			(clear g)
 		)
 		:effect (and
-			(and
-				(not (holding h))
-				(not (clear g))
-				(clear h)
-				(handempty)
-				(on h g)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding h))
+			(not (clear g))
+			(clear h)
+			(handempty)
+			(on h g)
 		)
 	)
 	(:action stack_h_i
@@ -3057,17 +2751,15 @@
 			(clear i)
 		)
 		:effect (and
-			(and
-				(not (holding h))
-				(not (clear i))
-				(clear h)
-				(handempty)
-				(on h i)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding h))
+			(not (clear i))
+			(clear h)
+			(handempty)
+			(on h i)
 		)
 	)
 	(:action stack_h_j
@@ -3077,17 +2769,15 @@
 			(clear j)
 		)
 		:effect (and
-			(and
-				(not (holding h))
-				(not (clear j))
-				(clear h)
-				(handempty)
-				(on h j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding h))
+			(not (clear j))
+			(clear h)
+			(handempty)
+			(on h j)
 		)
 	)
 	(:action stack_h_k
@@ -3097,17 +2787,15 @@
 			(clear k)
 		)
 		:effect (and
-			(and
-				(not (holding h))
-				(not (clear k))
-				(clear h)
-				(handempty)
-				(on h k)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding h))
+			(not (clear k))
+			(clear h)
+			(handempty)
+			(on h k)
 		)
 	)
 	(:action stack_h_l
@@ -3117,17 +2805,15 @@
 			(clear l)
 		)
 		:effect (and
-			(and
-				(not (holding h))
-				(not (clear l))
-				(clear h)
-				(handempty)
-				(on h l)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding h))
+			(not (clear l))
+			(clear h)
+			(handempty)
+			(on h l)
 		)
 	)
 	(:action stack_h_m
@@ -3137,17 +2823,15 @@
 			(clear m)
 		)
 		:effect (and
-			(and
-				(not (holding h))
-				(not (clear m))
-				(clear h)
-				(handempty)
-				(on h m)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding h))
+			(not (clear m))
+			(clear h)
+			(handempty)
+			(on h m)
 		)
 	)
 	(:action stack_h_n
@@ -3157,17 +2841,15 @@
 			(clear n)
 		)
 		:effect (and
-			(and
-				(not (holding h))
-				(not (clear n))
-				(clear h)
-				(handempty)
-				(on h n)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding h))
+			(not (clear n))
+			(clear h)
+			(handempty)
+			(on h n)
 		)
 	)
 	(:action stack_h_o
@@ -3177,17 +2859,15 @@
 			(clear o)
 		)
 		:effect (and
-			(and
-				(not (holding h))
-				(not (clear o))
-				(clear h)
-				(handempty)
-				(on h o)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding h))
+			(not (clear o))
+			(clear h)
+			(handempty)
+			(on h o)
 		)
 	)
 	(:action stack_h_p
@@ -3197,17 +2877,15 @@
 			(clear p)
 		)
 		:effect (and
-			(and
-				(not (holding h))
-				(not (clear p))
-				(clear h)
-				(handempty)
-				(on h p)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding h))
+			(not (clear p))
+			(clear h)
+			(handempty)
+			(on h p)
 		)
 	)
 	(:action stack_h_q
@@ -3217,17 +2895,15 @@
 			(clear q)
 		)
 		:effect (and
-			(and
-				(not (holding h))
-				(not (clear q))
-				(clear h)
-				(handempty)
-				(on h q)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding h))
+			(not (clear q))
+			(clear h)
+			(handempty)
+			(on h q)
 		)
 	)
 	(:action stack_i_a
@@ -3237,17 +2913,15 @@
 			(clear a)
 		)
 		:effect (and
-			(and
-				(not (holding i))
-				(not (clear a))
-				(clear i)
-				(handempty)
-				(on i a)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding i))
+			(not (clear a))
+			(clear i)
+			(handempty)
+			(on i a)
 		)
 	)
 	(:action stack_i_b
@@ -3257,17 +2931,15 @@
 			(clear b)
 		)
 		:effect (and
-			(and
-				(not (holding i))
-				(not (clear b))
-				(clear i)
-				(handempty)
-				(on i b)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding i))
+			(not (clear b))
+			(clear i)
+			(handempty)
+			(on i b)
 		)
 	)
 	(:action stack_i_c
@@ -3277,17 +2949,15 @@
 			(clear c)
 		)
 		:effect (and
-			(and
-				(not (holding i))
-				(not (clear c))
-				(clear i)
-				(handempty)
-				(on i c)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding i))
+			(not (clear c))
+			(clear i)
+			(handempty)
+			(on i c)
 		)
 	)
 	(:action stack_i_d
@@ -3297,17 +2967,15 @@
 			(clear d)
 		)
 		:effect (and
-			(and
-				(not (holding i))
-				(not (clear d))
-				(clear i)
-				(handempty)
-				(on i d)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding i))
+			(not (clear d))
+			(clear i)
+			(handempty)
+			(on i d)
 		)
 	)
 	(:action stack_i_e
@@ -3317,17 +2985,15 @@
 			(clear e)
 		)
 		:effect (and
-			(and
-				(not (holding i))
-				(not (clear e))
-				(clear i)
-				(handempty)
-				(on i e)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding i))
+			(not (clear e))
+			(clear i)
+			(handempty)
+			(on i e)
 		)
 	)
 	(:action stack_i_f
@@ -3337,17 +3003,15 @@
 			(clear f)
 		)
 		:effect (and
-			(and
-				(not (holding i))
-				(not (clear f))
-				(clear i)
-				(handempty)
-				(on i f)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding i))
+			(not (clear f))
+			(clear i)
+			(handempty)
+			(on i f)
 		)
 	)
 	(:action stack_i_g
@@ -3357,17 +3021,15 @@
 			(clear g)
 		)
 		:effect (and
-			(and
-				(not (holding i))
-				(not (clear g))
-				(clear i)
-				(handempty)
-				(on i g)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding i))
+			(not (clear g))
+			(clear i)
+			(handempty)
+			(on i g)
 		)
 	)
 	(:action stack_i_h
@@ -3377,17 +3039,15 @@
 			(clear h)
 		)
 		:effect (and
-			(and
-				(not (holding i))
-				(not (clear h))
-				(clear i)
-				(handempty)
-				(on i h)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding i))
+			(not (clear h))
+			(clear i)
+			(handempty)
+			(on i h)
 		)
 	)
 	(:action stack_i_j
@@ -3397,17 +3057,15 @@
 			(clear j)
 		)
 		:effect (and
-			(and
-				(not (holding i))
-				(not (clear j))
-				(clear i)
-				(handempty)
-				(on i j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding i))
+			(not (clear j))
+			(clear i)
+			(handempty)
+			(on i j)
 		)
 	)
 	(:action stack_i_k
@@ -3417,17 +3075,15 @@
 			(clear k)
 		)
 		:effect (and
-			(and
-				(not (holding i))
-				(not (clear k))
-				(clear i)
-				(handempty)
-				(on i k)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding i))
+			(not (clear k))
+			(clear i)
+			(handempty)
+			(on i k)
 		)
 	)
 	(:action stack_i_l
@@ -3437,17 +3093,15 @@
 			(clear l)
 		)
 		:effect (and
-			(and
-				(not (holding i))
-				(not (clear l))
-				(clear i)
-				(handempty)
-				(on i l)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding i))
+			(not (clear l))
+			(clear i)
+			(handempty)
+			(on i l)
 		)
 	)
 	(:action stack_i_m
@@ -3457,17 +3111,15 @@
 			(clear m)
 		)
 		:effect (and
-			(and
-				(not (holding i))
-				(not (clear m))
-				(clear i)
-				(handempty)
-				(on i m)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding i))
+			(not (clear m))
+			(clear i)
+			(handempty)
+			(on i m)
 		)
 	)
 	(:action stack_i_n
@@ -3477,17 +3129,15 @@
 			(clear n)
 		)
 		:effect (and
-			(and
-				(not (holding i))
-				(not (clear n))
-				(clear i)
-				(handempty)
-				(on i n)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding i))
+			(not (clear n))
+			(clear i)
+			(handempty)
+			(on i n)
 		)
 	)
 	(:action stack_i_o
@@ -3497,17 +3147,15 @@
 			(clear o)
 		)
 		:effect (and
-			(and
-				(not (holding i))
-				(not (clear o))
-				(clear i)
-				(handempty)
-				(on i o)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding i))
+			(not (clear o))
+			(clear i)
+			(handempty)
+			(on i o)
 		)
 	)
 	(:action stack_i_p
@@ -3517,17 +3165,15 @@
 			(clear p)
 		)
 		:effect (and
-			(and
-				(not (holding i))
-				(not (clear p))
-				(clear i)
-				(handempty)
-				(on i p)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding i))
+			(not (clear p))
+			(clear i)
+			(handempty)
+			(on i p)
 		)
 	)
 	(:action stack_i_q
@@ -3537,17 +3183,15 @@
 			(clear q)
 		)
 		:effect (and
-			(and
-				(not (holding i))
-				(not (clear q))
-				(clear i)
-				(handempty)
-				(on i q)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding i))
+			(not (clear q))
+			(clear i)
+			(handempty)
+			(on i q)
 		)
 	)
 	(:action stack_j_a
@@ -3557,17 +3201,15 @@
 			(clear a)
 		)
 		:effect (and
-			(and
-				(not (holding j))
-				(not (clear a))
-				(clear j)
-				(handempty)
-				(on j a)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding j))
+			(not (clear a))
+			(clear j)
+			(handempty)
+			(on j a)
 		)
 	)
 	(:action stack_j_b
@@ -3577,17 +3219,15 @@
 			(clear b)
 		)
 		:effect (and
-			(and
-				(not (holding j))
-				(not (clear b))
-				(clear j)
-				(handempty)
-				(on j b)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding j))
+			(not (clear b))
+			(clear j)
+			(handempty)
+			(on j b)
 		)
 	)
 	(:action stack_j_c
@@ -3597,17 +3237,15 @@
 			(clear c)
 		)
 		:effect (and
-			(and
-				(not (holding j))
-				(not (clear c))
-				(clear j)
-				(handempty)
-				(on j c)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding j))
+			(not (clear c))
+			(clear j)
+			(handempty)
+			(on j c)
 		)
 	)
 	(:action stack_j_d
@@ -3617,17 +3255,15 @@
 			(clear d)
 		)
 		:effect (and
-			(and
-				(not (holding j))
-				(not (clear d))
-				(clear j)
-				(handempty)
-				(on j d)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding j))
+			(not (clear d))
+			(clear j)
+			(handempty)
+			(on j d)
 		)
 	)
 	(:action stack_j_e
@@ -3637,17 +3273,15 @@
 			(clear e)
 		)
 		:effect (and
-			(and
-				(not (holding j))
-				(not (clear e))
-				(clear j)
-				(handempty)
-				(on j e)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding j))
+			(not (clear e))
+			(clear j)
+			(handempty)
+			(on j e)
 		)
 	)
 	(:action stack_j_f
@@ -3657,17 +3291,15 @@
 			(clear f)
 		)
 		:effect (and
-			(and
-				(not (holding j))
-				(not (clear f))
-				(clear j)
-				(handempty)
-				(on j f)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding j))
+			(not (clear f))
+			(clear j)
+			(handempty)
+			(on j f)
 		)
 	)
 	(:action stack_j_g
@@ -3677,17 +3309,15 @@
 			(clear g)
 		)
 		:effect (and
-			(and
-				(not (holding j))
-				(not (clear g))
-				(clear j)
-				(handempty)
-				(on j g)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding j))
+			(not (clear g))
+			(clear j)
+			(handempty)
+			(on j g)
 		)
 	)
 	(:action stack_j_h
@@ -3697,17 +3327,15 @@
 			(clear h)
 		)
 		:effect (and
-			(and
-				(not (holding j))
-				(not (clear h))
-				(clear j)
-				(handempty)
-				(on j h)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding j))
+			(not (clear h))
+			(clear j)
+			(handempty)
+			(on j h)
 		)
 	)
 	(:action stack_j_i
@@ -3717,17 +3345,15 @@
 			(clear i)
 		)
 		:effect (and
-			(and
-				(not (holding j))
-				(not (clear i))
-				(clear j)
-				(handempty)
-				(on j i)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding j))
+			(not (clear i))
+			(clear j)
+			(handempty)
+			(on j i)
 		)
 	)
 	(:action stack_j_k
@@ -3737,17 +3363,15 @@
 			(clear k)
 		)
 		:effect (and
-			(and
-				(not (holding j))
-				(not (clear k))
-				(clear j)
-				(handempty)
-				(on j k)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding j))
+			(not (clear k))
+			(clear j)
+			(handempty)
+			(on j k)
 		)
 	)
 	(:action stack_j_l
@@ -3757,17 +3381,15 @@
 			(clear l)
 		)
 		:effect (and
-			(and
-				(not (holding j))
-				(not (clear l))
-				(clear j)
-				(handempty)
-				(on j l)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding j))
+			(not (clear l))
+			(clear j)
+			(handempty)
+			(on j l)
 		)
 	)
 	(:action stack_j_m
@@ -3777,17 +3399,15 @@
 			(clear m)
 		)
 		:effect (and
-			(and
-				(not (holding j))
-				(not (clear m))
-				(clear j)
-				(handempty)
-				(on j m)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding j))
+			(not (clear m))
+			(clear j)
+			(handempty)
+			(on j m)
 		)
 	)
 	(:action stack_j_n
@@ -3797,17 +3417,15 @@
 			(clear n)
 		)
 		:effect (and
-			(and
-				(not (holding j))
-				(not (clear n))
-				(clear j)
-				(handempty)
-				(on j n)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding j))
+			(not (clear n))
+			(clear j)
+			(handempty)
+			(on j n)
 		)
 	)
 	(:action stack_j_o
@@ -3817,17 +3435,15 @@
 			(clear o)
 		)
 		:effect (and
-			(and
-				(not (holding j))
-				(not (clear o))
-				(clear j)
-				(handempty)
-				(on j o)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding j))
+			(not (clear o))
+			(clear j)
+			(handempty)
+			(on j o)
 		)
 	)
 	(:action stack_j_p
@@ -3837,17 +3453,15 @@
 			(clear p)
 		)
 		:effect (and
-			(and
-				(not (holding j))
-				(not (clear p))
-				(clear j)
-				(handempty)
-				(on j p)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding j))
+			(not (clear p))
+			(clear j)
+			(handempty)
+			(on j p)
 		)
 	)
 	(:action stack_j_q
@@ -3857,17 +3471,15 @@
 			(clear q)
 		)
 		:effect (and
-			(and
-				(not (holding j))
-				(not (clear q))
-				(clear j)
-				(handempty)
-				(on j q)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding j))
+			(not (clear q))
+			(clear j)
+			(handempty)
+			(on j q)
 		)
 	)
 	(:action stack_k_a
@@ -3877,17 +3489,15 @@
 			(clear a)
 		)
 		:effect (and
-			(and
-				(not (holding k))
-				(not (clear a))
-				(clear k)
-				(handempty)
-				(on k a)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding k))
+			(not (clear a))
+			(clear k)
+			(handempty)
+			(on k a)
 		)
 	)
 	(:action stack_k_b
@@ -3897,17 +3507,15 @@
 			(clear b)
 		)
 		:effect (and
-			(and
-				(not (holding k))
-				(not (clear b))
-				(clear k)
-				(handempty)
-				(on k b)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding k))
+			(not (clear b))
+			(clear k)
+			(handempty)
+			(on k b)
 		)
 	)
 	(:action stack_k_c
@@ -3917,17 +3525,15 @@
 			(clear c)
 		)
 		:effect (and
-			(and
-				(not (holding k))
-				(not (clear c))
-				(clear k)
-				(handempty)
-				(on k c)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding k))
+			(not (clear c))
+			(clear k)
+			(handempty)
+			(on k c)
 		)
 	)
 	(:action stack_k_d
@@ -3937,17 +3543,15 @@
 			(clear d)
 		)
 		:effect (and
-			(and
-				(not (holding k))
-				(not (clear d))
-				(clear k)
-				(handempty)
-				(on k d)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding k))
+			(not (clear d))
+			(clear k)
+			(handempty)
+			(on k d)
 		)
 	)
 	(:action stack_k_e
@@ -3957,17 +3561,15 @@
 			(clear e)
 		)
 		:effect (and
-			(and
-				(not (holding k))
-				(not (clear e))
-				(clear k)
-				(handempty)
-				(on k e)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding k))
+			(not (clear e))
+			(clear k)
+			(handempty)
+			(on k e)
 		)
 	)
 	(:action stack_k_f
@@ -3977,17 +3579,15 @@
 			(clear f)
 		)
 		:effect (and
-			(and
-				(not (holding k))
-				(not (clear f))
-				(clear k)
-				(handempty)
-				(on k f)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding k))
+			(not (clear f))
+			(clear k)
+			(handempty)
+			(on k f)
 		)
 	)
 	(:action stack_k_g
@@ -3997,17 +3597,15 @@
 			(clear g)
 		)
 		:effect (and
-			(and
-				(not (holding k))
-				(not (clear g))
-				(clear k)
-				(handempty)
-				(on k g)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding k))
+			(not (clear g))
+			(clear k)
+			(handempty)
+			(on k g)
 		)
 	)
 	(:action stack_k_h
@@ -4017,17 +3615,15 @@
 			(clear h)
 		)
 		:effect (and
-			(and
-				(not (holding k))
-				(not (clear h))
-				(clear k)
-				(handempty)
-				(on k h)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding k))
+			(not (clear h))
+			(clear k)
+			(handempty)
+			(on k h)
 		)
 	)
 	(:action stack_k_i
@@ -4037,17 +3633,15 @@
 			(clear i)
 		)
 		:effect (and
-			(and
-				(not (holding k))
-				(not (clear i))
-				(clear k)
-				(handempty)
-				(on k i)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding k))
+			(not (clear i))
+			(clear k)
+			(handempty)
+			(on k i)
 		)
 	)
 	(:action stack_k_j
@@ -4057,17 +3651,15 @@
 			(clear j)
 		)
 		:effect (and
-			(and
-				(not (holding k))
-				(not (clear j))
-				(clear k)
-				(handempty)
-				(on k j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding k))
+			(not (clear j))
+			(clear k)
+			(handempty)
+			(on k j)
 		)
 	)
 	(:action stack_k_l
@@ -4077,17 +3669,15 @@
 			(clear l)
 		)
 		:effect (and
-			(and
-				(not (holding k))
-				(not (clear l))
-				(clear k)
-				(handempty)
-				(on k l)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding k))
+			(not (clear l))
+			(clear k)
+			(handempty)
+			(on k l)
 		)
 	)
 	(:action stack_k_m
@@ -4097,17 +3687,15 @@
 			(clear m)
 		)
 		:effect (and
-			(and
-				(not (holding k))
-				(not (clear m))
-				(clear k)
-				(handempty)
-				(on k m)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding k))
+			(not (clear m))
+			(clear k)
+			(handempty)
+			(on k m)
 		)
 	)
 	(:action stack_k_n
@@ -4117,17 +3705,15 @@
 			(clear n)
 		)
 		:effect (and
-			(and
-				(not (holding k))
-				(not (clear n))
-				(clear k)
-				(handempty)
-				(on k n)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding k))
+			(not (clear n))
+			(clear k)
+			(handempty)
+			(on k n)
 		)
 	)
 	(:action stack_k_o
@@ -4137,17 +3723,15 @@
 			(clear o)
 		)
 		:effect (and
-			(and
-				(not (holding k))
-				(not (clear o))
-				(clear k)
-				(handempty)
-				(on k o)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding k))
+			(not (clear o))
+			(clear k)
+			(handempty)
+			(on k o)
 		)
 	)
 	(:action stack_k_p
@@ -4157,17 +3741,15 @@
 			(clear p)
 		)
 		:effect (and
-			(and
-				(not (holding k))
-				(not (clear p))
-				(clear k)
-				(handempty)
-				(on k p)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding k))
+			(not (clear p))
+			(clear k)
+			(handempty)
+			(on k p)
 		)
 	)
 	(:action stack_k_q
@@ -4177,17 +3759,15 @@
 			(clear q)
 		)
 		:effect (and
-			(and
-				(not (holding k))
-				(not (clear q))
-				(clear k)
-				(handempty)
-				(on k q)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding k))
+			(not (clear q))
+			(clear k)
+			(handempty)
+			(on k q)
 		)
 	)
 	(:action stack_l_a
@@ -4197,17 +3777,15 @@
 			(clear a)
 		)
 		:effect (and
-			(and
-				(not (holding l))
-				(not (clear a))
-				(clear l)
-				(handempty)
-				(on l a)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding l))
+			(not (clear a))
+			(clear l)
+			(handempty)
+			(on l a)
 		)
 	)
 	(:action stack_l_b
@@ -4217,17 +3795,15 @@
 			(clear b)
 		)
 		:effect (and
-			(and
-				(not (holding l))
-				(not (clear b))
-				(clear l)
-				(handempty)
-				(on l b)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding l))
+			(not (clear b))
+			(clear l)
+			(handempty)
+			(on l b)
 		)
 	)
 	(:action stack_l_c
@@ -4237,17 +3813,15 @@
 			(clear c)
 		)
 		:effect (and
-			(and
-				(not (holding l))
-				(not (clear c))
-				(clear l)
-				(handempty)
-				(on l c)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding l))
+			(not (clear c))
+			(clear l)
+			(handempty)
+			(on l c)
 		)
 	)
 	(:action stack_l_d
@@ -4257,17 +3831,15 @@
 			(clear d)
 		)
 		:effect (and
-			(and
-				(not (holding l))
-				(not (clear d))
-				(clear l)
-				(handempty)
-				(on l d)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding l))
+			(not (clear d))
+			(clear l)
+			(handempty)
+			(on l d)
 		)
 	)
 	(:action stack_l_e
@@ -4277,17 +3849,15 @@
 			(clear e)
 		)
 		:effect (and
-			(and
-				(not (holding l))
-				(not (clear e))
-				(clear l)
-				(handempty)
-				(on l e)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding l))
+			(not (clear e))
+			(clear l)
+			(handempty)
+			(on l e)
 		)
 	)
 	(:action stack_l_f
@@ -4297,17 +3867,15 @@
 			(clear f)
 		)
 		:effect (and
-			(and
-				(not (holding l))
-				(not (clear f))
-				(clear l)
-				(handempty)
-				(on l f)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding l))
+			(not (clear f))
+			(clear l)
+			(handempty)
+			(on l f)
 		)
 	)
 	(:action stack_l_g
@@ -4317,17 +3885,15 @@
 			(clear g)
 		)
 		:effect (and
-			(and
-				(not (holding l))
-				(not (clear g))
-				(clear l)
-				(handempty)
-				(on l g)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding l))
+			(not (clear g))
+			(clear l)
+			(handempty)
+			(on l g)
 		)
 	)
 	(:action stack_l_h
@@ -4337,17 +3903,15 @@
 			(clear h)
 		)
 		:effect (and
-			(and
-				(not (holding l))
-				(not (clear h))
-				(clear l)
-				(handempty)
-				(on l h)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding l))
+			(not (clear h))
+			(clear l)
+			(handempty)
+			(on l h)
 		)
 	)
 	(:action stack_l_i
@@ -4357,17 +3921,15 @@
 			(clear i)
 		)
 		:effect (and
-			(and
-				(not (holding l))
-				(not (clear i))
-				(clear l)
-				(handempty)
-				(on l i)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding l))
+			(not (clear i))
+			(clear l)
+			(handempty)
+			(on l i)
 		)
 	)
 	(:action stack_l_j
@@ -4377,17 +3939,15 @@
 			(clear j)
 		)
 		:effect (and
-			(and
-				(not (holding l))
-				(not (clear j))
-				(clear l)
-				(handempty)
-				(on l j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding l))
+			(not (clear j))
+			(clear l)
+			(handempty)
+			(on l j)
 		)
 	)
 	(:action stack_l_k
@@ -4397,17 +3957,15 @@
 			(clear k)
 		)
 		:effect (and
-			(and
-				(not (holding l))
-				(not (clear k))
-				(clear l)
-				(handempty)
-				(on l k)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding l))
+			(not (clear k))
+			(clear l)
+			(handempty)
+			(on l k)
 		)
 	)
 	(:action stack_l_m
@@ -4417,17 +3975,15 @@
 			(clear m)
 		)
 		:effect (and
-			(and
-				(not (holding l))
-				(not (clear m))
-				(clear l)
-				(handempty)
-				(on l m)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding l))
+			(not (clear m))
+			(clear l)
+			(handempty)
+			(on l m)
 		)
 	)
 	(:action stack_l_n
@@ -4437,17 +3993,15 @@
 			(clear n)
 		)
 		:effect (and
-			(and
-				(not (holding l))
-				(not (clear n))
-				(clear l)
-				(handempty)
-				(on l n)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding l))
+			(not (clear n))
+			(clear l)
+			(handempty)
+			(on l n)
 		)
 	)
 	(:action stack_l_o
@@ -4457,17 +4011,15 @@
 			(clear o)
 		)
 		:effect (and
-			(and
-				(not (holding l))
-				(not (clear o))
-				(clear l)
-				(handempty)
-				(on l o)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding l))
+			(not (clear o))
+			(clear l)
+			(handempty)
+			(on l o)
 		)
 	)
 	(:action stack_l_p
@@ -4477,17 +4029,15 @@
 			(clear p)
 		)
 		:effect (and
-			(and
-				(not (holding l))
-				(not (clear p))
-				(clear l)
-				(handempty)
-				(on l p)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding l))
+			(not (clear p))
+			(clear l)
+			(handempty)
+			(on l p)
 		)
 	)
 	(:action stack_l_q
@@ -4497,17 +4047,15 @@
 			(clear q)
 		)
 		:effect (and
-			(and
-				(not (holding l))
-				(not (clear q))
-				(clear l)
-				(handempty)
-				(on l q)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding l))
+			(not (clear q))
+			(clear l)
+			(handempty)
+			(on l q)
 		)
 	)
 	(:action stack_m_a
@@ -4517,17 +4065,15 @@
 			(clear a)
 		)
 		:effect (and
-			(and
-				(not (holding m))
-				(not (clear a))
-				(clear m)
-				(handempty)
-				(on m a)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding m))
+			(not (clear a))
+			(clear m)
+			(handempty)
+			(on m a)
 		)
 	)
 	(:action stack_m_b
@@ -4537,17 +4083,15 @@
 			(clear b)
 		)
 		:effect (and
-			(and
-				(not (holding m))
-				(not (clear b))
-				(clear m)
-				(handempty)
-				(on m b)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding m))
+			(not (clear b))
+			(clear m)
+			(handempty)
+			(on m b)
 		)
 	)
 	(:action stack_m_c
@@ -4557,17 +4101,15 @@
 			(clear c)
 		)
 		:effect (and
-			(and
-				(not (holding m))
-				(not (clear c))
-				(clear m)
-				(handempty)
-				(on m c)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding m))
+			(not (clear c))
+			(clear m)
+			(handempty)
+			(on m c)
 		)
 	)
 	(:action stack_m_d
@@ -4577,17 +4119,15 @@
 			(clear d)
 		)
 		:effect (and
-			(and
-				(not (holding m))
-				(not (clear d))
-				(clear m)
-				(handempty)
-				(on m d)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding m))
+			(not (clear d))
+			(clear m)
+			(handempty)
+			(on m d)
 		)
 	)
 	(:action stack_m_e
@@ -4597,17 +4137,15 @@
 			(clear e)
 		)
 		:effect (and
-			(and
-				(not (holding m))
-				(not (clear e))
-				(clear m)
-				(handempty)
-				(on m e)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding m))
+			(not (clear e))
+			(clear m)
+			(handempty)
+			(on m e)
 		)
 	)
 	(:action stack_m_f
@@ -4617,17 +4155,15 @@
 			(clear f)
 		)
 		:effect (and
-			(and
-				(not (holding m))
-				(not (clear f))
-				(clear m)
-				(handempty)
-				(on m f)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding m))
+			(not (clear f))
+			(clear m)
+			(handempty)
+			(on m f)
 		)
 	)
 	(:action stack_m_g
@@ -4637,17 +4173,15 @@
 			(clear g)
 		)
 		:effect (and
-			(and
-				(not (holding m))
-				(not (clear g))
-				(clear m)
-				(handempty)
-				(on m g)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding m))
+			(not (clear g))
+			(clear m)
+			(handempty)
+			(on m g)
 		)
 	)
 	(:action stack_m_h
@@ -4657,17 +4191,15 @@
 			(clear h)
 		)
 		:effect (and
-			(and
-				(not (holding m))
-				(not (clear h))
-				(clear m)
-				(handempty)
-				(on m h)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding m))
+			(not (clear h))
+			(clear m)
+			(handempty)
+			(on m h)
 		)
 	)
 	(:action stack_m_i
@@ -4677,17 +4209,15 @@
 			(clear i)
 		)
 		:effect (and
-			(and
-				(not (holding m))
-				(not (clear i))
-				(clear m)
-				(handempty)
-				(on m i)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding m))
+			(not (clear i))
+			(clear m)
+			(handempty)
+			(on m i)
 		)
 	)
 	(:action stack_m_j
@@ -4697,17 +4227,15 @@
 			(clear j)
 		)
 		:effect (and
-			(and
-				(not (holding m))
-				(not (clear j))
-				(clear m)
-				(handempty)
-				(on m j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding m))
+			(not (clear j))
+			(clear m)
+			(handempty)
+			(on m j)
 		)
 	)
 	(:action stack_m_k
@@ -4717,17 +4245,15 @@
 			(clear k)
 		)
 		:effect (and
-			(and
-				(not (holding m))
-				(not (clear k))
-				(clear m)
-				(handempty)
-				(on m k)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding m))
+			(not (clear k))
+			(clear m)
+			(handempty)
+			(on m k)
 		)
 	)
 	(:action stack_m_l
@@ -4737,17 +4263,15 @@
 			(clear l)
 		)
 		:effect (and
-			(and
-				(not (holding m))
-				(not (clear l))
-				(clear m)
-				(handempty)
-				(on m l)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding m))
+			(not (clear l))
+			(clear m)
+			(handempty)
+			(on m l)
 		)
 	)
 	(:action stack_m_n
@@ -4757,17 +4281,15 @@
 			(clear n)
 		)
 		:effect (and
-			(and
-				(not (holding m))
-				(not (clear n))
-				(clear m)
-				(handempty)
-				(on m n)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding m))
+			(not (clear n))
+			(clear m)
+			(handempty)
+			(on m n)
 		)
 	)
 	(:action stack_m_o
@@ -4777,17 +4299,15 @@
 			(clear o)
 		)
 		:effect (and
-			(and
-				(not (holding m))
-				(not (clear o))
-				(clear m)
-				(handempty)
-				(on m o)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding m))
+			(not (clear o))
+			(clear m)
+			(handempty)
+			(on m o)
 		)
 	)
 	(:action stack_m_p
@@ -4797,17 +4317,15 @@
 			(clear p)
 		)
 		:effect (and
-			(and
-				(not (holding m))
-				(not (clear p))
-				(clear m)
-				(handempty)
-				(on m p)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding m))
+			(not (clear p))
+			(clear m)
+			(handempty)
+			(on m p)
 		)
 	)
 	(:action stack_m_q
@@ -4817,17 +4335,15 @@
 			(clear q)
 		)
 		:effect (and
-			(and
-				(not (holding m))
-				(not (clear q))
-				(clear m)
-				(handempty)
-				(on m q)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding m))
+			(not (clear q))
+			(clear m)
+			(handempty)
+			(on m q)
 		)
 	)
 	(:action stack_n_a
@@ -4837,17 +4353,15 @@
 			(clear a)
 		)
 		:effect (and
-			(and
-				(not (holding n))
-				(not (clear a))
-				(clear n)
-				(handempty)
-				(on n a)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding n))
+			(not (clear a))
+			(clear n)
+			(handempty)
+			(on n a)
 		)
 	)
 	(:action stack_n_b
@@ -4857,17 +4371,15 @@
 			(clear b)
 		)
 		:effect (and
-			(and
-				(not (holding n))
-				(not (clear b))
-				(clear n)
-				(handempty)
-				(on n b)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding n))
+			(not (clear b))
+			(clear n)
+			(handempty)
+			(on n b)
 		)
 	)
 	(:action stack_n_c
@@ -4877,17 +4389,15 @@
 			(clear c)
 		)
 		:effect (and
-			(and
-				(not (holding n))
-				(not (clear c))
-				(clear n)
-				(handempty)
-				(on n c)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding n))
+			(not (clear c))
+			(clear n)
+			(handempty)
+			(on n c)
 		)
 	)
 	(:action stack_n_d
@@ -4897,17 +4407,15 @@
 			(clear d)
 		)
 		:effect (and
-			(and
-				(not (holding n))
-				(not (clear d))
-				(clear n)
-				(handempty)
-				(on n d)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding n))
+			(not (clear d))
+			(clear n)
+			(handempty)
+			(on n d)
 		)
 	)
 	(:action stack_n_e
@@ -4917,17 +4425,15 @@
 			(clear e)
 		)
 		:effect (and
-			(and
-				(not (holding n))
-				(not (clear e))
-				(clear n)
-				(handempty)
-				(on n e)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding n))
+			(not (clear e))
+			(clear n)
+			(handempty)
+			(on n e)
 		)
 	)
 	(:action stack_n_f
@@ -4937,17 +4443,15 @@
 			(clear f)
 		)
 		:effect (and
-			(and
-				(not (holding n))
-				(not (clear f))
-				(clear n)
-				(handempty)
-				(on n f)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding n))
+			(not (clear f))
+			(clear n)
+			(handempty)
+			(on n f)
 		)
 	)
 	(:action stack_n_g
@@ -4957,17 +4461,15 @@
 			(clear g)
 		)
 		:effect (and
-			(and
-				(not (holding n))
-				(not (clear g))
-				(clear n)
-				(handempty)
-				(on n g)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding n))
+			(not (clear g))
+			(clear n)
+			(handempty)
+			(on n g)
 		)
 	)
 	(:action stack_n_h
@@ -4977,17 +4479,15 @@
 			(clear h)
 		)
 		:effect (and
-			(and
-				(not (holding n))
-				(not (clear h))
-				(clear n)
-				(handempty)
-				(on n h)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding n))
+			(not (clear h))
+			(clear n)
+			(handempty)
+			(on n h)
 		)
 	)
 	(:action stack_n_i
@@ -4997,17 +4497,15 @@
 			(clear i)
 		)
 		:effect (and
-			(and
-				(not (holding n))
-				(not (clear i))
-				(clear n)
-				(handempty)
-				(on n i)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding n))
+			(not (clear i))
+			(clear n)
+			(handempty)
+			(on n i)
 		)
 	)
 	(:action stack_n_j
@@ -5017,17 +4515,15 @@
 			(clear j)
 		)
 		:effect (and
-			(and
-				(not (holding n))
-				(not (clear j))
-				(clear n)
-				(handempty)
-				(on n j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding n))
+			(not (clear j))
+			(clear n)
+			(handempty)
+			(on n j)
 		)
 	)
 	(:action stack_n_k
@@ -5037,17 +4533,15 @@
 			(clear k)
 		)
 		:effect (and
-			(and
-				(not (holding n))
-				(not (clear k))
-				(clear n)
-				(handempty)
-				(on n k)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding n))
+			(not (clear k))
+			(clear n)
+			(handempty)
+			(on n k)
 		)
 	)
 	(:action stack_n_l
@@ -5057,17 +4551,15 @@
 			(clear l)
 		)
 		:effect (and
-			(and
-				(not (holding n))
-				(not (clear l))
-				(clear n)
-				(handempty)
-				(on n l)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding n))
+			(not (clear l))
+			(clear n)
+			(handempty)
+			(on n l)
 		)
 	)
 	(:action stack_n_m
@@ -5077,17 +4569,15 @@
 			(clear m)
 		)
 		:effect (and
-			(and
-				(not (holding n))
-				(not (clear m))
-				(clear n)
-				(handempty)
-				(on n m)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding n))
+			(not (clear m))
+			(clear n)
+			(handempty)
+			(on n m)
 		)
 	)
 	(:action stack_n_o
@@ -5097,17 +4587,15 @@
 			(clear o)
 		)
 		:effect (and
-			(and
-				(not (holding n))
-				(not (clear o))
-				(clear n)
-				(handempty)
-				(on n o)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding n))
+			(not (clear o))
+			(clear n)
+			(handempty)
+			(on n o)
 		)
 	)
 	(:action stack_n_p
@@ -5117,17 +4605,15 @@
 			(clear p)
 		)
 		:effect (and
-			(and
-				(not (holding n))
-				(not (clear p))
-				(clear n)
-				(handempty)
-				(on n p)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding n))
+			(not (clear p))
+			(clear n)
+			(handempty)
+			(on n p)
 		)
 	)
 	(:action stack_n_q
@@ -5137,17 +4623,15 @@
 			(clear q)
 		)
 		:effect (and
-			(and
-				(not (holding n))
-				(not (clear q))
-				(clear n)
-				(handempty)
-				(on n q)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding n))
+			(not (clear q))
+			(clear n)
+			(handempty)
+			(on n q)
 		)
 	)
 	(:action stack_o_a
@@ -5157,17 +4641,15 @@
 			(clear a)
 		)
 		:effect (and
-			(and
-				(not (holding o))
-				(not (clear a))
-				(clear o)
-				(handempty)
-				(on o a)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding o))
+			(not (clear a))
+			(clear o)
+			(handempty)
+			(on o a)
 		)
 	)
 	(:action stack_o_b
@@ -5177,17 +4659,15 @@
 			(clear b)
 		)
 		:effect (and
-			(and
-				(not (holding o))
-				(not (clear b))
-				(clear o)
-				(handempty)
-				(on o b)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding o))
+			(not (clear b))
+			(clear o)
+			(handempty)
+			(on o b)
 		)
 	)
 	(:action stack_o_c
@@ -5197,17 +4677,15 @@
 			(clear c)
 		)
 		:effect (and
-			(and
-				(not (holding o))
-				(not (clear c))
-				(clear o)
-				(handempty)
-				(on o c)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding o))
+			(not (clear c))
+			(clear o)
+			(handempty)
+			(on o c)
 		)
 	)
 	(:action stack_o_d
@@ -5217,17 +4695,15 @@
 			(clear d)
 		)
 		:effect (and
-			(and
-				(not (holding o))
-				(not (clear d))
-				(clear o)
-				(handempty)
-				(on o d)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding o))
+			(not (clear d))
+			(clear o)
+			(handempty)
+			(on o d)
 		)
 	)
 	(:action stack_o_e
@@ -5237,17 +4713,15 @@
 			(clear e)
 		)
 		:effect (and
-			(and
-				(not (holding o))
-				(not (clear e))
-				(clear o)
-				(handempty)
-				(on o e)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding o))
+			(not (clear e))
+			(clear o)
+			(handempty)
+			(on o e)
 		)
 	)
 	(:action stack_o_f
@@ -5257,17 +4731,15 @@
 			(clear f)
 		)
 		:effect (and
-			(and
-				(not (holding o))
-				(not (clear f))
-				(clear o)
-				(handempty)
-				(on o f)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding o))
+			(not (clear f))
+			(clear o)
+			(handempty)
+			(on o f)
 		)
 	)
 	(:action stack_o_g
@@ -5277,17 +4749,15 @@
 			(clear g)
 		)
 		:effect (and
-			(and
-				(not (holding o))
-				(not (clear g))
-				(clear o)
-				(handempty)
-				(on o g)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding o))
+			(not (clear g))
+			(clear o)
+			(handempty)
+			(on o g)
 		)
 	)
 	(:action stack_o_h
@@ -5297,17 +4767,15 @@
 			(clear h)
 		)
 		:effect (and
-			(and
-				(not (holding o))
-				(not (clear h))
-				(clear o)
-				(handempty)
-				(on o h)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding o))
+			(not (clear h))
+			(clear o)
+			(handempty)
+			(on o h)
 		)
 	)
 	(:action stack_o_i
@@ -5317,17 +4785,15 @@
 			(clear i)
 		)
 		:effect (and
-			(and
-				(not (holding o))
-				(not (clear i))
-				(clear o)
-				(handempty)
-				(on o i)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding o))
+			(not (clear i))
+			(clear o)
+			(handempty)
+			(on o i)
 		)
 	)
 	(:action stack_o_j
@@ -5337,17 +4803,15 @@
 			(clear j)
 		)
 		:effect (and
-			(and
-				(not (holding o))
-				(not (clear j))
-				(clear o)
-				(handempty)
-				(on o j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding o))
+			(not (clear j))
+			(clear o)
+			(handempty)
+			(on o j)
 		)
 	)
 	(:action stack_o_k
@@ -5357,17 +4821,15 @@
 			(clear k)
 		)
 		:effect (and
-			(and
-				(not (holding o))
-				(not (clear k))
-				(clear o)
-				(handempty)
-				(on o k)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding o))
+			(not (clear k))
+			(clear o)
+			(handempty)
+			(on o k)
 		)
 	)
 	(:action stack_o_l
@@ -5377,17 +4839,15 @@
 			(clear l)
 		)
 		:effect (and
-			(and
-				(not (holding o))
-				(not (clear l))
-				(clear o)
-				(handempty)
-				(on o l)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding o))
+			(not (clear l))
+			(clear o)
+			(handempty)
+			(on o l)
 		)
 	)
 	(:action stack_o_m
@@ -5397,17 +4857,15 @@
 			(clear m)
 		)
 		:effect (and
-			(and
-				(not (holding o))
-				(not (clear m))
-				(clear o)
-				(handempty)
-				(on o m)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding o))
+			(not (clear m))
+			(clear o)
+			(handempty)
+			(on o m)
 		)
 	)
 	(:action stack_o_n
@@ -5417,17 +4875,15 @@
 			(clear n)
 		)
 		:effect (and
-			(and
-				(not (holding o))
-				(not (clear n))
-				(clear o)
-				(handempty)
-				(on o n)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding o))
+			(not (clear n))
+			(clear o)
+			(handempty)
+			(on o n)
 		)
 	)
 	(:action stack_o_p
@@ -5437,17 +4893,15 @@
 			(clear p)
 		)
 		:effect (and
-			(and
-				(not (holding o))
-				(not (clear p))
-				(clear o)
-				(handempty)
-				(on o p)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding o))
+			(not (clear p))
+			(clear o)
+			(handempty)
+			(on o p)
 		)
 	)
 	(:action stack_o_q
@@ -5457,17 +4911,15 @@
 			(clear q)
 		)
 		:effect (and
-			(and
-				(not (holding o))
-				(not (clear q))
-				(clear o)
-				(handempty)
-				(on o q)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding o))
+			(not (clear q))
+			(clear o)
+			(handempty)
+			(on o q)
 		)
 	)
 	(:action stack_p_a
@@ -5477,17 +4929,15 @@
 			(clear a)
 		)
 		:effect (and
-			(and
-				(not (holding p))
-				(not (clear a))
-				(clear p)
-				(handempty)
-				(on p a)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding p))
+			(not (clear a))
+			(clear p)
+			(handempty)
+			(on p a)
 		)
 	)
 	(:action stack_p_b
@@ -5497,17 +4947,15 @@
 			(clear b)
 		)
 		:effect (and
-			(and
-				(not (holding p))
-				(not (clear b))
-				(clear p)
-				(handempty)
-				(on p b)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding p))
+			(not (clear b))
+			(clear p)
+			(handempty)
+			(on p b)
 		)
 	)
 	(:action stack_p_c
@@ -5517,17 +4965,15 @@
 			(clear c)
 		)
 		:effect (and
-			(and
-				(not (holding p))
-				(not (clear c))
-				(clear p)
-				(handempty)
-				(on p c)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding p))
+			(not (clear c))
+			(clear p)
+			(handempty)
+			(on p c)
 		)
 	)
 	(:action stack_p_d
@@ -5537,17 +4983,15 @@
 			(clear d)
 		)
 		:effect (and
-			(and
-				(not (holding p))
-				(not (clear d))
-				(clear p)
-				(handempty)
-				(on p d)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding p))
+			(not (clear d))
+			(clear p)
+			(handempty)
+			(on p d)
 		)
 	)
 	(:action stack_p_e
@@ -5557,17 +5001,15 @@
 			(clear e)
 		)
 		:effect (and
-			(and
-				(not (holding p))
-				(not (clear e))
-				(clear p)
-				(handempty)
-				(on p e)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding p))
+			(not (clear e))
+			(clear p)
+			(handempty)
+			(on p e)
 		)
 	)
 	(:action stack_p_f
@@ -5577,17 +5019,15 @@
 			(clear f)
 		)
 		:effect (and
-			(and
-				(not (holding p))
-				(not (clear f))
-				(clear p)
-				(handempty)
-				(on p f)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding p))
+			(not (clear f))
+			(clear p)
+			(handempty)
+			(on p f)
 		)
 	)
 	(:action stack_p_g
@@ -5597,17 +5037,15 @@
 			(clear g)
 		)
 		:effect (and
-			(and
-				(not (holding p))
-				(not (clear g))
-				(clear p)
-				(handempty)
-				(on p g)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding p))
+			(not (clear g))
+			(clear p)
+			(handempty)
+			(on p g)
 		)
 	)
 	(:action stack_p_h
@@ -5617,17 +5055,15 @@
 			(clear h)
 		)
 		:effect (and
-			(and
-				(not (holding p))
-				(not (clear h))
-				(clear p)
-				(handempty)
-				(on p h)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding p))
+			(not (clear h))
+			(clear p)
+			(handempty)
+			(on p h)
 		)
 	)
 	(:action stack_p_i
@@ -5637,17 +5073,15 @@
 			(clear i)
 		)
 		:effect (and
-			(and
-				(not (holding p))
-				(not (clear i))
-				(clear p)
-				(handempty)
-				(on p i)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding p))
+			(not (clear i))
+			(clear p)
+			(handempty)
+			(on p i)
 		)
 	)
 	(:action stack_p_j
@@ -5657,17 +5091,15 @@
 			(clear j)
 		)
 		:effect (and
-			(and
-				(not (holding p))
-				(not (clear j))
-				(clear p)
-				(handempty)
-				(on p j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding p))
+			(not (clear j))
+			(clear p)
+			(handempty)
+			(on p j)
 		)
 	)
 	(:action stack_p_k
@@ -5677,17 +5109,15 @@
 			(clear k)
 		)
 		:effect (and
-			(and
-				(not (holding p))
-				(not (clear k))
-				(clear p)
-				(handempty)
-				(on p k)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding p))
+			(not (clear k))
+			(clear p)
+			(handempty)
+			(on p k)
 		)
 	)
 	(:action stack_p_l
@@ -5697,17 +5127,15 @@
 			(clear l)
 		)
 		:effect (and
-			(and
-				(not (holding p))
-				(not (clear l))
-				(clear p)
-				(handempty)
-				(on p l)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding p))
+			(not (clear l))
+			(clear p)
+			(handempty)
+			(on p l)
 		)
 	)
 	(:action stack_p_m
@@ -5717,17 +5145,15 @@
 			(clear m)
 		)
 		:effect (and
-			(and
-				(not (holding p))
-				(not (clear m))
-				(clear p)
-				(handempty)
-				(on p m)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding p))
+			(not (clear m))
+			(clear p)
+			(handempty)
+			(on p m)
 		)
 	)
 	(:action stack_p_n
@@ -5737,17 +5163,15 @@
 			(clear n)
 		)
 		:effect (and
-			(and
-				(not (holding p))
-				(not (clear n))
-				(clear p)
-				(handempty)
-				(on p n)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding p))
+			(not (clear n))
+			(clear p)
+			(handempty)
+			(on p n)
 		)
 	)
 	(:action stack_p_o
@@ -5757,17 +5181,15 @@
 			(clear o)
 		)
 		:effect (and
-			(and
-				(not (holding p))
-				(not (clear o))
-				(clear p)
-				(handempty)
-				(on p o)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding p))
+			(not (clear o))
+			(clear p)
+			(handempty)
+			(on p o)
 		)
 	)
 	(:action stack_p_q
@@ -5777,17 +5199,15 @@
 			(clear q)
 		)
 		:effect (and
-			(and
-				(not (holding p))
-				(not (clear q))
-				(clear p)
-				(handempty)
-				(on p q)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding p))
+			(not (clear q))
+			(clear p)
+			(handempty)
+			(on p q)
 		)
 	)
 	(:action stack_q_a
@@ -5797,17 +5217,15 @@
 			(clear a)
 		)
 		:effect (and
-			(and
-				(not (holding q))
-				(not (clear a))
-				(clear q)
-				(handempty)
-				(on q a)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding q))
+			(not (clear a))
+			(clear q)
+			(handempty)
+			(on q a)
 		)
 	)
 	(:action stack_q_b
@@ -5817,17 +5235,15 @@
 			(clear b)
 		)
 		:effect (and
-			(and
-				(not (holding q))
-				(not (clear b))
-				(clear q)
-				(handempty)
-				(on q b)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding q))
+			(not (clear b))
+			(clear q)
+			(handempty)
+			(on q b)
 		)
 	)
 	(:action stack_q_c
@@ -5837,17 +5253,15 @@
 			(clear c)
 		)
 		:effect (and
-			(and
-				(not (holding q))
-				(not (clear c))
-				(clear q)
-				(handempty)
-				(on q c)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding q))
+			(not (clear c))
+			(clear q)
+			(handempty)
+			(on q c)
 		)
 	)
 	(:action stack_q_d
@@ -5857,17 +5271,15 @@
 			(clear d)
 		)
 		:effect (and
-			(and
-				(not (holding q))
-				(not (clear d))
-				(clear q)
-				(handempty)
-				(on q d)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding q))
+			(not (clear d))
+			(clear q)
+			(handempty)
+			(on q d)
 		)
 	)
 	(:action stack_q_e
@@ -5877,17 +5289,15 @@
 			(clear e)
 		)
 		:effect (and
-			(and
-				(not (holding q))
-				(not (clear e))
-				(clear q)
-				(handempty)
-				(on q e)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding q))
+			(not (clear e))
+			(clear q)
+			(handempty)
+			(on q e)
 		)
 	)
 	(:action stack_q_f
@@ -5897,17 +5307,15 @@
 			(clear f)
 		)
 		:effect (and
-			(and
-				(not (holding q))
-				(not (clear f))
-				(clear q)
-				(handempty)
-				(on q f)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding q))
+			(not (clear f))
+			(clear q)
+			(handempty)
+			(on q f)
 		)
 	)
 	(:action stack_q_g
@@ -5917,17 +5325,15 @@
 			(clear g)
 		)
 		:effect (and
-			(and
-				(not (holding q))
-				(not (clear g))
-				(clear q)
-				(handempty)
-				(on q g)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding q))
+			(not (clear g))
+			(clear q)
+			(handempty)
+			(on q g)
 		)
 	)
 	(:action stack_q_h
@@ -5937,17 +5343,15 @@
 			(clear h)
 		)
 		:effect (and
-			(and
-				(not (holding q))
-				(not (clear h))
-				(clear q)
-				(handempty)
-				(on q h)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding q))
+			(not (clear h))
+			(clear q)
+			(handempty)
+			(on q h)
 		)
 	)
 	(:action stack_q_i
@@ -5957,17 +5361,15 @@
 			(clear i)
 		)
 		:effect (and
-			(and
-				(not (holding q))
-				(not (clear i))
-				(clear q)
-				(handempty)
-				(on q i)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding q))
+			(not (clear i))
+			(clear q)
+			(handempty)
+			(on q i)
 		)
 	)
 	(:action stack_q_j
@@ -5977,17 +5379,15 @@
 			(clear j)
 		)
 		:effect (and
-			(and
-				(not (holding q))
-				(not (clear j))
-				(clear q)
-				(handempty)
-				(on q j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding q))
+			(not (clear j))
+			(clear q)
+			(handempty)
+			(on q j)
 		)
 	)
 	(:action stack_q_k
@@ -5997,17 +5397,15 @@
 			(clear k)
 		)
 		:effect (and
-			(and
-				(not (holding q))
-				(not (clear k))
-				(clear q)
-				(handempty)
-				(on q k)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding q))
+			(not (clear k))
+			(clear q)
+			(handempty)
+			(on q k)
 		)
 	)
 	(:action stack_q_l
@@ -6017,17 +5415,15 @@
 			(clear l)
 		)
 		:effect (and
-			(and
-				(not (holding q))
-				(not (clear l))
-				(clear q)
-				(handempty)
-				(on q l)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding q))
+			(not (clear l))
+			(clear q)
+			(handempty)
+			(on q l)
 		)
 	)
 	(:action stack_q_m
@@ -6037,17 +5433,15 @@
 			(clear m)
 		)
 		:effect (and
-			(and
-				(not (holding q))
-				(not (clear m))
-				(clear q)
-				(handempty)
-				(on q m)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding q))
+			(not (clear m))
+			(clear q)
+			(handempty)
+			(on q m)
 		)
 	)
 	(:action stack_q_n
@@ -6057,17 +5451,15 @@
 			(clear n)
 		)
 		:effect (and
-			(and
-				(not (holding q))
-				(not (clear n))
-				(clear q)
-				(handempty)
-				(on q n)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding q))
+			(not (clear n))
+			(clear q)
+			(handempty)
+			(on q n)
 		)
 	)
 	(:action stack_q_o
@@ -6077,17 +5469,15 @@
 			(clear o)
 		)
 		:effect (and
-			(and
-				(not (holding q))
-				(not (clear o))
-				(clear q)
-				(handempty)
-				(on q o)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding q))
+			(not (clear o))
+			(clear q)
+			(handempty)
+			(on q o)
 		)
 	)
 	(:action stack_q_p
@@ -6097,17 +5487,15 @@
 			(clear p)
 		)
 		:effect (and
-			(and
-				(not (holding q))
-				(not (clear p))
-				(clear q)
-				(handempty)
-				(on q p)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (holding q))
+			(not (clear p))
+			(clear q)
+			(handempty)
+			(on q p)
 		)
 	)
 	(:action unstack_a_b
@@ -6118,17 +5506,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding a)
-				(clear b)
-				(not (clear a))
-				(not (handempty))
-				(not (on a b))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding a)
+			(clear b)
+			(not (clear a))
+			(not (handempty))
+			(not (on a b))
 		)
 	)
 	(:action unstack_a_c
@@ -6139,17 +5525,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding a)
-				(clear c)
-				(not (clear a))
-				(not (handempty))
-				(not (on a c))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding a)
+			(clear c)
+			(not (clear a))
+			(not (handempty))
+			(not (on a c))
 		)
 	)
 	(:action unstack_a_d
@@ -6160,17 +5544,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding a)
-				(clear d)
-				(not (clear a))
-				(not (handempty))
-				(not (on a d))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding a)
+			(clear d)
+			(not (clear a))
+			(not (handempty))
+			(not (on a d))
 		)
 	)
 	(:action unstack_a_e
@@ -6181,17 +5563,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding a)
-				(clear e)
-				(not (clear a))
-				(not (handempty))
-				(not (on a e))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding a)
+			(clear e)
+			(not (clear a))
+			(not (handempty))
+			(not (on a e))
 		)
 	)
 	(:action unstack_a_f
@@ -6202,17 +5582,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding a)
-				(clear f)
-				(not (clear a))
-				(not (handempty))
-				(not (on a f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding a)
+			(clear f)
+			(not (clear a))
+			(not (handempty))
+			(not (on a f))
 		)
 	)
 	(:action unstack_a_g
@@ -6223,17 +5601,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding a)
-				(clear g)
-				(not (clear a))
-				(not (handempty))
-				(not (on a g))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding a)
+			(clear g)
+			(not (clear a))
+			(not (handempty))
+			(not (on a g))
 		)
 	)
 	(:action unstack_a_h
@@ -6244,17 +5620,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding a)
-				(clear h)
-				(not (clear a))
-				(not (handempty))
-				(not (on a h))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding a)
+			(clear h)
+			(not (clear a))
+			(not (handempty))
+			(not (on a h))
 		)
 	)
 	(:action unstack_a_i
@@ -6265,17 +5639,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding a)
-				(clear i)
-				(not (clear a))
-				(not (handempty))
-				(not (on a i))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding a)
+			(clear i)
+			(not (clear a))
+			(not (handempty))
+			(not (on a i))
 		)
 	)
 	(:action unstack_a_j
@@ -6286,17 +5658,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding a)
-				(clear j)
-				(not (clear a))
-				(not (handempty))
-				(not (on a j))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding a)
+			(clear j)
+			(not (clear a))
+			(not (handempty))
+			(not (on a j))
 		)
 	)
 	(:action unstack_a_k
@@ -6307,17 +5677,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding a)
-				(clear k)
-				(not (clear a))
-				(not (handempty))
-				(not (on a k))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding a)
+			(clear k)
+			(not (clear a))
+			(not (handempty))
+			(not (on a k))
 		)
 	)
 	(:action unstack_a_l
@@ -6328,17 +5696,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding a)
-				(clear l)
-				(not (clear a))
-				(not (handempty))
-				(not (on a l))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding a)
+			(clear l)
+			(not (clear a))
+			(not (handempty))
+			(not (on a l))
 		)
 	)
 	(:action unstack_a_m
@@ -6349,17 +5715,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding a)
-				(clear m)
-				(not (clear a))
-				(not (handempty))
-				(not (on a m))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding a)
+			(clear m)
+			(not (clear a))
+			(not (handempty))
+			(not (on a m))
 		)
 	)
 	(:action unstack_a_n
@@ -6370,17 +5734,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding a)
-				(clear n)
-				(not (clear a))
-				(not (handempty))
-				(not (on a n))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding a)
+			(clear n)
+			(not (clear a))
+			(not (handempty))
+			(not (on a n))
 		)
 	)
 	(:action unstack_a_o
@@ -6391,17 +5753,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding a)
-				(clear o)
-				(not (clear a))
-				(not (handempty))
-				(not (on a o))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding a)
+			(clear o)
+			(not (clear a))
+			(not (handempty))
+			(not (on a o))
 		)
 	)
 	(:action unstack_a_p
@@ -6412,17 +5772,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding a)
-				(clear p)
-				(not (clear a))
-				(not (handempty))
-				(not (on a p))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding a)
+			(clear p)
+			(not (clear a))
+			(not (handempty))
+			(not (on a p))
 		)
 	)
 	(:action unstack_a_q
@@ -6433,17 +5791,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding a)
-				(clear q)
-				(not (clear a))
-				(not (handempty))
-				(not (on a q))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding a)
+			(clear q)
+			(not (clear a))
+			(not (handempty))
+			(not (on a q))
 		)
 	)
 	(:action unstack_b_a
@@ -6454,17 +5810,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding b)
-				(clear a)
-				(not (clear b))
-				(not (handempty))
-				(not (on b a))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding b)
+			(clear a)
+			(not (clear b))
+			(not (handempty))
+			(not (on b a))
 		)
 	)
 	(:action unstack_b_c
@@ -6475,17 +5829,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding b)
-				(clear c)
-				(not (clear b))
-				(not (handempty))
-				(not (on b c))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding b)
+			(clear c)
+			(not (clear b))
+			(not (handempty))
+			(not (on b c))
 		)
 	)
 	(:action unstack_b_d
@@ -6496,17 +5848,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding b)
-				(clear d)
-				(not (clear b))
-				(not (handempty))
-				(not (on b d))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding b)
+			(clear d)
+			(not (clear b))
+			(not (handempty))
+			(not (on b d))
 		)
 	)
 	(:action unstack_b_e
@@ -6517,17 +5867,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding b)
-				(clear e)
-				(not (clear b))
-				(not (handempty))
-				(not (on b e))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding b)
+			(clear e)
+			(not (clear b))
+			(not (handempty))
+			(not (on b e))
 		)
 	)
 	(:action unstack_b_f
@@ -6538,17 +5886,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding b)
-				(clear f)
-				(not (clear b))
-				(not (handempty))
-				(not (on b f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding b)
+			(clear f)
+			(not (clear b))
+			(not (handempty))
+			(not (on b f))
 		)
 	)
 	(:action unstack_b_g
@@ -6559,17 +5905,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding b)
-				(clear g)
-				(not (clear b))
-				(not (handempty))
-				(not (on b g))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding b)
+			(clear g)
+			(not (clear b))
+			(not (handempty))
+			(not (on b g))
 		)
 	)
 	(:action unstack_b_h
@@ -6580,17 +5924,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding b)
-				(clear h)
-				(not (clear b))
-				(not (handempty))
-				(not (on b h))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding b)
+			(clear h)
+			(not (clear b))
+			(not (handempty))
+			(not (on b h))
 		)
 	)
 	(:action unstack_b_i
@@ -6601,17 +5943,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding b)
-				(clear i)
-				(not (clear b))
-				(not (handempty))
-				(not (on b i))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding b)
+			(clear i)
+			(not (clear b))
+			(not (handempty))
+			(not (on b i))
 		)
 	)
 	(:action unstack_b_j
@@ -6622,17 +5962,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding b)
-				(clear j)
-				(not (clear b))
-				(not (handempty))
-				(not (on b j))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding b)
+			(clear j)
+			(not (clear b))
+			(not (handempty))
+			(not (on b j))
 		)
 	)
 	(:action unstack_b_k
@@ -6643,17 +5981,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding b)
-				(clear k)
-				(not (clear b))
-				(not (handempty))
-				(not (on b k))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding b)
+			(clear k)
+			(not (clear b))
+			(not (handempty))
+			(not (on b k))
 		)
 	)
 	(:action unstack_b_l
@@ -6664,17 +6000,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding b)
-				(clear l)
-				(not (clear b))
-				(not (handempty))
-				(not (on b l))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding b)
+			(clear l)
+			(not (clear b))
+			(not (handempty))
+			(not (on b l))
 		)
 	)
 	(:action unstack_b_m
@@ -6685,17 +6019,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding b)
-				(clear m)
-				(not (clear b))
-				(not (handempty))
-				(not (on b m))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding b)
+			(clear m)
+			(not (clear b))
+			(not (handempty))
+			(not (on b m))
 		)
 	)
 	(:action unstack_b_n
@@ -6706,17 +6038,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding b)
-				(clear n)
-				(not (clear b))
-				(not (handempty))
-				(not (on b n))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding b)
+			(clear n)
+			(not (clear b))
+			(not (handempty))
+			(not (on b n))
 		)
 	)
 	(:action unstack_b_o
@@ -6727,17 +6057,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding b)
-				(clear o)
-				(not (clear b))
-				(not (handempty))
-				(not (on b o))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding b)
+			(clear o)
+			(not (clear b))
+			(not (handempty))
+			(not (on b o))
 		)
 	)
 	(:action unstack_b_p
@@ -6748,17 +6076,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding b)
-				(clear p)
-				(not (clear b))
-				(not (handempty))
-				(not (on b p))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding b)
+			(clear p)
+			(not (clear b))
+			(not (handempty))
+			(not (on b p))
 		)
 	)
 	(:action unstack_b_q
@@ -6769,17 +6095,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding b)
-				(clear q)
-				(not (clear b))
-				(not (handempty))
-				(not (on b q))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding b)
+			(clear q)
+			(not (clear b))
+			(not (handempty))
+			(not (on b q))
 		)
 	)
 	(:action unstack_c_a
@@ -6790,17 +6114,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding c)
-				(clear a)
-				(not (clear c))
-				(not (handempty))
-				(not (on c a))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding c)
+			(clear a)
+			(not (clear c))
+			(not (handempty))
+			(not (on c a))
 		)
 	)
 	(:action unstack_c_b
@@ -6811,17 +6133,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding c)
-				(clear b)
-				(not (clear c))
-				(not (handempty))
-				(not (on c b))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding c)
+			(clear b)
+			(not (clear c))
+			(not (handempty))
+			(not (on c b))
 		)
 	)
 	(:action unstack_c_d
@@ -6832,17 +6152,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding c)
-				(clear d)
-				(not (clear c))
-				(not (handempty))
-				(not (on c d))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding c)
+			(clear d)
+			(not (clear c))
+			(not (handempty))
+			(not (on c d))
 		)
 	)
 	(:action unstack_c_e
@@ -6853,17 +6171,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding c)
-				(clear e)
-				(not (clear c))
-				(not (handempty))
-				(not (on c e))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding c)
+			(clear e)
+			(not (clear c))
+			(not (handempty))
+			(not (on c e))
 		)
 	)
 	(:action unstack_c_f
@@ -6874,17 +6190,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding c)
-				(clear f)
-				(not (clear c))
-				(not (handempty))
-				(not (on c f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding c)
+			(clear f)
+			(not (clear c))
+			(not (handempty))
+			(not (on c f))
 		)
 	)
 	(:action unstack_c_g
@@ -6895,17 +6209,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding c)
-				(clear g)
-				(not (clear c))
-				(not (handempty))
-				(not (on c g))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding c)
+			(clear g)
+			(not (clear c))
+			(not (handempty))
+			(not (on c g))
 		)
 	)
 	(:action unstack_c_h
@@ -6916,17 +6228,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding c)
-				(clear h)
-				(not (clear c))
-				(not (handempty))
-				(not (on c h))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding c)
+			(clear h)
+			(not (clear c))
+			(not (handempty))
+			(not (on c h))
 		)
 	)
 	(:action unstack_c_i
@@ -6937,17 +6247,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding c)
-				(clear i)
-				(not (clear c))
-				(not (handempty))
-				(not (on c i))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding c)
+			(clear i)
+			(not (clear c))
+			(not (handempty))
+			(not (on c i))
 		)
 	)
 	(:action unstack_c_j
@@ -6958,17 +6266,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding c)
-				(clear j)
-				(not (clear c))
-				(not (handempty))
-				(not (on c j))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding c)
+			(clear j)
+			(not (clear c))
+			(not (handempty))
+			(not (on c j))
 		)
 	)
 	(:action unstack_c_k
@@ -6979,17 +6285,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding c)
-				(clear k)
-				(not (clear c))
-				(not (handempty))
-				(not (on c k))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding c)
+			(clear k)
+			(not (clear c))
+			(not (handempty))
+			(not (on c k))
 		)
 	)
 	(:action unstack_c_l
@@ -7000,17 +6304,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding c)
-				(clear l)
-				(not (clear c))
-				(not (handempty))
-				(not (on c l))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding c)
+			(clear l)
+			(not (clear c))
+			(not (handempty))
+			(not (on c l))
 		)
 	)
 	(:action unstack_c_m
@@ -7021,17 +6323,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding c)
-				(clear m)
-				(not (clear c))
-				(not (handempty))
-				(not (on c m))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding c)
+			(clear m)
+			(not (clear c))
+			(not (handempty))
+			(not (on c m))
 		)
 	)
 	(:action unstack_c_n
@@ -7042,17 +6342,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding c)
-				(clear n)
-				(not (clear c))
-				(not (handempty))
-				(not (on c n))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding c)
+			(clear n)
+			(not (clear c))
+			(not (handempty))
+			(not (on c n))
 		)
 	)
 	(:action unstack_c_o
@@ -7063,17 +6361,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding c)
-				(clear o)
-				(not (clear c))
-				(not (handempty))
-				(not (on c o))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding c)
+			(clear o)
+			(not (clear c))
+			(not (handempty))
+			(not (on c o))
 		)
 	)
 	(:action unstack_c_p
@@ -7084,17 +6380,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding c)
-				(clear p)
-				(not (clear c))
-				(not (handempty))
-				(not (on c p))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding c)
+			(clear p)
+			(not (clear c))
+			(not (handempty))
+			(not (on c p))
 		)
 	)
 	(:action unstack_c_q
@@ -7105,17 +6399,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding c)
-				(clear q)
-				(not (clear c))
-				(not (handempty))
-				(not (on c q))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding c)
+			(clear q)
+			(not (clear c))
+			(not (handempty))
+			(not (on c q))
 		)
 	)
 	(:action unstack_d_a
@@ -7126,17 +6418,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding d)
-				(clear a)
-				(not (clear d))
-				(not (handempty))
-				(not (on d a))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding d)
+			(clear a)
+			(not (clear d))
+			(not (handempty))
+			(not (on d a))
 		)
 	)
 	(:action unstack_d_b
@@ -7147,17 +6437,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding d)
-				(clear b)
-				(not (clear d))
-				(not (handempty))
-				(not (on d b))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding d)
+			(clear b)
+			(not (clear d))
+			(not (handempty))
+			(not (on d b))
 		)
 	)
 	(:action unstack_d_c
@@ -7168,17 +6456,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding d)
-				(clear c)
-				(not (clear d))
-				(not (handempty))
-				(not (on d c))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding d)
+			(clear c)
+			(not (clear d))
+			(not (handempty))
+			(not (on d c))
 		)
 	)
 	(:action unstack_d_e
@@ -7189,17 +6475,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding d)
-				(clear e)
-				(not (clear d))
-				(not (handempty))
-				(not (on d e))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding d)
+			(clear e)
+			(not (clear d))
+			(not (handempty))
+			(not (on d e))
 		)
 	)
 	(:action unstack_d_f
@@ -7210,17 +6494,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding d)
-				(clear f)
-				(not (clear d))
-				(not (handempty))
-				(not (on d f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding d)
+			(clear f)
+			(not (clear d))
+			(not (handempty))
+			(not (on d f))
 		)
 	)
 	(:action unstack_d_g
@@ -7231,17 +6513,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding d)
-				(clear g)
-				(not (clear d))
-				(not (handempty))
-				(not (on d g))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding d)
+			(clear g)
+			(not (clear d))
+			(not (handempty))
+			(not (on d g))
 		)
 	)
 	(:action unstack_d_h
@@ -7252,17 +6532,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding d)
-				(clear h)
-				(not (clear d))
-				(not (handempty))
-				(not (on d h))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding d)
+			(clear h)
+			(not (clear d))
+			(not (handempty))
+			(not (on d h))
 		)
 	)
 	(:action unstack_d_i
@@ -7273,17 +6551,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding d)
-				(clear i)
-				(not (clear d))
-				(not (handempty))
-				(not (on d i))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding d)
+			(clear i)
+			(not (clear d))
+			(not (handempty))
+			(not (on d i))
 		)
 	)
 	(:action unstack_d_j
@@ -7294,17 +6570,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding d)
-				(clear j)
-				(not (clear d))
-				(not (handempty))
-				(not (on d j))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding d)
+			(clear j)
+			(not (clear d))
+			(not (handempty))
+			(not (on d j))
 		)
 	)
 	(:action unstack_d_k
@@ -7315,17 +6589,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding d)
-				(clear k)
-				(not (clear d))
-				(not (handempty))
-				(not (on d k))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding d)
+			(clear k)
+			(not (clear d))
+			(not (handempty))
+			(not (on d k))
 		)
 	)
 	(:action unstack_d_l
@@ -7336,17 +6608,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding d)
-				(clear l)
-				(not (clear d))
-				(not (handempty))
-				(not (on d l))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding d)
+			(clear l)
+			(not (clear d))
+			(not (handempty))
+			(not (on d l))
 		)
 	)
 	(:action unstack_d_m
@@ -7357,17 +6627,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding d)
-				(clear m)
-				(not (clear d))
-				(not (handempty))
-				(not (on d m))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding d)
+			(clear m)
+			(not (clear d))
+			(not (handempty))
+			(not (on d m))
 		)
 	)
 	(:action unstack_d_n
@@ -7378,17 +6646,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding d)
-				(clear n)
-				(not (clear d))
-				(not (handempty))
-				(not (on d n))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding d)
+			(clear n)
+			(not (clear d))
+			(not (handempty))
+			(not (on d n))
 		)
 	)
 	(:action unstack_d_o
@@ -7399,17 +6665,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding d)
-				(clear o)
-				(not (clear d))
-				(not (handempty))
-				(not (on d o))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding d)
+			(clear o)
+			(not (clear d))
+			(not (handempty))
+			(not (on d o))
 		)
 	)
 	(:action unstack_d_p
@@ -7420,17 +6684,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding d)
-				(clear p)
-				(not (clear d))
-				(not (handempty))
-				(not (on d p))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding d)
+			(clear p)
+			(not (clear d))
+			(not (handempty))
+			(not (on d p))
 		)
 	)
 	(:action unstack_d_q
@@ -7441,17 +6703,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding d)
-				(clear q)
-				(not (clear d))
-				(not (handempty))
-				(not (on d q))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding d)
+			(clear q)
+			(not (clear d))
+			(not (handempty))
+			(not (on d q))
 		)
 	)
 	(:action unstack_e_a
@@ -7462,17 +6722,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding e)
-				(clear a)
-				(not (clear e))
-				(not (handempty))
-				(not (on e a))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding e)
+			(clear a)
+			(not (clear e))
+			(not (handempty))
+			(not (on e a))
 		)
 	)
 	(:action unstack_e_b
@@ -7483,17 +6741,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding e)
-				(clear b)
-				(not (clear e))
-				(not (handempty))
-				(not (on e b))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding e)
+			(clear b)
+			(not (clear e))
+			(not (handempty))
+			(not (on e b))
 		)
 	)
 	(:action unstack_e_c
@@ -7504,17 +6760,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding e)
-				(clear c)
-				(not (clear e))
-				(not (handempty))
-				(not (on e c))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding e)
+			(clear c)
+			(not (clear e))
+			(not (handempty))
+			(not (on e c))
 		)
 	)
 	(:action unstack_e_d
@@ -7525,17 +6779,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding e)
-				(clear d)
-				(not (clear e))
-				(not (handempty))
-				(not (on e d))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding e)
+			(clear d)
+			(not (clear e))
+			(not (handempty))
+			(not (on e d))
 		)
 	)
 	(:action unstack_e_f
@@ -7546,17 +6798,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding e)
-				(clear f)
-				(not (clear e))
-				(not (handempty))
-				(not (on e f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding e)
+			(clear f)
+			(not (clear e))
+			(not (handempty))
+			(not (on e f))
 		)
 	)
 	(:action unstack_e_g
@@ -7567,17 +6817,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding e)
-				(clear g)
-				(not (clear e))
-				(not (handempty))
-				(not (on e g))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding e)
+			(clear g)
+			(not (clear e))
+			(not (handempty))
+			(not (on e g))
 		)
 	)
 	(:action unstack_e_h
@@ -7588,17 +6836,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding e)
-				(clear h)
-				(not (clear e))
-				(not (handempty))
-				(not (on e h))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding e)
+			(clear h)
+			(not (clear e))
+			(not (handempty))
+			(not (on e h))
 		)
 	)
 	(:action unstack_e_i
@@ -7609,17 +6855,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding e)
-				(clear i)
-				(not (clear e))
-				(not (handempty))
-				(not (on e i))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding e)
+			(clear i)
+			(not (clear e))
+			(not (handempty))
+			(not (on e i))
 		)
 	)
 	(:action unstack_e_j
@@ -7630,17 +6874,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding e)
-				(clear j)
-				(not (clear e))
-				(not (handempty))
-				(not (on e j))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding e)
+			(clear j)
+			(not (clear e))
+			(not (handempty))
+			(not (on e j))
 		)
 	)
 	(:action unstack_e_k
@@ -7651,17 +6893,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding e)
-				(clear k)
-				(not (clear e))
-				(not (handempty))
-				(not (on e k))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding e)
+			(clear k)
+			(not (clear e))
+			(not (handempty))
+			(not (on e k))
 		)
 	)
 	(:action unstack_e_l
@@ -7672,17 +6912,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding e)
-				(clear l)
-				(not (clear e))
-				(not (handempty))
-				(not (on e l))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding e)
+			(clear l)
+			(not (clear e))
+			(not (handempty))
+			(not (on e l))
 		)
 	)
 	(:action unstack_e_m
@@ -7693,17 +6931,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding e)
-				(clear m)
-				(not (clear e))
-				(not (handempty))
-				(not (on e m))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding e)
+			(clear m)
+			(not (clear e))
+			(not (handempty))
+			(not (on e m))
 		)
 	)
 	(:action unstack_e_n
@@ -7714,17 +6950,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding e)
-				(clear n)
-				(not (clear e))
-				(not (handempty))
-				(not (on e n))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding e)
+			(clear n)
+			(not (clear e))
+			(not (handempty))
+			(not (on e n))
 		)
 	)
 	(:action unstack_e_o
@@ -7735,17 +6969,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding e)
-				(clear o)
-				(not (clear e))
-				(not (handempty))
-				(not (on e o))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding e)
+			(clear o)
+			(not (clear e))
+			(not (handempty))
+			(not (on e o))
 		)
 	)
 	(:action unstack_e_p
@@ -7756,17 +6988,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding e)
-				(clear p)
-				(not (clear e))
-				(not (handempty))
-				(not (on e p))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding e)
+			(clear p)
+			(not (clear e))
+			(not (handempty))
+			(not (on e p))
 		)
 	)
 	(:action unstack_e_q
@@ -7777,17 +7007,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding e)
-				(clear q)
-				(not (clear e))
-				(not (handempty))
-				(not (on e q))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding e)
+			(clear q)
+			(not (clear e))
+			(not (handempty))
+			(not (on e q))
 		)
 	)
 	(:action unstack_f_a
@@ -7798,17 +7026,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding f)
-				(clear a)
-				(not (clear f))
-				(not (handempty))
-				(not (on f a))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding f)
+			(clear a)
+			(not (clear f))
+			(not (handempty))
+			(not (on f a))
 		)
 	)
 	(:action unstack_f_b
@@ -7819,17 +7045,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding f)
-				(clear b)
-				(not (clear f))
-				(not (handempty))
-				(not (on f b))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding f)
+			(clear b)
+			(not (clear f))
+			(not (handempty))
+			(not (on f b))
 		)
 	)
 	(:action unstack_f_c
@@ -7840,17 +7064,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding f)
-				(clear c)
-				(not (clear f))
-				(not (handempty))
-				(not (on f c))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding f)
+			(clear c)
+			(not (clear f))
+			(not (handempty))
+			(not (on f c))
 		)
 	)
 	(:action unstack_f_d
@@ -7861,17 +7083,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding f)
-				(clear d)
-				(not (clear f))
-				(not (handempty))
-				(not (on f d))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding f)
+			(clear d)
+			(not (clear f))
+			(not (handempty))
+			(not (on f d))
 		)
 	)
 	(:action unstack_f_e
@@ -7882,17 +7102,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding f)
-				(clear e)
-				(not (clear f))
-				(not (handempty))
-				(not (on f e))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding f)
+			(clear e)
+			(not (clear f))
+			(not (handempty))
+			(not (on f e))
 		)
 	)
 	(:action unstack_f_g
@@ -7903,17 +7121,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding f)
-				(clear g)
-				(not (clear f))
-				(not (handempty))
-				(not (on f g))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding f)
+			(clear g)
+			(not (clear f))
+			(not (handempty))
+			(not (on f g))
 		)
 	)
 	(:action unstack_f_h
@@ -7924,17 +7140,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding f)
-				(clear h)
-				(not (clear f))
-				(not (handempty))
-				(not (on f h))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding f)
+			(clear h)
+			(not (clear f))
+			(not (handempty))
+			(not (on f h))
 		)
 	)
 	(:action unstack_f_i
@@ -7945,17 +7159,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding f)
-				(clear i)
-				(not (clear f))
-				(not (handempty))
-				(not (on f i))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding f)
+			(clear i)
+			(not (clear f))
+			(not (handempty))
+			(not (on f i))
 		)
 	)
 	(:action unstack_f_j
@@ -7966,17 +7178,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding f)
-				(clear j)
-				(not (clear f))
-				(not (handempty))
-				(not (on f j))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding f)
+			(clear j)
+			(not (clear f))
+			(not (handempty))
+			(not (on f j))
 		)
 	)
 	(:action unstack_f_k
@@ -7987,17 +7197,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding f)
-				(clear k)
-				(not (clear f))
-				(not (handempty))
-				(not (on f k))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding f)
+			(clear k)
+			(not (clear f))
+			(not (handempty))
+			(not (on f k))
 		)
 	)
 	(:action unstack_f_l
@@ -8008,17 +7216,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding f)
-				(clear l)
-				(not (clear f))
-				(not (handempty))
-				(not (on f l))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding f)
+			(clear l)
+			(not (clear f))
+			(not (handempty))
+			(not (on f l))
 		)
 	)
 	(:action unstack_f_m
@@ -8029,17 +7235,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding f)
-				(clear m)
-				(not (clear f))
-				(not (handempty))
-				(not (on f m))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding f)
+			(clear m)
+			(not (clear f))
+			(not (handempty))
+			(not (on f m))
 		)
 	)
 	(:action unstack_f_n
@@ -8050,17 +7254,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding f)
-				(clear n)
-				(not (clear f))
-				(not (handempty))
-				(not (on f n))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding f)
+			(clear n)
+			(not (clear f))
+			(not (handempty))
+			(not (on f n))
 		)
 	)
 	(:action unstack_f_o
@@ -8071,17 +7273,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding f)
-				(clear o)
-				(not (clear f))
-				(not (handempty))
-				(not (on f o))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding f)
+			(clear o)
+			(not (clear f))
+			(not (handempty))
+			(not (on f o))
 		)
 	)
 	(:action unstack_f_p
@@ -8092,17 +7292,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding f)
-				(clear p)
-				(not (clear f))
-				(not (handempty))
-				(not (on f p))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding f)
+			(clear p)
+			(not (clear f))
+			(not (handempty))
+			(not (on f p))
 		)
 	)
 	(:action unstack_f_q
@@ -8113,17 +7311,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding f)
-				(clear q)
-				(not (clear f))
-				(not (handempty))
-				(not (on f q))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding f)
+			(clear q)
+			(not (clear f))
+			(not (handempty))
+			(not (on f q))
 		)
 	)
 	(:action unstack_g_a
@@ -8134,17 +7330,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding g)
-				(clear a)
-				(not (clear g))
-				(not (handempty))
-				(not (on g a))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding g)
+			(clear a)
+			(not (clear g))
+			(not (handempty))
+			(not (on g a))
 		)
 	)
 	(:action unstack_g_b
@@ -8155,17 +7349,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding g)
-				(clear b)
-				(not (clear g))
-				(not (handempty))
-				(not (on g b))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding g)
+			(clear b)
+			(not (clear g))
+			(not (handempty))
+			(not (on g b))
 		)
 	)
 	(:action unstack_g_c
@@ -8176,17 +7368,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding g)
-				(clear c)
-				(not (clear g))
-				(not (handempty))
-				(not (on g c))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding g)
+			(clear c)
+			(not (clear g))
+			(not (handempty))
+			(not (on g c))
 		)
 	)
 	(:action unstack_g_d
@@ -8197,17 +7387,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding g)
-				(clear d)
-				(not (clear g))
-				(not (handempty))
-				(not (on g d))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding g)
+			(clear d)
+			(not (clear g))
+			(not (handempty))
+			(not (on g d))
 		)
 	)
 	(:action unstack_g_e
@@ -8218,17 +7406,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding g)
-				(clear e)
-				(not (clear g))
-				(not (handempty))
-				(not (on g e))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding g)
+			(clear e)
+			(not (clear g))
+			(not (handempty))
+			(not (on g e))
 		)
 	)
 	(:action unstack_g_f
@@ -8239,17 +7425,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding g)
-				(clear f)
-				(not (clear g))
-				(not (handempty))
-				(not (on g f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding g)
+			(clear f)
+			(not (clear g))
+			(not (handempty))
+			(not (on g f))
 		)
 	)
 	(:action unstack_g_h
@@ -8260,17 +7444,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding g)
-				(clear h)
-				(not (clear g))
-				(not (handempty))
-				(not (on g h))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding g)
+			(clear h)
+			(not (clear g))
+			(not (handempty))
+			(not (on g h))
 		)
 	)
 	(:action unstack_g_i
@@ -8281,17 +7463,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding g)
-				(clear i)
-				(not (clear g))
-				(not (handempty))
-				(not (on g i))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding g)
+			(clear i)
+			(not (clear g))
+			(not (handempty))
+			(not (on g i))
 		)
 	)
 	(:action unstack_g_j
@@ -8302,17 +7482,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding g)
-				(clear j)
-				(not (clear g))
-				(not (handempty))
-				(not (on g j))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding g)
+			(clear j)
+			(not (clear g))
+			(not (handempty))
+			(not (on g j))
 		)
 	)
 	(:action unstack_g_k
@@ -8323,17 +7501,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding g)
-				(clear k)
-				(not (clear g))
-				(not (handempty))
-				(not (on g k))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding g)
+			(clear k)
+			(not (clear g))
+			(not (handempty))
+			(not (on g k))
 		)
 	)
 	(:action unstack_g_l
@@ -8344,17 +7520,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding g)
-				(clear l)
-				(not (clear g))
-				(not (handempty))
-				(not (on g l))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding g)
+			(clear l)
+			(not (clear g))
+			(not (handempty))
+			(not (on g l))
 		)
 	)
 	(:action unstack_g_m
@@ -8365,17 +7539,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding g)
-				(clear m)
-				(not (clear g))
-				(not (handempty))
-				(not (on g m))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding g)
+			(clear m)
+			(not (clear g))
+			(not (handempty))
+			(not (on g m))
 		)
 	)
 	(:action unstack_g_n
@@ -8386,17 +7558,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding g)
-				(clear n)
-				(not (clear g))
-				(not (handempty))
-				(not (on g n))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding g)
+			(clear n)
+			(not (clear g))
+			(not (handempty))
+			(not (on g n))
 		)
 	)
 	(:action unstack_g_o
@@ -8407,17 +7577,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding g)
-				(clear o)
-				(not (clear g))
-				(not (handempty))
-				(not (on g o))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding g)
+			(clear o)
+			(not (clear g))
+			(not (handempty))
+			(not (on g o))
 		)
 	)
 	(:action unstack_g_p
@@ -8428,17 +7596,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding g)
-				(clear p)
-				(not (clear g))
-				(not (handempty))
-				(not (on g p))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding g)
+			(clear p)
+			(not (clear g))
+			(not (handempty))
+			(not (on g p))
 		)
 	)
 	(:action unstack_g_q
@@ -8449,17 +7615,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding g)
-				(clear q)
-				(not (clear g))
-				(not (handempty))
-				(not (on g q))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding g)
+			(clear q)
+			(not (clear g))
+			(not (handempty))
+			(not (on g q))
 		)
 	)
 	(:action unstack_h_a
@@ -8470,17 +7634,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding h)
-				(clear a)
-				(not (clear h))
-				(not (handempty))
-				(not (on h a))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding h)
+			(clear a)
+			(not (clear h))
+			(not (handempty))
+			(not (on h a))
 		)
 	)
 	(:action unstack_h_b
@@ -8491,17 +7653,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding h)
-				(clear b)
-				(not (clear h))
-				(not (handempty))
-				(not (on h b))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding h)
+			(clear b)
+			(not (clear h))
+			(not (handempty))
+			(not (on h b))
 		)
 	)
 	(:action unstack_h_c
@@ -8512,17 +7672,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding h)
-				(clear c)
-				(not (clear h))
-				(not (handempty))
-				(not (on h c))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding h)
+			(clear c)
+			(not (clear h))
+			(not (handempty))
+			(not (on h c))
 		)
 	)
 	(:action unstack_h_d
@@ -8533,17 +7691,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding h)
-				(clear d)
-				(not (clear h))
-				(not (handempty))
-				(not (on h d))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding h)
+			(clear d)
+			(not (clear h))
+			(not (handempty))
+			(not (on h d))
 		)
 	)
 	(:action unstack_h_e
@@ -8554,17 +7710,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding h)
-				(clear e)
-				(not (clear h))
-				(not (handempty))
-				(not (on h e))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding h)
+			(clear e)
+			(not (clear h))
+			(not (handempty))
+			(not (on h e))
 		)
 	)
 	(:action unstack_h_f
@@ -8575,17 +7729,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding h)
-				(clear f)
-				(not (clear h))
-				(not (handempty))
-				(not (on h f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding h)
+			(clear f)
+			(not (clear h))
+			(not (handempty))
+			(not (on h f))
 		)
 	)
 	(:action unstack_h_g
@@ -8596,17 +7748,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding h)
-				(clear g)
-				(not (clear h))
-				(not (handempty))
-				(not (on h g))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding h)
+			(clear g)
+			(not (clear h))
+			(not (handempty))
+			(not (on h g))
 		)
 	)
 	(:action unstack_h_i
@@ -8617,17 +7767,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding h)
-				(clear i)
-				(not (clear h))
-				(not (handempty))
-				(not (on h i))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding h)
+			(clear i)
+			(not (clear h))
+			(not (handempty))
+			(not (on h i))
 		)
 	)
 	(:action unstack_h_j
@@ -8638,17 +7786,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding h)
-				(clear j)
-				(not (clear h))
-				(not (handempty))
-				(not (on h j))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding h)
+			(clear j)
+			(not (clear h))
+			(not (handempty))
+			(not (on h j))
 		)
 	)
 	(:action unstack_h_k
@@ -8659,17 +7805,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding h)
-				(clear k)
-				(not (clear h))
-				(not (handempty))
-				(not (on h k))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding h)
+			(clear k)
+			(not (clear h))
+			(not (handempty))
+			(not (on h k))
 		)
 	)
 	(:action unstack_h_l
@@ -8680,17 +7824,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding h)
-				(clear l)
-				(not (clear h))
-				(not (handempty))
-				(not (on h l))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding h)
+			(clear l)
+			(not (clear h))
+			(not (handempty))
+			(not (on h l))
 		)
 	)
 	(:action unstack_h_m
@@ -8701,17 +7843,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding h)
-				(clear m)
-				(not (clear h))
-				(not (handempty))
-				(not (on h m))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding h)
+			(clear m)
+			(not (clear h))
+			(not (handempty))
+			(not (on h m))
 		)
 	)
 	(:action unstack_h_n
@@ -8722,17 +7862,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding h)
-				(clear n)
-				(not (clear h))
-				(not (handempty))
-				(not (on h n))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding h)
+			(clear n)
+			(not (clear h))
+			(not (handempty))
+			(not (on h n))
 		)
 	)
 	(:action unstack_h_o
@@ -8743,17 +7881,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding h)
-				(clear o)
-				(not (clear h))
-				(not (handempty))
-				(not (on h o))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding h)
+			(clear o)
+			(not (clear h))
+			(not (handempty))
+			(not (on h o))
 		)
 	)
 	(:action unstack_h_p
@@ -8764,17 +7900,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding h)
-				(clear p)
-				(not (clear h))
-				(not (handempty))
-				(not (on h p))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding h)
+			(clear p)
+			(not (clear h))
+			(not (handempty))
+			(not (on h p))
 		)
 	)
 	(:action unstack_h_q
@@ -8785,17 +7919,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding h)
-				(clear q)
-				(not (clear h))
-				(not (handempty))
-				(not (on h q))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding h)
+			(clear q)
+			(not (clear h))
+			(not (handempty))
+			(not (on h q))
 		)
 	)
 	(:action unstack_i_a
@@ -8806,17 +7938,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding i)
-				(clear a)
-				(not (clear i))
-				(not (handempty))
-				(not (on i a))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding i)
+			(clear a)
+			(not (clear i))
+			(not (handempty))
+			(not (on i a))
 		)
 	)
 	(:action unstack_i_b
@@ -8827,17 +7957,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding i)
-				(clear b)
-				(not (clear i))
-				(not (handempty))
-				(not (on i b))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding i)
+			(clear b)
+			(not (clear i))
+			(not (handempty))
+			(not (on i b))
 		)
 	)
 	(:action unstack_i_c
@@ -8848,17 +7976,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding i)
-				(clear c)
-				(not (clear i))
-				(not (handempty))
-				(not (on i c))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding i)
+			(clear c)
+			(not (clear i))
+			(not (handempty))
+			(not (on i c))
 		)
 	)
 	(:action unstack_i_d
@@ -8869,17 +7995,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding i)
-				(clear d)
-				(not (clear i))
-				(not (handempty))
-				(not (on i d))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding i)
+			(clear d)
+			(not (clear i))
+			(not (handempty))
+			(not (on i d))
 		)
 	)
 	(:action unstack_i_e
@@ -8890,17 +8014,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding i)
-				(clear e)
-				(not (clear i))
-				(not (handempty))
-				(not (on i e))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding i)
+			(clear e)
+			(not (clear i))
+			(not (handempty))
+			(not (on i e))
 		)
 	)
 	(:action unstack_i_f
@@ -8911,17 +8033,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding i)
-				(clear f)
-				(not (clear i))
-				(not (handempty))
-				(not (on i f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding i)
+			(clear f)
+			(not (clear i))
+			(not (handempty))
+			(not (on i f))
 		)
 	)
 	(:action unstack_i_g
@@ -8932,17 +8052,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding i)
-				(clear g)
-				(not (clear i))
-				(not (handempty))
-				(not (on i g))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding i)
+			(clear g)
+			(not (clear i))
+			(not (handempty))
+			(not (on i g))
 		)
 	)
 	(:action unstack_i_h
@@ -8953,17 +8071,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding i)
-				(clear h)
-				(not (clear i))
-				(not (handempty))
-				(not (on i h))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding i)
+			(clear h)
+			(not (clear i))
+			(not (handempty))
+			(not (on i h))
 		)
 	)
 	(:action unstack_i_j
@@ -8974,17 +8090,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding i)
-				(clear j)
-				(not (clear i))
-				(not (handempty))
-				(not (on i j))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding i)
+			(clear j)
+			(not (clear i))
+			(not (handempty))
+			(not (on i j))
 		)
 	)
 	(:action unstack_i_k
@@ -8995,17 +8109,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding i)
-				(clear k)
-				(not (clear i))
-				(not (handempty))
-				(not (on i k))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding i)
+			(clear k)
+			(not (clear i))
+			(not (handempty))
+			(not (on i k))
 		)
 	)
 	(:action unstack_i_l
@@ -9016,17 +8128,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding i)
-				(clear l)
-				(not (clear i))
-				(not (handempty))
-				(not (on i l))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding i)
+			(clear l)
+			(not (clear i))
+			(not (handempty))
+			(not (on i l))
 		)
 	)
 	(:action unstack_i_m
@@ -9037,17 +8147,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding i)
-				(clear m)
-				(not (clear i))
-				(not (handempty))
-				(not (on i m))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding i)
+			(clear m)
+			(not (clear i))
+			(not (handempty))
+			(not (on i m))
 		)
 	)
 	(:action unstack_i_n
@@ -9058,17 +8166,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding i)
-				(clear n)
-				(not (clear i))
-				(not (handempty))
-				(not (on i n))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding i)
+			(clear n)
+			(not (clear i))
+			(not (handempty))
+			(not (on i n))
 		)
 	)
 	(:action unstack_i_o
@@ -9079,17 +8185,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding i)
-				(clear o)
-				(not (clear i))
-				(not (handempty))
-				(not (on i o))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding i)
+			(clear o)
+			(not (clear i))
+			(not (handempty))
+			(not (on i o))
 		)
 	)
 	(:action unstack_i_p
@@ -9100,17 +8204,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding i)
-				(clear p)
-				(not (clear i))
-				(not (handempty))
-				(not (on i p))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding i)
+			(clear p)
+			(not (clear i))
+			(not (handempty))
+			(not (on i p))
 		)
 	)
 	(:action unstack_i_q
@@ -9121,17 +8223,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding i)
-				(clear q)
-				(not (clear i))
-				(not (handempty))
-				(not (on i q))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding i)
+			(clear q)
+			(not (clear i))
+			(not (handempty))
+			(not (on i q))
 		)
 	)
 	(:action unstack_j_a
@@ -9142,17 +8242,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding j)
-				(clear a)
-				(not (clear j))
-				(not (handempty))
-				(not (on j a))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding j)
+			(clear a)
+			(not (clear j))
+			(not (handempty))
+			(not (on j a))
 		)
 	)
 	(:action unstack_j_b
@@ -9163,17 +8261,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding j)
-				(clear b)
-				(not (clear j))
-				(not (handempty))
-				(not (on j b))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding j)
+			(clear b)
+			(not (clear j))
+			(not (handempty))
+			(not (on j b))
 		)
 	)
 	(:action unstack_j_c
@@ -9184,17 +8280,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding j)
-				(clear c)
-				(not (clear j))
-				(not (handempty))
-				(not (on j c))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding j)
+			(clear c)
+			(not (clear j))
+			(not (handempty))
+			(not (on j c))
 		)
 	)
 	(:action unstack_j_d
@@ -9205,17 +8299,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding j)
-				(clear d)
-				(not (clear j))
-				(not (handempty))
-				(not (on j d))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding j)
+			(clear d)
+			(not (clear j))
+			(not (handempty))
+			(not (on j d))
 		)
 	)
 	(:action unstack_j_e
@@ -9226,17 +8318,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding j)
-				(clear e)
-				(not (clear j))
-				(not (handempty))
-				(not (on j e))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding j)
+			(clear e)
+			(not (clear j))
+			(not (handempty))
+			(not (on j e))
 		)
 	)
 	(:action unstack_j_f
@@ -9247,17 +8337,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding j)
-				(clear f)
-				(not (clear j))
-				(not (handempty))
-				(not (on j f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding j)
+			(clear f)
+			(not (clear j))
+			(not (handempty))
+			(not (on j f))
 		)
 	)
 	(:action unstack_j_g
@@ -9268,17 +8356,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding j)
-				(clear g)
-				(not (clear j))
-				(not (handempty))
-				(not (on j g))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding j)
+			(clear g)
+			(not (clear j))
+			(not (handempty))
+			(not (on j g))
 		)
 	)
 	(:action unstack_j_h
@@ -9289,17 +8375,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding j)
-				(clear h)
-				(not (clear j))
-				(not (handempty))
-				(not (on j h))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding j)
+			(clear h)
+			(not (clear j))
+			(not (handempty))
+			(not (on j h))
 		)
 	)
 	(:action unstack_j_i
@@ -9310,17 +8394,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding j)
-				(clear i)
-				(not (clear j))
-				(not (handempty))
-				(not (on j i))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding j)
+			(clear i)
+			(not (clear j))
+			(not (handempty))
+			(not (on j i))
 		)
 	)
 	(:action unstack_j_k
@@ -9331,17 +8413,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding j)
-				(clear k)
-				(not (clear j))
-				(not (handempty))
-				(not (on j k))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding j)
+			(clear k)
+			(not (clear j))
+			(not (handempty))
+			(not (on j k))
 		)
 	)
 	(:action unstack_j_l
@@ -9352,17 +8432,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding j)
-				(clear l)
-				(not (clear j))
-				(not (handempty))
-				(not (on j l))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding j)
+			(clear l)
+			(not (clear j))
+			(not (handempty))
+			(not (on j l))
 		)
 	)
 	(:action unstack_j_m
@@ -9373,17 +8451,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding j)
-				(clear m)
-				(not (clear j))
-				(not (handempty))
-				(not (on j m))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding j)
+			(clear m)
+			(not (clear j))
+			(not (handempty))
+			(not (on j m))
 		)
 	)
 	(:action unstack_j_n
@@ -9394,17 +8470,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding j)
-				(clear n)
-				(not (clear j))
-				(not (handempty))
-				(not (on j n))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding j)
+			(clear n)
+			(not (clear j))
+			(not (handempty))
+			(not (on j n))
 		)
 	)
 	(:action unstack_j_o
@@ -9415,17 +8489,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding j)
-				(clear o)
-				(not (clear j))
-				(not (handempty))
-				(not (on j o))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding j)
+			(clear o)
+			(not (clear j))
+			(not (handempty))
+			(not (on j o))
 		)
 	)
 	(:action unstack_j_p
@@ -9436,17 +8508,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding j)
-				(clear p)
-				(not (clear j))
-				(not (handempty))
-				(not (on j p))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding j)
+			(clear p)
+			(not (clear j))
+			(not (handempty))
+			(not (on j p))
 		)
 	)
 	(:action unstack_j_q
@@ -9457,17 +8527,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding j)
-				(clear q)
-				(not (clear j))
-				(not (handempty))
-				(not (on j q))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding j)
+			(clear q)
+			(not (clear j))
+			(not (handempty))
+			(not (on j q))
 		)
 	)
 	(:action unstack_k_a
@@ -9478,17 +8546,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding k)
-				(clear a)
-				(not (clear k))
-				(not (handempty))
-				(not (on k a))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k)
+			(clear a)
+			(not (clear k))
+			(not (handempty))
+			(not (on k a))
 		)
 	)
 	(:action unstack_k_b
@@ -9499,17 +8565,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding k)
-				(clear b)
-				(not (clear k))
-				(not (handempty))
-				(not (on k b))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k)
+			(clear b)
+			(not (clear k))
+			(not (handempty))
+			(not (on k b))
 		)
 	)
 	(:action unstack_k_c
@@ -9520,17 +8584,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding k)
-				(clear c)
-				(not (clear k))
-				(not (handempty))
-				(not (on k c))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k)
+			(clear c)
+			(not (clear k))
+			(not (handempty))
+			(not (on k c))
 		)
 	)
 	(:action unstack_k_d
@@ -9541,17 +8603,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding k)
-				(clear d)
-				(not (clear k))
-				(not (handempty))
-				(not (on k d))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k)
+			(clear d)
+			(not (clear k))
+			(not (handempty))
+			(not (on k d))
 		)
 	)
 	(:action unstack_k_e
@@ -9562,17 +8622,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding k)
-				(clear e)
-				(not (clear k))
-				(not (handempty))
-				(not (on k e))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k)
+			(clear e)
+			(not (clear k))
+			(not (handempty))
+			(not (on k e))
 		)
 	)
 	(:action unstack_k_f
@@ -9583,17 +8641,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding k)
-				(clear f)
-				(not (clear k))
-				(not (handempty))
-				(not (on k f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k)
+			(clear f)
+			(not (clear k))
+			(not (handempty))
+			(not (on k f))
 		)
 	)
 	(:action unstack_k_g
@@ -9604,17 +8660,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding k)
-				(clear g)
-				(not (clear k))
-				(not (handempty))
-				(not (on k g))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k)
+			(clear g)
+			(not (clear k))
+			(not (handempty))
+			(not (on k g))
 		)
 	)
 	(:action unstack_k_h
@@ -9625,17 +8679,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding k)
-				(clear h)
-				(not (clear k))
-				(not (handempty))
-				(not (on k h))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k)
+			(clear h)
+			(not (clear k))
+			(not (handempty))
+			(not (on k h))
 		)
 	)
 	(:action unstack_k_i
@@ -9646,17 +8698,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding k)
-				(clear i)
-				(not (clear k))
-				(not (handempty))
-				(not (on k i))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k)
+			(clear i)
+			(not (clear k))
+			(not (handempty))
+			(not (on k i))
 		)
 	)
 	(:action unstack_k_j
@@ -9667,17 +8717,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding k)
-				(clear j)
-				(not (clear k))
-				(not (handempty))
-				(not (on k j))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k)
+			(clear j)
+			(not (clear k))
+			(not (handempty))
+			(not (on k j))
 		)
 	)
 	(:action unstack_k_l
@@ -9688,17 +8736,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding k)
-				(clear l)
-				(not (clear k))
-				(not (handempty))
-				(not (on k l))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k)
+			(clear l)
+			(not (clear k))
+			(not (handempty))
+			(not (on k l))
 		)
 	)
 	(:action unstack_k_m
@@ -9709,17 +8755,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding k)
-				(clear m)
-				(not (clear k))
-				(not (handempty))
-				(not (on k m))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k)
+			(clear m)
+			(not (clear k))
+			(not (handempty))
+			(not (on k m))
 		)
 	)
 	(:action unstack_k_n
@@ -9730,17 +8774,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding k)
-				(clear n)
-				(not (clear k))
-				(not (handempty))
-				(not (on k n))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k)
+			(clear n)
+			(not (clear k))
+			(not (handempty))
+			(not (on k n))
 		)
 	)
 	(:action unstack_k_o
@@ -9751,17 +8793,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding k)
-				(clear o)
-				(not (clear k))
-				(not (handempty))
-				(not (on k o))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k)
+			(clear o)
+			(not (clear k))
+			(not (handempty))
+			(not (on k o))
 		)
 	)
 	(:action unstack_k_p
@@ -9772,17 +8812,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding k)
-				(clear p)
-				(not (clear k))
-				(not (handempty))
-				(not (on k p))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k)
+			(clear p)
+			(not (clear k))
+			(not (handempty))
+			(not (on k p))
 		)
 	)
 	(:action unstack_k_q
@@ -9793,17 +8831,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding k)
-				(clear q)
-				(not (clear k))
-				(not (handempty))
-				(not (on k q))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding k)
+			(clear q)
+			(not (clear k))
+			(not (handempty))
+			(not (on k q))
 		)
 	)
 	(:action unstack_l_a
@@ -9814,17 +8850,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding l)
-				(clear a)
-				(not (clear l))
-				(not (handempty))
-				(not (on l a))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding l)
+			(clear a)
+			(not (clear l))
+			(not (handempty))
+			(not (on l a))
 		)
 	)
 	(:action unstack_l_b
@@ -9835,17 +8869,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding l)
-				(clear b)
-				(not (clear l))
-				(not (handempty))
-				(not (on l b))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding l)
+			(clear b)
+			(not (clear l))
+			(not (handempty))
+			(not (on l b))
 		)
 	)
 	(:action unstack_l_c
@@ -9856,17 +8888,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding l)
-				(clear c)
-				(not (clear l))
-				(not (handempty))
-				(not (on l c))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding l)
+			(clear c)
+			(not (clear l))
+			(not (handempty))
+			(not (on l c))
 		)
 	)
 	(:action unstack_l_d
@@ -9877,17 +8907,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding l)
-				(clear d)
-				(not (clear l))
-				(not (handempty))
-				(not (on l d))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding l)
+			(clear d)
+			(not (clear l))
+			(not (handempty))
+			(not (on l d))
 		)
 	)
 	(:action unstack_l_e
@@ -9898,17 +8926,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding l)
-				(clear e)
-				(not (clear l))
-				(not (handempty))
-				(not (on l e))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding l)
+			(clear e)
+			(not (clear l))
+			(not (handempty))
+			(not (on l e))
 		)
 	)
 	(:action unstack_l_f
@@ -9919,17 +8945,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding l)
-				(clear f)
-				(not (clear l))
-				(not (handempty))
-				(not (on l f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding l)
+			(clear f)
+			(not (clear l))
+			(not (handempty))
+			(not (on l f))
 		)
 	)
 	(:action unstack_l_g
@@ -9940,17 +8964,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding l)
-				(clear g)
-				(not (clear l))
-				(not (handempty))
-				(not (on l g))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding l)
+			(clear g)
+			(not (clear l))
+			(not (handempty))
+			(not (on l g))
 		)
 	)
 	(:action unstack_l_h
@@ -9961,17 +8983,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding l)
-				(clear h)
-				(not (clear l))
-				(not (handempty))
-				(not (on l h))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding l)
+			(clear h)
+			(not (clear l))
+			(not (handempty))
+			(not (on l h))
 		)
 	)
 	(:action unstack_l_i
@@ -9982,17 +9002,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding l)
-				(clear i)
-				(not (clear l))
-				(not (handempty))
-				(not (on l i))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding l)
+			(clear i)
+			(not (clear l))
+			(not (handempty))
+			(not (on l i))
 		)
 	)
 	(:action unstack_l_j
@@ -10003,17 +9021,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding l)
-				(clear j)
-				(not (clear l))
-				(not (handempty))
-				(not (on l j))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding l)
+			(clear j)
+			(not (clear l))
+			(not (handempty))
+			(not (on l j))
 		)
 	)
 	(:action unstack_l_k
@@ -10024,17 +9040,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding l)
-				(clear k)
-				(not (clear l))
-				(not (handempty))
-				(not (on l k))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding l)
+			(clear k)
+			(not (clear l))
+			(not (handempty))
+			(not (on l k))
 		)
 	)
 	(:action unstack_l_m
@@ -10045,17 +9059,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding l)
-				(clear m)
-				(not (clear l))
-				(not (handempty))
-				(not (on l m))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding l)
+			(clear m)
+			(not (clear l))
+			(not (handempty))
+			(not (on l m))
 		)
 	)
 	(:action unstack_l_n
@@ -10066,17 +9078,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding l)
-				(clear n)
-				(not (clear l))
-				(not (handempty))
-				(not (on l n))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding l)
+			(clear n)
+			(not (clear l))
+			(not (handempty))
+			(not (on l n))
 		)
 	)
 	(:action unstack_l_o
@@ -10087,17 +9097,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding l)
-				(clear o)
-				(not (clear l))
-				(not (handempty))
-				(not (on l o))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding l)
+			(clear o)
+			(not (clear l))
+			(not (handempty))
+			(not (on l o))
 		)
 	)
 	(:action unstack_l_p
@@ -10108,17 +9116,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding l)
-				(clear p)
-				(not (clear l))
-				(not (handempty))
-				(not (on l p))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding l)
+			(clear p)
+			(not (clear l))
+			(not (handempty))
+			(not (on l p))
 		)
 	)
 	(:action unstack_l_q
@@ -10129,17 +9135,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding l)
-				(clear q)
-				(not (clear l))
-				(not (handempty))
-				(not (on l q))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding l)
+			(clear q)
+			(not (clear l))
+			(not (handempty))
+			(not (on l q))
 		)
 	)
 	(:action unstack_m_a
@@ -10150,17 +9154,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding m)
-				(clear a)
-				(not (clear m))
-				(not (handempty))
-				(not (on m a))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding m)
+			(clear a)
+			(not (clear m))
+			(not (handempty))
+			(not (on m a))
 		)
 	)
 	(:action unstack_m_b
@@ -10171,17 +9173,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding m)
-				(clear b)
-				(not (clear m))
-				(not (handempty))
-				(not (on m b))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding m)
+			(clear b)
+			(not (clear m))
+			(not (handempty))
+			(not (on m b))
 		)
 	)
 	(:action unstack_m_c
@@ -10192,17 +9192,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding m)
-				(clear c)
-				(not (clear m))
-				(not (handempty))
-				(not (on m c))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding m)
+			(clear c)
+			(not (clear m))
+			(not (handempty))
+			(not (on m c))
 		)
 	)
 	(:action unstack_m_d
@@ -10213,17 +9211,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding m)
-				(clear d)
-				(not (clear m))
-				(not (handempty))
-				(not (on m d))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding m)
+			(clear d)
+			(not (clear m))
+			(not (handempty))
+			(not (on m d))
 		)
 	)
 	(:action unstack_m_e
@@ -10234,17 +9230,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding m)
-				(clear e)
-				(not (clear m))
-				(not (handempty))
-				(not (on m e))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding m)
+			(clear e)
+			(not (clear m))
+			(not (handempty))
+			(not (on m e))
 		)
 	)
 	(:action unstack_m_f
@@ -10255,17 +9249,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding m)
-				(clear f)
-				(not (clear m))
-				(not (handempty))
-				(not (on m f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding m)
+			(clear f)
+			(not (clear m))
+			(not (handempty))
+			(not (on m f))
 		)
 	)
 	(:action unstack_m_g
@@ -10276,17 +9268,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding m)
-				(clear g)
-				(not (clear m))
-				(not (handempty))
-				(not (on m g))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding m)
+			(clear g)
+			(not (clear m))
+			(not (handempty))
+			(not (on m g))
 		)
 	)
 	(:action unstack_m_h
@@ -10297,17 +9287,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding m)
-				(clear h)
-				(not (clear m))
-				(not (handempty))
-				(not (on m h))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding m)
+			(clear h)
+			(not (clear m))
+			(not (handempty))
+			(not (on m h))
 		)
 	)
 	(:action unstack_m_i
@@ -10318,17 +9306,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding m)
-				(clear i)
-				(not (clear m))
-				(not (handempty))
-				(not (on m i))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding m)
+			(clear i)
+			(not (clear m))
+			(not (handempty))
+			(not (on m i))
 		)
 	)
 	(:action unstack_m_j
@@ -10339,17 +9325,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding m)
-				(clear j)
-				(not (clear m))
-				(not (handempty))
-				(not (on m j))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding m)
+			(clear j)
+			(not (clear m))
+			(not (handempty))
+			(not (on m j))
 		)
 	)
 	(:action unstack_m_k
@@ -10360,17 +9344,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding m)
-				(clear k)
-				(not (clear m))
-				(not (handempty))
-				(not (on m k))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding m)
+			(clear k)
+			(not (clear m))
+			(not (handempty))
+			(not (on m k))
 		)
 	)
 	(:action unstack_m_l
@@ -10381,17 +9363,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding m)
-				(clear l)
-				(not (clear m))
-				(not (handempty))
-				(not (on m l))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding m)
+			(clear l)
+			(not (clear m))
+			(not (handempty))
+			(not (on m l))
 		)
 	)
 	(:action unstack_m_n
@@ -10402,17 +9382,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding m)
-				(clear n)
-				(not (clear m))
-				(not (handempty))
-				(not (on m n))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding m)
+			(clear n)
+			(not (clear m))
+			(not (handempty))
+			(not (on m n))
 		)
 	)
 	(:action unstack_m_o
@@ -10423,17 +9401,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding m)
-				(clear o)
-				(not (clear m))
-				(not (handempty))
-				(not (on m o))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding m)
+			(clear o)
+			(not (clear m))
+			(not (handempty))
+			(not (on m o))
 		)
 	)
 	(:action unstack_m_p
@@ -10444,17 +9420,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding m)
-				(clear p)
-				(not (clear m))
-				(not (handempty))
-				(not (on m p))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding m)
+			(clear p)
+			(not (clear m))
+			(not (handempty))
+			(not (on m p))
 		)
 	)
 	(:action unstack_m_q
@@ -10465,17 +9439,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding m)
-				(clear q)
-				(not (clear m))
-				(not (handempty))
-				(not (on m q))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding m)
+			(clear q)
+			(not (clear m))
+			(not (handempty))
+			(not (on m q))
 		)
 	)
 	(:action unstack_n_a
@@ -10486,17 +9458,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding n)
-				(clear a)
-				(not (clear n))
-				(not (handempty))
-				(not (on n a))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding n)
+			(clear a)
+			(not (clear n))
+			(not (handempty))
+			(not (on n a))
 		)
 	)
 	(:action unstack_n_b
@@ -10507,17 +9477,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding n)
-				(clear b)
-				(not (clear n))
-				(not (handempty))
-				(not (on n b))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding n)
+			(clear b)
+			(not (clear n))
+			(not (handempty))
+			(not (on n b))
 		)
 	)
 	(:action unstack_n_c
@@ -10528,17 +9496,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding n)
-				(clear c)
-				(not (clear n))
-				(not (handempty))
-				(not (on n c))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding n)
+			(clear c)
+			(not (clear n))
+			(not (handempty))
+			(not (on n c))
 		)
 	)
 	(:action unstack_n_d
@@ -10549,17 +9515,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding n)
-				(clear d)
-				(not (clear n))
-				(not (handempty))
-				(not (on n d))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding n)
+			(clear d)
+			(not (clear n))
+			(not (handempty))
+			(not (on n d))
 		)
 	)
 	(:action unstack_n_e
@@ -10570,17 +9534,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding n)
-				(clear e)
-				(not (clear n))
-				(not (handempty))
-				(not (on n e))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding n)
+			(clear e)
+			(not (clear n))
+			(not (handempty))
+			(not (on n e))
 		)
 	)
 	(:action unstack_n_f
@@ -10591,17 +9553,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding n)
-				(clear f)
-				(not (clear n))
-				(not (handempty))
-				(not (on n f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding n)
+			(clear f)
+			(not (clear n))
+			(not (handempty))
+			(not (on n f))
 		)
 	)
 	(:action unstack_n_g
@@ -10612,17 +9572,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding n)
-				(clear g)
-				(not (clear n))
-				(not (handempty))
-				(not (on n g))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding n)
+			(clear g)
+			(not (clear n))
+			(not (handempty))
+			(not (on n g))
 		)
 	)
 	(:action unstack_n_h
@@ -10633,17 +9591,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding n)
-				(clear h)
-				(not (clear n))
-				(not (handempty))
-				(not (on n h))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding n)
+			(clear h)
+			(not (clear n))
+			(not (handempty))
+			(not (on n h))
 		)
 	)
 	(:action unstack_n_i
@@ -10654,17 +9610,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding n)
-				(clear i)
-				(not (clear n))
-				(not (handempty))
-				(not (on n i))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding n)
+			(clear i)
+			(not (clear n))
+			(not (handempty))
+			(not (on n i))
 		)
 	)
 	(:action unstack_n_j
@@ -10675,17 +9629,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding n)
-				(clear j)
-				(not (clear n))
-				(not (handempty))
-				(not (on n j))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding n)
+			(clear j)
+			(not (clear n))
+			(not (handempty))
+			(not (on n j))
 		)
 	)
 	(:action unstack_n_k
@@ -10696,17 +9648,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding n)
-				(clear k)
-				(not (clear n))
-				(not (handempty))
-				(not (on n k))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding n)
+			(clear k)
+			(not (clear n))
+			(not (handempty))
+			(not (on n k))
 		)
 	)
 	(:action unstack_n_l
@@ -10717,17 +9667,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding n)
-				(clear l)
-				(not (clear n))
-				(not (handempty))
-				(not (on n l))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding n)
+			(clear l)
+			(not (clear n))
+			(not (handempty))
+			(not (on n l))
 		)
 	)
 	(:action unstack_n_m
@@ -10738,17 +9686,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding n)
-				(clear m)
-				(not (clear n))
-				(not (handempty))
-				(not (on n m))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding n)
+			(clear m)
+			(not (clear n))
+			(not (handempty))
+			(not (on n m))
 		)
 	)
 	(:action unstack_n_o
@@ -10759,17 +9705,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding n)
-				(clear o)
-				(not (clear n))
-				(not (handempty))
-				(not (on n o))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding n)
+			(clear o)
+			(not (clear n))
+			(not (handempty))
+			(not (on n o))
 		)
 	)
 	(:action unstack_n_p
@@ -10780,17 +9724,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding n)
-				(clear p)
-				(not (clear n))
-				(not (handempty))
-				(not (on n p))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding n)
+			(clear p)
+			(not (clear n))
+			(not (handempty))
+			(not (on n p))
 		)
 	)
 	(:action unstack_n_q
@@ -10801,17 +9743,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding n)
-				(clear q)
-				(not (clear n))
-				(not (handempty))
-				(not (on n q))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding n)
+			(clear q)
+			(not (clear n))
+			(not (handempty))
+			(not (on n q))
 		)
 	)
 	(:action unstack_o_a
@@ -10822,17 +9762,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding o)
-				(clear a)
-				(not (clear o))
-				(not (handempty))
-				(not (on o a))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding o)
+			(clear a)
+			(not (clear o))
+			(not (handempty))
+			(not (on o a))
 		)
 	)
 	(:action unstack_o_b
@@ -10843,17 +9781,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding o)
-				(clear b)
-				(not (clear o))
-				(not (handempty))
-				(not (on o b))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding o)
+			(clear b)
+			(not (clear o))
+			(not (handempty))
+			(not (on o b))
 		)
 	)
 	(:action unstack_o_c
@@ -10864,17 +9800,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding o)
-				(clear c)
-				(not (clear o))
-				(not (handempty))
-				(not (on o c))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding o)
+			(clear c)
+			(not (clear o))
+			(not (handempty))
+			(not (on o c))
 		)
 	)
 	(:action unstack_o_d
@@ -10885,17 +9819,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding o)
-				(clear d)
-				(not (clear o))
-				(not (handempty))
-				(not (on o d))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding o)
+			(clear d)
+			(not (clear o))
+			(not (handempty))
+			(not (on o d))
 		)
 	)
 	(:action unstack_o_e
@@ -10906,17 +9838,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding o)
-				(clear e)
-				(not (clear o))
-				(not (handempty))
-				(not (on o e))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding o)
+			(clear e)
+			(not (clear o))
+			(not (handempty))
+			(not (on o e))
 		)
 	)
 	(:action unstack_o_f
@@ -10927,17 +9857,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding o)
-				(clear f)
-				(not (clear o))
-				(not (handempty))
-				(not (on o f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding o)
+			(clear f)
+			(not (clear o))
+			(not (handempty))
+			(not (on o f))
 		)
 	)
 	(:action unstack_o_g
@@ -10948,17 +9876,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding o)
-				(clear g)
-				(not (clear o))
-				(not (handempty))
-				(not (on o g))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding o)
+			(clear g)
+			(not (clear o))
+			(not (handempty))
+			(not (on o g))
 		)
 	)
 	(:action unstack_o_h
@@ -10969,17 +9895,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding o)
-				(clear h)
-				(not (clear o))
-				(not (handempty))
-				(not (on o h))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding o)
+			(clear h)
+			(not (clear o))
+			(not (handempty))
+			(not (on o h))
 		)
 	)
 	(:action unstack_o_i
@@ -10990,17 +9914,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding o)
-				(clear i)
-				(not (clear o))
-				(not (handempty))
-				(not (on o i))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding o)
+			(clear i)
+			(not (clear o))
+			(not (handempty))
+			(not (on o i))
 		)
 	)
 	(:action unstack_o_j
@@ -11011,17 +9933,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding o)
-				(clear j)
-				(not (clear o))
-				(not (handempty))
-				(not (on o j))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding o)
+			(clear j)
+			(not (clear o))
+			(not (handempty))
+			(not (on o j))
 		)
 	)
 	(:action unstack_o_k
@@ -11032,17 +9952,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding o)
-				(clear k)
-				(not (clear o))
-				(not (handempty))
-				(not (on o k))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding o)
+			(clear k)
+			(not (clear o))
+			(not (handempty))
+			(not (on o k))
 		)
 	)
 	(:action unstack_o_l
@@ -11053,17 +9971,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding o)
-				(clear l)
-				(not (clear o))
-				(not (handempty))
-				(not (on o l))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding o)
+			(clear l)
+			(not (clear o))
+			(not (handempty))
+			(not (on o l))
 		)
 	)
 	(:action unstack_o_m
@@ -11074,17 +9990,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding o)
-				(clear m)
-				(not (clear o))
-				(not (handempty))
-				(not (on o m))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding o)
+			(clear m)
+			(not (clear o))
+			(not (handempty))
+			(not (on o m))
 		)
 	)
 	(:action unstack_o_n
@@ -11095,17 +10009,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding o)
-				(clear n)
-				(not (clear o))
-				(not (handempty))
-				(not (on o n))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding o)
+			(clear n)
+			(not (clear o))
+			(not (handempty))
+			(not (on o n))
 		)
 	)
 	(:action unstack_o_p
@@ -11116,17 +10028,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding o)
-				(clear p)
-				(not (clear o))
-				(not (handempty))
-				(not (on o p))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding o)
+			(clear p)
+			(not (clear o))
+			(not (handempty))
+			(not (on o p))
 		)
 	)
 	(:action unstack_o_q
@@ -11137,17 +10047,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding o)
-				(clear q)
-				(not (clear o))
-				(not (handempty))
-				(not (on o q))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding o)
+			(clear q)
+			(not (clear o))
+			(not (handempty))
+			(not (on o q))
 		)
 	)
 	(:action unstack_p_a
@@ -11158,17 +10066,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding p)
-				(clear a)
-				(not (clear p))
-				(not (handempty))
-				(not (on p a))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding p)
+			(clear a)
+			(not (clear p))
+			(not (handempty))
+			(not (on p a))
 		)
 	)
 	(:action unstack_p_b
@@ -11179,17 +10085,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding p)
-				(clear b)
-				(not (clear p))
-				(not (handempty))
-				(not (on p b))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding p)
+			(clear b)
+			(not (clear p))
+			(not (handempty))
+			(not (on p b))
 		)
 	)
 	(:action unstack_p_c
@@ -11200,17 +10104,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding p)
-				(clear c)
-				(not (clear p))
-				(not (handempty))
-				(not (on p c))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding p)
+			(clear c)
+			(not (clear p))
+			(not (handempty))
+			(not (on p c))
 		)
 	)
 	(:action unstack_p_d
@@ -11221,17 +10123,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding p)
-				(clear d)
-				(not (clear p))
-				(not (handempty))
-				(not (on p d))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding p)
+			(clear d)
+			(not (clear p))
+			(not (handempty))
+			(not (on p d))
 		)
 	)
 	(:action unstack_p_e
@@ -11242,17 +10142,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding p)
-				(clear e)
-				(not (clear p))
-				(not (handempty))
-				(not (on p e))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding p)
+			(clear e)
+			(not (clear p))
+			(not (handempty))
+			(not (on p e))
 		)
 	)
 	(:action unstack_p_f
@@ -11263,17 +10161,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding p)
-				(clear f)
-				(not (clear p))
-				(not (handempty))
-				(not (on p f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding p)
+			(clear f)
+			(not (clear p))
+			(not (handempty))
+			(not (on p f))
 		)
 	)
 	(:action unstack_p_g
@@ -11284,17 +10180,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding p)
-				(clear g)
-				(not (clear p))
-				(not (handempty))
-				(not (on p g))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding p)
+			(clear g)
+			(not (clear p))
+			(not (handempty))
+			(not (on p g))
 		)
 	)
 	(:action unstack_p_h
@@ -11305,17 +10199,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding p)
-				(clear h)
-				(not (clear p))
-				(not (handempty))
-				(not (on p h))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding p)
+			(clear h)
+			(not (clear p))
+			(not (handempty))
+			(not (on p h))
 		)
 	)
 	(:action unstack_p_i
@@ -11326,17 +10218,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding p)
-				(clear i)
-				(not (clear p))
-				(not (handempty))
-				(not (on p i))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding p)
+			(clear i)
+			(not (clear p))
+			(not (handempty))
+			(not (on p i))
 		)
 	)
 	(:action unstack_p_j
@@ -11347,17 +10237,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding p)
-				(clear j)
-				(not (clear p))
-				(not (handempty))
-				(not (on p j))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding p)
+			(clear j)
+			(not (clear p))
+			(not (handempty))
+			(not (on p j))
 		)
 	)
 	(:action unstack_p_k
@@ -11368,17 +10256,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding p)
-				(clear k)
-				(not (clear p))
-				(not (handempty))
-				(not (on p k))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding p)
+			(clear k)
+			(not (clear p))
+			(not (handempty))
+			(not (on p k))
 		)
 	)
 	(:action unstack_p_l
@@ -11389,17 +10275,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding p)
-				(clear l)
-				(not (clear p))
-				(not (handempty))
-				(not (on p l))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding p)
+			(clear l)
+			(not (clear p))
+			(not (handempty))
+			(not (on p l))
 		)
 	)
 	(:action unstack_p_m
@@ -11410,17 +10294,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding p)
-				(clear m)
-				(not (clear p))
-				(not (handempty))
-				(not (on p m))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding p)
+			(clear m)
+			(not (clear p))
+			(not (handempty))
+			(not (on p m))
 		)
 	)
 	(:action unstack_p_n
@@ -11431,17 +10313,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding p)
-				(clear n)
-				(not (clear p))
-				(not (handempty))
-				(not (on p n))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding p)
+			(clear n)
+			(not (clear p))
+			(not (handempty))
+			(not (on p n))
 		)
 	)
 	(:action unstack_p_o
@@ -11452,17 +10332,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding p)
-				(clear o)
-				(not (clear p))
-				(not (handempty))
-				(not (on p o))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding p)
+			(clear o)
+			(not (clear p))
+			(not (handempty))
+			(not (on p o))
 		)
 	)
 	(:action unstack_p_q
@@ -11473,17 +10351,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding p)
-				(clear q)
-				(not (clear p))
-				(not (handempty))
-				(not (on p q))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding p)
+			(clear q)
+			(not (clear p))
+			(not (handempty))
+			(not (on p q))
 		)
 	)
 	(:action unstack_q_a
@@ -11494,17 +10370,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding q)
-				(clear a)
-				(not (clear q))
-				(not (handempty))
-				(not (on q a))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding q)
+			(clear a)
+			(not (clear q))
+			(not (handempty))
+			(not (on q a))
 		)
 	)
 	(:action unstack_q_b
@@ -11515,17 +10389,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding q)
-				(clear b)
-				(not (clear q))
-				(not (handempty))
-				(not (on q b))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding q)
+			(clear b)
+			(not (clear q))
+			(not (handempty))
+			(not (on q b))
 		)
 	)
 	(:action unstack_q_c
@@ -11536,17 +10408,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding q)
-				(clear c)
-				(not (clear q))
-				(not (handempty))
-				(not (on q c))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding q)
+			(clear c)
+			(not (clear q))
+			(not (handempty))
+			(not (on q c))
 		)
 	)
 	(:action unstack_q_d
@@ -11557,17 +10427,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding q)
-				(clear d)
-				(not (clear q))
-				(not (handempty))
-				(not (on q d))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding q)
+			(clear d)
+			(not (clear q))
+			(not (handempty))
+			(not (on q d))
 		)
 	)
 	(:action unstack_q_e
@@ -11578,17 +10446,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding q)
-				(clear e)
-				(not (clear q))
-				(not (handempty))
-				(not (on q e))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding q)
+			(clear e)
+			(not (clear q))
+			(not (handempty))
+			(not (on q e))
 		)
 	)
 	(:action unstack_q_f
@@ -11599,17 +10465,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding q)
-				(clear f)
-				(not (clear q))
-				(not (handempty))
-				(not (on q f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding q)
+			(clear f)
+			(not (clear q))
+			(not (handempty))
+			(not (on q f))
 		)
 	)
 	(:action unstack_q_g
@@ -11620,17 +10484,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding q)
-				(clear g)
-				(not (clear q))
-				(not (handempty))
-				(not (on q g))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding q)
+			(clear g)
+			(not (clear q))
+			(not (handempty))
+			(not (on q g))
 		)
 	)
 	(:action unstack_q_h
@@ -11641,17 +10503,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding q)
-				(clear h)
-				(not (clear q))
-				(not (handempty))
-				(not (on q h))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding q)
+			(clear h)
+			(not (clear q))
+			(not (handempty))
+			(not (on q h))
 		)
 	)
 	(:action unstack_q_i
@@ -11662,17 +10522,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding q)
-				(clear i)
-				(not (clear q))
-				(not (handempty))
-				(not (on q i))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding q)
+			(clear i)
+			(not (clear q))
+			(not (handempty))
+			(not (on q i))
 		)
 	)
 	(:action unstack_q_j
@@ -11683,17 +10541,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding q)
-				(clear j)
-				(not (clear q))
-				(not (handempty))
-				(not (on q j))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding q)
+			(clear j)
+			(not (clear q))
+			(not (handempty))
+			(not (on q j))
 		)
 	)
 	(:action unstack_q_k
@@ -11704,17 +10560,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding q)
-				(clear k)
-				(not (clear q))
-				(not (handempty))
-				(not (on q k))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding q)
+			(clear k)
+			(not (clear q))
+			(not (handempty))
+			(not (on q k))
 		)
 	)
 	(:action unstack_q_l
@@ -11725,17 +10579,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding q)
-				(clear l)
-				(not (clear q))
-				(not (handempty))
-				(not (on q l))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding q)
+			(clear l)
+			(not (clear q))
+			(not (handempty))
+			(not (on q l))
 		)
 	)
 	(:action unstack_q_m
@@ -11746,17 +10598,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding q)
-				(clear m)
-				(not (clear q))
-				(not (handempty))
-				(not (on q m))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding q)
+			(clear m)
+			(not (clear q))
+			(not (handempty))
+			(not (on q m))
 		)
 	)
 	(:action unstack_q_n
@@ -11767,17 +10617,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding q)
-				(clear n)
-				(not (clear q))
-				(not (handempty))
-				(not (on q n))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding q)
+			(clear n)
+			(not (clear q))
+			(not (handempty))
+			(not (on q n))
 		)
 	)
 	(:action unstack_q_o
@@ -11788,17 +10636,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding q)
-				(clear o)
-				(not (clear q))
-				(not (handempty))
-				(not (on q o))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding q)
+			(clear o)
+			(not (clear q))
+			(not (handempty))
+			(not (on q o))
 		)
 	)
 	(:action unstack_q_p
@@ -11809,17 +10655,15 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(holding q)
-				(clear p)
-				(not (clear q))
-				(not (handempty))
-				(not (on q p))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(holding q)
+			(clear p)
+			(not (clear q))
+			(not (handempty))
+			(not (on q p))
 		)
 	)
 	(:action observe0_unstack_n_f
@@ -11831,18 +10675,16 @@
 			(handempty)
 		)
 		:effect (and
-			(and
-				(observation0)
-				(holding n)
-				(clear f)
-				(not (clear n))
-				(not (handempty))
-				(not (on n f))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation0)
+			(holding n)
+			(clear f)
+			(not (clear n))
+			(not (handempty))
+			(not (on n f))
 		)
 	)
 	(:action observe1_unstack_l_d
@@ -11855,18 +10697,16 @@
 			(not (observation1))
 		)
 		:effect (and
-			(and
-				(observation1)
-				(holding l)
-				(clear d)
-				(not (clear l))
-				(not (handempty))
-				(not (on l d))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation1)
+			(holding l)
+			(clear d)
+			(not (clear l))
+			(not (handempty))
+			(not (on l d))
 		)
 	)
 	(:action observe2_put-down_l
@@ -11877,17 +10717,15 @@
 			(not (observation2))
 		)
 		:effect (and
-			(and
-				(observation2)
-				(not (holding l))
-				(clear l)
-				(handempty)
-				(ontable l)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation2)
+			(not (holding l))
+			(clear l)
+			(handempty)
+			(ontable l)
 		)
 	)
 	(:action observe3_unstack_k_c
@@ -11900,18 +10738,16 @@
 			(not (observation3))
 		)
 		:effect (and
-			(and
-				(observation3)
-				(holding k)
-				(clear c)
-				(not (clear k))
-				(not (handempty))
-				(not (on k c))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation3)
+			(holding k)
+			(clear c)
+			(not (clear k))
+			(not (handempty))
+			(not (on k c))
 		)
 	)
 	(:action observe4_put-down_d
@@ -11922,17 +10758,15 @@
 			(not (observation4))
 		)
 		:effect (and
-			(and
-				(observation4)
-				(not (holding d))
-				(clear d)
-				(handempty)
-				(ontable d)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation4)
+			(not (holding d))
+			(clear d)
+			(handempty)
+			(ontable d)
 		)
 	)
 	(:action observe5_unstack_c_m
@@ -11945,18 +10779,16 @@
 			(not (observation5))
 		)
 		:effect (and
-			(and
-				(observation5)
-				(holding c)
-				(clear m)
-				(not (clear c))
-				(not (handempty))
-				(not (on c m))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation5)
+			(holding c)
+			(clear m)
+			(not (clear c))
+			(not (handempty))
+			(not (on c m))
 		)
 	)
 	(:action observe6_stack_c_l
@@ -11968,18 +10800,16 @@
 			(not (observation6))
 		)
 		:effect (and
-			(and
-				(observation6)
-				(not (holding c))
-				(not (clear l))
-				(clear c)
-				(handempty)
-				(on c l)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation6)
+			(not (holding c))
+			(not (clear l))
+			(clear c)
+			(handempty)
+			(on c l)
 		)
 	)
 	(:action observe7_stack_m_d
@@ -11991,18 +10821,16 @@
 			(not (observation7))
 		)
 		:effect (and
-			(and
-				(observation7)
-				(not (holding m))
-				(not (clear d))
-				(clear m)
-				(handempty)
-				(on m d)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation7)
+			(not (holding m))
+			(not (clear d))
+			(clear m)
+			(handempty)
+			(on m d)
 		)
 	)
 	(:action observe8_unstack_i_e
@@ -12015,18 +10843,16 @@
 			(not (observation8))
 		)
 		:effect (and
-			(and
-				(observation8)
-				(holding i)
-				(clear e)
-				(not (clear i))
-				(not (handempty))
-				(not (on i e))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation8)
+			(holding i)
+			(clear e)
+			(not (clear i))
+			(not (handempty))
+			(not (on i e))
 		)
 	)
 	(:action observe9_put-down_i
@@ -12037,17 +10863,15 @@
 			(not (observation9))
 		)
 		:effect (and
-			(and
-				(observation9)
-				(not (holding i))
-				(clear i)
-				(handempty)
-				(ontable i)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation9)
+			(not (holding i))
+			(clear i)
+			(handempty)
+			(ontable i)
 		)
 	)
 	(:action observe10_unstack_e_g
@@ -12060,18 +10884,16 @@
 			(not (observation10))
 		)
 		:effect (and
-			(and
-				(observation10)
-				(holding e)
-				(clear g)
-				(not (clear e))
-				(not (handempty))
-				(not (on e g))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation10)
+			(holding e)
+			(clear g)
+			(not (clear e))
+			(not (handempty))
+			(not (on e g))
 		)
 	)
 	(:action observe11_unstack_g_q
@@ -12084,18 +10906,16 @@
 			(not (observation11))
 		)
 		:effect (and
-			(and
-				(observation11)
-				(holding g)
-				(clear q)
-				(not (clear g))
-				(not (handempty))
-				(not (on g q))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation11)
+			(holding g)
+			(clear q)
+			(not (clear g))
+			(not (handempty))
+			(not (on g q))
 		)
 	)
 	(:action observe12_put-down_g
@@ -12106,17 +10926,15 @@
 			(not (observation12))
 		)
 		:effect (and
-			(and
-				(observation12)
-				(not (holding g))
-				(clear g)
-				(handempty)
-				(ontable g)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation12)
+			(not (holding g))
+			(clear g)
+			(handempty)
+			(ontable g)
 		)
 	)
 	(:action observe13_unstack_q_b
@@ -12129,18 +10947,16 @@
 			(not (observation13))
 		)
 		:effect (and
-			(and
-				(observation13)
-				(holding q)
-				(clear b)
-				(not (clear q))
-				(not (handempty))
-				(not (on q b))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation13)
+			(holding q)
+			(clear b)
+			(not (clear q))
+			(not (handempty))
+			(not (on q b))
 		)
 	)
 	(:action observe14_put-down_q
@@ -12151,17 +10967,15 @@
 			(not (observation14))
 		)
 		:effect (and
-			(and
-				(observation14)
-				(not (holding q))
-				(clear q)
-				(handempty)
-				(ontable q)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation14)
+			(not (holding q))
+			(clear q)
+			(handempty)
+			(ontable q)
 		)
 	)
 	(:action observe15_unstack_b_p
@@ -12174,18 +10988,16 @@
 			(not (observation15))
 		)
 		:effect (and
-			(and
-				(observation15)
-				(holding b)
-				(clear p)
-				(not (clear b))
-				(not (handempty))
-				(not (on b p))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation15)
+			(holding b)
+			(clear p)
+			(not (clear b))
+			(not (handempty))
+			(not (on b p))
 		)
 	)
 	(:action observe16_put-down_b
@@ -12196,17 +11008,15 @@
 			(not (observation16))
 		)
 		:effect (and
-			(and
-				(observation16)
-				(not (holding b))
-				(clear b)
-				(handempty)
-				(ontable b)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation16)
+			(not (holding b))
+			(clear b)
+			(handempty)
+			(ontable b)
 		)
 	)
 	(:action observe17_unstack_p_h
@@ -12219,18 +11029,16 @@
 			(not (observation17))
 		)
 		:effect (and
-			(and
-				(observation17)
-				(holding p)
-				(clear h)
-				(not (clear p))
-				(not (handempty))
-				(not (on p h))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation17)
+			(holding p)
+			(clear h)
+			(not (clear p))
+			(not (handempty))
+			(not (on p h))
 		)
 	)
 	(:action observe18_put-down_p
@@ -12241,17 +11049,15 @@
 			(not (observation18))
 		)
 		:effect (and
-			(and
-				(observation18)
-				(not (holding p))
-				(clear p)
-				(handempty)
-				(ontable p)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation18)
+			(not (holding p))
+			(clear p)
+			(handempty)
+			(ontable p)
 		)
 	)
 	(:action observe19_put-down_h
@@ -12262,17 +11068,15 @@
 			(not (observation19))
 		)
 		:effect (and
-			(and
-				(observation19)
-				(not (holding h))
-				(clear h)
-				(handempty)
-				(ontable h)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation19)
+			(not (holding h))
+			(clear h)
+			(handempty)
+			(ontable h)
 		)
 	)
 	(:action observe20_unstack_j_o
@@ -12285,18 +11089,16 @@
 			(not (observation20))
 		)
 		:effect (and
-			(and
-				(observation20)
-				(holding j)
-				(clear o)
-				(not (clear j))
-				(not (handempty))
-				(not (on j o))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation20)
+			(holding j)
+			(clear o)
+			(not (clear j))
+			(not (handempty))
+			(not (on j o))
 		)
 	)
 	(:action observe21_put-down_j
@@ -12307,17 +11109,15 @@
 			(not (observation21))
 		)
 		:effect (and
-			(and
-				(observation21)
-				(not (holding j))
-				(clear j)
-				(handempty)
-				(ontable j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation21)
+			(not (holding j))
+			(clear j)
+			(handempty)
+			(ontable j)
 		)
 	)
 	(:action observe22_stack_o_m
@@ -12329,18 +11129,16 @@
 			(not (observation22))
 		)
 		:effect (and
-			(and
-				(observation22)
-				(not (holding o))
-				(not (clear m))
-				(clear o)
-				(handempty)
-				(on o m)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation22)
+			(not (holding o))
+			(not (clear m))
+			(clear o)
+			(handempty)
+			(on o m)
 		)
 	)
 	(:action observe23_pick-up_e
@@ -12353,17 +11151,15 @@
 			(not (observation23))
 		)
 		:effect (and
-			(and
-				(observation23)
-				(not (ontable e))
-				(not (clear e))
-				(not (handempty))
-				(holding e)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation23)
+			(not (ontable e))
+			(not (clear e))
+			(not (handempty))
+			(holding e)
 		)
 	)
 	(:action observe24_pick-up_h
@@ -12376,17 +11172,15 @@
 			(not (observation24))
 		)
 		:effect (and
-			(and
-				(observation24)
-				(not (ontable h))
-				(not (clear h))
-				(not (handempty))
-				(holding h)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation24)
+			(not (ontable h))
+			(not (clear h))
+			(not (handempty))
+			(holding h)
 		)
 	)
 	(:action observe25_stack_h_e
@@ -12398,18 +11192,16 @@
 			(not (observation25))
 		)
 		:effect (and
-			(and
-				(observation25)
-				(not (holding h))
-				(not (clear e))
-				(clear h)
-				(handempty)
-				(on h e)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation25)
+			(not (holding h))
+			(not (clear e))
+			(clear h)
+			(handempty)
+			(on h e)
 		)
 	)
 	(:action observe26_pick-up_g
@@ -12422,17 +11214,15 @@
 			(not (observation26))
 		)
 		:effect (and
-			(and
-				(observation26)
-				(not (ontable g))
-				(not (clear g))
-				(not (handempty))
-				(holding g)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation26)
+			(not (ontable g))
+			(not (clear g))
+			(not (handempty))
+			(holding g)
 		)
 	)
 	(:action observe27_stack_g_a
@@ -12444,18 +11234,16 @@
 			(not (observation27))
 		)
 		:effect (and
-			(and
-				(observation27)
-				(not (holding g))
-				(not (clear a))
-				(clear g)
-				(handempty)
-				(on g a)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation27)
+			(not (holding g))
+			(not (clear a))
+			(clear g)
+			(handempty)
+			(on g a)
 		)
 	)
 	(:action observe28_pick-up_f
@@ -12468,17 +11256,15 @@
 			(not (observation28))
 		)
 		:effect (and
-			(and
-				(observation28)
-				(not (ontable f))
-				(not (clear f))
-				(not (handempty))
-				(holding f)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation28)
+			(not (ontable f))
+			(not (clear f))
+			(not (handempty))
+			(holding f)
 		)
 	)
 	(:action observe29_stack_f_b
@@ -12490,18 +11276,16 @@
 			(not (observation29))
 		)
 		:effect (and
-			(and
-				(observation29)
-				(not (holding f))
-				(not (clear b))
-				(clear f)
-				(handempty)
-				(on f b)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation29)
+			(not (holding f))
+			(not (clear b))
+			(clear f)
+			(handempty)
+			(on f b)
 		)
 	)
 	(:action observe30_pick-up_j
@@ -12514,17 +11298,15 @@
 			(not (observation30))
 		)
 		:effect (and
-			(and
-				(observation30)
-				(not (ontable j))
-				(not (clear j))
-				(not (handempty))
-				(holding j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation30)
+			(not (ontable j))
+			(not (clear j))
+			(not (handempty))
+			(holding j)
 		)
 	)
 	(:action observe31_pick-up_k
@@ -12537,17 +11319,15 @@
 			(not (observation31))
 		)
 		:effect (and
-			(and
-				(observation31)
-				(not (ontable k))
-				(not (clear k))
-				(not (handempty))
-				(holding k)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation31)
+			(not (ontable k))
+			(not (clear k))
+			(not (handempty))
+			(holding k)
 		)
 	)
 	(:action observe32_stack_k_j
@@ -12559,18 +11339,16 @@
 			(not (observation32))
 		)
 		:effect (and
-			(and
-				(observation32)
-				(not (holding k))
-				(not (clear j))
-				(clear k)
-				(handempty)
-				(on k j)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation32)
+			(not (holding k))
+			(not (clear j))
+			(clear k)
+			(handempty)
+			(on k j)
 		)
 	)
 	(:action observe33_stack_i_k
@@ -12582,18 +11360,16 @@
 			(not (observation33))
 		)
 		:effect (and
-			(and
-				(observation33)
-				(not (holding i))
-				(not (clear k))
-				(clear i)
-				(handempty)
-				(on i k)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation33)
+			(not (holding i))
+			(not (clear k))
+			(clear i)
+			(handempty)
+			(on i k)
 		)
 	)
 	(:action observe34_unstack_c_l
@@ -12606,18 +11382,16 @@
 			(not (observation34))
 		)
 		:effect (and
-			(and
-				(observation34)
-				(holding c)
-				(clear l)
-				(not (clear c))
-				(not (handempty))
-				(not (on c l))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation34)
+			(holding c)
+			(clear l)
+			(not (clear c))
+			(not (handempty))
+			(not (on c l))
 		)
 	)
 	(:action observe35_stack_c_i
@@ -12629,18 +11403,16 @@
 			(not (observation35))
 		)
 		:effect (and
-			(and
-				(observation35)
-				(not (holding c))
-				(not (clear i))
-				(clear c)
-				(handempty)
-				(on c i)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation35)
+			(not (holding c))
+			(not (clear i))
+			(clear c)
+			(handempty)
+			(on c i)
 		)
 	)
 	(:action observe36_pick-up_n
@@ -12653,17 +11425,15 @@
 			(not (observation36))
 		)
 		:effect (and
-			(and
-				(observation36)
-				(not (ontable n))
-				(not (clear n))
-				(not (handempty))
-				(holding n)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation36)
+			(not (ontable n))
+			(not (clear n))
+			(not (handempty))
+			(holding n)
 		)
 	)
 	(:action observe37_stack_n_c
@@ -12675,18 +11445,16 @@
 			(not (observation37))
 		)
 		:effect (and
-			(and
-				(observation37)
-				(not (holding n))
-				(not (clear c))
-				(clear n)
-				(handempty)
-				(on n c)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation37)
+			(not (holding n))
+			(not (clear c))
+			(clear n)
+			(handempty)
+			(on n c)
 		)
 	)
 	(:action observe38_pick-up_p
@@ -12699,17 +11467,15 @@
 			(not (observation38))
 		)
 		:effect (and
-			(and
-				(observation38)
-				(not (ontable p))
-				(not (clear p))
-				(not (handempty))
-				(holding p)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation38)
+			(not (ontable p))
+			(not (clear p))
+			(not (handempty))
+			(holding p)
 		)
 	)
 	(:action observe39_stack_p_n
@@ -12721,18 +11487,16 @@
 			(not (observation39))
 		)
 		:effect (and
-			(and
-				(observation39)
-				(not (holding p))
-				(not (clear n))
-				(clear p)
-				(handempty)
-				(on p n)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation39)
+			(not (holding p))
+			(not (clear n))
+			(clear p)
+			(handempty)
+			(on p n)
 		)
 	)
 	(:action observe40_pick-up_q
@@ -12745,17 +11509,15 @@
 			(not (observation40))
 		)
 		:effect (and
-			(and
-				(observation40)
-				(not (ontable q))
-				(not (clear q))
-				(not (handempty))
-				(holding q)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation40)
+			(not (ontable q))
+			(not (clear q))
+			(not (handempty))
+			(holding q)
 		)
 	)
 )
