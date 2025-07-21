@@ -28,14 +28,12 @@
 			(at package1 s0)
 		)
 		:effect (and
-			(and
-				(not (at package1 s0))
-				(in package1 truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package1 s0))
+			(in package1 truck1)
 		)
 	)
 	(:action load-truck_package1_truck1_s1
@@ -45,14 +43,12 @@
 			(at package1 s1)
 		)
 		:effect (and
-			(and
-				(not (at package1 s1))
-				(in package1 truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package1 s1))
+			(in package1 truck1)
 		)
 	)
 	(:action load-truck_package1_truck1_s2
@@ -62,14 +58,12 @@
 			(at package1 s2)
 		)
 		:effect (and
-			(and
-				(not (at package1 s2))
-				(in package1 truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package1 s2))
+			(in package1 truck1)
 		)
 	)
 	(:action load-truck_package1_truck2_s0
@@ -79,14 +73,12 @@
 			(at package1 s0)
 		)
 		:effect (and
-			(and
-				(not (at package1 s0))
-				(in package1 truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package1 s0))
+			(in package1 truck2)
 		)
 	)
 	(:action load-truck_package1_truck2_s1
@@ -96,14 +88,12 @@
 			(at package1 s1)
 		)
 		:effect (and
-			(and
-				(not (at package1 s1))
-				(in package1 truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package1 s1))
+			(in package1 truck2)
 		)
 	)
 	(:action load-truck_package1_truck2_s2
@@ -113,14 +103,12 @@
 			(at package1 s2)
 		)
 		:effect (and
-			(and
-				(not (at package1 s2))
-				(in package1 truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package1 s2))
+			(in package1 truck2)
 		)
 	)
 	(:action load-truck_package1_truck3_s0
@@ -130,14 +118,12 @@
 			(at package1 s0)
 		)
 		:effect (and
-			(and
-				(not (at package1 s0))
-				(in package1 truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package1 s0))
+			(in package1 truck3)
 		)
 	)
 	(:action load-truck_package1_truck3_s1
@@ -147,14 +133,12 @@
 			(at package1 s1)
 		)
 		:effect (and
-			(and
-				(not (at package1 s1))
-				(in package1 truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package1 s1))
+			(in package1 truck3)
 		)
 	)
 	(:action load-truck_package1_truck3_s2
@@ -164,14 +148,12 @@
 			(at package1 s2)
 		)
 		:effect (and
-			(and
-				(not (at package1 s2))
-				(in package1 truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package1 s2))
+			(in package1 truck3)
 		)
 	)
 	(:action load-truck_package2_truck1_s0
@@ -181,14 +163,12 @@
 			(at package2 s0)
 		)
 		:effect (and
-			(and
-				(not (at package2 s0))
-				(in package2 truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package2 s0))
+			(in package2 truck1)
 		)
 	)
 	(:action load-truck_package2_truck1_s1
@@ -198,14 +178,12 @@
 			(at package2 s1)
 		)
 		:effect (and
-			(and
-				(not (at package2 s1))
-				(in package2 truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package2 s1))
+			(in package2 truck1)
 		)
 	)
 	(:action load-truck_package2_truck1_s2
@@ -215,14 +193,12 @@
 			(at package2 s2)
 		)
 		:effect (and
-			(and
-				(not (at package2 s2))
-				(in package2 truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package2 s2))
+			(in package2 truck1)
 		)
 	)
 	(:action load-truck_package2_truck2_s0
@@ -232,14 +208,12 @@
 			(at package2 s0)
 		)
 		:effect (and
-			(and
-				(not (at package2 s0))
-				(in package2 truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package2 s0))
+			(in package2 truck2)
 		)
 	)
 	(:action load-truck_package2_truck2_s1
@@ -249,14 +223,12 @@
 			(at package2 s1)
 		)
 		:effect (and
-			(and
-				(not (at package2 s1))
-				(in package2 truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package2 s1))
+			(in package2 truck2)
 		)
 	)
 	(:action load-truck_package2_truck2_s2
@@ -266,14 +238,12 @@
 			(at package2 s2)
 		)
 		:effect (and
-			(and
-				(not (at package2 s2))
-				(in package2 truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package2 s2))
+			(in package2 truck2)
 		)
 	)
 	(:action load-truck_package2_truck3_s0
@@ -283,14 +253,12 @@
 			(at package2 s0)
 		)
 		:effect (and
-			(and
-				(not (at package2 s0))
-				(in package2 truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package2 s0))
+			(in package2 truck3)
 		)
 	)
 	(:action load-truck_package2_truck3_s1
@@ -300,14 +268,12 @@
 			(at package2 s1)
 		)
 		:effect (and
-			(and
-				(not (at package2 s1))
-				(in package2 truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package2 s1))
+			(in package2 truck3)
 		)
 	)
 	(:action load-truck_package2_truck3_s2
@@ -317,14 +283,12 @@
 			(at package2 s2)
 		)
 		:effect (and
-			(and
-				(not (at package2 s2))
-				(in package2 truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package2 s2))
+			(in package2 truck3)
 		)
 	)
 	(:action load-truck_package3_truck1_s0
@@ -334,14 +298,12 @@
 			(at package3 s0)
 		)
 		:effect (and
-			(and
-				(not (at package3 s0))
-				(in package3 truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package3 s0))
+			(in package3 truck1)
 		)
 	)
 	(:action load-truck_package3_truck1_s1
@@ -351,14 +313,12 @@
 			(at package3 s1)
 		)
 		:effect (and
-			(and
-				(not (at package3 s1))
-				(in package3 truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package3 s1))
+			(in package3 truck1)
 		)
 	)
 	(:action load-truck_package3_truck1_s2
@@ -368,14 +328,12 @@
 			(at package3 s2)
 		)
 		:effect (and
-			(and
-				(not (at package3 s2))
-				(in package3 truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package3 s2))
+			(in package3 truck1)
 		)
 	)
 	(:action load-truck_package3_truck2_s0
@@ -385,14 +343,12 @@
 			(at package3 s0)
 		)
 		:effect (and
-			(and
-				(not (at package3 s0))
-				(in package3 truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package3 s0))
+			(in package3 truck2)
 		)
 	)
 	(:action load-truck_package3_truck2_s1
@@ -402,14 +358,12 @@
 			(at package3 s1)
 		)
 		:effect (and
-			(and
-				(not (at package3 s1))
-				(in package3 truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package3 s1))
+			(in package3 truck2)
 		)
 	)
 	(:action load-truck_package3_truck2_s2
@@ -419,14 +373,12 @@
 			(at package3 s2)
 		)
 		:effect (and
-			(and
-				(not (at package3 s2))
-				(in package3 truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package3 s2))
+			(in package3 truck2)
 		)
 	)
 	(:action load-truck_package3_truck3_s0
@@ -436,14 +388,12 @@
 			(at package3 s0)
 		)
 		:effect (and
-			(and
-				(not (at package3 s0))
-				(in package3 truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package3 s0))
+			(in package3 truck3)
 		)
 	)
 	(:action load-truck_package3_truck3_s1
@@ -453,14 +403,12 @@
 			(at package3 s1)
 		)
 		:effect (and
-			(and
-				(not (at package3 s1))
-				(in package3 truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package3 s1))
+			(in package3 truck3)
 		)
 	)
 	(:action load-truck_package3_truck3_s2
@@ -470,14 +418,12 @@
 			(at package3 s2)
 		)
 		:effect (and
-			(and
-				(not (at package3 s2))
-				(in package3 truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package3 s2))
+			(in package3 truck3)
 		)
 	)
 	(:action load-truck_package4_truck1_s0
@@ -487,14 +433,12 @@
 			(at package4 s0)
 		)
 		:effect (and
-			(and
-				(not (at package4 s0))
-				(in package4 truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package4 s0))
+			(in package4 truck1)
 		)
 	)
 	(:action load-truck_package4_truck1_s1
@@ -504,14 +448,12 @@
 			(at package4 s1)
 		)
 		:effect (and
-			(and
-				(not (at package4 s1))
-				(in package4 truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package4 s1))
+			(in package4 truck1)
 		)
 	)
 	(:action load-truck_package4_truck1_s2
@@ -521,14 +463,12 @@
 			(at package4 s2)
 		)
 		:effect (and
-			(and
-				(not (at package4 s2))
-				(in package4 truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package4 s2))
+			(in package4 truck1)
 		)
 	)
 	(:action load-truck_package4_truck2_s0
@@ -538,14 +478,12 @@
 			(at package4 s0)
 		)
 		:effect (and
-			(and
-				(not (at package4 s0))
-				(in package4 truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package4 s0))
+			(in package4 truck2)
 		)
 	)
 	(:action load-truck_package4_truck2_s1
@@ -555,14 +493,12 @@
 			(at package4 s1)
 		)
 		:effect (and
-			(and
-				(not (at package4 s1))
-				(in package4 truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package4 s1))
+			(in package4 truck2)
 		)
 	)
 	(:action load-truck_package4_truck2_s2
@@ -572,14 +508,12 @@
 			(at package4 s2)
 		)
 		:effect (and
-			(and
-				(not (at package4 s2))
-				(in package4 truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package4 s2))
+			(in package4 truck2)
 		)
 	)
 	(:action load-truck_package4_truck3_s0
@@ -589,14 +523,12 @@
 			(at package4 s0)
 		)
 		:effect (and
-			(and
-				(not (at package4 s0))
-				(in package4 truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package4 s0))
+			(in package4 truck3)
 		)
 	)
 	(:action load-truck_package4_truck3_s1
@@ -606,14 +538,12 @@
 			(at package4 s1)
 		)
 		:effect (and
-			(and
-				(not (at package4 s1))
-				(in package4 truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package4 s1))
+			(in package4 truck3)
 		)
 	)
 	(:action load-truck_package4_truck3_s2
@@ -623,14 +553,12 @@
 			(at package4 s2)
 		)
 		:effect (and
-			(and
-				(not (at package4 s2))
-				(in package4 truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package4 s2))
+			(in package4 truck3)
 		)
 	)
 	(:action load-truck_package5_truck1_s0
@@ -640,14 +568,12 @@
 			(at package5 s0)
 		)
 		:effect (and
-			(and
-				(not (at package5 s0))
-				(in package5 truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package5 s0))
+			(in package5 truck1)
 		)
 	)
 	(:action load-truck_package5_truck1_s1
@@ -657,14 +583,12 @@
 			(at package5 s1)
 		)
 		:effect (and
-			(and
-				(not (at package5 s1))
-				(in package5 truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package5 s1))
+			(in package5 truck1)
 		)
 	)
 	(:action load-truck_package5_truck1_s2
@@ -674,14 +598,12 @@
 			(at package5 s2)
 		)
 		:effect (and
-			(and
-				(not (at package5 s2))
-				(in package5 truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package5 s2))
+			(in package5 truck1)
 		)
 	)
 	(:action load-truck_package5_truck2_s0
@@ -691,14 +613,12 @@
 			(at package5 s0)
 		)
 		:effect (and
-			(and
-				(not (at package5 s0))
-				(in package5 truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package5 s0))
+			(in package5 truck2)
 		)
 	)
 	(:action load-truck_package5_truck2_s1
@@ -708,14 +628,12 @@
 			(at package5 s1)
 		)
 		:effect (and
-			(and
-				(not (at package5 s1))
-				(in package5 truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package5 s1))
+			(in package5 truck2)
 		)
 	)
 	(:action load-truck_package5_truck2_s2
@@ -725,14 +643,12 @@
 			(at package5 s2)
 		)
 		:effect (and
-			(and
-				(not (at package5 s2))
-				(in package5 truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package5 s2))
+			(in package5 truck2)
 		)
 	)
 	(:action load-truck_package5_truck3_s0
@@ -742,14 +658,12 @@
 			(at package5 s0)
 		)
 		:effect (and
-			(and
-				(not (at package5 s0))
-				(in package5 truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package5 s0))
+			(in package5 truck3)
 		)
 	)
 	(:action load-truck_package5_truck3_s1
@@ -759,14 +673,12 @@
 			(at package5 s1)
 		)
 		:effect (and
-			(and
-				(not (at package5 s1))
-				(in package5 truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package5 s1))
+			(in package5 truck3)
 		)
 	)
 	(:action load-truck_package5_truck3_s2
@@ -776,14 +688,12 @@
 			(at package5 s2)
 		)
 		:effect (and
-			(and
-				(not (at package5 s2))
-				(in package5 truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package5 s2))
+			(in package5 truck3)
 		)
 	)
 	(:action load-truck_package6_truck1_s0
@@ -793,14 +703,12 @@
 			(at package6 s0)
 		)
 		:effect (and
-			(and
-				(not (at package6 s0))
-				(in package6 truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package6 s0))
+			(in package6 truck1)
 		)
 	)
 	(:action load-truck_package6_truck1_s1
@@ -810,14 +718,12 @@
 			(at package6 s1)
 		)
 		:effect (and
-			(and
-				(not (at package6 s1))
-				(in package6 truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package6 s1))
+			(in package6 truck1)
 		)
 	)
 	(:action load-truck_package6_truck1_s2
@@ -827,14 +733,12 @@
 			(at package6 s2)
 		)
 		:effect (and
-			(and
-				(not (at package6 s2))
-				(in package6 truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package6 s2))
+			(in package6 truck1)
 		)
 	)
 	(:action load-truck_package6_truck2_s0
@@ -844,14 +748,12 @@
 			(at package6 s0)
 		)
 		:effect (and
-			(and
-				(not (at package6 s0))
-				(in package6 truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package6 s0))
+			(in package6 truck2)
 		)
 	)
 	(:action load-truck_package6_truck2_s1
@@ -861,14 +763,12 @@
 			(at package6 s1)
 		)
 		:effect (and
-			(and
-				(not (at package6 s1))
-				(in package6 truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package6 s1))
+			(in package6 truck2)
 		)
 	)
 	(:action load-truck_package6_truck2_s2
@@ -878,14 +778,12 @@
 			(at package6 s2)
 		)
 		:effect (and
-			(and
-				(not (at package6 s2))
-				(in package6 truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package6 s2))
+			(in package6 truck2)
 		)
 	)
 	(:action load-truck_package6_truck3_s0
@@ -895,14 +793,12 @@
 			(at package6 s0)
 		)
 		:effect (and
-			(and
-				(not (at package6 s0))
-				(in package6 truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package6 s0))
+			(in package6 truck3)
 		)
 	)
 	(:action load-truck_package6_truck3_s1
@@ -912,14 +808,12 @@
 			(at package6 s1)
 		)
 		:effect (and
-			(and
-				(not (at package6 s1))
-				(in package6 truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package6 s1))
+			(in package6 truck3)
 		)
 	)
 	(:action load-truck_package6_truck3_s2
@@ -929,14 +823,12 @@
 			(at package6 s2)
 		)
 		:effect (and
-			(and
-				(not (at package6 s2))
-				(in package6 truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at package6 s2))
+			(in package6 truck3)
 		)
 	)
 	(:action unload-truck_package1_truck1_s0
@@ -946,14 +838,12 @@
 			(in package1 truck1)
 		)
 		:effect (and
-			(and
-				(not (in package1 truck1))
-				(at package1 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package1 truck1))
+			(at package1 s0)
 		)
 	)
 	(:action unload-truck_package1_truck1_s1
@@ -963,14 +853,12 @@
 			(in package1 truck1)
 		)
 		:effect (and
-			(and
-				(not (in package1 truck1))
-				(at package1 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package1 truck1))
+			(at package1 s1)
 		)
 	)
 	(:action unload-truck_package1_truck1_s2
@@ -980,14 +868,12 @@
 			(in package1 truck1)
 		)
 		:effect (and
-			(and
-				(not (in package1 truck1))
-				(at package1 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package1 truck1))
+			(at package1 s2)
 		)
 	)
 	(:action unload-truck_package1_truck2_s0
@@ -997,14 +883,12 @@
 			(in package1 truck2)
 		)
 		:effect (and
-			(and
-				(not (in package1 truck2))
-				(at package1 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package1 truck2))
+			(at package1 s0)
 		)
 	)
 	(:action unload-truck_package1_truck2_s1
@@ -1014,14 +898,12 @@
 			(in package1 truck2)
 		)
 		:effect (and
-			(and
-				(not (in package1 truck2))
-				(at package1 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package1 truck2))
+			(at package1 s1)
 		)
 	)
 	(:action unload-truck_package1_truck2_s2
@@ -1031,14 +913,12 @@
 			(in package1 truck2)
 		)
 		:effect (and
-			(and
-				(not (in package1 truck2))
-				(at package1 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package1 truck2))
+			(at package1 s2)
 		)
 	)
 	(:action unload-truck_package1_truck3_s0
@@ -1048,14 +928,12 @@
 			(in package1 truck3)
 		)
 		:effect (and
-			(and
-				(not (in package1 truck3))
-				(at package1 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package1 truck3))
+			(at package1 s0)
 		)
 	)
 	(:action unload-truck_package1_truck3_s1
@@ -1065,14 +943,12 @@
 			(in package1 truck3)
 		)
 		:effect (and
-			(and
-				(not (in package1 truck3))
-				(at package1 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package1 truck3))
+			(at package1 s1)
 		)
 	)
 	(:action unload-truck_package1_truck3_s2
@@ -1082,14 +958,12 @@
 			(in package1 truck3)
 		)
 		:effect (and
-			(and
-				(not (in package1 truck3))
-				(at package1 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package1 truck3))
+			(at package1 s2)
 		)
 	)
 	(:action unload-truck_package2_truck1_s0
@@ -1099,14 +973,12 @@
 			(in package2 truck1)
 		)
 		:effect (and
-			(and
-				(not (in package2 truck1))
-				(at package2 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package2 truck1))
+			(at package2 s0)
 		)
 	)
 	(:action unload-truck_package2_truck1_s1
@@ -1116,14 +988,12 @@
 			(in package2 truck1)
 		)
 		:effect (and
-			(and
-				(not (in package2 truck1))
-				(at package2 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package2 truck1))
+			(at package2 s1)
 		)
 	)
 	(:action unload-truck_package2_truck1_s2
@@ -1133,14 +1003,12 @@
 			(in package2 truck1)
 		)
 		:effect (and
-			(and
-				(not (in package2 truck1))
-				(at package2 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package2 truck1))
+			(at package2 s2)
 		)
 	)
 	(:action unload-truck_package2_truck2_s0
@@ -1150,14 +1018,12 @@
 			(in package2 truck2)
 		)
 		:effect (and
-			(and
-				(not (in package2 truck2))
-				(at package2 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package2 truck2))
+			(at package2 s0)
 		)
 	)
 	(:action unload-truck_package2_truck2_s1
@@ -1167,14 +1033,12 @@
 			(in package2 truck2)
 		)
 		:effect (and
-			(and
-				(not (in package2 truck2))
-				(at package2 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package2 truck2))
+			(at package2 s1)
 		)
 	)
 	(:action unload-truck_package2_truck2_s2
@@ -1184,14 +1048,12 @@
 			(in package2 truck2)
 		)
 		:effect (and
-			(and
-				(not (in package2 truck2))
-				(at package2 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package2 truck2))
+			(at package2 s2)
 		)
 	)
 	(:action unload-truck_package2_truck3_s0
@@ -1201,14 +1063,12 @@
 			(in package2 truck3)
 		)
 		:effect (and
-			(and
-				(not (in package2 truck3))
-				(at package2 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package2 truck3))
+			(at package2 s0)
 		)
 	)
 	(:action unload-truck_package2_truck3_s1
@@ -1218,14 +1078,12 @@
 			(in package2 truck3)
 		)
 		:effect (and
-			(and
-				(not (in package2 truck3))
-				(at package2 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package2 truck3))
+			(at package2 s1)
 		)
 	)
 	(:action unload-truck_package2_truck3_s2
@@ -1235,14 +1093,12 @@
 			(in package2 truck3)
 		)
 		:effect (and
-			(and
-				(not (in package2 truck3))
-				(at package2 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package2 truck3))
+			(at package2 s2)
 		)
 	)
 	(:action unload-truck_package3_truck1_s0
@@ -1252,14 +1108,12 @@
 			(in package3 truck1)
 		)
 		:effect (and
-			(and
-				(not (in package3 truck1))
-				(at package3 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package3 truck1))
+			(at package3 s0)
 		)
 	)
 	(:action unload-truck_package3_truck1_s1
@@ -1269,14 +1123,12 @@
 			(in package3 truck1)
 		)
 		:effect (and
-			(and
-				(not (in package3 truck1))
-				(at package3 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package3 truck1))
+			(at package3 s1)
 		)
 	)
 	(:action unload-truck_package3_truck1_s2
@@ -1286,14 +1138,12 @@
 			(in package3 truck1)
 		)
 		:effect (and
-			(and
-				(not (in package3 truck1))
-				(at package3 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package3 truck1))
+			(at package3 s2)
 		)
 	)
 	(:action unload-truck_package3_truck2_s0
@@ -1303,14 +1153,12 @@
 			(in package3 truck2)
 		)
 		:effect (and
-			(and
-				(not (in package3 truck2))
-				(at package3 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package3 truck2))
+			(at package3 s0)
 		)
 	)
 	(:action unload-truck_package3_truck2_s1
@@ -1320,14 +1168,12 @@
 			(in package3 truck2)
 		)
 		:effect (and
-			(and
-				(not (in package3 truck2))
-				(at package3 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package3 truck2))
+			(at package3 s1)
 		)
 	)
 	(:action unload-truck_package3_truck2_s2
@@ -1337,14 +1183,12 @@
 			(in package3 truck2)
 		)
 		:effect (and
-			(and
-				(not (in package3 truck2))
-				(at package3 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package3 truck2))
+			(at package3 s2)
 		)
 	)
 	(:action unload-truck_package3_truck3_s0
@@ -1354,14 +1198,12 @@
 			(in package3 truck3)
 		)
 		:effect (and
-			(and
-				(not (in package3 truck3))
-				(at package3 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package3 truck3))
+			(at package3 s0)
 		)
 	)
 	(:action unload-truck_package3_truck3_s1
@@ -1371,14 +1213,12 @@
 			(in package3 truck3)
 		)
 		:effect (and
-			(and
-				(not (in package3 truck3))
-				(at package3 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package3 truck3))
+			(at package3 s1)
 		)
 	)
 	(:action unload-truck_package3_truck3_s2
@@ -1388,14 +1228,12 @@
 			(in package3 truck3)
 		)
 		:effect (and
-			(and
-				(not (in package3 truck3))
-				(at package3 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package3 truck3))
+			(at package3 s2)
 		)
 	)
 	(:action unload-truck_package4_truck1_s0
@@ -1405,14 +1243,12 @@
 			(in package4 truck1)
 		)
 		:effect (and
-			(and
-				(not (in package4 truck1))
-				(at package4 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package4 truck1))
+			(at package4 s0)
 		)
 	)
 	(:action unload-truck_package4_truck1_s1
@@ -1422,14 +1258,12 @@
 			(in package4 truck1)
 		)
 		:effect (and
-			(and
-				(not (in package4 truck1))
-				(at package4 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package4 truck1))
+			(at package4 s1)
 		)
 	)
 	(:action unload-truck_package4_truck1_s2
@@ -1439,14 +1273,12 @@
 			(in package4 truck1)
 		)
 		:effect (and
-			(and
-				(not (in package4 truck1))
-				(at package4 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package4 truck1))
+			(at package4 s2)
 		)
 	)
 	(:action unload-truck_package4_truck2_s0
@@ -1456,14 +1288,12 @@
 			(in package4 truck2)
 		)
 		:effect (and
-			(and
-				(not (in package4 truck2))
-				(at package4 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package4 truck2))
+			(at package4 s0)
 		)
 	)
 	(:action unload-truck_package4_truck2_s1
@@ -1473,14 +1303,12 @@
 			(in package4 truck2)
 		)
 		:effect (and
-			(and
-				(not (in package4 truck2))
-				(at package4 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package4 truck2))
+			(at package4 s1)
 		)
 	)
 	(:action unload-truck_package4_truck2_s2
@@ -1490,14 +1318,12 @@
 			(in package4 truck2)
 		)
 		:effect (and
-			(and
-				(not (in package4 truck2))
-				(at package4 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package4 truck2))
+			(at package4 s2)
 		)
 	)
 	(:action unload-truck_package4_truck3_s0
@@ -1507,14 +1333,12 @@
 			(in package4 truck3)
 		)
 		:effect (and
-			(and
-				(not (in package4 truck3))
-				(at package4 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package4 truck3))
+			(at package4 s0)
 		)
 	)
 	(:action unload-truck_package4_truck3_s1
@@ -1524,14 +1348,12 @@
 			(in package4 truck3)
 		)
 		:effect (and
-			(and
-				(not (in package4 truck3))
-				(at package4 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package4 truck3))
+			(at package4 s1)
 		)
 	)
 	(:action unload-truck_package4_truck3_s2
@@ -1541,14 +1363,12 @@
 			(in package4 truck3)
 		)
 		:effect (and
-			(and
-				(not (in package4 truck3))
-				(at package4 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package4 truck3))
+			(at package4 s2)
 		)
 	)
 	(:action unload-truck_package5_truck1_s0
@@ -1558,14 +1378,12 @@
 			(in package5 truck1)
 		)
 		:effect (and
-			(and
-				(not (in package5 truck1))
-				(at package5 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package5 truck1))
+			(at package5 s0)
 		)
 	)
 	(:action unload-truck_package5_truck1_s1
@@ -1575,14 +1393,12 @@
 			(in package5 truck1)
 		)
 		:effect (and
-			(and
-				(not (in package5 truck1))
-				(at package5 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package5 truck1))
+			(at package5 s1)
 		)
 	)
 	(:action unload-truck_package5_truck1_s2
@@ -1592,14 +1408,12 @@
 			(in package5 truck1)
 		)
 		:effect (and
-			(and
-				(not (in package5 truck1))
-				(at package5 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package5 truck1))
+			(at package5 s2)
 		)
 	)
 	(:action unload-truck_package5_truck2_s0
@@ -1609,14 +1423,12 @@
 			(in package5 truck2)
 		)
 		:effect (and
-			(and
-				(not (in package5 truck2))
-				(at package5 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package5 truck2))
+			(at package5 s0)
 		)
 	)
 	(:action unload-truck_package5_truck2_s1
@@ -1626,14 +1438,12 @@
 			(in package5 truck2)
 		)
 		:effect (and
-			(and
-				(not (in package5 truck2))
-				(at package5 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package5 truck2))
+			(at package5 s1)
 		)
 	)
 	(:action unload-truck_package5_truck2_s2
@@ -1643,14 +1453,12 @@
 			(in package5 truck2)
 		)
 		:effect (and
-			(and
-				(not (in package5 truck2))
-				(at package5 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package5 truck2))
+			(at package5 s2)
 		)
 	)
 	(:action unload-truck_package5_truck3_s0
@@ -1660,14 +1468,12 @@
 			(in package5 truck3)
 		)
 		:effect (and
-			(and
-				(not (in package5 truck3))
-				(at package5 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package5 truck3))
+			(at package5 s0)
 		)
 	)
 	(:action unload-truck_package5_truck3_s1
@@ -1677,14 +1483,12 @@
 			(in package5 truck3)
 		)
 		:effect (and
-			(and
-				(not (in package5 truck3))
-				(at package5 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package5 truck3))
+			(at package5 s1)
 		)
 	)
 	(:action unload-truck_package5_truck3_s2
@@ -1694,14 +1498,12 @@
 			(in package5 truck3)
 		)
 		:effect (and
-			(and
-				(not (in package5 truck3))
-				(at package5 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package5 truck3))
+			(at package5 s2)
 		)
 	)
 	(:action unload-truck_package6_truck1_s0
@@ -1711,14 +1513,12 @@
 			(in package6 truck1)
 		)
 		:effect (and
-			(and
-				(not (in package6 truck1))
-				(at package6 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package6 truck1))
+			(at package6 s0)
 		)
 	)
 	(:action unload-truck_package6_truck1_s1
@@ -1728,14 +1528,12 @@
 			(in package6 truck1)
 		)
 		:effect (and
-			(and
-				(not (in package6 truck1))
-				(at package6 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package6 truck1))
+			(at package6 s1)
 		)
 	)
 	(:action unload-truck_package6_truck1_s2
@@ -1745,14 +1543,12 @@
 			(in package6 truck1)
 		)
 		:effect (and
-			(and
-				(not (in package6 truck1))
-				(at package6 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package6 truck1))
+			(at package6 s2)
 		)
 	)
 	(:action unload-truck_package6_truck2_s0
@@ -1762,14 +1558,12 @@
 			(in package6 truck2)
 		)
 		:effect (and
-			(and
-				(not (in package6 truck2))
-				(at package6 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package6 truck2))
+			(at package6 s0)
 		)
 	)
 	(:action unload-truck_package6_truck2_s1
@@ -1779,14 +1573,12 @@
 			(in package6 truck2)
 		)
 		:effect (and
-			(and
-				(not (in package6 truck2))
-				(at package6 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package6 truck2))
+			(at package6 s1)
 		)
 	)
 	(:action unload-truck_package6_truck2_s2
@@ -1796,14 +1588,12 @@
 			(in package6 truck2)
 		)
 		:effect (and
-			(and
-				(not (in package6 truck2))
-				(at package6 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package6 truck2))
+			(at package6 s2)
 		)
 	)
 	(:action unload-truck_package6_truck3_s0
@@ -1813,14 +1603,12 @@
 			(in package6 truck3)
 		)
 		:effect (and
-			(and
-				(not (in package6 truck3))
-				(at package6 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package6 truck3))
+			(at package6 s0)
 		)
 	)
 	(:action unload-truck_package6_truck3_s1
@@ -1830,14 +1618,12 @@
 			(in package6 truck3)
 		)
 		:effect (and
-			(and
-				(not (in package6 truck3))
-				(at package6 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package6 truck3))
+			(at package6 s1)
 		)
 	)
 	(:action unload-truck_package6_truck3_s2
@@ -1847,14 +1633,12 @@
 			(in package6 truck3)
 		)
 		:effect (and
-			(and
-				(not (in package6 truck3))
-				(at package6 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (in package6 truck3))
+			(at package6 s2)
 		)
 	)
 	(:action board-truck_driver1_truck1_s0
@@ -1865,15 +1649,13 @@
 			(empty truck1)
 		)
 		:effect (and
-			(and
-				(not (at driver1 s0))
-				(driving driver1 truck1)
-				(not (empty truck1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 s0))
+			(driving driver1 truck1)
+			(not (empty truck1))
 		)
 	)
 	(:action board-truck_driver1_truck1_s1
@@ -1884,15 +1666,13 @@
 			(empty truck1)
 		)
 		:effect (and
-			(and
-				(not (at driver1 s1))
-				(driving driver1 truck1)
-				(not (empty truck1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 s1))
+			(driving driver1 truck1)
+			(not (empty truck1))
 		)
 	)
 	(:action board-truck_driver1_truck1_s2
@@ -1903,15 +1683,13 @@
 			(empty truck1)
 		)
 		:effect (and
-			(and
-				(not (at driver1 s2))
-				(driving driver1 truck1)
-				(not (empty truck1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 s2))
+			(driving driver1 truck1)
+			(not (empty truck1))
 		)
 	)
 	(:action board-truck_driver1_truck2_s0
@@ -1922,15 +1700,13 @@
 			(empty truck2)
 		)
 		:effect (and
-			(and
-				(not (at driver1 s0))
-				(driving driver1 truck2)
-				(not (empty truck2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 s0))
+			(driving driver1 truck2)
+			(not (empty truck2))
 		)
 	)
 	(:action board-truck_driver1_truck2_s1
@@ -1941,15 +1717,13 @@
 			(empty truck2)
 		)
 		:effect (and
-			(and
-				(not (at driver1 s1))
-				(driving driver1 truck2)
-				(not (empty truck2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 s1))
+			(driving driver1 truck2)
+			(not (empty truck2))
 		)
 	)
 	(:action board-truck_driver1_truck2_s2
@@ -1960,15 +1734,13 @@
 			(empty truck2)
 		)
 		:effect (and
-			(and
-				(not (at driver1 s2))
-				(driving driver1 truck2)
-				(not (empty truck2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 s2))
+			(driving driver1 truck2)
+			(not (empty truck2))
 		)
 	)
 	(:action board-truck_driver1_truck3_s0
@@ -1979,15 +1751,13 @@
 			(empty truck3)
 		)
 		:effect (and
-			(and
-				(not (at driver1 s0))
-				(driving driver1 truck3)
-				(not (empty truck3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 s0))
+			(driving driver1 truck3)
+			(not (empty truck3))
 		)
 	)
 	(:action board-truck_driver1_truck3_s1
@@ -1998,15 +1768,13 @@
 			(empty truck3)
 		)
 		:effect (and
-			(and
-				(not (at driver1 s1))
-				(driving driver1 truck3)
-				(not (empty truck3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 s1))
+			(driving driver1 truck3)
+			(not (empty truck3))
 		)
 	)
 	(:action board-truck_driver1_truck3_s2
@@ -2017,15 +1785,13 @@
 			(empty truck3)
 		)
 		:effect (and
-			(and
-				(not (at driver1 s2))
-				(driving driver1 truck3)
-				(not (empty truck3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 s2))
+			(driving driver1 truck3)
+			(not (empty truck3))
 		)
 	)
 	(:action board-truck_driver2_truck1_s0
@@ -2036,15 +1802,13 @@
 			(empty truck1)
 		)
 		:effect (and
-			(and
-				(not (at driver2 s0))
-				(driving driver2 truck1)
-				(not (empty truck1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 s0))
+			(driving driver2 truck1)
+			(not (empty truck1))
 		)
 	)
 	(:action board-truck_driver2_truck1_s1
@@ -2055,15 +1819,13 @@
 			(empty truck1)
 		)
 		:effect (and
-			(and
-				(not (at driver2 s1))
-				(driving driver2 truck1)
-				(not (empty truck1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 s1))
+			(driving driver2 truck1)
+			(not (empty truck1))
 		)
 	)
 	(:action board-truck_driver2_truck1_s2
@@ -2074,15 +1836,13 @@
 			(empty truck1)
 		)
 		:effect (and
-			(and
-				(not (at driver2 s2))
-				(driving driver2 truck1)
-				(not (empty truck1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 s2))
+			(driving driver2 truck1)
+			(not (empty truck1))
 		)
 	)
 	(:action board-truck_driver2_truck2_s0
@@ -2093,15 +1853,13 @@
 			(empty truck2)
 		)
 		:effect (and
-			(and
-				(not (at driver2 s0))
-				(driving driver2 truck2)
-				(not (empty truck2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 s0))
+			(driving driver2 truck2)
+			(not (empty truck2))
 		)
 	)
 	(:action board-truck_driver2_truck2_s1
@@ -2112,15 +1870,13 @@
 			(empty truck2)
 		)
 		:effect (and
-			(and
-				(not (at driver2 s1))
-				(driving driver2 truck2)
-				(not (empty truck2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 s1))
+			(driving driver2 truck2)
+			(not (empty truck2))
 		)
 	)
 	(:action board-truck_driver2_truck2_s2
@@ -2131,15 +1887,13 @@
 			(empty truck2)
 		)
 		:effect (and
-			(and
-				(not (at driver2 s2))
-				(driving driver2 truck2)
-				(not (empty truck2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 s2))
+			(driving driver2 truck2)
+			(not (empty truck2))
 		)
 	)
 	(:action board-truck_driver2_truck3_s0
@@ -2150,15 +1904,13 @@
 			(empty truck3)
 		)
 		:effect (and
-			(and
-				(not (at driver2 s0))
-				(driving driver2 truck3)
-				(not (empty truck3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 s0))
+			(driving driver2 truck3)
+			(not (empty truck3))
 		)
 	)
 	(:action board-truck_driver2_truck3_s1
@@ -2169,15 +1921,13 @@
 			(empty truck3)
 		)
 		:effect (and
-			(and
-				(not (at driver2 s1))
-				(driving driver2 truck3)
-				(not (empty truck3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 s1))
+			(driving driver2 truck3)
+			(not (empty truck3))
 		)
 	)
 	(:action board-truck_driver2_truck3_s2
@@ -2188,15 +1938,13 @@
 			(empty truck3)
 		)
 		:effect (and
-			(and
-				(not (at driver2 s2))
-				(driving driver2 truck3)
-				(not (empty truck3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 s2))
+			(driving driver2 truck3)
+			(not (empty truck3))
 		)
 	)
 	(:action board-truck_driver3_truck1_s0
@@ -2207,15 +1955,13 @@
 			(empty truck1)
 		)
 		:effect (and
-			(and
-				(not (at driver3 s0))
-				(driving driver3 truck1)
-				(not (empty truck1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 s0))
+			(driving driver3 truck1)
+			(not (empty truck1))
 		)
 	)
 	(:action board-truck_driver3_truck1_s1
@@ -2226,15 +1972,13 @@
 			(empty truck1)
 		)
 		:effect (and
-			(and
-				(not (at driver3 s1))
-				(driving driver3 truck1)
-				(not (empty truck1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 s1))
+			(driving driver3 truck1)
+			(not (empty truck1))
 		)
 	)
 	(:action board-truck_driver3_truck1_s2
@@ -2245,15 +1989,13 @@
 			(empty truck1)
 		)
 		:effect (and
-			(and
-				(not (at driver3 s2))
-				(driving driver3 truck1)
-				(not (empty truck1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 s2))
+			(driving driver3 truck1)
+			(not (empty truck1))
 		)
 	)
 	(:action board-truck_driver3_truck2_s0
@@ -2264,15 +2006,13 @@
 			(empty truck2)
 		)
 		:effect (and
-			(and
-				(not (at driver3 s0))
-				(driving driver3 truck2)
-				(not (empty truck2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 s0))
+			(driving driver3 truck2)
+			(not (empty truck2))
 		)
 	)
 	(:action board-truck_driver3_truck2_s1
@@ -2283,15 +2023,13 @@
 			(empty truck2)
 		)
 		:effect (and
-			(and
-				(not (at driver3 s1))
-				(driving driver3 truck2)
-				(not (empty truck2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 s1))
+			(driving driver3 truck2)
+			(not (empty truck2))
 		)
 	)
 	(:action board-truck_driver3_truck2_s2
@@ -2302,15 +2040,13 @@
 			(empty truck2)
 		)
 		:effect (and
-			(and
-				(not (at driver3 s2))
-				(driving driver3 truck2)
-				(not (empty truck2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 s2))
+			(driving driver3 truck2)
+			(not (empty truck2))
 		)
 	)
 	(:action board-truck_driver3_truck3_s0
@@ -2321,15 +2057,13 @@
 			(empty truck3)
 		)
 		:effect (and
-			(and
-				(not (at driver3 s0))
-				(driving driver3 truck3)
-				(not (empty truck3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 s0))
+			(driving driver3 truck3)
+			(not (empty truck3))
 		)
 	)
 	(:action board-truck_driver3_truck3_s1
@@ -2340,15 +2074,13 @@
 			(empty truck3)
 		)
 		:effect (and
-			(and
-				(not (at driver3 s1))
-				(driving driver3 truck3)
-				(not (empty truck3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 s1))
+			(driving driver3 truck3)
+			(not (empty truck3))
 		)
 	)
 	(:action board-truck_driver3_truck3_s2
@@ -2359,15 +2091,13 @@
 			(empty truck3)
 		)
 		:effect (and
-			(and
-				(not (at driver3 s2))
-				(driving driver3 truck3)
-				(not (empty truck3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 s2))
+			(driving driver3 truck3)
+			(not (empty truck3))
 		)
 	)
 	(:action disembark-truck_driver1_truck1_s0
@@ -2377,15 +2107,13 @@
 			(driving driver1 truck1)
 		)
 		:effect (and
-			(and
-				(not (driving driver1 truck1))
-				(at driver1 s0)
-				(empty truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver1 truck1))
+			(at driver1 s0)
+			(empty truck1)
 		)
 	)
 	(:action disembark-truck_driver1_truck1_s1
@@ -2395,15 +2123,13 @@
 			(driving driver1 truck1)
 		)
 		:effect (and
-			(and
-				(not (driving driver1 truck1))
-				(at driver1 s1)
-				(empty truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver1 truck1))
+			(at driver1 s1)
+			(empty truck1)
 		)
 	)
 	(:action disembark-truck_driver1_truck1_s2
@@ -2413,15 +2139,13 @@
 			(driving driver1 truck1)
 		)
 		:effect (and
-			(and
-				(not (driving driver1 truck1))
-				(at driver1 s2)
-				(empty truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver1 truck1))
+			(at driver1 s2)
+			(empty truck1)
 		)
 	)
 	(:action disembark-truck_driver1_truck2_s0
@@ -2431,15 +2155,13 @@
 			(driving driver1 truck2)
 		)
 		:effect (and
-			(and
-				(not (driving driver1 truck2))
-				(at driver1 s0)
-				(empty truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver1 truck2))
+			(at driver1 s0)
+			(empty truck2)
 		)
 	)
 	(:action disembark-truck_driver1_truck2_s1
@@ -2449,15 +2171,13 @@
 			(driving driver1 truck2)
 		)
 		:effect (and
-			(and
-				(not (driving driver1 truck2))
-				(at driver1 s1)
-				(empty truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver1 truck2))
+			(at driver1 s1)
+			(empty truck2)
 		)
 	)
 	(:action disembark-truck_driver1_truck2_s2
@@ -2467,15 +2187,13 @@
 			(driving driver1 truck2)
 		)
 		:effect (and
-			(and
-				(not (driving driver1 truck2))
-				(at driver1 s2)
-				(empty truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver1 truck2))
+			(at driver1 s2)
+			(empty truck2)
 		)
 	)
 	(:action disembark-truck_driver1_truck3_s0
@@ -2485,15 +2203,13 @@
 			(driving driver1 truck3)
 		)
 		:effect (and
-			(and
-				(not (driving driver1 truck3))
-				(at driver1 s0)
-				(empty truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver1 truck3))
+			(at driver1 s0)
+			(empty truck3)
 		)
 	)
 	(:action disembark-truck_driver1_truck3_s1
@@ -2503,15 +2219,13 @@
 			(driving driver1 truck3)
 		)
 		:effect (and
-			(and
-				(not (driving driver1 truck3))
-				(at driver1 s1)
-				(empty truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver1 truck3))
+			(at driver1 s1)
+			(empty truck3)
 		)
 	)
 	(:action disembark-truck_driver1_truck3_s2
@@ -2521,15 +2235,13 @@
 			(driving driver1 truck3)
 		)
 		:effect (and
-			(and
-				(not (driving driver1 truck3))
-				(at driver1 s2)
-				(empty truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver1 truck3))
+			(at driver1 s2)
+			(empty truck3)
 		)
 	)
 	(:action disembark-truck_driver2_truck1_s0
@@ -2539,15 +2251,13 @@
 			(driving driver2 truck1)
 		)
 		:effect (and
-			(and
-				(not (driving driver2 truck1))
-				(at driver2 s0)
-				(empty truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver2 truck1))
+			(at driver2 s0)
+			(empty truck1)
 		)
 	)
 	(:action disembark-truck_driver2_truck1_s1
@@ -2557,15 +2267,13 @@
 			(driving driver2 truck1)
 		)
 		:effect (and
-			(and
-				(not (driving driver2 truck1))
-				(at driver2 s1)
-				(empty truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver2 truck1))
+			(at driver2 s1)
+			(empty truck1)
 		)
 	)
 	(:action disembark-truck_driver2_truck1_s2
@@ -2575,15 +2283,13 @@
 			(driving driver2 truck1)
 		)
 		:effect (and
-			(and
-				(not (driving driver2 truck1))
-				(at driver2 s2)
-				(empty truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver2 truck1))
+			(at driver2 s2)
+			(empty truck1)
 		)
 	)
 	(:action disembark-truck_driver2_truck2_s0
@@ -2593,15 +2299,13 @@
 			(driving driver2 truck2)
 		)
 		:effect (and
-			(and
-				(not (driving driver2 truck2))
-				(at driver2 s0)
-				(empty truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver2 truck2))
+			(at driver2 s0)
+			(empty truck2)
 		)
 	)
 	(:action disembark-truck_driver2_truck2_s1
@@ -2611,15 +2315,13 @@
 			(driving driver2 truck2)
 		)
 		:effect (and
-			(and
-				(not (driving driver2 truck2))
-				(at driver2 s1)
-				(empty truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver2 truck2))
+			(at driver2 s1)
+			(empty truck2)
 		)
 	)
 	(:action disembark-truck_driver2_truck2_s2
@@ -2629,15 +2331,13 @@
 			(driving driver2 truck2)
 		)
 		:effect (and
-			(and
-				(not (driving driver2 truck2))
-				(at driver2 s2)
-				(empty truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver2 truck2))
+			(at driver2 s2)
+			(empty truck2)
 		)
 	)
 	(:action disembark-truck_driver2_truck3_s0
@@ -2647,15 +2347,13 @@
 			(driving driver2 truck3)
 		)
 		:effect (and
-			(and
-				(not (driving driver2 truck3))
-				(at driver2 s0)
-				(empty truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver2 truck3))
+			(at driver2 s0)
+			(empty truck3)
 		)
 	)
 	(:action disembark-truck_driver2_truck3_s1
@@ -2665,15 +2363,13 @@
 			(driving driver2 truck3)
 		)
 		:effect (and
-			(and
-				(not (driving driver2 truck3))
-				(at driver2 s1)
-				(empty truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver2 truck3))
+			(at driver2 s1)
+			(empty truck3)
 		)
 	)
 	(:action disembark-truck_driver2_truck3_s2
@@ -2683,15 +2379,13 @@
 			(driving driver2 truck3)
 		)
 		:effect (and
-			(and
-				(not (driving driver2 truck3))
-				(at driver2 s2)
-				(empty truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver2 truck3))
+			(at driver2 s2)
+			(empty truck3)
 		)
 	)
 	(:action disembark-truck_driver3_truck1_s0
@@ -2701,15 +2395,13 @@
 			(driving driver3 truck1)
 		)
 		:effect (and
-			(and
-				(not (driving driver3 truck1))
-				(at driver3 s0)
-				(empty truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver3 truck1))
+			(at driver3 s0)
+			(empty truck1)
 		)
 	)
 	(:action disembark-truck_driver3_truck1_s1
@@ -2719,15 +2411,13 @@
 			(driving driver3 truck1)
 		)
 		:effect (and
-			(and
-				(not (driving driver3 truck1))
-				(at driver3 s1)
-				(empty truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver3 truck1))
+			(at driver3 s1)
+			(empty truck1)
 		)
 	)
 	(:action disembark-truck_driver3_truck1_s2
@@ -2737,15 +2427,13 @@
 			(driving driver3 truck1)
 		)
 		:effect (and
-			(and
-				(not (driving driver3 truck1))
-				(at driver3 s2)
-				(empty truck1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver3 truck1))
+			(at driver3 s2)
+			(empty truck1)
 		)
 	)
 	(:action disembark-truck_driver3_truck2_s0
@@ -2755,15 +2443,13 @@
 			(driving driver3 truck2)
 		)
 		:effect (and
-			(and
-				(not (driving driver3 truck2))
-				(at driver3 s0)
-				(empty truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver3 truck2))
+			(at driver3 s0)
+			(empty truck2)
 		)
 	)
 	(:action disembark-truck_driver3_truck2_s1
@@ -2773,15 +2459,13 @@
 			(driving driver3 truck2)
 		)
 		:effect (and
-			(and
-				(not (driving driver3 truck2))
-				(at driver3 s1)
-				(empty truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver3 truck2))
+			(at driver3 s1)
+			(empty truck2)
 		)
 	)
 	(:action disembark-truck_driver3_truck2_s2
@@ -2791,15 +2475,13 @@
 			(driving driver3 truck2)
 		)
 		:effect (and
-			(and
-				(not (driving driver3 truck2))
-				(at driver3 s2)
-				(empty truck2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver3 truck2))
+			(at driver3 s2)
+			(empty truck2)
 		)
 	)
 	(:action disembark-truck_driver3_truck3_s0
@@ -2809,15 +2491,13 @@
 			(driving driver3 truck3)
 		)
 		:effect (and
-			(and
-				(not (driving driver3 truck3))
-				(at driver3 s0)
-				(empty truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver3 truck3))
+			(at driver3 s0)
+			(empty truck3)
 		)
 	)
 	(:action disembark-truck_driver3_truck3_s1
@@ -2827,15 +2507,13 @@
 			(driving driver3 truck3)
 		)
 		:effect (and
-			(and
-				(not (driving driver3 truck3))
-				(at driver3 s1)
-				(empty truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver3 truck3))
+			(at driver3 s1)
+			(empty truck3)
 		)
 	)
 	(:action disembark-truck_driver3_truck3_s2
@@ -2845,15 +2523,13 @@
 			(driving driver3 truck3)
 		)
 		:effect (and
-			(and
-				(not (driving driver3 truck3))
-				(at driver3 s2)
-				(empty truck3)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (driving driver3 truck3))
+			(at driver3 s2)
+			(empty truck3)
 		)
 	)
 	(:action drive-truck_truck1_s0_s1_driver1
@@ -2863,14 +2539,12 @@
 			(driving driver1 truck1)
 		)
 		:effect (and
-			(and
-				(not (at truck1 s0))
-				(at truck1 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 s0))
+			(at truck1 s1)
 		)
 	)
 	(:action drive-truck_truck1_s0_s1_driver2
@@ -2880,14 +2554,12 @@
 			(driving driver2 truck1)
 		)
 		:effect (and
-			(and
-				(not (at truck1 s0))
-				(at truck1 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 s0))
+			(at truck1 s1)
 		)
 	)
 	(:action drive-truck_truck1_s0_s1_driver3
@@ -2897,14 +2569,12 @@
 			(driving driver3 truck1)
 		)
 		:effect (and
-			(and
-				(not (at truck1 s0))
-				(at truck1 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 s0))
+			(at truck1 s1)
 		)
 	)
 	(:action drive-truck_truck1_s0_s2_driver1
@@ -2914,14 +2584,12 @@
 			(driving driver1 truck1)
 		)
 		:effect (and
-			(and
-				(not (at truck1 s0))
-				(at truck1 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 s0))
+			(at truck1 s2)
 		)
 	)
 	(:action drive-truck_truck1_s0_s2_driver2
@@ -2931,14 +2599,12 @@
 			(driving driver2 truck1)
 		)
 		:effect (and
-			(and
-				(not (at truck1 s0))
-				(at truck1 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 s0))
+			(at truck1 s2)
 		)
 	)
 	(:action drive-truck_truck1_s0_s2_driver3
@@ -2948,14 +2614,12 @@
 			(driving driver3 truck1)
 		)
 		:effect (and
-			(and
-				(not (at truck1 s0))
-				(at truck1 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 s0))
+			(at truck1 s2)
 		)
 	)
 	(:action drive-truck_truck1_s1_s0_driver1
@@ -2965,14 +2629,12 @@
 			(driving driver1 truck1)
 		)
 		:effect (and
-			(and
-				(not (at truck1 s1))
-				(at truck1 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 s1))
+			(at truck1 s0)
 		)
 	)
 	(:action drive-truck_truck1_s1_s0_driver2
@@ -2982,14 +2644,12 @@
 			(driving driver2 truck1)
 		)
 		:effect (and
-			(and
-				(not (at truck1 s1))
-				(at truck1 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 s1))
+			(at truck1 s0)
 		)
 	)
 	(:action drive-truck_truck1_s1_s0_driver3
@@ -2999,14 +2659,12 @@
 			(driving driver3 truck1)
 		)
 		:effect (and
-			(and
-				(not (at truck1 s1))
-				(at truck1 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 s1))
+			(at truck1 s0)
 		)
 	)
 	(:action drive-truck_truck1_s1_s2_driver1
@@ -3016,14 +2674,12 @@
 			(driving driver1 truck1)
 		)
 		:effect (and
-			(and
-				(not (at truck1 s1))
-				(at truck1 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 s1))
+			(at truck1 s2)
 		)
 	)
 	(:action drive-truck_truck1_s1_s2_driver2
@@ -3033,14 +2689,12 @@
 			(driving driver2 truck1)
 		)
 		:effect (and
-			(and
-				(not (at truck1 s1))
-				(at truck1 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 s1))
+			(at truck1 s2)
 		)
 	)
 	(:action drive-truck_truck1_s1_s2_driver3
@@ -3050,14 +2704,12 @@
 			(driving driver3 truck1)
 		)
 		:effect (and
-			(and
-				(not (at truck1 s1))
-				(at truck1 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 s1))
+			(at truck1 s2)
 		)
 	)
 	(:action drive-truck_truck1_s2_s0_driver1
@@ -3067,14 +2719,12 @@
 			(driving driver1 truck1)
 		)
 		:effect (and
-			(and
-				(not (at truck1 s2))
-				(at truck1 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 s2))
+			(at truck1 s0)
 		)
 	)
 	(:action drive-truck_truck1_s2_s0_driver2
@@ -3084,14 +2734,12 @@
 			(driving driver2 truck1)
 		)
 		:effect (and
-			(and
-				(not (at truck1 s2))
-				(at truck1 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 s2))
+			(at truck1 s0)
 		)
 	)
 	(:action drive-truck_truck1_s2_s0_driver3
@@ -3101,14 +2749,12 @@
 			(driving driver3 truck1)
 		)
 		:effect (and
-			(and
-				(not (at truck1 s2))
-				(at truck1 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 s2))
+			(at truck1 s0)
 		)
 	)
 	(:action drive-truck_truck1_s2_s1_driver1
@@ -3118,14 +2764,12 @@
 			(driving driver1 truck1)
 		)
 		:effect (and
-			(and
-				(not (at truck1 s2))
-				(at truck1 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 s2))
+			(at truck1 s1)
 		)
 	)
 	(:action drive-truck_truck1_s2_s1_driver2
@@ -3135,14 +2779,12 @@
 			(driving driver2 truck1)
 		)
 		:effect (and
-			(and
-				(not (at truck1 s2))
-				(at truck1 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 s2))
+			(at truck1 s1)
 		)
 	)
 	(:action drive-truck_truck1_s2_s1_driver3
@@ -3152,14 +2794,12 @@
 			(driving driver3 truck1)
 		)
 		:effect (and
-			(and
-				(not (at truck1 s2))
-				(at truck1 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck1 s2))
+			(at truck1 s1)
 		)
 	)
 	(:action drive-truck_truck2_s0_s1_driver1
@@ -3169,14 +2809,12 @@
 			(driving driver1 truck2)
 		)
 		:effect (and
-			(and
-				(not (at truck2 s0))
-				(at truck2 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck2 s0))
+			(at truck2 s1)
 		)
 	)
 	(:action drive-truck_truck2_s0_s1_driver2
@@ -3186,14 +2824,12 @@
 			(driving driver2 truck2)
 		)
 		:effect (and
-			(and
-				(not (at truck2 s0))
-				(at truck2 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck2 s0))
+			(at truck2 s1)
 		)
 	)
 	(:action drive-truck_truck2_s0_s1_driver3
@@ -3203,14 +2839,12 @@
 			(driving driver3 truck2)
 		)
 		:effect (and
-			(and
-				(not (at truck2 s0))
-				(at truck2 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck2 s0))
+			(at truck2 s1)
 		)
 	)
 	(:action drive-truck_truck2_s0_s2_driver1
@@ -3220,14 +2854,12 @@
 			(driving driver1 truck2)
 		)
 		:effect (and
-			(and
-				(not (at truck2 s0))
-				(at truck2 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck2 s0))
+			(at truck2 s2)
 		)
 	)
 	(:action drive-truck_truck2_s0_s2_driver2
@@ -3237,14 +2869,12 @@
 			(driving driver2 truck2)
 		)
 		:effect (and
-			(and
-				(not (at truck2 s0))
-				(at truck2 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck2 s0))
+			(at truck2 s2)
 		)
 	)
 	(:action drive-truck_truck2_s0_s2_driver3
@@ -3254,14 +2884,12 @@
 			(driving driver3 truck2)
 		)
 		:effect (and
-			(and
-				(not (at truck2 s0))
-				(at truck2 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck2 s0))
+			(at truck2 s2)
 		)
 	)
 	(:action drive-truck_truck2_s1_s0_driver1
@@ -3271,14 +2899,12 @@
 			(driving driver1 truck2)
 		)
 		:effect (and
-			(and
-				(not (at truck2 s1))
-				(at truck2 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck2 s1))
+			(at truck2 s0)
 		)
 	)
 	(:action drive-truck_truck2_s1_s0_driver2
@@ -3288,14 +2914,12 @@
 			(driving driver2 truck2)
 		)
 		:effect (and
-			(and
-				(not (at truck2 s1))
-				(at truck2 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck2 s1))
+			(at truck2 s0)
 		)
 	)
 	(:action drive-truck_truck2_s1_s0_driver3
@@ -3305,14 +2929,12 @@
 			(driving driver3 truck2)
 		)
 		:effect (and
-			(and
-				(not (at truck2 s1))
-				(at truck2 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck2 s1))
+			(at truck2 s0)
 		)
 	)
 	(:action drive-truck_truck2_s1_s2_driver1
@@ -3322,14 +2944,12 @@
 			(driving driver1 truck2)
 		)
 		:effect (and
-			(and
-				(not (at truck2 s1))
-				(at truck2 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck2 s1))
+			(at truck2 s2)
 		)
 	)
 	(:action drive-truck_truck2_s1_s2_driver2
@@ -3339,14 +2959,12 @@
 			(driving driver2 truck2)
 		)
 		:effect (and
-			(and
-				(not (at truck2 s1))
-				(at truck2 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck2 s1))
+			(at truck2 s2)
 		)
 	)
 	(:action drive-truck_truck2_s1_s2_driver3
@@ -3356,14 +2974,12 @@
 			(driving driver3 truck2)
 		)
 		:effect (and
-			(and
-				(not (at truck2 s1))
-				(at truck2 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck2 s1))
+			(at truck2 s2)
 		)
 	)
 	(:action drive-truck_truck2_s2_s0_driver1
@@ -3373,14 +2989,12 @@
 			(driving driver1 truck2)
 		)
 		:effect (and
-			(and
-				(not (at truck2 s2))
-				(at truck2 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck2 s2))
+			(at truck2 s0)
 		)
 	)
 	(:action drive-truck_truck2_s2_s0_driver2
@@ -3390,14 +3004,12 @@
 			(driving driver2 truck2)
 		)
 		:effect (and
-			(and
-				(not (at truck2 s2))
-				(at truck2 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck2 s2))
+			(at truck2 s0)
 		)
 	)
 	(:action drive-truck_truck2_s2_s0_driver3
@@ -3407,14 +3019,12 @@
 			(driving driver3 truck2)
 		)
 		:effect (and
-			(and
-				(not (at truck2 s2))
-				(at truck2 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck2 s2))
+			(at truck2 s0)
 		)
 	)
 	(:action drive-truck_truck2_s2_s1_driver1
@@ -3424,14 +3034,12 @@
 			(driving driver1 truck2)
 		)
 		:effect (and
-			(and
-				(not (at truck2 s2))
-				(at truck2 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck2 s2))
+			(at truck2 s1)
 		)
 	)
 	(:action drive-truck_truck2_s2_s1_driver2
@@ -3441,14 +3049,12 @@
 			(driving driver2 truck2)
 		)
 		:effect (and
-			(and
-				(not (at truck2 s2))
-				(at truck2 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck2 s2))
+			(at truck2 s1)
 		)
 	)
 	(:action drive-truck_truck2_s2_s1_driver3
@@ -3458,14 +3064,12 @@
 			(driving driver3 truck2)
 		)
 		:effect (and
-			(and
-				(not (at truck2 s2))
-				(at truck2 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck2 s2))
+			(at truck2 s1)
 		)
 	)
 	(:action drive-truck_truck3_s0_s1_driver1
@@ -3475,14 +3079,12 @@
 			(driving driver1 truck3)
 		)
 		:effect (and
-			(and
-				(not (at truck3 s0))
-				(at truck3 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck3 s0))
+			(at truck3 s1)
 		)
 	)
 	(:action drive-truck_truck3_s0_s1_driver2
@@ -3492,14 +3094,12 @@
 			(driving driver2 truck3)
 		)
 		:effect (and
-			(and
-				(not (at truck3 s0))
-				(at truck3 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck3 s0))
+			(at truck3 s1)
 		)
 	)
 	(:action drive-truck_truck3_s0_s1_driver3
@@ -3509,14 +3109,12 @@
 			(driving driver3 truck3)
 		)
 		:effect (and
-			(and
-				(not (at truck3 s0))
-				(at truck3 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck3 s0))
+			(at truck3 s1)
 		)
 	)
 	(:action drive-truck_truck3_s0_s2_driver1
@@ -3526,14 +3124,12 @@
 			(driving driver1 truck3)
 		)
 		:effect (and
-			(and
-				(not (at truck3 s0))
-				(at truck3 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck3 s0))
+			(at truck3 s2)
 		)
 	)
 	(:action drive-truck_truck3_s0_s2_driver2
@@ -3543,14 +3139,12 @@
 			(driving driver2 truck3)
 		)
 		:effect (and
-			(and
-				(not (at truck3 s0))
-				(at truck3 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck3 s0))
+			(at truck3 s2)
 		)
 	)
 	(:action drive-truck_truck3_s0_s2_driver3
@@ -3560,14 +3154,12 @@
 			(driving driver3 truck3)
 		)
 		:effect (and
-			(and
-				(not (at truck3 s0))
-				(at truck3 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck3 s0))
+			(at truck3 s2)
 		)
 	)
 	(:action drive-truck_truck3_s1_s0_driver1
@@ -3577,14 +3169,12 @@
 			(driving driver1 truck3)
 		)
 		:effect (and
-			(and
-				(not (at truck3 s1))
-				(at truck3 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck3 s1))
+			(at truck3 s0)
 		)
 	)
 	(:action drive-truck_truck3_s1_s0_driver2
@@ -3594,14 +3184,12 @@
 			(driving driver2 truck3)
 		)
 		:effect (and
-			(and
-				(not (at truck3 s1))
-				(at truck3 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck3 s1))
+			(at truck3 s0)
 		)
 	)
 	(:action drive-truck_truck3_s1_s0_driver3
@@ -3611,14 +3199,12 @@
 			(driving driver3 truck3)
 		)
 		:effect (and
-			(and
-				(not (at truck3 s1))
-				(at truck3 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck3 s1))
+			(at truck3 s0)
 		)
 	)
 	(:action drive-truck_truck3_s1_s2_driver1
@@ -3628,14 +3214,12 @@
 			(driving driver1 truck3)
 		)
 		:effect (and
-			(and
-				(not (at truck3 s1))
-				(at truck3 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck3 s1))
+			(at truck3 s2)
 		)
 	)
 	(:action drive-truck_truck3_s1_s2_driver2
@@ -3645,14 +3229,12 @@
 			(driving driver2 truck3)
 		)
 		:effect (and
-			(and
-				(not (at truck3 s1))
-				(at truck3 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck3 s1))
+			(at truck3 s2)
 		)
 	)
 	(:action drive-truck_truck3_s1_s2_driver3
@@ -3662,14 +3244,12 @@
 			(driving driver3 truck3)
 		)
 		:effect (and
-			(and
-				(not (at truck3 s1))
-				(at truck3 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck3 s1))
+			(at truck3 s2)
 		)
 	)
 	(:action drive-truck_truck3_s2_s0_driver1
@@ -3679,14 +3259,12 @@
 			(driving driver1 truck3)
 		)
 		:effect (and
-			(and
-				(not (at truck3 s2))
-				(at truck3 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck3 s2))
+			(at truck3 s0)
 		)
 	)
 	(:action drive-truck_truck3_s2_s0_driver2
@@ -3696,14 +3274,12 @@
 			(driving driver2 truck3)
 		)
 		:effect (and
-			(and
-				(not (at truck3 s2))
-				(at truck3 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck3 s2))
+			(at truck3 s0)
 		)
 	)
 	(:action drive-truck_truck3_s2_s0_driver3
@@ -3713,14 +3289,12 @@
 			(driving driver3 truck3)
 		)
 		:effect (and
-			(and
-				(not (at truck3 s2))
-				(at truck3 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck3 s2))
+			(at truck3 s0)
 		)
 	)
 	(:action drive-truck_truck3_s2_s1_driver1
@@ -3730,14 +3304,12 @@
 			(driving driver1 truck3)
 		)
 		:effect (and
-			(and
-				(not (at truck3 s2))
-				(at truck3 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck3 s2))
+			(at truck3 s1)
 		)
 	)
 	(:action drive-truck_truck3_s2_s1_driver2
@@ -3747,14 +3319,12 @@
 			(driving driver2 truck3)
 		)
 		:effect (and
-			(and
-				(not (at truck3 s2))
-				(at truck3 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck3 s2))
+			(at truck3 s1)
 		)
 	)
 	(:action drive-truck_truck3_s2_s1_driver3
@@ -3764,518 +3334,444 @@
 			(driving driver3 truck3)
 		)
 		:effect (and
-			(and
-				(not (at truck3 s2))
-				(at truck3 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at truck3 s2))
+			(at truck3 s1)
 		)
 	)
 	(:action walk_driver1_p0-1_s0
 		:parameters ()
 		:precondition (at driver1 p0-1)
 		:effect (and
-			(and
-				(not (at driver1 p0-1))
-				(at driver1 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 p0-1))
+			(at driver1 s0)
 		)
 	)
 	(:action walk_driver1_p0-1_s1
 		:parameters ()
 		:precondition (at driver1 p0-1)
 		:effect (and
-			(and
-				(not (at driver1 p0-1))
-				(at driver1 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 p0-1))
+			(at driver1 s1)
 		)
 	)
 	(:action walk_driver1_p0-2_s0
 		:parameters ()
 		:precondition (at driver1 p0-2)
 		:effect (and
-			(and
-				(not (at driver1 p0-2))
-				(at driver1 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 p0-2))
+			(at driver1 s0)
 		)
 	)
 	(:action walk_driver1_p0-2_s2
 		:parameters ()
 		:precondition (at driver1 p0-2)
 		:effect (and
-			(and
-				(not (at driver1 p0-2))
-				(at driver1 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 p0-2))
+			(at driver1 s2)
 		)
 	)
 	(:action walk_driver1_p2-1_s1
 		:parameters ()
 		:precondition (at driver1 p2-1)
 		:effect (and
-			(and
-				(not (at driver1 p2-1))
-				(at driver1 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 p2-1))
+			(at driver1 s1)
 		)
 	)
 	(:action walk_driver1_p2-1_s2
 		:parameters ()
 		:precondition (at driver1 p2-1)
 		:effect (and
-			(and
-				(not (at driver1 p2-1))
-				(at driver1 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 p2-1))
+			(at driver1 s2)
 		)
 	)
 	(:action walk_driver1_s0_p0-1
 		:parameters ()
 		:precondition (at driver1 s0)
 		:effect (and
-			(and
-				(not (at driver1 s0))
-				(at driver1 p0-1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 s0))
+			(at driver1 p0-1)
 		)
 	)
 	(:action walk_driver1_s0_p0-2
 		:parameters ()
 		:precondition (at driver1 s0)
 		:effect (and
-			(and
-				(not (at driver1 s0))
-				(at driver1 p0-2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 s0))
+			(at driver1 p0-2)
 		)
 	)
 	(:action walk_driver1_s1_p0-1
 		:parameters ()
 		:precondition (at driver1 s1)
 		:effect (and
-			(and
-				(not (at driver1 s1))
-				(at driver1 p0-1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 s1))
+			(at driver1 p0-1)
 		)
 	)
 	(:action walk_driver1_s1_p2-1
 		:parameters ()
 		:precondition (at driver1 s1)
 		:effect (and
-			(and
-				(not (at driver1 s1))
-				(at driver1 p2-1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 s1))
+			(at driver1 p2-1)
 		)
 	)
 	(:action walk_driver1_s2_p0-2
 		:parameters ()
 		:precondition (at driver1 s2)
 		:effect (and
-			(and
-				(not (at driver1 s2))
-				(at driver1 p0-2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 s2))
+			(at driver1 p0-2)
 		)
 	)
 	(:action walk_driver1_s2_p2-1
 		:parameters ()
 		:precondition (at driver1 s2)
 		:effect (and
-			(and
-				(not (at driver1 s2))
-				(at driver1 p2-1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver1 s2))
+			(at driver1 p2-1)
 		)
 	)
 	(:action walk_driver2_p0-1_s0
 		:parameters ()
 		:precondition (at driver2 p0-1)
 		:effect (and
-			(and
-				(not (at driver2 p0-1))
-				(at driver2 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 p0-1))
+			(at driver2 s0)
 		)
 	)
 	(:action walk_driver2_p0-1_s1
 		:parameters ()
 		:precondition (at driver2 p0-1)
 		:effect (and
-			(and
-				(not (at driver2 p0-1))
-				(at driver2 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 p0-1))
+			(at driver2 s1)
 		)
 	)
 	(:action walk_driver2_p0-2_s0
 		:parameters ()
 		:precondition (at driver2 p0-2)
 		:effect (and
-			(and
-				(not (at driver2 p0-2))
-				(at driver2 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 p0-2))
+			(at driver2 s0)
 		)
 	)
 	(:action walk_driver2_p0-2_s2
 		:parameters ()
 		:precondition (at driver2 p0-2)
 		:effect (and
-			(and
-				(not (at driver2 p0-2))
-				(at driver2 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 p0-2))
+			(at driver2 s2)
 		)
 	)
 	(:action walk_driver2_p2-1_s1
 		:parameters ()
 		:precondition (at driver2 p2-1)
 		:effect (and
-			(and
-				(not (at driver2 p2-1))
-				(at driver2 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 p2-1))
+			(at driver2 s1)
 		)
 	)
 	(:action walk_driver2_p2-1_s2
 		:parameters ()
 		:precondition (at driver2 p2-1)
 		:effect (and
-			(and
-				(not (at driver2 p2-1))
-				(at driver2 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 p2-1))
+			(at driver2 s2)
 		)
 	)
 	(:action walk_driver2_s0_p0-1
 		:parameters ()
 		:precondition (at driver2 s0)
 		:effect (and
-			(and
-				(not (at driver2 s0))
-				(at driver2 p0-1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 s0))
+			(at driver2 p0-1)
 		)
 	)
 	(:action walk_driver2_s0_p0-2
 		:parameters ()
 		:precondition (at driver2 s0)
 		:effect (and
-			(and
-				(not (at driver2 s0))
-				(at driver2 p0-2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 s0))
+			(at driver2 p0-2)
 		)
 	)
 	(:action walk_driver2_s1_p0-1
 		:parameters ()
 		:precondition (at driver2 s1)
 		:effect (and
-			(and
-				(not (at driver2 s1))
-				(at driver2 p0-1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 s1))
+			(at driver2 p0-1)
 		)
 	)
 	(:action walk_driver2_s1_p2-1
 		:parameters ()
 		:precondition (at driver2 s1)
 		:effect (and
-			(and
-				(not (at driver2 s1))
-				(at driver2 p2-1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 s1))
+			(at driver2 p2-1)
 		)
 	)
 	(:action walk_driver2_s2_p0-2
 		:parameters ()
 		:precondition (at driver2 s2)
 		:effect (and
-			(and
-				(not (at driver2 s2))
-				(at driver2 p0-2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 s2))
+			(at driver2 p0-2)
 		)
 	)
 	(:action walk_driver2_s2_p2-1
 		:parameters ()
 		:precondition (at driver2 s2)
 		:effect (and
-			(and
-				(not (at driver2 s2))
-				(at driver2 p2-1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver2 s2))
+			(at driver2 p2-1)
 		)
 	)
 	(:action walk_driver3_p0-1_s0
 		:parameters ()
 		:precondition (at driver3 p0-1)
 		:effect (and
-			(and
-				(not (at driver3 p0-1))
-				(at driver3 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 p0-1))
+			(at driver3 s0)
 		)
 	)
 	(:action walk_driver3_p0-1_s1
 		:parameters ()
 		:precondition (at driver3 p0-1)
 		:effect (and
-			(and
-				(not (at driver3 p0-1))
-				(at driver3 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 p0-1))
+			(at driver3 s1)
 		)
 	)
 	(:action walk_driver3_p0-2_s0
 		:parameters ()
 		:precondition (at driver3 p0-2)
 		:effect (and
-			(and
-				(not (at driver3 p0-2))
-				(at driver3 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 p0-2))
+			(at driver3 s0)
 		)
 	)
 	(:action walk_driver3_p0-2_s2
 		:parameters ()
 		:precondition (at driver3 p0-2)
 		:effect (and
-			(and
-				(not (at driver3 p0-2))
-				(at driver3 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 p0-2))
+			(at driver3 s2)
 		)
 	)
 	(:action walk_driver3_p2-1_s1
 		:parameters ()
 		:precondition (at driver3 p2-1)
 		:effect (and
-			(and
-				(not (at driver3 p2-1))
-				(at driver3 s1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 p2-1))
+			(at driver3 s1)
 		)
 	)
 	(:action walk_driver3_p2-1_s2
 		:parameters ()
 		:precondition (at driver3 p2-1)
 		:effect (and
-			(and
-				(not (at driver3 p2-1))
-				(at driver3 s2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 p2-1))
+			(at driver3 s2)
 		)
 	)
 	(:action walk_driver3_s0_p0-1
 		:parameters ()
 		:precondition (at driver3 s0)
 		:effect (and
-			(and
-				(not (at driver3 s0))
-				(at driver3 p0-1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 s0))
+			(at driver3 p0-1)
 		)
 	)
 	(:action walk_driver3_s0_p0-2
 		:parameters ()
 		:precondition (at driver3 s0)
 		:effect (and
-			(and
-				(not (at driver3 s0))
-				(at driver3 p0-2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 s0))
+			(at driver3 p0-2)
 		)
 	)
 	(:action walk_driver3_s1_p0-1
 		:parameters ()
 		:precondition (at driver3 s1)
 		:effect (and
-			(and
-				(not (at driver3 s1))
-				(at driver3 p0-1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 s1))
+			(at driver3 p0-1)
 		)
 	)
 	(:action walk_driver3_s1_p2-1
 		:parameters ()
 		:precondition (at driver3 s1)
 		:effect (and
-			(and
-				(not (at driver3 s1))
-				(at driver3 p2-1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 s1))
+			(at driver3 p2-1)
 		)
 	)
 	(:action walk_driver3_s2_p0-2
 		:parameters ()
 		:precondition (at driver3 s2)
 		:effect (and
-			(and
-				(not (at driver3 s2))
-				(at driver3 p0-2)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 s2))
+			(at driver3 p0-2)
 		)
 	)
 	(:action walk_driver3_s2_p2-1
 		:parameters ()
 		:precondition (at driver3 s2)
 		:effect (and
-			(and
-				(not (at driver3 s2))
-				(at driver3 p2-1)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(not (at driver3 s2))
+			(at driver3 p2-1)
 		)
 	)
 	(:action observe0_board-truck_driver1_truck1_s1
@@ -4287,16 +3783,14 @@
 			(empty truck1)
 		)
 		:effect (and
-			(and
-				(observation0)
-				(not (at driver1 s1))
-				(driving driver1 truck1)
-				(not (empty truck1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation0)
+			(not (at driver1 s1))
+			(driving driver1 truck1)
+			(not (empty truck1))
 		)
 	)
 	(:action observe1_drive-truck_truck1_s1_s0_driver1
@@ -4308,15 +3802,13 @@
 			(not (observation1))
 		)
 		:effect (and
-			(and
-				(observation1)
-				(not (at truck1 s1))
-				(at truck1 s0)
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation1)
+			(not (at truck1 s1))
+			(at truck1 s0)
 		)
 	)
 )
