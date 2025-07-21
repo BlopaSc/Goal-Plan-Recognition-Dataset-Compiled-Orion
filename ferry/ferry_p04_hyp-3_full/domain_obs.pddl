@@ -42,168 +42,144 @@
 		:parameters ()
 		:precondition (at-ferry l0)
 		:effect (and
-			(and
-				(at-ferry l1)
-				(not (at-ferry l0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-ferry l1)
+			(not (at-ferry l0))
 		)
 	)
 	(:action sail_l0_l2
 		:parameters ()
 		:precondition (at-ferry l0)
 		:effect (and
-			(and
-				(at-ferry l2)
-				(not (at-ferry l0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-ferry l2)
+			(not (at-ferry l0))
 		)
 	)
 	(:action sail_l0_l3
 		:parameters ()
 		:precondition (at-ferry l0)
 		:effect (and
-			(and
-				(at-ferry l3)
-				(not (at-ferry l0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-ferry l3)
+			(not (at-ferry l0))
 		)
 	)
 	(:action sail_l1_l0
 		:parameters ()
 		:precondition (at-ferry l1)
 		:effect (and
-			(and
-				(at-ferry l0)
-				(not (at-ferry l1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-ferry l0)
+			(not (at-ferry l1))
 		)
 	)
 	(:action sail_l1_l2
 		:parameters ()
 		:precondition (at-ferry l1)
 		:effect (and
-			(and
-				(at-ferry l2)
-				(not (at-ferry l1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-ferry l2)
+			(not (at-ferry l1))
 		)
 	)
 	(:action sail_l1_l3
 		:parameters ()
 		:precondition (at-ferry l1)
 		:effect (and
-			(and
-				(at-ferry l3)
-				(not (at-ferry l1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-ferry l3)
+			(not (at-ferry l1))
 		)
 	)
 	(:action sail_l2_l0
 		:parameters ()
 		:precondition (at-ferry l2)
 		:effect (and
-			(and
-				(at-ferry l0)
-				(not (at-ferry l2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-ferry l0)
+			(not (at-ferry l2))
 		)
 	)
 	(:action sail_l2_l1
 		:parameters ()
 		:precondition (at-ferry l2)
 		:effect (and
-			(and
-				(at-ferry l1)
-				(not (at-ferry l2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-ferry l1)
+			(not (at-ferry l2))
 		)
 	)
 	(:action sail_l2_l3
 		:parameters ()
 		:precondition (at-ferry l2)
 		:effect (and
-			(and
-				(at-ferry l3)
-				(not (at-ferry l2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-ferry l3)
+			(not (at-ferry l2))
 		)
 	)
 	(:action sail_l3_l0
 		:parameters ()
 		:precondition (at-ferry l3)
 		:effect (and
-			(and
-				(at-ferry l0)
-				(not (at-ferry l3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-ferry l0)
+			(not (at-ferry l3))
 		)
 	)
 	(:action sail_l3_l1
 		:parameters ()
 		:precondition (at-ferry l3)
 		:effect (and
-			(and
-				(at-ferry l1)
-				(not (at-ferry l3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-ferry l1)
+			(not (at-ferry l3))
 		)
 	)
 	(:action sail_l3_l2
 		:parameters ()
 		:precondition (at-ferry l3)
 		:effect (and
-			(and
-				(at-ferry l2)
-				(not (at-ferry l3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at-ferry l2)
+			(not (at-ferry l3))
 		)
 	)
 	(:action board_c0_l0
@@ -214,15 +190,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c0)
-				(not (at c0 l0))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c0)
+			(not (at c0 l0))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c0_l1
@@ -233,15 +207,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c0)
-				(not (at c0 l1))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c0)
+			(not (at c0 l1))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c0_l2
@@ -252,15 +224,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c0)
-				(not (at c0 l2))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c0)
+			(not (at c0 l2))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c0_l3
@@ -271,15 +241,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c0)
-				(not (at c0 l3))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c0)
+			(not (at c0 l3))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c1_l0
@@ -290,15 +258,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c1)
-				(not (at c1 l0))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c1)
+			(not (at c1 l0))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c1_l1
@@ -309,15 +275,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c1)
-				(not (at c1 l1))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c1)
+			(not (at c1 l1))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c1_l2
@@ -328,15 +292,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c1)
-				(not (at c1 l2))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c1)
+			(not (at c1 l2))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c1_l3
@@ -347,15 +309,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c1)
-				(not (at c1 l3))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c1)
+			(not (at c1 l3))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c2_l0
@@ -366,15 +326,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c2)
-				(not (at c2 l0))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c2)
+			(not (at c2 l0))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c2_l1
@@ -385,15 +343,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c2)
-				(not (at c2 l1))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c2)
+			(not (at c2 l1))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c2_l2
@@ -404,15 +360,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c2)
-				(not (at c2 l2))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c2)
+			(not (at c2 l2))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c2_l3
@@ -423,15 +377,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c2)
-				(not (at c2 l3))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c2)
+			(not (at c2 l3))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c3_l0
@@ -442,15 +394,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c3)
-				(not (at c3 l0))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c3)
+			(not (at c3 l0))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c3_l1
@@ -461,15 +411,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c3)
-				(not (at c3 l1))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c3)
+			(not (at c3 l1))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c3_l2
@@ -480,15 +428,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c3)
-				(not (at c3 l2))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c3)
+			(not (at c3 l2))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c3_l3
@@ -499,15 +445,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c3)
-				(not (at c3 l3))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c3)
+			(not (at c3 l3))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c4_l0
@@ -518,15 +462,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c4)
-				(not (at c4 l0))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c4)
+			(not (at c4 l0))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c4_l1
@@ -537,15 +479,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c4)
-				(not (at c4 l1))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c4)
+			(not (at c4 l1))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c4_l2
@@ -556,15 +496,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c4)
-				(not (at c4 l2))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c4)
+			(not (at c4 l2))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c4_l3
@@ -575,15 +513,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c4)
-				(not (at c4 l3))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c4)
+			(not (at c4 l3))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c5_l0
@@ -594,15 +530,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c5)
-				(not (at c5 l0))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c5)
+			(not (at c5 l0))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c5_l1
@@ -613,15 +547,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c5)
-				(not (at c5 l1))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c5)
+			(not (at c5 l1))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c5_l2
@@ -632,15 +564,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c5)
-				(not (at c5 l2))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c5)
+			(not (at c5 l2))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c5_l3
@@ -651,15 +581,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c5)
-				(not (at c5 l3))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c5)
+			(not (at c5 l3))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c6_l0
@@ -670,15 +598,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c6)
-				(not (at c6 l0))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c6)
+			(not (at c6 l0))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c6_l1
@@ -689,15 +615,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c6)
-				(not (at c6 l1))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c6)
+			(not (at c6 l1))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c6_l2
@@ -708,15 +632,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c6)
-				(not (at c6 l2))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c6)
+			(not (at c6 l2))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c6_l3
@@ -727,15 +649,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c6)
-				(not (at c6 l3))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c6)
+			(not (at c6 l3))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c7_l0
@@ -746,15 +666,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c7)
-				(not (at c7 l0))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c7)
+			(not (at c7 l0))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c7_l1
@@ -765,15 +683,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c7)
-				(not (at c7 l1))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c7)
+			(not (at c7 l1))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c7_l2
@@ -784,15 +700,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c7)
-				(not (at c7 l2))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c7)
+			(not (at c7 l2))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c7_l3
@@ -803,15 +717,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c7)
-				(not (at c7 l3))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c7)
+			(not (at c7 l3))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c8_l0
@@ -822,15 +734,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c8)
-				(not (at c8 l0))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c8)
+			(not (at c8 l0))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c8_l1
@@ -841,15 +751,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c8)
-				(not (at c8 l1))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c8)
+			(not (at c8 l1))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c8_l2
@@ -860,15 +768,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c8)
-				(not (at c8 l2))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c8)
+			(not (at c8 l2))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c8_l3
@@ -879,15 +785,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c8)
-				(not (at c8 l3))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c8)
+			(not (at c8 l3))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c9_l0
@@ -898,15 +802,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c9)
-				(not (at c9 l0))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c9)
+			(not (at c9 l0))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c9_l1
@@ -917,15 +819,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c9)
-				(not (at c9 l1))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c9)
+			(not (at c9 l1))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c9_l2
@@ -936,15 +836,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c9)
-				(not (at c9 l2))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c9)
+			(not (at c9 l2))
+			(not (empty-ferry))
 		)
 	)
 	(:action board_c9_l3
@@ -955,15 +853,13 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(on c9)
-				(not (at c9 l3))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(on c9)
+			(not (at c9 l3))
+			(not (empty-ferry))
 		)
 	)
 	(:action debark_c0_l0
@@ -973,15 +869,13 @@
 			(at-ferry l0)
 		)
 		:effect (and
-			(and
-				(at c0 l0)
-				(empty-ferry)
-				(not (on c0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c0 l0)
+			(empty-ferry)
+			(not (on c0))
 		)
 	)
 	(:action debark_c0_l1
@@ -991,15 +885,13 @@
 			(at-ferry l1)
 		)
 		:effect (and
-			(and
-				(at c0 l1)
-				(empty-ferry)
-				(not (on c0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c0 l1)
+			(empty-ferry)
+			(not (on c0))
 		)
 	)
 	(:action debark_c0_l2
@@ -1009,15 +901,13 @@
 			(at-ferry l2)
 		)
 		:effect (and
-			(and
-				(at c0 l2)
-				(empty-ferry)
-				(not (on c0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c0 l2)
+			(empty-ferry)
+			(not (on c0))
 		)
 	)
 	(:action debark_c0_l3
@@ -1027,15 +917,13 @@
 			(at-ferry l3)
 		)
 		:effect (and
-			(and
-				(at c0 l3)
-				(empty-ferry)
-				(not (on c0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c0 l3)
+			(empty-ferry)
+			(not (on c0))
 		)
 	)
 	(:action debark_c1_l0
@@ -1045,15 +933,13 @@
 			(at-ferry l0)
 		)
 		:effect (and
-			(and
-				(at c1 l0)
-				(empty-ferry)
-				(not (on c1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c1 l0)
+			(empty-ferry)
+			(not (on c1))
 		)
 	)
 	(:action debark_c1_l1
@@ -1063,15 +949,13 @@
 			(at-ferry l1)
 		)
 		:effect (and
-			(and
-				(at c1 l1)
-				(empty-ferry)
-				(not (on c1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c1 l1)
+			(empty-ferry)
+			(not (on c1))
 		)
 	)
 	(:action debark_c1_l2
@@ -1081,15 +965,13 @@
 			(at-ferry l2)
 		)
 		:effect (and
-			(and
-				(at c1 l2)
-				(empty-ferry)
-				(not (on c1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c1 l2)
+			(empty-ferry)
+			(not (on c1))
 		)
 	)
 	(:action debark_c1_l3
@@ -1099,15 +981,13 @@
 			(at-ferry l3)
 		)
 		:effect (and
-			(and
-				(at c1 l3)
-				(empty-ferry)
-				(not (on c1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c1 l3)
+			(empty-ferry)
+			(not (on c1))
 		)
 	)
 	(:action debark_c2_l0
@@ -1117,15 +997,13 @@
 			(at-ferry l0)
 		)
 		:effect (and
-			(and
-				(at c2 l0)
-				(empty-ferry)
-				(not (on c2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c2 l0)
+			(empty-ferry)
+			(not (on c2))
 		)
 	)
 	(:action debark_c2_l1
@@ -1135,15 +1013,13 @@
 			(at-ferry l1)
 		)
 		:effect (and
-			(and
-				(at c2 l1)
-				(empty-ferry)
-				(not (on c2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c2 l1)
+			(empty-ferry)
+			(not (on c2))
 		)
 	)
 	(:action debark_c2_l2
@@ -1153,15 +1029,13 @@
 			(at-ferry l2)
 		)
 		:effect (and
-			(and
-				(at c2 l2)
-				(empty-ferry)
-				(not (on c2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c2 l2)
+			(empty-ferry)
+			(not (on c2))
 		)
 	)
 	(:action debark_c2_l3
@@ -1171,15 +1045,13 @@
 			(at-ferry l3)
 		)
 		:effect (and
-			(and
-				(at c2 l3)
-				(empty-ferry)
-				(not (on c2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c2 l3)
+			(empty-ferry)
+			(not (on c2))
 		)
 	)
 	(:action debark_c3_l0
@@ -1189,15 +1061,13 @@
 			(at-ferry l0)
 		)
 		:effect (and
-			(and
-				(at c3 l0)
-				(empty-ferry)
-				(not (on c3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c3 l0)
+			(empty-ferry)
+			(not (on c3))
 		)
 	)
 	(:action debark_c3_l1
@@ -1207,15 +1077,13 @@
 			(at-ferry l1)
 		)
 		:effect (and
-			(and
-				(at c3 l1)
-				(empty-ferry)
-				(not (on c3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c3 l1)
+			(empty-ferry)
+			(not (on c3))
 		)
 	)
 	(:action debark_c3_l2
@@ -1225,15 +1093,13 @@
 			(at-ferry l2)
 		)
 		:effect (and
-			(and
-				(at c3 l2)
-				(empty-ferry)
-				(not (on c3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c3 l2)
+			(empty-ferry)
+			(not (on c3))
 		)
 	)
 	(:action debark_c3_l3
@@ -1243,15 +1109,13 @@
 			(at-ferry l3)
 		)
 		:effect (and
-			(and
-				(at c3 l3)
-				(empty-ferry)
-				(not (on c3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c3 l3)
+			(empty-ferry)
+			(not (on c3))
 		)
 	)
 	(:action debark_c4_l0
@@ -1261,15 +1125,13 @@
 			(at-ferry l0)
 		)
 		:effect (and
-			(and
-				(at c4 l0)
-				(empty-ferry)
-				(not (on c4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c4 l0)
+			(empty-ferry)
+			(not (on c4))
 		)
 	)
 	(:action debark_c4_l1
@@ -1279,15 +1141,13 @@
 			(at-ferry l1)
 		)
 		:effect (and
-			(and
-				(at c4 l1)
-				(empty-ferry)
-				(not (on c4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c4 l1)
+			(empty-ferry)
+			(not (on c4))
 		)
 	)
 	(:action debark_c4_l2
@@ -1297,15 +1157,13 @@
 			(at-ferry l2)
 		)
 		:effect (and
-			(and
-				(at c4 l2)
-				(empty-ferry)
-				(not (on c4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c4 l2)
+			(empty-ferry)
+			(not (on c4))
 		)
 	)
 	(:action debark_c4_l3
@@ -1315,15 +1173,13 @@
 			(at-ferry l3)
 		)
 		:effect (and
-			(and
-				(at c4 l3)
-				(empty-ferry)
-				(not (on c4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c4 l3)
+			(empty-ferry)
+			(not (on c4))
 		)
 	)
 	(:action debark_c5_l0
@@ -1333,15 +1189,13 @@
 			(at-ferry l0)
 		)
 		:effect (and
-			(and
-				(at c5 l0)
-				(empty-ferry)
-				(not (on c5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c5 l0)
+			(empty-ferry)
+			(not (on c5))
 		)
 	)
 	(:action debark_c5_l1
@@ -1351,15 +1205,13 @@
 			(at-ferry l1)
 		)
 		:effect (and
-			(and
-				(at c5 l1)
-				(empty-ferry)
-				(not (on c5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c5 l1)
+			(empty-ferry)
+			(not (on c5))
 		)
 	)
 	(:action debark_c5_l2
@@ -1369,15 +1221,13 @@
 			(at-ferry l2)
 		)
 		:effect (and
-			(and
-				(at c5 l2)
-				(empty-ferry)
-				(not (on c5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c5 l2)
+			(empty-ferry)
+			(not (on c5))
 		)
 	)
 	(:action debark_c5_l3
@@ -1387,15 +1237,13 @@
 			(at-ferry l3)
 		)
 		:effect (and
-			(and
-				(at c5 l3)
-				(empty-ferry)
-				(not (on c5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c5 l3)
+			(empty-ferry)
+			(not (on c5))
 		)
 	)
 	(:action debark_c6_l0
@@ -1405,15 +1253,13 @@
 			(at-ferry l0)
 		)
 		:effect (and
-			(and
-				(at c6 l0)
-				(empty-ferry)
-				(not (on c6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c6 l0)
+			(empty-ferry)
+			(not (on c6))
 		)
 	)
 	(:action debark_c6_l1
@@ -1423,15 +1269,13 @@
 			(at-ferry l1)
 		)
 		:effect (and
-			(and
-				(at c6 l1)
-				(empty-ferry)
-				(not (on c6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c6 l1)
+			(empty-ferry)
+			(not (on c6))
 		)
 	)
 	(:action debark_c6_l2
@@ -1441,15 +1285,13 @@
 			(at-ferry l2)
 		)
 		:effect (and
-			(and
-				(at c6 l2)
-				(empty-ferry)
-				(not (on c6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c6 l2)
+			(empty-ferry)
+			(not (on c6))
 		)
 	)
 	(:action debark_c6_l3
@@ -1459,15 +1301,13 @@
 			(at-ferry l3)
 		)
 		:effect (and
-			(and
-				(at c6 l3)
-				(empty-ferry)
-				(not (on c6))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c6 l3)
+			(empty-ferry)
+			(not (on c6))
 		)
 	)
 	(:action debark_c7_l0
@@ -1477,15 +1317,13 @@
 			(at-ferry l0)
 		)
 		:effect (and
-			(and
-				(at c7 l0)
-				(empty-ferry)
-				(not (on c7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c7 l0)
+			(empty-ferry)
+			(not (on c7))
 		)
 	)
 	(:action debark_c7_l1
@@ -1495,15 +1333,13 @@
 			(at-ferry l1)
 		)
 		:effect (and
-			(and
-				(at c7 l1)
-				(empty-ferry)
-				(not (on c7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c7 l1)
+			(empty-ferry)
+			(not (on c7))
 		)
 	)
 	(:action debark_c7_l2
@@ -1513,15 +1349,13 @@
 			(at-ferry l2)
 		)
 		:effect (and
-			(and
-				(at c7 l2)
-				(empty-ferry)
-				(not (on c7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c7 l2)
+			(empty-ferry)
+			(not (on c7))
 		)
 	)
 	(:action debark_c7_l3
@@ -1531,15 +1365,13 @@
 			(at-ferry l3)
 		)
 		:effect (and
-			(and
-				(at c7 l3)
-				(empty-ferry)
-				(not (on c7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c7 l3)
+			(empty-ferry)
+			(not (on c7))
 		)
 	)
 	(:action debark_c8_l0
@@ -1549,15 +1381,13 @@
 			(at-ferry l0)
 		)
 		:effect (and
-			(and
-				(at c8 l0)
-				(empty-ferry)
-				(not (on c8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c8 l0)
+			(empty-ferry)
+			(not (on c8))
 		)
 	)
 	(:action debark_c8_l1
@@ -1567,15 +1397,13 @@
 			(at-ferry l1)
 		)
 		:effect (and
-			(and
-				(at c8 l1)
-				(empty-ferry)
-				(not (on c8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c8 l1)
+			(empty-ferry)
+			(not (on c8))
 		)
 	)
 	(:action debark_c8_l2
@@ -1585,15 +1413,13 @@
 			(at-ferry l2)
 		)
 		:effect (and
-			(and
-				(at c8 l2)
-				(empty-ferry)
-				(not (on c8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c8 l2)
+			(empty-ferry)
+			(not (on c8))
 		)
 	)
 	(:action debark_c8_l3
@@ -1603,15 +1429,13 @@
 			(at-ferry l3)
 		)
 		:effect (and
-			(and
-				(at c8 l3)
-				(empty-ferry)
-				(not (on c8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c8 l3)
+			(empty-ferry)
+			(not (on c8))
 		)
 	)
 	(:action debark_c9_l0
@@ -1621,15 +1445,13 @@
 			(at-ferry l0)
 		)
 		:effect (and
-			(and
-				(at c9 l0)
-				(empty-ferry)
-				(not (on c9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c9 l0)
+			(empty-ferry)
+			(not (on c9))
 		)
 	)
 	(:action debark_c9_l1
@@ -1639,15 +1461,13 @@
 			(at-ferry l1)
 		)
 		:effect (and
-			(and
-				(at c9 l1)
-				(empty-ferry)
-				(not (on c9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c9 l1)
+			(empty-ferry)
+			(not (on c9))
 		)
 	)
 	(:action debark_c9_l2
@@ -1657,15 +1477,13 @@
 			(at-ferry l2)
 		)
 		:effect (and
-			(and
-				(at c9 l2)
-				(empty-ferry)
-				(not (on c9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c9 l2)
+			(empty-ferry)
+			(not (on c9))
 		)
 	)
 	(:action debark_c9_l3
@@ -1675,15 +1493,13 @@
 			(at-ferry l3)
 		)
 		:effect (and
-			(and
-				(at c9 l3)
-				(empty-ferry)
-				(not (on c9))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(at c9 l3)
+			(empty-ferry)
+			(not (on c9))
 		)
 	)
 	(:action observe0_board_c0_l2
@@ -1695,16 +1511,14 @@
 			(empty-ferry)
 		)
 		:effect (and
-			(and
-				(observation0)
-				(on c0)
-				(not (at c0 l2))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation0)
+			(on c0)
+			(not (at c0 l2))
+			(not (empty-ferry))
 		)
 	)
 	(:action observe1_sail_l2_l3
@@ -1715,15 +1529,13 @@
 			(not (observation1))
 		)
 		:effect (and
-			(and
-				(observation1)
-				(at-ferry l3)
-				(not (at-ferry l2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation1)
+			(at-ferry l3)
+			(not (at-ferry l2))
 		)
 	)
 	(:action observe2_debark_c0_l3
@@ -1735,16 +1547,14 @@
 			(not (observation2))
 		)
 		:effect (and
-			(and
-				(observation2)
-				(at c0 l3)
-				(empty-ferry)
-				(not (on c0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation2)
+			(at c0 l3)
+			(empty-ferry)
+			(not (on c0))
 		)
 	)
 	(:action observe3_board_c4_l3
@@ -1757,16 +1567,14 @@
 			(not (observation3))
 		)
 		:effect (and
-			(and
-				(observation3)
-				(on c4)
-				(not (at c4 l3))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation3)
+			(on c4)
+			(not (at c4 l3))
+			(not (empty-ferry))
 		)
 	)
 	(:action observe4_sail_l3_l2
@@ -1777,15 +1585,13 @@
 			(not (observation4))
 		)
 		:effect (and
-			(and
-				(observation4)
-				(at-ferry l2)
-				(not (at-ferry l3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation4)
+			(at-ferry l2)
+			(not (at-ferry l3))
 		)
 	)
 	(:action observe5_debark_c4_l2
@@ -1797,16 +1603,14 @@
 			(not (observation5))
 		)
 		:effect (and
-			(and
-				(observation5)
-				(at c4 l2)
-				(empty-ferry)
-				(not (on c4))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation5)
+			(at c4 l2)
+			(empty-ferry)
+			(not (on c4))
 		)
 	)
 	(:action observe6_board_c3_l2
@@ -1819,16 +1623,14 @@
 			(not (observation6))
 		)
 		:effect (and
-			(and
-				(observation6)
-				(on c3)
-				(not (at c3 l2))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation6)
+			(on c3)
+			(not (at c3 l2))
+			(not (empty-ferry))
 		)
 	)
 	(:action observe7_sail_l2_l3
@@ -1839,15 +1641,13 @@
 			(not (observation7))
 		)
 		:effect (and
-			(and
-				(observation7)
-				(at-ferry l3)
-				(not (at-ferry l2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation7)
+			(at-ferry l3)
+			(not (at-ferry l2))
 		)
 	)
 	(:action observe8_debark_c3_l3
@@ -1859,16 +1659,14 @@
 			(not (observation8))
 		)
 		:effect (and
-			(and
-				(observation8)
-				(at c3 l3)
-				(empty-ferry)
-				(not (on c3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation8)
+			(at c3 l3)
+			(empty-ferry)
+			(not (on c3))
 		)
 	)
 	(:action observe9_board_c7_l3
@@ -1881,16 +1679,14 @@
 			(not (observation9))
 		)
 		:effect (and
-			(and
-				(observation9)
-				(on c7)
-				(not (at c7 l3))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation9)
+			(on c7)
+			(not (at c7 l3))
+			(not (empty-ferry))
 		)
 	)
 	(:action observe10_sail_l3_l2
@@ -1901,15 +1697,13 @@
 			(not (observation10))
 		)
 		:effect (and
-			(and
-				(observation10)
-				(at-ferry l2)
-				(not (at-ferry l3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation10)
+			(at-ferry l2)
+			(not (at-ferry l3))
 		)
 	)
 	(:action observe11_debark_c7_l2
@@ -1921,16 +1715,14 @@
 			(not (observation11))
 		)
 		:effect (and
-			(and
-				(observation11)
-				(at c7 l2)
-				(empty-ferry)
-				(not (on c7))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation11)
+			(at c7 l2)
+			(empty-ferry)
+			(not (on c7))
 		)
 	)
 	(:action observe12_board_c8_l2
@@ -1943,16 +1735,14 @@
 			(not (observation12))
 		)
 		:effect (and
-			(and
-				(observation12)
-				(on c8)
-				(not (at c8 l2))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation12)
+			(on c8)
+			(not (at c8 l2))
+			(not (empty-ferry))
 		)
 	)
 	(:action observe13_sail_l2_l0
@@ -1963,15 +1753,13 @@
 			(not (observation13))
 		)
 		:effect (and
-			(and
-				(observation13)
-				(at-ferry l0)
-				(not (at-ferry l2))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation13)
+			(at-ferry l0)
+			(not (at-ferry l2))
 		)
 	)
 	(:action observe14_debark_c8_l0
@@ -1983,16 +1771,14 @@
 			(not (observation14))
 		)
 		:effect (and
-			(and
-				(observation14)
-				(at c8 l0)
-				(empty-ferry)
-				(not (on c8))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation14)
+			(at c8 l0)
+			(empty-ferry)
+			(not (on c8))
 		)
 	)
 	(:action observe15_board_c1_l0
@@ -2005,16 +1791,14 @@
 			(not (observation15))
 		)
 		:effect (and
-			(and
-				(observation15)
-				(on c1)
-				(not (at c1 l0))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation15)
+			(on c1)
+			(not (at c1 l0))
+			(not (empty-ferry))
 		)
 	)
 	(:action observe16_sail_l0_l3
@@ -2025,15 +1809,13 @@
 			(not (observation16))
 		)
 		:effect (and
-			(and
-				(observation16)
-				(at-ferry l3)
-				(not (at-ferry l0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation16)
+			(at-ferry l3)
+			(not (at-ferry l0))
 		)
 	)
 	(:action observe17_debark_c1_l3
@@ -2045,16 +1827,14 @@
 			(not (observation17))
 		)
 		:effect (and
-			(and
-				(observation17)
-				(at c1 l3)
-				(empty-ferry)
-				(not (on c1))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation17)
+			(at c1 l3)
+			(empty-ferry)
+			(not (on c1))
 		)
 	)
 	(:action observe18_sail_l3_l0
@@ -2065,15 +1845,13 @@
 			(not (observation18))
 		)
 		:effect (and
-			(and
-				(observation18)
-				(at-ferry l0)
-				(not (at-ferry l3))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation18)
+			(at-ferry l0)
+			(not (at-ferry l3))
 		)
 	)
 	(:action observe19_board_c5_l0
@@ -2086,16 +1864,14 @@
 			(not (observation19))
 		)
 		:effect (and
-			(and
-				(observation19)
-				(on c5)
-				(not (at c5 l0))
-				(not (empty-ferry))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation19)
+			(on c5)
+			(not (at c5 l0))
+			(not (empty-ferry))
 		)
 	)
 	(:action observe20_sail_l0_l3
@@ -2106,15 +1882,13 @@
 			(not (observation20))
 		)
 		:effect (and
-			(and
-				(observation20)
-				(at-ferry l3)
-				(not (at-ferry l0))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation20)
+			(at-ferry l3)
+			(not (at-ferry l0))
 		)
 	)
 	(:action observe21_debark_c5_l3
@@ -2126,16 +1900,14 @@
 			(not (observation21))
 		)
 		:effect (and
-			(and
-				(observation21)
-				(at c5 l3)
-				(empty-ferry)
-				(not (on c5))
-			)
 			(increase
 				(total-cost)
 				1
 			)
+			(observation21)
+			(at c5 l3)
+			(empty-ferry)
+			(not (on c5))
 		)
 	)
 )
