@@ -1,0 +1,23 @@
+;; Compiled with Orion Planner by Pablo "Blopa" Sauma (blopasc.github.io)
+(define	(problem mixed-f28-p14-u0-v0-g0-a0-n0-a0-b0-n0-f0-r2_g4)
+	(:domain miconic)
+	(:init
+		(lift-at f0)
+		(= (total-cost) 0)
+	)
+	(:goal
+		(and
+			(served p0)
+			(served p1)
+			(served p7)
+			(served p8)
+			(served p4)
+			(served p10)
+			(served p3)
+			(served p2)
+			(served p13)
+			(observed obs45)
+		)
+	)
+	(:metric minimize (total-cost))
+)
