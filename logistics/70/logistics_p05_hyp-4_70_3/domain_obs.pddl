@@ -1,0 +1,7167 @@
+;; Compiled with Orion Planner by Pablo "Blopa" Sauma (blopasc.github.io)
+(define
+	(domain logistics)
+	(:requirements :strips :typing :action-costs)
+	(:types
+		city physobj place - object
+		package vehicle - physobj
+		airport location - place
+		airplane truck - vehicle
+		observation
+	)
+	(:predicates
+		(in-city ?loc - place ?city - city)
+		(at ?obj - physobj ?loc - place)
+		(in ?pkg - package ?veh - vehicle)
+		(observed ?obs - observation)
+	)
+	(:functions
+		(total-cost)
+	)
+	(:constants
+		cit1 cit2 cit3 cit4 cit5 - city
+		obj00 obj11 obj12 obj13 obj21 obj22 obj23 obj33 obj44 obj55 - package
+		apt1 apt2 apt3 apt4 - airport
+		pos11 pos12 pos13 pos21 pos22 pos23 pos33 pos44 pos55 pos66 - location
+		apn1 apn2 apn3 apn4 - airplane
+		tru1 tru2 tru3 tru4 tru5 - truck
+		obs0 obs1 obs2 obs3 obs4 obs5 obs6 obs7 obs8 obs9 obs10 obs11 obs12 obs13 obs14 obs15 obs16 obs17 obs18 obs19 obs20 obs21 obs22 - observation
+	)
+	(:action load-truck_obj11_tru1_apt1
+		:parameters ()
+		:precondition (and
+			(at tru1 apt1)
+			(at obj11 apt1)
+		)
+		:effect (and
+			(in obj11 tru1)
+			(not (at obj11 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj11_tru1_pos11
+		:parameters ()
+		:precondition (and
+			(at tru1 pos11)
+			(at obj11 pos11)
+		)
+		:effect (and
+			(in obj11 tru1)
+			(not (at obj11 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj11_tru1_pos12
+		:parameters ()
+		:precondition (and
+			(at tru1 pos12)
+			(at obj11 pos12)
+		)
+		:effect (and
+			(in obj11 tru1)
+			(not (at obj11 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj11_tru1_pos13
+		:parameters ()
+		:precondition (and
+			(at obj11 pos13)
+			(at tru1 pos13)
+		)
+		:effect (and
+			(in obj11 tru1)
+			(not (at obj11 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj11_tru2_apt2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(at obj11 apt2)
+		)
+		:effect (and
+			(in obj11 tru2)
+			(not (at obj11 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj11_tru2_pos21
+		:parameters ()
+		:precondition (and
+			(at obj11 pos21)
+			(at tru2 pos21)
+		)
+		:effect (and
+			(in obj11 tru2)
+			(not (at obj11 pos21))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj11_tru2_pos22
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(at obj11 pos22)
+		)
+		:effect (and
+			(in obj11 tru2)
+			(not (at obj11 pos22))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj11_tru2_pos23
+		:parameters ()
+		:precondition (and
+			(at obj11 pos23)
+			(at tru2 pos23)
+		)
+		:effect (and
+			(in obj11 tru2)
+			(not (at obj11 pos23))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj11_tru3_apt1
+		:parameters ()
+		:precondition (and
+			(at tru3 apt1)
+			(at obj11 apt1)
+		)
+		:effect (and
+			(in obj11 tru3)
+			(not (at obj11 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj11_tru3_pos11
+		:parameters ()
+		:precondition (and
+			(at tru3 pos11)
+			(at obj11 pos11)
+		)
+		:effect (and
+			(in obj11 tru3)
+			(not (at obj11 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj11_tru3_pos12
+		:parameters ()
+		:precondition (and
+			(at tru3 pos12)
+			(at obj11 pos12)
+		)
+		:effect (and
+			(in obj11 tru3)
+			(not (at obj11 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj11_tru3_pos13
+		:parameters ()
+		:precondition (and
+			(at obj11 pos13)
+			(at tru3 pos13)
+		)
+		:effect (and
+			(in obj11 tru3)
+			(not (at obj11 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj11_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(at obj11 apt1)
+		)
+		:effect (and
+			(in obj11 tru4)
+			(not (at obj11 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj11_tru4_pos11
+		:parameters ()
+		:precondition (and
+			(at tru4 pos11)
+			(at obj11 pos11)
+		)
+		:effect (and
+			(in obj11 tru4)
+			(not (at obj11 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj11_tru4_pos12
+		:parameters ()
+		:precondition (and
+			(at tru4 pos12)
+			(at obj11 pos12)
+		)
+		:effect (and
+			(in obj11 tru4)
+			(not (at obj11 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj11_tru4_pos13
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(at obj11 pos13)
+		)
+		:effect (and
+			(in obj11 tru4)
+			(not (at obj11 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj12_tru1_apt1
+		:parameters ()
+		:precondition (and
+			(at tru1 apt1)
+			(at obj12 apt1)
+		)
+		:effect (and
+			(in obj12 tru1)
+			(not (at obj12 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj12_tru1_pos11
+		:parameters ()
+		:precondition (and
+			(at tru1 pos11)
+			(at obj12 pos11)
+		)
+		:effect (and
+			(in obj12 tru1)
+			(not (at obj12 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj12_tru1_pos12
+		:parameters ()
+		:precondition (and
+			(at tru1 pos12)
+			(at obj12 pos12)
+		)
+		:effect (and
+			(in obj12 tru1)
+			(not (at obj12 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj12_tru1_pos13
+		:parameters ()
+		:precondition (and
+			(at obj12 pos13)
+			(at tru1 pos13)
+		)
+		:effect (and
+			(in obj12 tru1)
+			(not (at obj12 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj12_tru2_apt2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(at obj12 apt2)
+		)
+		:effect (and
+			(in obj12 tru2)
+			(not (at obj12 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj12_tru2_pos21
+		:parameters ()
+		:precondition (and
+			(at tru2 pos21)
+			(at obj12 pos21)
+		)
+		:effect (and
+			(in obj12 tru2)
+			(not (at obj12 pos21))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj12_tru2_pos22
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(at obj12 pos22)
+		)
+		:effect (and
+			(in obj12 tru2)
+			(not (at obj12 pos22))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj12_tru2_pos23
+		:parameters ()
+		:precondition (and
+			(at obj12 pos23)
+			(at tru2 pos23)
+		)
+		:effect (and
+			(in obj12 tru2)
+			(not (at obj12 pos23))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj12_tru3_apt1
+		:parameters ()
+		:precondition (and
+			(at tru3 apt1)
+			(at obj12 apt1)
+		)
+		:effect (and
+			(in obj12 tru3)
+			(not (at obj12 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj12_tru3_pos11
+		:parameters ()
+		:precondition (and
+			(at tru3 pos11)
+			(at obj12 pos11)
+		)
+		:effect (and
+			(in obj12 tru3)
+			(not (at obj12 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj12_tru3_pos12
+		:parameters ()
+		:precondition (and
+			(at tru3 pos12)
+			(at obj12 pos12)
+		)
+		:effect (and
+			(in obj12 tru3)
+			(not (at obj12 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj12_tru3_pos13
+		:parameters ()
+		:precondition (and
+			(at obj12 pos13)
+			(at tru3 pos13)
+		)
+		:effect (and
+			(in obj12 tru3)
+			(not (at obj12 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj12_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(at obj12 apt1)
+		)
+		:effect (and
+			(in obj12 tru4)
+			(not (at obj12 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj12_tru4_pos11
+		:parameters ()
+		:precondition (and
+			(at tru4 pos11)
+			(at obj12 pos11)
+		)
+		:effect (and
+			(in obj12 tru4)
+			(not (at obj12 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj12_tru4_pos12
+		:parameters ()
+		:precondition (and
+			(at tru4 pos12)
+			(at obj12 pos12)
+		)
+		:effect (and
+			(in obj12 tru4)
+			(not (at obj12 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj12_tru4_pos13
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(at obj12 pos13)
+		)
+		:effect (and
+			(in obj12 tru4)
+			(not (at obj12 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj13_tru1_apt1
+		:parameters ()
+		:precondition (and
+			(at tru1 apt1)
+			(at obj13 apt1)
+		)
+		:effect (and
+			(in obj13 tru1)
+			(not (at obj13 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj13_tru1_pos11
+		:parameters ()
+		:precondition (and
+			(at tru1 pos11)
+			(at obj13 pos11)
+		)
+		:effect (and
+			(in obj13 tru1)
+			(not (at obj13 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj13_tru1_pos12
+		:parameters ()
+		:precondition (and
+			(at tru1 pos12)
+			(at obj13 pos12)
+		)
+		:effect (and
+			(in obj13 tru1)
+			(not (at obj13 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj13_tru1_pos13
+		:parameters ()
+		:precondition (and
+			(at tru1 pos13)
+			(at obj13 pos13)
+		)
+		:effect (and
+			(in obj13 tru1)
+			(not (at obj13 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj13_tru2_apt2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(at obj13 apt2)
+		)
+		:effect (and
+			(in obj13 tru2)
+			(not (at obj13 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj13_tru2_pos21
+		:parameters ()
+		:precondition (and
+			(at obj13 pos21)
+			(at tru2 pos21)
+		)
+		:effect (and
+			(in obj13 tru2)
+			(not (at obj13 pos21))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj13_tru2_pos22
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(at obj13 pos22)
+		)
+		:effect (and
+			(in obj13 tru2)
+			(not (at obj13 pos22))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj13_tru2_pos23
+		:parameters ()
+		:precondition (and
+			(at tru2 pos23)
+			(at obj13 pos23)
+		)
+		:effect (and
+			(in obj13 tru2)
+			(not (at obj13 pos23))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj13_tru3_apt1
+		:parameters ()
+		:precondition (and
+			(at tru3 apt1)
+			(at obj13 apt1)
+		)
+		:effect (and
+			(in obj13 tru3)
+			(not (at obj13 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj13_tru3_pos11
+		:parameters ()
+		:precondition (and
+			(at obj13 pos11)
+			(at tru3 pos11)
+		)
+		:effect (and
+			(in obj13 tru3)
+			(not (at obj13 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj13_tru3_pos12
+		:parameters ()
+		:precondition (and
+			(at tru3 pos12)
+			(at obj13 pos12)
+		)
+		:effect (and
+			(in obj13 tru3)
+			(not (at obj13 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj13_tru3_pos13
+		:parameters ()
+		:precondition (and
+			(at tru3 pos13)
+			(at obj13 pos13)
+		)
+		:effect (and
+			(in obj13 tru3)
+			(not (at obj13 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj13_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(at obj13 apt1)
+		)
+		:effect (and
+			(in obj13 tru4)
+			(not (at obj13 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj13_tru4_pos11
+		:parameters ()
+		:precondition (and
+			(at obj13 pos11)
+			(at tru4 pos11)
+		)
+		:effect (and
+			(in obj13 tru4)
+			(not (at obj13 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj13_tru4_pos12
+		:parameters ()
+		:precondition (and
+			(at tru4 pos12)
+			(at obj13 pos12)
+		)
+		:effect (and
+			(in obj13 tru4)
+			(not (at obj13 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj13_tru4_pos13
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(at obj13 pos13)
+		)
+		:effect (and
+			(in obj13 tru4)
+			(not (at obj13 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj21_tru1_apt1
+		:parameters ()
+		:precondition (and
+			(at tru1 apt1)
+			(at obj21 apt1)
+		)
+		:effect (and
+			(in obj21 tru1)
+			(not (at obj21 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj21_tru1_pos11
+		:parameters ()
+		:precondition (and
+			(at tru1 pos11)
+			(at obj21 pos11)
+		)
+		:effect (and
+			(in obj21 tru1)
+			(not (at obj21 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj21_tru1_pos12
+		:parameters ()
+		:precondition (and
+			(at obj21 pos12)
+			(at tru1 pos12)
+		)
+		:effect (and
+			(in obj21 tru1)
+			(not (at obj21 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj21_tru1_pos13
+		:parameters ()
+		:precondition (and
+			(at obj21 pos13)
+			(at tru1 pos13)
+		)
+		:effect (and
+			(in obj21 tru1)
+			(not (at obj21 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj21_tru2_apt2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(at obj21 apt2)
+		)
+		:effect (and
+			(in obj21 tru2)
+			(not (at obj21 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj21_tru2_pos21
+		:parameters ()
+		:precondition (and
+			(at obj21 pos21)
+			(at tru2 pos21)
+		)
+		:effect (and
+			(in obj21 tru2)
+			(not (at obj21 pos21))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj21_tru2_pos22
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(at obj21 pos22)
+		)
+		:effect (and
+			(in obj21 tru2)
+			(not (at obj21 pos22))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj21_tru2_pos23
+		:parameters ()
+		:precondition (and
+			(at obj21 pos23)
+			(at tru2 pos23)
+		)
+		:effect (and
+			(in obj21 tru2)
+			(not (at obj21 pos23))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj21_tru3_apt1
+		:parameters ()
+		:precondition (and
+			(at tru3 apt1)
+			(at obj21 apt1)
+		)
+		:effect (and
+			(in obj21 tru3)
+			(not (at obj21 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj21_tru3_pos11
+		:parameters ()
+		:precondition (and
+			(at tru3 pos11)
+			(at obj21 pos11)
+		)
+		:effect (and
+			(in obj21 tru3)
+			(not (at obj21 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj21_tru3_pos12
+		:parameters ()
+		:precondition (and
+			(at tru3 pos12)
+			(at obj21 pos12)
+		)
+		:effect (and
+			(in obj21 tru3)
+			(not (at obj21 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj21_tru3_pos13
+		:parameters ()
+		:precondition (and
+			(at obj21 pos13)
+			(at tru3 pos13)
+		)
+		:effect (and
+			(in obj21 tru3)
+			(not (at obj21 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj21_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(at obj21 apt1)
+		)
+		:effect (and
+			(in obj21 tru4)
+			(not (at obj21 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj21_tru4_pos11
+		:parameters ()
+		:precondition (and
+			(at tru4 pos11)
+			(at obj21 pos11)
+		)
+		:effect (and
+			(in obj21 tru4)
+			(not (at obj21 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj21_tru4_pos12
+		:parameters ()
+		:precondition (and
+			(at obj21 pos12)
+			(at tru4 pos12)
+		)
+		:effect (and
+			(in obj21 tru4)
+			(not (at obj21 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj21_tru4_pos13
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(at obj21 pos13)
+		)
+		:effect (and
+			(in obj21 tru4)
+			(not (at obj21 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj22_tru1_apt1
+		:parameters ()
+		:precondition (and
+			(at tru1 apt1)
+			(at obj22 apt1)
+		)
+		:effect (and
+			(in obj22 tru1)
+			(not (at obj22 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj22_tru1_pos11
+		:parameters ()
+		:precondition (and
+			(at tru1 pos11)
+			(at obj22 pos11)
+		)
+		:effect (and
+			(in obj22 tru1)
+			(not (at obj22 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj22_tru1_pos12
+		:parameters ()
+		:precondition (and
+			(at obj22 pos12)
+			(at tru1 pos12)
+		)
+		:effect (and
+			(in obj22 tru1)
+			(not (at obj22 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj22_tru1_pos13
+		:parameters ()
+		:precondition (and
+			(at obj22 pos13)
+			(at tru1 pos13)
+		)
+		:effect (and
+			(in obj22 tru1)
+			(not (at obj22 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj22_tru2_apt2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(at obj22 apt2)
+		)
+		:effect (and
+			(in obj22 tru2)
+			(not (at obj22 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj22_tru2_pos21
+		:parameters ()
+		:precondition (and
+			(at obj22 pos21)
+			(at tru2 pos21)
+		)
+		:effect (and
+			(in obj22 tru2)
+			(not (at obj22 pos21))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj22_tru2_pos22
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(at obj22 pos22)
+		)
+		:effect (and
+			(in obj22 tru2)
+			(not (at obj22 pos22))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj22_tru2_pos23
+		:parameters ()
+		:precondition (and
+			(at tru2 pos23)
+			(at obj22 pos23)
+		)
+		:effect (and
+			(in obj22 tru2)
+			(not (at obj22 pos23))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj22_tru3_apt1
+		:parameters ()
+		:precondition (and
+			(at tru3 apt1)
+			(at obj22 apt1)
+		)
+		:effect (and
+			(in obj22 tru3)
+			(not (at obj22 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj22_tru3_pos11
+		:parameters ()
+		:precondition (and
+			(at tru3 pos11)
+			(at obj22 pos11)
+		)
+		:effect (and
+			(in obj22 tru3)
+			(not (at obj22 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj22_tru3_pos12
+		:parameters ()
+		:precondition (and
+			(at tru3 pos12)
+			(at obj22 pos12)
+		)
+		:effect (and
+			(in obj22 tru3)
+			(not (at obj22 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj22_tru3_pos13
+		:parameters ()
+		:precondition (and
+			(at obj22 pos13)
+			(at tru3 pos13)
+		)
+		:effect (and
+			(in obj22 tru3)
+			(not (at obj22 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj22_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(at obj22 apt1)
+		)
+		:effect (and
+			(in obj22 tru4)
+			(not (at obj22 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj22_tru4_pos11
+		:parameters ()
+		:precondition (and
+			(at tru4 pos11)
+			(at obj22 pos11)
+		)
+		:effect (and
+			(in obj22 tru4)
+			(not (at obj22 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj22_tru4_pos12
+		:parameters ()
+		:precondition (and
+			(at obj22 pos12)
+			(at tru4 pos12)
+		)
+		:effect (and
+			(in obj22 tru4)
+			(not (at obj22 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj22_tru4_pos13
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(at obj22 pos13)
+		)
+		:effect (and
+			(in obj22 tru4)
+			(not (at obj22 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj23_tru1_apt1
+		:parameters ()
+		:precondition (and
+			(at tru1 apt1)
+			(at obj23 apt1)
+		)
+		:effect (and
+			(in obj23 tru1)
+			(not (at obj23 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj23_tru1_pos11
+		:parameters ()
+		:precondition (and
+			(at tru1 pos11)
+			(at obj23 pos11)
+		)
+		:effect (and
+			(in obj23 tru1)
+			(not (at obj23 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj23_tru1_pos12
+		:parameters ()
+		:precondition (and
+			(at tru1 pos12)
+			(at obj23 pos12)
+		)
+		:effect (and
+			(in obj23 tru1)
+			(not (at obj23 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj23_tru1_pos13
+		:parameters ()
+		:precondition (and
+			(at obj23 pos13)
+			(at tru1 pos13)
+		)
+		:effect (and
+			(in obj23 tru1)
+			(not (at obj23 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj23_tru2_apt2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(at obj23 apt2)
+		)
+		:effect (and
+			(in obj23 tru2)
+			(not (at obj23 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj23_tru2_pos21
+		:parameters ()
+		:precondition (and
+			(at tru2 pos21)
+			(at obj23 pos21)
+		)
+		:effect (and
+			(in obj23 tru2)
+			(not (at obj23 pos21))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj23_tru2_pos22
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(at obj23 pos22)
+		)
+		:effect (and
+			(in obj23 tru2)
+			(not (at obj23 pos22))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj23_tru2_pos23
+		:parameters ()
+		:precondition (and
+			(at tru2 pos23)
+			(at obj23 pos23)
+		)
+		:effect (and
+			(in obj23 tru2)
+			(not (at obj23 pos23))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj23_tru3_apt1
+		:parameters ()
+		:precondition (and
+			(at tru3 apt1)
+			(at obj23 apt1)
+		)
+		:effect (and
+			(in obj23 tru3)
+			(not (at obj23 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj23_tru3_pos11
+		:parameters ()
+		:precondition (and
+			(at obj23 pos11)
+			(at tru3 pos11)
+		)
+		:effect (and
+			(in obj23 tru3)
+			(not (at obj23 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj23_tru3_pos12
+		:parameters ()
+		:precondition (and
+			(at tru3 pos12)
+			(at obj23 pos12)
+		)
+		:effect (and
+			(in obj23 tru3)
+			(not (at obj23 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj23_tru3_pos13
+		:parameters ()
+		:precondition (and
+			(at obj23 pos13)
+			(at tru3 pos13)
+		)
+		:effect (and
+			(in obj23 tru3)
+			(not (at obj23 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj23_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(at obj23 apt1)
+		)
+		:effect (and
+			(in obj23 tru4)
+			(not (at obj23 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj23_tru4_pos11
+		:parameters ()
+		:precondition (and
+			(at obj23 pos11)
+			(at tru4 pos11)
+		)
+		:effect (and
+			(in obj23 tru4)
+			(not (at obj23 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj23_tru4_pos12
+		:parameters ()
+		:precondition (and
+			(at tru4 pos12)
+			(at obj23 pos12)
+		)
+		:effect (and
+			(in obj23 tru4)
+			(not (at obj23 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj23_tru4_pos13
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(at obj23 pos13)
+		)
+		:effect (and
+			(in obj23 tru4)
+			(not (at obj23 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj33_tru1_apt1
+		:parameters ()
+		:precondition (and
+			(at tru1 apt1)
+			(at obj33 apt1)
+		)
+		:effect (and
+			(in obj33 tru1)
+			(not (at obj33 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj33_tru1_pos11
+		:parameters ()
+		:precondition (and
+			(at tru1 pos11)
+			(at obj33 pos11)
+		)
+		:effect (and
+			(in obj33 tru1)
+			(not (at obj33 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj33_tru1_pos12
+		:parameters ()
+		:precondition (and
+			(at tru1 pos12)
+			(at obj33 pos12)
+		)
+		:effect (and
+			(in obj33 tru1)
+			(not (at obj33 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj33_tru1_pos13
+		:parameters ()
+		:precondition (and
+			(at tru1 pos13)
+			(at obj33 pos13)
+		)
+		:effect (and
+			(in obj33 tru1)
+			(not (at obj33 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj33_tru2_apt2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(at obj33 apt2)
+		)
+		:effect (and
+			(in obj33 tru2)
+			(not (at obj33 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj33_tru2_pos21
+		:parameters ()
+		:precondition (and
+			(at tru2 pos21)
+			(at obj33 pos21)
+		)
+		:effect (and
+			(in obj33 tru2)
+			(not (at obj33 pos21))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj33_tru2_pos22
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(at obj33 pos22)
+		)
+		:effect (and
+			(in obj33 tru2)
+			(not (at obj33 pos22))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj33_tru2_pos23
+		:parameters ()
+		:precondition (and
+			(at tru2 pos23)
+			(at obj33 pos23)
+		)
+		:effect (and
+			(in obj33 tru2)
+			(not (at obj33 pos23))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj33_tru3_apt1
+		:parameters ()
+		:precondition (and
+			(at tru3 apt1)
+			(at obj33 apt1)
+		)
+		:effect (and
+			(in obj33 tru3)
+			(not (at obj33 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj33_tru3_pos11
+		:parameters ()
+		:precondition (and
+			(at obj33 pos11)
+			(at tru3 pos11)
+		)
+		:effect (and
+			(in obj33 tru3)
+			(not (at obj33 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj33_tru3_pos12
+		:parameters ()
+		:precondition (and
+			(at tru3 pos12)
+			(at obj33 pos12)
+		)
+		:effect (and
+			(in obj33 tru3)
+			(not (at obj33 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj33_tru3_pos13
+		:parameters ()
+		:precondition (and
+			(at tru3 pos13)
+			(at obj33 pos13)
+		)
+		:effect (and
+			(in obj33 tru3)
+			(not (at obj33 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj33_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(at obj33 apt1)
+		)
+		:effect (and
+			(in obj33 tru4)
+			(not (at obj33 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj33_tru4_pos11
+		:parameters ()
+		:precondition (and
+			(at obj33 pos11)
+			(at tru4 pos11)
+		)
+		:effect (and
+			(in obj33 tru4)
+			(not (at obj33 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj33_tru4_pos12
+		:parameters ()
+		:precondition (and
+			(at tru4 pos12)
+			(at obj33 pos12)
+		)
+		:effect (and
+			(in obj33 tru4)
+			(not (at obj33 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj33_tru4_pos13
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(at obj33 pos13)
+		)
+		:effect (and
+			(in obj33 tru4)
+			(not (at obj33 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj44_tru1_apt1
+		:parameters ()
+		:precondition (and
+			(at tru1 apt1)
+			(at obj44 apt1)
+		)
+		:effect (and
+			(in obj44 tru1)
+			(not (at obj44 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj44_tru1_pos11
+		:parameters ()
+		:precondition (and
+			(at tru1 pos11)
+			(at obj44 pos11)
+		)
+		:effect (and
+			(in obj44 tru1)
+			(not (at obj44 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj44_tru1_pos12
+		:parameters ()
+		:precondition (and
+			(at obj44 pos12)
+			(at tru1 pos12)
+		)
+		:effect (and
+			(in obj44 tru1)
+			(not (at obj44 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj44_tru1_pos13
+		:parameters ()
+		:precondition (and
+			(at obj44 pos13)
+			(at tru1 pos13)
+		)
+		:effect (and
+			(in obj44 tru1)
+			(not (at obj44 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj44_tru2_apt2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(at obj44 apt2)
+		)
+		:effect (and
+			(in obj44 tru2)
+			(not (at obj44 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj44_tru2_pos21
+		:parameters ()
+		:precondition (and
+			(at obj44 pos21)
+			(at tru2 pos21)
+		)
+		:effect (and
+			(in obj44 tru2)
+			(not (at obj44 pos21))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj44_tru2_pos22
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(at obj44 pos22)
+		)
+		:effect (and
+			(in obj44 tru2)
+			(not (at obj44 pos22))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj44_tru2_pos23
+		:parameters ()
+		:precondition (and
+			(at tru2 pos23)
+			(at obj44 pos23)
+		)
+		:effect (and
+			(in obj44 tru2)
+			(not (at obj44 pos23))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj44_tru3_apt1
+		:parameters ()
+		:precondition (and
+			(at tru3 apt1)
+			(at obj44 apt1)
+		)
+		:effect (and
+			(in obj44 tru3)
+			(not (at obj44 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj44_tru3_pos11
+		:parameters ()
+		:precondition (and
+			(at tru3 pos11)
+			(at obj44 pos11)
+		)
+		:effect (and
+			(in obj44 tru3)
+			(not (at obj44 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj44_tru3_pos12
+		:parameters ()
+		:precondition (and
+			(at tru3 pos12)
+			(at obj44 pos12)
+		)
+		:effect (and
+			(in obj44 tru3)
+			(not (at obj44 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj44_tru3_pos13
+		:parameters ()
+		:precondition (and
+			(at obj44 pos13)
+			(at tru3 pos13)
+		)
+		:effect (and
+			(in obj44 tru3)
+			(not (at obj44 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj44_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(at obj44 apt1)
+		)
+		:effect (and
+			(in obj44 tru4)
+			(not (at obj44 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj44_tru4_pos11
+		:parameters ()
+		:precondition (and
+			(at tru4 pos11)
+			(at obj44 pos11)
+		)
+		:effect (and
+			(in obj44 tru4)
+			(not (at obj44 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj44_tru4_pos12
+		:parameters ()
+		:precondition (and
+			(at obj44 pos12)
+			(at tru4 pos12)
+		)
+		:effect (and
+			(in obj44 tru4)
+			(not (at obj44 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj44_tru4_pos13
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(at obj44 pos13)
+		)
+		:effect (and
+			(in obj44 tru4)
+			(not (at obj44 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj55_tru1_apt1
+		:parameters ()
+		:precondition (and
+			(at tru1 apt1)
+			(at obj55 apt1)
+		)
+		:effect (and
+			(in obj55 tru1)
+			(not (at obj55 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj55_tru1_pos11
+		:parameters ()
+		:precondition (and
+			(at tru1 pos11)
+			(at obj55 pos11)
+		)
+		:effect (and
+			(in obj55 tru1)
+			(not (at obj55 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj55_tru1_pos12
+		:parameters ()
+		:precondition (and
+			(at tru1 pos12)
+			(at obj55 pos12)
+		)
+		:effect (and
+			(in obj55 tru1)
+			(not (at obj55 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj55_tru1_pos13
+		:parameters ()
+		:precondition (and
+			(at obj55 pos13)
+			(at tru1 pos13)
+		)
+		:effect (and
+			(in obj55 tru1)
+			(not (at obj55 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj55_tru2_apt2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(at obj55 apt2)
+		)
+		:effect (and
+			(in obj55 tru2)
+			(not (at obj55 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj55_tru2_pos21
+		:parameters ()
+		:precondition (and
+			(at tru2 pos21)
+			(at obj55 pos21)
+		)
+		:effect (and
+			(in obj55 tru2)
+			(not (at obj55 pos21))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj55_tru2_pos22
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(at obj55 pos22)
+		)
+		:effect (and
+			(in obj55 tru2)
+			(not (at obj55 pos22))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj55_tru2_pos23
+		:parameters ()
+		:precondition (and
+			(at tru2 pos23)
+			(at obj55 pos23)
+		)
+		:effect (and
+			(in obj55 tru2)
+			(not (at obj55 pos23))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj55_tru3_apt1
+		:parameters ()
+		:precondition (and
+			(at tru3 apt1)
+			(at obj55 apt1)
+		)
+		:effect (and
+			(in obj55 tru3)
+			(not (at obj55 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj55_tru3_pos11
+		:parameters ()
+		:precondition (and
+			(at tru3 pos11)
+			(at obj55 pos11)
+		)
+		:effect (and
+			(in obj55 tru3)
+			(not (at obj55 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj55_tru3_pos12
+		:parameters ()
+		:precondition (and
+			(at tru3 pos12)
+			(at obj55 pos12)
+		)
+		:effect (and
+			(in obj55 tru3)
+			(not (at obj55 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj55_tru3_pos13
+		:parameters ()
+		:precondition (and
+			(at obj55 pos13)
+			(at tru3 pos13)
+		)
+		:effect (and
+			(in obj55 tru3)
+			(not (at obj55 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj55_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(at obj55 apt1)
+		)
+		:effect (and
+			(in obj55 tru4)
+			(not (at obj55 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj55_tru4_pos11
+		:parameters ()
+		:precondition (and
+			(at tru4 pos11)
+			(at obj55 pos11)
+		)
+		:effect (and
+			(in obj55 tru4)
+			(not (at obj55 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj55_tru4_pos12
+		:parameters ()
+		:precondition (and
+			(at tru4 pos12)
+			(at obj55 pos12)
+		)
+		:effect (and
+			(in obj55 tru4)
+			(not (at obj55 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-truck_obj55_tru4_pos13
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(at obj55 pos13)
+		)
+		:effect (and
+			(in obj55 tru4)
+			(not (at obj55 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj11_apn1_apt1
+		:parameters ()
+		:precondition (and
+			(at obj11 apt1)
+			(at apn1 apt1)
+		)
+		:effect (and
+			(in obj11 apn1)
+			(not (at obj11 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj11_apn1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn1 apt2)
+			(at obj11 apt2)
+		)
+		:effect (and
+			(in obj11 apn1)
+			(not (at obj11 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj11_apn1_apt3
+		:parameters ()
+		:precondition (and
+			(at obj11 apt3)
+			(at apn1 apt3)
+		)
+		:effect (and
+			(in obj11 apn1)
+			(not (at obj11 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj11_apn1_apt4
+		:parameters ()
+		:precondition (and
+			(at obj11 apt4)
+			(at apn1 apt4)
+		)
+		:effect (and
+			(in obj11 apn1)
+			(not (at obj11 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj11_apn2_apt1
+		:parameters ()
+		:precondition (and
+			(at apn2 apt1)
+			(at obj11 apt1)
+		)
+		:effect (and
+			(in obj11 apn2)
+			(not (at obj11 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj11_apn2_apt2
+		:parameters ()
+		:precondition (and
+			(at obj11 apt2)
+			(at apn2 apt2)
+		)
+		:effect (and
+			(in obj11 apn2)
+			(not (at obj11 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj11_apn2_apt3
+		:parameters ()
+		:precondition (and
+			(at obj11 apt3)
+			(at apn2 apt3)
+		)
+		:effect (and
+			(in obj11 apn2)
+			(not (at obj11 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj11_apn2_apt4
+		:parameters ()
+		:precondition (and
+			(at obj11 apt4)
+			(at apn2 apt4)
+		)
+		:effect (and
+			(in obj11 apn2)
+			(not (at obj11 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj11_apn3_apt1
+		:parameters ()
+		:precondition (and
+			(at apn3 apt1)
+			(at obj11 apt1)
+		)
+		:effect (and
+			(in obj11 apn3)
+			(not (at obj11 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj11_apn3_apt2
+		:parameters ()
+		:precondition (and
+			(at obj11 apt2)
+			(at apn3 apt2)
+		)
+		:effect (and
+			(in obj11 apn3)
+			(not (at obj11 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj11_apn3_apt3
+		:parameters ()
+		:precondition (and
+			(at obj11 apt3)
+			(at apn3 apt3)
+		)
+		:effect (and
+			(in obj11 apn3)
+			(not (at obj11 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj11_apn3_apt4
+		:parameters ()
+		:precondition (and
+			(at obj11 apt4)
+			(at apn3 apt4)
+		)
+		:effect (and
+			(in obj11 apn3)
+			(not (at obj11 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj12_apn1_apt1
+		:parameters ()
+		:precondition (and
+			(at obj12 apt1)
+			(at apn1 apt1)
+		)
+		:effect (and
+			(in obj12 apn1)
+			(not (at obj12 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj12_apn1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn1 apt2)
+			(at obj12 apt2)
+		)
+		:effect (and
+			(in obj12 apn1)
+			(not (at obj12 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj12_apn1_apt3
+		:parameters ()
+		:precondition (and
+			(at obj12 apt3)
+			(at apn1 apt3)
+		)
+		:effect (and
+			(in obj12 apn1)
+			(not (at obj12 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj12_apn1_apt4
+		:parameters ()
+		:precondition (and
+			(at obj12 apt4)
+			(at apn1 apt4)
+		)
+		:effect (and
+			(in obj12 apn1)
+			(not (at obj12 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj12_apn2_apt1
+		:parameters ()
+		:precondition (and
+			(at apn2 apt1)
+			(at obj12 apt1)
+		)
+		:effect (and
+			(in obj12 apn2)
+			(not (at obj12 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj12_apn2_apt2
+		:parameters ()
+		:precondition (and
+			(at obj12 apt2)
+			(at apn2 apt2)
+		)
+		:effect (and
+			(in obj12 apn2)
+			(not (at obj12 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj12_apn2_apt3
+		:parameters ()
+		:precondition (and
+			(at obj12 apt3)
+			(at apn2 apt3)
+		)
+		:effect (and
+			(in obj12 apn2)
+			(not (at obj12 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj12_apn2_apt4
+		:parameters ()
+		:precondition (and
+			(at obj12 apt4)
+			(at apn2 apt4)
+		)
+		:effect (and
+			(in obj12 apn2)
+			(not (at obj12 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj12_apn3_apt1
+		:parameters ()
+		:precondition (and
+			(at apn3 apt1)
+			(at obj12 apt1)
+		)
+		:effect (and
+			(in obj12 apn3)
+			(not (at obj12 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj12_apn3_apt2
+		:parameters ()
+		:precondition (and
+			(at obj12 apt2)
+			(at apn3 apt2)
+		)
+		:effect (and
+			(in obj12 apn3)
+			(not (at obj12 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj12_apn3_apt3
+		:parameters ()
+		:precondition (and
+			(at obj12 apt3)
+			(at apn3 apt3)
+		)
+		:effect (and
+			(in obj12 apn3)
+			(not (at obj12 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj12_apn3_apt4
+		:parameters ()
+		:precondition (and
+			(at obj12 apt4)
+			(at apn3 apt4)
+		)
+		:effect (and
+			(in obj12 apn3)
+			(not (at obj12 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj13_apn1_apt1
+		:parameters ()
+		:precondition (and
+			(at obj13 apt1)
+			(at apn1 apt1)
+		)
+		:effect (and
+			(in obj13 apn1)
+			(not (at obj13 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj13_apn1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn1 apt2)
+			(at obj13 apt2)
+		)
+		:effect (and
+			(in obj13 apn1)
+			(not (at obj13 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj13_apn1_apt3
+		:parameters ()
+		:precondition (and
+			(at obj13 apt3)
+			(at apn1 apt3)
+		)
+		:effect (and
+			(in obj13 apn1)
+			(not (at obj13 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj13_apn1_apt4
+		:parameters ()
+		:precondition (and
+			(at obj13 apt4)
+			(at apn1 apt4)
+		)
+		:effect (and
+			(in obj13 apn1)
+			(not (at obj13 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj13_apn2_apt1
+		:parameters ()
+		:precondition (and
+			(at apn2 apt1)
+			(at obj13 apt1)
+		)
+		:effect (and
+			(in obj13 apn2)
+			(not (at obj13 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj13_apn2_apt2
+		:parameters ()
+		:precondition (and
+			(at obj13 apt2)
+			(at apn2 apt2)
+		)
+		:effect (and
+			(in obj13 apn2)
+			(not (at obj13 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj13_apn2_apt3
+		:parameters ()
+		:precondition (and
+			(at obj13 apt3)
+			(at apn2 apt3)
+		)
+		:effect (and
+			(in obj13 apn2)
+			(not (at obj13 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj13_apn2_apt4
+		:parameters ()
+		:precondition (and
+			(at obj13 apt4)
+			(at apn2 apt4)
+		)
+		:effect (and
+			(in obj13 apn2)
+			(not (at obj13 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj13_apn3_apt1
+		:parameters ()
+		:precondition (and
+			(at apn3 apt1)
+			(at obj13 apt1)
+		)
+		:effect (and
+			(in obj13 apn3)
+			(not (at obj13 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj13_apn3_apt2
+		:parameters ()
+		:precondition (and
+			(at obj13 apt2)
+			(at apn3 apt2)
+		)
+		:effect (and
+			(in obj13 apn3)
+			(not (at obj13 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj13_apn3_apt3
+		:parameters ()
+		:precondition (and
+			(at obj13 apt3)
+			(at apn3 apt3)
+		)
+		:effect (and
+			(in obj13 apn3)
+			(not (at obj13 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj13_apn3_apt4
+		:parameters ()
+		:precondition (and
+			(at obj13 apt4)
+			(at apn3 apt4)
+		)
+		:effect (and
+			(in obj13 apn3)
+			(not (at obj13 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj21_apn1_apt1
+		:parameters ()
+		:precondition (and
+			(at obj21 apt1)
+			(at apn1 apt1)
+		)
+		:effect (and
+			(in obj21 apn1)
+			(not (at obj21 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj21_apn1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn1 apt2)
+			(at obj21 apt2)
+		)
+		:effect (and
+			(in obj21 apn1)
+			(not (at obj21 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj21_apn1_apt3
+		:parameters ()
+		:precondition (and
+			(at obj21 apt3)
+			(at apn1 apt3)
+		)
+		:effect (and
+			(in obj21 apn1)
+			(not (at obj21 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj21_apn1_apt4
+		:parameters ()
+		:precondition (and
+			(at obj21 apt4)
+			(at apn1 apt4)
+		)
+		:effect (and
+			(in obj21 apn1)
+			(not (at obj21 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj21_apn2_apt1
+		:parameters ()
+		:precondition (and
+			(at apn2 apt1)
+			(at obj21 apt1)
+		)
+		:effect (and
+			(in obj21 apn2)
+			(not (at obj21 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj21_apn2_apt2
+		:parameters ()
+		:precondition (and
+			(at obj21 apt2)
+			(at apn2 apt2)
+		)
+		:effect (and
+			(in obj21 apn2)
+			(not (at obj21 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj21_apn2_apt3
+		:parameters ()
+		:precondition (and
+			(at obj21 apt3)
+			(at apn2 apt3)
+		)
+		:effect (and
+			(in obj21 apn2)
+			(not (at obj21 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj21_apn2_apt4
+		:parameters ()
+		:precondition (and
+			(at obj21 apt4)
+			(at apn2 apt4)
+		)
+		:effect (and
+			(in obj21 apn2)
+			(not (at obj21 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj21_apn3_apt1
+		:parameters ()
+		:precondition (and
+			(at apn3 apt1)
+			(at obj21 apt1)
+		)
+		:effect (and
+			(in obj21 apn3)
+			(not (at obj21 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj21_apn3_apt2
+		:parameters ()
+		:precondition (and
+			(at obj21 apt2)
+			(at apn3 apt2)
+		)
+		:effect (and
+			(in obj21 apn3)
+			(not (at obj21 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj21_apn3_apt3
+		:parameters ()
+		:precondition (and
+			(at obj21 apt3)
+			(at apn3 apt3)
+		)
+		:effect (and
+			(in obj21 apn3)
+			(not (at obj21 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj21_apn3_apt4
+		:parameters ()
+		:precondition (and
+			(at obj21 apt4)
+			(at apn3 apt4)
+		)
+		:effect (and
+			(in obj21 apn3)
+			(not (at obj21 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj22_apn1_apt1
+		:parameters ()
+		:precondition (and
+			(at obj22 apt1)
+			(at apn1 apt1)
+		)
+		:effect (and
+			(in obj22 apn1)
+			(not (at obj22 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj22_apn1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn1 apt2)
+			(at obj22 apt2)
+		)
+		:effect (and
+			(in obj22 apn1)
+			(not (at obj22 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj22_apn1_apt3
+		:parameters ()
+		:precondition (and
+			(at obj22 apt3)
+			(at apn1 apt3)
+		)
+		:effect (and
+			(in obj22 apn1)
+			(not (at obj22 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj22_apn1_apt4
+		:parameters ()
+		:precondition (and
+			(at obj22 apt4)
+			(at apn1 apt4)
+		)
+		:effect (and
+			(in obj22 apn1)
+			(not (at obj22 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj22_apn2_apt1
+		:parameters ()
+		:precondition (and
+			(at apn2 apt1)
+			(at obj22 apt1)
+		)
+		:effect (and
+			(in obj22 apn2)
+			(not (at obj22 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj22_apn2_apt2
+		:parameters ()
+		:precondition (and
+			(at obj22 apt2)
+			(at apn2 apt2)
+		)
+		:effect (and
+			(in obj22 apn2)
+			(not (at obj22 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj22_apn2_apt3
+		:parameters ()
+		:precondition (and
+			(at obj22 apt3)
+			(at apn2 apt3)
+		)
+		:effect (and
+			(in obj22 apn2)
+			(not (at obj22 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj22_apn2_apt4
+		:parameters ()
+		:precondition (and
+			(at obj22 apt4)
+			(at apn2 apt4)
+		)
+		:effect (and
+			(in obj22 apn2)
+			(not (at obj22 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj22_apn3_apt1
+		:parameters ()
+		:precondition (and
+			(at apn3 apt1)
+			(at obj22 apt1)
+		)
+		:effect (and
+			(in obj22 apn3)
+			(not (at obj22 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj22_apn3_apt2
+		:parameters ()
+		:precondition (and
+			(at obj22 apt2)
+			(at apn3 apt2)
+		)
+		:effect (and
+			(in obj22 apn3)
+			(not (at obj22 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj22_apn3_apt3
+		:parameters ()
+		:precondition (and
+			(at obj22 apt3)
+			(at apn3 apt3)
+		)
+		:effect (and
+			(in obj22 apn3)
+			(not (at obj22 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj22_apn3_apt4
+		:parameters ()
+		:precondition (and
+			(at obj22 apt4)
+			(at apn3 apt4)
+		)
+		:effect (and
+			(in obj22 apn3)
+			(not (at obj22 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj23_apn1_apt1
+		:parameters ()
+		:precondition (and
+			(at obj23 apt1)
+			(at apn1 apt1)
+		)
+		:effect (and
+			(in obj23 apn1)
+			(not (at obj23 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj23_apn1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn1 apt2)
+			(at obj23 apt2)
+		)
+		:effect (and
+			(in obj23 apn1)
+			(not (at obj23 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj23_apn1_apt3
+		:parameters ()
+		:precondition (and
+			(at obj23 apt3)
+			(at apn1 apt3)
+		)
+		:effect (and
+			(in obj23 apn1)
+			(not (at obj23 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj23_apn1_apt4
+		:parameters ()
+		:precondition (and
+			(at obj23 apt4)
+			(at apn1 apt4)
+		)
+		:effect (and
+			(in obj23 apn1)
+			(not (at obj23 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj23_apn2_apt1
+		:parameters ()
+		:precondition (and
+			(at apn2 apt1)
+			(at obj23 apt1)
+		)
+		:effect (and
+			(in obj23 apn2)
+			(not (at obj23 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj23_apn2_apt2
+		:parameters ()
+		:precondition (and
+			(at obj23 apt2)
+			(at apn2 apt2)
+		)
+		:effect (and
+			(in obj23 apn2)
+			(not (at obj23 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj23_apn2_apt3
+		:parameters ()
+		:precondition (and
+			(at obj23 apt3)
+			(at apn2 apt3)
+		)
+		:effect (and
+			(in obj23 apn2)
+			(not (at obj23 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj23_apn2_apt4
+		:parameters ()
+		:precondition (and
+			(at obj23 apt4)
+			(at apn2 apt4)
+		)
+		:effect (and
+			(in obj23 apn2)
+			(not (at obj23 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj23_apn3_apt1
+		:parameters ()
+		:precondition (and
+			(at apn3 apt1)
+			(at obj23 apt1)
+		)
+		:effect (and
+			(in obj23 apn3)
+			(not (at obj23 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj23_apn3_apt2
+		:parameters ()
+		:precondition (and
+			(at obj23 apt2)
+			(at apn3 apt2)
+		)
+		:effect (and
+			(in obj23 apn3)
+			(not (at obj23 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj23_apn3_apt3
+		:parameters ()
+		:precondition (and
+			(at obj23 apt3)
+			(at apn3 apt3)
+		)
+		:effect (and
+			(in obj23 apn3)
+			(not (at obj23 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj23_apn3_apt4
+		:parameters ()
+		:precondition (and
+			(at obj23 apt4)
+			(at apn3 apt4)
+		)
+		:effect (and
+			(in obj23 apn3)
+			(not (at obj23 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj33_apn1_apt1
+		:parameters ()
+		:precondition (and
+			(at obj33 apt1)
+			(at apn1 apt1)
+		)
+		:effect (and
+			(in obj33 apn1)
+			(not (at obj33 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj33_apn1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn1 apt2)
+			(at obj33 apt2)
+		)
+		:effect (and
+			(in obj33 apn1)
+			(not (at obj33 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj33_apn1_apt3
+		:parameters ()
+		:precondition (and
+			(at obj33 apt3)
+			(at apn1 apt3)
+		)
+		:effect (and
+			(in obj33 apn1)
+			(not (at obj33 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj33_apn1_apt4
+		:parameters ()
+		:precondition (and
+			(at obj33 apt4)
+			(at apn1 apt4)
+		)
+		:effect (and
+			(in obj33 apn1)
+			(not (at obj33 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj33_apn2_apt1
+		:parameters ()
+		:precondition (and
+			(at apn2 apt1)
+			(at obj33 apt1)
+		)
+		:effect (and
+			(in obj33 apn2)
+			(not (at obj33 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj33_apn2_apt2
+		:parameters ()
+		:precondition (and
+			(at obj33 apt2)
+			(at apn2 apt2)
+		)
+		:effect (and
+			(in obj33 apn2)
+			(not (at obj33 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj33_apn2_apt3
+		:parameters ()
+		:precondition (and
+			(at obj33 apt3)
+			(at apn2 apt3)
+		)
+		:effect (and
+			(in obj33 apn2)
+			(not (at obj33 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj33_apn2_apt4
+		:parameters ()
+		:precondition (and
+			(at obj33 apt4)
+			(at apn2 apt4)
+		)
+		:effect (and
+			(in obj33 apn2)
+			(not (at obj33 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj33_apn3_apt1
+		:parameters ()
+		:precondition (and
+			(at apn3 apt1)
+			(at obj33 apt1)
+		)
+		:effect (and
+			(in obj33 apn3)
+			(not (at obj33 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj33_apn3_apt2
+		:parameters ()
+		:precondition (and
+			(at obj33 apt2)
+			(at apn3 apt2)
+		)
+		:effect (and
+			(in obj33 apn3)
+			(not (at obj33 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj33_apn3_apt3
+		:parameters ()
+		:precondition (and
+			(at obj33 apt3)
+			(at apn3 apt3)
+		)
+		:effect (and
+			(in obj33 apn3)
+			(not (at obj33 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj33_apn3_apt4
+		:parameters ()
+		:precondition (and
+			(at obj33 apt4)
+			(at apn3 apt4)
+		)
+		:effect (and
+			(in obj33 apn3)
+			(not (at obj33 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj44_apn1_apt1
+		:parameters ()
+		:precondition (and
+			(at obj44 apt1)
+			(at apn1 apt1)
+		)
+		:effect (and
+			(in obj44 apn1)
+			(not (at obj44 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj44_apn1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn1 apt2)
+			(at obj44 apt2)
+		)
+		:effect (and
+			(in obj44 apn1)
+			(not (at obj44 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj44_apn1_apt3
+		:parameters ()
+		:precondition (and
+			(at obj44 apt3)
+			(at apn1 apt3)
+		)
+		:effect (and
+			(in obj44 apn1)
+			(not (at obj44 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj44_apn1_apt4
+		:parameters ()
+		:precondition (and
+			(at obj44 apt4)
+			(at apn1 apt4)
+		)
+		:effect (and
+			(in obj44 apn1)
+			(not (at obj44 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj44_apn2_apt1
+		:parameters ()
+		:precondition (and
+			(at apn2 apt1)
+			(at obj44 apt1)
+		)
+		:effect (and
+			(in obj44 apn2)
+			(not (at obj44 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj44_apn2_apt2
+		:parameters ()
+		:precondition (and
+			(at obj44 apt2)
+			(at apn2 apt2)
+		)
+		:effect (and
+			(in obj44 apn2)
+			(not (at obj44 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj44_apn2_apt3
+		:parameters ()
+		:precondition (and
+			(at obj44 apt3)
+			(at apn2 apt3)
+		)
+		:effect (and
+			(in obj44 apn2)
+			(not (at obj44 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj44_apn2_apt4
+		:parameters ()
+		:precondition (and
+			(at obj44 apt4)
+			(at apn2 apt4)
+		)
+		:effect (and
+			(in obj44 apn2)
+			(not (at obj44 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj44_apn3_apt1
+		:parameters ()
+		:precondition (and
+			(at apn3 apt1)
+			(at obj44 apt1)
+		)
+		:effect (and
+			(in obj44 apn3)
+			(not (at obj44 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj44_apn3_apt2
+		:parameters ()
+		:precondition (and
+			(at obj44 apt2)
+			(at apn3 apt2)
+		)
+		:effect (and
+			(in obj44 apn3)
+			(not (at obj44 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj44_apn3_apt3
+		:parameters ()
+		:precondition (and
+			(at obj44 apt3)
+			(at apn3 apt3)
+		)
+		:effect (and
+			(in obj44 apn3)
+			(not (at obj44 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj44_apn3_apt4
+		:parameters ()
+		:precondition (and
+			(at obj44 apt4)
+			(at apn3 apt4)
+		)
+		:effect (and
+			(in obj44 apn3)
+			(not (at obj44 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj55_apn1_apt1
+		:parameters ()
+		:precondition (and
+			(at obj55 apt1)
+			(at apn1 apt1)
+		)
+		:effect (and
+			(in obj55 apn1)
+			(not (at obj55 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj55_apn1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn1 apt2)
+			(at obj55 apt2)
+		)
+		:effect (and
+			(in obj55 apn1)
+			(not (at obj55 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj55_apn1_apt3
+		:parameters ()
+		:precondition (and
+			(at obj55 apt3)
+			(at apn1 apt3)
+		)
+		:effect (and
+			(in obj55 apn1)
+			(not (at obj55 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj55_apn1_apt4
+		:parameters ()
+		:precondition (and
+			(at obj55 apt4)
+			(at apn1 apt4)
+		)
+		:effect (and
+			(in obj55 apn1)
+			(not (at obj55 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj55_apn2_apt1
+		:parameters ()
+		:precondition (and
+			(at apn2 apt1)
+			(at obj55 apt1)
+		)
+		:effect (and
+			(in obj55 apn2)
+			(not (at obj55 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj55_apn2_apt2
+		:parameters ()
+		:precondition (and
+			(at obj55 apt2)
+			(at apn2 apt2)
+		)
+		:effect (and
+			(in obj55 apn2)
+			(not (at obj55 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj55_apn2_apt3
+		:parameters ()
+		:precondition (and
+			(at obj55 apt3)
+			(at apn2 apt3)
+		)
+		:effect (and
+			(in obj55 apn2)
+			(not (at obj55 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj55_apn2_apt4
+		:parameters ()
+		:precondition (and
+			(at obj55 apt4)
+			(at apn2 apt4)
+		)
+		:effect (and
+			(in obj55 apn2)
+			(not (at obj55 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj55_apn3_apt1
+		:parameters ()
+		:precondition (and
+			(at apn3 apt1)
+			(at obj55 apt1)
+		)
+		:effect (and
+			(in obj55 apn3)
+			(not (at obj55 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj55_apn3_apt2
+		:parameters ()
+		:precondition (and
+			(at obj55 apt2)
+			(at apn3 apt2)
+		)
+		:effect (and
+			(in obj55 apn3)
+			(not (at obj55 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj55_apn3_apt3
+		:parameters ()
+		:precondition (and
+			(at obj55 apt3)
+			(at apn3 apt3)
+		)
+		:effect (and
+			(in obj55 apn3)
+			(not (at obj55 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action load-airplane_obj55_apn3_apt4
+		:parameters ()
+		:precondition (and
+			(at obj55 apt4)
+			(at apn3 apt4)
+		)
+		:effect (and
+			(in obj55 apn3)
+			(not (at obj55 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj11_tru1_apt1
+		:parameters ()
+		:precondition (and
+			(at tru1 apt1)
+			(in obj11 tru1)
+		)
+		:effect (and
+			(at obj11 apt1)
+			(not (in obj11 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj11_tru1_pos11
+		:parameters ()
+		:precondition (and
+			(at tru1 pos11)
+			(in obj11 tru1)
+		)
+		:effect (and
+			(at obj11 pos11)
+			(not (in obj11 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj11_tru1_pos12
+		:parameters ()
+		:precondition (and
+			(at tru1 pos12)
+			(in obj11 tru1)
+		)
+		:effect (and
+			(at obj11 pos12)
+			(not (in obj11 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj11_tru1_pos13
+		:parameters ()
+		:precondition (and
+			(at tru1 pos13)
+			(in obj11 tru1)
+		)
+		:effect (and
+			(at obj11 pos13)
+			(not (in obj11 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj11_tru2_apt2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(in obj11 tru2)
+		)
+		:effect (and
+			(at obj11 apt2)
+			(not (in obj11 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj11_tru2_pos21
+		:parameters ()
+		:precondition (and
+			(at tru2 pos21)
+			(in obj11 tru2)
+		)
+		:effect (and
+			(at obj11 pos21)
+			(not (in obj11 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj11_tru2_pos22
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(in obj11 tru2)
+		)
+		:effect (and
+			(at obj11 pos22)
+			(not (in obj11 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj11_tru2_pos23
+		:parameters ()
+		:precondition (and
+			(at tru2 pos23)
+			(in obj11 tru2)
+		)
+		:effect (and
+			(at obj11 pos23)
+			(not (in obj11 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj11_tru3_apt1
+		:parameters ()
+		:precondition (and
+			(at tru3 apt1)
+			(in obj11 tru3)
+		)
+		:effect (and
+			(at obj11 apt1)
+			(not (in obj11 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj11_tru3_pos11
+		:parameters ()
+		:precondition (and
+			(at tru3 pos11)
+			(in obj11 tru3)
+		)
+		:effect (and
+			(at obj11 pos11)
+			(not (in obj11 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj11_tru3_pos12
+		:parameters ()
+		:precondition (and
+			(at tru3 pos12)
+			(in obj11 tru3)
+		)
+		:effect (and
+			(at obj11 pos12)
+			(not (in obj11 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj11_tru3_pos13
+		:parameters ()
+		:precondition (and
+			(at tru3 pos13)
+			(in obj11 tru3)
+		)
+		:effect (and
+			(at obj11 pos13)
+			(not (in obj11 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj11_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(in obj11 tru4)
+		)
+		:effect (and
+			(at obj11 apt1)
+			(not (in obj11 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj11_tru4_pos11
+		:parameters ()
+		:precondition (and
+			(at tru4 pos11)
+			(in obj11 tru4)
+		)
+		:effect (and
+			(at obj11 pos11)
+			(not (in obj11 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj11_tru4_pos12
+		:parameters ()
+		:precondition (and
+			(at tru4 pos12)
+			(in obj11 tru4)
+		)
+		:effect (and
+			(at obj11 pos12)
+			(not (in obj11 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj11_tru4_pos13
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(in obj11 tru4)
+		)
+		:effect (and
+			(at obj11 pos13)
+			(not (in obj11 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj12_tru1_apt1
+		:parameters ()
+		:precondition (and
+			(at tru1 apt1)
+			(in obj12 tru1)
+		)
+		:effect (and
+			(at obj12 apt1)
+			(not (in obj12 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj12_tru1_pos11
+		:parameters ()
+		:precondition (and
+			(at tru1 pos11)
+			(in obj12 tru1)
+		)
+		:effect (and
+			(at obj12 pos11)
+			(not (in obj12 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj12_tru1_pos12
+		:parameters ()
+		:precondition (and
+			(at tru1 pos12)
+			(in obj12 tru1)
+		)
+		:effect (and
+			(at obj12 pos12)
+			(not (in obj12 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj12_tru1_pos13
+		:parameters ()
+		:precondition (and
+			(at tru1 pos13)
+			(in obj12 tru1)
+		)
+		:effect (and
+			(at obj12 pos13)
+			(not (in obj12 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj12_tru2_apt2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(in obj12 tru2)
+		)
+		:effect (and
+			(at obj12 apt2)
+			(not (in obj12 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj12_tru2_pos21
+		:parameters ()
+		:precondition (and
+			(at tru2 pos21)
+			(in obj12 tru2)
+		)
+		:effect (and
+			(at obj12 pos21)
+			(not (in obj12 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj12_tru2_pos22
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(in obj12 tru2)
+		)
+		:effect (and
+			(at obj12 pos22)
+			(not (in obj12 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj12_tru2_pos23
+		:parameters ()
+		:precondition (and
+			(at tru2 pos23)
+			(in obj12 tru2)
+		)
+		:effect (and
+			(at obj12 pos23)
+			(not (in obj12 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj12_tru3_apt1
+		:parameters ()
+		:precondition (and
+			(at tru3 apt1)
+			(in obj12 tru3)
+		)
+		:effect (and
+			(at obj12 apt1)
+			(not (in obj12 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj12_tru3_pos11
+		:parameters ()
+		:precondition (and
+			(at tru3 pos11)
+			(in obj12 tru3)
+		)
+		:effect (and
+			(at obj12 pos11)
+			(not (in obj12 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj12_tru3_pos12
+		:parameters ()
+		:precondition (and
+			(at tru3 pos12)
+			(in obj12 tru3)
+		)
+		:effect (and
+			(at obj12 pos12)
+			(not (in obj12 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj12_tru3_pos13
+		:parameters ()
+		:precondition (and
+			(at tru3 pos13)
+			(in obj12 tru3)
+		)
+		:effect (and
+			(at obj12 pos13)
+			(not (in obj12 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj12_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(in obj12 tru4)
+		)
+		:effect (and
+			(at obj12 apt1)
+			(not (in obj12 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj12_tru4_pos11
+		:parameters ()
+		:precondition (and
+			(at tru4 pos11)
+			(in obj12 tru4)
+		)
+		:effect (and
+			(at obj12 pos11)
+			(not (in obj12 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj12_tru4_pos12
+		:parameters ()
+		:precondition (and
+			(at tru4 pos12)
+			(in obj12 tru4)
+		)
+		:effect (and
+			(at obj12 pos12)
+			(not (in obj12 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj12_tru4_pos13
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(in obj12 tru4)
+		)
+		:effect (and
+			(at obj12 pos13)
+			(not (in obj12 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj13_tru1_apt1
+		:parameters ()
+		:precondition (and
+			(at tru1 apt1)
+			(in obj13 tru1)
+		)
+		:effect (and
+			(at obj13 apt1)
+			(not (in obj13 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj13_tru1_pos11
+		:parameters ()
+		:precondition (and
+			(at tru1 pos11)
+			(in obj13 tru1)
+		)
+		:effect (and
+			(at obj13 pos11)
+			(not (in obj13 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj13_tru1_pos12
+		:parameters ()
+		:precondition (and
+			(at tru1 pos12)
+			(in obj13 tru1)
+		)
+		:effect (and
+			(at obj13 pos12)
+			(not (in obj13 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj13_tru1_pos13
+		:parameters ()
+		:precondition (and
+			(at tru1 pos13)
+			(in obj13 tru1)
+		)
+		:effect (and
+			(at obj13 pos13)
+			(not (in obj13 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj13_tru2_apt2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(in obj13 tru2)
+		)
+		:effect (and
+			(at obj13 apt2)
+			(not (in obj13 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj13_tru2_pos21
+		:parameters ()
+		:precondition (and
+			(at tru2 pos21)
+			(in obj13 tru2)
+		)
+		:effect (and
+			(at obj13 pos21)
+			(not (in obj13 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj13_tru2_pos22
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(in obj13 tru2)
+		)
+		:effect (and
+			(at obj13 pos22)
+			(not (in obj13 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj13_tru2_pos23
+		:parameters ()
+		:precondition (and
+			(at tru2 pos23)
+			(in obj13 tru2)
+		)
+		:effect (and
+			(at obj13 pos23)
+			(not (in obj13 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj13_tru3_apt1
+		:parameters ()
+		:precondition (and
+			(at tru3 apt1)
+			(in obj13 tru3)
+		)
+		:effect (and
+			(at obj13 apt1)
+			(not (in obj13 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj13_tru3_pos11
+		:parameters ()
+		:precondition (and
+			(at tru3 pos11)
+			(in obj13 tru3)
+		)
+		:effect (and
+			(at obj13 pos11)
+			(not (in obj13 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj13_tru3_pos12
+		:parameters ()
+		:precondition (and
+			(at tru3 pos12)
+			(in obj13 tru3)
+		)
+		:effect (and
+			(at obj13 pos12)
+			(not (in obj13 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj13_tru3_pos13
+		:parameters ()
+		:precondition (and
+			(at tru3 pos13)
+			(in obj13 tru3)
+		)
+		:effect (and
+			(at obj13 pos13)
+			(not (in obj13 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj13_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(in obj13 tru4)
+		)
+		:effect (and
+			(at obj13 apt1)
+			(not (in obj13 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj13_tru4_pos11
+		:parameters ()
+		:precondition (and
+			(at tru4 pos11)
+			(in obj13 tru4)
+		)
+		:effect (and
+			(at obj13 pos11)
+			(not (in obj13 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj13_tru4_pos12
+		:parameters ()
+		:precondition (and
+			(at tru4 pos12)
+			(in obj13 tru4)
+		)
+		:effect (and
+			(at obj13 pos12)
+			(not (in obj13 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj13_tru4_pos13
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(in obj13 tru4)
+		)
+		:effect (and
+			(at obj13 pos13)
+			(not (in obj13 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj21_tru1_apt1
+		:parameters ()
+		:precondition (and
+			(at tru1 apt1)
+			(in obj21 tru1)
+		)
+		:effect (and
+			(at obj21 apt1)
+			(not (in obj21 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj21_tru1_pos11
+		:parameters ()
+		:precondition (and
+			(at tru1 pos11)
+			(in obj21 tru1)
+		)
+		:effect (and
+			(at obj21 pos11)
+			(not (in obj21 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj21_tru1_pos12
+		:parameters ()
+		:precondition (and
+			(at tru1 pos12)
+			(in obj21 tru1)
+		)
+		:effect (and
+			(at obj21 pos12)
+			(not (in obj21 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj21_tru1_pos13
+		:parameters ()
+		:precondition (and
+			(at tru1 pos13)
+			(in obj21 tru1)
+		)
+		:effect (and
+			(at obj21 pos13)
+			(not (in obj21 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj21_tru2_apt2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(in obj21 tru2)
+		)
+		:effect (and
+			(at obj21 apt2)
+			(not (in obj21 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj21_tru2_pos21
+		:parameters ()
+		:precondition (and
+			(at tru2 pos21)
+			(in obj21 tru2)
+		)
+		:effect (and
+			(at obj21 pos21)
+			(not (in obj21 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj21_tru2_pos22
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(in obj21 tru2)
+		)
+		:effect (and
+			(at obj21 pos22)
+			(not (in obj21 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj21_tru2_pos23
+		:parameters ()
+		:precondition (and
+			(at tru2 pos23)
+			(in obj21 tru2)
+		)
+		:effect (and
+			(at obj21 pos23)
+			(not (in obj21 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj21_tru3_apt1
+		:parameters ()
+		:precondition (and
+			(at tru3 apt1)
+			(in obj21 tru3)
+		)
+		:effect (and
+			(at obj21 apt1)
+			(not (in obj21 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj21_tru3_pos11
+		:parameters ()
+		:precondition (and
+			(at tru3 pos11)
+			(in obj21 tru3)
+		)
+		:effect (and
+			(at obj21 pos11)
+			(not (in obj21 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj21_tru3_pos12
+		:parameters ()
+		:precondition (and
+			(at tru3 pos12)
+			(in obj21 tru3)
+		)
+		:effect (and
+			(at obj21 pos12)
+			(not (in obj21 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj21_tru3_pos13
+		:parameters ()
+		:precondition (and
+			(at tru3 pos13)
+			(in obj21 tru3)
+		)
+		:effect (and
+			(at obj21 pos13)
+			(not (in obj21 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj21_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(in obj21 tru4)
+		)
+		:effect (and
+			(at obj21 apt1)
+			(not (in obj21 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj21_tru4_pos11
+		:parameters ()
+		:precondition (and
+			(at tru4 pos11)
+			(in obj21 tru4)
+		)
+		:effect (and
+			(at obj21 pos11)
+			(not (in obj21 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj21_tru4_pos12
+		:parameters ()
+		:precondition (and
+			(at tru4 pos12)
+			(in obj21 tru4)
+		)
+		:effect (and
+			(at obj21 pos12)
+			(not (in obj21 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj21_tru4_pos13
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(in obj21 tru4)
+		)
+		:effect (and
+			(at obj21 pos13)
+			(not (in obj21 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj22_tru1_apt1
+		:parameters ()
+		:precondition (and
+			(at tru1 apt1)
+			(in obj22 tru1)
+		)
+		:effect (and
+			(at obj22 apt1)
+			(not (in obj22 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj22_tru1_pos11
+		:parameters ()
+		:precondition (and
+			(at tru1 pos11)
+			(in obj22 tru1)
+		)
+		:effect (and
+			(at obj22 pos11)
+			(not (in obj22 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj22_tru1_pos12
+		:parameters ()
+		:precondition (and
+			(at tru1 pos12)
+			(in obj22 tru1)
+		)
+		:effect (and
+			(at obj22 pos12)
+			(not (in obj22 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj22_tru1_pos13
+		:parameters ()
+		:precondition (and
+			(at tru1 pos13)
+			(in obj22 tru1)
+		)
+		:effect (and
+			(at obj22 pos13)
+			(not (in obj22 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj22_tru2_apt2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(in obj22 tru2)
+		)
+		:effect (and
+			(at obj22 apt2)
+			(not (in obj22 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj22_tru2_pos21
+		:parameters ()
+		:precondition (and
+			(at tru2 pos21)
+			(in obj22 tru2)
+		)
+		:effect (and
+			(at obj22 pos21)
+			(not (in obj22 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj22_tru2_pos22
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(in obj22 tru2)
+		)
+		:effect (and
+			(at obj22 pos22)
+			(not (in obj22 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj22_tru2_pos23
+		:parameters ()
+		:precondition (and
+			(at tru2 pos23)
+			(in obj22 tru2)
+		)
+		:effect (and
+			(at obj22 pos23)
+			(not (in obj22 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj22_tru3_apt1
+		:parameters ()
+		:precondition (and
+			(at tru3 apt1)
+			(in obj22 tru3)
+		)
+		:effect (and
+			(at obj22 apt1)
+			(not (in obj22 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj22_tru3_pos11
+		:parameters ()
+		:precondition (and
+			(at tru3 pos11)
+			(in obj22 tru3)
+		)
+		:effect (and
+			(at obj22 pos11)
+			(not (in obj22 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj22_tru3_pos12
+		:parameters ()
+		:precondition (and
+			(at tru3 pos12)
+			(in obj22 tru3)
+		)
+		:effect (and
+			(at obj22 pos12)
+			(not (in obj22 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj22_tru3_pos13
+		:parameters ()
+		:precondition (and
+			(at tru3 pos13)
+			(in obj22 tru3)
+		)
+		:effect (and
+			(at obj22 pos13)
+			(not (in obj22 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj22_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(in obj22 tru4)
+		)
+		:effect (and
+			(at obj22 apt1)
+			(not (in obj22 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj22_tru4_pos11
+		:parameters ()
+		:precondition (and
+			(at tru4 pos11)
+			(in obj22 tru4)
+		)
+		:effect (and
+			(at obj22 pos11)
+			(not (in obj22 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj22_tru4_pos12
+		:parameters ()
+		:precondition (and
+			(at tru4 pos12)
+			(in obj22 tru4)
+		)
+		:effect (and
+			(at obj22 pos12)
+			(not (in obj22 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj22_tru4_pos13
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(in obj22 tru4)
+		)
+		:effect (and
+			(at obj22 pos13)
+			(not (in obj22 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj23_tru1_apt1
+		:parameters ()
+		:precondition (and
+			(at tru1 apt1)
+			(in obj23 tru1)
+		)
+		:effect (and
+			(at obj23 apt1)
+			(not (in obj23 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj23_tru1_pos11
+		:parameters ()
+		:precondition (and
+			(at tru1 pos11)
+			(in obj23 tru1)
+		)
+		:effect (and
+			(at obj23 pos11)
+			(not (in obj23 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj23_tru1_pos12
+		:parameters ()
+		:precondition (and
+			(at tru1 pos12)
+			(in obj23 tru1)
+		)
+		:effect (and
+			(at obj23 pos12)
+			(not (in obj23 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj23_tru1_pos13
+		:parameters ()
+		:precondition (and
+			(at tru1 pos13)
+			(in obj23 tru1)
+		)
+		:effect (and
+			(at obj23 pos13)
+			(not (in obj23 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj23_tru2_apt2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(in obj23 tru2)
+		)
+		:effect (and
+			(at obj23 apt2)
+			(not (in obj23 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj23_tru2_pos21
+		:parameters ()
+		:precondition (and
+			(at tru2 pos21)
+			(in obj23 tru2)
+		)
+		:effect (and
+			(at obj23 pos21)
+			(not (in obj23 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj23_tru2_pos22
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(in obj23 tru2)
+		)
+		:effect (and
+			(at obj23 pos22)
+			(not (in obj23 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj23_tru2_pos23
+		:parameters ()
+		:precondition (and
+			(at tru2 pos23)
+			(in obj23 tru2)
+		)
+		:effect (and
+			(at obj23 pos23)
+			(not (in obj23 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj23_tru3_apt1
+		:parameters ()
+		:precondition (and
+			(at tru3 apt1)
+			(in obj23 tru3)
+		)
+		:effect (and
+			(at obj23 apt1)
+			(not (in obj23 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj23_tru3_pos11
+		:parameters ()
+		:precondition (and
+			(at tru3 pos11)
+			(in obj23 tru3)
+		)
+		:effect (and
+			(at obj23 pos11)
+			(not (in obj23 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj23_tru3_pos12
+		:parameters ()
+		:precondition (and
+			(at tru3 pos12)
+			(in obj23 tru3)
+		)
+		:effect (and
+			(at obj23 pos12)
+			(not (in obj23 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj23_tru3_pos13
+		:parameters ()
+		:precondition (and
+			(at tru3 pos13)
+			(in obj23 tru3)
+		)
+		:effect (and
+			(at obj23 pos13)
+			(not (in obj23 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj23_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(in obj23 tru4)
+		)
+		:effect (and
+			(at obj23 apt1)
+			(not (in obj23 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj23_tru4_pos11
+		:parameters ()
+		:precondition (and
+			(at tru4 pos11)
+			(in obj23 tru4)
+		)
+		:effect (and
+			(at obj23 pos11)
+			(not (in obj23 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj23_tru4_pos12
+		:parameters ()
+		:precondition (and
+			(at tru4 pos12)
+			(in obj23 tru4)
+		)
+		:effect (and
+			(at obj23 pos12)
+			(not (in obj23 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj23_tru4_pos13
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(in obj23 tru4)
+		)
+		:effect (and
+			(at obj23 pos13)
+			(not (in obj23 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj33_tru1_apt1
+		:parameters ()
+		:precondition (and
+			(at tru1 apt1)
+			(in obj33 tru1)
+		)
+		:effect (and
+			(at obj33 apt1)
+			(not (in obj33 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj33_tru1_pos11
+		:parameters ()
+		:precondition (and
+			(at tru1 pos11)
+			(in obj33 tru1)
+		)
+		:effect (and
+			(at obj33 pos11)
+			(not (in obj33 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj33_tru1_pos12
+		:parameters ()
+		:precondition (and
+			(at tru1 pos12)
+			(in obj33 tru1)
+		)
+		:effect (and
+			(at obj33 pos12)
+			(not (in obj33 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj33_tru1_pos13
+		:parameters ()
+		:precondition (and
+			(at tru1 pos13)
+			(in obj33 tru1)
+		)
+		:effect (and
+			(at obj33 pos13)
+			(not (in obj33 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj33_tru2_apt2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(in obj33 tru2)
+		)
+		:effect (and
+			(at obj33 apt2)
+			(not (in obj33 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj33_tru2_pos21
+		:parameters ()
+		:precondition (and
+			(at tru2 pos21)
+			(in obj33 tru2)
+		)
+		:effect (and
+			(at obj33 pos21)
+			(not (in obj33 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj33_tru2_pos22
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(in obj33 tru2)
+		)
+		:effect (and
+			(at obj33 pos22)
+			(not (in obj33 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj33_tru2_pos23
+		:parameters ()
+		:precondition (and
+			(at tru2 pos23)
+			(in obj33 tru2)
+		)
+		:effect (and
+			(at obj33 pos23)
+			(not (in obj33 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj33_tru3_apt1
+		:parameters ()
+		:precondition (and
+			(at tru3 apt1)
+			(in obj33 tru3)
+		)
+		:effect (and
+			(at obj33 apt1)
+			(not (in obj33 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj33_tru3_pos11
+		:parameters ()
+		:precondition (and
+			(at tru3 pos11)
+			(in obj33 tru3)
+		)
+		:effect (and
+			(at obj33 pos11)
+			(not (in obj33 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj33_tru3_pos12
+		:parameters ()
+		:precondition (and
+			(at tru3 pos12)
+			(in obj33 tru3)
+		)
+		:effect (and
+			(at obj33 pos12)
+			(not (in obj33 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj33_tru3_pos13
+		:parameters ()
+		:precondition (and
+			(at tru3 pos13)
+			(in obj33 tru3)
+		)
+		:effect (and
+			(at obj33 pos13)
+			(not (in obj33 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj33_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(in obj33 tru4)
+		)
+		:effect (and
+			(at obj33 apt1)
+			(not (in obj33 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj33_tru4_pos11
+		:parameters ()
+		:precondition (and
+			(at tru4 pos11)
+			(in obj33 tru4)
+		)
+		:effect (and
+			(at obj33 pos11)
+			(not (in obj33 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj33_tru4_pos12
+		:parameters ()
+		:precondition (and
+			(at tru4 pos12)
+			(in obj33 tru4)
+		)
+		:effect (and
+			(at obj33 pos12)
+			(not (in obj33 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj33_tru4_pos13
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(in obj33 tru4)
+		)
+		:effect (and
+			(at obj33 pos13)
+			(not (in obj33 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj44_tru1_apt1
+		:parameters ()
+		:precondition (and
+			(at tru1 apt1)
+			(in obj44 tru1)
+		)
+		:effect (and
+			(at obj44 apt1)
+			(not (in obj44 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj44_tru1_pos11
+		:parameters ()
+		:precondition (and
+			(at tru1 pos11)
+			(in obj44 tru1)
+		)
+		:effect (and
+			(at obj44 pos11)
+			(not (in obj44 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj44_tru1_pos12
+		:parameters ()
+		:precondition (and
+			(at tru1 pos12)
+			(in obj44 tru1)
+		)
+		:effect (and
+			(at obj44 pos12)
+			(not (in obj44 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj44_tru1_pos13
+		:parameters ()
+		:precondition (and
+			(at tru1 pos13)
+			(in obj44 tru1)
+		)
+		:effect (and
+			(at obj44 pos13)
+			(not (in obj44 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj44_tru2_apt2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(in obj44 tru2)
+		)
+		:effect (and
+			(at obj44 apt2)
+			(not (in obj44 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj44_tru2_pos21
+		:parameters ()
+		:precondition (and
+			(at tru2 pos21)
+			(in obj44 tru2)
+		)
+		:effect (and
+			(at obj44 pos21)
+			(not (in obj44 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj44_tru2_pos22
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(in obj44 tru2)
+		)
+		:effect (and
+			(at obj44 pos22)
+			(not (in obj44 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj44_tru2_pos23
+		:parameters ()
+		:precondition (and
+			(at tru2 pos23)
+			(in obj44 tru2)
+		)
+		:effect (and
+			(at obj44 pos23)
+			(not (in obj44 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj44_tru3_apt1
+		:parameters ()
+		:precondition (and
+			(at tru3 apt1)
+			(in obj44 tru3)
+		)
+		:effect (and
+			(at obj44 apt1)
+			(not (in obj44 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj44_tru3_pos11
+		:parameters ()
+		:precondition (and
+			(at tru3 pos11)
+			(in obj44 tru3)
+		)
+		:effect (and
+			(at obj44 pos11)
+			(not (in obj44 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj44_tru3_pos12
+		:parameters ()
+		:precondition (and
+			(at tru3 pos12)
+			(in obj44 tru3)
+		)
+		:effect (and
+			(at obj44 pos12)
+			(not (in obj44 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj44_tru3_pos13
+		:parameters ()
+		:precondition (and
+			(at tru3 pos13)
+			(in obj44 tru3)
+		)
+		:effect (and
+			(at obj44 pos13)
+			(not (in obj44 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj44_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(in obj44 tru4)
+		)
+		:effect (and
+			(at obj44 apt1)
+			(not (in obj44 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj44_tru4_pos11
+		:parameters ()
+		:precondition (and
+			(at tru4 pos11)
+			(in obj44 tru4)
+		)
+		:effect (and
+			(at obj44 pos11)
+			(not (in obj44 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj44_tru4_pos12
+		:parameters ()
+		:precondition (and
+			(at tru4 pos12)
+			(in obj44 tru4)
+		)
+		:effect (and
+			(at obj44 pos12)
+			(not (in obj44 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj44_tru4_pos13
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(in obj44 tru4)
+		)
+		:effect (and
+			(at obj44 pos13)
+			(not (in obj44 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj55_tru1_apt1
+		:parameters ()
+		:precondition (and
+			(at tru1 apt1)
+			(in obj55 tru1)
+		)
+		:effect (and
+			(at obj55 apt1)
+			(not (in obj55 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj55_tru1_pos11
+		:parameters ()
+		:precondition (and
+			(at tru1 pos11)
+			(in obj55 tru1)
+		)
+		:effect (and
+			(at obj55 pos11)
+			(not (in obj55 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj55_tru1_pos12
+		:parameters ()
+		:precondition (and
+			(at tru1 pos12)
+			(in obj55 tru1)
+		)
+		:effect (and
+			(at obj55 pos12)
+			(not (in obj55 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj55_tru1_pos13
+		:parameters ()
+		:precondition (and
+			(at tru1 pos13)
+			(in obj55 tru1)
+		)
+		:effect (and
+			(at obj55 pos13)
+			(not (in obj55 tru1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj55_tru2_apt2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(in obj55 tru2)
+		)
+		:effect (and
+			(at obj55 apt2)
+			(not (in obj55 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj55_tru2_pos21
+		:parameters ()
+		:precondition (and
+			(at tru2 pos21)
+			(in obj55 tru2)
+		)
+		:effect (and
+			(at obj55 pos21)
+			(not (in obj55 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj55_tru2_pos22
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(in obj55 tru2)
+		)
+		:effect (and
+			(at obj55 pos22)
+			(not (in obj55 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj55_tru2_pos23
+		:parameters ()
+		:precondition (and
+			(at tru2 pos23)
+			(in obj55 tru2)
+		)
+		:effect (and
+			(at obj55 pos23)
+			(not (in obj55 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj55_tru3_apt1
+		:parameters ()
+		:precondition (and
+			(at tru3 apt1)
+			(in obj55 tru3)
+		)
+		:effect (and
+			(at obj55 apt1)
+			(not (in obj55 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj55_tru3_pos11
+		:parameters ()
+		:precondition (and
+			(at tru3 pos11)
+			(in obj55 tru3)
+		)
+		:effect (and
+			(at obj55 pos11)
+			(not (in obj55 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj55_tru3_pos12
+		:parameters ()
+		:precondition (and
+			(at tru3 pos12)
+			(in obj55 tru3)
+		)
+		:effect (and
+			(at obj55 pos12)
+			(not (in obj55 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj55_tru3_pos13
+		:parameters ()
+		:precondition (and
+			(at tru3 pos13)
+			(in obj55 tru3)
+		)
+		:effect (and
+			(at obj55 pos13)
+			(not (in obj55 tru3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj55_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(in obj55 tru4)
+		)
+		:effect (and
+			(at obj55 apt1)
+			(not (in obj55 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj55_tru4_pos11
+		:parameters ()
+		:precondition (and
+			(at tru4 pos11)
+			(in obj55 tru4)
+		)
+		:effect (and
+			(at obj55 pos11)
+			(not (in obj55 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj55_tru4_pos12
+		:parameters ()
+		:precondition (and
+			(at tru4 pos12)
+			(in obj55 tru4)
+		)
+		:effect (and
+			(at obj55 pos12)
+			(not (in obj55 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-truck_obj55_tru4_pos13
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(in obj55 tru4)
+		)
+		:effect (and
+			(at obj55 pos13)
+			(not (in obj55 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj11_apn1_apt1
+		:parameters ()
+		:precondition (and
+			(at apn1 apt1)
+			(in obj11 apn1)
+		)
+		:effect (and
+			(at obj11 apt1)
+			(not (in obj11 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj11_apn1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn1 apt2)
+			(in obj11 apn1)
+		)
+		:effect (and
+			(at obj11 apt2)
+			(not (in obj11 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj11_apn1_apt3
+		:parameters ()
+		:precondition (and
+			(at apn1 apt3)
+			(in obj11 apn1)
+		)
+		:effect (and
+			(at obj11 apt3)
+			(not (in obj11 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj11_apn1_apt4
+		:parameters ()
+		:precondition (and
+			(at apn1 apt4)
+			(in obj11 apn1)
+		)
+		:effect (and
+			(at obj11 apt4)
+			(not (in obj11 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj11_apn2_apt1
+		:parameters ()
+		:precondition (and
+			(at apn2 apt1)
+			(in obj11 apn2)
+		)
+		:effect (and
+			(at obj11 apt1)
+			(not (in obj11 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj11_apn2_apt2
+		:parameters ()
+		:precondition (and
+			(at apn2 apt2)
+			(in obj11 apn2)
+		)
+		:effect (and
+			(at obj11 apt2)
+			(not (in obj11 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj11_apn2_apt3
+		:parameters ()
+		:precondition (and
+			(at apn2 apt3)
+			(in obj11 apn2)
+		)
+		:effect (and
+			(at obj11 apt3)
+			(not (in obj11 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj11_apn2_apt4
+		:parameters ()
+		:precondition (and
+			(at apn2 apt4)
+			(in obj11 apn2)
+		)
+		:effect (and
+			(at obj11 apt4)
+			(not (in obj11 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj11_apn3_apt1
+		:parameters ()
+		:precondition (and
+			(at apn3 apt1)
+			(in obj11 apn3)
+		)
+		:effect (and
+			(at obj11 apt1)
+			(not (in obj11 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj11_apn3_apt2
+		:parameters ()
+		:precondition (and
+			(at apn3 apt2)
+			(in obj11 apn3)
+		)
+		:effect (and
+			(at obj11 apt2)
+			(not (in obj11 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj11_apn3_apt3
+		:parameters ()
+		:precondition (and
+			(at apn3 apt3)
+			(in obj11 apn3)
+		)
+		:effect (and
+			(at obj11 apt3)
+			(not (in obj11 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj11_apn3_apt4
+		:parameters ()
+		:precondition (and
+			(at apn3 apt4)
+			(in obj11 apn3)
+		)
+		:effect (and
+			(at obj11 apt4)
+			(not (in obj11 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj12_apn1_apt1
+		:parameters ()
+		:precondition (and
+			(at apn1 apt1)
+			(in obj12 apn1)
+		)
+		:effect (and
+			(at obj12 apt1)
+			(not (in obj12 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj12_apn1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn1 apt2)
+			(in obj12 apn1)
+		)
+		:effect (and
+			(at obj12 apt2)
+			(not (in obj12 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj12_apn1_apt3
+		:parameters ()
+		:precondition (and
+			(at apn1 apt3)
+			(in obj12 apn1)
+		)
+		:effect (and
+			(at obj12 apt3)
+			(not (in obj12 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj12_apn1_apt4
+		:parameters ()
+		:precondition (and
+			(at apn1 apt4)
+			(in obj12 apn1)
+		)
+		:effect (and
+			(at obj12 apt4)
+			(not (in obj12 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj12_apn2_apt1
+		:parameters ()
+		:precondition (and
+			(at apn2 apt1)
+			(in obj12 apn2)
+		)
+		:effect (and
+			(at obj12 apt1)
+			(not (in obj12 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj12_apn2_apt2
+		:parameters ()
+		:precondition (and
+			(at apn2 apt2)
+			(in obj12 apn2)
+		)
+		:effect (and
+			(at obj12 apt2)
+			(not (in obj12 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj12_apn2_apt3
+		:parameters ()
+		:precondition (and
+			(at apn2 apt3)
+			(in obj12 apn2)
+		)
+		:effect (and
+			(at obj12 apt3)
+			(not (in obj12 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj12_apn2_apt4
+		:parameters ()
+		:precondition (and
+			(at apn2 apt4)
+			(in obj12 apn2)
+		)
+		:effect (and
+			(at obj12 apt4)
+			(not (in obj12 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj12_apn3_apt1
+		:parameters ()
+		:precondition (and
+			(at apn3 apt1)
+			(in obj12 apn3)
+		)
+		:effect (and
+			(at obj12 apt1)
+			(not (in obj12 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj12_apn3_apt2
+		:parameters ()
+		:precondition (and
+			(at apn3 apt2)
+			(in obj12 apn3)
+		)
+		:effect (and
+			(at obj12 apt2)
+			(not (in obj12 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj12_apn3_apt3
+		:parameters ()
+		:precondition (and
+			(at apn3 apt3)
+			(in obj12 apn3)
+		)
+		:effect (and
+			(at obj12 apt3)
+			(not (in obj12 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj12_apn3_apt4
+		:parameters ()
+		:precondition (and
+			(at apn3 apt4)
+			(in obj12 apn3)
+		)
+		:effect (and
+			(at obj12 apt4)
+			(not (in obj12 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj13_apn1_apt1
+		:parameters ()
+		:precondition (and
+			(at apn1 apt1)
+			(in obj13 apn1)
+		)
+		:effect (and
+			(at obj13 apt1)
+			(not (in obj13 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj13_apn1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn1 apt2)
+			(in obj13 apn1)
+		)
+		:effect (and
+			(at obj13 apt2)
+			(not (in obj13 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj13_apn1_apt3
+		:parameters ()
+		:precondition (and
+			(at apn1 apt3)
+			(in obj13 apn1)
+		)
+		:effect (and
+			(at obj13 apt3)
+			(not (in obj13 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj13_apn1_apt4
+		:parameters ()
+		:precondition (and
+			(at apn1 apt4)
+			(in obj13 apn1)
+		)
+		:effect (and
+			(at obj13 apt4)
+			(not (in obj13 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj13_apn2_apt1
+		:parameters ()
+		:precondition (and
+			(at apn2 apt1)
+			(in obj13 apn2)
+		)
+		:effect (and
+			(at obj13 apt1)
+			(not (in obj13 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj13_apn2_apt2
+		:parameters ()
+		:precondition (and
+			(at apn2 apt2)
+			(in obj13 apn2)
+		)
+		:effect (and
+			(at obj13 apt2)
+			(not (in obj13 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj13_apn2_apt3
+		:parameters ()
+		:precondition (and
+			(at apn2 apt3)
+			(in obj13 apn2)
+		)
+		:effect (and
+			(at obj13 apt3)
+			(not (in obj13 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj13_apn2_apt4
+		:parameters ()
+		:precondition (and
+			(at apn2 apt4)
+			(in obj13 apn2)
+		)
+		:effect (and
+			(at obj13 apt4)
+			(not (in obj13 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj13_apn3_apt1
+		:parameters ()
+		:precondition (and
+			(at apn3 apt1)
+			(in obj13 apn3)
+		)
+		:effect (and
+			(at obj13 apt1)
+			(not (in obj13 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj13_apn3_apt2
+		:parameters ()
+		:precondition (and
+			(at apn3 apt2)
+			(in obj13 apn3)
+		)
+		:effect (and
+			(at obj13 apt2)
+			(not (in obj13 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj13_apn3_apt3
+		:parameters ()
+		:precondition (and
+			(at apn3 apt3)
+			(in obj13 apn3)
+		)
+		:effect (and
+			(at obj13 apt3)
+			(not (in obj13 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj13_apn3_apt4
+		:parameters ()
+		:precondition (and
+			(at apn3 apt4)
+			(in obj13 apn3)
+		)
+		:effect (and
+			(at obj13 apt4)
+			(not (in obj13 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj21_apn1_apt1
+		:parameters ()
+		:precondition (and
+			(at apn1 apt1)
+			(in obj21 apn1)
+		)
+		:effect (and
+			(at obj21 apt1)
+			(not (in obj21 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj21_apn1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn1 apt2)
+			(in obj21 apn1)
+		)
+		:effect (and
+			(at obj21 apt2)
+			(not (in obj21 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj21_apn1_apt3
+		:parameters ()
+		:precondition (and
+			(at apn1 apt3)
+			(in obj21 apn1)
+		)
+		:effect (and
+			(at obj21 apt3)
+			(not (in obj21 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj21_apn1_apt4
+		:parameters ()
+		:precondition (and
+			(at apn1 apt4)
+			(in obj21 apn1)
+		)
+		:effect (and
+			(at obj21 apt4)
+			(not (in obj21 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj21_apn2_apt1
+		:parameters ()
+		:precondition (and
+			(at apn2 apt1)
+			(in obj21 apn2)
+		)
+		:effect (and
+			(at obj21 apt1)
+			(not (in obj21 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj21_apn2_apt2
+		:parameters ()
+		:precondition (and
+			(at apn2 apt2)
+			(in obj21 apn2)
+		)
+		:effect (and
+			(at obj21 apt2)
+			(not (in obj21 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj21_apn2_apt3
+		:parameters ()
+		:precondition (and
+			(at apn2 apt3)
+			(in obj21 apn2)
+		)
+		:effect (and
+			(at obj21 apt3)
+			(not (in obj21 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj21_apn2_apt4
+		:parameters ()
+		:precondition (and
+			(at apn2 apt4)
+			(in obj21 apn2)
+		)
+		:effect (and
+			(at obj21 apt4)
+			(not (in obj21 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj21_apn3_apt1
+		:parameters ()
+		:precondition (and
+			(at apn3 apt1)
+			(in obj21 apn3)
+		)
+		:effect (and
+			(at obj21 apt1)
+			(not (in obj21 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj21_apn3_apt2
+		:parameters ()
+		:precondition (and
+			(at apn3 apt2)
+			(in obj21 apn3)
+		)
+		:effect (and
+			(at obj21 apt2)
+			(not (in obj21 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj21_apn3_apt3
+		:parameters ()
+		:precondition (and
+			(at apn3 apt3)
+			(in obj21 apn3)
+		)
+		:effect (and
+			(at obj21 apt3)
+			(not (in obj21 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj21_apn3_apt4
+		:parameters ()
+		:precondition (and
+			(at apn3 apt4)
+			(in obj21 apn3)
+		)
+		:effect (and
+			(at obj21 apt4)
+			(not (in obj21 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj22_apn1_apt1
+		:parameters ()
+		:precondition (and
+			(at apn1 apt1)
+			(in obj22 apn1)
+		)
+		:effect (and
+			(at obj22 apt1)
+			(not (in obj22 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj22_apn1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn1 apt2)
+			(in obj22 apn1)
+		)
+		:effect (and
+			(at obj22 apt2)
+			(not (in obj22 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj22_apn1_apt3
+		:parameters ()
+		:precondition (and
+			(at apn1 apt3)
+			(in obj22 apn1)
+		)
+		:effect (and
+			(at obj22 apt3)
+			(not (in obj22 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj22_apn1_apt4
+		:parameters ()
+		:precondition (and
+			(at apn1 apt4)
+			(in obj22 apn1)
+		)
+		:effect (and
+			(at obj22 apt4)
+			(not (in obj22 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj22_apn2_apt1
+		:parameters ()
+		:precondition (and
+			(at apn2 apt1)
+			(in obj22 apn2)
+		)
+		:effect (and
+			(at obj22 apt1)
+			(not (in obj22 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj22_apn2_apt2
+		:parameters ()
+		:precondition (and
+			(at apn2 apt2)
+			(in obj22 apn2)
+		)
+		:effect (and
+			(at obj22 apt2)
+			(not (in obj22 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj22_apn2_apt3
+		:parameters ()
+		:precondition (and
+			(at apn2 apt3)
+			(in obj22 apn2)
+		)
+		:effect (and
+			(at obj22 apt3)
+			(not (in obj22 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj22_apn2_apt4
+		:parameters ()
+		:precondition (and
+			(at apn2 apt4)
+			(in obj22 apn2)
+		)
+		:effect (and
+			(at obj22 apt4)
+			(not (in obj22 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj22_apn3_apt1
+		:parameters ()
+		:precondition (and
+			(at apn3 apt1)
+			(in obj22 apn3)
+		)
+		:effect (and
+			(at obj22 apt1)
+			(not (in obj22 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj22_apn3_apt2
+		:parameters ()
+		:precondition (and
+			(at apn3 apt2)
+			(in obj22 apn3)
+		)
+		:effect (and
+			(at obj22 apt2)
+			(not (in obj22 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj22_apn3_apt3
+		:parameters ()
+		:precondition (and
+			(at apn3 apt3)
+			(in obj22 apn3)
+		)
+		:effect (and
+			(at obj22 apt3)
+			(not (in obj22 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj22_apn3_apt4
+		:parameters ()
+		:precondition (and
+			(at apn3 apt4)
+			(in obj22 apn3)
+		)
+		:effect (and
+			(at obj22 apt4)
+			(not (in obj22 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj23_apn1_apt1
+		:parameters ()
+		:precondition (and
+			(at apn1 apt1)
+			(in obj23 apn1)
+		)
+		:effect (and
+			(at obj23 apt1)
+			(not (in obj23 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj23_apn1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn1 apt2)
+			(in obj23 apn1)
+		)
+		:effect (and
+			(at obj23 apt2)
+			(not (in obj23 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj23_apn1_apt3
+		:parameters ()
+		:precondition (and
+			(at apn1 apt3)
+			(in obj23 apn1)
+		)
+		:effect (and
+			(at obj23 apt3)
+			(not (in obj23 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj23_apn1_apt4
+		:parameters ()
+		:precondition (and
+			(at apn1 apt4)
+			(in obj23 apn1)
+		)
+		:effect (and
+			(at obj23 apt4)
+			(not (in obj23 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj23_apn2_apt1
+		:parameters ()
+		:precondition (and
+			(at apn2 apt1)
+			(in obj23 apn2)
+		)
+		:effect (and
+			(at obj23 apt1)
+			(not (in obj23 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj23_apn2_apt2
+		:parameters ()
+		:precondition (and
+			(at apn2 apt2)
+			(in obj23 apn2)
+		)
+		:effect (and
+			(at obj23 apt2)
+			(not (in obj23 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj23_apn2_apt3
+		:parameters ()
+		:precondition (and
+			(at apn2 apt3)
+			(in obj23 apn2)
+		)
+		:effect (and
+			(at obj23 apt3)
+			(not (in obj23 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj23_apn2_apt4
+		:parameters ()
+		:precondition (and
+			(at apn2 apt4)
+			(in obj23 apn2)
+		)
+		:effect (and
+			(at obj23 apt4)
+			(not (in obj23 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj23_apn3_apt1
+		:parameters ()
+		:precondition (and
+			(at apn3 apt1)
+			(in obj23 apn3)
+		)
+		:effect (and
+			(at obj23 apt1)
+			(not (in obj23 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj23_apn3_apt2
+		:parameters ()
+		:precondition (and
+			(at apn3 apt2)
+			(in obj23 apn3)
+		)
+		:effect (and
+			(at obj23 apt2)
+			(not (in obj23 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj23_apn3_apt3
+		:parameters ()
+		:precondition (and
+			(at apn3 apt3)
+			(in obj23 apn3)
+		)
+		:effect (and
+			(at obj23 apt3)
+			(not (in obj23 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj23_apn3_apt4
+		:parameters ()
+		:precondition (and
+			(at apn3 apt4)
+			(in obj23 apn3)
+		)
+		:effect (and
+			(at obj23 apt4)
+			(not (in obj23 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj33_apn1_apt1
+		:parameters ()
+		:precondition (and
+			(at apn1 apt1)
+			(in obj33 apn1)
+		)
+		:effect (and
+			(at obj33 apt1)
+			(not (in obj33 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj33_apn1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn1 apt2)
+			(in obj33 apn1)
+		)
+		:effect (and
+			(at obj33 apt2)
+			(not (in obj33 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj33_apn1_apt3
+		:parameters ()
+		:precondition (and
+			(at apn1 apt3)
+			(in obj33 apn1)
+		)
+		:effect (and
+			(at obj33 apt3)
+			(not (in obj33 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj33_apn1_apt4
+		:parameters ()
+		:precondition (and
+			(at apn1 apt4)
+			(in obj33 apn1)
+		)
+		:effect (and
+			(at obj33 apt4)
+			(not (in obj33 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj33_apn2_apt1
+		:parameters ()
+		:precondition (and
+			(at apn2 apt1)
+			(in obj33 apn2)
+		)
+		:effect (and
+			(at obj33 apt1)
+			(not (in obj33 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj33_apn2_apt2
+		:parameters ()
+		:precondition (and
+			(at apn2 apt2)
+			(in obj33 apn2)
+		)
+		:effect (and
+			(at obj33 apt2)
+			(not (in obj33 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj33_apn2_apt3
+		:parameters ()
+		:precondition (and
+			(at apn2 apt3)
+			(in obj33 apn2)
+		)
+		:effect (and
+			(at obj33 apt3)
+			(not (in obj33 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj33_apn2_apt4
+		:parameters ()
+		:precondition (and
+			(at apn2 apt4)
+			(in obj33 apn2)
+		)
+		:effect (and
+			(at obj33 apt4)
+			(not (in obj33 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj33_apn3_apt1
+		:parameters ()
+		:precondition (and
+			(at apn3 apt1)
+			(in obj33 apn3)
+		)
+		:effect (and
+			(at obj33 apt1)
+			(not (in obj33 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj33_apn3_apt2
+		:parameters ()
+		:precondition (and
+			(at apn3 apt2)
+			(in obj33 apn3)
+		)
+		:effect (and
+			(at obj33 apt2)
+			(not (in obj33 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj33_apn3_apt3
+		:parameters ()
+		:precondition (and
+			(at apn3 apt3)
+			(in obj33 apn3)
+		)
+		:effect (and
+			(at obj33 apt3)
+			(not (in obj33 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj33_apn3_apt4
+		:parameters ()
+		:precondition (and
+			(at apn3 apt4)
+			(in obj33 apn3)
+		)
+		:effect (and
+			(at obj33 apt4)
+			(not (in obj33 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj44_apn1_apt1
+		:parameters ()
+		:precondition (and
+			(at apn1 apt1)
+			(in obj44 apn1)
+		)
+		:effect (and
+			(at obj44 apt1)
+			(not (in obj44 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj44_apn1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn1 apt2)
+			(in obj44 apn1)
+		)
+		:effect (and
+			(at obj44 apt2)
+			(not (in obj44 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj44_apn1_apt3
+		:parameters ()
+		:precondition (and
+			(at apn1 apt3)
+			(in obj44 apn1)
+		)
+		:effect (and
+			(at obj44 apt3)
+			(not (in obj44 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj44_apn1_apt4
+		:parameters ()
+		:precondition (and
+			(at apn1 apt4)
+			(in obj44 apn1)
+		)
+		:effect (and
+			(at obj44 apt4)
+			(not (in obj44 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj44_apn2_apt1
+		:parameters ()
+		:precondition (and
+			(at apn2 apt1)
+			(in obj44 apn2)
+		)
+		:effect (and
+			(at obj44 apt1)
+			(not (in obj44 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj44_apn2_apt2
+		:parameters ()
+		:precondition (and
+			(at apn2 apt2)
+			(in obj44 apn2)
+		)
+		:effect (and
+			(at obj44 apt2)
+			(not (in obj44 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj44_apn2_apt3
+		:parameters ()
+		:precondition (and
+			(at apn2 apt3)
+			(in obj44 apn2)
+		)
+		:effect (and
+			(at obj44 apt3)
+			(not (in obj44 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj44_apn2_apt4
+		:parameters ()
+		:precondition (and
+			(at apn2 apt4)
+			(in obj44 apn2)
+		)
+		:effect (and
+			(at obj44 apt4)
+			(not (in obj44 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj44_apn3_apt1
+		:parameters ()
+		:precondition (and
+			(at apn3 apt1)
+			(in obj44 apn3)
+		)
+		:effect (and
+			(at obj44 apt1)
+			(not (in obj44 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj44_apn3_apt2
+		:parameters ()
+		:precondition (and
+			(at apn3 apt2)
+			(in obj44 apn3)
+		)
+		:effect (and
+			(at obj44 apt2)
+			(not (in obj44 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj44_apn3_apt3
+		:parameters ()
+		:precondition (and
+			(at apn3 apt3)
+			(in obj44 apn3)
+		)
+		:effect (and
+			(at obj44 apt3)
+			(not (in obj44 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj44_apn3_apt4
+		:parameters ()
+		:precondition (and
+			(at apn3 apt4)
+			(in obj44 apn3)
+		)
+		:effect (and
+			(at obj44 apt4)
+			(not (in obj44 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj55_apn1_apt1
+		:parameters ()
+		:precondition (and
+			(at apn1 apt1)
+			(in obj55 apn1)
+		)
+		:effect (and
+			(at obj55 apt1)
+			(not (in obj55 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj55_apn1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn1 apt2)
+			(in obj55 apn1)
+		)
+		:effect (and
+			(at obj55 apt2)
+			(not (in obj55 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj55_apn1_apt3
+		:parameters ()
+		:precondition (and
+			(at apn1 apt3)
+			(in obj55 apn1)
+		)
+		:effect (and
+			(at obj55 apt3)
+			(not (in obj55 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj55_apn1_apt4
+		:parameters ()
+		:precondition (and
+			(at apn1 apt4)
+			(in obj55 apn1)
+		)
+		:effect (and
+			(at obj55 apt4)
+			(not (in obj55 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj55_apn2_apt1
+		:parameters ()
+		:precondition (and
+			(at apn2 apt1)
+			(in obj55 apn2)
+		)
+		:effect (and
+			(at obj55 apt1)
+			(not (in obj55 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj55_apn2_apt2
+		:parameters ()
+		:precondition (and
+			(at apn2 apt2)
+			(in obj55 apn2)
+		)
+		:effect (and
+			(at obj55 apt2)
+			(not (in obj55 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj55_apn2_apt3
+		:parameters ()
+		:precondition (and
+			(at apn2 apt3)
+			(in obj55 apn2)
+		)
+		:effect (and
+			(at obj55 apt3)
+			(not (in obj55 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj55_apn2_apt4
+		:parameters ()
+		:precondition (and
+			(at apn2 apt4)
+			(in obj55 apn2)
+		)
+		:effect (and
+			(at obj55 apt4)
+			(not (in obj55 apn2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj55_apn3_apt1
+		:parameters ()
+		:precondition (and
+			(at apn3 apt1)
+			(in obj55 apn3)
+		)
+		:effect (and
+			(at obj55 apt1)
+			(not (in obj55 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj55_apn3_apt2
+		:parameters ()
+		:precondition (and
+			(at apn3 apt2)
+			(in obj55 apn3)
+		)
+		:effect (and
+			(at obj55 apt2)
+			(not (in obj55 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj55_apn3_apt3
+		:parameters ()
+		:precondition (and
+			(at apn3 apt3)
+			(in obj55 apn3)
+		)
+		:effect (and
+			(at obj55 apt3)
+			(not (in obj55 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action unload-airplane_obj55_apn3_apt4
+		:parameters ()
+		:precondition (and
+			(at apn3 apt4)
+			(in obj55 apn3)
+		)
+		:effect (and
+			(at obj55 apt4)
+			(not (in obj55 apn3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru1_apt1_pos11_cit1
+		:parameters ()
+		:precondition (at tru1 apt1)
+		:effect (and
+			(at tru1 pos11)
+			(not (at tru1 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru1_apt1_pos12_cit1
+		:parameters ()
+		:precondition (at tru1 apt1)
+		:effect (and
+			(at tru1 pos12)
+			(not (at tru1 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru1_apt1_pos13_cit1
+		:parameters ()
+		:precondition (at tru1 apt1)
+		:effect (and
+			(at tru1 pos13)
+			(not (at tru1 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru1_pos11_apt1_cit1
+		:parameters ()
+		:precondition (at tru1 pos11)
+		:effect (and
+			(at tru1 apt1)
+			(not (at tru1 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru1_pos11_pos12_cit1
+		:parameters ()
+		:precondition (at tru1 pos11)
+		:effect (and
+			(at tru1 pos12)
+			(not (at tru1 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru1_pos11_pos13_cit1
+		:parameters ()
+		:precondition (at tru1 pos11)
+		:effect (and
+			(at tru1 pos13)
+			(not (at tru1 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru1_pos12_apt1_cit1
+		:parameters ()
+		:precondition (at tru1 pos12)
+		:effect (and
+			(at tru1 apt1)
+			(not (at tru1 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru1_pos12_pos11_cit1
+		:parameters ()
+		:precondition (at tru1 pos12)
+		:effect (and
+			(at tru1 pos11)
+			(not (at tru1 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru1_pos12_pos13_cit1
+		:parameters ()
+		:precondition (at tru1 pos12)
+		:effect (and
+			(at tru1 pos13)
+			(not (at tru1 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru1_pos13_apt1_cit1
+		:parameters ()
+		:precondition (at tru1 pos13)
+		:effect (and
+			(at tru1 apt1)
+			(not (at tru1 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru1_pos13_pos11_cit1
+		:parameters ()
+		:precondition (at tru1 pos13)
+		:effect (and
+			(at tru1 pos11)
+			(not (at tru1 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru1_pos13_pos12_cit1
+		:parameters ()
+		:precondition (at tru1 pos13)
+		:effect (and
+			(at tru1 pos12)
+			(not (at tru1 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru2_apt2_pos21_cit2
+		:parameters ()
+		:precondition (at tru2 apt2)
+		:effect (and
+			(at tru2 pos21)
+			(not (at tru2 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru2_apt2_pos22_cit2
+		:parameters ()
+		:precondition (at tru2 apt2)
+		:effect (and
+			(at tru2 pos22)
+			(not (at tru2 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru2_apt2_pos23_cit2
+		:parameters ()
+		:precondition (at tru2 apt2)
+		:effect (and
+			(at tru2 pos23)
+			(not (at tru2 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru2_pos21_apt2_cit2
+		:parameters ()
+		:precondition (at tru2 pos21)
+		:effect (and
+			(at tru2 apt2)
+			(not (at tru2 pos21))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru2_pos21_pos22_cit2
+		:parameters ()
+		:precondition (at tru2 pos21)
+		:effect (and
+			(at tru2 pos22)
+			(not (at tru2 pos21))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru2_pos21_pos23_cit2
+		:parameters ()
+		:precondition (at tru2 pos21)
+		:effect (and
+			(at tru2 pos23)
+			(not (at tru2 pos21))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru2_pos22_apt2_cit2
+		:parameters ()
+		:precondition (at tru2 pos22)
+		:effect (and
+			(at tru2 apt2)
+			(not (at tru2 pos22))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru2_pos22_pos21_cit2
+		:parameters ()
+		:precondition (at tru2 pos22)
+		:effect (and
+			(at tru2 pos21)
+			(not (at tru2 pos22))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru2_pos22_pos23_cit2
+		:parameters ()
+		:precondition (at tru2 pos22)
+		:effect (and
+			(at tru2 pos23)
+			(not (at tru2 pos22))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru2_pos23_apt2_cit2
+		:parameters ()
+		:precondition (at tru2 pos23)
+		:effect (and
+			(at tru2 apt2)
+			(not (at tru2 pos23))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru2_pos23_pos21_cit2
+		:parameters ()
+		:precondition (at tru2 pos23)
+		:effect (and
+			(at tru2 pos21)
+			(not (at tru2 pos23))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru2_pos23_pos22_cit2
+		:parameters ()
+		:precondition (at tru2 pos23)
+		:effect (and
+			(at tru2 pos22)
+			(not (at tru2 pos23))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru3_apt1_pos11_cit1
+		:parameters ()
+		:precondition (at tru3 apt1)
+		:effect (and
+			(at tru3 pos11)
+			(not (at tru3 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru3_apt1_pos12_cit1
+		:parameters ()
+		:precondition (at tru3 apt1)
+		:effect (and
+			(at tru3 pos12)
+			(not (at tru3 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru3_apt1_pos13_cit1
+		:parameters ()
+		:precondition (at tru3 apt1)
+		:effect (and
+			(at tru3 pos13)
+			(not (at tru3 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru3_pos11_apt1_cit1
+		:parameters ()
+		:precondition (at tru3 pos11)
+		:effect (and
+			(at tru3 apt1)
+			(not (at tru3 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru3_pos11_pos12_cit1
+		:parameters ()
+		:precondition (at tru3 pos11)
+		:effect (and
+			(at tru3 pos12)
+			(not (at tru3 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru3_pos11_pos13_cit1
+		:parameters ()
+		:precondition (at tru3 pos11)
+		:effect (and
+			(at tru3 pos13)
+			(not (at tru3 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru3_pos12_apt1_cit1
+		:parameters ()
+		:precondition (at tru3 pos12)
+		:effect (and
+			(at tru3 apt1)
+			(not (at tru3 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru3_pos12_pos11_cit1
+		:parameters ()
+		:precondition (at tru3 pos12)
+		:effect (and
+			(at tru3 pos11)
+			(not (at tru3 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru3_pos12_pos13_cit1
+		:parameters ()
+		:precondition (at tru3 pos12)
+		:effect (and
+			(at tru3 pos13)
+			(not (at tru3 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru3_pos13_apt1_cit1
+		:parameters ()
+		:precondition (at tru3 pos13)
+		:effect (and
+			(at tru3 apt1)
+			(not (at tru3 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru3_pos13_pos11_cit1
+		:parameters ()
+		:precondition (at tru3 pos13)
+		:effect (and
+			(at tru3 pos11)
+			(not (at tru3 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru3_pos13_pos12_cit1
+		:parameters ()
+		:precondition (at tru3 pos13)
+		:effect (and
+			(at tru3 pos12)
+			(not (at tru3 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru4_apt1_pos11_cit1
+		:parameters ()
+		:precondition (at tru4 apt1)
+		:effect (and
+			(at tru4 pos11)
+			(not (at tru4 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru4_apt1_pos12_cit1
+		:parameters ()
+		:precondition (at tru4 apt1)
+		:effect (and
+			(at tru4 pos12)
+			(not (at tru4 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru4_apt1_pos13_cit1
+		:parameters ()
+		:precondition (at tru4 apt1)
+		:effect (and
+			(at tru4 pos13)
+			(not (at tru4 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru4_pos11_apt1_cit1
+		:parameters ()
+		:precondition (at tru4 pos11)
+		:effect (and
+			(at tru4 apt1)
+			(not (at tru4 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru4_pos11_pos12_cit1
+		:parameters ()
+		:precondition (at tru4 pos11)
+		:effect (and
+			(at tru4 pos12)
+			(not (at tru4 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru4_pos11_pos13_cit1
+		:parameters ()
+		:precondition (at tru4 pos11)
+		:effect (and
+			(at tru4 pos13)
+			(not (at tru4 pos11))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru4_pos12_apt1_cit1
+		:parameters ()
+		:precondition (at tru4 pos12)
+		:effect (and
+			(at tru4 apt1)
+			(not (at tru4 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru4_pos12_pos11_cit1
+		:parameters ()
+		:precondition (at tru4 pos12)
+		:effect (and
+			(at tru4 pos11)
+			(not (at tru4 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru4_pos12_pos13_cit1
+		:parameters ()
+		:precondition (at tru4 pos12)
+		:effect (and
+			(at tru4 pos13)
+			(not (at tru4 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru4_pos13_apt1_cit1
+		:parameters ()
+		:precondition (at tru4 pos13)
+		:effect (and
+			(at tru4 apt1)
+			(not (at tru4 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru4_pos13_pos11_cit1
+		:parameters ()
+		:precondition (at tru4 pos13)
+		:effect (and
+			(at tru4 pos11)
+			(not (at tru4 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drive-truck_tru4_pos13_pos12_cit1
+		:parameters ()
+		:precondition (at tru4 pos13)
+		:effect (and
+			(at tru4 pos12)
+			(not (at tru4 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn1_apt1_apt2
+		:parameters ()
+		:precondition (at apn1 apt1)
+		:effect (and
+			(at apn1 apt2)
+			(not (at apn1 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn1_apt1_apt3
+		:parameters ()
+		:precondition (at apn1 apt1)
+		:effect (and
+			(at apn1 apt3)
+			(not (at apn1 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn1_apt1_apt4
+		:parameters ()
+		:precondition (at apn1 apt1)
+		:effect (and
+			(at apn1 apt4)
+			(not (at apn1 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn1_apt2_apt1
+		:parameters ()
+		:precondition (at apn1 apt2)
+		:effect (and
+			(at apn1 apt1)
+			(not (at apn1 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn1_apt2_apt3
+		:parameters ()
+		:precondition (at apn1 apt2)
+		:effect (and
+			(at apn1 apt3)
+			(not (at apn1 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn1_apt2_apt4
+		:parameters ()
+		:precondition (at apn1 apt2)
+		:effect (and
+			(at apn1 apt4)
+			(not (at apn1 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn1_apt3_apt1
+		:parameters ()
+		:precondition (at apn1 apt3)
+		:effect (and
+			(at apn1 apt1)
+			(not (at apn1 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn1_apt3_apt2
+		:parameters ()
+		:precondition (at apn1 apt3)
+		:effect (and
+			(at apn1 apt2)
+			(not (at apn1 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn1_apt3_apt4
+		:parameters ()
+		:precondition (at apn1 apt3)
+		:effect (and
+			(at apn1 apt4)
+			(not (at apn1 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn1_apt4_apt1
+		:parameters ()
+		:precondition (at apn1 apt4)
+		:effect (and
+			(at apn1 apt1)
+			(not (at apn1 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn1_apt4_apt2
+		:parameters ()
+		:precondition (at apn1 apt4)
+		:effect (and
+			(at apn1 apt2)
+			(not (at apn1 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn1_apt4_apt3
+		:parameters ()
+		:precondition (at apn1 apt4)
+		:effect (and
+			(at apn1 apt3)
+			(not (at apn1 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn2_apt1_apt2
+		:parameters ()
+		:precondition (at apn2 apt1)
+		:effect (and
+			(at apn2 apt2)
+			(not (at apn2 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn2_apt1_apt3
+		:parameters ()
+		:precondition (at apn2 apt1)
+		:effect (and
+			(at apn2 apt3)
+			(not (at apn2 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn2_apt1_apt4
+		:parameters ()
+		:precondition (at apn2 apt1)
+		:effect (and
+			(at apn2 apt4)
+			(not (at apn2 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn2_apt2_apt1
+		:parameters ()
+		:precondition (at apn2 apt2)
+		:effect (and
+			(at apn2 apt1)
+			(not (at apn2 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn2_apt2_apt3
+		:parameters ()
+		:precondition (at apn2 apt2)
+		:effect (and
+			(at apn2 apt3)
+			(not (at apn2 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn2_apt2_apt4
+		:parameters ()
+		:precondition (at apn2 apt2)
+		:effect (and
+			(at apn2 apt4)
+			(not (at apn2 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn2_apt3_apt1
+		:parameters ()
+		:precondition (at apn2 apt3)
+		:effect (and
+			(at apn2 apt1)
+			(not (at apn2 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn2_apt3_apt2
+		:parameters ()
+		:precondition (at apn2 apt3)
+		:effect (and
+			(at apn2 apt2)
+			(not (at apn2 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn2_apt3_apt4
+		:parameters ()
+		:precondition (at apn2 apt3)
+		:effect (and
+			(at apn2 apt4)
+			(not (at apn2 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn2_apt4_apt1
+		:parameters ()
+		:precondition (at apn2 apt4)
+		:effect (and
+			(at apn2 apt1)
+			(not (at apn2 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn2_apt4_apt2
+		:parameters ()
+		:precondition (at apn2 apt4)
+		:effect (and
+			(at apn2 apt2)
+			(not (at apn2 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn2_apt4_apt3
+		:parameters ()
+		:precondition (at apn2 apt4)
+		:effect (and
+			(at apn2 apt3)
+			(not (at apn2 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn3_apt1_apt2
+		:parameters ()
+		:precondition (at apn3 apt1)
+		:effect (and
+			(at apn3 apt2)
+			(not (at apn3 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn3_apt1_apt3
+		:parameters ()
+		:precondition (at apn3 apt1)
+		:effect (and
+			(at apn3 apt3)
+			(not (at apn3 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn3_apt1_apt4
+		:parameters ()
+		:precondition (at apn3 apt1)
+		:effect (and
+			(at apn3 apt4)
+			(not (at apn3 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn3_apt2_apt1
+		:parameters ()
+		:precondition (at apn3 apt2)
+		:effect (and
+			(at apn3 apt1)
+			(not (at apn3 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn3_apt2_apt3
+		:parameters ()
+		:precondition (at apn3 apt2)
+		:effect (and
+			(at apn3 apt3)
+			(not (at apn3 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn3_apt2_apt4
+		:parameters ()
+		:precondition (at apn3 apt2)
+		:effect (and
+			(at apn3 apt4)
+			(not (at apn3 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn3_apt3_apt1
+		:parameters ()
+		:precondition (at apn3 apt3)
+		:effect (and
+			(at apn3 apt1)
+			(not (at apn3 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn3_apt3_apt2
+		:parameters ()
+		:precondition (at apn3 apt3)
+		:effect (and
+			(at apn3 apt2)
+			(not (at apn3 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn3_apt3_apt4
+		:parameters ()
+		:precondition (at apn3 apt3)
+		:effect (and
+			(at apn3 apt4)
+			(not (at apn3 apt3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn3_apt4_apt1
+		:parameters ()
+		:precondition (at apn3 apt4)
+		:effect (and
+			(at apn3 apt1)
+			(not (at apn3 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn3_apt4_apt2
+		:parameters ()
+		:precondition (at apn3 apt4)
+		:effect (and
+			(at apn3 apt2)
+			(not (at apn3 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action fly-airplane_apn3_apt4_apt3
+		:parameters ()
+		:precondition (at apn3 apt4)
+		:effect (and
+			(at apn3 apt3)
+			(not (at apn3 apt4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe0_drive-truck_tru2_pos22_apt2_cit2
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(not (observed obs0))
+		)
+		:effect (and
+			(at tru2 apt2)
+			(observed obs0)
+			(not (at tru2 pos22))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe1_load-truck_obj12_tru4_pos13
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(at obj12 pos13)
+			(observed obs0)
+			(not (observed obs1))
+		)
+		:effect (and
+			(in obj12 tru4)
+			(observed obs1)
+			(not (at obj12 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe2_load-truck_obj12_tru4_pos13
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(at obj12 pos13)
+			(observed obs1)
+			(not (observed obs2))
+		)
+		:effect (and
+			(in obj12 tru4)
+			(observed obs2)
+			(not (at obj12 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe3_drive-truck_tru4_pos13_apt1_cit1
+		:parameters ()
+		:precondition (and
+			(at tru4 pos13)
+			(observed obs2)
+			(not (observed obs3))
+		)
+		:effect (and
+			(at tru4 apt1)
+			(observed obs3)
+			(not (at tru4 pos13))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe4_drive-truck_tru3_pos12_apt1_cit1
+		:parameters ()
+		:precondition (and
+			(at tru3 pos12)
+			(observed obs3)
+			(not (observed obs4))
+		)
+		:effect (and
+			(at tru3 apt1)
+			(observed obs4)
+			(not (at tru3 pos12))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe5_fly-airplane_apn3_apt1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn3 apt1)
+			(observed obs4)
+			(not (observed obs5))
+		)
+		:effect (and
+			(at apn3 apt2)
+			(observed obs5)
+			(not (at apn3 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe6_unload-truck_obj12_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(in obj12 tru4)
+			(observed obs5)
+			(not (observed obs6))
+		)
+		:effect (and
+			(at obj12 apt1)
+			(observed obs6)
+			(not (in obj12 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe7_load-airplane_obj12_apn1_apt1
+		:parameters ()
+		:precondition (and
+			(at obj12 apt1)
+			(at apn1 apt1)
+			(observed obs6)
+			(not (observed obs7))
+		)
+		:effect (and
+			(in obj12 apn1)
+			(observed obs7)
+			(not (at obj12 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe8_fly-airplane_apn1_apt1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn1 apt1)
+			(observed obs7)
+			(not (observed obs8))
+		)
+		:effect (and
+			(at apn1 apt2)
+			(observed obs8)
+			(not (at apn1 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe9_unload-airplane_obj12_apn1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn1 apt2)
+			(in obj12 apn1)
+			(observed obs8)
+			(not (observed obs9))
+		)
+		:effect (and
+			(at obj12 apt2)
+			(observed obs9)
+			(not (in obj12 apn1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe10_load-truck_obj12_tru2_apt2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(at obj12 apt2)
+			(observed obs9)
+			(not (observed obs10))
+		)
+		:effect (and
+			(in obj12 tru2)
+			(observed obs10)
+			(not (at obj12 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe11_drive-truck_tru2_apt2_pos21_cit2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(observed obs10)
+			(not (observed obs11))
+		)
+		:effect (and
+			(at tru2 pos21)
+			(observed obs11)
+			(not (at tru2 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe12_drive-truck_tru2_pos21_pos22_cit2
+		:parameters ()
+		:precondition (and
+			(at tru2 pos21)
+			(observed obs11)
+			(not (observed obs12))
+		)
+		:effect (and
+			(at tru2 pos22)
+			(observed obs12)
+			(not (at tru2 pos21))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe13_load-truck_obj12_tru2_pos22
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(at obj12 pos22)
+			(observed obs12)
+			(not (observed obs13))
+		)
+		:effect (and
+			(in obj12 tru2)
+			(observed obs13)
+			(not (at obj12 pos22))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe14_unload-truck_obj12_tru2_pos22
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(in obj12 tru2)
+			(observed obs13)
+			(not (observed obs14))
+		)
+		:effect (and
+			(at obj12 pos22)
+			(observed obs14)
+			(not (in obj12 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe15_drive-truck_tru2_pos22_apt2_cit2
+		:parameters ()
+		:precondition (and
+			(at tru2 pos22)
+			(observed obs14)
+			(not (observed obs15))
+		)
+		:effect (and
+			(at tru2 apt2)
+			(observed obs15)
+			(not (at tru2 pos22))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe16_fly-airplane_apn2_apt1_apt2
+		:parameters ()
+		:precondition (and
+			(at apn2 apt1)
+			(observed obs15)
+			(not (observed obs16))
+		)
+		:effect (and
+			(at apn2 apt2)
+			(observed obs16)
+			(not (at apn2 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe17_drive-truck_tru4_apt1_pos12_cit1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(observed obs16)
+			(not (observed obs17))
+		)
+		:effect (and
+			(at tru4 pos12)
+			(observed obs17)
+			(not (at tru4 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe18_unload-truck_obj22_tru2_apt2
+		:parameters ()
+		:precondition (and
+			(at tru2 apt2)
+			(in obj22 tru2)
+			(observed obs17)
+			(not (observed obs18))
+		)
+		:effect (and
+			(at obj22 apt2)
+			(observed obs18)
+			(not (in obj22 tru2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe19_fly-airplane_apn2_apt2_apt1
+		:parameters ()
+		:precondition (and
+			(at apn2 apt2)
+			(observed obs18)
+			(not (observed obs19))
+		)
+		:effect (and
+			(at apn2 apt1)
+			(observed obs19)
+			(not (at apn2 apt2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe20_load-truck_obj22_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(at obj22 apt1)
+			(observed obs19)
+			(not (observed obs20))
+		)
+		:effect (and
+			(in obj22 tru4)
+			(observed obs20)
+			(not (at obj22 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe21_unload-truck_obj22_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(in obj22 tru4)
+			(observed obs20)
+			(not (observed obs21))
+		)
+		:effect (and
+			(at obj22 apt1)
+			(observed obs21)
+			(not (in obj22 tru4))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe22_load-truck_obj22_tru4_apt1
+		:parameters ()
+		:precondition (and
+			(at tru4 apt1)
+			(at obj22 apt1)
+			(observed obs21)
+			(not (observed obs22))
+		)
+		:effect (and
+			(in obj22 tru4)
+			(observed obs22)
+			(not (at obj22 apt1))
+			(increase (total-cost) 1)
+		)
+	)
+)
