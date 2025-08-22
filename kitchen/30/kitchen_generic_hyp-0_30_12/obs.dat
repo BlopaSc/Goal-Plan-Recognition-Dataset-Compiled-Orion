@@ -1,0 +1,5 @@
+(use toaster)
+(take water_jug)
+(take milk)
+(take cup)
+(take sugar)
