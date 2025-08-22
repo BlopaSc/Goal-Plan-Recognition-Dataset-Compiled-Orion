@@ -1,0 +1,2065 @@
+;; Compiled with Orion Planner by Pablo "Blopa" Sauma (blopasc.github.io)
+(define
+	(domain rover)
+	(:requirements :strips :typing :action-costs)
+	(:types
+		equipped_for_soil_analysis__inferred_type equipped_for_rock_analysis__inferred_type equipped_for_imaging__inferred_type rover__inferred_type waypoint__inferred_type store__inferred_type camera__inferred_type mode__inferred_type lander__inferred_type objective__inferred_type observation
+	)
+	(:predicates
+		(at ?x ?y)
+		(at_lander ?x ?y)
+		(can_traverse ?r ?x ?y)
+		(equipped_for_soil_analysis ?r)
+		(equipped_for_rock_analysis ?r)
+		(equipped_for_imaging ?r)
+		(empty ?s)
+		(have_rock_analysis ?r ?w)
+		(have_soil_analysis ?r ?w)
+		(full ?s)
+		(calibrated ?c ?r)
+		(supports ?c ?m)
+		(available ?r)
+		(visible ?w ?p)
+		(have_image ?r ?o ?m)
+		(communicated_soil_data ?w)
+		(communicated_rock_data ?w)
+		(communicated_image_data ?o ?m)
+		(at_soil_sample ?w)
+		(at_rock_sample ?w)
+		(visible_from ?o ?w)
+		(store_of ?s ?r)
+		(calibration_target ?i ?o)
+		(on_board ?i ?r)
+		(channel_free ?l)
+		(rover ?x)
+		(waypoint ?x)
+		(store ?x)
+		(camera ?x)
+		(mode ?x)
+		(lander ?x)
+		(objective ?x)
+		(observed ?obs - observation)
+	)
+	(:functions
+		(total-cost)
+	)
+	(:constants
+		rover1 - equipped_for_soil_analysis__inferred_type
+		rover0 - equipped_for_rock_analysis__inferred_type
+		rover0 rover1 - equipped_for_imaging__inferred_type
+		rover0 rover1 - rover__inferred_type
+		waypoint0 waypoint1 waypoint2 waypoint3 - waypoint__inferred_type
+		rover0store rover1store - store__inferred_type
+		camera0 camera1 camera2 - camera__inferred_type
+		colour high_res low_res - mode__inferred_type
+		general - lander__inferred_type
+		objective0 objective1 objective2 - objective__inferred_type
+		obs0 obs1 obs2 obs3 obs4 obs5 obs6 obs7 - observation
+	)
+	(:action navigate_rover0_waypoint0_waypoint1
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint0)
+			(available rover0)
+		)
+		:effect (and
+			(at rover0 waypoint1)
+			(not (at rover0 waypoint0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action navigate_rover0_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint0)
+			(available rover0)
+		)
+		:effect (and
+			(at rover0 waypoint3)
+			(not (at rover0 waypoint0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action navigate_rover0_waypoint1_waypoint0
+		:parameters ()
+		:precondition (and
+			(available rover0)
+			(at rover0 waypoint1)
+		)
+		:effect (and
+			(at rover0 waypoint0)
+			(not (at rover0 waypoint1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action navigate_rover0_waypoint3_waypoint0
+		:parameters ()
+		:precondition (and
+			(available rover0)
+			(at rover0 waypoint3)
+		)
+		:effect (and
+			(at rover0 waypoint0)
+			(not (at rover0 waypoint3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action navigate_rover1_waypoint0_waypoint1
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint0)
+			(available rover1)
+		)
+		:effect (and
+			(at rover1 waypoint1)
+			(not (at rover1 waypoint0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action navigate_rover1_waypoint1_waypoint0
+		:parameters ()
+		:precondition (and
+			(available rover1)
+			(at rover1 waypoint1)
+		)
+		:effect (and
+			(at rover1 waypoint0)
+			(not (at rover1 waypoint1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action navigate_rover1_waypoint1_waypoint2
+		:parameters ()
+		:precondition (and
+			(available rover1)
+			(at rover1 waypoint1)
+		)
+		:effect (and
+			(at rover1 waypoint2)
+			(not (at rover1 waypoint1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action navigate_rover1_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(available rover1)
+			(at rover1 waypoint1)
+		)
+		:effect (and
+			(at rover1 waypoint3)
+			(not (at rover1 waypoint1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action navigate_rover1_waypoint2_waypoint1
+		:parameters ()
+		:precondition (and
+			(available rover1)
+			(at rover1 waypoint2)
+		)
+		:effect (and
+			(at rover1 waypoint1)
+			(not (at rover1 waypoint2))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action navigate_rover1_waypoint3_waypoint1
+		:parameters ()
+		:precondition (and
+			(available rover1)
+			(at rover1 waypoint3)
+		)
+		:effect (and
+			(at rover1 waypoint1)
+			(not (at rover1 waypoint3))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action sample_soil_rover1_rover1store_waypoint1
+		:parameters ()
+		:precondition (and
+			(at_soil_sample waypoint1)
+			(empty rover1store)
+			(at rover1 waypoint1)
+		)
+		:effect (and
+			(have_soil_analysis rover1 waypoint1)
+			(full rover1store)
+			(not (at_soil_sample waypoint1))
+			(not (empty rover1store))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action sample_soil_rover1_rover1store_waypoint2
+		:parameters ()
+		:precondition (and
+			(at_soil_sample waypoint2)
+			(empty rover1store)
+			(at rover1 waypoint2)
+		)
+		:effect (and
+			(have_soil_analysis rover1 waypoint2)
+			(full rover1store)
+			(not (at_soil_sample waypoint2))
+			(not (empty rover1store))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action sample_soil_rover1_rover1store_waypoint3
+		:parameters ()
+		:precondition (and
+			(at_soil_sample waypoint3)
+			(empty rover1store)
+			(at rover1 waypoint3)
+		)
+		:effect (and
+			(have_soil_analysis rover1 waypoint3)
+			(full rover1store)
+			(not (at_soil_sample waypoint3))
+			(not (empty rover1store))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action sample_rock_rover0_rover0store_waypoint0
+		:parameters ()
+		:precondition (and
+			(at_rock_sample waypoint0)
+			(at rover0 waypoint0)
+			(empty rover0store)
+		)
+		:effect (and
+			(full rover0store)
+			(have_rock_analysis rover0 waypoint0)
+			(not (at_rock_sample waypoint0))
+			(not (empty rover0store))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action sample_rock_rover0_rover0store_waypoint1
+		:parameters ()
+		:precondition (and
+			(at_rock_sample waypoint1)
+			(empty rover0store)
+			(at rover0 waypoint1)
+		)
+		:effect (and
+			(full rover0store)
+			(have_rock_analysis rover0 waypoint1)
+			(not (at_rock_sample waypoint1))
+			(not (empty rover0store))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drop_rover0_rover0store
+		:parameters ()
+		:precondition (full rover0store)
+		:effect (and
+			(empty rover0store)
+			(not (full rover0store))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action drop_rover1_rover1store
+		:parameters ()
+		:precondition (full rover1store)
+		:effect (and
+			(empty rover1store)
+			(not (full rover1store))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action calibrate_rover0_camera2_objective1_waypoint0
+		:parameters ()
+		:precondition (at rover0 waypoint0)
+		:effect (and
+			(calibrated camera2 rover0)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action calibrate_rover0_camera2_objective1_waypoint1
+		:parameters ()
+		:precondition (at rover0 waypoint1)
+		:effect (and
+			(calibrated camera2 rover0)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action calibrate_rover1_camera0_objective1_waypoint0
+		:parameters ()
+		:precondition (at rover1 waypoint0)
+		:effect (and
+			(calibrated camera0 rover1)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action calibrate_rover1_camera0_objective1_waypoint1
+		:parameters ()
+		:precondition (at rover1 waypoint1)
+		:effect (and
+			(calibrated camera0 rover1)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action calibrate_rover1_camera0_objective1_waypoint2
+		:parameters ()
+		:precondition (at rover1 waypoint2)
+		:effect (and
+			(calibrated camera0 rover1)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action calibrate_rover1_camera1_objective1_waypoint0
+		:parameters ()
+		:precondition (at rover1 waypoint0)
+		:effect (and
+			(calibrated camera1 rover1)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action calibrate_rover1_camera1_objective1_waypoint1
+		:parameters ()
+		:precondition (at rover1 waypoint1)
+		:effect (and
+			(calibrated camera1 rover1)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action calibrate_rover1_camera1_objective1_waypoint2
+		:parameters ()
+		:precondition (at rover1 waypoint2)
+		:effect (and
+			(calibrated camera1 rover1)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint0_objective0_camera2_colour
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint0)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective0 colour)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint0_objective0_camera2_high_res
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint0)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective0 high_res)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint0_objective0_camera2_low_res
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint0)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective0 low_res)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint0_objective1_camera2_colour
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint0)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective1 colour)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint0_objective1_camera2_high_res
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint0)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective1 high_res)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint0_objective1_camera2_low_res
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint0)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective1 low_res)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint0_objective2_camera2_colour
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint0)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective2 colour)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint0_objective2_camera2_high_res
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint0)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective2 high_res)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint0_objective2_camera2_low_res
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint0)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective2 low_res)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint1_objective0_camera2_colour
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint1)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective0 colour)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint1_objective0_camera2_high_res
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint1)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective0 high_res)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint1_objective0_camera2_low_res
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint1)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective0 low_res)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint1_objective1_camera2_colour
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint1)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective1 colour)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint1_objective1_camera2_high_res
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint1)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective1 high_res)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint1_objective1_camera2_low_res
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint1)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective1 low_res)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint1_objective2_camera2_colour
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint1)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective2 colour)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint1_objective2_camera2_high_res
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint1)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective2 high_res)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint1_objective2_camera2_low_res
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint1)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective2 low_res)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint3_objective0_camera2_colour
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint3)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective0 colour)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint3_objective0_camera2_high_res
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint3)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective0 high_res)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover0_waypoint3_objective0_camera2_low_res
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint3)
+			(calibrated camera2 rover0)
+		)
+		:effect (and
+			(have_image rover0 objective0 low_res)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint0_objective0_camera0_high_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint0)
+			(calibrated camera0 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective0 high_res)
+			(not (calibrated camera0 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint0_objective0_camera0_low_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint0)
+			(calibrated camera0 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective0 low_res)
+			(not (calibrated camera0 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint0_objective0_camera1_colour
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint0)
+			(calibrated camera1 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective0 colour)
+			(not (calibrated camera1 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint0_objective0_camera1_high_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint0)
+			(calibrated camera1 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective0 high_res)
+			(not (calibrated camera1 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint0_objective1_camera0_high_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint0)
+			(calibrated camera0 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective1 high_res)
+			(not (calibrated camera0 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint0_objective1_camera0_low_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint0)
+			(calibrated camera0 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective1 low_res)
+			(not (calibrated camera0 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint0_objective1_camera1_colour
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint0)
+			(calibrated camera1 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective1 colour)
+			(not (calibrated camera1 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint0_objective1_camera1_high_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint0)
+			(calibrated camera1 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective1 high_res)
+			(not (calibrated camera1 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint0_objective2_camera0_high_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint0)
+			(calibrated camera0 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective2 high_res)
+			(not (calibrated camera0 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint0_objective2_camera0_low_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint0)
+			(calibrated camera0 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective2 low_res)
+			(not (calibrated camera0 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint0_objective2_camera1_colour
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint0)
+			(calibrated camera1 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective2 colour)
+			(not (calibrated camera1 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint0_objective2_camera1_high_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint0)
+			(calibrated camera1 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective2 high_res)
+			(not (calibrated camera1 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint1_objective0_camera0_high_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint1)
+			(calibrated camera0 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective0 high_res)
+			(not (calibrated camera0 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint1_objective0_camera0_low_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint1)
+			(calibrated camera0 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective0 low_res)
+			(not (calibrated camera0 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint1_objective0_camera1_colour
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint1)
+			(calibrated camera1 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective0 colour)
+			(not (calibrated camera1 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint1_objective0_camera1_high_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint1)
+			(calibrated camera1 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective0 high_res)
+			(not (calibrated camera1 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint1_objective1_camera0_high_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint1)
+			(calibrated camera0 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective1 high_res)
+			(not (calibrated camera0 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint1_objective1_camera0_low_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint1)
+			(calibrated camera0 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective1 low_res)
+			(not (calibrated camera0 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint1_objective1_camera1_colour
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint1)
+			(calibrated camera1 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective1 colour)
+			(not (calibrated camera1 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint1_objective1_camera1_high_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint1)
+			(calibrated camera1 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective1 high_res)
+			(not (calibrated camera1 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint1_objective2_camera0_high_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint1)
+			(calibrated camera0 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective2 high_res)
+			(not (calibrated camera0 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint1_objective2_camera0_low_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint1)
+			(calibrated camera0 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective2 low_res)
+			(not (calibrated camera0 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint1_objective2_camera1_colour
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint1)
+			(calibrated camera1 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective2 colour)
+			(not (calibrated camera1 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint1_objective2_camera1_high_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint1)
+			(calibrated camera1 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective2 high_res)
+			(not (calibrated camera1 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint2_objective0_camera0_high_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint2)
+			(calibrated camera0 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective0 high_res)
+			(not (calibrated camera0 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint2_objective0_camera0_low_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint2)
+			(calibrated camera0 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective0 low_res)
+			(not (calibrated camera0 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint2_objective0_camera1_colour
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint2)
+			(calibrated camera1 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective0 colour)
+			(not (calibrated camera1 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint2_objective0_camera1_high_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint2)
+			(calibrated camera1 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective0 high_res)
+			(not (calibrated camera1 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint2_objective1_camera0_high_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint2)
+			(calibrated camera0 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective1 high_res)
+			(not (calibrated camera0 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint2_objective1_camera0_low_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint2)
+			(calibrated camera0 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective1 low_res)
+			(not (calibrated camera0 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint2_objective1_camera1_colour
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint2)
+			(calibrated camera1 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective1 colour)
+			(not (calibrated camera1 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint2_objective1_camera1_high_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint2)
+			(calibrated camera1 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective1 high_res)
+			(not (calibrated camera1 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint2_objective2_camera0_high_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint2)
+			(calibrated camera0 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective2 high_res)
+			(not (calibrated camera0 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint2_objective2_camera0_low_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint2)
+			(calibrated camera0 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective2 low_res)
+			(not (calibrated camera0 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint2_objective2_camera1_colour
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint2)
+			(calibrated camera1 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective2 colour)
+			(not (calibrated camera1 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint2_objective2_camera1_high_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint2)
+			(calibrated camera1 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective2 high_res)
+			(not (calibrated camera1 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint3_objective0_camera0_high_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint3)
+			(calibrated camera0 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective0 high_res)
+			(not (calibrated camera0 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint3_objective0_camera0_low_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint3)
+			(calibrated camera0 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective0 low_res)
+			(not (calibrated camera0 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint3_objective0_camera1_colour
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint3)
+			(calibrated camera1 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective0 colour)
+			(not (calibrated camera1 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action take_image_rover1_waypoint3_objective0_camera1_high_res
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint3)
+			(calibrated camera1 rover1)
+		)
+		:effect (and
+			(have_image rover1 objective0 high_res)
+			(not (calibrated camera1 rover1))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_soil_data_rover1_general_waypoint1_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover1 waypoint0)
+			(available rover1)
+			(have_soil_analysis rover1 waypoint1)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_soil_data waypoint1)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_soil_data_rover1_general_waypoint1_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint1)
+			(have_soil_analysis rover1 waypoint1)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_soil_data waypoint1)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_soil_data_rover1_general_waypoint1_waypoint2_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint2)
+			(have_soil_analysis rover1 waypoint1)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_soil_data waypoint1)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_soil_data_rover1_general_waypoint2_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover1 waypoint0)
+			(available rover1)
+			(have_soil_analysis rover1 waypoint2)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_soil_data waypoint2)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_soil_data_rover1_general_waypoint2_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint1)
+			(have_soil_analysis rover1 waypoint2)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_soil_data waypoint2)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_soil_data_rover1_general_waypoint2_waypoint2_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint2)
+			(have_soil_analysis rover1 waypoint2)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_soil_data waypoint2)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_soil_data_rover1_general_waypoint3_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover1 waypoint0)
+			(available rover1)
+			(have_soil_analysis rover1 waypoint3)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_soil_data waypoint3)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_soil_data_rover1_general_waypoint3_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint1)
+			(have_soil_analysis rover1 waypoint3)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_soil_data waypoint3)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_soil_data_rover1_general_waypoint3_waypoint2_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint2)
+			(have_soil_analysis rover1 waypoint3)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_soil_data waypoint3)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_rock_data_rover0_general_waypoint0_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover0 waypoint0)
+			(available rover0)
+			(have_rock_analysis rover0 waypoint0)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_rock_data waypoint0)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_rock_data_rover0_general_waypoint0_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover0)
+			(at rover0 waypoint1)
+			(have_rock_analysis rover0 waypoint0)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_rock_data waypoint0)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_rock_data_rover0_general_waypoint1_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover0 waypoint0)
+			(available rover0)
+			(have_rock_analysis rover0 waypoint1)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_rock_data waypoint1)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_rock_data_rover0_general_waypoint1_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover0)
+			(at rover0 waypoint1)
+			(have_rock_analysis rover0 waypoint1)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_rock_data waypoint1)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover0_general_objective0_colour_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover0 waypoint0)
+			(available rover0)
+			(have_image rover0 objective0 colour)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_image_data objective0 colour)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover0_general_objective0_colour_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover0)
+			(at rover0 waypoint1)
+			(have_image rover0 objective0 colour)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_image_data objective0 colour)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover0_general_objective0_high_res_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover0 waypoint0)
+			(available rover0)
+			(have_image rover0 objective0 high_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_image_data objective0 high_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover0_general_objective0_high_res_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover0)
+			(at rover0 waypoint1)
+			(have_image rover0 objective0 high_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_image_data objective0 high_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover0_general_objective0_low_res_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover0 waypoint0)
+			(available rover0)
+			(have_image rover0 objective0 low_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_image_data objective0 low_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover0_general_objective0_low_res_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover0)
+			(at rover0 waypoint1)
+			(have_image rover0 objective0 low_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_image_data objective0 low_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover0_general_objective1_colour_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover0 waypoint0)
+			(available rover0)
+			(have_image rover0 objective1 colour)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_image_data objective1 colour)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover0_general_objective1_colour_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover0)
+			(at rover0 waypoint1)
+			(have_image rover0 objective1 colour)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_image_data objective1 colour)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover0_general_objective1_high_res_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover0 waypoint0)
+			(available rover0)
+			(have_image rover0 objective1 high_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_image_data objective1 high_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover0_general_objective1_high_res_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover0)
+			(at rover0 waypoint1)
+			(have_image rover0 objective1 high_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_image_data objective1 high_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover0_general_objective1_low_res_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover0 waypoint0)
+			(available rover0)
+			(have_image rover0 objective1 low_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_image_data objective1 low_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover0_general_objective1_low_res_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover0)
+			(at rover0 waypoint1)
+			(have_image rover0 objective1 low_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_image_data objective1 low_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover0_general_objective2_colour_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover0 waypoint0)
+			(available rover0)
+			(have_image rover0 objective2 colour)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_image_data objective2 colour)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover0_general_objective2_colour_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover0)
+			(at rover0 waypoint1)
+			(have_image rover0 objective2 colour)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_image_data objective2 colour)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover0_general_objective2_high_res_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover0 waypoint0)
+			(available rover0)
+			(have_image rover0 objective2 high_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_image_data objective2 high_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover0_general_objective2_high_res_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover0)
+			(at rover0 waypoint1)
+			(have_image rover0 objective2 high_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_image_data objective2 high_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover0_general_objective2_low_res_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover0 waypoint0)
+			(available rover0)
+			(have_image rover0 objective2 low_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_image_data objective2 low_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover0_general_objective2_low_res_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover0)
+			(at rover0 waypoint1)
+			(have_image rover0 objective2 low_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_image_data objective2 low_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective0_colour_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover1 waypoint0)
+			(available rover1)
+			(have_image rover1 objective0 colour)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective0 colour)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective0_colour_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint1)
+			(have_image rover1 objective0 colour)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective0 colour)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective0_colour_waypoint2_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint2)
+			(have_image rover1 objective0 colour)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective0 colour)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective0_high_res_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover1 waypoint0)
+			(available rover1)
+			(have_image rover1 objective0 high_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective0 high_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective0_high_res_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint1)
+			(have_image rover1 objective0 high_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective0 high_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective0_high_res_waypoint2_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint2)
+			(have_image rover1 objective0 high_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective0 high_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective0_low_res_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover1 waypoint0)
+			(available rover1)
+			(have_image rover1 objective0 low_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective0 low_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective0_low_res_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint1)
+			(have_image rover1 objective0 low_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective0 low_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective0_low_res_waypoint2_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint2)
+			(have_image rover1 objective0 low_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective0 low_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective1_colour_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover1 waypoint0)
+			(available rover1)
+			(have_image rover1 objective1 colour)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective1 colour)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective1_colour_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint1)
+			(have_image rover1 objective1 colour)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective1 colour)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective1_colour_waypoint2_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint2)
+			(have_image rover1 objective1 colour)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective1 colour)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective1_high_res_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover1 waypoint0)
+			(available rover1)
+			(have_image rover1 objective1 high_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective1 high_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective1_high_res_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint1)
+			(have_image rover1 objective1 high_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective1 high_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective1_high_res_waypoint2_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint2)
+			(have_image rover1 objective1 high_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective1 high_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective1_low_res_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover1 waypoint0)
+			(available rover1)
+			(have_image rover1 objective1 low_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective1 low_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective1_low_res_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint1)
+			(have_image rover1 objective1 low_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective1 low_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective1_low_res_waypoint2_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint2)
+			(have_image rover1 objective1 low_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective1 low_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective2_colour_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover1 waypoint0)
+			(available rover1)
+			(have_image rover1 objective2 colour)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective2 colour)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective2_colour_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint1)
+			(have_image rover1 objective2 colour)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective2 colour)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective2_colour_waypoint2_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint2)
+			(have_image rover1 objective2 colour)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective2 colour)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective2_high_res_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover1 waypoint0)
+			(available rover1)
+			(have_image rover1 objective2 high_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective2 high_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective2_high_res_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint1)
+			(have_image rover1 objective2 high_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective2 high_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective2_high_res_waypoint2_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint2)
+			(have_image rover1 objective2 high_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective2 high_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective2_low_res_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover1 waypoint0)
+			(available rover1)
+			(have_image rover1 objective2 low_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective2 low_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective2_low_res_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint1)
+			(have_image rover1 objective2 low_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective2 low_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action communicate_image_data_rover1_general_objective2_low_res_waypoint2_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint2)
+			(have_image rover1 objective2 low_res)
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_image_data objective2 low_res)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe0_sample_rock_rover0_rover0store_waypoint0
+		:parameters ()
+		:precondition (and
+			(at_rock_sample waypoint0)
+			(at rover0 waypoint0)
+			(empty rover0store)
+			(not (observed obs0))
+		)
+		:effect (and
+			(full rover0store)
+			(have_rock_analysis rover0 waypoint0)
+			(observed obs0)
+			(not (at_rock_sample waypoint0))
+			(not (empty rover0store))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe1_communicate_rock_data_rover0_general_waypoint0_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover0 waypoint0)
+			(available rover0)
+			(have_rock_analysis rover0 waypoint0)
+			(observed obs0)
+			(not (observed obs1))
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_rock_data waypoint0)
+			(observed obs1)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe2_navigate_rover1_waypoint0_waypoint1
+		:parameters ()
+		:precondition (and
+			(at rover1 waypoint0)
+			(available rover1)
+			(observed obs1)
+			(not (observed obs2))
+		)
+		:effect (and
+			(at rover1 waypoint1)
+			(observed obs2)
+			(not (at rover1 waypoint0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe3_communicate_soil_data_rover1_general_waypoint1_waypoint1_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(available rover1)
+			(at rover1 waypoint1)
+			(have_soil_analysis rover1 waypoint1)
+			(observed obs2)
+			(not (observed obs3))
+		)
+		:effect (and
+			(channel_free general)
+			(available rover1)
+			(communicated_soil_data waypoint1)
+			(observed obs3)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe4_calibrate_rover0_camera2_objective1_waypoint0
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint0)
+			(observed obs3)
+			(not (observed obs4))
+		)
+		:effect (and
+			(calibrated camera2 rover0)
+			(observed obs4)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe5_calibrate_rover0_camera2_objective1_waypoint0
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint0)
+			(observed obs4)
+			(not (observed obs5))
+		)
+		:effect (and
+			(calibrated camera2 rover0)
+			(observed obs5)
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe6_take_image_rover0_waypoint0_objective2_camera2_low_res
+		:parameters ()
+		:precondition (and
+			(at rover0 waypoint0)
+			(calibrated camera2 rover0)
+			(observed obs5)
+			(not (observed obs6))
+		)
+		:effect (and
+			(have_image rover0 objective2 low_res)
+			(observed obs6)
+			(not (calibrated camera2 rover0))
+			(increase (total-cost) 1)
+		)
+	)
+	(:action observe7_communicate_image_data_rover0_general_objective2_low_res_waypoint0_waypoint3
+		:parameters ()
+		:precondition (and
+			(channel_free general)
+			(at rover0 waypoint0)
+			(available rover0)
+			(have_image rover0 objective2 low_res)
+			(observed obs6)
+			(not (observed obs7))
+		)
+		:effect (and
+			(channel_free general)
+			(available rover0)
+			(communicated_image_data objective2 low_res)
+			(observed obs7)
+			(increase (total-cost) 1)
+		)
+	)
+)
