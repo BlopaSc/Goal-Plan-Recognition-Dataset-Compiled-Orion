@@ -1,0 +1,22 @@
+;; Compiled with Orion Planner by Pablo "Blopa" Sauma (blopasc.github.io)
+(define	(problem satelliteproblem_g4)
+	(:domain satellite)
+	(:init
+		(power_avail satellite0)
+		(pointing satellite0 star4)
+		(power_avail satellite1)
+		(pointing satellite1 star0)
+		(= (total-cost) 0)
+	)
+	(:goal
+		(and
+			(have_image phenomenon5 spectrograph2)
+			(have_image star3 spectrograph2)
+			(pointing satellite0 phenomenon7)
+			(have_image phenomenon7 spectrograph2)
+			(have_image star2 infrared0)
+			(observed obs1)
+		)
+	)
+	(:metric minimize (total-cost))
+)
