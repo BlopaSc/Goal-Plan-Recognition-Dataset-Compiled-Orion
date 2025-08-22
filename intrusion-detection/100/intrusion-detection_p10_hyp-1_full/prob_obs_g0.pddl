@@ -1,0 +1,23 @@
+;; Compiled with Orion Planner by Pablo "Blopa" Sauma (blopasc.github.io)
+(define	(problem intrusion-detection-10-hosts_g0)
+	(:domain intrusion-detection)
+	(:init
+		(= (total-cost) 0)
+	)
+	(:goal
+		(and
+			(information-gathered perseus)
+			(information-gathered cassiopea)
+			(information-gathered andromeda)
+			(information-gathered sagittarius)
+			(information-gathered scorpio)
+			(information-gathered virgo)
+			(information-gathered aries)
+			(information-gathered leo)
+			(information-gathered libra)
+			(information-gathered taurus)
+			(observed obs14)
+		)
+	)
+	(:metric minimize (total-cost))
+)
