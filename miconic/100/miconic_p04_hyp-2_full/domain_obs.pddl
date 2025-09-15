@@ -3,7 +3,7 @@
 	(domain miconic)
 	(:requirements :strips :typing :action-costs)
 	(:types
-		floor__inferred_type passenger__inferred_type observation
+		observation
 	)
 	(:predicates
 		(origin ?person ?floor)
@@ -20,9 +20,8 @@
 		(total-cost)
 	)
 	(:constants
-		f0 f1 f10 f11 f12 f13 f14 f15 f16 f17 f2 f3 f4 f5 f6 f7 f8 f9 - floor__inferred_type
-		p0 p1 p2 p3 p4 p5 p6 p7 p8 - passenger__inferred_type
 		obs0 obs1 obs2 obs3 obs4 obs5 obs6 obs7 obs8 obs9 obs10 obs11 obs12 obs13 obs14 obs15 obs16 obs17 obs18 obs19 obs20 obs21 obs22 obs23 obs24 - observation
+		f0 f1 f10 f11 f12 f13 f14 f15 f16 f17 f2 f3 f4 f5 f6 f7 f8 f9 p0 p1 p2 p3 p4 p5 p6 p7 p8
 	)
 	(:action board_f0_p2
 		:parameters ()

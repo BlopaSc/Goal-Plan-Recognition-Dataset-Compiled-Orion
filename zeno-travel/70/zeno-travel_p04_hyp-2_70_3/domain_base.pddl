@@ -1,10 +1,7 @@
 ;; Compiled with Orion Planner by Pablo "Blopa" Sauma (blopasc.github.io)
 (define
 	(domain zenotravel)
-	(:requirements :strips :typing :action-costs)
-	(:types
-		aircraft__inferred_type person__inferred_type city__inferred_type flevel__inferred_type
-	)
+	(:requirements :strips :action-costs)
 	(:predicates
 		(at ?x ?c)
 		(in ?p ?a)
@@ -19,10 +16,7 @@
 		(total-cost)
 	)
 	(:constants
-		plane1 plane2 plane3 - aircraft__inferred_type
-		person1 person2 person3 person4 person5 person6 person7 - person__inferred_type
-		city0 city1 city2 city3 city4 city5 - city__inferred_type
-		fl0 fl1 fl2 fl3 fl4 fl5 fl6 - flevel__inferred_type
+		city0 city1 city2 city3 city4 city5 fl0 fl1 fl2 fl3 fl4 fl5 fl6 person1 person2 person3 person4 person5 person6 person7 plane1 plane2 plane3
 	)
 	(:action board_person1_plane1_city0
 		:parameters ()

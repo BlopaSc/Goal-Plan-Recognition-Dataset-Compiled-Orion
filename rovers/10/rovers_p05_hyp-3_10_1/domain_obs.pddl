@@ -3,7 +3,7 @@
 	(domain rover)
 	(:requirements :strips :typing :action-costs)
 	(:types
-		equipped_for_soil_analysis__inferred_type equipped_for_rock_analysis__inferred_type equipped_for_imaging__inferred_type rover__inferred_type waypoint__inferred_type store__inferred_type camera__inferred_type mode__inferred_type lander__inferred_type objective__inferred_type observation
+		observation
 	)
 	(:predicates
 		(at ?x ?y)
@@ -44,17 +44,8 @@
 		(total-cost)
 	)
 	(:constants
-		rover0 rover1 rover2 rover3 - equipped_for_soil_analysis__inferred_type
-		rover2 rover3 - equipped_for_rock_analysis__inferred_type
-		rover0 rover1 rover2 rover3 - equipped_for_imaging__inferred_type
-		rover0 rover1 rover2 rover3 - rover__inferred_type
-		waypoint0 waypoint1 waypoint2 waypoint3 waypoint4 waypoint5 waypoint6 waypoint7 waypoint8 - waypoint__inferred_type
-		rover0store rover1store rover2store rover3store - store__inferred_type
-		camera0 camera1 camera2 camera3 camera4 - camera__inferred_type
-		colour high_res low_res - mode__inferred_type
-		general - lander__inferred_type
-		objective0 objective1 objective2 objective3 - objective__inferred_type
 		obs0 obs1 obs2 obs3 obs4 - observation
+		camera0 camera1 camera2 camera3 camera4 colour general high_res low_res objective0 objective1 objective2 objective3 rover0 rover0store rover1 rover1store rover2 rover2store rover3 rover3store waypoint0 waypoint1 waypoint2 waypoint3 waypoint4 waypoint5 waypoint6 waypoint7 waypoint8
 	)
 	(:action navigate_rover0_waypoint0_waypoint6
 		:parameters ()

@@ -3,7 +3,7 @@
 	(domain satellite)
 	(:requirements :strips :typing :action-costs)
 	(:types
-		satellite__inferred_type direction__inferred_type instrument__inferred_type mode__inferred_type observation
+		observation
 	)
 	(:predicates
 		(on_board ?i ?s)
@@ -24,11 +24,8 @@
 		(total-cost)
 	)
 	(:constants
-		satellite0 satellite1 satellite2 satellite3 satellite4 - satellite__inferred_type
-		groundstation3 phenomenon13 phenomenon14 phenomenon8 planet10 planet5 planet9 star0 star1 star11 star12 star15 star16 star2 star4 star6 star7 - direction__inferred_type
-		instrument0 instrument1 instrument10 instrument2 instrument3 instrument4 instrument5 instrument6 instrument7 instrument8 instrument9 - instrument__inferred_type
-		image2 image4 infrared0 infrared3 spectrograph1 - mode__inferred_type
 		obs0 obs1 obs2 obs3 obs4 obs5 obs6 obs7 obs8 obs9 obs10 obs11 obs12 obs13 obs14 obs15 obs16 obs17 obs18 - observation
+		groundstation3 image2 image4 infrared0 infrared3 instrument0 instrument1 instrument10 instrument2 instrument3 instrument4 instrument5 instrument6 instrument7 instrument8 instrument9 phenomenon13 phenomenon14 phenomenon8 planet10 planet5 planet9 satellite0 satellite1 satellite2 satellite3 satellite4 spectrograph1 star0 star1 star11 star12 star15 star16 star2 star4 star6 star7
 	)
 	(:action turn_to_satellite0_groundstation3_groundstation3
 		:parameters ()

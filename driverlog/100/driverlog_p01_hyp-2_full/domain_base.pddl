@@ -1,10 +1,7 @@
 ;; Compiled with Orion Planner by Pablo "Blopa" Sauma (blopasc.github.io)
 (define
 	(domain driverlog)
-	(:requirements :strips :typing :action-costs)
-	(:types
-		obj__inferred_type truck__inferred_type location__inferred_type driver__inferred_type
-	)
+	(:requirements :strips :action-costs)
 	(:predicates
 		(obj ?obj)
 		(truck ?truck)
@@ -21,10 +18,7 @@
 		(total-cost)
 	)
 	(:constants
-		package1 package2 package3 package4 package5 - obj__inferred_type
-		truck1 truck2 - truck__inferred_type
-		p0-1 p0-2 p1-2 s0 s1 s2 - location__inferred_type
-		driver1 driver2 driver3 - driver__inferred_type
+		driver1 driver2 driver3 p0-1 p0-2 p1-2 package1 package2 package3 package4 package5 s0 s1 s2 truck1 truck2
 	)
 	(:action load-truck_package1_truck1_s0
 		:parameters ()

@@ -1,10 +1,7 @@
 ;; Compiled with Orion Planner by Pablo "Blopa" Sauma (blopasc.github.io)
 (define
 	(domain ferry)
-	(:requirements :strips :typing :action-costs)
-	(:types
-		car__inferred_type location__inferred_type
-	)
+	(:requirements :strips :action-costs)
 	(:predicates
 		(not-eq ?x ?y)
 		(car ?c)
@@ -18,8 +15,7 @@
 		(total-cost)
 	)
 	(:constants
-		c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 - car__inferred_type
-		l0 l1 l2 l3 - location__inferred_type
+		c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 l0 l1 l2 l3
 	)
 	(:action sail_l0_l1
 		:parameters ()

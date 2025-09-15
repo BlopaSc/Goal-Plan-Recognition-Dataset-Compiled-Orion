@@ -1,10 +1,7 @@
 ;; Compiled with Orion Planner by Pablo "Blopa" Sauma (blopasc.github.io)
 (define
 	(domain miconic)
-	(:requirements :strips :typing :action-costs)
-	(:types
-		floor__inferred_type passenger__inferred_type
-	)
+	(:requirements :strips :action-costs)
 	(:predicates
 		(origin ?person ?floor)
 		(floor ?floor)
@@ -19,8 +16,7 @@
 		(total-cost)
 	)
 	(:constants
-		f0 f1 f10 f11 f2 f3 f4 f5 f6 f7 f8 f9 - floor__inferred_type
-		p0 p1 p2 p3 p4 p5 - passenger__inferred_type
+		f0 f1 f10 f11 f2 f3 f4 f5 f6 f7 f8 f9 p0 p1 p2 p3 p4 p5
 	)
 	(:action board_f11_p3
 		:parameters ()

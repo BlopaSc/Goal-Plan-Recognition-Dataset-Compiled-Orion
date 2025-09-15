@@ -1,10 +1,7 @@
 ;; Compiled with Orion Planner by Pablo "Blopa" Sauma (blopasc.github.io)
 (define
 	(domain rover)
-	(:requirements :strips :typing :action-costs)
-	(:types
-		equipped_for_soil_analysis__inferred_type equipped_for_rock_analysis__inferred_type equipped_for_imaging__inferred_type rover__inferred_type waypoint__inferred_type store__inferred_type camera__inferred_type mode__inferred_type lander__inferred_type objective__inferred_type
-	)
+	(:requirements :strips :action-costs)
 	(:predicates
 		(at ?x ?y)
 		(at_lander ?x ?y)
@@ -43,16 +40,7 @@
 		(total-cost)
 	)
 	(:constants
-		rover1 - equipped_for_soil_analysis__inferred_type
-		rover0 - equipped_for_rock_analysis__inferred_type
-		rover0 rover1 - equipped_for_imaging__inferred_type
-		rover0 rover1 - rover__inferred_type
-		waypoint0 waypoint1 waypoint2 waypoint3 - waypoint__inferred_type
-		rover0store rover1store - store__inferred_type
-		camera0 camera1 camera2 - camera__inferred_type
-		colour high_res low_res - mode__inferred_type
-		general - lander__inferred_type
-		objective0 objective1 objective2 - objective__inferred_type
+		camera0 camera1 camera2 colour general high_res low_res objective0 objective1 objective2 rover0 rover0store rover1 rover1store waypoint0 waypoint1 waypoint2 waypoint3
 	)
 	(:action navigate_rover0_waypoint0_waypoint1
 		:parameters ()

@@ -3,7 +3,7 @@
 	(domain ferry)
 	(:requirements :strips :typing :action-costs)
 	(:types
-		car__inferred_type location__inferred_type observation
+		observation
 	)
 	(:predicates
 		(not-eq ?x ?y)
@@ -19,9 +19,8 @@
 		(total-cost)
 	)
 	(:constants
-		c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 - car__inferred_type
-		l0 l1 l2 l3 - location__inferred_type
 		obs0 obs1 obs2 obs3 obs4 obs5 obs6 obs7 obs8 obs9 obs10 obs11 obs12 obs13 obs14 obs15 obs16 obs17 obs18 obs19 obs20 - observation
+		c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 l0 l1 l2 l3
 	)
 	(:action sail_l0_l1
 		:parameters ()

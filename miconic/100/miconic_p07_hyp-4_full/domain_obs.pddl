@@ -3,7 +3,7 @@
 	(domain miconic)
 	(:requirements :strips :typing :action-costs)
 	(:types
-		floor__inferred_type passenger__inferred_type observation
+		observation
 	)
 	(:predicates
 		(origin ?person ?floor)
@@ -20,9 +20,8 @@
 		(total-cost)
 	)
 	(:constants
-		f0 f1 f10 f11 f12 f13 f14 f15 f16 f17 f18 f19 f2 f20 f21 f22 f23 f24 f25 f26 f27 f28 f29 f3 f30 f31 f32 f33 f34 f35 f36 f37 f38 f39 f4 f40 f41 f42 f43 f44 f45 f46 f47 f48 f49 f5 f50 f51 f6 f7 f8 f9 - floor__inferred_type
-		p0 p1 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p2 p20 p21 p22 p23 p24 p25 p3 p4 p5 p6 p7 p8 p9 - passenger__inferred_type
 		obs0 obs1 obs2 obs3 obs4 obs5 obs6 obs7 obs8 obs9 obs10 obs11 obs12 obs13 obs14 obs15 obs16 obs17 obs18 obs19 obs20 obs21 obs22 obs23 obs24 obs25 obs26 obs27 obs28 obs29 obs30 obs31 obs32 obs33 obs34 obs35 obs36 obs37 obs38 obs39 obs40 obs41 obs42 obs43 obs44 obs45 obs46 obs47 obs48 obs49 obs50 obs51 obs52 obs53 obs54 obs55 obs56 obs57 obs58 obs59 obs60 obs61 obs62 obs63 obs64 obs65 obs66 obs67 obs68 obs69 obs70 obs71 obs72 obs73 - observation
+		f0 f1 f10 f11 f12 f13 f14 f15 f16 f17 f18 f19 f2 f20 f21 f22 f23 f24 f25 f26 f27 f28 f29 f3 f30 f31 f32 f33 f34 f35 f36 f37 f38 f39 f4 f40 f41 f42 f43 f44 f45 f46 f47 f48 f49 f5 f50 f51 f6 f7 f8 f9 p0 p1 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p2 p20 p21 p22 p23 p24 p25 p3 p4 p5 p6 p7 p8 p9
 	)
 	(:action board_f1_p2
 		:parameters ()

@@ -3,7 +3,7 @@
 	(domain zenotravel)
 	(:requirements :strips :typing :action-costs)
 	(:types
-		aircraft__inferred_type person__inferred_type city__inferred_type flevel__inferred_type observation
+		observation
 	)
 	(:predicates
 		(at ?x ?c)
@@ -20,11 +20,8 @@
 		(total-cost)
 	)
 	(:constants
-		plane1 plane2 plane3 - aircraft__inferred_type
-		person1 person2 person3 person4 person5 person6 person7 person8 - person__inferred_type
-		city0 city1 city2 city3 city4 city5 - city__inferred_type
-		fl0 fl1 fl2 fl3 fl4 fl5 fl6 - flevel__inferred_type
 		obs0 obs1 obs2 obs3 obs4 obs5 obs6 obs7 obs8 obs9 obs10 obs11 obs12 obs13 obs14 obs15 obs16 obs17 obs18 obs19 obs20 - observation
+		city0 city1 city2 city3 city4 city5 fl0 fl1 fl2 fl3 fl4 fl5 fl6 person1 person2 person3 person4 person5 person6 person7 person8 plane1 plane2 plane3
 	)
 	(:action board_person1_plane1_city0
 		:parameters ()

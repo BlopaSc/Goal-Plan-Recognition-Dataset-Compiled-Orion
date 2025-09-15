@@ -3,7 +3,7 @@
 	(domain driverlog)
 	(:requirements :strips :typing :action-costs)
 	(:types
-		obj__inferred_type truck__inferred_type location__inferred_type driver__inferred_type observation
+		observation
 	)
 	(:predicates
 		(obj ?obj)
@@ -22,11 +22,8 @@
 		(total-cost)
 	)
 	(:constants
-		package1 package2 package3 package4 package5 package6 - obj__inferred_type
-		truck1 truck2 truck3 - truck__inferred_type
-		p0-2 p0-8 p1-4 p10-0 p11-0 p11-1 p11-10 p11-4 p2-3 p2-6 p2-7 p3-1 p3-9 p4-0 p5-0 p6-10 p6-11 p6-4 p6-7 p6-8 p7-1 p7-10 p8-11 p8-4 p9-7 s0 s1 s10 s11 s2 s3 s4 s5 s6 s7 s8 s9 - location__inferred_type
-		driver1 driver2 - driver__inferred_type
 		obs0 obs1 obs2 obs3 obs4 obs5 obs6 obs7 obs8 - observation
+		driver1 driver2 p0-2 p0-8 p1-4 p10-0 p11-0 p11-1 p11-10 p11-4 p2-3 p2-6 p2-7 p3-1 p3-9 p4-0 p5-0 p6-10 p6-11 p6-4 p6-7 p6-8 p7-1 p7-10 p8-11 p8-4 p9-7 package1 package2 package3 package4 package5 package6 s0 s1 s10 s11 s2 s3 s4 s5 s6 s7 s8 s9 truck1 truck2 truck3
 	)
 	(:action load-truck_package1_truck1_s0
 		:parameters ()

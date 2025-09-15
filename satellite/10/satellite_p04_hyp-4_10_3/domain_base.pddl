@@ -1,10 +1,7 @@
 ;; Compiled with Orion Planner by Pablo "Blopa" Sauma (blopasc.github.io)
 (define
 	(domain satellite)
-	(:requirements :strips :typing :action-costs)
-	(:types
-		satellite__inferred_type direction__inferred_type instrument__inferred_type mode__inferred_type
-	)
+	(:requirements :strips :action-costs)
 	(:predicates
 		(on_board ?i ?s)
 		(supports ?i ?m)
@@ -23,10 +20,7 @@
 		(total-cost)
 	)
 	(:constants
-		satellite0 satellite1 satellite2 satellite3 - satellite__inferred_type
-		groundstation0 groundstation2 groundstation4 phenomenon5 planet10 planet11 planet8 planet9 star1 star3 star6 star7 - direction__inferred_type
-		instrument0 instrument1 instrument2 instrument3 instrument4 instrument5 instrument6 instrument7 - instrument__inferred_type
-		image0 image1 image2 image3 - mode__inferred_type
+		groundstation0 groundstation2 groundstation4 image0 image1 image2 image3 instrument0 instrument1 instrument2 instrument3 instrument4 instrument5 instrument6 instrument7 phenomenon5 planet10 planet11 planet8 planet9 satellite0 satellite1 satellite2 satellite3 star1 star3 star6 star7
 	)
 	(:action turn_to_satellite0_groundstation0_groundstation0
 		:parameters ()
